@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-12T23:28:42.011Z",
+  "generatedAt": "2026-10-13T06:39:25.648Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "52ed43ae5dc538ff09dd88bd8c160fc23427edb1",
+        "subject": "fix(design-server): carry a gauge's unit into the ha-cards templates (#782)",
+        "at": "2026-10-13T00:09:22+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "c01db26b98b0bbb901b4531f2c83f15962cba62f",
         "subject": "feat: ha-cards UI-builder catalog for dashboard cards, Wear widgets and launcher widgets (#781)",
@@ -475,14 +483,6 @@
         "subject": "chore(deps): update compose-ai-tools (#716)",
         "at": "2026-10-10T22:46:04Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "2fa9d9aca6fb039084be7fec4988e1ce0e90c9e0",
-        "subject": "feat: design Home Assistant key surfaces with adaptive UID references (#721)",
-        "at": "2026-10-10T22:47:33+01:00",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
