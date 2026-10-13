@@ -1,6 +1,6 @@
 {
     "formatVersion": "compose-preview-history/v1",
-    "generatedFrom": "46107d582837743c6515159bc1052aaeaf654ada",
+    "generatedFrom": "e47090f7058c123e69839d553c15229faf45da12",
     "previews": {
         "app/ee.schimke.terrazzo.previews.CardDebugPreviewsKt.CardFlashPreview_Card flash on data change": {
             "path": "renders/app/CardFlashPreview_Card_flash_on_data_change-44b71c2b.gif",
@@ -3326,6 +3326,13 @@
             "path": "renders/previews/DashboardGithubMobile_dashboard_github_mobile-8f04a7c1.png",
             "versions": [
                 {
+                    "blob": "3e0ab7d826ed885fd6488001a1bd902e9e76719c",
+                    "commit": "e47090f7058c123e69839d553c15229faf45da12",
+                    "date": "2026-10-13T22:28:19Z",
+                    "sourceSha": "7bee3e23",
+                    "commits": 1
+                },
+                {
                     "blob": "006abf710e675bd02f2b62e32a9b1b5baf637369",
                     "commit": "46107d582837743c6515159bc1052aaeaf654ada",
                     "date": "2026-10-13T21:49:59Z",
@@ -3340,13 +3347,22 @@
                     "commits": 1
                 }
             ],
-            "observations": 2,
+            "observations": 3,
             "unstable": false,
-            "flapCount": 0
+            "flapCount": 1
         },
         "previews/ee.schimke.ha.previews.DashboardPreviewsKt.DashboardGithubTablet_dashboard github — tablet": {
             "path": "renders/previews/DashboardGithubTablet_dashboard_github_tablet-89194c99.png",
             "versions": [
+                {
+                    "blob": "1bb334e6fa2193b604918489f37971b21e7903a7",
+                    "commit": "e47090f7058c123e69839d553c15229faf45da12",
+                    "date": "2026-10-13T22:28:19Z",
+                    "sourceSha": "7bee3e23",
+                    "sinceCommit": "7260ad419c6bc592075bda4dc9a2dc3f84dc646d",
+                    "commits": 3,
+                    "occurrences": 3
+                },
                 {
                     "blob": "f759dd424852b909d5b94ba54ab06cfd71ddf801",
                     "commit": "46107d582837743c6515159bc1052aaeaf654ada",
@@ -3355,30 +3371,16 @@
                     "commits": 1
                 },
                 {
-                    "blob": "1bb334e6fa2193b604918489f37971b21e7903a7",
-                    "commit": "696aa9b3e8143501a29452293edad0d0c60416b6",
-                    "date": "2026-10-13T13:06:21Z",
-                    "sourceSha": "1e05074c",
-                    "commits": 1
-                },
-                {
                     "blob": "323ea5f03d5e01dd652afa28158c387da8ac48bd",
                     "commit": "7c613d8aa8a241c0b7de855e6c841f3365d448b4",
                     "date": "2026-10-13T09:23:18Z",
                     "sourceSha": "cbd75444",
                     "commits": 1
-                },
-                {
-                    "blob": "1bb334e6fa2193b604918489f37971b21e7903a7",
-                    "commit": "7260ad419c6bc592075bda4dc9a2dc3f84dc646d",
-                    "date": "2026-10-13T06:15:44Z",
-                    "sourceSha": "52ed43ae",
-                    "commits": 1
                 }
             ],
-            "observations": 4,
-            "unstable": false,
-            "flapCount": 1
+            "observations": 5,
+            "unstable": true,
+            "flapCount": 2
         },
         "previews/ee.schimke.ha.previews.DashboardPreviewsKt.DashboardMeshcoreMobile_dashboard meshcore — mobile": {
             "path": "renders/previews/DashboardMeshcoreMobile_dashboard_meshcore_mobile-30d7121c.png",
