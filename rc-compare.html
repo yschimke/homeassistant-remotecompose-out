@@ -1,0 +1,598 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ha-cards — PNG vs Remote Compose (Camaelon JS player)</title>
+<style>
+  :root { color-scheme: light dark; --bg:#fff; --fg:#111; --muted:#666; --line:#e2e2e2; --card:#fafafa; --accent:#0969da; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0e0e0e; --fg:#eee; --muted:#9a9a9a; --line:#2a2a2a; --card:#161616; --accent:#4493f8; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; font:14px/1.4 system-ui, sans-serif; color:var(--fg); background:var(--bg); }
+  header { padding:16px 20px; border-bottom:1px solid var(--line); position:sticky; top:0; background:var(--bg); z-index:2; }
+  h1 { margin:0 0 4px; font-size:18px; }
+  .summary { color:var(--muted); }
+  .note { display:block; margin-top:4px; color:var(--muted); font-size:12px; }
+  .toolbar { margin-top:10px; display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+  .toolbar label { font-size:12px; text-transform:uppercase; letter-spacing:.04em; color:var(--muted); }
+  .toolbar select { font:inherit; padding:3px 6px; border:1px solid var(--line); border-radius:6px; background:var(--card); color:var(--fg); }
+  .refstatus { color:var(--muted); font-size:12px; }
+  .lede { padding:12px 20px; color:var(--muted); max-width:70ch; }
+  /* The players this run did not include, set right under the lede that describes the ones it did. */
+  .lede.absent { padding-top:0; }
+  .lede.absent strong { color:var(--fg); white-space:nowrap; }
+  .wrap { overflow-x:auto; padding:0 20px 40px; }
+  table.grid { border-collapse:collapse; width:100%; min-width:720px; }
+  /* Not sticky: the .wrap overflow-x makes it the scrollport these cells would stick to, and it
+     never scrolls vertically — so the old top:64px only ever parked them behind the header. Every
+     cell repeats its lane in its own figcaption, so scrolling never loses which column is which. */
+  thead th { text-align:left; font-size:12px; text-transform:uppercase; letter-spacing:.04em; color:var(--muted); padding:12px 8px; border-bottom:1px solid var(--line); background:var(--bg); }
+  tbody tr { border-bottom:1px solid var(--line); }
+  th.meta { text-align:left; vertical-align:top; padding:12px 8px; width:200px; }
+  .name { font-weight:600; word-break:break-word; }
+  .group { color:var(--muted); font-size:12px; margin-top:2px; }
+  .scoreline { margin-top:8px; display:flex; align-items:flex-start; gap:6px; flex-wrap:wrap; }
+  .scorelabel { color:var(--muted); font-size:11px; text-transform:uppercase; letter-spacing:.04em; min-width:56px; padding-top:2px; }
+  .score { display:inline-block; min-width:0; max-width:100%; padding:2px 8px; border-radius:999px; font-variant-numeric:tabular-nums; font-weight:600; overflow-wrap:anywhere; }
+  /* A reason ("player could not decode the document") is prose, not a score — it must not pretend to
+     be a measurement, and it must wrap instead of bursting out of the pill. */
+  .score.na { font-weight:400; font-size:11px; line-height:1.3; border-radius:6px; }
+  .score.good { background:#1a7f37; color:#fff; }
+  .score.ok   { background:#9a6700; color:#fff; }
+  .score.bad  { background:#b32424; color:#fff; }
+  .score.na   { background:#555; color:#fff; }
+  .px { display:inline-block; color:var(--muted); font-size:12px; font-variant-numeric:tabular-nums; }
+  .dims { display:inline-block; margin-top:8px; color:var(--muted); font-size:12px; }
+  .blanknote { margin-top:6px; color:var(--muted); font-size:11px; line-height:1.3; }
+  td { padding:12px 8px; vertical-align:top; }
+  figure.cell { margin:0; }
+  figcaption { font-size:11px; color:var(--muted); margin-bottom:4px; }
+  /* Checkered on the *diff neutral* (#808080, the grey rc-compare-pixels.mjs flattens both sides
+     onto), not on the page: the lane PNGs are stickers on transparency, and a light one — a white
+     icon, a pale swatch — vanishes against a pale ground. The checker keeps transparency legible as
+     transparency; the mid-grey keeps light and dark content contrasting the way the score does. */
+  .cell img { display:block; max-width:280px; width:100%; height:auto; border:1px solid var(--line); border-radius:6px; background:
+    repeating-conic-gradient(#8c8c8c 0% 25%, #747474 0% 50%) 50% / 20px 20px; }
+  /* The chosen reference is called out rather than diffed against itself. */
+  .refbadge { display:none; margin-left:6px; padding:1px 6px; border-radius:999px; background:var(--accent); color:#fff; font-size:10px; text-transform:uppercase; letter-spacing:.04em; }
+  figure.cell.is-reference .refbadge { display:inline-block; }
+  figure.cell.is-reference img { outline:2px solid var(--accent); outline-offset:1px; }
+  .diffslot { margin-top:6px; }
+  .difflabel { font-size:11px; color:var(--muted); margin-bottom:4px; }
+  .diffslot img { display:block; max-width:280px; width:100%; height:auto; border:1px solid var(--line); border-radius:6px; background:#000; }
+  .missing { min-width:120px; max-width:280px; min-height:80px; padding:8px; display:grid; place-items:center; text-align:center; color:var(--muted); font-size:11px; border:1px dashed var(--line); border-radius:6px; }
+  .empty { padding:24px 20px; color:var(--muted); }
+  code { background:var(--card); padding:1px 5px; border-radius:4px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>ha-cards — PNG vs Remote Compose <span style="font-weight:400;color:var(--muted)">(Camaelon JS player)</span></h1>
+  <div class="summary"><strong>Camaelon JS:</strong> 14 scored · mean mismatch <strong>58.36%</strong></div>
+  <span class="note">14 Remote Compose preview(s) · pixelmatch threshold 0.1 · theme light</span>
+  <div class="toolbar">
+    <label for="refselect">Diff against</label>
+    <select id="refselect">
+      <option value="none" selected>nothing (show renders only)</option>
+      <option value="baked">AndroidX Embedded · baked</option>
+      <option value="js">Camaelon JS</option>
+    </select>
+    <span id="refstatus" class="refstatus"></span>
+  </div>
+</header>
+<p class="lede">Every preview across every player: the <strong>baked</strong> capture (the catalog's
+own offline Robolectric/Skiko render, through AndroidX's embedded <code>RcPlayer</code> unless the
+preview pins the view-backed lane) next to the same
+<code>ir/*.rc</code> document as each player renders it.
+<strong>Camaelon JS</strong> is the vendored TypeScript <code>RC.RcdPlayer</code> on a <code>&lt;canvas&gt;</code>.
+<strong>Nothing is diffed until you ask for it:</strong> pick a column in <em>Diff against</em> and every
+other column grows a pixel diff plus a mismatch chip. Choosing the baked lane replays the build-time
+<code>pixelmatch</code> diffs; choosing a player diffs in the browser, which is how you compare two
+players directly. Rows sort worst-match-first using the build-time scores in the header. A preview whose baked render is
+<strong>fully transparent</strong> is shown but not scored against it: with nothing in the reference, a
+player that draws nothing would score a perfect 0% — so those rows read <code>no reference</code> and
+stay out of the means.</p>
+<p class="lede absent">Not in this run: <strong>AndroidX Embedded · vendored Android</strong>, <strong>AndroidX Embedded · androidx.dev</strong>, <strong>CMP JVM</strong>, <strong>CMP Wasm</strong>. A player earns a column only where the run recorded a verdict for it, so these are absent rather than empty — the publishing workflow opts each lane in per catalog.</p>
+<div class="wrap">
+<table class="grid">
+  <thead><tr><th>preview</th><th>AndroidX Embedded · baked</th><th>Camaelon JS</th></tr></thead>
+  <tbody>
+<tr class="row rendered" data-row="0" data-pct="97.76050102580714" data-embedded-pct="" data-androidx-embedded-pct="" data-embedded-jvm-pct="" data-cmp-wasm-pct="">
+  <th class="meta">
+    <div class="name">HaCardEntityRowSticker</div>
+    
+    <div class="scores" data-scores></div>
+    
+    <span class="dims">945×147</span>
+  </th><td><figure class="cell lane-baked" data-lane="baked">
+      <figcaption>AndroidX Embedded · baked<span class="refbadge">reference</span></figcaption>
+      <img loading="lazy" src="rc-baked/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardEntityRowSticker.png" alt="AndroidX Embedded · baked">
+      <div class="diffslot" hidden></div>
+    </figure></td><td><figure class="cell lane-js" data-lane="js">
+      <figcaption>Camaelon JS<span class="refbadge">reference</span></figcaption>
+      <img loading="lazy" src="rc/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardEntityRowSticker.png" alt="Camaelon JS">
+      <div class="diffslot" hidden></div>
+    </figure></td>
+</tr>
+<tr class="row rendered" data-row="1" data-pct="97.05575351833855" data-embedded-pct="" data-androidx-embedded-pct="" data-embedded-jvm-pct="" data-cmp-wasm-pct="">
+  <th class="meta">
+    <div class="name">RemoteTextSticker</div>
+    
+    <div class="scores" data-scores></div>
+    
+    <span class="dims">567×147</span>
+  </th><td><figure class="cell lane-baked" data-lane="baked">
+      <figcaption>AndroidX Embedded · baked<span class="refbadge">reference</span></figcaption>
+      <img loading="lazy" src="rc-baked/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteTextSticker.png" alt="AndroidX Embedded · baked">
+      <div class="diffslot" hidden></div>
+    </figure></td><td><figure class="cell lane-js" data-lane="js">
+      <figcaption>Camaelon JS<span class="refbadge">reference</span></figcaption>
+      <img loading="lazy" src="rc/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteTextSticker.png" alt="Camaelon JS">
+      <div class="diffslot" hidden></div>
+    </figure></td>
+</tr>
+<tr class="row rendered" data-row="2" data-pct="96.23150847640643" data-embedded-pct="" data-androidx-embedded-pct="" data-embedded-jvm-pct="" data-cmp-wasm-pct="">
+  <th class="meta">
+    <div class="name">HaCardHeadingSticker</div>
+    
+    <div class="scores" data-scores></div>
+    
+    <span class="dims">945×147</span>
+  </th><td><figure class="cell lane-baked" data-lane="baked">
+      <figcaption>AndroidX Embedded · baked<span class="refbadge">reference</span></figcaption>
+      <img loading="lazy" src="rc-baked/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardHeadingSticker.png" alt="AndroidX Embedded · baked">
+      <div class="diffslot" hidden></div>
+    </figure></td><td><figure class="cell lane-js" data-lane="js">
+      <figcaption>Camaelon JS<span class="refbadge">reference</span></figcaption>
+      <img loading="lazy" src="rc/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardHeadingSticker.png" alt="Camaelon JS">
+      <div class="diffslot" hidden></div>
+    </figure></td>
+</tr>
+<tr class="row rendered" data-row="3" data-pct="93.30365891212452" data-embedded-pct="" data-androidx-embedded-pct="" data-embedded-jvm-pct="" data-cmp-wasm-pct="">
+  <th class="meta">
+    <div class="name">HaCardIconSticker</div>
+    
+    <div class="scores" data-scores></div>
+    
+    <span class="dims">189×189</span>
+  </th><td><figure class="cell lane-baked" data-lane="baked">
+      <figcaption>AndroidX Embedded · baked<span class="refbadge">reference</span></figcaption>
+      <img loading="lazy" src="rc-baked/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardIconSticker.png" alt="AndroidX Embedded · baked">
+      <div class="diffslot" hidden></div>
+    </figure></td><td><figure class="cell lane-js" data-lane="js">
+      <figcaption>Camaelon JS<span class="refbadge">reference</span></figcaption>
+      <img loading="lazy" src="rc/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardIconSticker.png" alt="Camaelon JS">
+      <div class="diffslot" hidden></div>
+    </figure></td>
+</tr>
+<tr class="row rendered" data-row="4" data-pct="87.36907461397257" data-embedded-pct="" data-androidx-embedded-pct="" data-embedded-jvm-pct="" data-cmp-wasm-pct="">
+  <th class="meta">
+    <div class="name">HaCardToggleSticker</div>
+    
+    <div class="scores" data-scores></div>
+    
+    <span class="dims">252×147</span>
+  </th><td><figure class="cell lane-baked" data-lane="baked">
+      <figcaption>AndroidX Embedded · baked<span class="refbadge">reference</span></figcaption>
+      <img loading="lazy" src="rc-baked/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardToggleSticker.png" alt="AndroidX Embedded · baked">
+      <div class="diffslot" hidden></div>
+    </figure></td><td><figure class="cell lane-js" data-lane="js">
+      <figcaption>Camaelon JS<span class="refbadge">reference</span></figcaption>
+      <img loading="lazy" src="rc/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardToggleSticker.png" alt="Camaelon JS">
+      <div class="diffslot" hidden></div>
+    </figure></td>
+</tr>
+<tr class="row rendered" data-row="5" data-pct="75.12074829931973" data-embedded-pct="" data-androidx-embedded-pct="" data-embedded-jvm-pct="" data-cmp-wasm-pct="">
+  <th class="meta">
+    <div class="name">HaCardButtonSticker</div>
+    
+    <div class="scores" data-scores></div>
+    
+    <span class="dims">420×420</span>
+  </th><td><figure class="cell lane-baked" data-lane="baked">
+      <figcaption>AndroidX Embedded · baked<span class="refbadge">reference</span></figcaption>
+      <img loading="lazy" src="rc-baked/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardButtonSticker.png" alt="AndroidX Embedded · baked">
+      <div class="diffslot" hidden></div>
+    </figure></td><td><figure class="cell lane-js" data-lane="js">
+      <figcaption>Camaelon JS<span class="refbadge">reference</span></figcaption>
+      <img loading="lazy" src="rc/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardButtonSticker.png" alt="Camaelon JS">
+      <div class="diffslot" hidden></div>
+    </figure></td>
+</tr>
+<tr class="row rendered" data-row="6" data-pct="70.47971781305115" data-embedded-pct="" data-androidx-embedded-pct="" data-embedded-jvm-pct="" data-cmp-wasm-pct="">
+  <th class="meta">
+    <div class="name">RemoteButtonSticker</div>
+    
+    <div class="scores" data-scores></div>
+    
+    <span class="dims">567×200</span>
+  </th><td><figure class="cell lane-baked" data-lane="baked">
+      <figcaption>AndroidX Embedded · baked<span class="refbadge">reference</span></figcaption>
+      <img loading="lazy" src="rc-baked/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteButtonSticker.png" alt="AndroidX Embedded · baked">
+      <div class="diffslot" hidden></div>
+    </figure></td><td><figure class="cell lane-js" data-lane="js">
+      <figcaption>Camaelon JS<span class="refbadge">reference</span></figcaption>
+      <img loading="lazy" src="rc/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteButtonSticker.png" alt="Camaelon JS">
+      <div class="diffslot" hidden></div>
+    </figure></td>
+</tr>
+<tr class="row rendered" data-row="7" data-pct="36.87018840457994" data-embedded-pct="" data-androidx-embedded-pct="" data-embedded-jvm-pct="" data-cmp-wasm-pct="">
+  <th class="meta">
+    <div class="name">HaCardTileSticker</div>
+    
+    <div class="scores" data-scores></div>
+    
+    <span class="dims">945×189</span>
+  </th><td><figure class="cell lane-baked" data-lane="baked">
+      <figcaption>AndroidX Embedded · baked<span class="refbadge">reference</span></figcaption>
+      <img loading="lazy" src="rc-baked/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardTileSticker.png" alt="AndroidX Embedded · baked">
+      <div class="diffslot" hidden></div>
+    </figure></td><td><figure class="cell lane-js" data-lane="js">
+      <figcaption>Camaelon JS<span class="refbadge">reference</span></figcaption>
+      <img loading="lazy" src="rc/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardTileSticker.png" alt="Camaelon JS">
+      <div class="diffslot" hidden></div>
+    </figure></td>
+</tr>
+<tr class="row rendered" data-row="8" data-pct="32.712790430181734" data-embedded-pct="" data-androidx-embedded-pct="" data-embedded-jvm-pct="" data-cmp-wasm-pct="">
+  <th class="meta">
+    <div class="name">HaCardSurfaceSticker</div>
+    
+    <div class="scores" data-scores></div>
+    
+    <span class="dims">945×368</span>
+  </th><td><figure class="cell lane-baked" data-lane="baked">
+      <figcaption>AndroidX Embedded · baked<span class="refbadge">reference</span></figcaption>
+      <img loading="lazy" src="rc-baked/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardSurfaceSticker.png" alt="AndroidX Embedded · baked">
+      <div class="diffslot" hidden></div>
+    </figure></td><td><figure class="cell lane-js" data-lane="js">
+      <figcaption>Camaelon JS<span class="refbadge">reference</span></figcaption>
+      <img loading="lazy" src="rc/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardSurfaceSticker.png" alt="Camaelon JS">
+      <div class="diffslot" hidden></div>
+    </figure></td>
+</tr>
+<tr class="row rendered" data-row="9" data-pct="31.94620811287478" data-embedded-pct="" data-androidx-embedded-pct="" data-embedded-jvm-pct="" data-cmp-wasm-pct="">
+  <th class="meta">
+    <div class="name">RemoteSwitchButtonSticker</div>
+    
+    <div class="scores" data-scores></div>
+    
+    <span class="dims">567×200</span>
+  </th><td><figure class="cell lane-baked" data-lane="baked">
+      <figcaption>AndroidX Embedded · baked<span class="refbadge">reference</span></figcaption>
+      <img loading="lazy" src="rc-baked/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteSwitchButtonSticker.png" alt="AndroidX Embedded · baked">
+      <div class="diffslot" hidden></div>
+    </figure></td><td><figure class="cell lane-js" data-lane="js">
+      <figcaption>Camaelon JS<span class="refbadge">reference</span></figcaption>
+      <img loading="lazy" src="rc/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteSwitchButtonSticker.png" alt="Camaelon JS">
+      <div class="diffslot" hidden></div>
+    </figure></td>
+</tr>
+<tr class="row rendered" data-row="10" data-pct="27.682338120433357" data-embedded-pct="" data-androidx-embedded-pct="" data-embedded-jvm-pct="" data-cmp-wasm-pct="">
+  <th class="meta">
+    <div class="name">HaCardGaugeSticker</div>
+    
+    <div class="scores" data-scores></div>
+    
+    <span class="dims">945×525</span>
+  </th><td><figure class="cell lane-baked" data-lane="baked">
+      <figcaption>AndroidX Embedded · baked<span class="refbadge">reference</span></figcaption>
+      <img loading="lazy" src="rc-baked/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardGaugeSticker.png" alt="AndroidX Embedded · baked">
+      <div class="diffslot" hidden></div>
+    </figure></td><td><figure class="cell lane-js" data-lane="js">
+      <figcaption>Camaelon JS<span class="refbadge">reference</span></figcaption>
+      <img loading="lazy" src="rc/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardGaugeSticker.png" alt="Camaelon JS">
+      <div class="diffslot" hidden></div>
+    </figure></td>
+</tr>
+<tr class="row rendered" data-row="11" data-pct="27.633248585629538" data-embedded-pct="" data-androidx-embedded-pct="" data-embedded-jvm-pct="" data-cmp-wasm-pct="">
+  <th class="meta">
+    <div class="name">HaCardEntitiesSticker</div>
+    
+    <div class="scores" data-scores></div>
+    
+    <span class="dims">945×462</span>
+  </th><td><figure class="cell lane-baked" data-lane="baked">
+      <figcaption>AndroidX Embedded · baked<span class="refbadge">reference</span></figcaption>
+      <img loading="lazy" src="rc-baked/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardEntitiesSticker.png" alt="AndroidX Embedded · baked">
+      <div class="diffslot" hidden></div>
+    </figure></td><td><figure class="cell lane-js" data-lane="js">
+      <figcaption>Camaelon JS<span class="refbadge">reference</span></figcaption>
+      <img loading="lazy" src="rc/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardEntitiesSticker.png" alt="Camaelon JS">
+      <div class="diffslot" hidden></div>
+    </figure></td>
+</tr>
+<tr class="row rendered" data-row="12" data-pct="23.309397833207356" data-embedded-pct="" data-androidx-embedded-pct="" data-embedded-jvm-pct="" data-cmp-wasm-pct="">
+  <th class="meta">
+    <div class="name">RemoteCardSticker</div>
+    
+    <div class="scores" data-scores></div>
+    
+    <span class="dims">945×252</span>
+  </th><td><figure class="cell lane-baked" data-lane="baked">
+      <figcaption>AndroidX Embedded · baked<span class="refbadge">reference</span></figcaption>
+      <img loading="lazy" src="rc-baked/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteCardSticker.png" alt="AndroidX Embedded · baked">
+      <div class="diffslot" hidden></div>
+    </figure></td><td><figure class="cell lane-js" data-lane="js">
+      <figcaption>Camaelon JS<span class="refbadge">reference</span></figcaption>
+      <img loading="lazy" src="rc/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteCardSticker.png" alt="Camaelon JS">
+      <div class="diffslot" hidden></div>
+    </figure></td>
+</tr>
+<tr class="row rendered" data-row="13" data-pct="19.596541786743515" data-embedded-pct="" data-androidx-embedded-pct="" data-embedded-jvm-pct="" data-cmp-wasm-pct="">
+  <th class="meta">
+    <div class="name">HaCardGlanceSticker</div>
+    
+    <div class="scores" data-scores></div>
+    
+    <span class="dims">945×347</span>
+  </th><td><figure class="cell lane-baked" data-lane="baked">
+      <figcaption>AndroidX Embedded · baked<span class="refbadge">reference</span></figcaption>
+      <img loading="lazy" src="rc-baked/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardGlanceSticker.png" alt="AndroidX Embedded · baked">
+      <div class="diffslot" hidden></div>
+    </figure></td><td><figure class="cell lane-js" data-lane="js">
+      <figcaption>Camaelon JS<span class="refbadge">reference</span></figcaption>
+      <img loading="lazy" src="rc/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardGlanceSticker.png" alt="Camaelon JS">
+      <div class="diffslot" hidden></div>
+    </figure></td>
+</tr>
+  </tbody>
+</table>
+</div>
+<script type="application/json" id="rc-model">{"lanes":[{"id":"baked","label":"AndroidX Embedded · baked","short":"baked"},{"id":"js","label":"Camaelon JS","short":"js"}],"rows":[{"name":"HaCardEntityRowSticker","referenceBlank":false,"lanes":{"baked":{"src":"rc-baked/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardEntityRowSticker.png","diff":"","pct":null,"px":null,"rendered":true,"note":""},"js":{"src":"rc/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardEntityRowSticker.png","diff":"rc-diff/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardEntityRowSticker.png","pct":97.76050102580714,"px":135804,"rendered":true,"note":""}}},{"name":"RemoteTextSticker","referenceBlank":false,"lanes":{"baked":{"src":"rc-baked/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteTextSticker.png","diff":"","pct":null,"px":null,"rendered":true,"note":""},"js":{"src":"rc/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteTextSticker.png","diff":"rc-diff/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteTextSticker.png","pct":97.05575351833855,"px":80895,"rendered":true,"note":""}}},{"name":"HaCardHeadingSticker","referenceBlank":false,"lanes":{"baked":{"src":"rc-baked/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardHeadingSticker.png","diff":"","pct":null,"px":null,"rendered":true,"note":""},"js":{"src":"rc/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardHeadingSticker.png","diff":"rc-diff/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardHeadingSticker.png","pct":96.23150847640643,"px":133680,"rendered":true,"note":""}}},{"name":"HaCardIconSticker","referenceBlank":false,"lanes":{"baked":{"src":"rc-baked/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardIconSticker.png","diff":"","pct":null,"px":null,"rendered":true,"note":""},"js":{"src":"rc/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardIconSticker.png","diff":"rc-diff/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardIconSticker.png","pct":93.30365891212452,"px":33329,"rendered":true,"note":""}}},{"name":"HaCardToggleSticker","referenceBlank":false,"lanes":{"baked":{"src":"rc-baked/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardToggleSticker.png","diff":"","pct":null,"px":null,"rendered":true,"note":""},"js":{"src":"rc/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardToggleSticker.png","diff":"rc-diff/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardToggleSticker.png","pct":87.36907461397257,"px":32365,"rendered":true,"note":""}}},{"name":"HaCardButtonSticker","referenceBlank":false,"lanes":{"baked":{"src":"rc-baked/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardButtonSticker.png","diff":"","pct":null,"px":null,"rendered":true,"note":""},"js":{"src":"rc/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardButtonSticker.png","diff":"rc-diff/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardButtonSticker.png","pct":75.12074829931973,"px":132513,"rendered":true,"note":""}}},{"name":"RemoteButtonSticker","referenceBlank":false,"lanes":{"baked":{"src":"rc-baked/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteButtonSticker.png","diff":"","pct":null,"px":null,"rendered":true,"note":""},"js":{"src":"rc/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteButtonSticker.png","diff":"rc-diff/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteButtonSticker.png","pct":70.47971781305115,"px":79924,"rendered":true,"note":""}}},{"name":"HaCardTileSticker","referenceBlank":false,"lanes":{"baked":{"src":"rc-baked/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardTileSticker.png","diff":"","pct":null,"px":null,"rendered":true,"note":""},"js":{"src":"rc/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardTileSticker.png","diff":"rc-diff/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardTileSticker.png","pct":36.87018840457994,"px":65852,"rendered":true,"note":""}}},{"name":"HaCardSurfaceSticker","referenceBlank":false,"lanes":{"baked":{"src":"rc-baked/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardSurfaceSticker.png","diff":"","pct":null,"px":null,"rendered":true,"note":""},"js":{"src":"rc/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardSurfaceSticker.png","diff":"rc-diff/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardSurfaceSticker.png","pct":32.712790430181734,"px":113762,"rendered":true,"note":""}}},{"name":"RemoteSwitchButtonSticker","referenceBlank":false,"lanes":{"baked":{"src":"rc-baked/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteSwitchButtonSticker.png","diff":"","pct":null,"px":null,"rendered":true,"note":""},"js":{"src":"rc/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteSwitchButtonSticker.png","diff":"rc-diff/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteSwitchButtonSticker.png","pct":31.94620811287478,"px":36227,"rendered":true,"note":""}}},{"name":"HaCardGaugeSticker","referenceBlank":false,"lanes":{"baked":{"src":"rc-baked/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardGaugeSticker.png","diff":"","pct":null,"px":null,"rendered":true,"note":""},"js":{"src":"rc/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardGaugeSticker.png","diff":"rc-diff/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardGaugeSticker.png","pct":27.682338120433357,"px":137339,"rendered":true,"note":""}}},{"name":"HaCardEntitiesSticker","referenceBlank":false,"lanes":{"baked":{"src":"rc-baked/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardEntitiesSticker.png","diff":"","pct":null,"px":null,"rendered":true,"note":""},"js":{"src":"rc/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardEntitiesSticker.png","diff":"rc-diff/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardEntitiesSticker.png","pct":27.633248585629538,"px":120644,"rendered":true,"note":""}}},{"name":"RemoteCardSticker","referenceBlank":false,"lanes":{"baked":{"src":"rc-baked/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteCardSticker.png","diff":"","pct":null,"px":null,"rendered":true,"note":""},"js":{"src":"rc/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteCardSticker.png","diff":"rc-diff/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteCardSticker.png","pct":23.309397833207356,"px":55509,"rendered":true,"note":""}}},{"name":"HaCardGlanceSticker","referenceBlank":false,"lanes":{"baked":{"src":"rc-baked/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardGlanceSticker.png","diff":"","pct":null,"px":null,"rendered":true,"note":""},"js":{"src":"rc/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardGlanceSticker.png","diff":"rc-diff/ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardGlanceSticker.png","pct":19.596541786743515,"px":64260,"rendered":true,"note":""}}}]}</script>
+<script>
+(() => {
+  const MODEL = JSON.parse(document.getElementById("rc-model").textContent);
+  const THRESHOLD = 0.1;
+  const MAX_DELTA = 35215; // pixelmatch's maximum YIQ difference, for the threshold scale
+  // The neutral the build-time diffs flatten onto (rc-compare-pixels.mjs BG), as a CSS colour.
+  const BG_CSS = "rgb(128, 128, 128)";
+  const select = document.getElementById("refselect");
+  const status = document.getElementById("refstatus");
+  const rows = Array.from(document.querySelectorAll("tr.row"));
+  let token = 0;
+  let tainted = false;
+
+  const laneLabel = (id) => (MODEL.lanes.find((l) => l.id === id) || {}).short || id;
+  const band = (pct) => (pct == null ? "na" : pct < 2 ? "good" : pct < 10 ? "ok" : "bad");
+
+  function chip(label, text, pct, px) {
+    const line = document.createElement("div");
+    line.className = "scoreline";
+    const name = document.createElement("span");
+    name.className = "scorelabel";
+    name.textContent = label;
+    const score = document.createElement("span");
+    score.className = "score " + band(pct);
+    score.textContent = text;
+    line.append(name, score);
+    if (px != null) {
+      const pxEl = document.createElement("span");
+      pxEl.className = "px";
+      pxEl.textContent = px.toLocaleString("en-US") + " px";
+      line.append(pxEl);
+    }
+    return line;
+  }
+
+  function clear(row) {
+    row.querySelector("[data-scores]").replaceChildren();
+    for (const slot of row.querySelectorAll(".diffslot")) {
+      slot.replaceChildren();
+      slot.hidden = true;
+    }
+    for (const cell of row.querySelectorAll("figure.cell")) cell.classList.remove("is-reference");
+  }
+
+  function showDiff(row, laneId, src) {
+    const slot = row.querySelector('figure.cell[data-lane="' + laneId + '"] .diffslot');
+    if (!slot) return;
+    const caption = document.createElement("div");
+    caption.className = "difflabel";
+    caption.textContent = "pixel diff vs " + laneLabel(select.value);
+    const img = document.createElement("img");
+    img.loading = "lazy";
+    img.src = src;
+    img.alt = "pixel diff";
+    slot.replaceChildren(caption, img);
+    slot.hidden = false;
+  }
+
+  const images = new Map();
+  function load(src) {
+    if (!images.has(src)) {
+      images.set(
+        src,
+        new Promise((resolve, reject) => {
+          const img = new Image();
+          img.onload = () => resolve(img);
+          img.onerror = () => reject(new Error("could not load " + src));
+          img.src = src;
+        }),
+      );
+    }
+    return images.get(src);
+  }
+
+  /**
+   * The image's pixels flattened onto the diff neutral, which is what makes [delta] meaningful.
+   *
+   * The published lane PNGs are the players' own captures, alpha and all — a sticker on
+   * transparency, like the baked PNG. Reading them raw would score RGB the viewer never sees: a
+   * transparent black pixel and an opaque black one are the same three channels, so a coverage
+   * difference could vanish. Painting the neutral first and letting the draw composite over it is
+   * the canvas equivalent of the build-time flattenOnto(BG), so a client-side player-vs-player
+   * score means the same thing as the driver's lane-vs-baked one.
+   */
+  function pixels(img) {
+    const canvas = document.createElement("canvas");
+    canvas.width = img.naturalWidth;
+    canvas.height = img.naturalHeight;
+    const ctx = canvas.getContext("2d", { willReadFrequently: true });
+    ctx.fillStyle = BG_CSS;
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.drawImage(img, 0, 0);
+    return ctx.getImageData(0, 0, canvas.width, canvas.height);
+  }
+
+  /** pixelmatch's YIQ metric, without its anti-aliasing pass. Both sides are already opaque. */
+  function delta(a, b, i) {
+    const y = (p, o) => p[o] * 0.29889531 + p[o + 1] * 0.58662247 + p[o + 2] * 0.11448223;
+    const q = (p, o) => p[o] * 0.59597799 - p[o + 1] * 0.2741761 - p[o + 2] * 0.32180189;
+    const v = (p, o) => p[o] * 0.21147017 - p[o + 1] * 0.52261711 + p[o + 2] * 0.31114694;
+    const dy = y(a, i) - y(b, i);
+    const di = q(a, i) - q(b, i);
+    const dq = v(a, i) - v(b, i);
+    return 0.5053 * dy * dy + 0.299 * di * di + 0.1957 * dq * dq;
+  }
+
+  function diff(refData, laneData) {
+    const { width, height } = refData;
+    const out = new ImageData(width, height);
+    const limit = THRESHOLD * THRESHOLD * MAX_DELTA;
+    let count = 0;
+    for (let i = 0; i < refData.data.length; i += 4) {
+      if (delta(refData.data, laneData.data, i) > limit) {
+        out.data[i] = 255;
+        out.data[i + 1] = 60;
+        out.data[i + 2] = 60;
+        out.data[i + 3] = 255;
+        count++;
+      } else {
+        // pixelmatch's washed-out backdrop: the reference in grey at 10% so the flagged pixels read.
+        const grey =
+          255 +
+          (refData.data[i] * 0.29889531 +
+            refData.data[i + 1] * 0.58662247 +
+            refData.data[i + 2] * 0.11448223 -
+            255) *
+            0.1;
+        out.data[i] = out.data[i + 1] = out.data[i + 2] = grey;
+        out.data[i + 3] = 255;
+      }
+    }
+    const canvas = document.createElement("canvas");
+    canvas.width = width;
+    canvas.height = height;
+    canvas.getContext("2d").putImageData(out, 0, 0);
+    return { count, total: width * height, url: canvas.toDataURL("image/png") };
+  }
+
+  async function scoreRow(row, ref, pass) {
+    const model = MODEL.rows[Number(row.dataset.row)];
+    if (!model) return;
+    const scores = row.querySelector("[data-scores]");
+    const refLane = model.lanes[ref];
+    row
+      .querySelector('figure.cell[data-lane="' + ref + '"]')
+      ?.classList.add("is-reference");
+    if (!refLane || !refLane.rendered) {
+      scores.replaceChildren(chip(laneLabel(ref), "no reference", null, null));
+      return;
+    }
+    // A blank baked capture is no reference at all — but two *player* renders still compare, so the
+    // short-circuit is scoped to the baked lane rather than the whole row.
+    if (model.referenceBlank && ref === "baked") {
+      for (const lane of MODEL.lanes) {
+        if (lane.id === ref) continue;
+        scores.append(chip(lane.short, "no reference", null, null));
+      }
+      return;
+    }
+    let refData = null;
+    for (const lane of MODEL.lanes) {
+      if (lane.id === ref) continue;
+      const data = model.lanes[lane.id];
+      if (!data) continue;
+      if (!data.rendered || !data.src) {
+        scores.append(chip(lane.short, data.note || "no render", null, null));
+        continue;
+      }
+      // Build-time fast path: the driver's own pixelmatch result against the baked render.
+      if (ref === "baked" && data.diff && data.pct != null) {
+        scores.append(chip(lane.short, data.pct.toFixed(2) + "%", data.pct, data.px));
+        showDiff(row, lane.id, data.diff);
+        continue;
+      }
+      if (tainted) {
+        scores.append(chip(lane.short, "diff needs http://", null, null));
+        continue;
+      }
+      try {
+        if (!refData) refData = pixels(await load(refLane.src));
+        const laneData = pixels(await load(data.src));
+        if (pass !== token) return;
+        if (laneData.width !== refData.width || laneData.height !== refData.height) {
+          scores.append(
+            chip(
+              lane.short,
+              laneData.width + "×" + laneData.height + " ≠ " + refData.width + "×" + refData.height,
+              null,
+              null,
+            ),
+          );
+          continue;
+        }
+        const result = diff(refData, laneData);
+        if (pass !== token) return;
+        const pct = (100 * result.count) / result.total;
+        scores.append(chip(lane.short, pct.toFixed(2) + "%", pct, result.count));
+        showDiff(row, lane.id, result.url);
+      } catch (error) {
+        // A file:// open taints the canvas, so readback throws for every row. Say it once, in the
+        // toolbar, instead of writing the same failure into every chip.
+        if (String(error).includes("SecurityError") || error.name === "SecurityError") {
+          tainted = true;
+          status.textContent =
+            "client-side diffing needs the page served over http:// (canvas readback is blocked on file://)";
+        }
+        scores.append(chip(lane.short, tainted ? "diff needs http://" : "diff failed", null, null));
+      }
+    }
+  }
+
+  const pending = new WeakMap();
+  const observer = new IntersectionObserver(
+    (entries) => {
+      for (const entry of entries) {
+        if (!entry.isIntersecting) continue;
+        const row = entry.target;
+        const ref = select.value;
+        if (ref === "none" || pending.get(row) === token) continue;
+        pending.set(row, token);
+        scoreRow(row, ref, token);
+      }
+    },
+    { rootMargin: "400px 0px" },
+  );
+
+  function apply() {
+    token++;
+    const ref = select.value;
+    document.body.dataset.reference = ref;
+    // Unconditionally, *before* re-observing: observe() on an already-observed target is a no-op, so
+    // switching straight from one reference to another would leave every on-screen row blank until it
+    // scrolled out and back. Disconnecting first makes the re-observe queue a fresh initial callback.
+    observer.disconnect();
+    for (const row of rows) {
+      clear(row);
+      pending.delete(row);
+    }
+    if (ref === "none") {
+      status.textContent = "";
+      return;
+    }
+    status.textContent =
+      ref === "baked"
+        ? "showing the build-time pixelmatch diffs against the baked render"
+        : "diffing in the browser against " + laneLabel(ref) + " — no anti-aliasing pass, so text-heavy previews read slightly higher than the build-time numbers";
+    for (const row of rows) observer.observe(row);
+  }
+
+  select.addEventListener("change", apply);
+  apply();
+})();
+</script>
+</body>
+</html>

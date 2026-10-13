@@ -1,0 +1,378 @@
+{
+    "header": {
+        "version": "1.1.0",
+        "width": 252,
+        "height": 147,
+        "contentDescription": "",
+        "profiles": 513,
+        "densityAtGeneration": 2.625,
+        "byteLength": 513
+    },
+    "operations": [
+        {
+            "$unserialized": "Header",
+            "text": "HEADER v1.1.0\n  DOC_WIDTH 252\n  DOC_HEIGHT 147\n  DOC_DENSITY_AT_GENERATION 2.625\n  DOC_CONTENT_DESCRIPTION \n  DOC_PROFILES 513\n  DENSITY_BEHAVIOR 0"
+        },
+        {
+            "$tags": [
+                "COMPONENT"
+            ],
+            "type": "RootLayoutComponent",
+            "id": -2,
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.0,
+            "height": 0.0,
+            "visibility": "VISIBLE",
+            "list": [
+                {
+                    "$tags": [
+                        "LAYOUT_COMPONENT"
+                    ],
+                    "type": "BOX",
+                    "id": -3,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 0.0,
+                    "height": 0.0,
+                    "visibility": "VISIBLE",
+                    "list": [
+                        {
+                            "type": "ComponentValue",
+                            "valueId": 42,
+                            "componentValueType": "WIDTH",
+                            "componentId": -3
+                        },
+                        {
+                            "type": "ComponentValue",
+                            "valueId": 43,
+                            "componentValueType": "HEIGHT",
+                            "componentId": -3
+                        },
+                        {
+                            "type": "ColorConstant",
+                            "color": "0xff8f8f8f",
+                            "colorId": 44
+                        },
+                        {
+                            "type": "ColorConstant",
+                            "color": "0xffffc107",
+                            "colorId": 45
+                        },
+                        {
+                            "$tags": [
+                                "EXPRESSION"
+                            ],
+                            "type": "FloatExpression",
+                            "id": 46,
+                            "srcValues": [
+                                1.0
+                            ],
+                            "animation": {
+                                "type": "FloatAnimation",
+                                "initialValue": "NaN",
+                                "targetValue": "NaN",
+                                "duration": 0.2,
+                                "easing": "CUBIC_STANDARD"
+                            }
+                        },
+                        {
+                            "type": "ColorExpression",
+                            "id": 47,
+                            "mode": "TWEEN",
+                            "startColor": [
+                                44.0,
+                                44.0
+                            ],
+                            "endColor": [
+                                45.0,
+                                45.0
+                            ],
+                            "tween": [
+                                "@46",
+                                "@46"
+                            ]
+                        },
+                        {
+                            "$tags": [
+                                "MODIFIER"
+                            ],
+                            "type": "ComponentModifiers",
+                            "modifiers": [
+                                {
+                                    "$tags": [
+                                        "MODIFIER"
+                                    ],
+                                    "type": "WidthModifierOperation",
+                                    "width": [
+                                        1.0,
+                                        1.0
+                                    ],
+                                    "dimensionModifierType": "FILL"
+                                },
+                                {
+                                    "$tags": [
+                                        "MODIFIER"
+                                    ],
+                                    "type": "HeightModifierOperation",
+                                    "height": [
+                                        1.0,
+                                        1.0
+                                    ],
+                                    "dimensionModifierType": "FILL"
+                                },
+                                {
+                                    "$tags": [
+                                        "MODIFIER"
+                                    ],
+                                    "type": "PaddingModifierOperation",
+                                    "left": 21.0,
+                                    "top": 21.0,
+                                    "right": 21.0,
+                                    "bottom": 21.0
+                                }
+                            ]
+                        },
+                        {
+                            "$tags": [
+                                "LAYOUT_COMPONENT"
+                            ],
+                            "type": "BOX",
+                            "id": -5,
+                            "x": 0.0,
+                            "y": 0.0,
+                            "width": 36.0,
+                            "height": 22.0,
+                            "visibility": "VISIBLE",
+                            "list": [
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 48,
+                                    "srcValues": [
+                                        "@46",
+                                        14.0,
+                                        "@3211267",
+                                        3.0,
+                                        "@3211265",
+                                        2.625,
+                                        "@3211267"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "type": "ComponentValue",
+                                    "valueId": 49,
+                                    "componentValueType": "WIDTH",
+                                    "componentId": -5
+                                },
+                                {
+                                    "type": "ComponentValue",
+                                    "valueId": 50,
+                                    "componentValueType": "HEIGHT",
+                                    "componentId": -5
+                                },
+                                {
+                                    "$tags": [
+                                        "EXPRESSION"
+                                    ],
+                                    "type": "FloatExpression",
+                                    "id": 51,
+                                    "srcValues": [
+                                        "@49",
+                                        "@50",
+                                        "@3211270",
+                                        2.0,
+                                        "@3211268"
+                                    ],
+                                    "animation": null
+                                },
+                                {
+                                    "$tags": [
+                                        "MODIFIER"
+                                    ],
+                                    "type": "ComponentModifiers",
+                                    "modifiers": [
+                                        {
+                                            "$tags": [
+                                                "MODIFIER"
+                                            ],
+                                            "type": "WidthModifierOperation",
+                                            "width": [
+                                                36.0,
+                                                36.0
+                                            ],
+                                            "dimensionModifierType": "EXACT_DP"
+                                        },
+                                        {
+                                            "$tags": [
+                                                "MODIFIER"
+                                            ],
+                                            "type": "HeightModifierOperation",
+                                            "height": [
+                                                22.0,
+                                                22.0
+                                            ],
+                                            "dimensionModifierType": "EXACT_DP"
+                                        },
+                                        {
+                                            "topStart": [
+                                                28.875,
+                                                28.875
+                                            ],
+                                            "topEnd": [
+                                                28.875,
+                                                28.875
+                                            ],
+                                            "bottomStart": [
+                                                28.875,
+                                                28.875
+                                            ],
+                                            "bottomEnd": [
+                                                28.875,
+                                                28.875
+                                            ],
+                                            "$tags": [
+                                                "MODIFIER"
+                                            ],
+                                            "type": "RoundedClipRectModifierOperation",
+                                            "width": 0.0,
+                                            "height": 0.0
+                                        },
+                                        {
+                                            "$tags": [
+                                                "MODIFIER"
+                                            ],
+                                            "type": "BackgroundModifierOperation",
+                                            "x": 0.0,
+                                            "y": 0.0,
+                                            "width": 0.0,
+                                            "height": 0.0,
+                                            "colorId": 47,
+                                            "shapeType": "RECTANGLE"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "$tags": [
+                                        "LAYOUT_COMPONENT"
+                                    ],
+                                    "type": "BOX",
+                                    "id": -7,
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "width": "@48",
+                                    "height": 23.875,
+                                    "visibility": "VISIBLE",
+                                    "list": [
+                                        {
+                                            "$tags": [
+                                                "MODIFIER"
+                                            ],
+                                            "type": "ComponentModifiers",
+                                            "modifiers": [
+                                                {
+                                                    "$tags": [
+                                                        "MODIFIER"
+                                                    ],
+                                                    "type": "PaddingModifierOperation",
+                                                    "left": "@48",
+                                                    "top": 7.875,
+                                                    "right": 0.0,
+                                                    "bottom": 0.0
+                                                },
+                                                {
+                                                    "$tags": [
+                                                        "MODIFIER"
+                                                    ],
+                                                    "type": "WidthModifierOperation",
+                                                    "width": [
+                                                        16.0,
+                                                        16.0
+                                                    ],
+                                                    "dimensionModifierType": "EXACT_DP"
+                                                },
+                                                {
+                                                    "$tags": [
+                                                        "MODIFIER"
+                                                    ],
+                                                    "type": "HeightModifierOperation",
+                                                    "height": [
+                                                        16.0,
+                                                        16.0
+                                                    ],
+                                                    "dimensionModifierType": "EXACT_DP"
+                                                },
+                                                {
+                                                    "topStart": [
+                                                        "@51",
+                                                        "@51"
+                                                    ],
+                                                    "topEnd": [
+                                                        "@51",
+                                                        "@51"
+                                                    ],
+                                                    "bottomStart": [
+                                                        "@51",
+                                                        "@51"
+                                                    ],
+                                                    "bottomEnd": [
+                                                        "@51",
+                                                        "@51"
+                                                    ],
+                                                    "$tags": [
+                                                        "MODIFIER"
+                                                    ],
+                                                    "type": "RoundedClipRectModifierOperation",
+                                                    "width": 0.0,
+                                                    "height": 0.0
+                                                },
+                                                {
+                                                    "$tags": [
+                                                        "MODIFIER"
+                                                    ],
+                                                    "type": "BackgroundModifierOperation",
+                                                    "x": 0.0,
+                                                    "y": 0.0,
+                                                    "width": 0.0,
+                                                    "height": 0.0,
+                                                    "color": [
+                                                        1.0,
+                                                        1.0,
+                                                        1.0,
+                                                        1.0
+                                                    ],
+                                                    "shapeType": "RECTANGLE"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "paddingLeft": "@48",
+                                    "paddingRight": 0.0,
+                                    "paddingTop": 7.875,
+                                    "paddingBottom": 0.0,
+                                    "verticalPositioning": "TOP",
+                                    "horizontalPositioning": "START"
+                                }
+                            ],
+                            "paddingLeft": 0.0,
+                            "paddingRight": 0.0,
+                            "paddingTop": 0.0,
+                            "paddingBottom": 0.0,
+                            "verticalPositioning": "TOP",
+                            "horizontalPositioning": "START"
+                        }
+                    ],
+                    "paddingLeft": 21.0,
+                    "paddingRight": 21.0,
+                    "paddingTop": 21.0,
+                    "paddingBottom": 21.0,
+                    "verticalPositioning": "CENTER",
+                    "horizontalPositioning": "CENTER"
+                }
+            ]
+        }
+    ]
+}

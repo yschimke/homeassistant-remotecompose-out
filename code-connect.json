@@ -1,0 +1,1199 @@
+{
+  "system": "ha-cards",
+  "title": "Home Assistant cards · RemoteCompose",
+  "label": "Compose",
+  "source": {
+    "repo": "yschimke/homeassistant-remotecompose",
+    "ref": "52ed43ae5dc538ff09dd88bd8c160fc23427edb1",
+    "module": ":ha-cards-catalog"
+  },
+  "generatedAt": "2026-10-12T23:16:49.175Z",
+  "mappings": [
+    {
+      "componentId": "HaCard/Tile",
+      "figmaLayerName": "HaCard/Tile",
+      "componentName": "HaCardTile",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/52ed43ae5dc538ff09dd88bd8c160fc23427edb1/ha-cards-catalog/src/main/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
+      "label": "Compose",
+      "confidence": "MEDIUM",
+      "previewName": "HaCardTileSticker",
+      "codeSnippet": "HaCardTile(\n    name = TODO(\"String\"),\n    state = TODO(\"String\"),\n)",
+      "imports": [
+        "import ee.schimke.ha.cards.HaCardTile"
+      ],
+      "parameters": [
+        {
+          "name": "name",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": false,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "state",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": false,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "modifier",
+          "type": "RemoteModifier",
+          "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "entityId",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "icon",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "toggleable",
+          "type": "Boolean",
+          "typeFqn": "kotlin.Boolean",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "isOn",
+          "type": "Boolean",
+          "typeFqn": "kotlin.Boolean",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "activeColor",
+          "type": "RemoteColor",
+          "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "inactiveColor",
+          "type": "RemoteColor",
+          "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        }
+      ],
+      "figmaSvg": "figma/hacard-tile.svg"
+    },
+    {
+      "componentId": "HaCard/EntityRow",
+      "figmaLayerName": "HaCard/EntityRow",
+      "componentName": "HaCardEntityRow",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/52ed43ae5dc538ff09dd88bd8c160fc23427edb1/ha-cards-catalog/src/main/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
+      "label": "Compose",
+      "confidence": "MEDIUM",
+      "previewName": "HaCardEntityRowSticker",
+      "codeSnippet": "HaCardEntityRow(\n    name = TODO(\"String\"),\n    state = TODO(\"String\"),\n)",
+      "imports": [
+        "import ee.schimke.ha.cards.HaCardEntityRow"
+      ],
+      "parameters": [
+        {
+          "name": "name",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": false,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "state",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": false,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "modifier",
+          "type": "RemoteModifier",
+          "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "entityId",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "icon",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "toggleable",
+          "type": "Boolean",
+          "typeFqn": "kotlin.Boolean",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "isOn",
+          "type": "Boolean",
+          "typeFqn": "kotlin.Boolean",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "activeColor",
+          "type": "RemoteColor",
+          "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "inactiveColor",
+          "type": "RemoteColor",
+          "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        }
+      ],
+      "figmaSvg": "figma/hacard-entityrow.svg"
+    },
+    {
+      "componentId": "HaCard/Entities",
+      "figmaLayerName": "HaCard/Entities",
+      "componentName": "HaCardEntities",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/52ed43ae5dc538ff09dd88bd8c160fc23427edb1/ha-cards-catalog/src/main/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
+      "label": "Compose",
+      "confidence": "MEDIUM",
+      "previewName": "HaCardEntitiesSticker",
+      "codeSnippet": "HaCardEntities(\n    title = TODO(\"String\"),\n)",
+      "imports": [
+        "import ee.schimke.ha.cards.HaCardEntities"
+      ],
+      "parameters": [
+        {
+          "name": "title",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": false,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "modifier",
+          "type": "RemoteModifier",
+          "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "row1Name",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "row1State",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "row1Icon",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "row2Name",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "row2State",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "row2Icon",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "row3Name",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "row3State",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "row3Icon",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        }
+      ],
+      "figmaSvg": "figma/hacard-entities.svg"
+    },
+    {
+      "componentId": "HaCard/Gauge",
+      "figmaLayerName": "HaCard/Gauge",
+      "componentName": "HaCardGauge",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/52ed43ae5dc538ff09dd88bd8c160fc23427edb1/ha-cards-catalog/src/main/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
+      "label": "Compose",
+      "confidence": "MEDIUM",
+      "previewName": "HaCardGaugeSticker",
+      "codeSnippet": "HaCardGauge(\n    name = TODO(\"String\"),\n    value = TODO(\"Float\"),\n)",
+      "imports": [
+        "import ee.schimke.ha.cards.HaCardGauge"
+      ],
+      "parameters": [
+        {
+          "name": "name",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": false,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "value",
+          "type": "Float",
+          "typeFqn": "kotlin.Float",
+          "hasDefault": false,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "modifier",
+          "type": "RemoteModifier",
+          "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "min",
+          "type": "Float",
+          "typeFqn": "kotlin.Float",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "max",
+          "type": "Float",
+          "typeFqn": "kotlin.Float",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "unit",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "entityId",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        }
+      ],
+      "figmaSvg": "figma/hacard-gauge.svg"
+    },
+    {
+      "componentId": "HaCard/Glance",
+      "figmaLayerName": "HaCard/Glance",
+      "componentName": "HaCardGlance",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/52ed43ae5dc538ff09dd88bd8c160fc23427edb1/ha-cards-catalog/src/main/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
+      "label": "Compose",
+      "confidence": "MEDIUM",
+      "previewName": "HaCardGlanceSticker",
+      "codeSnippet": "HaCardGlance(\n    title = TODO(\"String\"),\n)",
+      "imports": [
+        "import ee.schimke.ha.cards.HaCardGlance"
+      ],
+      "parameters": [
+        {
+          "name": "title",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": false,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "modifier",
+          "type": "RemoteModifier",
+          "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "cell1Name",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "cell1State",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "cell1Icon",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "cell2Name",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "cell2State",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "cell2Icon",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "cell3Name",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "cell3State",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "cell3Icon",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        }
+      ],
+      "figmaSvg": "figma/hacard-glance.svg"
+    },
+    {
+      "componentId": "HaCard/Heading",
+      "figmaLayerName": "HaCard/Heading",
+      "componentName": "HaCardHeading",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/52ed43ae5dc538ff09dd88bd8c160fc23427edb1/ha-cards-catalog/src/main/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
+      "label": "Compose",
+      "confidence": "MEDIUM",
+      "previewName": "HaCardHeadingSticker",
+      "codeSnippet": "HaCardHeading(\n    title = TODO(\"String\"),\n)",
+      "imports": [
+        "import ee.schimke.ha.cards.HaCardHeading"
+      ],
+      "parameters": [
+        {
+          "name": "title",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": false,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "modifier",
+          "type": "RemoteModifier",
+          "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "subtitle",
+          "type": "Boolean",
+          "typeFqn": "kotlin.Boolean",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        }
+      ],
+      "figmaSvg": "https://preview.coo.ee/ha-cards/render/hacard-heading__ideal__default__card.svg"
+    },
+    {
+      "componentId": "HaCard/Button",
+      "figmaLayerName": "HaCard/Button",
+      "componentName": "HaCardButton",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/52ed43ae5dc538ff09dd88bd8c160fc23427edb1/ha-cards-catalog/src/main/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
+      "label": "Compose",
+      "confidence": "MEDIUM",
+      "previewName": "HaCardButtonSticker",
+      "codeSnippet": "HaCardButton(\n    name = TODO(\"String\"),\n)",
+      "imports": [
+        "import ee.schimke.ha.cards.HaCardButton"
+      ],
+      "parameters": [
+        {
+          "name": "name",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": false,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "modifier",
+          "type": "RemoteModifier",
+          "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "entityId",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "icon",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "showName",
+          "type": "Boolean",
+          "typeFqn": "kotlin.Boolean",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "toggleable",
+          "type": "Boolean",
+          "typeFqn": "kotlin.Boolean",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "isOn",
+          "type": "Boolean",
+          "typeFqn": "kotlin.Boolean",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "activeColor",
+          "type": "RemoteColor",
+          "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "inactiveColor",
+          "type": "RemoteColor",
+          "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        }
+      ],
+      "figmaSvg": "figma/hacard-button.svg"
+    },
+    {
+      "componentId": "HaCard/Toggle",
+      "figmaLayerName": "HaCard/Toggle",
+      "componentName": "HaCardToggle",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/52ed43ae5dc538ff09dd88bd8c160fc23427edb1/ha-cards-catalog/src/main/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
+      "label": "Compose",
+      "confidence": "MEDIUM",
+      "previewName": "HaCardToggleSticker",
+      "codeSnippet": "HaCardToggle(\n    isOn = TODO(\"Boolean\"),\n)",
+      "imports": [
+        "import ee.schimke.ha.cards.HaCardToggle"
+      ],
+      "parameters": [
+        {
+          "name": "isOn",
+          "type": "Boolean",
+          "typeFqn": "kotlin.Boolean",
+          "hasDefault": false,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "modifier",
+          "type": "RemoteModifier",
+          "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "entityId",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "activeColor",
+          "type": "RemoteColor",
+          "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "inactiveColor",
+          "type": "RemoteColor",
+          "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        }
+      ],
+      "figmaSvg": "figma/hacard-toggle.svg"
+    },
+    {
+      "componentId": "HaCard/Icon",
+      "figmaLayerName": "HaCard/Icon",
+      "componentName": "HaCardIcon",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/52ed43ae5dc538ff09dd88bd8c160fc23427edb1/ha-cards-catalog/src/main/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
+      "label": "Compose",
+      "confidence": "MEDIUM",
+      "previewName": "HaCardIconSticker",
+      "codeSnippet": "HaCardIcon(\n    icon = TODO(\"String\"),\n)",
+      "imports": [
+        "import ee.schimke.ha.cards.HaCardIcon"
+      ],
+      "parameters": [
+        {
+          "name": "icon",
+          "type": "String",
+          "typeFqn": "kotlin.String",
+          "hasDefault": false,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "modifier",
+          "type": "RemoteModifier",
+          "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "color",
+          "type": "RemoteColor",
+          "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "sizeDp",
+          "type": "Int",
+          "typeFqn": "kotlin.Int",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        }
+      ],
+      "figmaSvg": "figma/hacard-icon.svg"
+    },
+    {
+      "componentId": "HaCard/Surface",
+      "figmaLayerName": "HaCard/Surface",
+      "componentName": "HaCardSurface",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/52ed43ae5dc538ff09dd88bd8c160fc23427edb1/ha-cards-catalog/src/main/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
+      "label": "Compose",
+      "confidence": "LOW",
+      "previewName": "HaCardSurfaceSticker",
+      "codeSnippet": "HaCardSurface(\n    content = { },\n)",
+      "imports": [
+        "import ee.schimke.ha.cards.HaCardSurface"
+      ],
+      "parameters": [
+        {
+          "name": "modifier",
+          "type": "RemoteModifier",
+          "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+          "hasDefault": true,
+          "composableSlot": false,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": null
+        },
+        {
+          "name": "content",
+          "type": "() -> Unit",
+          "typeFqn": "kotlin.Function0",
+          "hasDefault": false,
+          "composableSlot": true,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": "kotlin.Unit"
+        }
+      ],
+      "figmaSvg": "figma/hacard-surface.svg"
+    },
+    {
+      "componentId": "Remote/Card",
+      "figmaLayerName": "Remote/Card",
+      "componentName": "HaCardSticker",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/52ed43ae5dc538ff09dd88bd8c160fc23427edb1/ha-cards-catalog/src/main/kotlin/ee/schimke/ha/cards/HaCardSticker.kt",
+      "label": "Compose",
+      "confidence": "HIGH",
+      "previewName": "RemoteCardSticker",
+      "codeSnippet": "HaCardSticker(\n    content = { },\n)",
+      "imports": [
+        "import ee.schimke.ha.cards.HaCardSticker"
+      ],
+      "parameters": [
+        {
+          "name": "content",
+          "type": "() -> Unit",
+          "typeFqn": "kotlin.Function0",
+          "hasDefault": false,
+          "composableSlot": true,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": "kotlin.Unit"
+        }
+      ],
+      "figmaSvg": "figma/remote-card.svg"
+    },
+    {
+      "componentId": "Remote/Button",
+      "figmaLayerName": "Remote/Button",
+      "componentName": "HaCardSticker",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/52ed43ae5dc538ff09dd88bd8c160fc23427edb1/ha-cards-catalog/src/main/kotlin/ee/schimke/ha/cards/HaCardSticker.kt",
+      "label": "Compose",
+      "confidence": "HIGH",
+      "previewName": "RemoteButtonSticker",
+      "codeSnippet": "HaCardSticker(\n    content = { },\n)",
+      "imports": [
+        "import ee.schimke.ha.cards.HaCardSticker"
+      ],
+      "parameters": [
+        {
+          "name": "content",
+          "type": "() -> Unit",
+          "typeFqn": "kotlin.Function0",
+          "hasDefault": false,
+          "composableSlot": true,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": "kotlin.Unit"
+        }
+      ],
+      "figmaSvg": "figma/remote-button.svg"
+    },
+    {
+      "componentId": "Remote/SwitchButton",
+      "figmaLayerName": "Remote/SwitchButton",
+      "componentName": "HaCardSticker",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/52ed43ae5dc538ff09dd88bd8c160fc23427edb1/ha-cards-catalog/src/main/kotlin/ee/schimke/ha/cards/HaCardSticker.kt",
+      "label": "Compose",
+      "confidence": "HIGH",
+      "previewName": "RemoteSwitchButtonSticker",
+      "codeSnippet": "HaCardSticker(\n    content = { },\n)",
+      "imports": [
+        "import ee.schimke.ha.cards.HaCardSticker"
+      ],
+      "parameters": [
+        {
+          "name": "content",
+          "type": "() -> Unit",
+          "typeFqn": "kotlin.Function0",
+          "hasDefault": false,
+          "composableSlot": true,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": "kotlin.Unit"
+        }
+      ],
+      "figmaSvg": "figma/remote-switchbutton.svg"
+    },
+    {
+      "componentId": "Remote/Text",
+      "figmaLayerName": "Remote/Text",
+      "componentName": "HaCardSticker",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/52ed43ae5dc538ff09dd88bd8c160fc23427edb1/ha-cards-catalog/src/main/kotlin/ee/schimke/ha/cards/HaCardSticker.kt",
+      "label": "Compose",
+      "confidence": "HIGH",
+      "previewName": "RemoteTextSticker",
+      "codeSnippet": "HaCardSticker(\n    content = { },\n)",
+      "imports": [
+        "import ee.schimke.ha.cards.HaCardSticker"
+      ],
+      "parameters": [
+        {
+          "name": "content",
+          "type": "() -> Unit",
+          "typeFqn": "kotlin.Function0",
+          "hasDefault": false,
+          "composableSlot": true,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": "kotlin.Unit"
+        }
+      ],
+      "figmaSvg": "https://preview.coo.ee/ha-cards/render/remote-text__ideal__default__compact.svg"
+    }
+  ]
+}

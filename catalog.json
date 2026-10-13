@@ -1,0 +1,1094 @@
+{
+  "schema": "design-parity-catalog/v1",
+  "system": "ha-cards",
+  "title": "Home Assistant cards · RemoteCompose",
+  "components": [
+    {
+      "componentId": "HaCard/Tile",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/hacard-tile/ideal__default__card.png",
+          "state": "default",
+          "width": 945,
+          "height": 189,
+          "size": "card",
+          "livePreview": "https://preview.coo.ee/ha-cards/p/hacard-tile__ideal__default__card",
+          "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardTileSticker",
+          "density": 2.625
+        }
+      ],
+      "greenlines": [
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button",
+          "detail": {
+            "role": "button",
+            "bounds": {
+              "x": 53,
+              "y": 53,
+              "width": 840,
+              "height": 84
+            }
+          },
+          "bounds": {
+            "x": 53,
+            "y": 53,
+            "width": 840,
+            "height": 84
+          }
+        }
+      ],
+      "redlines": [
+        {
+          "bounds": {
+            "x": 53,
+            "y": 53,
+            "width": 840,
+            "height": 84
+          },
+          "role": "Button",
+          "padding": {
+            "start": 12.190476,
+            "top": 8,
+            "end": 11.809524,
+            "bottom": 8
+          }
+        }
+      ],
+      "group": "Home Assistant",
+      "caption": "HA's tile card: a toggleable light, on. Bound to `light.kitchen`, so its state and accent follow the entity live.",
+      "noReference": "No published design kit covers Home Assistant cards in Remote Compose.",
+      "wireframe": "wireframes/hacard-tile.svg",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
+      "sourceModule": ":ha-cards-catalog",
+      "bodyLine": 54,
+      "sourceDirectory": "ha-cards-catalog",
+      "sourceFunction": "HaCardTileSticker",
+      "parameters": [
+        {
+          "name": "name",
+          "type": "String"
+        },
+        {
+          "name": "state",
+          "type": "String"
+        },
+        {
+          "name": "modifier",
+          "type": "RemoteModifier",
+          "hasDefault": true
+        },
+        {
+          "name": "entityId",
+          "type": "String",
+          "hasDefault": true
+        },
+        {
+          "name": "icon",
+          "type": "String",
+          "hasDefault": true
+        },
+        {
+          "name": "toggleable",
+          "type": "Boolean",
+          "hasDefault": true
+        },
+        {
+          "name": "isOn",
+          "type": "Boolean",
+          "hasDefault": true
+        },
+        {
+          "name": "activeColor",
+          "type": "RemoteColor",
+          "hasDefault": true
+        },
+        {
+          "name": "inactiveColor",
+          "type": "RemoteColor",
+          "hasDefault": true
+        }
+      ]
+    },
+    {
+      "componentId": "HaCard/EntityRow",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/hacard-entityrow/ideal__default__card.png",
+          "state": "default",
+          "width": 945,
+          "height": 147,
+          "size": "card",
+          "livePreview": "https://preview.coo.ee/ha-cards/p/hacard-entityrow__ideal__default__card",
+          "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardEntityRowSticker",
+          "density": 2.625
+        }
+      ],
+      "greenlines": [],
+      "redlines": [],
+      "group": "Home Assistant",
+      "caption": "One row of HA's entities card, or a whole entity card: icon, name and state.",
+      "noReference": "No published design kit covers Home Assistant cards in Remote Compose.",
+      "wireframe": "wireframes/hacard-entityrow.svg",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
+      "sourceModule": ":ha-cards-catalog",
+      "bodyLine": 73,
+      "sourceDirectory": "ha-cards-catalog",
+      "sourceFunction": "HaCardEntityRowSticker",
+      "parameters": [
+        {
+          "name": "name",
+          "type": "String"
+        },
+        {
+          "name": "state",
+          "type": "String"
+        },
+        {
+          "name": "modifier",
+          "type": "RemoteModifier",
+          "hasDefault": true
+        },
+        {
+          "name": "entityId",
+          "type": "String",
+          "hasDefault": true
+        },
+        {
+          "name": "icon",
+          "type": "String",
+          "hasDefault": true
+        },
+        {
+          "name": "toggleable",
+          "type": "Boolean",
+          "hasDefault": true
+        },
+        {
+          "name": "isOn",
+          "type": "Boolean",
+          "hasDefault": true
+        },
+        {
+          "name": "activeColor",
+          "type": "RemoteColor",
+          "hasDefault": true
+        },
+        {
+          "name": "inactiveColor",
+          "type": "RemoteColor",
+          "hasDefault": true
+        }
+      ]
+    },
+    {
+      "componentId": "HaCard/Entities",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/hacard-entities/ideal__default__card.png",
+          "state": "default",
+          "width": 945,
+          "height": 462,
+          "size": "card",
+          "livePreview": "https://preview.coo.ee/ha-cards/p/hacard-entities__ideal__default__card",
+          "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardEntitiesSticker",
+          "density": 2.625
+        }
+      ],
+      "greenlines": [],
+      "redlines": [
+        {
+          "bounds": {
+            "x": 53,
+            "y": 74,
+            "width": 840,
+            "height": 313
+          },
+          "padding": {
+            "start": 12.190476,
+            "top": 9.904762,
+            "end": 11.809524,
+            "bottom": 10.285714
+          }
+        }
+      ],
+      "group": "Home Assistant",
+      "caption": "HA's entities card in its simple form: a title over up to three rows.",
+      "noReference": "No published design kit covers Home Assistant cards in Remote Compose.",
+      "wireframe": "wireframes/hacard-entities.svg",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
+      "sourceModule": ":ha-cards-catalog",
+      "bodyLine": 85,
+      "sourceDirectory": "ha-cards-catalog",
+      "sourceFunction": "HaCardEntitiesSticker",
+      "parameters": [
+        {
+          "name": "title",
+          "type": "String"
+        },
+        {
+          "name": "modifier",
+          "type": "RemoteModifier",
+          "hasDefault": true
+        },
+        {
+          "name": "row1Name",
+          "type": "String",
+          "hasDefault": true
+        },
+        {
+          "name": "row1State",
+          "type": "String",
+          "hasDefault": true
+        },
+        {
+          "name": "row1Icon",
+          "type": "String",
+          "hasDefault": true
+        },
+        {
+          "name": "row2Name",
+          "type": "String",
+          "hasDefault": true
+        },
+        {
+          "name": "row2State",
+          "type": "String",
+          "hasDefault": true
+        },
+        {
+          "name": "row2Icon",
+          "type": "String",
+          "hasDefault": true
+        },
+        {
+          "name": "row3Name",
+          "type": "String",
+          "hasDefault": true
+        },
+        {
+          "name": "row3State",
+          "type": "String",
+          "hasDefault": true
+        },
+        {
+          "name": "row3Icon",
+          "type": "String",
+          "hasDefault": true
+        }
+      ]
+    },
+    {
+      "componentId": "HaCard/Gauge",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/hacard-gauge/ideal__default__card.png",
+          "state": "default",
+          "width": 945,
+          "height": 525,
+          "size": "card",
+          "livePreview": "https://preview.coo.ee/ha-cards/p/hacard-gauge__ideal__default__card",
+          "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardGaugeSticker",
+          "density": 2.625
+        }
+      ],
+      "greenlines": [],
+      "redlines": [
+        {
+          "bounds": {
+            "x": 58,
+            "y": 81,
+            "width": 829,
+            "height": 364
+          },
+          "padding": {
+            "start": 14.095238,
+            "top": 12.190476,
+            "end": 14.095238,
+            "bottom": 11.809524
+          }
+        }
+      ],
+      "group": "Home Assistant",
+      "caption": "HA's gauge card: a reading on a half-circle dial between its min and max.",
+      "noReference": "No published design kit covers Home Assistant cards in Remote Compose.",
+      "wireframe": "wireframes/hacard-gauge.svg",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
+      "sourceModule": ":ha-cards-catalog",
+      "bodyLine": 108,
+      "sourceDirectory": "ha-cards-catalog",
+      "sourceFunction": "HaCardGaugeSticker",
+      "parameters": [
+        {
+          "name": "name",
+          "type": "String"
+        },
+        {
+          "name": "value",
+          "type": "Float"
+        },
+        {
+          "name": "modifier",
+          "type": "RemoteModifier",
+          "hasDefault": true
+        },
+        {
+          "name": "min",
+          "type": "Float",
+          "hasDefault": true
+        },
+        {
+          "name": "max",
+          "type": "Float",
+          "hasDefault": true
+        },
+        {
+          "name": "unit",
+          "type": "String",
+          "hasDefault": true
+        },
+        {
+          "name": "entityId",
+          "type": "String",
+          "hasDefault": true
+        }
+      ]
+    },
+    {
+      "componentId": "HaCard/Glance",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/hacard-glance/ideal__default__card.png",
+          "state": "default",
+          "width": 945,
+          "height": 347,
+          "size": "card",
+          "livePreview": "https://preview.coo.ee/ha-cards/p/hacard-glance__ideal__default__card",
+          "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardGlanceSticker",
+          "density": 2.625
+        }
+      ],
+      "greenlines": [],
+      "redlines": [
+        {
+          "bounds": {
+            "x": 53,
+            "y": 48,
+            "width": 840,
+            "height": 250
+          },
+          "padding": {
+            "start": 12.190476,
+            "top": 9.904762,
+            "end": 11.809524,
+            "bottom": 10.285714
+          }
+        }
+      ],
+      "group": "Home Assistant",
+      "caption": "HA's glance card: a row of icon cells, each an entity's name over its state.",
+      "noReference": "No published design kit covers Home Assistant cards in Remote Compose.",
+      "wireframe": "wireframes/hacard-glance.svg",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
+      "sourceModule": ":ha-cards-catalog",
+      "bodyLine": 118,
+      "sourceDirectory": "ha-cards-catalog",
+      "sourceFunction": "HaCardGlanceSticker",
+      "parameters": [
+        {
+          "name": "title",
+          "type": "String"
+        },
+        {
+          "name": "modifier",
+          "type": "RemoteModifier",
+          "hasDefault": true
+        },
+        {
+          "name": "cell1Name",
+          "type": "String",
+          "hasDefault": true
+        },
+        {
+          "name": "cell1State",
+          "type": "String",
+          "hasDefault": true
+        },
+        {
+          "name": "cell1Icon",
+          "type": "String",
+          "hasDefault": true
+        },
+        {
+          "name": "cell2Name",
+          "type": "String",
+          "hasDefault": true
+        },
+        {
+          "name": "cell2State",
+          "type": "String",
+          "hasDefault": true
+        },
+        {
+          "name": "cell2Icon",
+          "type": "String",
+          "hasDefault": true
+        },
+        {
+          "name": "cell3Name",
+          "type": "String",
+          "hasDefault": true
+        },
+        {
+          "name": "cell3State",
+          "type": "String",
+          "hasDefault": true
+        },
+        {
+          "name": "cell3Icon",
+          "type": "String",
+          "hasDefault": true
+        }
+      ]
+    },
+    {
+      "componentId": "HaCard/Heading",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/hacard-heading/ideal__default__card.png",
+          "state": "default",
+          "width": 945,
+          "height": 147,
+          "size": "card",
+          "livePreview": "https://preview.coo.ee/ha-cards/p/hacard-heading__ideal__default__card",
+          "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardHeadingSticker",
+          "density": 2.625,
+          "figmaSvg": "https://preview.coo.ee/ha-cards/render/hacard-heading__ideal__default__card.svg"
+        }
+      ],
+      "greenlines": [],
+      "redlines": [
+        {
+          "bounds": {
+            "x": 323,
+            "y": 42,
+            "width": 300,
+            "height": 63
+          },
+          "label": "Living room",
+          "padding": {
+            "start": 0,
+            "top": 8,
+            "end": 0,
+            "bottom": 8
+          }
+        }
+      ],
+      "group": "Home Assistant",
+      "caption": "HA's heading card: the title a dashboard section opens with.",
+      "noReference": "No published design kit covers Home Assistant cards in Remote Compose.",
+      "wireframe": "wireframes/hacard-heading.svg",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
+      "sourceModule": ":ha-cards-catalog",
+      "bodyLine": 141,
+      "sourceDirectory": "ha-cards-catalog",
+      "sourceFunction": "HaCardHeadingSticker",
+      "parameters": [
+        {
+          "name": "title",
+          "type": "String"
+        },
+        {
+          "name": "modifier",
+          "type": "RemoteModifier",
+          "hasDefault": true
+        },
+        {
+          "name": "subtitle",
+          "type": "Boolean",
+          "hasDefault": true
+        }
+      ]
+    },
+    {
+      "componentId": "HaCard/Button",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/hacard-button/ideal__default__compact.png",
+          "state": "default",
+          "width": 420,
+          "height": 420,
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/ha-cards/p/hacard-button__ideal__default__compact",
+          "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardButtonSticker",
+          "density": 2.625
+        }
+      ],
+      "greenlines": [
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button",
+          "detail": {
+            "role": "button",
+            "bounds": {
+              "x": 148,
+              "y": 120,
+              "width": 126,
+              "height": 182
+            }
+          },
+          "bounds": {
+            "x": 148,
+            "y": 120,
+            "width": 126,
+            "height": 182
+          }
+        }
+      ],
+      "redlines": [
+        {
+          "bounds": {
+            "x": 148,
+            "y": 120,
+            "width": 126,
+            "height": 182
+          },
+          "role": "Button",
+          "padding": {
+            "start": 12.190476,
+            "top": 12.190476,
+            "end": 11.809524,
+            "bottom": 11.809524
+          }
+        }
+      ],
+      "group": "Home Assistant",
+      "caption": "HA's button card: a large icon over the entity's name. Toggleable, its accent follows the entity and a tap toggles it.",
+      "noReference": "No published design kit covers Home Assistant cards in Remote Compose.",
+      "wireframe": "wireframes/hacard-button.svg",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
+      "sourceModule": ":ha-cards-catalog",
+      "bodyLine": 153,
+      "sourceDirectory": "ha-cards-catalog",
+      "sourceFunction": "HaCardButtonSticker",
+      "parameters": [
+        {
+          "name": "name",
+          "type": "String"
+        },
+        {
+          "name": "modifier",
+          "type": "RemoteModifier",
+          "hasDefault": true
+        },
+        {
+          "name": "entityId",
+          "type": "String",
+          "hasDefault": true
+        },
+        {
+          "name": "icon",
+          "type": "String",
+          "hasDefault": true
+        },
+        {
+          "name": "showName",
+          "type": "Boolean",
+          "hasDefault": true
+        },
+        {
+          "name": "toggleable",
+          "type": "Boolean",
+          "hasDefault": true
+        },
+        {
+          "name": "isOn",
+          "type": "Boolean",
+          "hasDefault": true
+        },
+        {
+          "name": "activeColor",
+          "type": "RemoteColor",
+          "hasDefault": true
+        },
+        {
+          "name": "inactiveColor",
+          "type": "RemoteColor",
+          "hasDefault": true
+        }
+      ]
+    },
+    {
+      "componentId": "HaCard/Toggle",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/hacard-toggle/ideal__default__compact.png",
+          "state": "default",
+          "width": 252,
+          "height": 147,
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/ha-cards/p/hacard-toggle__ideal__default__compact",
+          "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardToggleSticker",
+          "density": 2.625
+        }
+      ],
+      "greenlines": [],
+      "redlines": [
+        {
+          "bounds": {
+            "x": 124,
+            "y": 53,
+            "width": 42,
+            "height": 42
+          },
+          "padding": {
+            "start": 17.142857,
+            "top": 3.047619,
+            "end": 0,
+            "bottom": 0
+          }
+        }
+      ],
+      "group": "Home Assistant",
+      "caption": "The toggle switch an entities row ends in, tweening between its two accents.",
+      "noReference": "No published design kit covers Home Assistant cards in Remote Compose.",
+      "wireframe": "wireframes/hacard-toggle.svg",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
+      "sourceModule": ":ha-cards-catalog",
+      "bodyLine": 165,
+      "sourceDirectory": "ha-cards-catalog",
+      "sourceFunction": "HaCardToggleSticker",
+      "parameters": [
+        {
+          "name": "isOn",
+          "type": "Boolean"
+        },
+        {
+          "name": "modifier",
+          "type": "RemoteModifier",
+          "hasDefault": true
+        },
+        {
+          "name": "entityId",
+          "type": "String",
+          "hasDefault": true
+        },
+        {
+          "name": "activeColor",
+          "type": "RemoteColor",
+          "hasDefault": true
+        },
+        {
+          "name": "inactiveColor",
+          "type": "RemoteColor",
+          "hasDefault": true
+        }
+      ]
+    },
+    {
+      "componentId": "HaCard/Icon",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/hacard-icon/ideal__default__compact.png",
+          "state": "default",
+          "width": 189,
+          "height": 189,
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/ha-cards/p/hacard-icon__ideal__default__compact",
+          "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardIconSticker",
+          "density": 2.625
+        }
+      ],
+      "greenlines": [],
+      "redlines": [],
+      "group": "Iconography",
+      "caption": "An entity icon by key — light, switch, climate, sensor, fan, lock, … — tinted.",
+      "noReference": "No published design kit covers Home Assistant cards in Remote Compose.",
+      "wireframe": "wireframes/hacard-icon.svg",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
+      "sourceModule": ":ha-cards-catalog",
+      "bodyLine": 175,
+      "sourceDirectory": "ha-cards-catalog",
+      "sourceFunction": "HaCardIconSticker",
+      "parameters": [
+        {
+          "name": "icon",
+          "type": "String"
+        },
+        {
+          "name": "modifier",
+          "type": "RemoteModifier",
+          "hasDefault": true
+        },
+        {
+          "name": "color",
+          "type": "RemoteColor",
+          "hasDefault": true
+        },
+        {
+          "name": "sizeDp",
+          "type": "Int",
+          "hasDefault": true
+        }
+      ]
+    },
+    {
+      "componentId": "HaCard/Surface",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/hacard-surface/ideal__default__card.png",
+          "state": "default",
+          "width": 945,
+          "height": 368,
+          "size": "card",
+          "livePreview": "https://preview.coo.ee/ha-cards/p/hacard-surface__ideal__default__card",
+          "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardSurfaceSticker",
+          "density": 2.625
+        }
+      ],
+      "greenlines": [],
+      "redlines": [
+        {
+          "bounds": {
+            "x": 53,
+            "y": 81,
+            "width": 840,
+            "height": 207
+          },
+          "padding": {
+            "start": 12.190476,
+            "top": 12.190476,
+            "end": 11.809524,
+            "bottom": 11.809524
+          }
+        },
+        {
+          "bounds": {
+            "x": 53,
+            "y": 102,
+            "width": 142,
+            "height": 49
+          },
+          "label": "Kitchen",
+          "padding": {
+            "start": 0,
+            "top": 8,
+            "end": 0,
+            "bottom": 8
+          }
+        }
+      ],
+      "group": "Containment",
+      "caption": "The surface a dashboard card sits on — the theme's card background, divider and 12dp inset — here around a heading and a tile. The Dashboard card root exports as this.",
+      "noReference": "No published design kit covers Home Assistant cards in Remote Compose.",
+      "wireframe": "wireframes/hacard-surface.svg",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
+      "sourceModule": ":ha-cards-catalog",
+      "bodyLine": 189,
+      "sourceDirectory": "ha-cards-catalog",
+      "sourceFunction": "HaCardSurfaceSticker",
+      "parameters": [
+        {
+          "name": "modifier",
+          "type": "RemoteModifier",
+          "hasDefault": true
+        },
+        {
+          "name": "content",
+          "type": "() -> Unit",
+          "composableSlot": true
+        }
+      ]
+    },
+    {
+      "componentId": "Remote/Card",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/remote-card/ideal__default__card.png",
+          "state": "default",
+          "width": 945,
+          "height": 252,
+          "size": "card",
+          "livePreview": "https://preview.coo.ee/ha-cards/p/remote-card__ideal__default__card",
+          "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteCardSticker",
+          "density": 2.625
+        }
+      ],
+      "greenlines": [
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button",
+          "detail": {
+            "role": "button",
+            "bounds": {
+              "x": 53,
+              "y": 74,
+              "width": 840,
+              "height": 105
+            }
+          },
+          "bounds": {
+            "x": 53,
+            "y": 74,
+            "width": 840,
+            "height": 105
+          }
+        }
+      ],
+      "redlines": [
+        {
+          "bounds": {
+            "x": 53,
+            "y": 74,
+            "width": 840,
+            "height": 105
+          },
+          "role": "Button",
+          "padding": {
+            "start": 12.190476,
+            "top": 12.190476,
+            "end": 11.809524,
+            "bottom": 11.809524
+          }
+        }
+      ],
+      "group": "Containment",
+      "caption": "Remote Material 3's RemoteCard, as remote-m3 offers it.",
+      "noReference": "No published design kit covers Home Assistant cards in Remote Compose.",
+      "wireframe": "wireframes/remote-card.svg",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
+      "sourceModule": ":ha-cards-catalog",
+      "bodyLine": 206,
+      "sourceDirectory": "ha-cards-catalog",
+      "sourceFunction": "RemoteCardSticker",
+      "parameters": [
+        {
+          "name": "content",
+          "type": "() -> Unit",
+          "composableSlot": true
+        }
+      ]
+    },
+    {
+      "componentId": "Remote/Button",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/remote-button/ideal__default__compact.png",
+          "state": "default",
+          "width": 567,
+          "height": 200,
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/ha-cards/p/remote-button__ideal__default__compact",
+          "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteButtonSticker",
+          "density": 2.625
+        }
+      ],
+      "greenlines": [
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button",
+          "detail": {
+            "role": "button",
+            "bounds": {
+              "x": 176,
+              "y": 47,
+              "width": 216,
+              "height": 105
+            }
+          },
+          "bounds": {
+            "x": 176,
+            "y": 47,
+            "width": 216,
+            "height": 105
+          }
+        }
+      ],
+      "redlines": [
+        {
+          "bounds": {
+            "x": 176,
+            "y": 47,
+            "width": 216,
+            "height": 105
+          },
+          "role": "Button",
+          "padding": {
+            "start": 14.095238,
+            "top": 6.095238,
+            "end": 14.095238,
+            "bottom": 6.095238
+          }
+        }
+      ],
+      "group": "Buttons",
+      "caption": "Remote Material 3's RemoteButton, as remote-m3 offers it: here, running a scene.",
+      "noReference": "No published design kit covers Home Assistant cards in Remote Compose.",
+      "wireframe": "wireframes/remote-button.svg",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
+      "sourceModule": ":ha-cards-catalog",
+      "bodyLine": 224,
+      "sourceDirectory": "ha-cards-catalog",
+      "sourceFunction": "RemoteButtonSticker",
+      "parameters": [
+        {
+          "name": "content",
+          "type": "() -> Unit",
+          "composableSlot": true
+        }
+      ]
+    },
+    {
+      "componentId": "Remote/SwitchButton",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/remote-switchbutton/ideal__default__compact.png",
+          "state": "default",
+          "width": 567,
+          "height": 200,
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/ha-cards/p/remote-switchbutton__ideal__default__compact",
+          "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteSwitchButtonSticker",
+          "density": 2.625
+        }
+      ],
+      "greenlines": [
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button",
+          "detail": {
+            "role": "button",
+            "bounds": {
+              "x": 58,
+              "y": 52,
+              "width": 451,
+              "height": 95
+            }
+          },
+          "bounds": {
+            "x": 58,
+            "y": 52,
+            "width": 451,
+            "height": 95
+          }
+        }
+      ],
+      "redlines": [
+        {
+          "bounds": {
+            "x": 58,
+            "y": 52,
+            "width": 451,
+            "height": 95
+          },
+          "role": "Button",
+          "padding": {
+            "start": 14.095238,
+            "top": 8,
+            "end": 14.095238,
+            "bottom": 8
+          }
+        }
+      ],
+      "group": "Selection buttons",
+      "caption": "Remote Material 3's RemoteSwitchButton: a labelled switch, checked.",
+      "noReference": "No published design kit covers Home Assistant cards in Remote Compose.",
+      "wireframe": "wireframes/remote-switchbutton.svg",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
+      "sourceModule": ":ha-cards-catalog",
+      "bodyLine": 236,
+      "sourceDirectory": "ha-cards-catalog",
+      "sourceFunction": "RemoteSwitchButtonSticker",
+      "parameters": [
+        {
+          "name": "content",
+          "type": "() -> Unit",
+          "composableSlot": true
+        }
+      ]
+    },
+    {
+      "componentId": "Remote/Text",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/remote-text/ideal__default__compact.png",
+          "state": "default",
+          "width": 567,
+          "height": 147,
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/ha-cards/p/remote-text__ideal__default__compact",
+          "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteTextSticker",
+          "density": 2.625,
+          "figmaSvg": "https://preview.coo.ee/ha-cards/render/remote-text__ideal__default__compact.svg"
+        }
+      ],
+      "greenlines": [],
+      "redlines": [],
+      "group": "Text",
+      "caption": "Remote Material 3's RemoteText, set by size: the text every template binds.",
+      "noReference": "No published design kit covers Home Assistant cards in Remote Compose.",
+      "wireframe": "wireframes/remote-text.svg",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
+      "sourceModule": ":ha-cards-catalog",
+      "bodyLine": 255,
+      "sourceDirectory": "ha-cards-catalog",
+      "sourceFunction": "RemoteTextSticker",
+      "parameters": [
+        {
+          "name": "content",
+          "type": "() -> Unit",
+          "composableSlot": true
+        }
+      ]
+    }
+  ],
+  "library": [
+    "androidx.compose.remote:remote-creation-compose",
+    "androidx.wear.compose.remote:remote-material3",
+    "ee.schimke.ha:rc-components (RemoteHa* cards)"
+  ],
+  "renderer": "compose-preview 2.54.0",
+  "generatedAt": "2026-10-12T23:16:48.802Z",
+  "display": {
+    "surface": "light",
+    "hero": "HaCard/Tile"
+  },
+  "liveBundle": {
+    "path": "bundle/",
+    "file": "bundle.png"
+  },
+  "liveBundles": [
+    {
+      "path": "bundle/",
+      "file": "bundle.png",
+      "module": ":ha-cards-catalog",
+      "previewIdPrefix": ""
+    }
+  ],
+  "componentsFile": "components.json",
+  "uiBuilderFile": "ui-builder.json",
+  "source": {
+    "repo": "yschimke/homeassistant-remotecompose",
+    "ref": "52ed43ae5dc538ff09dd88bd8c160fc23427edb1",
+    "module": ":ha-cards-catalog"
+  }
+}
