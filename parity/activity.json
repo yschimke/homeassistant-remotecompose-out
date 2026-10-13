@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-13T20:00:14.740Z",
+  "generatedAt": "2026-10-13T22:09:31.921Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "822d282e61aa9785c2461b369fddcd4e30a81e0b",
+        "subject": "fix: keep offline Robolectric SDK images aligned with API 35 tests (#762)",
+        "at": "2026-10-13T22:15:28+01:00",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "9d7dbbd916725a26688c84173813ca9f02869cf5",
+        "subject": "fix: make Card Studio browser handoffs work with published catalogs (#787)",
+        "at": "2026-10-13T21:14:13+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "d32323bf379c2b2958cdcc62c963d01afab4272f",
         "subject": "fix(ui-builder-catalog): correct live metric and release metadata (#786)",
@@ -467,22 +483,6 @@
         "subject": "ci: pin the UID parity comment workflow to design-parity#553 (#728)",
         "at": "2026-10-11T13:14:27+01:00",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "1d5a0ea60cc93dc690f81bb8dcc8f993ae02117e",
-        "subject": "ci: post a sticky UID parity comment on pull requests (#727)",
-        "at": "2026-10-11T12:04:09+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "be5693740d4a8df584f03d85a9bbbb72bae35897",
-        "subject": "fix(deps): update dependency ee.schimke.composeai:data-render-core to v3.28.0 (#726)",
-        "at": "2026-10-11T09:57:18Z",
-        "author": "renovate[bot]",
         "previewIds": [],
         "components": []
       }
