@@ -96,6 +96,8 @@ The render task completed but no PNG was produced for these previews. Entries wi
 | `HaCardGlanceSticker` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/HaCardGlanceSticker-ed578dc9.png" width="150" /> |
 | `HaCardHeadingSticker` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/HaCardHeadingSticker-ead292c1.png" width="150" /> |
 | `HaCardIconSticker` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/HaCardIconSticker-abac8ae5.png" width="150" /> |
+| `HaCardMetricSticker` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/HaCardMetricSticker-5f00defd.png" width="150" /> |
+| `HaCardStatusChipSticker` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/HaCardStatusChipSticker-491fda3b.png" width="150" /> |
 | `HaCardSurfaceSticker` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/HaCardSurfaceSticker-8638109c.png" width="150" /> |
 | `HaCardTileSticker` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/HaCardTileSticker-91a245fb.png" width="150" /> |
 | `HaCardToggleSticker` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/HaCardToggleSticker-07b8d001.png" width="150" /> |
