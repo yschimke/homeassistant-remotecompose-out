@@ -1,6 +1,6 @@
 # Accessibility Report
 
-_Auto-generated from `compose-preview/a11y/pr`. 3 preview(s) across 1 module(s) · 62 error(s) · 9 warning(s) · 3 info._
+_Auto-generated from `compose-preview/a11y/pr`. 2 preview(s) across 1 module(s) · 57 error(s) · 9 warning(s) · 3 info._
 
 Browse inline; image URLs are pinned to the commit SHA on the baseline branch so links keep resolving after merge.
 
@@ -76,18 +76,6 @@ Browse inline; image URLs are pinned to the commit SHA on the baseline branch so
 | 62 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Latest release, Latest release, V0.1.2" is identical to that of 1 other item(s). |
 | 63 | WARNING | DuplicateSpeakableTextCheck | android.widget.Button | This clickable item's speakable text: "cadence" is identical to that of 1 other item(s). |
 | 64 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Latest tag, Latest tag, V0.1.2" is identical to that of 1 other item(s). |
-
-### `DashboardSecurityMobile`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/DashboardSecurityMobile_dashboard_security_mobile-842e09ef.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
-| 2 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
-| 3 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 44dp. Consider making the height of this touch target 48dp or larger. |
-| 4 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 44dp. Consider making the height of this touch target 48dp or larger. |
-| 5 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 46dp. Consider making the height of this touch target 48dp or larger. |
 
 ### `DashboardSecurityTablet`
 
