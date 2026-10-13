@@ -110,14 +110,14 @@
 <body>
 <header class="top">
   <h1>Home Assistant cards · RemoteCompose</h1>
-  <div class="subtitle">system <code>ha-cards</code> · androidx.compose.remote:remote-creation-compose, androidx.wear.compose.remote:remote-material3, ee.schimke.ha:rc-components (RemoteHa* cards) · rendered by compose-preview 2.54.0 · 2026-10-12T23:16:48.802Z · 14 components</div>
+  <div class="subtitle">system <code>ha-cards</code> · androidx.compose.remote:remote-creation-compose, androidx.wear.compose.remote:remote-material3, ee.schimke.ha:rc-components (RemoteHa* cards) · rendered by compose-preview 2.54.0 · 2026-10-13T08:44:49.076Z · 16 components</div>
   <div class="subtitle"><a class="pagelink" href="compare.html">SVG vs PNG compare ↗</a> <a class="pagelink" href="rc-compare.html">PNG vs Remote Compose ↗</a></div>
 </header>
 
 <div class="layout">
   <nav class="index"><section class="nav-group">
-      <a class="nav-head" href="#g-home-assistant">Home Assistant <span>8</span></a>
-      <ul><li><a href="#c-hacard-tile">HaCard/Tile</a></li><li><a href="#c-hacard-entityrow">HaCard/EntityRow</a></li><li><a href="#c-hacard-entities">HaCard/Entities</a></li><li><a href="#c-hacard-gauge">HaCard/Gauge</a></li><li><a href="#c-hacard-glance">HaCard/Glance</a></li><li><a href="#c-hacard-heading">HaCard/Heading</a></li><li><a href="#c-hacard-button">HaCard/Button</a></li><li><a href="#c-hacard-toggle">HaCard/Toggle</a></li></ul>
+      <a class="nav-head" href="#g-home-assistant">Home Assistant <span>10</span></a>
+      <ul><li><a href="#c-hacard-tile">HaCard/Tile</a></li><li><a href="#c-hacard-entityrow">HaCard/EntityRow</a></li><li><a href="#c-hacard-metric">HaCard/Metric</a></li><li><a href="#c-hacard-statuschip">HaCard/StatusChip</a></li><li><a href="#c-hacard-entities">HaCard/Entities</a></li><li><a href="#c-hacard-gauge">HaCard/Gauge</a></li><li><a href="#c-hacard-glance">HaCard/Glance</a></li><li><a href="#c-hacard-heading">HaCard/Heading</a></li><li><a href="#c-hacard-button">HaCard/Button</a></li><li><a href="#c-hacard-toggle">HaCard/Toggle</a></li></ul>
     </section><section class="nav-group">
       <a class="nav-head" href="#g-iconography">Iconography <span>1</span></a>
       <ul><li><a href="#c-hacard-icon">HaCard/Icon</a></li></ul>
@@ -149,6 +149,22 @@
   <div class="meta">
     <h3><a class="ctitle" href="#d-hacard-entityrow">HaCard/EntityRow</a></h3>
     <div class="sub">945×147<a class="wf" href="wireframes/hacard-entityrow.svg" target="_blank" rel="noopener">wireframe ↗</a><a class="wf figma-svg-link" href="figma/hacard-entityrow.svg" target="_blank" rel="noopener">figma svg ↗</a></div>
+    
+  </div>
+</article>
+<article class="card" id="c-hacard-metric">
+  <a class="shot" href="#d-hacard-metric" aria-label="Zoom HaCard/Metric"><img loading="lazy" src="images/hacard-metric/ideal__default__compact.png" alt="HaCard/Metric" /></a>
+  <div class="meta">
+    <h3><a class="ctitle" href="#d-hacard-metric">HaCard/Metric</a></h3>
+    <div class="sub">441×231<a class="wf" href="wireframes/hacard-metric.svg" target="_blank" rel="noopener">wireframe ↗</a><a class="wf figma-svg-link" href="https://preview.coo.ee/ha-cards/render/hacard-metric__ideal__default__compact.svg" target="_blank" rel="noopener">figma svg ↗</a></div>
+    
+  </div>
+</article>
+<article class="card" id="c-hacard-statuschip">
+  <a class="shot" href="#d-hacard-statuschip" aria-label="Zoom HaCard/StatusChip"><img loading="lazy" src="images/hacard-statuschip/ideal__default__compact.png" alt="HaCard/StatusChip" /></a>
+  <div class="meta">
+    <h3><a class="ctitle" href="#d-hacard-statuschip">HaCard/StatusChip</a></h3>
+    <div class="sub">420×137<a class="wf" href="wireframes/hacard-statuschip.svg" target="_blank" rel="noopener">wireframe ↗</a><a class="wf figma-svg-link" href="figma/hacard-statuschip.svg" target="_blank" rel="noopener">figma svg ↗</a></div>
     
   </div>
 </article>
@@ -281,6 +297,24 @@
     <h3>HaCard/EntityRow</h3>
     <div class="detail-caption">One row of HA&#39;s entities card, or a whole entity card: icon, name and state.</div>
     <div class="detail-states"><figure class="state"><figcaption>default</figcaption><div class="state-shots"><div class="state-shot"><img loading="lazy" src="images/hacard-entityrow/ideal__default__card.png" alt="HaCard/EntityRow default" /><span>card</span></div></div></figure></div>
+  </div>
+</div>
+<div class="detail" id="d-hacard-metric" role="dialog" aria-label="HaCard/Metric">
+  <a class="detail-scrim" href="#c-hacard-metric" aria-label="Close"></a>
+  <div class="detail-panel">
+    <a class="detail-x" href="#c-hacard-metric" aria-label="Close">×</a>
+    <h3>HaCard/Metric</h3>
+    <div class="detail-caption">A reusable sensor reading with a live value, a separate unit and a custom text color.</div>
+    <div class="detail-states"><figure class="state"><figcaption>default</figcaption><div class="state-shots"><div class="state-shot"><img loading="lazy" src="images/hacard-metric/ideal__default__compact.png" alt="HaCard/Metric default" /><span>compact</span></div></div></figure></div>
+  </div>
+</div>
+<div class="detail" id="d-hacard-statuschip" role="dialog" aria-label="HaCard/StatusChip">
+  <a class="detail-scrim" href="#c-hacard-statuschip" aria-label="Close"></a>
+  <div class="detail-panel">
+    <a class="detail-x" href="#c-hacard-statuschip" aria-label="Close">×</a>
+    <h3>HaCard/StatusChip</h3>
+    <div class="detail-caption">A small colored status indicator whose text and active state can follow an entity.</div>
+    <div class="detail-states"><figure class="state"><figcaption>default</figcaption><div class="state-shots"><div class="state-shot"><img loading="lazy" src="images/hacard-statuschip/ideal__default__compact.png" alt="HaCard/StatusChip default" /><span>compact</span></div></div></figure></div>
   </div>
 </div>
 <div class="detail" id="d-hacard-entities" role="dialog" aria-label="HaCard/Entities">

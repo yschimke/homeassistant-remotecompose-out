@@ -11,7 +11,7 @@
     "record": {
         "file": "components.json",
         "schemaVersion": 2,
-        "components": 16
+        "components": 18
     },
     "statusSemantics": {
         "platform": "remote-compose",
@@ -70,6 +70,12 @@
                 },
                 "ha-cards/icon": {
                     "group": "Iconography"
+                },
+                "ha-cards/metric": {
+                    "group": "Home Assistant"
+                },
+                "ha-cards/status-chip": {
+                    "group": "Home Assistant"
                 },
                 "ha-cards/card-surface": {
                     "group": "Containment"
@@ -155,6 +161,7 @@
             "ui-builder/designs/card-light-tile.json",
             "ui-builder/designs/card-entities.json",
             "ui-builder/designs/card-gauge.json",
+            "ui-builder/designs/card-sensor-metric.json",
             "ui-builder/designs/wear-light-small.json",
             "ui-builder/designs/wear-entities-large.json",
             "ui-builder/designs/launcher-fan-2x2.json",
@@ -162,7 +169,7 @@
         ],
         "newDesign": {
             "label": "Home Assistant",
-            "order": null,
+            "order": 0,
             "templates": [
                 {
                     "id": "card-light-tile",
@@ -192,13 +199,22 @@
                     "order": 3
                 },
                 {
+                    "id": "card-sensor-metric",
+                    "path": "ui-builder/designs/card-sensor-metric.json",
+                    "label": "Sensor metric",
+                    "supportingText": "An editable label, live sensor value, and separate unit. Change the entity and styling to make a new sensor card.",
+                    "group": "Dashboard card",
+                    "default": false,
+                    "order": 4
+                },
+                {
                     "id": "wear-light-small",
                     "path": "ui-builder/designs/wear-light-small.json",
                     "label": "Light · Small",
                     "supportingText": "One light's name, state and switch in the Small Wear widget container (216×76dp).",
                     "group": "Wear widget",
                     "default": false,
-                    "order": 4
+                    "order": 5
                 },
                 {
                     "id": "wear-entities-large",
@@ -207,7 +223,7 @@
                     "supportingText": "A room's title and two entities in the Large Wear widget container (216×124dp).",
                     "group": "Wear widget",
                     "default": false,
-                    "order": 5
+                    "order": 6
                 },
                 {
                     "id": "launcher-fan-2x2",
@@ -216,7 +232,7 @@
                     "supportingText": "HA's button card for a fan as a 2x2 phone launcher widget; a tap toggles the fan.",
                     "group": "Launcher widget",
                     "default": false,
-                    "order": 6
+                    "order": 7
                 },
                 {
                     "id": "launcher-entities-4x2",
@@ -225,7 +241,7 @@
                     "supportingText": "A room's entity rows as a 4x2 phone launcher widget, each bound to its entity.",
                     "group": "Launcher widget",
                     "default": false,
-                    "order": 7
+                    "order": 8
                 }
             ]
         },
@@ -1266,6 +1282,138 @@
                 "shelfRole": null,
                 "exportProjection": null
             },
+            "ha-cards/metric": {
+                "record": "ha-cards-catalog/ee.schimke.ha.cards.HaCardComponentsKt.HaCardMetric",
+                "catalogId": null,
+                "displayName": "Metric · label and value",
+                "canvas": null,
+                "canvasMapping": null,
+                "unrolled": null,
+                "nativeOnly": false,
+                "traits": [],
+                "slots": {},
+                "stateCallbacks": {},
+                "starter": {},
+                "variantProperty": null,
+                "variants": {},
+                "excluded": null,
+                "propertyCapabilities": [
+                    {
+                        "name": "label",
+                        "jsonType": "string",
+                        "required": true,
+                        "notes": "A short label above the reading."
+                    },
+                    {
+                        "name": "value",
+                        "jsonType": "string",
+                        "required": true,
+                        "notes": "The sensor state. With entityId set, this uses the live <entityId>.state binding."
+                    },
+                    {
+                        "name": "unit",
+                        "jsonType": "string",
+                        "required": false,
+                        "notes": "A separate unit placed beside the reading, such as °C or %."
+                    },
+                    {
+                        "name": "entityId",
+                        "jsonType": "string",
+                        "required": false,
+                        "notes": "The Home Assistant sensor to follow live. Leave blank for a static value."
+                    },
+                    {
+                        "name": "valueColor",
+                        "jsonType": "string",
+                        "required": false,
+                        "notes": "A #AARRGGBB text color. Unset follows the current Home Assistant theme."
+                    }
+                ],
+                "slotCapabilities": null,
+                "modifierCapabilities": null,
+                "insertContent": {
+                    "properties": {
+                        "label": {
+                            "type": "string",
+                            "value": "Living room"
+                        },
+                        "value": {
+                            "type": "string",
+                            "value": "21.5"
+                        },
+                        "unit": {
+                            "type": "string",
+                            "value": "°C"
+                        }
+                    }
+                },
+                "shelfRole": null,
+                "exportProjection": null
+            },
+            "ha-cards/status-chip": {
+                "record": "ha-cards-catalog/ee.schimke.ha.cards.HaCardComponentsKt.HaCardStatusChip",
+                "catalogId": null,
+                "displayName": "Status chip",
+                "canvas": null,
+                "canvasMapping": null,
+                "unrolled": null,
+                "nativeOnly": false,
+                "traits": [],
+                "slots": {},
+                "stateCallbacks": {},
+                "starter": {},
+                "variantProperty": null,
+                "variants": {},
+                "excluded": null,
+                "propertyCapabilities": [
+                    {
+                        "name": "status",
+                        "jsonType": "string",
+                        "required": true,
+                        "notes": "Short state text. With entityId set, it follows the live <entityId>.state binding."
+                    },
+                    {
+                        "name": "entityId",
+                        "jsonType": "string",
+                        "required": false,
+                        "notes": "The entity whose state text and is_on flag update this chip."
+                    },
+                    {
+                        "name": "isOn",
+                        "jsonType": "boolean",
+                        "required": false,
+                        "notes": "The initial active state, or the static state when no entity is bound."
+                    },
+                    {
+                        "name": "activeColor",
+                        "jsonType": "string",
+                        "required": false,
+                        "notes": "A #AARRGGBB color for active state; default HA amber."
+                    },
+                    {
+                        "name": "inactiveColor",
+                        "jsonType": "string",
+                        "required": false,
+                        "notes": "A #AARRGGBB color for inactive state; default HA grey."
+                    }
+                ],
+                "slotCapabilities": null,
+                "modifierCapabilities": null,
+                "insertContent": {
+                    "properties": {
+                        "status": {
+                            "type": "string",
+                            "value": "On"
+                        },
+                        "isOn": {
+                            "type": "bool",
+                            "value": true
+                        }
+                    }
+                },
+                "shelfRole": null,
+                "exportProjection": null
+            },
             "ha-cards/card-surface": {
                 "record": "ha-cards-catalog/ee.schimke.ha.cards.HaCardComponentsKt.HaCardSurface",
                 "catalogId": null,
@@ -1501,6 +1649,16 @@
         {
             "code": "component.canvas.unclaimed",
             "subject": "ha-cards/icon",
+            "message": "no canvas adapter claimed, so it draws as a placeholder. That is the honest default and needs no fixing; it is reported so a shelf drawn entirely in placeholders is visible rather than mysterious."
+        },
+        {
+            "code": "component.canvas.unclaimed",
+            "subject": "ha-cards/metric",
+            "message": "no canvas adapter claimed, so it draws as a placeholder. That is the honest default and needs no fixing; it is reported so a shelf drawn entirely in placeholders is visible rather than mysterious."
+        },
+        {
+            "code": "component.canvas.unclaimed",
+            "subject": "ha-cards/status-chip",
             "message": "no canvas adapter claimed, so it draws as a placeholder. That is the honest default and needs no fixing; it is reported so a shelf drawn entirely in placeholders is visible rather than mysterious."
         },
         {
