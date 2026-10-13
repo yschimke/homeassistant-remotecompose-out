@@ -1,10 +1,16 @@
 # Accessibility Report
 
-_Auto-generated from `compose-preview/a11y/pr`. 1 preview(s) across 1 module(s) · 20 error(s) · 5 warning(s) · 1 info._
+_Auto-generated from `compose-preview/a11y/pr`. 2 preview(s) across 1 module(s) · 20 error(s) · 5 warning(s) · 1 info._
 
 Browse inline; image URLs are pinned to the commit SHA on the baseline branch so links keep resolving after merge.
 
 ## previews
+
+### `Dashboard3dPrintingMobile`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Dashboard3dPrintingMobile_dashboard_3d_printing_mobile-2701c9cf.png" width="400" />
+
+_No findings._
 
 ### `Dashboard3dPrintingTablet`
 
