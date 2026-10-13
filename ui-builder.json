@@ -138,12 +138,54 @@
         "frame": null,
         "code": null,
         "composeSourceExport": null,
-        "templates": [],
-        "newDesign": null,
+        "templates": [
+            "ui-builder/designs/heading.json"
+        ],
+        "newDesign": {
+            "label": null,
+            "order": null,
+            "templates": [
+                {
+                    "id": "heading",
+                    "path": "ui-builder/designs/heading.json",
+                    "label": "Home Assistant cards",
+                    "supportingText": null,
+                    "group": null,
+                    "default": true,
+                    "order": null
+                }
+            ]
+        },
         "colorTokens": null,
         "assetRegistry": null,
         "supersedes": null,
-        "builtins": {},
+        "builtins": {
+            "m3/text": {
+                "role": "decoration",
+                "displayName": null,
+                "group": null,
+                "canvas": "m3/text",
+                "unrolled": null,
+                "traits": [],
+                "slots": {},
+                "properties": [
+                    {
+                        "name": "text",
+                        "jsonType": [
+                            "string",
+                            "object"
+                        ]
+                    }
+                ],
+                "modifierCapabilities": null,
+                "insertContent": null,
+                "implementation": null,
+                "shelfRole": null,
+                "wasm": null,
+                "code": null,
+                "svg": null
+            }
+        },
         "components": {
             "homeassistant-remotecompose/heading": {
                 "record": ":ui-builder-catalog/ee.schimke.ha.rc.ui.HaHeadingKt.HaHeading",

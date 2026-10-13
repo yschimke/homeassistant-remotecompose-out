@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-13T22:09:31.921Z",
+  "generatedAt": "2026-10-13T23:07:27.065Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "7bee3e233f5128e5861c43ffbf069ead59772b84",
+        "subject": "fix(deps): update dependency org.jetbrains:markdown to v0.7.17 (#788)",
+        "at": "2026-10-13T22:14:17Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "f68699b9ffa87a49a7363f6f1676da819babbcec",
+        "subject": "chore(deps): update dependency com.gradleup.tapmoc to v0.5.0 (#789)",
+        "at": "2026-10-13T22:14:14Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "a51340a9309c1fc2f47663d6ba3002d9480bdf78",
+        "subject": "feat(ui-builder): publish the complete typed native card catalog (#785)",
+        "at": "2026-10-13T22:38:51+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "822d282e61aa9785c2461b369fddcd4e30a81e0b",
         "subject": "fix: keep offline Robolectric SDK images aligned with API 35 tests (#762)",
@@ -458,30 +482,6 @@
         "sha": "dc167af5347c3622a0c3dd463aa3485a09ecff5c",
         "subject": "feat: play cards and previews with the CMP Remote Compose player (#731)",
         "at": "2026-10-11T14:25:14+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ce5b00b81b5ef0bfd989495cb38fe857868ce2b3",
-        "subject": "ci: run the UID design audit on CLI 2.45.0 (#730)",
-        "at": "2026-10-11T13:42:31+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ac996af5a48fabd033fa411f931ae1532685b513",
-        "subject": "ci: skip the heavy CI lanes on release-please PRs (#729)",
-        "at": "2026-10-11T13:22:18+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "d41ca89e0b38a48d7a9b06f67f50418b038b5b51",
-        "subject": "ci: pin the UID parity comment workflow to design-parity#553 (#728)",
-        "at": "2026-10-11T13:14:27+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []

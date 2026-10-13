@@ -1,0 +1,125 @@
+{
+  "schema": "compose-ui-builder-document/v1-candidate",
+  "id": "external-ha-heading",
+  "title": "External Home Assistant",
+  "revision": 0,
+  "catalogPin": {
+    "catalogId": "homeassistant-remotecompose"
+  },
+  "environment": {
+    "theme": "light"
+  },
+  "stateVariables": {},
+  "nodes": {
+    "stack": {
+      "id": "stack",
+      "componentId": "homeassistant-remotecompose/vertical-stack",
+      "slots": {
+        "content": [
+          "heading",
+          "child",
+          "row"
+        ]
+      }
+    },
+    "heading": {
+      "id": "heading",
+      "componentId": "homeassistant-remotecompose/heading",
+      "properties": {
+        "data": {
+          "type": "object",
+          "fields": {
+            "title": {
+              "type": "string",
+              "value": "Kitchen"
+            }
+          }
+        }
+      },
+      "modifiers": [
+        {
+          "type": "height",
+          "heightDp": 64
+        }
+      ]
+    },
+    "child": {
+      "id": "child",
+      "componentId": "m3/text",
+      "properties": {
+        "text": {
+          "type": "string",
+          "value": "Published slot child"
+        }
+      }
+    },
+    "row": {
+      "id": "row",
+      "componentId": "homeassistant-remotecompose/horizontal-stack",
+      "slots": {
+        "content": [
+          "tile"
+        ]
+      }
+    },
+    "tile": {
+      "id": "tile",
+      "componentId": "homeassistant-remotecompose/tile",
+      "properties": {
+        "data": {
+          "type": "object",
+          "fields": {
+            "name": {
+              "type": "string",
+              "value": "Kitchen light"
+            },
+            "state": {
+              "type": "string",
+              "value": "On"
+            },
+            "icon": {
+              "type": "string",
+              "value": "filled/lightbulb"
+            },
+            "accent": {
+              "type": "object",
+              "fields": {
+                "activeAccent": {
+                  "type": "string",
+                  "value": "#FFFFC107"
+                },
+                "inactiveAccent": {
+                  "type": "string",
+                  "value": "#FF8F8F8F"
+                },
+                "isOn": {
+                  "type": "bool",
+                  "value": true
+                }
+              }
+            },
+            "tapAction": {
+              "type": "union",
+              "case": "toggle",
+              "fields": {
+                "entityId": {
+                  "type": "string",
+                  "value": "light.kitchen"
+                }
+              }
+            }
+          }
+        }
+      },
+      "modifiers": [
+        {
+          "type": "height",
+          "heightDp": 48
+        }
+      ]
+    }
+  },
+  "roots": [
+    "stack"
+  ]
+}
