@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-13T21:24:46.468Z",
+  "generatedAt": "2026-10-13T21:54:59.422Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "a51340a9309c1fc2f47663d6ba3002d9480bdf78",
+        "subject": "feat(ui-builder): publish the complete typed native card catalog (#785)",
+        "at": "2026-10-13T22:38:51+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "822d282e61aa9785c2461b369fddcd4e30a81e0b",
         "subject": "fix: keep offline Robolectric SDK images aligned with API 35 tests (#762)",
@@ -474,14 +482,6 @@
         "sha": "ac996af5a48fabd033fa411f931ae1532685b513",
         "subject": "ci: skip the heavy CI lanes on release-please PRs (#729)",
         "at": "2026-10-11T13:22:18+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "d41ca89e0b38a48d7a9b06f67f50418b038b5b51",
-        "subject": "ci: pin the UID parity comment workflow to design-parity#553 (#728)",
-        "at": "2026-10-11T13:14:27+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
