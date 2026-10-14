@@ -1909,6 +1909,375 @@
             ]
         },
         {
+            "canonicalId": "ha-cards-catalog/ee.schimke.ha.cards.HaCardComponentsKt.HaCardArcMeter",
+            "componentIds": [
+                "HaCard/ArcMeter"
+            ],
+            "symbol": {
+                "jvmOwner": "ee.schimke.ha.cards.HaCardComponentsKt",
+                "callable": "ee.schimke.ha.cards.HaCardArcMeter",
+                "name": "HaCardArcMeter",
+                "origin": "PROJECT",
+                "jvmName": "HaCardArcMeter",
+                "descriptor": "(FLandroidx/compose/remote/creation/compose/modifier/RemoteModifier;FFLjava/lang/String;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/runtime/Composer;II)V",
+                "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
+                "docs": "unavailable",
+                "receiver": null
+            },
+            "parameters": [
+                {
+                    "name": "value",
+                    "type": "Float",
+                    "typeFqn": "kotlin.Float",
+                    "hasDefault": false,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "modifier",
+                    "type": "RemoteModifier",
+                    "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "min",
+                    "type": "Float",
+                    "typeFqn": "kotlin.Float",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "max",
+                    "type": "Float",
+                    "typeFqn": "kotlin.Float",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "entityId",
+                    "type": "String",
+                    "typeFqn": "kotlin.String",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "color",
+                    "type": "RemoteColor",
+                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                }
+            ],
+            "slots": [],
+            "bindings": [
+                {
+                    "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardArcMeterSticker",
+                    "componentId": "HaCard/ArcMeter",
+                    "group": "Measurements"
+                }
+            ],
+            "code": {
+                "call": "HaCardArcMeter(value = 0f)",
+                "imports": [
+                    "ee.schimke.ha.cards.HaCardArcMeter"
+                ],
+                "refusedReason": null,
+                "requiredOptIns": [],
+                "androidxOptIns": []
+            },
+            "signatureKnown": true,
+            "callableFromAnotherFile": true,
+            "hasTypeParameters": false,
+            "hasContextReceivers": false,
+            "overloadsCollided": false,
+            "builder": null,
+            "requiredOptIns": [],
+            "androidxOptIns": [],
+            "overloads": []
+        },
+        {
+            "canonicalId": "ha-cards-catalog/ee.schimke.ha.cards.HaCardComponentsKt.HaCardBarMeter",
+            "componentIds": [
+                "HaCard/BarMeter"
+            ],
+            "symbol": {
+                "jvmOwner": "ee.schimke.ha.cards.HaCardComponentsKt",
+                "callable": "ee.schimke.ha.cards.HaCardBarMeter",
+                "name": "HaCardBarMeter",
+                "origin": "PROJECT",
+                "jvmName": "HaCardBarMeter",
+                "descriptor": "(FLandroidx/compose/remote/creation/compose/modifier/RemoteModifier;FFLjava/lang/String;ZLandroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/runtime/Composer;II)V",
+                "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
+                "docs": "unavailable",
+                "receiver": null
+            },
+            "parameters": [
+                {
+                    "name": "value",
+                    "type": "Float",
+                    "typeFqn": "kotlin.Float",
+                    "hasDefault": false,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "modifier",
+                    "type": "RemoteModifier",
+                    "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "min",
+                    "type": "Float",
+                    "typeFqn": "kotlin.Float",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "max",
+                    "type": "Float",
+                    "typeFqn": "kotlin.Float",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "entityId",
+                    "type": "String",
+                    "typeFqn": "kotlin.String",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "vertical",
+                    "type": "Boolean",
+                    "typeFqn": "kotlin.Boolean",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "color",
+                    "type": "RemoteColor",
+                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                }
+            ],
+            "slots": [],
+            "bindings": [
+                {
+                    "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardBarMeterSticker",
+                    "componentId": "HaCard/BarMeter",
+                    "group": "Measurements"
+                }
+            ],
+            "code": {
+                "call": "HaCardBarMeter(value = 0f)",
+                "imports": [
+                    "ee.schimke.ha.cards.HaCardBarMeter"
+                ],
+                "refusedReason": null,
+                "requiredOptIns": [],
+                "androidxOptIns": []
+            },
+            "signatureKnown": true,
+            "callableFromAnotherFile": true,
+            "hasTypeParameters": false,
+            "hasContextReceivers": false,
+            "overloadsCollided": false,
+            "builder": null,
+            "requiredOptIns": [],
+            "androidxOptIns": [],
+            "overloads": []
+        },
+        {
+            "canonicalId": "ha-cards-catalog/ee.schimke.ha.cards.HaCardComponentsKt.HaCardBattery",
+            "componentIds": [
+                "HaCard/Battery"
+            ],
+            "symbol": {
+                "jvmOwner": "ee.schimke.ha.cards.HaCardComponentsKt",
+                "callable": "ee.schimke.ha.cards.HaCardBattery",
+                "name": "HaCardBattery",
+                "origin": "PROJECT",
+                "jvmName": "HaCardBattery",
+                "descriptor": "(Ljava/lang/String;FLandroidx/compose/remote/creation/compose/modifier/RemoteModifier;Ljava/lang/String;Ljava/lang/String;Landroidx/compose/runtime/Composer;II)V",
+                "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
+                "docs": "unavailable",
+                "receiver": null
+            },
+            "parameters": [
+                {
+                    "name": "name",
+                    "type": "String",
+                    "typeFqn": "kotlin.String",
+                    "hasDefault": false,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "value",
+                    "type": "Float",
+                    "typeFqn": "kotlin.Float",
+                    "hasDefault": false,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "modifier",
+                    "type": "RemoteModifier",
+                    "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "entityId",
+                    "type": "String",
+                    "typeFqn": "kotlin.String",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "presentation",
+                    "type": "String",
+                    "typeFqn": "kotlin.String",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                }
+            ],
+            "slots": [],
+            "bindings": [
+                {
+                    "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardBatterySticker",
+                    "componentId": "HaCard/Battery",
+                    "group": "Measurements"
+                }
+            ],
+            "code": {
+                "call": "HaCardBattery(name = \"\", value = 0f)",
+                "imports": [
+                    "ee.schimke.ha.cards.HaCardBattery"
+                ],
+                "refusedReason": null,
+                "requiredOptIns": [],
+                "androidxOptIns": []
+            },
+            "signatureKnown": true,
+            "callableFromAnotherFile": true,
+            "hasTypeParameters": false,
+            "hasContextReceivers": false,
+            "overloadsCollided": false,
+            "builder": null,
+            "requiredOptIns": [],
+            "androidxOptIns": [],
+            "overloads": []
+        },
+        {
             "canonicalId": "ha-cards-catalog/ee.schimke.ha.cards.HaCardComponentsKt.HaCardButton",
             "componentIds": [
                 "HaCard/Button"
@@ -2926,6 +3295,168 @@
             "overloads": []
         },
         {
+            "canonicalId": "ha-cards-catalog/ee.schimke.ha.cards.HaCardComponentsKt.HaCardMeasurement",
+            "componentIds": [
+                "HaCard/Measurement"
+            ],
+            "symbol": {
+                "jvmOwner": "ee.schimke.ha.cards.HaCardComponentsKt",
+                "callable": "ee.schimke.ha.cards.HaCardMeasurement",
+                "name": "HaCardMeasurement",
+                "origin": "PROJECT",
+                "jvmName": "HaCardMeasurement",
+                "descriptor": "(Ljava/lang/String;FLandroidx/compose/remote/creation/compose/modifier/RemoteModifier;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;FFLandroidx/compose/runtime/Composer;II)V",
+                "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
+                "docs": "unavailable",
+                "receiver": null
+            },
+            "parameters": [
+                {
+                    "name": "name",
+                    "type": "String",
+                    "typeFqn": "kotlin.String",
+                    "hasDefault": false,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "value",
+                    "type": "Float",
+                    "typeFqn": "kotlin.Float",
+                    "hasDefault": false,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "modifier",
+                    "type": "RemoteModifier",
+                    "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "unit",
+                    "type": "String",
+                    "typeFqn": "kotlin.String",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "entityId",
+                    "type": "String",
+                    "typeFqn": "kotlin.String",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "kind",
+                    "type": "String",
+                    "typeFqn": "kotlin.String",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "presentation",
+                    "type": "String",
+                    "typeFqn": "kotlin.String",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "min",
+                    "type": "Float",
+                    "typeFqn": "kotlin.Float",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "max",
+                    "type": "Float",
+                    "typeFqn": "kotlin.Float",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                }
+            ],
+            "slots": [],
+            "bindings": [
+                {
+                    "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardMeasurementSticker",
+                    "componentId": "HaCard/Measurement",
+                    "group": "Measurements"
+                }
+            ],
+            "code": {
+                "call": "HaCardMeasurement(name = \"\", value = 0f)",
+                "imports": [
+                    "ee.schimke.ha.cards.HaCardMeasurement"
+                ],
+                "refusedReason": null,
+                "requiredOptIns": [],
+                "androidxOptIns": []
+            },
+            "signatureKnown": true,
+            "callableFromAnotherFile": true,
+            "hasTypeParameters": false,
+            "hasContextReceivers": false,
+            "overloadsCollided": false,
+            "builder": null,
+            "requiredOptIns": [],
+            "androidxOptIns": [],
+            "overloads": []
+        },
+        {
             "canonicalId": "ha-cards-catalog/ee.schimke.ha.cards.HaCardComponentsKt.HaCardMetric",
             "componentIds": [
                 "HaCard/Metric"
@@ -3233,6 +3764,173 @@
                 "call": "HaCardSurface(content = {})",
                 "imports": [
                     "ee.schimke.ha.cards.HaCardSurface"
+                ],
+                "refusedReason": null,
+                "requiredOptIns": [],
+                "androidxOptIns": []
+            },
+            "signatureKnown": true,
+            "callableFromAnotherFile": true,
+            "hasTypeParameters": false,
+            "hasContextReceivers": false,
+            "overloadsCollided": false,
+            "builder": null,
+            "requiredOptIns": [],
+            "androidxOptIns": [],
+            "overloads": []
+        },
+        {
+            "canonicalId": "ha-cards-catalog/ee.schimke.ha.cards.HaCardComponentsKt.HaCardThermometer",
+            "componentIds": [
+                "HaCard/Thermometer",
+                "HaCard/Thermometer-Adaptive-Short",
+                "HaCard/Thermometer-Adaptive-Tall",
+                "HaCard/Thermometer-Chip"
+            ],
+            "symbol": {
+                "jvmOwner": "ee.schimke.ha.cards.HaCardComponentsKt",
+                "callable": "ee.schimke.ha.cards.HaCardThermometer",
+                "name": "HaCardThermometer",
+                "origin": "PROJECT",
+                "jvmName": "HaCardThermometer",
+                "descriptor": "(Ljava/lang/String;FLandroidx/compose/remote/creation/compose/modifier/RemoteModifier;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;FFLandroidx/compose/runtime/Composer;II)V",
+                "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
+                "docs": "unavailable",
+                "receiver": null
+            },
+            "parameters": [
+                {
+                    "name": "name",
+                    "type": "String",
+                    "typeFqn": "kotlin.String",
+                    "hasDefault": false,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "value",
+                    "type": "Float",
+                    "typeFqn": "kotlin.Float",
+                    "hasDefault": false,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "modifier",
+                    "type": "RemoteModifier",
+                    "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "unit",
+                    "type": "String",
+                    "typeFqn": "kotlin.String",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "entityId",
+                    "type": "String",
+                    "typeFqn": "kotlin.String",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "presentation",
+                    "type": "String",
+                    "typeFqn": "kotlin.String",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "min",
+                    "type": "Float",
+                    "typeFqn": "kotlin.Float",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "max",
+                    "type": "Float",
+                    "typeFqn": "kotlin.Float",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                }
+            ],
+            "slots": [],
+            "bindings": [
+                {
+                    "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardThermometerChipSticker",
+                    "componentId": "HaCard/Thermometer-Chip",
+                    "group": "Measurements"
+                },
+                {
+                    "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardThermometerShortSticker",
+                    "componentId": "HaCard/Thermometer-Adaptive-Short",
+                    "group": "Measurements"
+                },
+                {
+                    "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardThermometerSticker",
+                    "componentId": "HaCard/Thermometer",
+                    "group": "Measurements"
+                },
+                {
+                    "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardThermometerTallSticker",
+                    "componentId": "HaCard/Thermometer-Adaptive-Tall",
+                    "group": "Measurements"
+                }
+            ],
+            "code": {
+                "call": "HaCardThermometer(name = \"\", value = 0f)",
+                "imports": [
+                    "ee.schimke.ha.cards.HaCardThermometer"
                 ],
                 "refusedReason": null,
                 "requiredOptIns": [],

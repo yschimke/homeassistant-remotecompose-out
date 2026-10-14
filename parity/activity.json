@@ -1,11 +1,107 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-13T21:54:59.422Z",
+  "generatedAt": "2026-10-14T12:57:38.127Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "26943a44af0c54853169d4f1f42c05b4536a6d5d",
+        "subject": "feat: prepare and preview adaptive home screen widgets (#798)",
+        "at": "2026-10-14T13:50:34+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "acd2d6eec2c1994b90ba29533b82b129c1c454d6",
+        "subject": "feat: Console skeuomorphic uber theme, with haptics and synthesized interface sounds (#800)",
+        "at": "2026-10-14T10:15:21+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "b2ecd3db751fa5733eff1c8ecc35cb29762a2208",
+        "subject": "feat: uber themes as real designs, and a Card style picker in Settings (#797)",
+        "at": "2026-10-14T08:42:07+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "3fe78bc189862a99fd4ce83525ba4d533842684c",
+        "subject": "chore(deps): update yschimke/compose-ai-tools action to v2.58.0 (#796)",
+        "at": "2026-10-14T07:18:39Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "e7399949b177786fcf1e79bab991a12b291f291d",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 8e63e96 (#795)",
+        "at": "2026-10-14T06:53:46Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "1c6c44c1cf03f5ba8be4eaa790ed78c3bb8b49b9",
+        "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.249 (#794)",
+        "at": "2026-10-14T06:23:32Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "f08377d232785ded568740338e3cb66ddd9fdd3c",
+        "subject": "fix(deps): update dependency ee.schimke.composeai:data-render-core to v3.31.0 (#793)",
+        "at": "2026-10-14T01:22:30Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "1d28bf52af9626e72954ed2d0993ec50dbe34a88",
+        "subject": "fix(deps): update compose-ai-tools (#790)",
+        "at": "2026-10-14T00:33:43Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "dee62441c1a309655fa2e89adfecc5d210c2c425",
+        "subject": "feat: card component system — theming rules, data hierarchy, adaptive measurements, uber themes (#792)",
+        "at": "2026-10-14T01:33:39+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "31c15241dd90688396bfd3208c6bedc3ffccb694",
+        "subject": "fix: render Card Studio content with the served catalog (#791)",
+        "at": "2026-10-13T23:38:15+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "7bee3e233f5128e5861c43ffbf069ead59772b84",
+        "subject": "fix(deps): update dependency org.jetbrains:markdown to v0.7.17 (#788)",
+        "at": "2026-10-13T22:14:17Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "f68699b9ffa87a49a7363f6f1676da819babbcec",
+        "subject": "chore(deps): update dependency com.gradleup.tapmoc to v0.5.0 (#789)",
+        "at": "2026-10-13T22:14:14Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "a51340a9309c1fc2f47663d6ba3002d9480bdf78",
         "subject": "feat(ui-builder): publish the complete typed native card catalog (#785)",
@@ -387,102 +483,6 @@
         "subject": "chore(deps): update compose-ai-tools (#740)",
         "at": "2026-10-11T17:25:33Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "b493036e366246814f59a1490e0225b3badd4899",
-        "subject": "fix(deps): update compose-ai-tools (#735)",
-        "at": "2026-10-11T16:42:30Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ec413f2707617e015cf7e67088097264fb8e6815",
-        "subject": "ci: skip the UID audit with a warning when OpenRouter is out of credit (#739)",
-        "at": "2026-10-11T17:04:26+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "944116ccaeef6f27f3d58883b69989adfdf1bceb",
-        "subject": "docs: design server plan — no capture-time value decisions, UI Builder references (#738)",
-        "at": "2026-10-11T16:13:42+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "7f8327eee3c53be9bb8102435bb5e972a6d1a4eb",
-        "subject": "fix: restore the typed component catalog workflow on main (#737)",
-        "at": "2026-10-11T15:59:24+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a0f67b3e2225a67be769129207e040f25ada4ebc",
-        "subject": "docs: plan a card design server for values-free RC templates (#736)",
-        "at": "2026-10-11T15:15:53+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "7aab0a3a0eb45931d742ec09bca5ec7e5d068f31",
-        "subject": "fix: use the same is_on rule in area, picture and entity-filter cards (#734)",
-        "at": "2026-10-11T15:03:30+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "c848c68501393b88765d8bbf532968b6ed635ddf",
-        "subject": "fix: push is_on from the same active state converters bake (#733)",
-        "at": "2026-10-11T14:35:06+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "cf45f0418a08d99bf3cffc3524584d32ccbe93dd",
-        "subject": "chore(deps): update compose-ai-tools (#725)",
-        "at": "2026-10-11T14:25:40+01:00",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "c73fb5d933524d368ba94a3bbf14518f70ad2ef3",
-        "subject": "feat: widen the typed catalog with tile, button, entity row and horizontal stack (#732)",
-        "at": "2026-10-11T14:25:28+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "dc167af5347c3622a0c3dd463aa3485a09ecff5c",
-        "subject": "feat: play cards and previews with the CMP Remote Compose player (#731)",
-        "at": "2026-10-11T14:25:14+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ce5b00b81b5ef0bfd989495cb38fe857868ce2b3",
-        "subject": "ci: run the UID design audit on CLI 2.45.0 (#730)",
-        "at": "2026-10-11T13:42:31+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ac996af5a48fabd033fa411f931ae1532685b513",
-        "subject": "ci: skip the heavy CI lanes on release-please PRs (#729)",
-        "at": "2026-10-11T13:22:18+01:00",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }

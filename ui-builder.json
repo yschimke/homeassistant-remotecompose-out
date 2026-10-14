@@ -11,7 +11,7 @@
     "record": {
         "file": "components.json",
         "schemaVersion": 2,
-        "components": 18
+        "components": 23
     },
     "statusSemantics": {
         "platform": "remote-compose",
@@ -31,6 +31,7 @@
                 "Wear widget",
                 "Launcher widget",
                 "Home Assistant",
+                "Measurements",
                 "Containment",
                 "Buttons",
                 "Selection buttons",
@@ -49,6 +50,15 @@
                 },
                 "ha-cards/remote-text": {
                     "group": "Text"
+                },
+                "ha-cards/arc-meter": {
+                    "group": "Measurements"
+                },
+                "ha-cards/bar-meter": {
+                    "group": "Measurements"
+                },
+                "ha-cards/battery": {
+                    "group": "Measurements"
                 },
                 "ha-cards/button": {
                     "group": "Home Assistant"
@@ -71,6 +81,9 @@
                 "ha-cards/icon": {
                     "group": "Iconography"
                 },
+                "ha-cards/measurement": {
+                    "group": "Measurements"
+                },
                 "ha-cards/metric": {
                     "group": "Home Assistant"
                 },
@@ -79,6 +92,9 @@
                 },
                 "ha-cards/card-surface": {
                     "group": "Containment"
+                },
+                "ha-cards/thermometer": {
+                    "group": "Measurements"
                 },
                 "ha-cards/tile": {
                     "group": "Home Assistant"
@@ -162,10 +178,12 @@
             "ui-builder/designs/card-entities.json",
             "ui-builder/designs/card-gauge.json",
             "ui-builder/designs/card-sensor-metric.json",
+            "ui-builder/designs/card-thermometer.json",
             "ui-builder/designs/wear-light-small.json",
             "ui-builder/designs/wear-entities-large.json",
             "ui-builder/designs/launcher-fan-2x2.json",
-            "ui-builder/designs/launcher-entities-4x2.json"
+            "ui-builder/designs/launcher-entities-4x2.json",
+            "ui-builder/designs/launcher-thermometer-2x2.json"
         ],
         "newDesign": {
             "label": "Home Assistant",
@@ -208,13 +226,22 @@
                     "order": 4
                 },
                 {
+                    "id": "card-thermometer",
+                    "path": "ui-builder/designs/card-thermometer.json",
+                    "label": "Thermometer",
+                    "supportingText": "A living-room temperature as a thermometer, bound to its sensor: the tube fills and recolours along HA's comfort ramp as the reading changes.",
+                    "group": "Dashboard card",
+                    "default": false,
+                    "order": 5
+                },
+                {
                     "id": "wear-light-small",
                     "path": "ui-builder/designs/wear-light-small.json",
                     "label": "Light · Small",
                     "supportingText": "One light's name, state and switch in the Small Wear widget container (216×76dp).",
                     "group": "Wear widget",
                     "default": false,
-                    "order": 5
+                    "order": 6
                 },
                 {
                     "id": "wear-entities-large",
@@ -223,7 +250,7 @@
                     "supportingText": "A room's title and two entities in the Large Wear widget container (216×124dp).",
                     "group": "Wear widget",
                     "default": false,
-                    "order": 6
+                    "order": 7
                 },
                 {
                     "id": "launcher-fan-2x2",
@@ -232,7 +259,7 @@
                     "supportingText": "HA's button card for a fan as a 2x2 phone launcher widget; a tap toggles the fan.",
                     "group": "Launcher widget",
                     "default": false,
-                    "order": 7
+                    "order": 8
                 },
                 {
                     "id": "launcher-entities-4x2",
@@ -241,7 +268,16 @@
                     "supportingText": "A room's entity rows as a 4x2 phone launcher widget, each bound to its entity.",
                     "group": "Launcher widget",
                     "default": false,
-                    "order": 8
+                    "order": 9
+                },
+                {
+                    "id": "launcher-thermometer-2x2",
+                    "path": "ui-builder/designs/launcher-thermometer-2x2.json",
+                    "label": "Thermometer · 2x2",
+                    "supportingText": "An adaptive thermometer as a 2x2 phone launcher widget: expanded at this size, it drops to the compact row when the widget is resized smaller.",
+                    "group": "Launcher widget",
+                    "default": false,
+                    "order": 10
                 }
             ]
         },
@@ -253,7 +289,7 @@
                 "role": "screen-root",
                 "displayName": "Dashboard card",
                 "group": "Dashboard card",
-                "canvas": "layout/box",
+                "canvas": "layout/scaffold",
                 "unrolled": null,
                 "traits": [
                     "ScreenContent",
@@ -383,7 +419,7 @@
                 "role": "screen-root",
                 "displayName": "Launcher widget",
                 "group": "Launcher widget",
-                "canvas": "layout/box",
+                "canvas": "layout/scaffold",
                 "unrolled": null,
                 "traits": [
                     "ScreenContent",
@@ -626,6 +662,198 @@
                         "text": {
                             "type": "string",
                             "value": "Text"
+                        }
+                    }
+                },
+                "shelfRole": null,
+                "exportProjection": null
+            },
+            "ha-cards/arc-meter": {
+                "record": "ha-cards-catalog/ee.schimke.ha.cards.HaCardComponentsKt.HaCardArcMeter",
+                "catalogId": null,
+                "displayName": "Arc meter",
+                "canvas": null,
+                "canvasMapping": null,
+                "unrolled": null,
+                "nativeOnly": false,
+                "traits": [],
+                "slots": {},
+                "stateCallbacks": {},
+                "starter": {},
+                "variantProperty": null,
+                "variants": {},
+                "excluded": null,
+                "propertyCapabilities": [
+                    {
+                        "name": "value",
+                        "jsonType": "number",
+                        "required": true,
+                        "notes": "The value, clamped to min..max."
+                    },
+                    {
+                        "name": "min",
+                        "jsonType": "number",
+                        "required": false,
+                        "notes": "The scale's lower end; 0 when unset."
+                    },
+                    {
+                        "name": "max",
+                        "jsonType": "number",
+                        "required": false,
+                        "notes": "The scale's upper end; 100 when unset."
+                    },
+                    {
+                        "name": "entityId",
+                        "jsonType": "string",
+                        "required": false,
+                        "notes": "Set, the arc follows `<entityId>.numeric_state` live."
+                    },
+                    {
+                        "name": "color",
+                        "jsonType": "string",
+                        "required": false,
+                        "notes": "A `#AARRGGBB` literal for the value arc. Unset is HA's gauge blue, #FF03A9F4. The track is the theme's divider."
+                    }
+                ],
+                "slotCapabilities": null,
+                "modifierCapabilities": null,
+                "insertContent": {
+                    "properties": {
+                        "value": {
+                            "type": "float",
+                            "value": 62
+                        }
+                    }
+                },
+                "shelfRole": null,
+                "exportProjection": null
+            },
+            "ha-cards/bar-meter": {
+                "record": "ha-cards-catalog/ee.schimke.ha.cards.HaCardComponentsKt.HaCardBarMeter",
+                "catalogId": null,
+                "displayName": "Bar meter",
+                "canvas": null,
+                "canvasMapping": null,
+                "unrolled": null,
+                "nativeOnly": false,
+                "traits": [],
+                "slots": {},
+                "stateCallbacks": {},
+                "starter": {},
+                "variantProperty": null,
+                "variants": {},
+                "excluded": null,
+                "propertyCapabilities": [
+                    {
+                        "name": "value",
+                        "jsonType": "number",
+                        "required": true,
+                        "notes": "The value, clamped to min..max."
+                    },
+                    {
+                        "name": "min",
+                        "jsonType": "number",
+                        "required": false,
+                        "notes": "The scale's lower end; 0 when unset."
+                    },
+                    {
+                        "name": "max",
+                        "jsonType": "number",
+                        "required": false,
+                        "notes": "The scale's upper end; 100 when unset."
+                    },
+                    {
+                        "name": "entityId",
+                        "jsonType": "string",
+                        "required": false,
+                        "notes": "Set, the bar follows `<entityId>.numeric_state` live."
+                    },
+                    {
+                        "name": "vertical",
+                        "jsonType": "boolean",
+                        "required": false,
+                        "notes": "Fill bottom to top instead of left to right."
+                    },
+                    {
+                        "name": "color",
+                        "jsonType": "string",
+                        "required": false,
+                        "notes": "A `#AARRGGBB` literal for the value bar. Unset is HA's gauge blue, #FF03A9F4."
+                    }
+                ],
+                "slotCapabilities": null,
+                "modifierCapabilities": null,
+                "insertContent": {
+                    "properties": {
+                        "value": {
+                            "type": "float",
+                            "value": 62
+                        }
+                    }
+                },
+                "shelfRole": null,
+                "exportProjection": null
+            },
+            "ha-cards/battery": {
+                "record": "ha-cards-catalog/ee.schimke.ha.cards.HaCardComponentsKt.HaCardBattery",
+                "catalogId": null,
+                "displayName": "Battery",
+                "canvas": null,
+                "canvasMapping": null,
+                "unrolled": null,
+                "nativeOnly": false,
+                "traits": [],
+                "slots": {},
+                "stateCallbacks": {},
+                "starter": {},
+                "variantProperty": null,
+                "variants": {},
+                "excluded": null,
+                "propertyCapabilities": [
+                    {
+                        "name": "name",
+                        "jsonType": "string",
+                        "required": true,
+                        "notes": "The device the battery belongs to."
+                    },
+                    {
+                        "name": "value",
+                        "jsonType": "number",
+                        "required": true,
+                        "notes": "The charge, 0–100 %. Green from 30 %, amber below, red below 15 %, picked in-document from the live value."
+                    },
+                    {
+                        "name": "entityId",
+                        "jsonType": "string",
+                        "required": false,
+                        "notes": "The Home Assistant sensor this reading follows. Set, the text is the live `<entityId>.state` binding and the visual follows `<entityId>.numeric_state`, so an exported design keeps up with Home Assistant with no re-encode; a tap opens the entity's more-info. Blank, the reading is a constant."
+                    },
+                    {
+                        "name": "presentation",
+                        "jsonType": "string",
+                        "required": false,
+                        "allowedValues": [
+                            "glyph",
+                            "chip",
+                            "compact",
+                            "standard",
+                            "expanded",
+                            "adaptive"
+                        ],
+                        "notes": "How much to show — the adaptive ladder's rungs: `glyph` (the visual alone), `chip` (the visual over the value; fills a narrow cell), `compact` (a small visual beside value and name), `standard` (card-sized, the default), `expanded` (the visual grows with the cell, the value is promoted and the range appears; fills its cell), or `adaptive`, which plays compact or expanded by the cell's live size."
+                    }
+                ],
+                "slotCapabilities": null,
+                "modifierCapabilities": null,
+                "insertContent": {
+                    "properties": {
+                        "name": {
+                            "type": "string",
+                            "value": "Front door lock"
+                        },
+                        "value": {
+                            "type": "float",
+                            "value": 80
                         }
                     }
                 },
@@ -1282,6 +1510,114 @@
                 "shelfRole": null,
                 "exportProjection": null
             },
+            "ha-cards/measurement": {
+                "record": "ha-cards-catalog/ee.schimke.ha.cards.HaCardComponentsKt.HaCardMeasurement",
+                "catalogId": null,
+                "displayName": "Measurement · by kind",
+                "canvas": null,
+                "canvasMapping": null,
+                "unrolled": null,
+                "nativeOnly": false,
+                "traits": [],
+                "slots": {},
+                "stateCallbacks": {},
+                "starter": {},
+                "variantProperty": null,
+                "variants": {},
+                "excluded": null,
+                "propertyCapabilities": [
+                    {
+                        "name": "name",
+                        "jsonType": "string",
+                        "required": true,
+                        "notes": "The reading's label."
+                    },
+                    {
+                        "name": "value",
+                        "jsonType": "number",
+                        "required": true,
+                        "notes": "The reading; with entityId set, the seed of its live binding."
+                    },
+                    {
+                        "name": "unit",
+                        "jsonType": "string",
+                        "required": false,
+                        "notes": "The unit (`°C`, `%`, `W`, `lx`). With `kind` = `auto` it decides the kind."
+                    },
+                    {
+                        "name": "kind",
+                        "jsonType": "string",
+                        "required": false,
+                        "allowedValues": [
+                            "auto",
+                            "temperature",
+                            "humidity",
+                            "battery",
+                            "power",
+                            "illuminance",
+                            "percentage",
+                            "generic"
+                        ],
+                        "notes": "What is measured, which picks the visual: `temperature` → thermometer, `battery` → battery, `humidity` / `power` / `generic` → arc, `illuminance` / `percentage` → bar. `auto` (the default) classifies by unit, as HA's device_class would."
+                    },
+                    {
+                        "name": "entityId",
+                        "jsonType": "string",
+                        "required": false,
+                        "notes": "The Home Assistant sensor this reading follows. Set, the text is the live `<entityId>.state` binding and the visual follows `<entityId>.numeric_state`, so an exported design keeps up with Home Assistant with no re-encode; a tap opens the entity's more-info. Blank, the reading is a constant."
+                    },
+                    {
+                        "name": "presentation",
+                        "jsonType": "string",
+                        "required": false,
+                        "allowedValues": [
+                            "glyph",
+                            "chip",
+                            "compact",
+                            "standard",
+                            "expanded",
+                            "adaptive"
+                        ],
+                        "notes": "How much to show — the adaptive ladder's rungs: `glyph` (the visual alone), `chip` (the visual over the value; fills a narrow cell), `compact` (a small visual beside value and name), `standard` (card-sized, the default), `expanded` (the visual grows with the cell, the value is promoted and the range appears; fills its cell), or `adaptive`, which plays compact or expanded by the cell's live size."
+                    },
+                    {
+                        "name": "min",
+                        "jsonType": "number",
+                        "required": false,
+                        "notes": "The scale's lower end. Equal to `max` (both 0 by default), the kind's typical scale is used: −10–40 °C, 14–104 °F, 0–100 %."
+                    },
+                    {
+                        "name": "max",
+                        "jsonType": "number",
+                        "required": false,
+                        "notes": "The scale's upper end; see `min`."
+                    }
+                ],
+                "slotCapabilities": null,
+                "modifierCapabilities": null,
+                "insertContent": {
+                    "properties": {
+                        "name": {
+                            "type": "string",
+                            "value": "Bathroom"
+                        },
+                        "value": {
+                            "type": "float",
+                            "value": 64
+                        },
+                        "unit": {
+                            "type": "string",
+                            "value": "%"
+                        },
+                        "kind": {
+                            "type": "string",
+                            "value": "humidity"
+                        }
+                    }
+                },
+                "shelfRole": null,
+                "exportProjection": null
+            },
             "ha-cards/metric": {
                 "record": "ha-cards-catalog/ee.schimke.ha.cards.HaCardComponentsKt.HaCardMetric",
                 "catalogId": null,
@@ -1437,6 +1773,90 @@
                 "slotCapabilities": null,
                 "modifierCapabilities": null,
                 "insertContent": null,
+                "shelfRole": null,
+                "exportProjection": null
+            },
+            "ha-cards/thermometer": {
+                "record": "ha-cards-catalog/ee.schimke.ha.cards.HaCardComponentsKt.HaCardThermometer",
+                "catalogId": null,
+                "displayName": "Thermometer",
+                "canvas": null,
+                "canvasMapping": null,
+                "unrolled": null,
+                "nativeOnly": false,
+                "traits": [],
+                "slots": {},
+                "stateCallbacks": {},
+                "starter": {},
+                "variantProperty": null,
+                "variants": {},
+                "excluded": null,
+                "propertyCapabilities": [
+                    {
+                        "name": "name",
+                        "jsonType": "string",
+                        "required": true,
+                        "notes": "The reading's label: the entity's friendly name."
+                    },
+                    {
+                        "name": "value",
+                        "jsonType": "number",
+                        "required": true,
+                        "notes": "The temperature; with entityId set, the seed of its live binding. The tube fills along the scale and its colour follows HA's comfort ramp (blue below 10 °C, cyan, green from 18, amber from 25, red from 30), picked in-document from the live value."
+                    },
+                    {
+                        "name": "unit",
+                        "jsonType": "string",
+                        "required": false,
+                        "notes": "`°C` (the default) or `°F`; the ramp and the default scale follow it."
+                    },
+                    {
+                        "name": "entityId",
+                        "jsonType": "string",
+                        "required": false,
+                        "notes": "The Home Assistant sensor this reading follows. Set, the text is the live `<entityId>.state` binding and the visual follows `<entityId>.numeric_state`, so an exported design keeps up with Home Assistant with no re-encode; a tap opens the entity's more-info. Blank, the reading is a constant."
+                    },
+                    {
+                        "name": "presentation",
+                        "jsonType": "string",
+                        "required": false,
+                        "allowedValues": [
+                            "glyph",
+                            "chip",
+                            "compact",
+                            "standard",
+                            "expanded",
+                            "adaptive"
+                        ],
+                        "notes": "How much to show — the adaptive ladder's rungs: `glyph` (the visual alone), `chip` (the visual over the value; fills a narrow cell), `compact` (a small visual beside value and name), `standard` (card-sized, the default), `expanded` (the visual grows with the cell, the value is promoted and the range appears; fills its cell), or `adaptive`, which plays compact or expanded by the cell's live size."
+                    },
+                    {
+                        "name": "min",
+                        "jsonType": "number",
+                        "required": false,
+                        "notes": "The scale's lower end. Equal to `max` (both 0 by default), the kind's typical scale is used: −10–40 °C, 14–104 °F, 0–100 %."
+                    },
+                    {
+                        "name": "max",
+                        "jsonType": "number",
+                        "required": false,
+                        "notes": "The scale's upper end; see `min`."
+                    }
+                ],
+                "slotCapabilities": null,
+                "modifierCapabilities": null,
+                "insertContent": {
+                    "properties": {
+                        "name": {
+                            "type": "string",
+                            "value": "Living room"
+                        },
+                        "value": {
+                            "type": "float",
+                            "value": 21.5
+                        }
+                    }
+                },
                 "shelfRole": null,
                 "exportProjection": null
             },
@@ -1623,6 +2043,21 @@
         },
         {
             "code": "component.canvas.unclaimed",
+            "subject": "ha-cards/arc-meter",
+            "message": "no canvas adapter claimed, so it draws as a placeholder. That is the honest default and needs no fixing; it is reported so a shelf drawn entirely in placeholders is visible rather than mysterious."
+        },
+        {
+            "code": "component.canvas.unclaimed",
+            "subject": "ha-cards/bar-meter",
+            "message": "no canvas adapter claimed, so it draws as a placeholder. That is the honest default and needs no fixing; it is reported so a shelf drawn entirely in placeholders is visible rather than mysterious."
+        },
+        {
+            "code": "component.canvas.unclaimed",
+            "subject": "ha-cards/battery",
+            "message": "no canvas adapter claimed, so it draws as a placeholder. That is the honest default and needs no fixing; it is reported so a shelf drawn entirely in placeholders is visible rather than mysterious."
+        },
+        {
+            "code": "component.canvas.unclaimed",
             "subject": "ha-cards/button",
             "message": "no canvas adapter claimed, so it draws as a placeholder. That is the honest default and needs no fixing; it is reported so a shelf drawn entirely in placeholders is visible rather than mysterious."
         },
@@ -1653,12 +2088,22 @@
         },
         {
             "code": "component.canvas.unclaimed",
+            "subject": "ha-cards/measurement",
+            "message": "no canvas adapter claimed, so it draws as a placeholder. That is the honest default and needs no fixing; it is reported so a shelf drawn entirely in placeholders is visible rather than mysterious."
+        },
+        {
+            "code": "component.canvas.unclaimed",
             "subject": "ha-cards/metric",
             "message": "no canvas adapter claimed, so it draws as a placeholder. That is the honest default and needs no fixing; it is reported so a shelf drawn entirely in placeholders is visible rather than mysterious."
         },
         {
             "code": "component.canvas.unclaimed",
             "subject": "ha-cards/status-chip",
+            "message": "no canvas adapter claimed, so it draws as a placeholder. That is the honest default and needs no fixing; it is reported so a shelf drawn entirely in placeholders is visible rather than mysterious."
+        },
+        {
+            "code": "component.canvas.unclaimed",
+            "subject": "ha-cards/thermometer",
             "message": "no canvas adapter claimed, so it draws as a placeholder. That is the honest default and needs no fixing; it is reported so a shelf drawn entirely in placeholders is visible rather than mysterious."
         },
         {
@@ -1675,6 +2120,11 @@
             "code": "component.excluded",
             "subject": "ha-cards/ha-card-sticker",
             "message": "kept off the builder's shelf: The sticker frame every preview in this module renders through, not a component."
+        },
+        {
+            "code": "component.policy.orphaned",
+            "subject": "ha-cards/uber-theme",
+            "message": "ui-builder.policy.json states a policy for \"ha-cards/uber-theme\", which joins no component in this record, so every field in it does nothing. Check its `record` canonicalId or its builder id against components.json."
         }
     ]
 }
