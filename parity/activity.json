@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-14T22:32:04.635Z",
+  "generatedAt": "2026-10-14T23:12:31.378Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "2fd97ab206ced58fe0a28e4a10d3601b1aad59c1",
+        "subject": "chore(main): release 0.1.39 (#719)",
+        "at": "2026-10-14T23:09:10+01:00",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "96c11885bb8ff98493ad8e4adc2f213e0f4c86fe",
+        "subject": "feat(design-server): publish the image to GHCR from main (#815)",
+        "at": "2026-10-14T22:47:54+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "527b4191a59c8a2ebfe291cdc2fa57f2f0577e5e",
+        "subject": "test(app): scroll to the widget button in the long-press history test (#817)",
+        "at": "2026-10-14T22:47:21+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "3102ab090420c7c95af3667881139a81bb00e929",
         "subject": "feat: real cards in the TV kiosk, and legible accents under card styles (#816)",
@@ -459,30 +483,6 @@
         "subject": "fix(deps): update dependency androidx.compose.material3:material3 to v1.5.0-beta01 (#758)",
         "at": "2026-10-12T00:54:52Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "13f267df40356acf426afc45d4d22e834f031c36",
-        "subject": "fix(deps): update androidx-wear to v1.7.1 (#757)",
-        "at": "2026-10-12T00:31:59Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "f1e447dd4b77928656bcdc3a1d7bfd21a246de6d",
-        "subject": "chore(deps): update gradle to v9.8.1 (#756)",
-        "at": "2026-10-12T00:30:37Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "1afb4cf3c2c7a6f3adecf1db57b47d8ea9b0c323",
-        "subject": "feat: render gauge, clock and placeholder cards from designs (#759)",
-        "at": "2026-10-12T01:01:12+01:00",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
