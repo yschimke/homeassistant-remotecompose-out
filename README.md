@@ -89,6 +89,9 @@ The render task completed but no PNG was produced for these previews. Entries wi
 
 | Preview | Image |
 |---------|-------|
+| `HaCardArcMeterSticker` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/HaCardArcMeterSticker-298ae715.png" width="150" /> |
+| `HaCardBarMeterSticker` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/HaCardBarMeterSticker-932e0172.png" width="150" /> |
+| `HaCardBatterySticker` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/HaCardBatterySticker-14ccc73a.png" width="150" /> |
 | `HaCardButtonSticker` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/HaCardButtonSticker-53b6e3a7.png" width="150" /> |
 | `HaCardEntitiesSticker` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/HaCardEntitiesSticker-f747a925.png" width="150" /> |
 | `HaCardEntityRowSticker` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/HaCardEntityRowSticker-e753861e.png" width="150" /> |
@@ -96,11 +99,17 @@ The render task completed but no PNG was produced for these previews. Entries wi
 | `HaCardGlanceSticker` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/HaCardGlanceSticker-ed578dc9.png" width="150" /> |
 | `HaCardHeadingSticker` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/HaCardHeadingSticker-ead292c1.png" width="150" /> |
 | `HaCardIconSticker` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/HaCardIconSticker-abac8ae5.png" width="150" /> |
+| `HaCardMeasurementSticker` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/HaCardMeasurementSticker-96d0258f.png" width="150" /> |
 | `HaCardMetricSticker` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/HaCardMetricSticker-5f00defd.png" width="150" /> |
 | `HaCardStatusChipSticker` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/HaCardStatusChipSticker-491fda3b.png" width="150" /> |
 | `HaCardSurfaceSticker` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/HaCardSurfaceSticker-8638109c.png" width="150" /> |
+| `HaCardThermometerChipSticker` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/HaCardThermometerChipSticker-d042f2cf.png" width="150" /> |
+| `HaCardThermometerShortSticker` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/HaCardThermometerShortSticker-bfd4e8b6.png" width="150" /> |
+| `HaCardThermometerSticker` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/HaCardThermometerSticker-f4bb4f74.png" width="150" /> |
+| `HaCardThermometerTallSticker` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/HaCardThermometerTallSticker-d37ae034.png" width="150" /> |
 | `HaCardTileSticker` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/HaCardTileSticker-91a245fb.png" width="150" /> |
 | `HaCardToggleSticker` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/HaCardToggleSticker-07b8d001.png" width="150" /> |
+| `HaCardUberThemeSticker` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/HaCardUberThemeSticker-7f4ced60.png" width="150" /> |
 | `RemoteButtonSticker` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/RemoteButtonSticker-4371877d.png" width="150" /> |
 | `RemoteCardSticker` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/RemoteCardSticker-7685c951.png" width="150" /> |
 | `RemoteSwitchButtonSticker` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/RemoteSwitchButtonSticker-c082b22a.png" width="150" /> |
@@ -365,6 +374,15 @@ The render task completed but no PNG was produced for these previews. Entries wi
 | `ToggleInitial_Off` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/ToggleInitial_Off_toggle_initial_off-e610f9d2.png" width="150" /> |
 | `ToggleInitial_On_Dark` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/ToggleInitial_On_Dark_toggle_initial_on_dark-20707628.png" width="150" /> |
 | `ToggleInitial_On` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/ToggleInitial_On_toggle_initial_on-17495b93.png" width="150" /> |
+| `Uber_Braun_Dark` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/Uber_Braun_Dark_uber_Braun_dark-7d150a60.png" width="150" /> |
+| `Uber_Braun_Light` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/Uber_Braun_Light_uber_Braun_light-5a2c2283.png" width="150" /> |
+| `Uber_Classic_Light` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/Uber_Classic_Light_uber_Classic_light-42bf0d3f.png" width="150" /> |
+| `Uber_Expressive_Dark` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/Uber_Expressive_Dark_uber_Material_3_Expressive_dark-c2119956.png" width="150" /> |
+| `Uber_Expressive_Light` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/Uber_Expressive_Light_uber_Material_3_Expressive_light-900b0841.png" width="150" /> |
+| `Uber_Lcd_Dark` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/Uber_Lcd_Dark_uber_LCD_Indiglo_backlight-7b414933.png" width="150" /> |
+| `Uber_Lcd_Light` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/Uber_Lcd_Light_uber_LCD_reflective-cb2651a0.png" width="150" /> |
+| `Uber_Nixie` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/Uber_Nixie_uber_Nixie-89940734.png" width="150" /> |
+| `Uber_Trinitron` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/Uber_Trinitron_uber_Trinitron-fa0b6c99.png" width="150" /> |
 | `WrapContentHeightCmp` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/WrapContentHeightCmp_wrap_content_height_CMP_player-e74b165d.png" width="150" /> |
 | `WrapContentHeightFixAlpha010` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/WrapContentHeightFixAlpha010_wrap_content_height_fix_WrapAdaptive_player-21200e61.png" width="150" /> |
 | `WrapContentHeightReproAlpha010` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/WrapContentHeightReproAlpha010_wrap_content_height_repro_alpha010-adbd8ce7.png" width="150" /> |
