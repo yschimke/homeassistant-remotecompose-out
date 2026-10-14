@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-13T23:07:27.065Z",
+  "generatedAt": "2026-10-14T01:06:25.049Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "1d28bf52af9626e72954ed2d0993ec50dbe34a88",
+        "subject": "fix(deps): update compose-ai-tools (#790)",
+        "at": "2026-10-14T00:33:43Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "dee62441c1a309655fa2e89adfecc5d210c2c425",
+        "subject": "feat: card component system — theming rules, data hierarchy, adaptive measurements, uber themes (#792)",
+        "at": "2026-10-14T01:33:39+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "31c15241dd90688396bfd3208c6bedc3ffccb694",
+        "subject": "fix: render Card Studio content with the served catalog (#791)",
+        "at": "2026-10-13T23:38:15+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "7bee3e233f5128e5861c43ffbf069ead59772b84",
         "subject": "fix(deps): update dependency org.jetbrains:markdown to v0.7.17 (#788)",
@@ -458,30 +482,6 @@
         "sha": "c848c68501393b88765d8bbf532968b6ed635ddf",
         "subject": "fix: push is_on from the same active state converters bake (#733)",
         "at": "2026-10-11T14:35:06+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "cf45f0418a08d99bf3cffc3524584d32ccbe93dd",
-        "subject": "chore(deps): update compose-ai-tools (#725)",
-        "at": "2026-10-11T14:25:40+01:00",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "c73fb5d933524d368ba94a3bbf14518f70ad2ef3",
-        "subject": "feat: widen the typed catalog with tile, button, entity row and horizontal stack (#732)",
-        "at": "2026-10-11T14:25:28+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "dc167af5347c3622a0c3dd463aa3485a09ecff5c",
-        "subject": "feat: play cards and previews with the CMP Remote Compose player (#731)",
-        "at": "2026-10-11T14:25:14+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []

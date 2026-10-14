@@ -3483,6 +3483,113 @@
             "overloads": []
         },
         {
+            "canonicalId": "previews/ee.schimke.ha.previews.UberThemePreviewsKt.UberShowcase",
+            "componentIds": [],
+            "symbol": {
+                "jvmOwner": "ee.schimke.ha.previews.UberThemePreviewsKt",
+                "callable": "ee.schimke.ha.previews.UberShowcase",
+                "name": "UberShowcase",
+                "origin": "PROJECT",
+                "jvmName": "UberShowcase",
+                "descriptor": "(Lee/schimke/ha/rc/components/HaUberTheme;ZLandroidx/compose/runtime/Composer;I)V",
+                "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemePreviews.kt",
+                "docs": "unavailable",
+                "receiver": null
+            },
+            "parameters": [
+                {
+                    "name": "theme",
+                    "type": "HaUberTheme",
+                    "typeFqn": "ee.schimke.ha.rc.components.HaUberTheme",
+                    "hasDefault": false,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "darkTheme",
+                    "type": "Boolean",
+                    "typeFqn": "kotlin.Boolean",
+                    "hasDefault": false,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                }
+            ],
+            "slots": [],
+            "bindings": [
+                {
+                    "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Braun_Dark_uber__Braun__dark_",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Braun_Light_uber__Braun__light_",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Classic_Light_uber__Classic__light_",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Expressive_Dark_uber__Material_3_Expressive__dark_",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Expressive_Light_uber__Material_3_Expressive__light_",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Lcd_Dark_uber__LCD__Indiglo_backlight_",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Lcd_Light_uber__LCD__reflective_",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Nixie_uber__Nixie",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Trinitron_uber__Trinitron",
+                    "componentId": null,
+                    "group": null
+                }
+            ],
+            "code": {
+                "call": null,
+                "imports": [],
+                "refusedReason": "not public or internal, so a generated file cannot call it",
+                "requiredOptIns": [],
+                "androidxOptIns": []
+            },
+            "signatureKnown": true,
+            "callableFromAnotherFile": false,
+            "hasTypeParameters": false,
+            "hasContextReceivers": false,
+            "overloadsCollided": false,
+            "builder": null,
+            "requiredOptIns": [],
+            "androidxOptIns": [],
+            "overloads": []
+        },
+        {
             "canonicalId": "previews/ee.schimke.ha.previews.WrapContentHeightReproKt.CmpPlayer",
             "componentIds": [],
             "symbol": {
