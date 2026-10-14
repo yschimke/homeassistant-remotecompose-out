@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-14T13:19:46.905Z",
+  "generatedAt": "2026-10-14T16:49:42.769Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "ace0fa069d21ef99ea18ca3a160c0bb26dc409ec",
+        "subject": "fix(deps): update compose-ai-tools (#799)",
+        "at": "2026-10-14T16:14:53Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "92f0c96caa9d599c32ff91d67d105f1a4a506443",
+        "subject": "fix(deps): update dependency ee.schimke.composeai:data-render-core to v3.32.0 (#802)",
+        "at": "2026-10-14T16:14:48Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "a2d7800432da1330c688682899462983949b1bf5",
+        "subject": "fix: match in-app widget previews to launcher rendering (#801)",
+        "at": "2026-10-14T16:42:03+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "26943a44af0c54853169d4f1f42c05b4536a6d5d",
         "subject": "feat: prepare and preview adaptive home screen widgets (#798)",
@@ -458,30 +482,6 @@
         "sha": "9362f7c62ea2dc34fb312d6a88d4e4bedfb5b0ec",
         "subject": "chore(deps): update compose-ai-tools (#743)",
         "at": "2026-10-11T18:43:55Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "3c65f884b18c249a72dd33ac13bb4cec988558db",
-        "subject": "chore(deps): update compose-ai-tools (#742)",
-        "at": "2026-10-11T18:17:38Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "bd2b86a116f5a51ec23c3665a8a1726f34bad544",
-        "subject": "feat: card design server spike, off unless a server URL is configured (#741)",
-        "at": "2026-10-11T18:46:34+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "5520e4453da61a81c28e96fcec7ac6ad2fd80bfa",
-        "subject": "chore(deps): update compose-ai-tools (#740)",
-        "at": "2026-10-11T17:25:33Z",
         "author": "renovate[bot]",
         "previewIds": [],
         "components": []
