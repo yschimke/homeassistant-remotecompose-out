@@ -1,96 +1,249 @@
 {
   "entries": [
     {
-      "annotatedBasename": "Screen_Settings_settings-fc99b7e6.a11y.png",
-      "cleanBasename": "Screen_Settings_settings-fc99b7e6.png",
+      "annotatedBasename": "Screen_CardHistory_card_history-07f74f5f.a11y.png",
+      "cleanBasename": "Screen_CardHistory_card_history-07f74f5f.png",
       "findings": [
         {
-          "boundsInScreen": "64,1126,190,1252",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Not selected\" is identical to that of 3 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.RadioButton"
+          "boundsInScreen": "352,221,730,442",
+          "level": "ERROR",
+          "message": "This item may not have a label readable by screen readers.",
+          "type": "SpeakableTextPresentCheck",
+          "viewDescription": "androidx.compose.remote.player.view.RemoteComposePlayer"
+        },
+        {
+          "boundsInScreen": "352,273,730,389",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View  desc=\"Downstairs Temperature\""
         }
       ],
-      "functionName": "Screen_Settings",
+      "functionName": "Screen_CardHistory",
       "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_settings",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardHistory_card history",
       "rendersDir": "app",
       "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
       "variant": ""
     },
     {
-      "annotatedBasename": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_ThemeStyle_settings \u00b7 theme.a11y.png",
+      "annotatedBasename": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardHistory_ThemeStyle_card history \u00b7 theme.a11y.png",
       "cleanBasename": "",
       "findings": [
         {
-          "boundsInScreen": "64,1084,190,1210",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Not selected\" is identical to that of 3 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.RadioButton"
+          "boundsInScreen": "352,221,730,442",
+          "level": "ERROR",
+          "message": "This item may not have a label readable by screen readers.",
+          "type": "SpeakableTextPresentCheck",
+          "viewDescription": "androidx.compose.remote.player.view.RemoteComposePlayer"
+        },
+        {
+          "boundsInScreen": "352,273,730,389",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View  desc=\"Downstairs Temperature\""
         }
       ],
-      "functionName": "Screen_Settings_ThemeStyle",
+      "functionName": "Screen_CardHistory_ThemeStyle",
       "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_ThemeStyle_settings \u00b7 theme",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardHistory_ThemeStyle_card history \u00b7 theme",
       "rendersDir": "app",
       "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
       "variant": ""
     },
     {
-      "annotatedBasename": "HaCardBatterySticker-14ccc73a.a11y.png",
-      "cleanBasename": "HaCardBatterySticker-14ccc73a.png",
-      "findings": [],
-      "functionName": "HaCardBatterySticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardBatterySticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardMeasurementSticker-96d0258f.a11y.png",
-      "cleanBasename": "HaCardMeasurementSticker-96d0258f.png",
-      "findings": [],
-      "functionName": "HaCardMeasurementSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardMeasurementSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardThermometerShortSticker-bfd4e8b6.a11y.png",
-      "cleanBasename": "HaCardThermometerShortSticker-bfd4e8b6.png",
-      "findings": [],
-      "functionName": "HaCardThermometerShortSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardThermometerShortSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardThermometerSticker-f4bb4f74.a11y.png",
-      "cleanBasename": "HaCardThermometerSticker-f4bb4f74.png",
-      "findings": [],
-      "functionName": "HaCardThermometerSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardThermometerSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardUberThemeSticker-7f4ced60.a11y.png",
-      "cleanBasename": "HaCardUberThemeSticker-7f4ced60.png",
-      "findings": [],
-      "functionName": "HaCardUberThemeSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardUberThemeSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
+      "annotatedBasename": "Dashboard3dPrintingTablet_dashboard_3d_printing_tablet-d15705fe.a11y.png",
+      "cleanBasename": "Dashboard3dPrintingTablet_dashboard_3d_printing_tablet-d15705fe.png",
+      "findings": [
+        {
+          "boundsInScreen": "85,836,971,957",
+          "level": "ERROR",
+          "message": "This item's height is 46dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "85,957,971,1073",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "85,1073,971,1189",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "85,1189,971,1305",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "85,1305,971,1421",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "85,1421,971,1537",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "85,1537,971,1658",
+          "level": "ERROR",
+          "message": "This item's height is 46dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "1130,836,2016,957",
+          "level": "ERROR",
+          "message": "This item's height is 46dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "1130,957,2016,1073",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "1130,1073,2016,1189",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "1130,1189,2016,1305",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "1130,1305,2016,1421",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "1130,1421,2016,1537",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "1130,1537,2016,1658",
+          "level": "ERROR",
+          "message": "This item's height is 46dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "85,3431,971,3547",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "85,3547,971,3663",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "85,3663,971,3779",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "85,3779,971,3895",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "85,3895,971,4011",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "85,4602,971,4723",
+          "level": "ERROR",
+          "message": "This item's height is 46dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "85,957,971,1073",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Status, Status, Idle\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "85,1189,971,1305",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Progress, Progress, 0 %\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "85,1537,971,1658",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Remaining, Remaining, 0 h\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "85,1073,971,1189",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Stage, Stage, Idle\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "90,2184,307,2218",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"A1MINI_sn1 Print\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "85,836,971,957",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Online, Online, On\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "Dashboard3dPrintingTablet",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.Dashboard3dPrintingTablet_dashboard 3d-printing \u2014 tablet",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/DashboardPreviews.kt",
       "variant": ""
     },
     {
@@ -139,303 +292,6 @@
       "rendersDir": "previews",
       "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/DashboardPreviews.kt",
       "variant": ""
-    },
-    {
-      "annotatedBasename": "Uber_Braun_Dark_uber_Braun_dark-7d150a60.a11y.png",
-      "cleanBasename": "Uber_Braun_Dark_uber_Braun_dark-7d150a60.png",
-      "findings": [
-        {
-          "boundsInScreen": "53,1223,893,1310",
-          "level": "ERROR",
-          "message": "This item's height is 33dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "53,1310,893,1400",
-          "level": "ERROR",
-          "message": "This item's height is 34dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "783,1310,909,1400",
-          "level": "WARNING",
-          "message": "This item's height is 34dp. Consider making the height of this touch target 48dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item.",
-          "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View"
-        }
-      ],
-      "functionName": "Uber_Braun_Dark",
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Braun_Dark_uber_ Braun (dark)",
-      "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemePreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Uber_Braun_Light_uber_Braun_light-5a2c2283.a11y.png",
-      "cleanBasename": "Uber_Braun_Light_uber_Braun_light-5a2c2283.png",
-      "findings": [
-        {
-          "boundsInScreen": "53,1223,893,1310",
-          "level": "ERROR",
-          "message": "This item's height is 33dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "53,1310,893,1400",
-          "level": "ERROR",
-          "message": "This item's height is 34dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "783,1310,909,1400",
-          "level": "WARNING",
-          "message": "This item's height is 34dp. Consider making the height of this touch target 48dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item.",
-          "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View"
-        }
-      ],
-      "functionName": "Uber_Braun_Light",
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Braun_Light_uber_ Braun (light)",
-      "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemePreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Uber_Classic_Light_uber_Classic_light-42bf0d3f.a11y.png",
-      "cleanBasename": "Uber_Classic_Light_uber_Classic_light-42bf0d3f.png",
-      "findings": [
-        {
-          "boundsInScreen": "53,1223,893,1310",
-          "level": "ERROR",
-          "message": "This item's height is 33dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "53,1310,893,1400",
-          "level": "ERROR",
-          "message": "This item's height is 34dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "783,1310,909,1400",
-          "level": "WARNING",
-          "message": "This item's height is 34dp. Consider making the height of this touch target 48dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item.",
-          "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View"
-        }
-      ],
-      "functionName": "Uber_Classic_Light",
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Classic_Light_uber_ Classic (light)",
-      "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemePreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Uber_Expressive_Dark_uber_Material_3_Expressive_dark-c2119956.a11y.png",
-      "cleanBasename": "Uber_Expressive_Dark_uber_Material_3_Expressive_dark-c2119956.png",
-      "findings": [
-        {
-          "boundsInScreen": "53,1223,893,1310",
-          "level": "ERROR",
-          "message": "This item's height is 33dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "53,1310,893,1400",
-          "level": "ERROR",
-          "message": "This item's height is 34dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "783,1310,909,1400",
-          "level": "WARNING",
-          "message": "This item's height is 34dp. Consider making the height of this touch target 48dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item.",
-          "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View"
-        }
-      ],
-      "functionName": "Uber_Expressive_Dark",
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Expressive_Dark_uber_ Material 3 Expressive (dark)",
-      "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemePreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Uber_Expressive_Light_uber_Material_3_Expressive_light-900b0841.a11y.png",
-      "cleanBasename": "Uber_Expressive_Light_uber_Material_3_Expressive_light-900b0841.png",
-      "findings": [
-        {
-          "boundsInScreen": "53,1223,893,1310",
-          "level": "ERROR",
-          "message": "This item's height is 33dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "53,1310,893,1400",
-          "level": "ERROR",
-          "message": "This item's height is 34dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "783,1310,909,1400",
-          "level": "WARNING",
-          "message": "This item's height is 34dp. Consider making the height of this touch target 48dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item.",
-          "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View"
-        }
-      ],
-      "functionName": "Uber_Expressive_Light",
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Expressive_Light_uber_ Material 3 Expressive (light)",
-      "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemePreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Uber_Lcd_Dark_uber_LCD_Indiglo_backlight-7b414933.a11y.png",
-      "cleanBasename": "Uber_Lcd_Dark_uber_LCD_Indiglo_backlight-7b414933.png",
-      "findings": [
-        {
-          "boundsInScreen": "53,1223,893,1310",
-          "level": "ERROR",
-          "message": "This item's height is 33dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "53,1310,893,1400",
-          "level": "ERROR",
-          "message": "This item's height is 34dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "783,1310,909,1400",
-          "level": "WARNING",
-          "message": "This item's height is 34dp. Consider making the height of this touch target 48dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item.",
-          "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View"
-        }
-      ],
-      "functionName": "Uber_Lcd_Dark",
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Lcd_Dark_uber_ LCD (Indiglo backlight)",
-      "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemePreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Uber_Lcd_Light_uber_LCD_reflective-cb2651a0.a11y.png",
-      "cleanBasename": "Uber_Lcd_Light_uber_LCD_reflective-cb2651a0.png",
-      "findings": [
-        {
-          "boundsInScreen": "53,1223,893,1310",
-          "level": "ERROR",
-          "message": "This item's height is 33dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "53,1310,893,1400",
-          "level": "ERROR",
-          "message": "This item's height is 34dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "783,1310,909,1400",
-          "level": "WARNING",
-          "message": "This item's height is 34dp. Consider making the height of this touch target 48dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item.",
-          "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View"
-        }
-      ],
-      "functionName": "Uber_Lcd_Light",
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Lcd_Light_uber_ LCD (reflective)",
-      "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemePreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Uber_Nixie_uber_Nixie-89940734.a11y.png",
-      "cleanBasename": "Uber_Nixie_uber_Nixie-89940734.png",
-      "findings": [
-        {
-          "boundsInScreen": "53,1223,893,1310",
-          "level": "ERROR",
-          "message": "This item's height is 33dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "53,1310,893,1400",
-          "level": "ERROR",
-          "message": "This item's height is 34dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "783,1310,909,1400",
-          "level": "WARNING",
-          "message": "This item's height is 34dp. Consider making the height of this touch target 48dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item.",
-          "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View"
-        }
-      ],
-      "functionName": "Uber_Nixie",
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Nixie_uber_ Nixie",
-      "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemePreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Uber_Trinitron_uber_Trinitron-fa0b6c99.a11y.png",
-      "cleanBasename": "Uber_Trinitron_uber_Trinitron-fa0b6c99.png",
-      "findings": [
-        {
-          "boundsInScreen": "53,1223,893,1310",
-          "level": "ERROR",
-          "message": "This item's height is 33dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "53,1310,893,1400",
-          "level": "ERROR",
-          "message": "This item's height is 34dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "783,1310,909,1400",
-          "level": "WARNING",
-          "message": "This item's height is 34dp. Consider making the height of this touch target 48dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item.",
-          "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View"
-        }
-      ],
-      "functionName": "Uber_Trinitron",
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Trinitron_uber_ Trinitron",
-      "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemePreviews.kt",
-      "variant": ""
     }
   ],
   "scope": "changed-previews",
@@ -471,14 +327,6 @@
     {
       "module": "app",
       "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Tablet7_01_Home_play \u00b7 7-inch \u00b7 home"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardHistory_ThemeStyle_card history \u00b7 theme"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardHistory_card history"
     },
     {
       "module": "app",
@@ -542,6 +390,14 @@
     },
     {
       "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_ThemeStyle_settings \u00b7 theme"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_settings"
+    },
+    {
+      "module": "app",
       "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_SyncDiagnostics_sync diagnostics"
     },
     {
@@ -555,86 +411,6 @@
     {
       "module": "app",
       "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Widgets_widgets"
-    },
-    {
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardArcMeterSticker"
-    },
-    {
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardBarMeterSticker"
-    },
-    {
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardButtonSticker"
-    },
-    {
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardEntitiesSticker"
-    },
-    {
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardEntityRowSticker"
-    },
-    {
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardGaugeSticker"
-    },
-    {
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardGlanceSticker"
-    },
-    {
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardHeadingSticker"
-    },
-    {
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardIconSticker"
-    },
-    {
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardMetricSticker"
-    },
-    {
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardStatusChipSticker"
-    },
-    {
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardSurfaceSticker"
-    },
-    {
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardThermometerChipSticker"
-    },
-    {
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardThermometerTallSticker"
-    },
-    {
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardTileSticker"
-    },
-    {
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardToggleSticker"
-    },
-    {
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteButtonSticker"
-    },
-    {
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteCardSticker"
-    },
-    {
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteSwitchButtonSticker"
-    },
-    {
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteTextSticker"
     },
     {
       "module": "previews",
@@ -1078,10 +854,6 @@
     },
     {
       "module": "previews",
-      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.Dashboard3dPrintingTablet_dashboard 3d-printing \u2014 tablet"
-    },
-    {
-      "module": "previews",
       "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardClimateMobile_dashboard climate \u2014 mobile"
     },
     {
@@ -1483,6 +1255,42 @@
     {
       "module": "previews",
       "previewId": "ee.schimke.ha.previews.ToggleSwitchPreviewsKt.ToggleInitial_On_toggle initial=on"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Braun_Dark_uber_ Braun (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Braun_Light_uber_ Braun (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Classic_Light_uber_ Classic (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Expressive_Dark_uber_ Material 3 Expressive (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Expressive_Light_uber_ Material 3 Expressive (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Lcd_Dark_uber_ LCD (Indiglo backlight)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Lcd_Light_uber_ LCD (reflective)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Nixie_uber_ Nixie"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Trinitron_uber_ Trinitron"
     },
     {
       "module": "previews",
