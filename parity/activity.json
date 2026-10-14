@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-14T01:51:41.695Z",
+  "generatedAt": "2026-10-14T06:55:00.674Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "1c6c44c1cf03f5ba8be4eaa790ed78c3bb8b49b9",
+        "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.249 (#794)",
+        "at": "2026-10-14T06:23:32Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "f08377d232785ded568740338e3cb66ddd9fdd3c",
         "subject": "fix(deps): update dependency ee.schimke.composeai:data-render-core to v3.31.0 (#793)",
@@ -474,14 +482,6 @@
         "sha": "a0f67b3e2225a67be769129207e040f25ada4ebc",
         "subject": "docs: plan a card design server for values-free RC templates (#736)",
         "at": "2026-10-11T15:15:53+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "7aab0a3a0eb45931d742ec09bca5ec7e5d068f31",
-        "subject": "fix: use the same is_on rule in area, picture and entity-filter cards (#734)",
-        "at": "2026-10-11T15:03:30+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
