@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-14T18:49:55.355Z",
+  "generatedAt": "2026-10-14T19:44:43.453Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "c3ed0ca065a8fd96075d44b69afa42c8f80a86f2",
+        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-ui-builder-runtime to v3.114.0 (#807)",
+        "at": "2026-10-14T19:12:00Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "b3117644aac760c43bb5e947bc9c7d9f78dc843e",
+        "subject": "feat(ha-cards-catalog): start designs as a dashboard section, a card or a component (#803)",
+        "at": "2026-10-14T19:44:33+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "06c7302f3410431f284b596cc4ef1936a21c7c17",
+        "subject": "feat(design-server): make ha.coo.ee's front page about the app, with a look at the card designer (#804)",
+        "at": "2026-10-14T19:44:29+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "835998f918315989708d45e11d57957dda89d215",
         "subject": "chore(deps): update yschimke/compose-ai-tools digest to ca5da5c (#805)",
@@ -458,30 +482,6 @@
         "sha": "66512387dd31b8f4b94b237f00eef3fc90dcc2f4",
         "subject": "chore(deps): update compose-ai-tools (#747)",
         "at": "2026-10-11T21:14:52Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a99eb8866fd5a1f096fbb798d82101c4abffbca8",
-        "subject": "feat: render templatable cards from designs, server first with a local library fallback (#748)",
-        "at": "2026-10-11T22:14:49+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "1b99b7729482e1d8d407ff78916627debe394488",
-        "subject": "fix: sync card designs nightly while charging instead of polling from the dashboard (#746)",
-        "at": "2026-10-11T21:24:24+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "1f95279b9bb665291d8f51c084176c329893c754",
-        "subject": "fix(deps): update compose-ai-tools (#744)",
-        "at": "2026-10-11T20:19:42Z",
         "author": "renovate[bot]",
         "previewIds": [],
         "components": []
