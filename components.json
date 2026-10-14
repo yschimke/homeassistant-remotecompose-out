@@ -3600,6 +3600,138 @@
             "overloads": []
         },
         {
+            "canonicalId": "previews/ee.schimke.ha.previews.UberThemeSheetsKt.UberSheet",
+            "componentIds": [],
+            "symbol": {
+                "jvmOwner": "ee.schimke.ha.previews.UberThemeSheetsKt",
+                "callable": "ee.schimke.ha.previews.UberSheet",
+                "name": "UberSheet",
+                "origin": "PROJECT",
+                "jvmName": "UberSheet",
+                "descriptor": "(Lee/schimke/ha/rc/components/HaUberTheme;Ljava/util/List;Landroidx/compose/runtime/Composer;I)V",
+                "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemeSheets.kt",
+                "docs": "unavailable",
+                "receiver": null
+            },
+            "parameters": [
+                {
+                    "name": "theme",
+                    "type": "HaUberTheme",
+                    "typeFqn": "ee.schimke.ha.rc.components.HaUberTheme",
+                    "hasDefault": false,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "cards",
+                    "type": "List<Pair<String, HaSnapshot>>",
+                    "typeFqn": "kotlin.collections.List",
+                    "hasDefault": false,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                }
+            ],
+            "slots": [],
+            "bindings": [
+                {
+                    "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberCards_Braun_uber_cards__Braun",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberCards_Classic_uber_cards__Classic",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberCards_Console_uber_cards__Console",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberCards_Expressive_uber_cards__Expressive",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberCards_Lcd_uber_cards__LCD",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberCards_Nixie_uber_cards__Nixie",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberCards_Trinitron_uber_cards__Trinitron",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Braun_uber_dials__Braun",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Classic_uber_dials__Classic",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Console_uber_dials__Console",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Expressive_uber_dials__Expressive",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Lcd_uber_dials__LCD",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Nixie_uber_dials__Nixie",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Trinitron_uber_dials__Trinitron",
+                    "componentId": null,
+                    "group": null
+                }
+            ],
+            "code": {
+                "call": null,
+                "imports": [],
+                "refusedReason": "not public or internal, so a generated file cannot call it",
+                "requiredOptIns": [],
+                "androidxOptIns": []
+            },
+            "signatureKnown": true,
+            "callableFromAnotherFile": false,
+            "hasTypeParameters": false,
+            "hasContextReceivers": false,
+            "overloadsCollided": false,
+            "builder": null,
+            "requiredOptIns": [],
+            "androidxOptIns": [],
+            "overloads": []
+        },
+        {
             "canonicalId": "previews/ee.schimke.ha.previews.WrapContentHeightReproKt.CmpPlayer",
             "componentIds": [],
             "symbol": {

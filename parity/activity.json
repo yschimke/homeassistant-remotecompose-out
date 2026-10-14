@@ -1,11 +1,51 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-14T21:37:56.703Z",
+  "generatedAt": "2026-10-14T22:32:04.635Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "3102ab090420c7c95af3667881139a81bb00e929",
+        "subject": "feat: real cards in the TV kiosk, and legible accents under card styles (#816)",
+        "at": "2026-10-14T22:41:54+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "80be1553dc8d47fd721065506b2ca1aa75cf1e52",
+        "subject": "fix: polish widget sizing and Card Studio feedback (#812)",
+        "at": "2026-10-14T21:40:43+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "185a97a9d0121759a5d13ae830d907b30425d01a",
+        "subject": "feat: card styles theme the control dials, graphs, controls, Wear and TV (#813)",
+        "at": "2026-10-14T21:25:59+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "e08513899cb94ed6997790cf7d07487b4636a644",
+        "subject": "feat(app): long-press a dashboard card to fork it into the card designer (#810)",
+        "at": "2026-10-14T21:12:09+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "d3ccc6de6beae0f631e3799ee4dcb5f06a6d7364",
+        "subject": "feat(design-server): link the card designer and catalog as paths on ha.coo.ee (#809)",
+        "at": "2026-10-14T21:11:33+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "ca1c23ddd163ffca8afd70f728f34458e947d4b1",
         "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.250 (#808)",
@@ -442,46 +482,6 @@
         "sha": "1afb4cf3c2c7a6f3adecf1db57b47d8ea9b0c323",
         "subject": "feat: render gauge, clock and placeholder cards from designs (#759)",
         "at": "2026-10-12T01:01:12+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "5809919e15fe11d518f06f8348480eab93fa5fa6",
-        "subject": "ci: build the typed catalog against compose-ui-builder v3.108.0 (#754)",
-        "at": "2026-10-12T00:16:30+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "4aa434803ffc9f992fbb515719e89f2c6e1705a9",
-        "subject": "feat: render alarm panel cards from designs (#753)",
-        "at": "2026-10-12T00:05:00+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a01ddf97b7795a2a15255592ef0472e50b152990",
-        "subject": "feat: render entity, button, heading, glance and entities cards from designs (#752)",
-        "at": "2026-10-11T23:26:31+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "6668c7a03d5b9f1c4df381c1dab1484219ed588e",
-        "subject": "feat: list and object components in the typed catalog (#751)",
-        "at": "2026-10-11T22:46:00+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "5b5d0520887532f10ff33561b17bc95f8587192d",
-        "subject": "test: pixel parity between card design templates and direct tile captures (#749)",
-        "at": "2026-10-11T22:32:52+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
