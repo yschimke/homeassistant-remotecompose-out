@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-14T01:06:25.049Z",
+  "generatedAt": "2026-10-14T01:51:41.695Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "f08377d232785ded568740338e3cb66ddd9fdd3c",
+        "subject": "fix(deps): update dependency ee.schimke.composeai:data-render-core to v3.31.0 (#793)",
+        "at": "2026-10-14T01:22:30Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "1d28bf52af9626e72954ed2d0993ec50dbe34a88",
         "subject": "fix(deps): update compose-ai-tools (#790)",
@@ -474,14 +482,6 @@
         "sha": "7aab0a3a0eb45931d742ec09bca5ec7e5d068f31",
         "subject": "fix: use the same is_on rule in area, picture and entity-filter cards (#734)",
         "at": "2026-10-11T15:03:30+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "c848c68501393b88765d8bbf532968b6ed635ddf",
-        "subject": "fix: push is_on from the same active state converters bake (#733)",
-        "at": "2026-10-11T14:35:06+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
