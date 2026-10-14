@@ -1,6 +1,6 @@
 # Accessibility Report
 
-_Auto-generated from `compose-preview/a11y/pr`. 126 preview(s) across 3 module(s) · 313 error(s) · 85 warning(s) · 138 info._
+_Auto-generated from `compose-preview/a11y/pr`. 114 preview(s) across 3 module(s) · 318 error(s) · 85 warning(s) · 136 info._
 
 Browse inline; image URLs are pinned to the commit SHA on the baseline branch so links keep resolving after merge.
 
@@ -24,12 +24,6 @@ _No findings._
 
 _No findings._
 
-### `HaCardButtonSticker`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/ha-cards-catalog/HaCardButtonSticker-53b6e3a7.a11y.png" width="400" />
-
-_No findings._
-
 ### `HaCardEntitiesSticker`
 
 <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/ha-cards-catalog/HaCardEntitiesSticker-f747a925.a11y.png" width="400" />
@@ -39,14 +33,6 @@ _No findings._
 | 1 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="Temperature" | This non-clickable item's speakable text: "Temperature" is identical to that of 1 other item(s). |
 | 2 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="Front door" | This non-clickable item's speakable text: "Front door" is identical to that of 1 other item(s). |
 | 3 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="Ceiling light" | This non-clickable item's speakable text: "Ceiling light" is identical to that of 1 other item(s). |
-
-### `HaCardEntityRowSticker`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/ha-cards-catalog/HaCardEntityRowSticker-e753861e.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="Living room" | This non-clickable item's speakable text: "Living room" is identical to that of 1 other item(s). |
 
 ### `HaCardGaugeSticker`
 
@@ -64,43 +50,11 @@ _No findings._
 | 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Door" is identical to that of 1 other item(s). |
 | 3 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Power" is identical to that of 1 other item(s). |
 
-### `HaCardHeadingSticker`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/ha-cards-catalog/HaCardHeadingSticker-ead292c1.a11y.png" width="400" />
-
-_No findings._
-
-### `HaCardIconSticker`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/ha-cards-catalog/HaCardIconSticker-abac8ae5.a11y.png" width="400" />
-
-_No findings._
-
 ### `HaCardMeasurementSticker`
 
 <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/ha-cards-catalog/HaCardMeasurementSticker-96d0258f.a11y.png" width="400" />
 
 _No findings._
-
-### `HaCardMetricSticker`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/ha-cards-catalog/HaCardMetricSticker-5f00defd.a11y.png" width="400" />
-
-_No findings._
-
-### `HaCardStatusChipSticker`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/ha-cards-catalog/HaCardStatusChipSticker-491fda3b.a11y.png" width="400" />
-
-_No findings._
-
-### `HaCardSurfaceSticker`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/ha-cards-catalog/HaCardSurfaceSticker-8638109c.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="Ceiling" | This non-clickable item's speakable text: "Ceiling" is identical to that of 1 other item(s). |
 
 ### `HaCardThermometerChipSticker`
 
@@ -126,45 +80,9 @@ _No findings._
 
 _No findings._
 
-### `HaCardTileSticker`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/ha-cards-catalog/HaCardTileSticker-91a245fb.a11y.png" width="400" />
-
-_No findings._
-
-### `HaCardToggleSticker`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/ha-cards-catalog/HaCardToggleSticker-07b8d001.png" width="400" />
-
-_No findings._
-
 ### `HaCardUberThemeSticker`
 
 <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/ha-cards-catalog/HaCardUberThemeSticker-7f4ced60.a11y.png" width="400" />
-
-_No findings._
-
-### `RemoteButtonSticker`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/ha-cards-catalog/RemoteButtonSticker-4371877d.a11y.png" width="400" />
-
-_No findings._
-
-### `RemoteCardSticker`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/ha-cards-catalog/RemoteCardSticker-7685c951.a11y.png" width="400" />
-
-_No findings._
-
-### `RemoteSwitchButtonSticker`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/ha-cards-catalog/RemoteSwitchButtonSticker-c082b22a.a11y.png" width="400" />
-
-_No findings._
-
-### `RemoteTextSticker`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/ha-cards-catalog/RemoteTextSticker-246b8608.a11y.png" width="400" />
 
 _No findings._
 
@@ -704,6 +622,18 @@ _No findings._
 | 3 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "No samples" is identical to that of 1 other item(s). |
 | 4 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "no data" is identical to that of 1 other item(s). |
 | 5 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "iPhone, iPhone, Not home" is identical to that of 2 other item(s). |
+
+### `DashboardSecurityMobile`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/DashboardSecurityMobile_dashboard_security_mobile-842e09ef.a11y.png" width="400" />
+
+| # | Level | Rule | Element | Message |
+|--:|---|---|---|---|
+| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
+| 2 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
+| 3 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 44dp. Consider making the height of this touch target 48dp or larger. |
+| 4 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 44dp. Consider making the height of this touch target 48dp or larger. |
+| 5 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 46dp. Consider making the height of this touch target 48dp or larger. |
 
 ### `Dashboard_Dark`
 
