@@ -11,7 +11,7 @@
     "record": {
         "file": "components.json",
         "schemaVersion": 2,
-        "components": 23
+        "components": 24
     },
     "statusSemantics": {
         "platform": "remote-compose",
@@ -27,6 +27,7 @@
         "browserPreview": null,
         "componentMenu": {
             "groupOrder": [
+                "Dashboard section",
                 "Dashboard card",
                 "Wear widget",
                 "Launcher widget",
@@ -95,6 +96,9 @@
                 },
                 "ha-cards/thermometer": {
                     "group": "Measurements"
+                },
+                "ha-cards/thermostat": {
+                    "group": "Home Assistant"
                 },
                 "ha-cards/tile": {
                     "group": "Home Assistant"
@@ -174,112 +178,94 @@
             "version": 1
         },
         "templates": [
+            "ui-builder/designs/section-living-room.json",
+            "ui-builder/designs/section-climate.json",
             "ui-builder/designs/card-light-tile.json",
             "ui-builder/designs/card-entities.json",
             "ui-builder/designs/card-gauge.json",
-            "ui-builder/designs/card-sensor-metric.json",
-            "ui-builder/designs/card-thermometer.json",
-            "ui-builder/designs/wear-light-small.json",
-            "ui-builder/designs/wear-entities-large.json",
-            "ui-builder/designs/launcher-fan-2x2.json",
-            "ui-builder/designs/launcher-entities-4x2.json",
-            "ui-builder/designs/launcher-thermometer-2x2.json"
+            "ui-builder/designs/card-button.json",
+            "ui-builder/designs/component-sensor-metric.json",
+            "ui-builder/designs/component-thermometer.json"
         ],
         "newDesign": {
             "label": "Home Assistant",
             "order": 0,
             "templates": [
                 {
+                    "id": "section-living-room",
+                    "path": "ui-builder/designs/section-living-room.json",
+                    "label": "Living room",
+                    "supportingText": "A section the way Home Assistant's sections view lays one out: a heading over a light tile, the room's entities and its temperature.",
+                    "group": "Dashboard section",
+                    "default": true,
+                    "order": 1
+                },
+                {
+                    "id": "section-climate",
+                    "path": "ui-builder/designs/section-climate.json",
+                    "label": "Climate",
+                    "supportingText": "A heading over a humidity gauge and a thermometer: start here for a section of readings.",
+                    "group": "Dashboard section",
+                    "default": false,
+                    "order": 2
+                },
+                {
                     "id": "card-light-tile",
                     "path": "ui-builder/designs/card-light-tile.json",
                     "label": "Light tile",
                     "supportingText": "HA's tile card for a kitchen light, bound to light.kitchen so it follows the light and toggles it.",
-                    "group": "Dashboard card",
-                    "default": true,
-                    "order": 1
+                    "group": "Card",
+                    "default": false,
+                    "order": 3
                 },
                 {
                     "id": "card-entities",
                     "path": "ui-builder/designs/card-entities.json",
                     "label": "Entities",
                     "supportingText": "A living-room entities card laid out in text and switches bound to the card's state values, collapsing as the card shrinks.",
-                    "group": "Dashboard card",
+                    "group": "Card",
                     "default": false,
-                    "order": 2
+                    "order": 4
                 },
                 {
                     "id": "card-gauge",
                     "path": "ui-builder/designs/card-gauge.json",
                     "label": "Gauge",
                     "supportingText": "HA's gauge card for a humidity sensor, 0 to 100 %.",
-                    "group": "Dashboard card",
-                    "default": false,
-                    "order": 3
-                },
-                {
-                    "id": "card-sensor-metric",
-                    "path": "ui-builder/designs/card-sensor-metric.json",
-                    "label": "Sensor metric",
-                    "supportingText": "An editable label, live sensor value, and separate unit. Change the entity and styling to make a new sensor card.",
-                    "group": "Dashboard card",
-                    "default": false,
-                    "order": 4
-                },
-                {
-                    "id": "card-thermometer",
-                    "path": "ui-builder/designs/card-thermometer.json",
-                    "label": "Thermometer",
-                    "supportingText": "A living-room temperature as a thermometer, bound to its sensor: the tube fills and recolours along HA's comfort ramp as the reading changes.",
-                    "group": "Dashboard card",
+                    "group": "Card",
                     "default": false,
                     "order": 5
                 },
                 {
-                    "id": "wear-light-small",
-                    "path": "ui-builder/designs/wear-light-small.json",
-                    "label": "Light · Small",
-                    "supportingText": "One light's name, state and switch in the Small Wear widget container (216×76dp).",
-                    "group": "Wear widget",
+                    "id": "card-button",
+                    "path": "ui-builder/designs/card-button.json",
+                    "label": "Button",
+                    "supportingText": "HA's button card for a fan; a tap toggles it.",
+                    "group": "Card",
                     "default": false,
                     "order": 6
                 },
                 {
-                    "id": "wear-entities-large",
-                    "path": "ui-builder/designs/wear-entities-large.json",
-                    "label": "Entities · Large",
-                    "supportingText": "A room's title and two entities in the Large Wear widget container (216×124dp).",
-                    "group": "Wear widget",
+                    "id": "component-sensor-metric",
+                    "path": "ui-builder/designs/component-sensor-metric.json",
+                    "label": "Sensor metric",
+                    "supportingText": "An editable label, live sensor value, and separate unit. Change the entity and styling to make a new sensor card.",
+                    "group": "Component",
                     "default": false,
                     "order": 7
                 },
                 {
-                    "id": "launcher-fan-2x2",
-                    "path": "ui-builder/designs/launcher-fan-2x2.json",
-                    "label": "Fan button · 2x2",
-                    "supportingText": "HA's button card for a fan as a 2x2 phone launcher widget; a tap toggles the fan.",
-                    "group": "Launcher widget",
+                    "id": "component-thermometer",
+                    "path": "ui-builder/designs/component-thermometer.json",
+                    "label": "Thermometer",
+                    "supportingText": "A living-room temperature as a thermometer, bound to its sensor: the tube fills and recolours along HA's comfort ramp as the reading changes.",
+                    "group": "Component",
                     "default": false,
                     "order": 8
-                },
-                {
-                    "id": "launcher-entities-4x2",
-                    "path": "ui-builder/designs/launcher-entities-4x2.json",
-                    "label": "Entities · 4x2",
-                    "supportingText": "A room's entity rows as a 4x2 phone launcher widget, each bound to its entity.",
-                    "group": "Launcher widget",
-                    "default": false,
-                    "order": 9
-                },
-                {
-                    "id": "launcher-thermometer-2x2",
-                    "path": "ui-builder/designs/launcher-thermometer-2x2.json",
-                    "label": "Thermometer · 2x2",
-                    "supportingText": "An adaptive thermometer as a 2x2 phone launcher widget: expanded at this size, it drops to the compact row when the widget is resized smaller.",
-                    "group": "Launcher widget",
-                    "default": false,
-                    "order": 10
                 }
-            ]
+            ],
+            "description": null,
+            "primary": null
         },
         "colorTokens": null,
         "assetRegistry": null,
@@ -312,6 +298,38 @@
                 "modifierCapabilities": [],
                 "insertContent": null,
                 "implementation": "ha-cards-catalog/ee.schimke.ha.cards.HaCardComponentsKt.HaCardSurface",
+                "shelfRole": null,
+                "wasm": null,
+                "code": null,
+                "svg": null
+            },
+            "ha-cards/dashboard-section": {
+                "role": "screen-root",
+                "displayName": "Dashboard section",
+                "group": "Dashboard section",
+                "canvas": "layout/scaffold",
+                "unrolled": null,
+                "traits": [
+                    "ScreenContent",
+                    "RemoteContentHost"
+                ],
+                "slots": {
+                    "content": {
+                        "acceptedRoles": [
+                            "Scaffold",
+                            "Container",
+                            "Leaf"
+                        ],
+                        "acceptedTraits": [
+                            "RemoteAuthorable"
+                        ],
+                        "max": 1
+                    }
+                },
+                "properties": [],
+                "modifierCapabilities": [],
+                "insertContent": null,
+                "implementation": "ha-cards-catalog/ee.schimke.ha.cards.HaCardComponentsKt.HaDashboardSection",
                 "shelfRole": null,
                 "wasm": null,
                 "code": null,
@@ -1860,6 +1878,101 @@
                 "shelfRole": null,
                 "exportProjection": null
             },
+            "ha-cards/thermostat": {
+                "record": "ha-cards-catalog/ee.schimke.ha.cards.HaCardComponentsKt.HaCardThermostat",
+                "catalogId": null,
+                "displayName": "Thermostat",
+                "canvas": null,
+                "canvasMapping": null,
+                "unrolled": null,
+                "nativeOnly": false,
+                "traits": [],
+                "slots": {},
+                "stateCallbacks": {},
+                "starter": {},
+                "variantProperty": null,
+                "variants": {},
+                "excluded": null,
+                "propertyCapabilities": [
+                    {
+                        "name": "name",
+                        "jsonType": "string",
+                        "required": true,
+                        "notes": "The thermostat's friendly name."
+                    },
+                    {
+                        "name": "current",
+                        "jsonType": "number",
+                        "required": true,
+                        "notes": "The room temperature: the arc's fill and the centre reading."
+                    },
+                    {
+                        "name": "target",
+                        "jsonType": "number",
+                        "required": false,
+                        "notes": "The set point, marked on the arc and shown under the reading. Negative (the default) draws none."
+                    },
+                    {
+                        "name": "min",
+                        "jsonType": "number",
+                        "required": false,
+                        "notes": "The dial's lowest temperature; 7 when unset (HA's climate default)."
+                    },
+                    {
+                        "name": "max",
+                        "jsonType": "number",
+                        "required": false,
+                        "notes": "The dial's highest temperature; 35 when unset."
+                    },
+                    {
+                        "name": "unit",
+                        "jsonType": "string",
+                        "required": false,
+                        "notes": "The unit after each reading; `°C` when unset."
+                    },
+                    {
+                        "name": "mode",
+                        "jsonType": "string",
+                        "required": false,
+                        "allowedValues": [
+                            "heat",
+                            "cool",
+                            "heat_cool",
+                            "auto",
+                            "dry",
+                            "fan_only",
+                            "off"
+                        ],
+                        "notes": "The HVAC mode: names the chip above the reading and picks the dial's accent. `heat` when unset."
+                    },
+                    {
+                        "name": "entityId",
+                        "jsonType": "string",
+                        "required": false,
+                        "notes": "The climate entity (`climate.living_room`). Set, the temperatures bind `<entityId>.current_temperature` and `<entityId>.target_temperature` and the chip binds `<entityId>.state`, so the dial and both readings keep up with Home Assistant; a tap opens its more-info. The accent stays the designed mode's. Blank, the values are constants."
+                    }
+                ],
+                "slotCapabilities": null,
+                "modifierCapabilities": null,
+                "insertContent": {
+                    "properties": {
+                        "name": {
+                            "type": "string",
+                            "value": "Living room"
+                        },
+                        "current": {
+                            "type": "float",
+                            "value": 21.5
+                        },
+                        "target": {
+                            "type": "float",
+                            "value": 22
+                        }
+                    }
+                },
+                "shelfRole": null,
+                "exportProjection": null
+            },
             "ha-cards/tile": {
                 "record": "ha-cards-catalog/ee.schimke.ha.cards.HaCardComponentsKt.HaCardTile",
                 "catalogId": null,
@@ -2104,6 +2217,11 @@
         {
             "code": "component.canvas.unclaimed",
             "subject": "ha-cards/thermometer",
+            "message": "no canvas adapter claimed, so it draws as a placeholder. That is the honest default and needs no fixing; it is reported so a shelf drawn entirely in placeholders is visible rather than mysterious."
+        },
+        {
+            "code": "component.canvas.unclaimed",
+            "subject": "ha-cards/thermostat",
             "message": "no canvas adapter claimed, so it draws as a placeholder. That is the honest default and needs no fixing; it is reported so a shelf drawn entirely in placeholders is visible rather than mysterious."
         },
         {

@@ -1,11 +1,107 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-14T12:57:38.127Z",
+  "generatedAt": "2026-10-14T20:52:22.283Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "185a97a9d0121759a5d13ae830d907b30425d01a",
+        "subject": "feat: card styles theme the control dials, graphs, controls, Wear and TV (#813)",
+        "at": "2026-10-14T21:25:59+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "e08513899cb94ed6997790cf7d07487b4636a644",
+        "subject": "feat(app): long-press a dashboard card to fork it into the card designer (#810)",
+        "at": "2026-10-14T21:12:09+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "d3ccc6de6beae0f631e3799ee4dcb5f06a6d7364",
+        "subject": "feat(design-server): link the card designer and catalog as paths on ha.coo.ee (#809)",
+        "at": "2026-10-14T21:11:33+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "ca1c23ddd163ffca8afd70f728f34458e947d4b1",
+        "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.250 (#808)",
+        "at": "2026-10-14T19:40:18Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "c3ed0ca065a8fd96075d44b69afa42c8f80a86f2",
+        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-ui-builder-runtime to v3.114.0 (#807)",
+        "at": "2026-10-14T19:12:00Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "b3117644aac760c43bb5e947bc9c7d9f78dc843e",
+        "subject": "feat(ha-cards-catalog): start designs as a dashboard section, a card or a component (#803)",
+        "at": "2026-10-14T19:44:33+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "06c7302f3410431f284b596cc4ef1936a21c7c17",
+        "subject": "feat(design-server): make ha.coo.ee's front page about the app, with a look at the card designer (#804)",
+        "at": "2026-10-14T19:44:29+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "835998f918315989708d45e11d57957dda89d215",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to ca5da5c (#805)",
+        "at": "2026-10-14T18:17:07Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "124b8e66b1e5f18b2deec0287f611e2cbe755d1c",
+        "subject": "feat: thermostat dial and a Console example in the ha-cards builder (#806)",
+        "at": "2026-10-14T19:17:03+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "ace0fa069d21ef99ea18ca3a160c0bb26dc409ec",
+        "subject": "fix(deps): update compose-ai-tools (#799)",
+        "at": "2026-10-14T16:14:53Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "92f0c96caa9d599c32ff91d67d105f1a4a506443",
+        "subject": "fix(deps): update dependency ee.schimke.composeai:data-render-core to v3.32.0 (#802)",
+        "at": "2026-10-14T16:14:48Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "a2d7800432da1330c688682899462983949b1bf5",
+        "subject": "fix: match in-app widget previews to launcher rendering (#801)",
+        "at": "2026-10-14T16:42:03+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "26943a44af0c54853169d4f1f42c05b4536a6d5d",
         "subject": "feat: prepare and preview adaptive home screen widgets (#798)",
@@ -387,102 +483,6 @@
         "subject": "feat: render alarm panel cards from designs (#753)",
         "at": "2026-10-12T00:05:00+01:00",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a01ddf97b7795a2a15255592ef0472e50b152990",
-        "subject": "feat: render entity, button, heading, glance and entities cards from designs (#752)",
-        "at": "2026-10-11T23:26:31+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "6668c7a03d5b9f1c4df381c1dab1484219ed588e",
-        "subject": "feat: list and object components in the typed catalog (#751)",
-        "at": "2026-10-11T22:46:00+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "5b5d0520887532f10ff33561b17bc95f8587192d",
-        "subject": "test: pixel parity between card design templates and direct tile captures (#749)",
-        "at": "2026-10-11T22:32:52+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "66512387dd31b8f4b94b237f00eef3fc90dcc2f4",
-        "subject": "chore(deps): update compose-ai-tools (#747)",
-        "at": "2026-10-11T21:14:52Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a99eb8866fd5a1f096fbb798d82101c4abffbca8",
-        "subject": "feat: render templatable cards from designs, server first with a local library fallback (#748)",
-        "at": "2026-10-11T22:14:49+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "1b99b7729482e1d8d407ff78916627debe394488",
-        "subject": "fix: sync card designs nightly while charging instead of polling from the dashboard (#746)",
-        "at": "2026-10-11T21:24:24+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "1f95279b9bb665291d8f51c084176c329893c754",
-        "subject": "fix(deps): update compose-ai-tools (#744)",
-        "at": "2026-10-11T20:19:42Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "adc29b93fa050cf911044a57fc12d157a40c7384",
-        "subject": "fix: design server keeps the previous manifest until new blobs arrive, re-checks periodically (#745)",
-        "at": "2026-10-11T20:24:11+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "9362f7c62ea2dc34fb312d6a88d4e4bedfb5b0ec",
-        "subject": "chore(deps): update compose-ai-tools (#743)",
-        "at": "2026-10-11T18:43:55Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "3c65f884b18c249a72dd33ac13bb4cec988558db",
-        "subject": "chore(deps): update compose-ai-tools (#742)",
-        "at": "2026-10-11T18:17:38Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "bd2b86a116f5a51ec23c3665a8a1726f34bad544",
-        "subject": "feat: card design server spike, off unless a server URL is configured (#741)",
-        "at": "2026-10-11T18:46:34+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "5520e4453da61a81c28e96fcec7ac6ad2fd80bfa",
-        "subject": "chore(deps): update compose-ai-tools (#740)",
-        "at": "2026-10-11T17:25:33Z",
-        "author": "renovate[bot]",
         "previewIds": [],
         "components": []
       }
