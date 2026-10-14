@@ -27,6 +27,7 @@ The render task completed but no PNG was produced for these previews. Entries wi
 | `Play_Phone_05_Widgets` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Play_Phone_05_Widgets_play_phone_widgets-2ee987dc.png" width="150" /> |
 | `Play_Tablet10_01_Home` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Play_Tablet10_01_Home_play_10_inch_home-7ca1827e.png" width="150" /> |
 | `Play_Tablet7_01_Home` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Play_Tablet7_01_Home_play_7_inch_home-eb94cb4a.png" width="150" /> |
+| `Screen_CardActions` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Screen_CardActions_card_actions-fcba8e8e.png" width="150" /> |
 | `Screen_CardHistory_ThemeStyle · Material3` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Screen_CardHistory_ThemeStyle_card_history_theme-38cdf710_Material3.png" width="150" /> |
 | `Screen_CardHistory_ThemeStyle · TerrazzoHome` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Screen_CardHistory_ThemeStyle_card_history_theme-38cdf710_TerrazzoHome.png" width="150" /> |
 | `Screen_CardHistory_ThemeStyle · TerrazzoKiosk` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Screen_CardHistory_ThemeStyle_card_history_theme-38cdf710_TerrazzoKiosk.png" width="150" /> |
@@ -388,6 +389,20 @@ The render task completed but no PNG was produced for these previews. Entries wi
 | `Uber_Lcd_Light` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/Uber_Lcd_Light_uber_LCD_reflective-cb2651a0.png" width="150" /> |
 | `Uber_Nixie` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/Uber_Nixie_uber_Nixie-89940734.png" width="150" /> |
 | `Uber_Trinitron` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/Uber_Trinitron_uber_Trinitron-fa0b6c99.png" width="150" /> |
+| `UberCards_Braun` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/UberCards_Braun_uber_cards_Braun-c627ce4c.png" width="150" /> |
+| `UberCards_Classic` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/UberCards_Classic_uber_cards_Classic-006e2ca6.png" width="150" /> |
+| `UberCards_Console` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/UberCards_Console_uber_cards_Console-af191643.png" width="150" /> |
+| `UberCards_Expressive` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/UberCards_Expressive_uber_cards_Expressive-1450d5de.png" width="150" /> |
+| `UberCards_Lcd` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/UberCards_Lcd_uber_cards_LCD-472dd721.png" width="150" /> |
+| `UberCards_Nixie` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/UberCards_Nixie_uber_cards_Nixie-d060eacb.png" width="150" /> |
+| `UberCards_Trinitron` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/UberCards_Trinitron_uber_cards_Trinitron-0f2dcdbf.png" width="150" /> |
+| `UberDials_Braun` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/UberDials_Braun_uber_dials_Braun-3315823c.png" width="150" /> |
+| `UberDials_Classic` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/UberDials_Classic_uber_dials_Classic-b181d0f6.png" width="150" /> |
+| `UberDials_Console` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/UberDials_Console_uber_dials_Console-81287a28.png" width="150" /> |
+| `UberDials_Expressive` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/UberDials_Expressive_uber_dials_Expressive-bd1608ff.png" width="150" /> |
+| `UberDials_Lcd` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/UberDials_Lcd_uber_dials_LCD-025d197b.png" width="150" /> |
+| `UberDials_Nixie` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/UberDials_Nixie_uber_dials_Nixie-75dfa2e5.png" width="150" /> |
+| `UberDials_Trinitron` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/UberDials_Trinitron_uber_dials_Trinitron-60080195.png" width="150" /> |
 | `WrapContentHeightCmp` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/WrapContentHeightCmp_wrap_content_height_CMP_player-e74b165d.png" width="150" /> |
 | `WrapContentHeightFixAlpha010` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/WrapContentHeightFixAlpha010_wrap_content_height_fix_WrapAdaptive_player-21200e61.png" width="150" /> |
 | `WrapContentHeightReproAlpha010` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/WrapContentHeightReproAlpha010_wrap_content_height_repro_alpha010-adbd8ce7.png" width="150" /> |
@@ -397,8 +412,10 @@ The render task completed but no PNG was produced for these previews. Entries wi
 | Preview | Image |
 |---------|-------|
 | `TvMainActivity` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/tv/activity__TvMainActivity.png" width="150" /> |
+| `TvKioskPreview_Console` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/tv/TvKioskPreview_Console_TV_kiosk_Console_card_style-a5516ae5.png" width="150" /> |
 | `TvKioskPreview_Demo` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/tv/TvKioskPreview_Demo_TV_kiosk_demo-711d5c5d.png" width="150" /> |
 | `TvKioskPreview_HomePalette` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/tv/TvKioskPreview_HomePalette_TV_kiosk_Home_palette-b1e45ad5.png" width="150" /> |
+| `TvKioskPreview_Lcd` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/tv/TvKioskPreview_Lcd_TV_kiosk_LCD_card_style-71d5ac09.png" width="150" /> |
 | `TvKioskPreview_Live` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/tv/TvKioskPreview_Live_TV_kiosk_live-7c5c8e30.png" width="150" /> |
 
 ## wear
