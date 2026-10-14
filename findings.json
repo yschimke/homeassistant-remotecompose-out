@@ -1,234 +1,665 @@
 {
   "entries": [
     {
-      "annotatedBasename": "Screen_CardHistory_card_history-07f74f5f.a11y.png",
-      "cleanBasename": "Screen_CardHistory_card_history-07f74f5f.png",
+      "annotatedBasename": "UberCards_Braun_uber_cards_Braun-c627ce4c.a11y.png",
+      "cleanBasename": "UberCards_Braun_uber_cards_Braun-c627ce4c.png",
       "findings": [
         {
-          "boundsInScreen": "320,221,698,442",
+          "boundsInScreen": "32,1097,138,1223",
           "level": "ERROR",
-          "message": "This item may not have a label readable by screen readers.",
-          "type": "SpeakableTextPresentCheck",
-          "viewDescription": "androidx.compose.remote.player.view.RemoteComposePlayer"
+          "message": "This item's width is 40dp. Consider making the width of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "320,273,698,389",
+          "boundsInScreen": "138,1097,243,1223",
           "level": "ERROR",
-          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "message": "This item's width is 40dp. Consider making the width of this touch target 48dp or larger.",
           "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View  desc=\"Downstairs Temperature\""
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "58,1397,190,1434",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"Disarmed\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "53,1005,283,1054",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"The Anthem\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "32,1097,138,1223",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"transport\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
         }
       ],
-      "functionName": "Screen_CardHistory",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardHistory_card history",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "functionName": "UberCards_Braun",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberCards_Braun_uber cards_ Braun",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemeSheets.kt",
       "variant": ""
     },
     {
-      "annotatedBasename": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardHistory_ThemeStyle_card history \u00b7 theme.a11y.png",
-      "cleanBasename": "",
+      "annotatedBasename": "UberCards_Classic_uber_cards_Classic-006e2ca6.a11y.png",
+      "cleanBasename": "UberCards_Classic_uber_cards_Classic-006e2ca6.png",
       "findings": [
         {
-          "boundsInScreen": "320,221,698,442",
+          "boundsInScreen": "32,1097,138,1223",
           "level": "ERROR",
-          "message": "This item may not have a label readable by screen readers.",
-          "type": "SpeakableTextPresentCheck",
-          "viewDescription": "androidx.compose.remote.player.view.RemoteComposePlayer"
+          "message": "This item's width is 40dp. Consider making the width of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "320,273,698,389",
+          "boundsInScreen": "138,1097,243,1223",
           "level": "ERROR",
-          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "message": "This item's width is 40dp. Consider making the width of this touch target 48dp or larger.",
           "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View  desc=\"Downstairs Temperature\""
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "58,1397,190,1434",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"Disarmed\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "53,1005,283,1054",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"The Anthem\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "32,1097,138,1223",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"transport\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
         }
       ],
-      "functionName": "Screen_CardHistory_ThemeStyle",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardHistory_ThemeStyle_card history \u00b7 theme",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "functionName": "UberCards_Classic",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberCards_Classic_uber cards_ Classic",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemeSheets.kt",
       "variant": ""
     },
     {
-      "annotatedBasename": "DashboardGithubTablet_dashboard_github_tablet-89194c99.a11y.png",
-      "cleanBasename": "DashboardGithubTablet_dashboard_github_tablet-89194c99.png",
+      "annotatedBasename": "UberCards_Console_uber_cards_Console-af191643.a11y.png",
+      "cleanBasename": "UberCards_Console_uber_cards_Console-af191643.png",
+      "findings": [
+        {
+          "boundsInScreen": "32,1097,138,1223",
+          "level": "ERROR",
+          "message": "This item's width is 40dp. Consider making the width of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "138,1097,243,1223",
+          "level": "ERROR",
+          "message": "This item's width is 40dp. Consider making the width of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "58,1397,202,1434",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"Disarmed\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "53,1005,298,1054",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"The Anthem\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "32,1097,138,1223",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"transport\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "UberCards_Console",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberCards_Console_uber cards_ Console",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemeSheets.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "UberCards_Expressive_uber_cards_Expressive-1450d5de.a11y.png",
+      "cleanBasename": "UberCards_Expressive_uber_cards_Expressive-1450d5de.png",
+      "findings": [
+        {
+          "boundsInScreen": "32,1097,138,1223",
+          "level": "ERROR",
+          "message": "This item's width is 40dp. Consider making the width of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "138,1097,243,1223",
+          "level": "ERROR",
+          "message": "This item's width is 40dp. Consider making the width of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "58,1397,190,1434",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"Disarmed\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "53,1005,283,1054",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"The Anthem\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "32,1097,138,1223",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"transport\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "UberCards_Expressive",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberCards_Expressive_uber cards_ Expressive",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemeSheets.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "UberCards_Lcd_uber_cards_LCD-472dd721.a11y.png",
+      "cleanBasename": "UberCards_Lcd_uber_cards_LCD-472dd721.png",
+      "findings": [
+        {
+          "boundsInScreen": "32,1097,138,1223",
+          "level": "ERROR",
+          "message": "This item's width is 40dp. Consider making the width of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "138,1097,243,1223",
+          "level": "ERROR",
+          "message": "This item's width is 40dp. Consider making the width of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "58,1397,210,1434",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"Disarmed\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "53,1005,303,1054",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"The Anthem\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "32,1097,138,1223",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"transport\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "UberCards_Lcd",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberCards_Lcd_uber cards_ LCD",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemeSheets.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "UberCards_Nixie_uber_cards_Nixie-d060eacb.a11y.png",
+      "cleanBasename": "UberCards_Nixie_uber_cards_Nixie-d060eacb.png",
+      "findings": [
+        {
+          "boundsInScreen": "32,1097,138,1223",
+          "level": "ERROR",
+          "message": "This item's width is 40dp. Consider making the width of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "138,1097,243,1223",
+          "level": "ERROR",
+          "message": "This item's width is 40dp. Consider making the width of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "58,1397,199,1434",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"Disarmed\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "53,1005,293,1054",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"The Anthem\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "32,1097,138,1223",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"transport\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "UberCards_Nixie",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberCards_Nixie_uber cards_ Nixie",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemeSheets.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "UberCards_Trinitron_uber_cards_Trinitron-0f2dcdbf.a11y.png",
+      "cleanBasename": "UberCards_Trinitron_uber_cards_Trinitron-0f2dcdbf.png",
+      "findings": [
+        {
+          "boundsInScreen": "32,1097,138,1223",
+          "level": "ERROR",
+          "message": "This item's width is 40dp. Consider making the width of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "138,1097,243,1223",
+          "level": "ERROR",
+          "message": "This item's width is 40dp. Consider making the width of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "58,1397,233,1434",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"Disarmed\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "53,1005,333,1054",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"The Anthem\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "32,1097,138,1223",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"transport\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "UberCards_Trinitron",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberCards_Trinitron_uber cards_ Trinitron",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemeSheets.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "UberDials_Braun_uber_dials_Braun-3315823c.a11y.png",
+      "cleanBasename": "UberDials_Braun_uber_dials_Braun-3315823c.png",
+      "findings": [
+        {
+          "boundsInScreen": "331,592,457,718",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"stepper\" is identical to that of 5 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "UberDials_Braun",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Braun_uber dials_ Braun",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemeSheets.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "UberDials_Classic_uber_dials_Classic-b181d0f6.a11y.png",
+      "cleanBasename": "UberDials_Classic_uber_dials_Classic-b181d0f6.png",
+      "findings": [
+        {
+          "boundsInScreen": "331,592,457,718",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"stepper\" is identical to that of 5 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "UberDials_Classic",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Classic_uber dials_ Classic",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemeSheets.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "UberDials_Console_uber_dials_Console-81287a28.a11y.png",
+      "cleanBasename": "UberDials_Console_uber_dials_Console-81287a28.png",
+      "findings": [
+        {
+          "boundsInScreen": "331,592,457,718",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"stepper\" is identical to that of 5 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "UberDials_Console",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Console_uber dials_ Console",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemeSheets.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "UberDials_Expressive_uber_dials_Expressive-bd1608ff.a11y.png",
+      "cleanBasename": "UberDials_Expressive_uber_dials_Expressive-bd1608ff.png",
+      "findings": [
+        {
+          "boundsInScreen": "331,592,457,718",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"stepper\" is identical to that of 5 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "UberDials_Expressive",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Expressive_uber dials_ Expressive",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemeSheets.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "UberDials_Lcd_uber_dials_LCD-025d197b.a11y.png",
+      "cleanBasename": "UberDials_Lcd_uber_dials_LCD-025d197b.png",
+      "findings": [
+        {
+          "boundsInScreen": "331,592,457,718",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"stepper\" is identical to that of 5 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "UberDials_Lcd",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Lcd_uber dials_ LCD",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemeSheets.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "UberDials_Nixie_uber_dials_Nixie-75dfa2e5.a11y.png",
+      "cleanBasename": "UberDials_Nixie_uber_dials_Nixie-75dfa2e5.png",
+      "findings": [
+        {
+          "boundsInScreen": "331,592,457,718",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"stepper\" is identical to that of 5 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "UberDials_Nixie",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Nixie_uber dials_ Nixie",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemeSheets.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "UberDials_Trinitron_uber_dials_Trinitron-60080195.a11y.png",
+      "cleanBasename": "UberDials_Trinitron_uber_dials_Trinitron-60080195.png",
+      "findings": [
+        {
+          "boundsInScreen": "331,592,457,718",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"stepper\" is identical to that of 5 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "UberDials_Trinitron",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Trinitron_uber dials_ Trinitron",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemeSheets.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Uber_Console_uber_Console-e263c2ad.a11y.png",
+      "cleanBasename": "Uber_Console_uber_Console-e263c2ad.png",
+      "findings": [
+        {
+          "boundsInScreen": "53,1223,893,1310",
+          "level": "ERROR",
+          "message": "This item's height is 33dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "53,1310,893,1400",
+          "level": "ERROR",
+          "message": "This item's height is 34dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "783,1310,909,1400",
+          "level": "WARNING",
+          "message": "This item's height is 34dp. Consider making the height of this touch target 48dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "Uber_Console",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Console_uber_ Console",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemePreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Uber_Lcd_Dark_uber_LCD_Indiglo_backlight-7b414933.a11y.png",
+      "cleanBasename": "Uber_Lcd_Dark_uber_LCD_Indiglo_backlight-7b414933.png",
+      "findings": [
+        {
+          "boundsInScreen": "53,1223,893,1310",
+          "level": "ERROR",
+          "message": "This item's height is 33dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "53,1310,893,1400",
+          "level": "ERROR",
+          "message": "This item's height is 34dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "783,1310,909,1400",
+          "level": "WARNING",
+          "message": "This item's height is 34dp. Consider making the height of this touch target 48dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "Uber_Lcd_Dark",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Lcd_Dark_uber_ LCD (Indiglo backlight)",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemePreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Uber_Lcd_Light_uber_LCD_reflective-cb2651a0.a11y.png",
+      "cleanBasename": "Uber_Lcd_Light_uber_LCD_reflective-cb2651a0.png",
+      "findings": [
+        {
+          "boundsInScreen": "53,1223,893,1310",
+          "level": "ERROR",
+          "message": "This item's height is 33dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "53,1310,893,1400",
+          "level": "ERROR",
+          "message": "This item's height is 34dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "783,1310,909,1400",
+          "level": "WARNING",
+          "message": "This item's height is 34dp. Consider making the height of this touch target 48dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "Uber_Lcd_Light",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Lcd_Light_uber_ LCD (reflective)",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemePreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Uber_Trinitron_uber_Trinitron-fa0b6c99.a11y.png",
+      "cleanBasename": "Uber_Trinitron_uber_Trinitron-fa0b6c99.png",
+      "findings": [
+        {
+          "boundsInScreen": "53,1223,893,1310",
+          "level": "ERROR",
+          "message": "This item's height is 33dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "53,1310,893,1400",
+          "level": "ERROR",
+          "message": "This item's height is 34dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "783,1310,909,1400",
+          "level": "WARNING",
+          "message": "This item's height is 34dp. Consider making the height of this touch target 48dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "Uber_Trinitron",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Trinitron_uber_ Trinitron",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemePreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "TvKioskPreview_Console_TV_kiosk_Console_card_style-a5516ae5.a11y.png",
+      "cleanBasename": "TvKioskPreview_Console_TV_kiosk_Console_card_style-a5516ae5.png",
       "findings": [],
-      "functionName": "DashboardGithubTablet",
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardGithubTablet_dashboard github \u2014 tablet",
-      "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/DashboardPreviews.kt",
+      "functionName": "TvKioskPreview_Console",
+      "module": "tv",
+      "previewId": "ee.schimke.terrazzo.tv.ui.TvPreviewsKt.TvKioskPreview_Console_TV_ kiosk (Console card style)",
+      "rendersDir": "tv",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/tv/ui/TvPreviews.kt",
       "variant": ""
     },
     {
-      "annotatedBasename": "DashboardSecurityMobile_dashboard_security_mobile-842e09ef.a11y.png",
-      "cleanBasename": "DashboardSecurityMobile_dashboard_security_mobile-842e09ef.png",
+      "annotatedBasename": "TvKioskPreview_Demo_TV_kiosk_demo-711d5c5d.a11y.png",
+      "cleanBasename": "TvKioskPreview_Demo_TV_kiosk_demo-711d5c5d.png",
+      "findings": [],
+      "functionName": "TvKioskPreview_Demo",
+      "module": "tv",
+      "previewId": "ee.schimke.terrazzo.tv.ui.TvPreviewsKt.TvKioskPreview_Demo_TV_ kiosk (demo)",
+      "rendersDir": "tv",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/tv/ui/TvPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "TvKioskPreview_HomePalette_TV_kiosk_Home_palette-b1e45ad5.a11y.png",
+      "cleanBasename": "TvKioskPreview_HomePalette_TV_kiosk_Home_palette-b1e45ad5.png",
+      "findings": [],
+      "functionName": "TvKioskPreview_HomePalette",
+      "module": "tv",
+      "previewId": "ee.schimke.terrazzo.tv.ui.TvPreviewsKt.TvKioskPreview_HomePalette_TV_ kiosk (Home palette)",
+      "rendersDir": "tv",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/tv/ui/TvPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "TvKioskPreview_Lcd_TV_kiosk_LCD_card_style-71d5ac09.a11y.png",
+      "cleanBasename": "TvKioskPreview_Lcd_TV_kiosk_LCD_card_style-71d5ac09.png",
+      "findings": [],
+      "functionName": "TvKioskPreview_Lcd",
+      "module": "tv",
+      "previewId": "ee.schimke.terrazzo.tv.ui.TvPreviewsKt.TvKioskPreview_Lcd_TV_ kiosk (LCD card style)",
+      "rendersDir": "tv",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/tv/ui/TvPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "TvKioskPreview_Live_TV_kiosk_live-7c5c8e30.a11y.png",
+      "cleanBasename": "TvKioskPreview_Live_TV_kiosk_live-7c5c8e30.png",
       "findings": [
         {
-          "boundsInScreen": "327,451,453,551",
-          "level": "ERROR",
-          "message": "This item's height is 38dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "327,551,453,651",
-          "level": "ERROR",
-          "message": "This item's height is 38dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "64,1369,1015,1485",
-          "level": "ERROR",
-          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "64,1485,1015,1601",
-          "level": "ERROR",
-          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "64,3538,1015,3659",
-          "level": "ERROR",
-          "message": "This item's height is 46dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View"
+          "boundsInScreen": "180,455,230,539",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"\u2014\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
         }
       ],
-      "functionName": "DashboardSecurityMobile",
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardSecurityMobile_dashboard security \u2014 mobile",
-      "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/DashboardPreviews.kt",
+      "functionName": "TvKioskPreview_Live",
+      "module": "tv",
+      "previewId": "ee.schimke.terrazzo.tv.ui.TvPreviewsKt.TvKioskPreview_Live_TV_ kiosk (live)",
+      "rendersDir": "tv",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/tv/ui/TvPreviews.kt",
       "variant": ""
     }
   ],
   "scope": "changed-previews",
   "uncheckedPreviews": [
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.CardDebugPreviewsKt.DataGridOverlayPreview_Data grid overlay"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_01_HomeLight_play \u00b7 phone \u00b7 home (light)"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_02_HomeDark_play \u00b7 phone \u00b7 home (dark)"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_03_Discovery_play \u00b7 phone \u00b7 discovery"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_04_Picker_play \u00b7 phone \u00b7 picker"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_05_Widgets_play \u00b7 phone \u00b7 widgets"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Tablet10_01_Home_play \u00b7 10-inch \u00b7 home"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Tablet7_01_Home_play \u00b7 7-inch \u00b7 home"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardPicker_ThemeStyle_dashboard picker \u00b7 theme"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardPicker_dashboard picker"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardSelection_Settings_dashboard selection \u00b7 settings"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardSelection_Signin_dashboard selection \u00b7 signin"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardSelection_ThemeStyle_dashboard selection \u00b7 theme"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardView_PhoneLandscapeMedium_dashboard view \u00b7 phone landscape medium"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardView_ThemeStyle_dashboard \u00b7 theme"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardView_dashboard view"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Discovery_ThemeStyle_discovery \u00b7 theme"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Discovery_discovery"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Logs_Dark_logs \u00b7 dark"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Logs_Empty_logs \u00b7 empty"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Logs_logs"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_ManagePinned_Empty_manage pinned \u00b7 empty"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_ManagePinned_manage pinned"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_ThemeStyle_settings \u00b7 theme"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_settings"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_SyncDiagnostics_sync diagnostics"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_WearWidgets_wear widgets"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Widgets_ThemeStyle_widgets \u00b7 theme"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Widgets_widgets"
-    },
     {
       "module": "previews",
       "previewId": "ee.schimke.ha.previews.AnimationPreviewsKt.Gauge_Animation_Dark_gauge-anim (dark)"
@@ -695,6 +1126,10 @@
     },
     {
       "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardGithubTablet_dashboard github \u2014 tablet"
+    },
+    {
+      "module": "previews",
       "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardMeshcoreMobile_dashboard meshcore \u2014 mobile"
     },
     {
@@ -708,6 +1143,10 @@
     {
       "module": "previews",
       "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardNetworksTablet_dashboard networks \u2014 tablet"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardSecurityMobile_dashboard security \u2014 mobile"
     },
     {
       "module": "previews",
@@ -1091,10 +1530,6 @@
     },
     {
       "module": "previews",
-      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Console_uber_ Console"
-    },
-    {
-      "module": "previews",
       "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Expressive_Dark_uber_ Material 3 Expressive (dark)"
     },
     {
@@ -1103,19 +1538,7 @@
     },
     {
       "module": "previews",
-      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Lcd_Dark_uber_ LCD (Indiglo backlight)"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Lcd_Light_uber_ LCD (reflective)"
-    },
-    {
-      "module": "previews",
       "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Nixie_uber_ Nixie"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Trinitron_uber_ Trinitron"
     },
     {
       "module": "previews",
