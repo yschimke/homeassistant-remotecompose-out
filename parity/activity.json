@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-15T01:53:12.394Z",
+  "generatedAt": "2026-10-15T06:26:18.426Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "7d8e35966559f76c52a0f8eb009446c81c20b630",
+        "subject": "chore(main): release 0.1.40 (#820)",
+        "at": "2026-10-15T06:56:22+01:00",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "cfbad962d2d6919134519b8696ee2df89c735a11",
         "subject": "fix(deps): update compose-ai-tools (#811)",
@@ -475,14 +483,6 @@
         "subject": "feat: sync entity pictures to the watch and bake them into Wear widgets (#763)",
         "at": "2026-10-12T04:06:50+01:00",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "e482a749f982f6d0da1e5989df67fcf05af424d6",
-        "subject": "chore(deps): pin dependencies (#755)",
-        "at": "2026-10-12T02:56:07Z",
-        "author": "renovate[bot]",
         "previewIds": [],
         "components": []
       }
