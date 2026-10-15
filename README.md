@@ -118,6 +118,18 @@ The render task completed but no PNG was produced for these previews. Entries wi
 | `RemoteCardSticker` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/RemoteCardSticker-7685c951.png" width="150" /> |
 | `RemoteSwitchButtonSticker` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/RemoteSwitchButtonSticker-c082b22a.png" width="150" /> |
 | `RemoteTextSticker` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/RemoteTextSticker-246b8608.png" width="150" /> |
+| `Home Assistant Dark theme` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/wearthemecatalog__Home_Assistant_Dark.png" width="150" /> |
+| `Home Assistant Light theme` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/wearthemecatalog__Home_Assistant_Light.png" width="150" /> |
+| `Home Dark theme` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/wearthemecatalog__Home_Dark.png" width="150" /> |
+| `Home Light theme` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/wearthemecatalog__Home_Light.png" width="150" /> |
+| `Kiosk Dark theme` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/wearthemecatalog__Kiosk_Dark.png" width="150" /> |
+| `Kiosk Light theme` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/wearthemecatalog__Kiosk_Light.png" width="150" /> |
+| `Material 3 Dark theme` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/wearthemecatalog__Material_3_Dark.png" width="150" /> |
+| `Material 3 Light theme` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/wearthemecatalog__Material_3_Light.png" width="150" /> |
+| `Minimalist Dark theme` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/wearthemecatalog__Minimalist_Dark.png" width="150" /> |
+| `Minimalist Light theme` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/wearthemecatalog__Minimalist_Light.png" width="150" /> |
+| `Mushroom Dark theme` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/wearthemecatalog__Mushroom_Dark.png" width="150" /> |
+| `Mushroom Light theme` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/ha-cards-catalog/wearthemecatalog__Mushroom_Light.png" width="150" /> |
 
 ## previews
 
