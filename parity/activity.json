@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-15T06:26:18.426Z",
+  "generatedAt": "2026-10-15T08:12:15.666Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "f223e36f79a6634b87e36a41056a32366a47a9df",
+        "subject": "feat(ha-cards): capture stickers in named WearM3 colours and declare the app's themes (#821)",
+        "at": "2026-10-15T08:33:36+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "639dcd873f3578c9c4e220b7cb9e454bd16ed3eb",
+        "subject": "feat(app): fetch card designs by style, variant and author, on by default (#822)",
+        "at": "2026-10-15T08:18:19+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "7d8e35966559f76c52a0f8eb009446c81c20b630",
         "subject": "chore(main): release 0.1.40 (#820)",
@@ -467,22 +483,6 @@
         "subject": "chore(deps): update dependency python to v3.15.0 (#764)",
         "at": "2026-10-12T03:28:20Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "7bb97871d97dda3ed2c9f7383682c9a65459ce24",
-        "subject": "fix: keep Wear widgets current while the watch app is closed (#765)",
-        "at": "2026-10-12T04:26:04+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "54b56d1eb709f972c0865c90fd81c307c03080a2",
-        "subject": "feat: sync entity pictures to the watch and bake them into Wear widgets (#763)",
-        "at": "2026-10-12T04:06:50+01:00",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
