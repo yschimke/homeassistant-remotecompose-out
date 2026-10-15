@@ -1,6 +1,6 @@
 {
     "formatVersion": "compose-preview-history/v1",
-    "generatedFrom": "a043366468a81553ff05a60ae9dd35399c61be62",
+    "generatedFrom": "fe048f9459436f40bdabd3a3beebb16459b6f8c2",
     "previews": {
         "app/ee.schimke.terrazzo.previews.CardDebugPreviewsKt.CardFlashPreview_Card flash on data change": {
             "path": "renders/app/CardFlashPreview_Card_flash_on_data_change-44b71c2b.gif",
@@ -4199,6 +4199,13 @@
             "path": "renders/previews/Dashboard3dPrintingMobile_dashboard_3d_printing_mobile-2701c9cf.png",
             "versions": [
                 {
+                    "blob": "aa86df04d6c9a8fa4a44c7eaa3efbdc71b97c1b9",
+                    "commit": "fe048f9459436f40bdabd3a3beebb16459b6f8c2",
+                    "date": "2026-10-15T22:12:18Z",
+                    "sourceSha": "8758dab1",
+                    "commits": 1
+                },
+                {
                     "blob": "3900f33f7e86d4e09d0cdb12123ac42e4ace2674",
                     "commit": "a043366468a81553ff05a60ae9dd35399c61be62",
                     "date": "2026-10-15T08:53:09Z",
@@ -4220,13 +4227,22 @@
                     "commits": 1
                 }
             ],
-            "observations": 3,
+            "observations": 4,
             "unstable": false,
-            "flapCount": 0
+            "flapCount": 1
         },
         "previews/ee.schimke.ha.previews.DashboardPreviewsKt.Dashboard3dPrintingTablet_dashboard 3d-printing — tablet": {
             "path": "renders/previews/Dashboard3dPrintingTablet_dashboard_3d_printing_tablet-d15705fe.png",
             "versions": [
+                {
+                    "blob": "5e51abcf53537f33e819bc2e3ca255b8ca2fb06c",
+                    "commit": "fe048f9459436f40bdabd3a3beebb16459b6f8c2",
+                    "date": "2026-10-15T22:12:18Z",
+                    "sourceSha": "8758dab1",
+                    "sinceCommit": "97bb46d85ced274a845a4c3ba720ebc9e57b78df",
+                    "commits": 2,
+                    "occurrences": 2
+                },
                 {
                     "blob": "551f851129d9c6a0e96a1ed054f63d0760ab6c0c",
                     "commit": "a043366468a81553ff05a60ae9dd35399c61be62",
@@ -4235,18 +4251,13 @@
                     "commits": 1
                 },
                 {
-                    "blob": "5e51abcf53537f33e819bc2e3ca255b8ca2fb06c",
-                    "commit": "97bb46d85ced274a845a4c3ba720ebc9e57b78df",
-                    "date": "2026-10-14T00:43:20Z",
-                    "sourceSha": "1d28bf52",
-                    "commits": 1
-                },
-                {
                     "blob": "b667946afe97587515aff8e3c91223d795a6d87f",
                     "commit": "46107d582837743c6515159bc1052aaeaf654ada",
                     "date": "2026-10-13T21:49:59Z",
                     "sourceSha": "a51340a9",
-                    "commits": 1
+                    "sinceCommit": "7260ad419c6bc592075bda4dc9a2dc3f84dc646d",
+                    "commits": 2,
+                    "occurrences": 2
                 },
                 {
                     "blob": "0ccb30138352c36670b5c156ba7bdff551ea97f3",
@@ -4254,18 +4265,11 @@
                     "date": "2026-10-13T21:28:15Z",
                     "sourceSha": "822d282e",
                     "commits": 1
-                },
-                {
-                    "blob": "b667946afe97587515aff8e3c91223d795a6d87f",
-                    "commit": "7260ad419c6bc592075bda4dc9a2dc3f84dc646d",
-                    "date": "2026-10-13T06:15:44Z",
-                    "sourceSha": "52ed43ae",
-                    "commits": 1
                 }
             ],
-            "observations": 5,
-            "unstable": false,
-            "flapCount": 1
+            "observations": 6,
+            "unstable": true,
+            "flapCount": 2
         },
         "previews/ee.schimke.ha.previews.DashboardPreviewsKt.DashboardClimateMobile_dashboard climate — mobile": {
             "path": "renders/previews/DashboardClimateMobile_dashboard_climate_mobile-bdcd432b.png",
