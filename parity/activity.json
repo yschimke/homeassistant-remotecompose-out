@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-15T22:33:32.862Z",
+  "generatedAt": "2026-10-15T23:45:40.613Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "54360e86cba77998cb66d8f917597a5da0519a6d",
+        "subject": "chore(deps): update github-actions (#814)",
+        "at": "2026-10-15T23:10:05Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "09493477311c2a8824a3fceb50789bbcfa7a6ffa",
+        "subject": "feat(rc-converter): render unsupported custom cards as their entities (#827)",
+        "at": "2026-10-15T23:37:10+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "8758dab10463a949c6ff0fcbb1b8ac21ad53dc69",
         "subject": "chore(main): release 0.1.41 (#823)",
@@ -467,22 +483,6 @@
         "subject": "feat: bundle UI Builder in the design server and seed card designs from schemas (#769)",
         "at": "2026-10-12T08:05:00+01:00",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "6012b7cb3480f0109c37a63d36e36529d9b77220",
-        "subject": "feat: card design server with a template browser (#768)",
-        "at": "2026-10-12T07:35:03+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "bfc5a1319a7d8f50b7aa32f40690396d40236b0f",
-        "subject": "chore(deps): update compose-ai-tools (#766)",
-        "at": "2026-10-12T05:21:28Z",
-        "author": "renovate[bot]",
         "previewIds": [],
         "components": []
       }
