@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 513,
         "densityAtGeneration": 2.625,
-        "byteLength": 588
+        "byteLength": 769
     },
     "operations": [
         {
@@ -26,6 +26,17 @@
             "visibility": "VISIBLE",
             "list": [
                 {
+                    "type": "ColorConstant",
+                    "color": "0xfffafafa",
+                    "colorId": 42
+                },
+                {
+                    "type": "NamedVariable",
+                    "varId": 42,
+                    "varName": "USER:WearM3.background",
+                    "varType": "COLOR_TYPE"
+                },
+                {
                     "$tags": [
                         "LAYOUT_COMPONENT"
                     ],
@@ -39,13 +50,13 @@
                     "list": [
                         {
                             "type": "ComponentValue",
-                            "valueId": 42,
+                            "valueId": 43,
                             "componentValueType": "WIDTH",
                             "componentId": -3
                         },
                         {
                             "type": "ComponentValue",
-                            "valueId": 43,
+                            "valueId": 44,
                             "componentValueType": "HEIGHT",
                             "componentId": -3
                         },
@@ -81,6 +92,18 @@
                                     "$tags": [
                                         "MODIFIER"
                                     ],
+                                    "type": "BackgroundModifierOperation",
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "width": 0.0,
+                                    "height": 0.0,
+                                    "colorId": 42,
+                                    "shapeType": "RECTANGLE"
+                                },
+                                {
+                                    "$tags": [
+                                        "MODIFIER"
+                                    ],
                                     "type": "PaddingModifierOperation",
                                     "left": 21.0,
                                     "top": 21.0,
@@ -103,17 +126,22 @@
                             "list": [
                                 {
                                     "type": "TextData",
-                                    "textId": 48,
+                                    "textId": 50,
                                     "text": "Good evening"
                                 },
                                 {
+                                    "type": "ColorConstant",
+                                    "color": "0xff8f8f8f",
+                                    "colorId": 51
+                                },
+                                {
                                     "type": "TextData",
-                                    "textId": 49,
+                                    "textId": 52,
                                     "text": "default"
                                 },
                                 {
                                     "type": "TextData",
-                                    "textId": 50,
+                                    "textId": 53,
                                     "text": "pnum"
                                 },
                                 {
@@ -244,16 +272,19 @@
                                     "paddingRight": 0.0,
                                     "paddingTop": 0.0,
                                     "paddingBottom": 0.0,
-                                    "textId": 48,
+                                    "textId": 50,
                                     "flags": 0,
-                                    "color": "0xff8f8f8f",
+                                    "color": [
+                                        -1.6777216E7,
+                                        -1.0
+                                    ],
                                     "fontSize": [
                                         42.0,
                                         42.0
                                     ],
                                     "fontStyle": 0,
                                     "fontWeight": 450.0,
-                                    "fontFamilyId": 49,
+                                    "fontFamilyId": 52,
                                     "textAlign": 1
                                 }
                             ],

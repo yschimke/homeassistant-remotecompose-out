@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 513,
         "densityAtGeneration": 2.625,
-        "byteLength": 505
+        "byteLength": 586
     },
     "operations": [
         {
@@ -25,6 +25,17 @@
             "height": 0.0,
             "visibility": "VISIBLE",
             "list": [
+                {
+                    "type": "ColorConstant",
+                    "color": "0xfffafafa",
+                    "colorId": 42
+                },
+                {
+                    "type": "NamedVariable",
+                    "varId": 42,
+                    "varName": "USER:WearM3.background",
+                    "varType": "COLOR_TYPE"
+                },
                 {
                     "$tags": [
                         "LAYOUT_COMPONENT"
@@ -69,6 +80,18 @@
                                     "$tags": [
                                         "MODIFIER"
                                     ],
+                                    "type": "BackgroundModifierOperation",
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "width": 0.0,
+                                    "height": 0.0,
+                                    "colorId": 42,
+                                    "shapeType": "RECTANGLE"
+                                },
+                                {
+                                    "$tags": [
+                                        "MODIFIER"
+                                    ],
                                     "type": "PaddingModifierOperation",
                                     "left": 21.0,
                                     "top": 21.0,
@@ -91,13 +114,13 @@
                             "list": [
                                 {
                                     "type": "ComponentValue",
-                                    "valueId": 42,
+                                    "valueId": 43,
                                     "componentValueType": "WIDTH",
                                     "componentId": -5
                                 },
                                 {
                                     "type": "ComponentValue",
-                                    "valueId": 43,
+                                    "valueId": 44,
                                     "componentValueType": "HEIGHT",
                                     "componentId": -5
                                 },
@@ -106,10 +129,10 @@
                                         "EXPRESSION"
                                     ],
                                     "type": "FloatExpression",
-                                    "id": 44,
+                                    "id": 45,
                                     "srcValues": [
-                                        "@42",
                                         "@43",
+                                        "@44",
                                         "@3211270",
                                         2.0,
                                         "@3211268"
@@ -119,38 +142,38 @@
                                 {
                                     "type": "ColorConstant",
                                     "color": "0xff8f8f8f",
-                                    "colorId": 45
+                                    "colorId": 46
                                 },
                                 {
                                     "type": "ColorConstant",
                                     "color": "0xffffc107",
-                                    "colorId": 46
+                                    "colorId": 47
                                 },
                                 {
                                     "type": "IntegerConstant",
-                                    "id": 47,
+                                    "id": 48,
                                     "value": 1
                                 },
                                 {
                                     "type": "ColorExpression",
-                                    "id": 48,
+                                    "id": 49,
                                     "mode": "TWEEN",
                                     "startColor": [
-                                        45.0,
-                                        45.0
-                                    ],
-                                    "endColor": [
                                         46.0,
                                         46.0
                                     ],
+                                    "endColor": [
+                                        47.0,
+                                        47.0
+                                    ],
                                     "tween": [
-                                        "@47",
-                                        "@47"
+                                        "@48",
+                                        "@48"
                                     ]
                                 },
                                 {
                                     "type": "TextData",
-                                    "textId": 49,
+                                    "textId": 50,
                                     "text": "On"
                                 },
                                 {
@@ -213,20 +236,20 @@
                                                 },
                                                 {
                                                     "topStart": [
-                                                        "@44",
-                                                        "@44"
+                                                        "@45",
+                                                        "@45"
                                                     ],
                                                     "topEnd": [
-                                                        "@44",
-                                                        "@44"
+                                                        "@45",
+                                                        "@45"
                                                     ],
                                                     "bottomStart": [
-                                                        "@44",
-                                                        "@44"
+                                                        "@45",
+                                                        "@45"
                                                     ],
                                                     "bottomEnd": [
-                                                        "@44",
-                                                        "@44"
+                                                        "@45",
+                                                        "@45"
                                                     ],
                                                     "$tags": [
                                                         "MODIFIER"
@@ -244,7 +267,7 @@
                                                     "y": 0.0,
                                                     "width": 0.0,
                                                     "height": 0.0,
-                                                    "colorId": 48,
+                                                    "colorId": 49,
                                                     "shapeType": "RECTANGLE"
                                                 }
                                             ]
@@ -292,7 +315,7 @@
                                     "paddingRight": 0.0,
                                     "paddingTop": 0.0,
                                     "paddingBottom": 0.0,
-                                    "textId": 49,
+                                    "textId": 50,
                                     "flags": 0,
                                     "color": [
                                         -1.6777216E7,

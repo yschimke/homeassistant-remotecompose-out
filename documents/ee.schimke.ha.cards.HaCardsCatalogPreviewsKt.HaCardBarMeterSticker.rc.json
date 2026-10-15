@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 513,
         "densityAtGeneration": 2.625,
-        "byteLength": 425
+        "byteLength": 554
     },
     "operations": [
         {
@@ -25,6 +25,17 @@
             "height": 0.0,
             "visibility": "VISIBLE",
             "list": [
+                {
+                    "type": "ColorConstant",
+                    "color": "0xfffafafa",
+                    "colorId": 42
+                },
+                {
+                    "type": "NamedVariable",
+                    "varId": 42,
+                    "varName": "USER:WearM3.background",
+                    "varType": "COLOR_TYPE"
+                },
                 {
                     "$tags": [
                         "LAYOUT_COMPONENT"
@@ -69,6 +80,18 @@
                                     "$tags": [
                                         "MODIFIER"
                                     ],
+                                    "type": "BackgroundModifierOperation",
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "width": 0.0,
+                                    "height": 0.0,
+                                    "colorId": 42,
+                                    "shapeType": "RECTANGLE"
+                                },
+                                {
+                                    "$tags": [
+                                        "MODIFIER"
+                                    ],
                                     "type": "PaddingModifierOperation",
                                     "left": 21.0,
                                     "top": 21.0,
@@ -91,13 +114,13 @@
                             "list": [
                                 {
                                     "type": "ComponentValue",
-                                    "valueId": 42,
+                                    "valueId": 43,
                                     "componentValueType": "WIDTH",
                                     "componentId": -5
                                 },
                                 {
                                     "type": "ComponentValue",
-                                    "valueId": 43,
+                                    "valueId": 44,
                                     "componentValueType": "HEIGHT",
                                     "componentId": -5
                                 },
@@ -106,20 +129,31 @@
                                         "EXPRESSION"
                                     ],
                                     "type": "FloatExpression",
-                                    "id": 44,
+                                    "id": 45,
                                     "srcValues": [
-                                        "@43",
+                                        "@44",
                                         2.0,
                                         "@3211268"
                                     ],
                                     "animation": null
                                 },
                                 {
+                                    "type": "ColorConstant",
+                                    "color": "0xffe0e0e0",
+                                    "colorId": 46
+                                },
+                                {
+                                    "type": "NamedVariable",
+                                    "varId": 46,
+                                    "varName": "USER:WearM3.outlineVariant",
+                                    "varType": "COLOR_TYPE"
+                                },
+                                {
                                     "type": "PaintData",
                                     "paintBundle": {
                                         "type": "PaintBundle",
                                         "operations": [
-                                            "{type=Color, color=0xffe0e0e0}",
+                                            "{type=ColorId, id=46}",
                                             "{type=StrokeWidth, width={type=Value, value=0.0}}",
                                             "{type=StrokeCap, cap=0}",
                                             "{type=StrokeJoin, strokeJoin=0}",
@@ -145,20 +179,20 @@
                                         0.0
                                     ],
                                     "right": [
-                                        "@42",
-                                        "@42"
-                                    ],
-                                    "bottom": [
                                         "@43",
                                         "@43"
                                     ],
-                                    "rx": [
+                                    "bottom": [
                                         "@44",
                                         "@44"
                                     ],
+                                    "rx": [
+                                        "@45",
+                                        "@45"
+                                    ],
                                     "ry": [
-                                        "@44",
-                                        "@44"
+                                        "@45",
+                                        "@45"
                                     ],
                                     "type": "DrawRoundRect"
                                 },
@@ -176,7 +210,7 @@
                                         "EXPRESSION"
                                     ],
                                     "type": "FloatExpression",
-                                    "id": 45,
+                                    "id": 47,
                                     "srcValues": [
                                         62.0
                                     ],
@@ -193,10 +227,10 @@
                                         "EXPRESSION"
                                     ],
                                     "type": "FloatExpression",
-                                    "id": 46,
+                                    "id": 48,
                                     "srcValues": [
-                                        "@42",
-                                        "@45",
+                                        "@43",
+                                        "@47",
                                         100.0,
                                         "@3211268",
                                         1.0,
@@ -221,20 +255,20 @@
                                         0.0
                                     ],
                                     "right": [
-                                        "@46",
-                                        "@46"
+                                        "@48",
+                                        "@48"
                                     ],
                                     "bottom": [
-                                        "@43",
-                                        "@43"
+                                        "@44",
+                                        "@44"
                                     ],
                                     "rx": [
-                                        "@44",
-                                        "@44"
+                                        "@45",
+                                        "@45"
                                     ],
                                     "ry": [
-                                        "@44",
-                                        "@44"
+                                        "@45",
+                                        "@45"
                                     ],
                                     "type": "DrawRoundRect"
                                 },

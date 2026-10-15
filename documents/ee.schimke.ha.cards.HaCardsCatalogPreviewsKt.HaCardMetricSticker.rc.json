@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 513,
         "densityAtGeneration": 2.625,
-        "byteLength": 377
+        "byteLength": 551
     },
     "operations": [
         {
@@ -25,6 +25,17 @@
             "height": 0.0,
             "visibility": "VISIBLE",
             "list": [
+                {
+                    "type": "ColorConstant",
+                    "color": "0xfffafafa",
+                    "colorId": 42
+                },
+                {
+                    "type": "NamedVariable",
+                    "varId": 42,
+                    "varName": "USER:WearM3.background",
+                    "varType": "COLOR_TYPE"
+                },
                 {
                     "$tags": [
                         "LAYOUT_COMPONENT"
@@ -69,6 +80,18 @@
                                     "$tags": [
                                         "MODIFIER"
                                     ],
+                                    "type": "BackgroundModifierOperation",
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "width": 0.0,
+                                    "height": 0.0,
+                                    "colorId": 42,
+                                    "shapeType": "RECTANGLE"
+                                },
+                                {
+                                    "$tags": [
+                                        "MODIFIER"
+                                    ],
                                     "type": "PaddingModifierOperation",
                                     "left": 21.0,
                                     "top": 21.0,
@@ -91,8 +114,13 @@
                             "list": [
                                 {
                                     "type": "TextData",
-                                    "textId": 42,
+                                    "textId": 43,
                                     "text": "Living room"
+                                },
+                                {
+                                    "type": "ColorConstant",
+                                    "color": "0xff8f8f8f",
+                                    "colorId": 44
                                 },
                                 {
                                     "$tags": [
@@ -136,9 +164,12 @@
                                     "paddingRight": 0.0,
                                     "paddingTop": 0.0,
                                     "paddingBottom": 0.0,
-                                    "textId": 42,
+                                    "textId": 43,
                                     "flags": 0,
-                                    "color": "0xff8f8f8f",
+                                    "color": [
+                                        -1.6777216E7,
+                                        -1.0
+                                    ],
                                     "fontSize": [
                                         31.5,
                                         31.5
@@ -162,8 +193,13 @@
                                     "list": [
                                         {
                                             "type": "TextData",
-                                            "textId": 43,
+                                            "textId": 45,
                                             "text": "21.5 °C"
+                                        },
+                                        {
+                                            "type": "ColorConstant",
+                                            "color": "0xff141414",
+                                            "colorId": 46
                                         },
                                         {
                                             "$tags": [
@@ -196,9 +232,12 @@
                                             "paddingRight": 0.0,
                                             "paddingTop": 0.0,
                                             "paddingBottom": 0.0,
-                                            "textId": 43,
+                                            "textId": 45,
                                             "flags": 0,
-                                            "color": "0xff141414",
+                                            "color": [
+                                                -1.6777216E7,
+                                                -1.0
+                                            ],
                                             "fontSize": [
                                                 63.0,
                                                 63.0

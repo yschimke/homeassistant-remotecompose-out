@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 513,
         "densityAtGeneration": 2.625,
-        "byteLength": 237
+        "byteLength": 318
     },
     "operations": [
         {
@@ -26,6 +26,17 @@
             "visibility": "VISIBLE",
             "list": [
                 {
+                    "type": "ColorConstant",
+                    "color": "0xfffafafa",
+                    "colorId": 42
+                },
+                {
+                    "type": "NamedVariable",
+                    "varId": 42,
+                    "varName": "USER:WearM3.background",
+                    "varType": "COLOR_TYPE"
+                },
+                {
                     "$tags": [
                         "LAYOUT_COMPONENT"
                     ],
@@ -39,17 +50,17 @@
                     "list": [
                         {
                             "type": "TextData",
-                            "textId": 42,
+                            "textId": 43,
                             "text": "Living room"
                         },
                         {
                             "type": "TextData",
-                            "textId": 43,
+                            "textId": 44,
                             "text": "default"
                         },
                         {
                             "type": "TextData",
-                            "textId": 44,
+                            "textId": 45,
                             "text": "pnum"
                         },
                         {
@@ -79,6 +90,18 @@
                                         1.0
                                     ],
                                     "dimensionModifierType": "FILL"
+                                },
+                                {
+                                    "$tags": [
+                                        "MODIFIER"
+                                    ],
+                                    "type": "BackgroundModifierOperation",
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "width": 0.0,
+                                    "height": 0.0,
+                                    "colorId": 42,
+                                    "shapeType": "RECTANGLE"
                                 },
                                 {
                                     "$tags": [
@@ -116,7 +139,7 @@
                             "paddingRight": 0.0,
                             "paddingTop": 0.0,
                             "paddingBottom": 0.0,
-                            "textId": 42,
+                            "textId": 43,
                             "flags": 0,
                             "color": "0xff141414",
                             "fontSize": [
@@ -125,7 +148,7 @@
                             ],
                             "fontStyle": 0,
                             "fontWeight": 450.0,
-                            "fontFamilyId": 43,
+                            "fontFamilyId": 44,
                             "textAlign": 1
                         }
                     ],

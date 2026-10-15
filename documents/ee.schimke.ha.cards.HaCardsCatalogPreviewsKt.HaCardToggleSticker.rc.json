@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 513,
         "densityAtGeneration": 2.625,
-        "byteLength": 513
+        "byteLength": 594
     },
     "operations": [
         {
@@ -26,6 +26,17 @@
             "visibility": "VISIBLE",
             "list": [
                 {
+                    "type": "ColorConstant",
+                    "color": "0xfffafafa",
+                    "colorId": 42
+                },
+                {
+                    "type": "NamedVariable",
+                    "varId": 42,
+                    "varName": "USER:WearM3.background",
+                    "varType": "COLOR_TYPE"
+                },
+                {
                     "$tags": [
                         "LAYOUT_COMPONENT"
                     ],
@@ -39,32 +50,32 @@
                     "list": [
                         {
                             "type": "ComponentValue",
-                            "valueId": 42,
+                            "valueId": 43,
                             "componentValueType": "WIDTH",
                             "componentId": -3
                         },
                         {
                             "type": "ComponentValue",
-                            "valueId": 43,
+                            "valueId": 44,
                             "componentValueType": "HEIGHT",
                             "componentId": -3
                         },
                         {
                             "type": "ColorConstant",
                             "color": "0xff8f8f8f",
-                            "colorId": 44
+                            "colorId": 45
                         },
                         {
                             "type": "ColorConstant",
                             "color": "0xffffc107",
-                            "colorId": 45
+                            "colorId": 46
                         },
                         {
                             "$tags": [
                                 "EXPRESSION"
                             ],
                             "type": "FloatExpression",
-                            "id": 46,
+                            "id": 47,
                             "srcValues": [
                                 1.0
                             ],
@@ -78,19 +89,19 @@
                         },
                         {
                             "type": "ColorExpression",
-                            "id": 47,
+                            "id": 48,
                             "mode": "TWEEN",
                             "startColor": [
-                                44.0,
-                                44.0
-                            ],
-                            "endColor": [
                                 45.0,
                                 45.0
                             ],
+                            "endColor": [
+                                46.0,
+                                46.0
+                            ],
                             "tween": [
-                                "@46",
-                                "@46"
+                                "@47",
+                                "@47"
                             ]
                         },
                         {
@@ -125,6 +136,18 @@
                                     "$tags": [
                                         "MODIFIER"
                                     ],
+                                    "type": "BackgroundModifierOperation",
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "width": 0.0,
+                                    "height": 0.0,
+                                    "colorId": 42,
+                                    "shapeType": "RECTANGLE"
+                                },
+                                {
+                                    "$tags": [
+                                        "MODIFIER"
+                                    ],
                                     "type": "PaddingModifierOperation",
                                     "left": 21.0,
                                     "top": 21.0,
@@ -150,9 +173,9 @@
                                         "EXPRESSION"
                                     ],
                                     "type": "FloatExpression",
-                                    "id": 48,
+                                    "id": 49,
                                     "srcValues": [
-                                        "@46",
+                                        "@47",
                                         14.0,
                                         "@3211267",
                                         3.0,
@@ -164,13 +187,13 @@
                                 },
                                 {
                                     "type": "ComponentValue",
-                                    "valueId": 49,
+                                    "valueId": 50,
                                     "componentValueType": "WIDTH",
                                     "componentId": -5
                                 },
                                 {
                                     "type": "ComponentValue",
-                                    "valueId": 50,
+                                    "valueId": 51,
                                     "componentValueType": "HEIGHT",
                                     "componentId": -5
                                 },
@@ -179,10 +202,10 @@
                                         "EXPRESSION"
                                     ],
                                     "type": "FloatExpression",
-                                    "id": 51,
+                                    "id": 52,
                                     "srcValues": [
-                                        "@49",
                                         "@50",
+                                        "@51",
                                         "@3211270",
                                         2.0,
                                         "@3211268"
@@ -250,7 +273,7 @@
                                             "y": 0.0,
                                             "width": 0.0,
                                             "height": 0.0,
-                                            "colorId": 47,
+                                            "colorId": 48,
                                             "shapeType": "RECTANGLE"
                                         }
                                     ]
@@ -263,7 +286,7 @@
                                     "id": -7,
                                     "x": 0.0,
                                     "y": 0.0,
-                                    "width": "@48",
+                                    "width": "@49",
                                     "height": 23.875,
                                     "visibility": "VISIBLE",
                                     "list": [
@@ -278,7 +301,7 @@
                                                         "MODIFIER"
                                                     ],
                                                     "type": "PaddingModifierOperation",
-                                                    "left": "@48",
+                                                    "left": "@49",
                                                     "top": 7.875,
                                                     "right": 0.0,
                                                     "bottom": 0.0
@@ -307,20 +330,20 @@
                                                 },
                                                 {
                                                     "topStart": [
-                                                        "@51",
-                                                        "@51"
+                                                        "@52",
+                                                        "@52"
                                                     ],
                                                     "topEnd": [
-                                                        "@51",
-                                                        "@51"
+                                                        "@52",
+                                                        "@52"
                                                     ],
                                                     "bottomStart": [
-                                                        "@51",
-                                                        "@51"
+                                                        "@52",
+                                                        "@52"
                                                     ],
                                                     "bottomEnd": [
-                                                        "@51",
-                                                        "@51"
+                                                        "@52",
+                                                        "@52"
                                                     ],
                                                     "$tags": [
                                                         "MODIFIER"
@@ -349,7 +372,7 @@
                                             ]
                                         }
                                     ],
-                                    "paddingLeft": "@48",
+                                    "paddingLeft": "@49",
                                     "paddingRight": 0.0,
                                     "paddingTop": 7.875,
                                     "paddingBottom": 0.0,
