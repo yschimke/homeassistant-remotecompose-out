@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-14T23:12:31.378Z",
+  "generatedAt": "2026-10-15T01:53:12.394Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "cfbad962d2d6919134519b8696ee2df89c735a11",
+        "subject": "fix(deps): update compose-ai-tools (#811)",
+        "at": "2026-10-15T01:21:55Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "7490ef121368a727e32f46da13bcaa12918616a0",
+        "subject": "fix: restore platform widget rendering and Card Studio previews (#818)",
+        "at": "2026-10-15T01:34:06+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "ce37e4a42daed4cbd0ac0b6261c1cf7bbc9de357",
+        "subject": "feat(design-server): tag designs by card type, style, variant and author (#819)",
+        "at": "2026-10-15T01:34:02+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "2fd97ab206ced58fe0a28e4a10d3601b1aad59c1",
         "subject": "chore(main): release 0.1.39 (#719)",
@@ -458,30 +482,6 @@
         "sha": "e482a749f982f6d0da1e5989df67fcf05af424d6",
         "subject": "chore(deps): pin dependencies (#755)",
         "at": "2026-10-12T02:56:07Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "6419ad4e1b556690c59112d95cb77c2409db992e",
-        "subject": "feat: render every card from designs, and bake launcher and Wear widgets with rc-player-edit (#760)",
-        "at": "2026-10-12T03:17:08+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "f45a5299415047ab409590bc6be4291e80087ad7",
-        "subject": "chore(deps): update github-actions (major) (#761)",
-        "at": "2026-10-12T02:06:56Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "e3b24432e430fe0b77fd1660fb22dddbb805b345",
-        "subject": "fix(deps): update dependency androidx.compose.material3:material3 to v1.5.0-beta01 (#758)",
-        "at": "2026-10-12T00:54:52Z",
         "author": "renovate[bot]",
         "previewIds": [],
         "components": []
