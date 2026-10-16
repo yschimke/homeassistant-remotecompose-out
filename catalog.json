@@ -1172,6 +1172,133 @@
       ]
     },
     {
+      "componentId": "HaCard/Template",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/hacard-template/ideal__default__card.png",
+          "state": "default",
+          "width": 945,
+          "height": 315,
+          "size": "card",
+          "livePreview": "https://preview.coo.ee/ha-cards/p/hacard-template__ideal__default__card",
+          "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardTemplateSticker",
+          "density": 2.625
+        }
+      ],
+      "greenlines": [
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button",
+          "detail": {
+            "role": "button",
+            "bounds": {
+              "x": 53,
+              "y": 175,
+              "width": 840,
+              "height": 58
+            }
+          },
+          "bounds": {
+            "x": 53,
+            "y": 175,
+            "width": 840,
+            "height": 58
+          }
+        },
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button",
+          "detail": {
+            "role": "button",
+            "bounds": {
+              "x": 798,
+              "y": 175,
+              "width": 95,
+              "height": 58
+            }
+          },
+          "bounds": {
+            "x": 798,
+            "y": 175,
+            "width": 95,
+            "height": 58
+          }
+        }
+      ],
+      "redlines": [
+        {
+          "bounds": {
+            "x": 53,
+            "y": 68,
+            "width": 840,
+            "height": 181
+          },
+          "padding": {
+            "start": 12.190476,
+            "top": 12.190476,
+            "end": 11.809524,
+            "bottom": 11.809524
+          }
+        },
+        {
+          "bounds": {
+            "x": 53,
+            "y": 89,
+            "width": 142,
+            "height": 49
+          },
+          "label": "Kitchen",
+          "padding": {
+            "start": 0,
+            "top": 8,
+            "end": 0,
+            "bottom": 8
+          }
+        },
+        {
+          "bounds": {
+            "x": 53,
+            "y": 175,
+            "width": 840,
+            "height": 58
+          },
+          "role": "Button",
+          "padding": {
+            "start": 0,
+            "top": 6.095238,
+            "end": 0,
+            "bottom": 6.095238
+          }
+        },
+        {
+          "bounds": {
+            "x": 843,
+            "y": 183,
+            "width": 42,
+            "height": 42
+          },
+          "padding": {
+            "start": 17.142857,
+            "top": 3.047619,
+            "end": 0,
+            "bottom": 0
+          }
+        }
+      ],
+      "group": "Containment",
+      "caption": "A card design template: the entity names and card title inside it bind to the values the app pushes (`light.s0.name`, `card.title`), so a design made from it can be published as a card design.",
+      "noReference": "No published design kit covers Home Assistant cards in Remote Compose.",
+      "wireframe": "wireframes/hacard-template.svg",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
+      "sourceModule": ":ha-cards-catalog",
+      "bodyLine": 449,
+      "sourceDirectory": "ha-cards-catalog",
+      "sourceFunction": "HaCardTemplateSticker"
+    },
+    {
       "componentId": "HaCard/UberTheme",
       "images": [
         {
@@ -1237,7 +1364,7 @@
       "wireframe": "wireframes/hacard-ubertheme.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
       "sourceModule": ":ha-cards-catalog",
-      "bodyLine": 448,
+      "bodyLine": 476,
       "sourceDirectory": "ha-cards-catalog",
       "sourceFunction": "HaCardUberThemeSticker"
     },
@@ -1307,7 +1434,7 @@
       "wireframe": "wireframes/hacard-uberthemeconsole.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
       "sourceModule": ":ha-cards-catalog",
-      "bodyLine": 469,
+      "bodyLine": 497,
       "sourceDirectory": "ha-cards-catalog",
       "sourceFunction": "HaCardUberThemeConsoleSticker"
     },
@@ -2049,7 +2176,7 @@
     "ee.schimke.ha:rc-components (RemoteHa* cards)"
   ],
   "renderer": "compose-preview 2.60.0",
-  "generatedAt": "2026-10-15T23:51:05.513Z",
+  "generatedAt": "2026-10-16T09:31:03.881Z",
   "display": {
     "surface": "light",
     "hero": "HaCard/Tile"
@@ -2070,7 +2197,7 @@
   "uiBuilderFile": "ui-builder.json",
   "source": {
     "repo": "yschimke/homeassistant-remotecompose",
-    "ref": "539edb9b7e886be2f0388de56fe821c40cce9b99",
+    "ref": "007c52d58d970c50761a2e37061ed7f5d94e05f6",
     "module": ":ha-cards-catalog"
   }
 }

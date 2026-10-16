@@ -38,15 +38,15 @@ customising the live render are two ends of one workflow.
 
 | | |
 | --- | --- |
-| Components | **28** |
-| Rendered images (PNG) | **28** |
-| Editable wireframes (SVG) | **28** |
-| Editable design vectors (figma-svg) | **28** |
-| Components with a11y greenlines | **7** |
+| Components | **29** |
+| Rendered images (PNG) | **29** |
+| Editable wireframes (SVG) | **29** |
+| Editable design vectors (figma-svg) | **29** |
+| Components with a11y greenlines | **8** |
 | Library | `androidx.compose.remote:remote-creation-compose`<br>`androidx.wear.compose.remote:remote-material3`<br>`ee.schimke.ha:rc-components (RemoteHa* cards)` |
 | Renderer | compose-preview 2.60.0 |
 | Schema | `design-parity-catalog/v1` |
-| Generated | 2026-10-15 |
+| Generated | 2026-10-16 |
 
 ## Components by group
 
@@ -54,7 +54,7 @@ customising the live render are two ends of one workflow.
 | --- | ---: |
 | Home Assistant | 11 |
 | Measurements | 8 |
-| Containment | 5 |
+| Containment | 6 |
 | Iconography | 1 |
 | Buttons | 1 |
 | Selection buttons | 1 |

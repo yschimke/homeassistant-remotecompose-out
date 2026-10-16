@@ -2241,6 +2241,11 @@
         },
         {
             "code": "component.policy.orphaned",
+            "subject": "ha-cards/card-template",
+            "message": "ui-builder.policy.json states a policy for \"ha-cards/card-template\", which joins no component in this record, so every field in it does nothing. Check its `record` canonicalId or its builder id against components.json."
+        },
+        {
+            "code": "component.policy.orphaned",
             "subject": "ha-cards/uber-theme",
             "message": "ui-builder.policy.json states a policy for \"ha-cards/uber-theme\", which joins no component in this record, so every field in it does nothing. Check its `record` canonicalId or its builder id against components.json."
         }
