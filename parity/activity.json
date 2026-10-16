@@ -1,11 +1,67 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-15T23:45:40.613Z",
+  "generatedAt": "2026-10-16T19:54:37.237Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "566d08b6f7710bc94c02a8e405b1a31906317017",
+        "subject": "chore(main): release 0.1.42 (#828)",
+        "at": "2026-10-16T20:23:02+01:00",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "540a8b8c5b8102f6f2301cf50a8d4b352995bc3f",
+        "subject": "feat(ha-cards): preview every card on Wear, the launcher and app widths (#835)",
+        "at": "2026-10-16T17:15:25+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "0550815a6bf1b11902551da3817fda75be160b75",
+        "subject": "feat(embed): ha-card finds its own design when given only a card (#833)",
+        "at": "2026-10-16T11:26:38+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "007c52d58d970c50761a2e37061ed7f5d94e05f6",
+        "subject": "feat: resolve any card to its library design; launcher widgets take the card style (#832)",
+        "at": "2026-10-16T10:19:04+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "d73fcda1a0c297d28af9daa6710edab937a1653e",
+        "subject": "feat(design-server): editable .uid source for every library design (#831)",
+        "at": "2026-10-16T07:53:50+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "4459268b0051be0197e94f9c1bbcc4d8356b309c",
+        "subject": "feat: card designs made for one kind of device (#830)",
+        "at": "2026-10-16T01:34:21+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "539edb9b7e886be2f0388de56fe821c40cce9b99",
+        "subject": "feat: card style overrides, agent-edited dashboards, and published user designs (#829)",
+        "at": "2026-10-16T00:43:25+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "54360e86cba77998cb66d8f917597a5da0519a6d",
         "subject": "chore(deps): update github-actions (#814)",
@@ -427,62 +483,6 @@
         "subject": "fix(deps): update compose-ai-tools (#775)",
         "at": "2026-10-12T14:49:06Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "49a0569ff2e9c1efd1531638aabde88e1c7c8c1e",
-        "subject": "fix(deps): update compose-ai-tools (#767)",
-        "at": "2026-10-12T11:42:24Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "0d7bba77cc05252effff5e75973c091bef908c83",
-        "subject": "feat(rc-components-ui): plain-data wrappers for every card (#774)",
-        "at": "2026-10-12T11:25:28+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "bc0fc5ea5821d116a3fc8622ca79557fa6c31563",
-        "subject": "feat: GitHub sign-in for the design server, each seeded design shared with its designer (#773)",
-        "at": "2026-10-12T09:28:55+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "3e377fc0f4271f74f9424bb6a441b54355c6b2e6",
-        "subject": "fix: design server review findings — atomic library, card-specific schema bindings, unsupported bindings, UI_BUILDER_HOST (#772)",
-        "at": "2026-10-12T09:14:19+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "92a1ed9f532ca360ab28f5c1482a2852ae0f13a5",
-        "subject": "docs: UI Builder enhancements for embedded, host-bound RemoteCompose designs (#771)",
-        "at": "2026-10-12T08:32:46+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a0ac9c4bb8b7c29de6556dfaaeac8226c37bffc1",
-        "subject": "fix: install libGL and fontconfig in the design server image (#770)",
-        "at": "2026-10-12T08:20:25+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ded16dbe9fb5874d4e4fda09832facff4f397b55",
-        "subject": "feat: bundle UI Builder in the design server and seed card designs from schemas (#769)",
-        "at": "2026-10-12T08:05:00+01:00",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
