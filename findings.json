@@ -1,407 +1,1413 @@
 {
   "entries": [
     {
-      "annotatedBasename": "",
-      "cleanBasename": "HaCardArcMeterSticker-298ae715.png",
-      "findings": [],
-      "functionName": "HaCardArcMeterSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardArcMeterSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "",
-      "cleanBasename": "HaCardBarMeterSticker-932e0172.png",
-      "findings": [],
-      "functionName": "HaCardBarMeterSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardBarMeterSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardBatterySticker-14ccc73a.a11y.png",
-      "cleanBasename": "HaCardBatterySticker-14ccc73a.png",
-      "findings": [],
-      "functionName": "HaCardBatterySticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardBatterySticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardButtonSticker-53b6e3a7.a11y.png",
-      "cleanBasename": "HaCardButtonSticker-53b6e3a7.png",
-      "findings": [],
-      "functionName": "HaCardButtonSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardButtonSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardEntitiesSticker-f747a925.a11y.png",
-      "cleanBasename": "HaCardEntitiesSticker-f747a925.png",
+      "annotatedBasename": "DashboardGithubTablet_dashboard_github_tablet-89194c99.a11y.png",
+      "cleanBasename": "DashboardGithubTablet_dashboard_github_tablet-89194c99.png",
       "findings": [
         {
-          "boundsInScreen": "53,234,106,287",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Temperature\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View  desc=\"Temperature\""
+          "boundsInScreen": "85,1192,337,1239",
+          "level": "ERROR",
+          "message": "This item may not have a label readable by screen readers.",
+          "type": "SpeakableTextPresentCheck",
+          "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "53,319,106,372",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Front door\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View  desc=\"Front door\""
+          "boundsInScreen": "348,1192,600,1239",
+          "level": "ERROR",
+          "message": "This item may not have a label readable by screen readers.",
+          "type": "SpeakableTextPresentCheck",
+          "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "53,149,106,202",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Ceiling light\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View  desc=\"Ceiling light\""
-        }
-      ],
-      "functionName": "HaCardEntitiesSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardEntitiesSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardEntityRowSticker-e753861e.a11y.png",
-      "cleanBasename": "HaCardEntityRowSticker-e753861e.png",
-      "findings": [
+          "boundsInScreen": "611,1192,863,1239",
+          "level": "ERROR",
+          "message": "This item may not have a label readable by screen readers.",
+          "type": "SpeakableTextPresentCheck",
+          "viewDescription": "android.widget.Button"
+        },
         {
-          "boundsInScreen": "21,47,74,100",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Living room\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View  desc=\"Living room\""
-        }
-      ],
-      "functionName": "HaCardEntityRowSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardEntityRowSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardGaugeSticker-f985b7e9.a11y.png",
-      "cleanBasename": "HaCardGaugeSticker-f985b7e9.png",
-      "findings": [],
-      "functionName": "HaCardGaugeSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardGaugeSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardGlanceSticker-ed578dc9.a11y.png",
-      "cleanBasename": "HaCardGlanceSticker-ed578dc9.png",
-      "findings": [
+          "boundsInScreen": "85,1239,337,1365",
+          "level": "ERROR",
+          "message": "This item may not have a label readable by screen readers.",
+          "type": "SpeakableTextPresentCheck",
+          "viewDescription": "android.widget.Button"
+        },
         {
-          "boundsInScreen": "211,123,266,160",
+          "boundsInScreen": "348,1239,600,1365",
+          "level": "ERROR",
+          "message": "This item may not have a label readable by screen readers.",
+          "type": "SpeakableTextPresentCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "611,1239,863,1365",
+          "level": "ERROR",
+          "message": "This item may not have a label readable by screen readers.",
+          "type": "SpeakableTextPresentCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "85,2513,337,2560",
+          "level": "ERROR",
+          "message": "This item may not have a label readable by screen readers.",
+          "type": "SpeakableTextPresentCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "348,2513,600,2560",
+          "level": "ERROR",
+          "message": "This item may not have a label readable by screen readers.",
+          "type": "SpeakableTextPresentCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "611,2513,863,2639",
+          "level": "ERROR",
+          "message": "This item may not have a label readable by screen readers.",
+          "type": "SpeakableTextPresentCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "85,2560,337,2686",
+          "level": "ERROR",
+          "message": "This item may not have a label readable by screen readers.",
+          "type": "SpeakableTextPresentCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "348,2560,600,2686",
+          "level": "ERROR",
+          "message": "This item may not have a label readable by screen readers.",
+          "type": "SpeakableTextPresentCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "1130,465,1382,512",
+          "level": "ERROR",
+          "message": "This item may not have a label readable by screen readers.",
+          "type": "SpeakableTextPresentCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "1393,465,1645,591",
+          "level": "ERROR",
+          "message": "This item may not have a label readable by screen readers.",
+          "type": "SpeakableTextPresentCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "1656,465,1908,591",
+          "level": "ERROR",
+          "message": "This item may not have a label readable by screen readers.",
+          "type": "SpeakableTextPresentCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "1130,512,1382,638",
+          "level": "ERROR",
+          "message": "This item may not have a label readable by screen readers.",
+          "type": "SpeakableTextPresentCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "1130,1826,1382,1873",
+          "level": "ERROR",
+          "message": "This item may not have a label readable by screen readers.",
+          "type": "SpeakableTextPresentCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "1393,1826,1645,1873",
+          "level": "ERROR",
+          "message": "This item may not have a label readable by screen readers.",
+          "type": "SpeakableTextPresentCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "1656,1826,1908,1952",
+          "level": "ERROR",
+          "message": "This item may not have a label readable by screen readers.",
+          "type": "SpeakableTextPresentCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "1130,1873,1382,1999",
+          "level": "ERROR",
+          "message": "This item may not have a label readable by screen readers.",
+          "type": "SpeakableTextPresentCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "1393,1873,1645,1999",
+          "level": "ERROR",
+          "message": "This item may not have a label readable by screen readers.",
+          "type": "SpeakableTextPresentCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "85,1192,337,1239",
+          "level": "ERROR",
+          "message": "This item's height is 18dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "348,1192,600,1239",
+          "level": "ERROR",
+          "message": "This item's height is 18dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "611,1192,863,1239",
+          "level": "ERROR",
+          "message": "This item's height is 18dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "85,1368,971,1484",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "85,1484,971,1600",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "85,1851,971,1967",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "85,1967,971,2083",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "85,2083,971,2199",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "85,2468,221,2513",
+          "level": "ERROR",
+          "message": "This item's height is 17dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "85,2513,337,2560",
+          "level": "ERROR",
+          "message": "This item's height is 18dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "348,2513,600,2560",
+          "level": "ERROR",
+          "message": "This item's height is 18dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "85,2689,971,2805",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "85,2805,971,2921",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "85,3172,971,3288",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "85,3288,971,3404",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "85,3404,971,3520",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "1130,465,1382,512",
+          "level": "ERROR",
+          "message": "This item's height is 18dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "1130,641,2016,757",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "1130,757,2016,873",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "1130,1124,2016,1240",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "1130,1240,2016,1356",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "1130,1356,2016,1472",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "1130,1826,1382,1873",
+          "level": "ERROR",
+          "message": "This item's height is 18dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "1393,1826,1645,1873",
+          "level": "ERROR",
+          "message": "This item's height is 18dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "1130,2002,2016,2118",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "1130,2118,2016,2234",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "1130,2485,2016,2601",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "1130,2601,2016,2717",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "1130,2717,2016,2833",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "1130,3112,2016,3228",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "85,1768,427,1808",
           "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Hall\" is identical to that of 1 other item(s).",
+          "message": "This non-clickable item's speakable text: \"no recent commit data\" is identical to that of 3 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
         },
         {
-          "boundsInScreen": "433,123,500,160",
+          "boundsInScreen": "1130,1741,1648,1867",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"homeassistant-remotecompose\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "90,589,239,623",
           "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Door\" is identical to that of 1 other item(s).",
+          "message": "This non-clickable item's speakable text: \"No samples\" is identical to that of 3 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
         },
         {
-          "boundsInScreen": "657,123,745,160",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Power\" is identical to that of 1 other item(s).",
+          "boundsInScreen": "1130,380,1412,506",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"meshcore-mobile\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        }
-      ],
-      "functionName": "HaCardGlanceSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardGlanceSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardHeadingSticker-ead292c1.a11y.png",
-      "cleanBasename": "HaCardHeadingSticker-ead292c1.png",
-      "findings": [],
-      "functionName": "HaCardHeadingSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardHeadingSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardIconSticker-abac8ae5.a11y.png",
-      "cleanBasename": "HaCardIconSticker-abac8ae5.png",
-      "findings": [],
-      "functionName": "HaCardIconSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardIconSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardMeasurementSticker-96d0258f.a11y.png",
-      "cleanBasename": "HaCardMeasurementSticker-96d0258f.png",
-      "findings": [],
-      "functionName": "HaCardMeasurementSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardMeasurementSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardMetricSticker-5f00defd.a11y.png",
-      "cleanBasename": "HaCardMetricSticker-5f00defd.png",
-      "findings": [],
-      "functionName": "HaCardMetricSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardMetricSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardStatusChipSticker-491fda3b.a11y.png",
-      "cleanBasename": "HaCardStatusChipSticker-491fda3b.png",
-      "findings": [],
-      "functionName": "HaCardStatusChipSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardStatusChipSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardSurfaceSticker-8638109c.a11y.png",
-      "cleanBasename": "HaCardSurfaceSticker-8638109c.png",
-      "findings": [
+          "viewDescription": "android.widget.Button"
+        },
         {
-          "boundsInScreen": "85,199,148,262",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Ceiling\" is identical to that of 1 other item(s).",
+          "boundsInScreen": "85,3172,971,3288",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Latest PR, Latest PR, Unavailable\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View  desc=\"Ceiling\""
-        }
-      ],
-      "functionName": "HaCardSurfaceSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardSurfaceSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardTemplateSticker-748c3333.a11y.png",
-      "cleanBasename": "HaCardTemplateSticker-748c3333.png",
-      "findings": [],
-      "functionName": "HaCardTemplateSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardTemplateSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardThermometerChipSticker-d042f2cf.a11y.png",
-      "cleanBasename": "HaCardThermometerChipSticker-d042f2cf.png",
-      "findings": [],
-      "functionName": "HaCardThermometerChipSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardThermometerChipSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardThermometerShortSticker-bfd4e8b6.a11y.png",
-      "cleanBasename": "HaCardThermometerShortSticker-bfd4e8b6.png",
-      "findings": [],
-      "functionName": "HaCardThermometerShortSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardThermometerShortSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardThermometerSticker-f4bb4f74.a11y.png",
-      "cleanBasename": "HaCardThermometerSticker-f4bb4f74.png",
-      "findings": [],
-      "functionName": "HaCardThermometerSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardThermometerSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardThermometerTallSticker-d37ae034.a11y.png",
-      "cleanBasename": "HaCardThermometerTallSticker-d37ae034.png",
-      "findings": [],
-      "functionName": "HaCardThermometerTallSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardThermometerTallSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardThermostatSticker-a73181b7.a11y.png",
-      "cleanBasename": "HaCardThermostatSticker-a73181b7.png",
-      "findings": [],
-      "functionName": "HaCardThermostatSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardThermostatSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardTileSticker-91a245fb.a11y.png",
-      "cleanBasename": "HaCardTileSticker-91a245fb.png",
-      "findings": [],
-      "functionName": "HaCardTileSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardTileSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "",
-      "cleanBasename": "HaCardToggleSticker-07b8d001.png",
-      "findings": [],
-      "functionName": "HaCardToggleSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardToggleSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardUberThemeConsoleSticker-60e251cd.a11y.png",
-      "cleanBasename": "HaCardUberThemeConsoleSticker-60e251cd.png",
-      "findings": [
+          "viewDescription": "android.view.View"
+        },
         {
-          "boundsInScreen": "53,1273,106,1326",
+          "boundsInScreen": "872,538,965,572",
           "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Kitchen\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View  desc=\"Kitchen\""
-        }
-      ],
-      "functionName": "HaCardUberThemeConsoleSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardUberThemeConsoleSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardUberThemeSticker-7f4ced60.a11y.png",
-      "cleanBasename": "HaCardUberThemeSticker-7f4ced60.png",
-      "findings": [],
-      "functionName": "HaCardUberThemeSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardUberThemeSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaDashboardSectionSticker-30b748ce.a11y.png",
-      "cleanBasename": "HaDashboardSectionSticker-30b748ce.png",
-      "findings": [
-        {
-          "boundsInScreen": "21,55,216,123",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Kitchen\" is identical to that of 1 other item(s).",
+          "message": "This non-clickable item's speakable text: \"no data\" is identical to that of 3 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
         },
         {
-          "boundsInScreen": "85,203,148,266",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Ceiling\" is identical to that of 1 other item(s).",
+          "boundsInScreen": "85,1107,370,1233",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"compose-ai-tools\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View  desc=\"Ceiling\""
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "85,2921,971,3047",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Open PRs, Open PRs, 0 pull requests\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "85,2805,971,2921",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Open issues, Open issues, 2 issues\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "85,3404,971,3520",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Latest release, Latest release, V0.1.2\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "85,2468,221,2513",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"cadence\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "85,3520,971,3646",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Latest tag, Latest tag, V0.1.2\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
         }
       ],
-      "functionName": "HaDashboardSectionSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaDashboardSectionSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "RemoteButtonSticker-4371877d.a11y.png",
-      "cleanBasename": "RemoteButtonSticker-4371877d.png",
-      "findings": [],
-      "functionName": "RemoteButtonSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteButtonSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "RemoteCardSticker-7685c951.a11y.png",
-      "cleanBasename": "RemoteCardSticker-7685c951.png",
-      "findings": [],
-      "functionName": "RemoteCardSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteCardSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "RemoteSwitchButtonSticker-c082b22a.a11y.png",
-      "cleanBasename": "RemoteSwitchButtonSticker-c082b22a.png",
-      "findings": [],
-      "functionName": "RemoteSwitchButtonSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteSwitchButtonSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "RemoteTextSticker-246b8608.a11y.png",
-      "cleanBasename": "RemoteTextSticker-246b8608.png",
-      "findings": [],
-      "functionName": "RemoteTextSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteTextSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
+      "functionName": "DashboardGithubTablet",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardGithubTablet_dashboard github \u2014 tablet",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/DashboardPreviews.kt",
       "variant": ""
     }
   ],
-  "scope": "changed-previews"
+  "scope": "changed-previews",
+  "uncheckedPreviews": [
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.AnimationPreviewsKt.Gauge_Animation_Dark_gauge-anim (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.AnimationPreviewsKt.Gauge_Animation_Light_gauge-anim (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.AnimationPreviewsKt.Toggle_Animated_Dark_toggle-animated (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.AnimationPreviewsKt.Toggle_Animated_Light_toggle-animated (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.AnimationPreviewsKt.Toggle_Animation_Dark_toggle-anim (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.AnimationPreviewsKt.Toggle_Animation_Light_toggle-anim (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.AppIconPreviewsKt.AppIcon_Dark_app-icon (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.AppIconPreviewsKt.AppIcon_Light_app-icon (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_AlarmPanel_matrix \u2014 alarm-panel"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_Button_matrix \u2014 button"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_Calendar_matrix \u2014 calendar"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_Entities_matrix \u2014 entities"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_Entity_matrix \u2014 entity"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_Gauge_matrix \u2014 gauge"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_HistoryGraph_matrix \u2014 history-graph"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_Humidifier_matrix \u2014 humidifier"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_Light_matrix \u2014 light"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_Logbook_matrix \u2014 logbook"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_Markdown_matrix \u2014 markdown"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_MediaControl_matrix \u2014 media-control"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_PictureEntity_matrix \u2014 picture-entity"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_Sensor_matrix \u2014 sensor"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_Statistic_matrix \u2014 statistic"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_Thermostat_matrix \u2014 thermostat"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_Tile_matrix \u2014 tile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_TodoList_matrix \u2014 todo-list"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_WeatherForecast_matrix \u2014 weather-forecast"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.AlarmPanel_Dark_alarm-panel (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.AlarmPanel_Light_alarm-panel (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Area_Dark_area (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Area_Light_area (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.BambuAms_Dark_bambu ams (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.BambuAms_Light_bambu ams (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.BambuPrintControl_Dark_bambu print-control (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.BambuPrintControl_Light_bambu print-control (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.BambuPrintStatus_Dark_bambu print-status (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.BambuPrintStatus_Light_bambu print-status (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.BambuSpool_Dark_bambu spool (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.BambuSpool_Light_bambu spool (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Button_Dark_button (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Button_Light_button (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Button_On_Dark_button on (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Button_On_Light_button on (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Calendar_Dark_calendar (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Calendar_Light_calendar (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Clock_Dark_clock (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Clock_Light_clock (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Clock_Seconds_clock (seconds)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Clock_Zone_clock (zone)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Dashboard_Dark_dashboard (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Dashboard_Light_dashboard (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Entities_Dark_entities (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Entities_Light_entities (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.EntityFilter_Dark_entity-filter (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.EntityFilter_Light_entity-filter (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Entity_Dark_entity (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Entity_Light_entity (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Gauge_Dark_gauge (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Gauge_Light_gauge (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Glance_Dark_glance (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Glance_Light_glance (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Grid_Dark_grid (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Grid_Light_grid (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Heading_Dark_heading (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Heading_Light_heading (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.HistoryGraphNoData_Dark_history-graph no-data (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.HistoryGraphNoData_Light_history-graph no-data (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.HistoryGraph_Dark_history-graph (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.HistoryGraph_Light_history-graph (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.HorizontalStack_Dark_horizontal-stack (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.HorizontalStack_Light_horizontal-stack (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Humidifier_Dark_humidifier (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Humidifier_Light_humidifier (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.LightCard_Dark_light card (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.LightCard_Light_light card (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Logbook_Dark_logbook (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Logbook_Light_logbook (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Markdown_Dark_markdown (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Markdown_Light_markdown (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.MediaControl_Dark_media-control (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.MediaControl_Light_media-control (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.PictureElements_Dark_picture-elements (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.PictureElements_Light_picture-elements (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.PictureEntity_Dark_picture-entity (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.PictureEntity_Light_picture-entity (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.PictureGlance_Dark_picture-glance (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.PictureGlance_Light_picture-glance (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Picture_Dark_picture (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Picture_Light_picture (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Sensor_Dark_sensor (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Sensor_Light_sensor (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Statistic_Dark_statistic (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Statistic_Light_statistic (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.StatisticsGraph_Dark_statistics-graph (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.StatisticsGraph_Light_statistics-graph (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Thermostat_Dark_thermostat (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Thermostat_Light_thermostat (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Tile_Cover_States_tile cover (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Tile_Light_States_tile light (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Tile_Lock_States_tile lock (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.TodoList_Dark_todo-list (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.TodoList_Light_todo-list (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Unsupported_Dark_unsupported (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Unsupported_Light_unsupported (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.VerticalStack_Dark_vertical-stack (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.VerticalStack_Light_vertical-stack (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.WeatherForecast_Dark_weather-forecast (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.WeatherForecast_Light_weather-forecast (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ComponentWidthRuntimeProbeKt.ComponentWidthRuntimeProbe_componentWidth runtime probe"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.Dashboard3dPrintingMobile_dashboard 3d-printing \u2014 mobile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.Dashboard3dPrintingTablet_dashboard 3d-printing \u2014 tablet"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardClimateMobile_dashboard climate \u2014 mobile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardClimateTablet_dashboard climate \u2014 tablet"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardEnergyMobile_dashboard energy \u2014 mobile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardEnergyTablet_dashboard energy \u2014 tablet"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardGithubMobile_dashboard github \u2014 mobile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardMeshcoreMobile_dashboard meshcore \u2014 mobile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardMeshcoreTablet_dashboard meshcore \u2014 tablet"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardNetworksMobile_dashboard networks \u2014 mobile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardNetworksTablet_dashboard networks \u2014 tablet"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardSecurityMobile_dashboard security \u2014 mobile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardSecurityTablet_dashboard security \u2014 tablet"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.GarageShutterCardPreviewsKt.Garage_Animation_Dark_garage-anim (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.GarageShutterCardPreviewsKt.Garage_Animation_Light_garage-anim (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.GarageShutterCardPreviewsKt.Garage_State_Dark_garage-state (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.GarageShutterCardPreviewsKt.Garage_State_Light_garage-state (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.GarageShutterCardPreviewsKt.Garage_TwoEntities_Dark_garage two-entities (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.GarageShutterCardPreviewsKt.Garage_TwoEntities_Light_garage two-entities (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ImagePreviewsKt.ImageInline_Dark_image-inline (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ImagePreviewsKt.ImageInline_Light_image-inline (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ImagePreviewsKt.ImageNamed_Dark_image-named (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ImagePreviewsKt.ImageNamed_Light_image-named (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ImagePreviewsKt.ImageUrl_FakeCoil_Dark_image-url fake-coil (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ImagePreviewsKt.ImageUrl_FakeCoil_Light_image-url fake-coil (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ImagePreviewsKt.ImageUrl_Probe_Frame0_image-url probe frame=0"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ImagePreviewsKt.ImageUrl_Probe_Frame1_image-url probe frame=1"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.PictureEntityStrategyPreviewsKt.PictureEntity_AppMode_Dark_picture-entity app-mode (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.PictureEntityStrategyPreviewsKt.PictureEntity_AppMode_Light_picture-entity app-mode (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.PictureEntityStrategyPreviewsKt.PictureEntity_IconFallback_Light_picture-entity icon-fallback (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.PictureEntityStrategyPreviewsKt.PictureEntity_WidgetMode_Light_picture-entity widget-mode (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.PlayStoreGraphicsPreviewsKt.Play_Feature_1024x500_play \u00b7 feature \u00b7 1024x500"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.PlayStoreGraphicsPreviewsKt.Play_Icon_512_play \u00b7 icon \u00b7 512"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ResponsiveCardPreviewsKt.Entities_Responsive_Light_entities responsive narrow"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ResponsiveCardPreviewsKt.Entities_Responsive_Light_entities responsive standard"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ResponsiveCardPreviewsKt.Entities_Responsive_Light_entities responsive wide"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ResponsiveCardPreviewsKt.Glance_Responsive_Dark_glance responsive narrow"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ResponsiveCardPreviewsKt.Glance_Responsive_Dark_glance responsive standard"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ResponsiveCardPreviewsKt.Glance_Responsive_Dark_glance responsive wide"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ResponsiveCardPreviewsKt.Markdown_Responsive_Light_markdown responsive narrow"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ResponsiveCardPreviewsKt.Markdown_Responsive_Light_markdown responsive standard"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ResponsiveCardPreviewsKt.Tile_Responsive_Dark_tile responsive narrow"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ResponsiveCardPreviewsKt.Tile_Responsive_Dark_tile responsive standard"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ResponsiveCardPreviewsKt.Tile_Responsive_Dark_tile responsive wide"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ShutterCardPreviewsKt.Shutter_Dark_shutter (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ShutterCardPreviewsKt.Shutter_Light_shutter (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.SizingExperimentPreviewsKt.Sizing_ConstraintMatrix_PaintMeasure_sizing \u2014 width \u00d7 height matrix \u00b7 paint-measure profile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.SizingExperimentPreviewsKt.Sizing_ConstraintMatrix_Wrap_sizing \u2014 width \u00d7 height matrix \u00b7 wrap profile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.SizingExperimentPreviewsKt.Sizing_FixedSlot_PaintMeasure_sizing \u2014 fixed slot, paint-measure profile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.SizingExperimentPreviewsKt.Sizing_FixedSlot_Wrap_sizing \u2014 fixed slot, wrap profile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.SizingExperimentPreviewsKt.Sizing_SlackSlot_PaintMeasure_sizing \u2014 slack slot, paint-measure profile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.SizingExperimentPreviewsKt.Sizing_SlackSlot_Wrap_sizing \u2014 slack slot, wrap profile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.SizingExperimentPreviewsKt.Sizing_TightSlot_PaintMeasure_sizing \u2014 tight slot, paint-measure profile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.SizingExperimentPreviewsKt.Sizing_TightSlot_Wrap_sizing \u2014 tight slot, wrap profile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.SizingExperimentPreviewsKt.Sizing_WidthPinnedHeightAdaptive_sizing \u2014 width pinned, height adaptive"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ThemePreviewsKt.Theme_Home_Dark_theme_ Home (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ThemePreviewsKt.Theme_Home_Light_theme_ Home (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ThemePreviewsKt.Theme_Kiosk_Dark_theme_ Kiosk (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ThemePreviewsKt.Theme_Kiosk_Light_theme_ Kiosk (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ThemePreviewsKt.Theme_Material3_Dark_theme_ Material3 (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ThemePreviewsKt.Theme_Material3_Light_theme_ Material3 (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ThemePreviewsKt.Theme_Minimalist_Dark_theme_ Minimalist (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ThemePreviewsKt.Theme_Minimalist_Light_theme_ Minimalist (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ThemePreviewsKt.Theme_Mushroom_Dark_theme_ Mushroom (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ThemePreviewsKt.Theme_Mushroom_Light_theme_ Mushroom (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_AlarmPanelWide_tier2 alarm-panel wide"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_AlarmPanel_tier2 alarm-panel"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_Area_tier2 area"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_BambuAms_tier2 bambu ams"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_BambuPrintControl_tier2 bambu print-control"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_BambuPrintStatus_tier2 bambu print-status"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_BambuSpool_tier2 bambu spool"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_Calendar_tier2 calendar"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_Clock_tier2 clock"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_GaugeStacked_tier2 gauge stacked"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_GaugeWide_tier2 gauge wide"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_Gauge_tier2 gauge"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_HistoryGraph_tier2 history-graph"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_HumidifierWide_tier2 humidifier wide"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_Logbook_tier2 logbook"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_MediaControlWide_tier2 media-control wide"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_MediaControl_tier2 media-control"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_PictureElements_tier2 picture-elements"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_PictureEntity_tier2 picture-entity"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_PictureGlance_tier2 picture-glance"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_Picture_tier2 picture"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_Sensor_tier2 sensor"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_Statistic_tier2 statistic"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_StatisticsGraph_tier2 statistics-graph"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_Thermostat_tier2 thermostat"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_TodoList_tier2 todo-list"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_WeatherForecastWide_tier2 weather-forecast wide"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_WeatherForecast_tier2 weather-forecast"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.TileCardPreviewsKt.Tile_LightOn_Dark_tile \u2014 light on (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.TileCardPreviewsKt.Tile_LightOn_tile \u2014 light on"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.TileCardPreviewsKt.Tile_TemperatureSensor_Dark_tile \u2014 sensor temperature (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.TileCardPreviewsKt.Tile_TemperatureSensor_tile \u2014 sensor temperature"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ToggleSwitchPreviewsKt.ToggleByProgress_Mid_toggle progress=0.5"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ToggleSwitchPreviewsKt.ToggleByProgress_Off_toggle progress=0.0"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ToggleSwitchPreviewsKt.ToggleByProgress_On_toggle progress=1.0"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ToggleSwitchPreviewsKt.ToggleInitial_Off_toggle initial=off"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ToggleSwitchPreviewsKt.ToggleInitial_On_Dark_toggle initial=on (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ToggleSwitchPreviewsKt.ToggleInitial_On_toggle initial=on"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Braun_Dark_uber_ Braun (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Braun_Light_uber_ Braun (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Classic_Light_uber_ Classic (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Console_Desk_uber_ Console (desk)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Console_uber_ Console"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Expressive_Dark_uber_ Material 3 Expressive (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Expressive_Light_uber_ Material 3 Expressive (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Lcd_Dark_uber_ LCD (Indiglo backlight)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Lcd_Light_uber_ LCD (reflective)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Nixie_uber_ Nixie"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Trinitron_uber_ Trinitron"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberCards_Braun_uber cards_ Braun"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberCards_Classic_uber cards_ Classic"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberCards_Console_uber cards_ Console"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberCards_Expressive_uber cards_ Expressive"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberCards_Lcd_uber cards_ LCD"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberCards_Nixie_uber cards_ Nixie"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberCards_Trinitron_uber cards_ Trinitron"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Braun_uber dials_ Braun"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Classic_uber dials_ Classic"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Console_uber dials_ Console"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Expressive_uber dials_ Expressive"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Lcd_uber dials_ LCD"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Nixie_uber dials_ Nixie"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Trinitron_uber dials_ Trinitron"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.WrapContentHeightReproKt.WrapContentHeightCmp_wrap-content height \u00b7 CMP player"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.WrapContentHeightReproKt.WrapContentHeightFixAlpha010_wrap-content height fix \u00b7 WrapAdaptive player"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.WrapContentHeightReproKt.WrapContentHeightReproAlpha010_wrap-content height repro \u00b7 alpha010"
+    }
+  ]
 }
