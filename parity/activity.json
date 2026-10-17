@@ -1,11 +1,75 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-17T06:41:01.481Z",
+  "generatedAt": "2026-10-17T12:02:46.078Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "867a2f102821ed3fed03c26aa9e3eafa40c41a70",
+        "subject": "fix(deps): update dependency org.jetbrains:markdown to v0.7.18 (#825)",
+        "at": "2026-10-17T11:41:19Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "39a5505551eb8612980cf93c1ef1dddc33d1a8ff",
+        "subject": "fix(wear): a Bambu spool's colour and remaining filament reach the watch (#872)",
+        "at": "2026-10-17T12:10:42+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "9d92f4d4b8b16393865dfff94be16c0a83d7bf62",
+        "subject": "fix(a11y): read an entity's name once; entity rows are 48dp touch targets (#871)",
+        "at": "2026-10-17T11:11:18+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "8c19e0140c5e07cd86bad002507d073a05788448",
+        "subject": "fix(entities): sensors read their state; an unavailable switch reads Unavailable (#869)",
+        "at": "2026-10-17T09:40:00+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "b6c28125a54345c2273f53ae26e5aac87b2ac442",
+        "subject": "fix(markdown): linked badges are named 48dp buttons (#870)",
+        "at": "2026-10-17T09:39:57+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "994918782f2cc80f781777c1637fa77e988f87d7",
+        "subject": "fix(model): format states like Home Assistant does, and never invent a value (#847)",
+        "at": "2026-10-17T08:38:01+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "43ccb520be815ba679dd34d52dca6efee671795c",
+        "subject": "fix(cards): climate tile badge and mode buttons draw HA's MDI glyphs (#867)",
+        "at": "2026-10-17T08:12:18+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "c76482bbc8b46d57d6f7c8230cefa52867c3d403",
+        "subject": "fix(cards): nested cards in a launcher widget lay out for their own share (#868)",
+        "at": "2026-10-17T08:12:14+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "43a6add201b4a3733aafda440a1644adc8bc4387",
         "subject": "feat(dashboard): sections lay out their cards by harc's designs, in HA's order (#866)",
@@ -419,70 +483,6 @@
         "subject": "feat(app): long-press a dashboard card to fork it into the card designer (#810)",
         "at": "2026-10-14T21:12:09+01:00",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "d3ccc6de6beae0f631e3799ee4dcb5f06a6d7364",
-        "subject": "feat(design-server): link the card designer and catalog as paths on ha.coo.ee (#809)",
-        "at": "2026-10-14T21:11:33+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ca1c23ddd163ffca8afd70f728f34458e947d4b1",
-        "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.250 (#808)",
-        "at": "2026-10-14T19:40:18Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "c3ed0ca065a8fd96075d44b69afa42c8f80a86f2",
-        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-ui-builder-runtime to v3.114.0 (#807)",
-        "at": "2026-10-14T19:12:00Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "b3117644aac760c43bb5e947bc9c7d9f78dc843e",
-        "subject": "feat(ha-cards-catalog): start designs as a dashboard section, a card or a component (#803)",
-        "at": "2026-10-14T19:44:33+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "06c7302f3410431f284b596cc4ef1936a21c7c17",
-        "subject": "feat(design-server): make ha.coo.ee's front page about the app, with a look at the card designer (#804)",
-        "at": "2026-10-14T19:44:29+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "835998f918315989708d45e11d57957dda89d215",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to ca5da5c (#805)",
-        "at": "2026-10-14T18:17:07Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "124b8e66b1e5f18b2deec0287f611e2cbe755d1c",
-        "subject": "feat: thermostat dial and a Console example in the ha-cards builder (#806)",
-        "at": "2026-10-14T19:17:03+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ace0fa069d21ef99ea18ca3a160c0bb26dc409ec",
-        "subject": "fix(deps): update compose-ai-tools (#799)",
-        "at": "2026-10-14T16:14:53Z",
-        "author": "renovate[bot]",
         "previewIds": [],
         "components": []
       }
