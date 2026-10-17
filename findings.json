@@ -41,125 +41,456 @@
       "variant": ""
     },
     {
-      "annotatedBasename": "Entities_Availability_Dark_entities_availability_dark-63decfae.a11y.png",
-      "cleanBasename": "Entities_Availability_Dark_entities_availability_dark-63decfae.png",
+      "annotatedBasename": "DashboardGithubMobile_dashboard_github_mobile-8f04a7c1.a11y.png",
+      "cleanBasename": "DashboardGithubMobile_dashboard_github_mobile-8f04a7c1.png",
       "findings": [
         {
-          "boundsInScreen": "32,69,966,154",
-          "level": "ERROR",
-          "message": "This item's height is 32dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
+          "boundsInScreen": "655,1153,924,1279",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"View on GitHub\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "53,1365,305,1491",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"License\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "32,154,966,239",
-          "level": "ERROR",
-          "message": "This item's height is 32dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
+          "boundsInScreen": "74,436,157,483",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"from\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "316,1239,568,1365",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"ktfmt\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "32,239,966,324",
-          "level": "ERROR",
-          "message": "This item's height is 32dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
+          "boundsInScreen": "823,389,920,436",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"come\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "288,389,304,436",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"/\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "634,1192,644,1239",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"\u00b7\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "299,436,420,483",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"GitHub\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "53,1879,446,1926",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"no recent commit data\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "21,1539,89,1576",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"1036\" is identical to that of 5 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "579,1239,831,1365",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Last commit\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "32,324,966,409",
-          "level": "ERROR",
-          "message": "This item's height is 32dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
+          "boundsInScreen": "53,1239,305,1365",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"ci\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "32,409,966,494",
-          "level": "ERROR",
-          "message": "This item's height is 32dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View"
+          "boundsInScreen": "168,436,223,483",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"the\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
         },
         {
-          "boundsInScreen": "32,494,966,579",
-          "level": "ERROR",
-          "message": "This item's height is 32dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View"
+          "boundsInScreen": "674,342,758,389",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"build\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
         },
         {
-          "boundsInScreen": "32,579,966,666",
-          "level": "ERROR",
-          "message": "This item's height is 33dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View"
+          "boundsInScreen": "234,436,288,483",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"HA\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
         }
       ],
-      "functionName": "Entities_Availability_Dark",
+      "functionName": "DashboardGithubMobile",
       "module": "previews",
-      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Entities_Availability_Dark_entities availability (dark)",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardGithubMobile_dashboard github \u2014 mobile",
       "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CardPreviews.kt",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/DashboardPreviews.kt",
       "variant": ""
     },
     {
-      "annotatedBasename": "Entities_Availability_Light_entities_availability_light-351a13c0.a11y.png",
-      "cleanBasename": "Entities_Availability_Light_entities_availability_light-351a13c0.png",
+      "annotatedBasename": "DashboardGithubTablet_dashboard_github_tablet-89194c99.a11y.png",
+      "cleanBasename": "DashboardGithubTablet_dashboard_github_tablet-89194c99.png",
       "findings": [
         {
-          "boundsInScreen": "32,69,966,154",
-          "level": "ERROR",
-          "message": "This item's height is 32dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
+          "boundsInScreen": "295,3305,547,3431",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"preview-baselines\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "32,154,966,239",
-          "level": "ERROR",
-          "message": "This item's height is 32dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
+          "boundsInScreen": "295,1153,564,1279",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"View on GitHub\" is identical to that of 3 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "1093,1281,1408,1407",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Open PRs, Open PRs, 0\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "32,239,966,324",
-          "level": "ERROR",
-          "message": "This item's height is 32dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
+          "boundsInScreen": "558,1365,810,1491",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"License\" is identical to that of 3 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "32,324,966,409",
-          "level": "ERROR",
-          "message": "This item's height is 32dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
+          "boundsInScreen": "567,389,650,436",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"from\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "558,1239,810,1365",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"ktfmt\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "32,409,966,494",
-          "level": "ERROR",
-          "message": "This item's height is 32dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
+          "boundsInScreen": "1093,1544,1408,1670",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Latest PR, Latest PR, Unavailable\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "32,494,966,579",
-          "level": "ERROR",
-          "message": "This item's height is 32dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
+          "boundsInScreen": "459,389,556,436",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"come\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "1400,342,1416,389",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"/\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "876,1145,886,1192",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"\u00b7\" is identical to that of 3 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "792,389,913,436",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"GitHub\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "295,1565,688,1612",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"no recent commit data\" is identical to that of 3 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "1492,1124,1807,1250",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Open issues, Open issues, 2\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "32,579,966,666",
-          "level": "ERROR",
-          "message": "This item's height is 33dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
+          "boundsInScreen": "1061,1119,1112,1156",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"777\" is identical to that of 7 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "295,1365,547,1491",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Last commit\" is identical to that of 3 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "295,1239,547,1365",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"ci\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "661,389,716,436",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"the\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "295,4212,547,4338",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"build\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "727,389,781,436",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"HA\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
         }
       ],
-      "functionName": "Entities_Availability_Light",
+      "functionName": "DashboardGithubTablet",
       "module": "previews",
-      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Entities_Availability_Light_entities availability (light)",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardGithubTablet_dashboard github \u2014 tablet",
       "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CardPreviews.kt",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/DashboardPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "DashboardViewGithubProjectsMobile_dashboard_github_view_1_Projects_mobile-266d311b.a11y.png",
+      "cleanBasename": "DashboardViewGithubProjectsMobile_dashboard_github_view_1_Projects_mobile-266d311b.png",
+      "findings": [
+        {
+          "boundsInScreen": "53,1365,305,1491",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"License\" is identical to that of 3 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "53,1979,497,2105",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Latest PR, Latest PR, Unavailable\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "823,389,920,436",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"come\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "288,389,304,436",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"/\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "581,4773,1026,4899",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Latest tag, Latest tag, v0.1.2\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "581,1544,1026,1670",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Open issues, Open issues, 2\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "579,1239,831,1365",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Last commit\" is identical to that of 3 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "53,1239,305,1365",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"ci\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "168,436,223,483",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"the\" is identical to that of 5 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "787,6796,822,6843",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"to\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "579,3876,831,4002",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"preview-baselines\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "655,1153,924,1279",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"View on GitHub\" is identical to that of 3 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "53,1701,497,1827",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Open PRs, Open PRs, 0\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "74,436,157,483",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"from\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "316,1239,568,1365",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"ktfmt\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "53,4773,497,4899",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Latest release, Latest release, v0.1.2\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "634,1192,644,1239",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"\u00b7\" is identical to that of 3 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "299,436,420,483",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"GitHub\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "53,1879,446,1926",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"no recent commit data\" is identical to that of 3 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "21,1539,89,1576",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"1036\" is identical to that of 8 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "732,436,860,483",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"badges\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "591,342,663,389",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"with\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "53,5171,305,5297",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"build\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "234,436,288,483",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"HA\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        }
+      ],
+      "functionName": "DashboardViewGithubProjectsMobile",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardViewGithubProjectsMobile_dashboard github view 1 Projects \u2014 mobile",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/DashboardPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "",
+      "cleanBasename": "ImageUrl_Probe_Frame0_image_url_probe_frame_0-1464413f.png",
+      "findings": [],
+      "functionName": "ImageUrl_Probe_Frame0",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ImagePreviewsKt.ImageUrl_Probe_Frame0_image-url probe frame=0",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/ImagePreviews.kt",
       "variant": ""
     }
   ],
@@ -416,6 +747,14 @@
     {
       "module": "previews",
       "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Dashboard_Light_dashboard (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Entities_Availability_Dark_entities availability (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Entities_Availability_Light_entities availability (light)"
     },
     {
       "module": "previews",
@@ -719,14 +1058,6 @@
     },
     {
       "module": "previews",
-      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardGithubMobile_dashboard github \u2014 mobile"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardGithubTablet_dashboard github \u2014 tablet"
-    },
-    {
-      "module": "previews",
       "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardMeshcoreMobile_dashboard meshcore \u2014 mobile"
     },
     {
@@ -799,10 +1130,6 @@
     },
     {
       "module": "previews",
-      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardViewGithubProjectsMobile_dashboard github view 1 Projects \u2014 mobile"
-    },
-    {
-      "module": "previews",
       "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardViewMeshcoreControlsMobile_dashboard meshcore view 4 Controls \u2014 mobile"
     },
     {
@@ -864,10 +1191,6 @@
     {
       "module": "previews",
       "previewId": "ee.schimke.ha.previews.ImagePreviewsKt.ImageUrl_FakeCoil_Light_image-url fake-coil (light)"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.ImagePreviewsKt.ImageUrl_Probe_Frame0_image-url probe frame=0"
     },
     {
       "module": "previews",
