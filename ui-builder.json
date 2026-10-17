@@ -1,0 +1,3900 @@
+{
+  "schema": "compose-ui-builder-catalog/v1",
+  "catalog": {
+    "id": "lovelace",
+    "title": "Home Assistant dashboards"
+  },
+  "statusSemantics": {
+    "platform": "lovelace",
+    "platformLabel": "Home Assistant dashboards",
+    "componentIdPrefix": "lovelace/",
+    "frame": {
+      "adapter": "frame/rect",
+      "seedDevice": "spec:width=1200dp,height=900dp,dpi=160"
+    },
+    "composeSourceExport": {
+      "adapter": "lovelace-config",
+      "version": 1
+    },
+    "newDesign": {
+      "description": "Edit dashboard views, sections and cards. The host owns Home Assistant data and saves."
+    },
+    "builtins": {
+      "lovelace/dashboard": {
+        "role": "screen-root",
+        "displayName": "Dashboard",
+        "group": "Dashboard",
+        "canvas": "lovelace/dashboard",
+        "shelfRole": "Scaffold",
+        "traits": [
+          "LovelaceDashboard"
+        ],
+        "slots": {
+          "views": {
+            "acceptedTraits": [
+              "LovelaceView"
+            ],
+            "min": 0
+          }
+        },
+        "properties": [
+          {
+            "name": "rawConfig",
+            "jsonType": "string",
+            "required": false,
+            "notes": "Opaque original config as JSON text. Preserves unknown fields and numbers through .uid storage."
+          },
+          {
+            "name": "title",
+            "jsonType": "string",
+            "required": false
+          }
+        ],
+        "modifierCapabilities": []
+      },
+      "lovelace/view": {
+        "role": "layout",
+        "displayName": "Sections view",
+        "group": "Dashboard",
+        "canvas": "lovelace/view",
+        "shelfRole": "Container",
+        "traits": [
+          "LovelaceView"
+        ],
+        "slots": {
+          "sections": {
+            "acceptedTraits": [
+              "LovelaceSection"
+            ],
+            "min": 0
+          }
+        },
+        "properties": [
+          {
+            "name": "rawConfig",
+            "jsonType": "string",
+            "required": false,
+            "notes": "Opaque original config as JSON text. Preserves unknown fields and numbers through .uid storage."
+          },
+          {
+            "name": "title",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "path",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "icon",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "max_columns",
+            "jsonType": "integer",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": 1,
+              "maximum": 12,
+              "step": 1
+            }
+          }
+        ],
+        "modifierCapabilities": []
+      },
+      "lovelace/opaque-view": {
+        "role": "decoration",
+        "displayName": "Preserved view",
+        "group": "Cards",
+        "canvas": "lovelace/view",
+        "shelfRole": "Leaf",
+        "traits": [
+          "LovelaceView"
+        ],
+        "slots": {},
+        "properties": [
+          {
+            "name": "rawConfig",
+            "jsonType": "string",
+            "required": false,
+            "notes": "Opaque original config as JSON text. Preserves unknown fields and numbers through .uid storage."
+          }
+        ],
+        "modifierCapabilities": []
+      },
+      "lovelace/section": {
+        "role": "layout",
+        "displayName": "Section",
+        "group": "Dashboard",
+        "canvas": "lovelace/section",
+        "shelfRole": "Container",
+        "traits": [
+          "LovelaceSection"
+        ],
+        "slots": {
+          "cards": {
+            "acceptedTraits": [
+              "LovelaceCard"
+            ],
+            "min": 0
+          }
+        },
+        "properties": [
+          {
+            "name": "rawConfig",
+            "jsonType": "string",
+            "required": false,
+            "notes": "Opaque original config as JSON text. Preserves unknown fields and numbers through .uid storage."
+          },
+          {
+            "name": "title",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "column_span",
+            "jsonType": "integer",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": 1,
+              "maximum": 12,
+              "step": 1
+            }
+          },
+          {
+            "name": "row_span",
+            "jsonType": "integer",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": 1,
+              "maximum": 256,
+              "step": 1
+            }
+          }
+        ],
+        "modifierCapabilities": []
+      },
+      "lovelace/card/tile": {
+        "role": "decoration",
+        "shelfRole": "Leaf",
+        "traits": [
+          "LovelaceCard"
+        ],
+        "displayName": "Tile",
+        "group": "Cards",
+        "canvas": "lovelace/card",
+        "slots": {},
+        "properties": [
+          {
+            "name": "rawConfig",
+            "jsonType": "string",
+            "required": false,
+            "notes": "Opaque original config as JSON text. Preserves unknown fields and numbers through .uid storage."
+          },
+          {
+            "name": "title",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "name",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "entity",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "icon",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "content",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "unit",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "min",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "max",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "show_name",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "show_state",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "grid_columns",
+            "jsonType": [
+              "integer",
+              "string"
+            ],
+            "required": false,
+            "allowedValues": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              "full"
+            ]
+          },
+          {
+            "name": "grid_rows",
+            "jsonType": "integer",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": 1,
+              "maximum": 256,
+              "step": 1
+            }
+          }
+        ],
+        "modifierCapabilities": []
+      },
+      "lovelace/card/entities": {
+        "role": "decoration",
+        "shelfRole": "Leaf",
+        "traits": [
+          "LovelaceCard"
+        ],
+        "displayName": "Entities",
+        "group": "Cards",
+        "canvas": "lovelace/card",
+        "slots": {},
+        "properties": [
+          {
+            "name": "rawConfig",
+            "jsonType": "string",
+            "required": false,
+            "notes": "Opaque original config as JSON text. Preserves unknown fields and numbers through .uid storage."
+          },
+          {
+            "name": "title",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "name",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "entity",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "icon",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "content",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "unit",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "min",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "max",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "show_name",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "show_state",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "grid_columns",
+            "jsonType": [
+              "integer",
+              "string"
+            ],
+            "required": false,
+            "allowedValues": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              "full"
+            ]
+          },
+          {
+            "name": "grid_rows",
+            "jsonType": "integer",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": 1,
+              "maximum": 256,
+              "step": 1
+            }
+          }
+        ],
+        "modifierCapabilities": []
+      },
+      "lovelace/card/entity": {
+        "role": "decoration",
+        "shelfRole": "Leaf",
+        "traits": [
+          "LovelaceCard"
+        ],
+        "displayName": "Entity",
+        "group": "Cards",
+        "canvas": "lovelace/card",
+        "slots": {},
+        "properties": [
+          {
+            "name": "rawConfig",
+            "jsonType": "string",
+            "required": false,
+            "notes": "Opaque original config as JSON text. Preserves unknown fields and numbers through .uid storage."
+          },
+          {
+            "name": "title",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "name",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "entity",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "icon",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "content",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "unit",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "min",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "max",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "show_name",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "show_state",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "grid_columns",
+            "jsonType": [
+              "integer",
+              "string"
+            ],
+            "required": false,
+            "allowedValues": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              "full"
+            ]
+          },
+          {
+            "name": "grid_rows",
+            "jsonType": "integer",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": 1,
+              "maximum": 256,
+              "step": 1
+            }
+          }
+        ],
+        "modifierCapabilities": []
+      },
+      "lovelace/card/button": {
+        "role": "decoration",
+        "shelfRole": "Leaf",
+        "traits": [
+          "LovelaceCard"
+        ],
+        "displayName": "Button",
+        "group": "Cards",
+        "canvas": "lovelace/card",
+        "slots": {},
+        "properties": [
+          {
+            "name": "rawConfig",
+            "jsonType": "string",
+            "required": false,
+            "notes": "Opaque original config as JSON text. Preserves unknown fields and numbers through .uid storage."
+          },
+          {
+            "name": "title",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "name",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "entity",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "icon",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "content",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "unit",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "min",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "max",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "show_name",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "show_state",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "grid_columns",
+            "jsonType": [
+              "integer",
+              "string"
+            ],
+            "required": false,
+            "allowedValues": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              "full"
+            ]
+          },
+          {
+            "name": "grid_rows",
+            "jsonType": "integer",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": 1,
+              "maximum": 256,
+              "step": 1
+            }
+          }
+        ],
+        "modifierCapabilities": []
+      },
+      "lovelace/card/gauge": {
+        "role": "decoration",
+        "shelfRole": "Leaf",
+        "traits": [
+          "LovelaceCard"
+        ],
+        "displayName": "Gauge",
+        "group": "Cards",
+        "canvas": "lovelace/card",
+        "slots": {},
+        "properties": [
+          {
+            "name": "rawConfig",
+            "jsonType": "string",
+            "required": false,
+            "notes": "Opaque original config as JSON text. Preserves unknown fields and numbers through .uid storage."
+          },
+          {
+            "name": "title",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "name",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "entity",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "icon",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "content",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "unit",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "min",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "max",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "show_name",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "show_state",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "grid_columns",
+            "jsonType": [
+              "integer",
+              "string"
+            ],
+            "required": false,
+            "allowedValues": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              "full"
+            ]
+          },
+          {
+            "name": "grid_rows",
+            "jsonType": "integer",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": 1,
+              "maximum": 256,
+              "step": 1
+            }
+          }
+        ],
+        "modifierCapabilities": []
+      },
+      "lovelace/card/thermostat": {
+        "role": "decoration",
+        "shelfRole": "Leaf",
+        "traits": [
+          "LovelaceCard"
+        ],
+        "displayName": "Thermostat",
+        "group": "Cards",
+        "canvas": "lovelace/card",
+        "slots": {},
+        "properties": [
+          {
+            "name": "rawConfig",
+            "jsonType": "string",
+            "required": false,
+            "notes": "Opaque original config as JSON text. Preserves unknown fields and numbers through .uid storage."
+          },
+          {
+            "name": "title",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "name",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "entity",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "icon",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "content",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "unit",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "min",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "max",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "show_name",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "show_state",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "grid_columns",
+            "jsonType": [
+              "integer",
+              "string"
+            ],
+            "required": false,
+            "allowedValues": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              "full"
+            ]
+          },
+          {
+            "name": "grid_rows",
+            "jsonType": "integer",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": 1,
+              "maximum": 256,
+              "step": 1
+            }
+          }
+        ],
+        "modifierCapabilities": []
+      },
+      "lovelace/card/glance": {
+        "role": "decoration",
+        "shelfRole": "Leaf",
+        "traits": [
+          "LovelaceCard"
+        ],
+        "displayName": "Glance",
+        "group": "Cards",
+        "canvas": "lovelace/card",
+        "slots": {},
+        "properties": [
+          {
+            "name": "rawConfig",
+            "jsonType": "string",
+            "required": false,
+            "notes": "Opaque original config as JSON text. Preserves unknown fields and numbers through .uid storage."
+          },
+          {
+            "name": "title",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "name",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "entity",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "icon",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "content",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "unit",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "min",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "max",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "show_name",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "show_state",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "grid_columns",
+            "jsonType": [
+              "integer",
+              "string"
+            ],
+            "required": false,
+            "allowedValues": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              "full"
+            ]
+          },
+          {
+            "name": "grid_rows",
+            "jsonType": "integer",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": 1,
+              "maximum": 256,
+              "step": 1
+            }
+          }
+        ],
+        "modifierCapabilities": []
+      },
+      "lovelace/card/markdown": {
+        "role": "decoration",
+        "shelfRole": "Leaf",
+        "traits": [
+          "LovelaceCard"
+        ],
+        "displayName": "Markdown",
+        "group": "Cards",
+        "canvas": "lovelace/card",
+        "slots": {},
+        "properties": [
+          {
+            "name": "rawConfig",
+            "jsonType": "string",
+            "required": false,
+            "notes": "Opaque original config as JSON text. Preserves unknown fields and numbers through .uid storage."
+          },
+          {
+            "name": "title",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "name",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "entity",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "icon",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "content",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "unit",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "min",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "max",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "show_name",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "show_state",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "grid_columns",
+            "jsonType": [
+              "integer",
+              "string"
+            ],
+            "required": false,
+            "allowedValues": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              "full"
+            ]
+          },
+          {
+            "name": "grid_rows",
+            "jsonType": "integer",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": 1,
+              "maximum": 256,
+              "step": 1
+            }
+          }
+        ],
+        "modifierCapabilities": []
+      },
+      "lovelace/card/heading": {
+        "role": "decoration",
+        "shelfRole": "Leaf",
+        "traits": [
+          "LovelaceCard"
+        ],
+        "displayName": "Heading",
+        "group": "Cards",
+        "canvas": "lovelace/card",
+        "slots": {},
+        "properties": [
+          {
+            "name": "rawConfig",
+            "jsonType": "string",
+            "required": false,
+            "notes": "Opaque original config as JSON text. Preserves unknown fields and numbers through .uid storage."
+          },
+          {
+            "name": "title",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "name",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "entity",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "icon",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "content",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "unit",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "min",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "max",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "show_name",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "show_state",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "grid_columns",
+            "jsonType": [
+              "integer",
+              "string"
+            ],
+            "required": false,
+            "allowedValues": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              "full"
+            ]
+          },
+          {
+            "name": "grid_rows",
+            "jsonType": "integer",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": 1,
+              "maximum": 256,
+              "step": 1
+            }
+          }
+        ],
+        "modifierCapabilities": []
+      },
+      "lovelace/card/sensor": {
+        "role": "decoration",
+        "shelfRole": "Leaf",
+        "traits": [
+          "LovelaceCard"
+        ],
+        "displayName": "Sensor",
+        "group": "Cards",
+        "canvas": "lovelace/card",
+        "slots": {},
+        "properties": [
+          {
+            "name": "rawConfig",
+            "jsonType": "string",
+            "required": false,
+            "notes": "Opaque original config as JSON text. Preserves unknown fields and numbers through .uid storage."
+          },
+          {
+            "name": "title",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "name",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "entity",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "icon",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "content",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "unit",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "min",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "max",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "show_name",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "show_state",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "grid_columns",
+            "jsonType": [
+              "integer",
+              "string"
+            ],
+            "required": false,
+            "allowedValues": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              "full"
+            ]
+          },
+          {
+            "name": "grid_rows",
+            "jsonType": "integer",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": 1,
+              "maximum": 256,
+              "step": 1
+            }
+          }
+        ],
+        "modifierCapabilities": []
+      },
+      "lovelace/card/statistic": {
+        "role": "decoration",
+        "shelfRole": "Leaf",
+        "traits": [
+          "LovelaceCard"
+        ],
+        "displayName": "Statistic",
+        "group": "Cards",
+        "canvas": "lovelace/card",
+        "slots": {},
+        "properties": [
+          {
+            "name": "rawConfig",
+            "jsonType": "string",
+            "required": false,
+            "notes": "Opaque original config as JSON text. Preserves unknown fields and numbers through .uid storage."
+          },
+          {
+            "name": "title",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "name",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "entity",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "icon",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "content",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "unit",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "min",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "max",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "show_name",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "show_state",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "grid_columns",
+            "jsonType": [
+              "integer",
+              "string"
+            ],
+            "required": false,
+            "allowedValues": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              "full"
+            ]
+          },
+          {
+            "name": "grid_rows",
+            "jsonType": "integer",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": 1,
+              "maximum": 256,
+              "step": 1
+            }
+          }
+        ],
+        "modifierCapabilities": []
+      },
+      "lovelace/card/history-graph": {
+        "role": "decoration",
+        "shelfRole": "Leaf",
+        "traits": [
+          "LovelaceCard"
+        ],
+        "displayName": "History Graph",
+        "group": "Cards",
+        "canvas": "lovelace/card",
+        "slots": {},
+        "properties": [
+          {
+            "name": "rawConfig",
+            "jsonType": "string",
+            "required": false,
+            "notes": "Opaque original config as JSON text. Preserves unknown fields and numbers through .uid storage."
+          },
+          {
+            "name": "title",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "name",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "entity",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "icon",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "content",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "unit",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "min",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "max",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "show_name",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "show_state",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "grid_columns",
+            "jsonType": [
+              "integer",
+              "string"
+            ],
+            "required": false,
+            "allowedValues": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              "full"
+            ]
+          },
+          {
+            "name": "grid_rows",
+            "jsonType": "integer",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": 1,
+              "maximum": 256,
+              "step": 1
+            }
+          }
+        ],
+        "modifierCapabilities": []
+      },
+      "lovelace/card/statistics-graph": {
+        "role": "decoration",
+        "shelfRole": "Leaf",
+        "traits": [
+          "LovelaceCard"
+        ],
+        "displayName": "Statistics Graph",
+        "group": "Cards",
+        "canvas": "lovelace/card",
+        "slots": {},
+        "properties": [
+          {
+            "name": "rawConfig",
+            "jsonType": "string",
+            "required": false,
+            "notes": "Opaque original config as JSON text. Preserves unknown fields and numbers through .uid storage."
+          },
+          {
+            "name": "title",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "name",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "entity",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "icon",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "content",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "unit",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "min",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "max",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "show_name",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "show_state",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "grid_columns",
+            "jsonType": [
+              "integer",
+              "string"
+            ],
+            "required": false,
+            "allowedValues": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              "full"
+            ]
+          },
+          {
+            "name": "grid_rows",
+            "jsonType": "integer",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": 1,
+              "maximum": 256,
+              "step": 1
+            }
+          }
+        ],
+        "modifierCapabilities": []
+      },
+      "lovelace/card/logbook": {
+        "role": "decoration",
+        "shelfRole": "Leaf",
+        "traits": [
+          "LovelaceCard"
+        ],
+        "displayName": "Logbook",
+        "group": "Cards",
+        "canvas": "lovelace/card",
+        "slots": {},
+        "properties": [
+          {
+            "name": "rawConfig",
+            "jsonType": "string",
+            "required": false,
+            "notes": "Opaque original config as JSON text. Preserves unknown fields and numbers through .uid storage."
+          },
+          {
+            "name": "title",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "name",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "entity",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "icon",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "content",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "unit",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "min",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "max",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "show_name",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "show_state",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "grid_columns",
+            "jsonType": [
+              "integer",
+              "string"
+            ],
+            "required": false,
+            "allowedValues": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              "full"
+            ]
+          },
+          {
+            "name": "grid_rows",
+            "jsonType": "integer",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": 1,
+              "maximum": 256,
+              "step": 1
+            }
+          }
+        ],
+        "modifierCapabilities": []
+      },
+      "lovelace/card/calendar": {
+        "role": "decoration",
+        "shelfRole": "Leaf",
+        "traits": [
+          "LovelaceCard"
+        ],
+        "displayName": "Calendar",
+        "group": "Cards",
+        "canvas": "lovelace/card",
+        "slots": {},
+        "properties": [
+          {
+            "name": "rawConfig",
+            "jsonType": "string",
+            "required": false,
+            "notes": "Opaque original config as JSON text. Preserves unknown fields and numbers through .uid storage."
+          },
+          {
+            "name": "title",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "name",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "entity",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "icon",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "content",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "unit",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "min",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "max",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "show_name",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "show_state",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "grid_columns",
+            "jsonType": [
+              "integer",
+              "string"
+            ],
+            "required": false,
+            "allowedValues": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              "full"
+            ]
+          },
+          {
+            "name": "grid_rows",
+            "jsonType": "integer",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": 1,
+              "maximum": 256,
+              "step": 1
+            }
+          }
+        ],
+        "modifierCapabilities": []
+      },
+      "lovelace/card/todo-list": {
+        "role": "decoration",
+        "shelfRole": "Leaf",
+        "traits": [
+          "LovelaceCard"
+        ],
+        "displayName": "Todo List",
+        "group": "Cards",
+        "canvas": "lovelace/card",
+        "slots": {},
+        "properties": [
+          {
+            "name": "rawConfig",
+            "jsonType": "string",
+            "required": false,
+            "notes": "Opaque original config as JSON text. Preserves unknown fields and numbers through .uid storage."
+          },
+          {
+            "name": "title",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "name",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "entity",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "icon",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "content",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "unit",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "min",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "max",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "show_name",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "show_state",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "grid_columns",
+            "jsonType": [
+              "integer",
+              "string"
+            ],
+            "required": false,
+            "allowedValues": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              "full"
+            ]
+          },
+          {
+            "name": "grid_rows",
+            "jsonType": "integer",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": 1,
+              "maximum": 256,
+              "step": 1
+            }
+          }
+        ],
+        "modifierCapabilities": []
+      },
+      "lovelace/card/weather-forecast": {
+        "role": "decoration",
+        "shelfRole": "Leaf",
+        "traits": [
+          "LovelaceCard"
+        ],
+        "displayName": "Weather Forecast",
+        "group": "Cards",
+        "canvas": "lovelace/card",
+        "slots": {},
+        "properties": [
+          {
+            "name": "rawConfig",
+            "jsonType": "string",
+            "required": false,
+            "notes": "Opaque original config as JSON text. Preserves unknown fields and numbers through .uid storage."
+          },
+          {
+            "name": "title",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "name",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "entity",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "icon",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "content",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "unit",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "min",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "max",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "show_name",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "show_state",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "grid_columns",
+            "jsonType": [
+              "integer",
+              "string"
+            ],
+            "required": false,
+            "allowedValues": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              "full"
+            ]
+          },
+          {
+            "name": "grid_rows",
+            "jsonType": "integer",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": 1,
+              "maximum": 256,
+              "step": 1
+            }
+          }
+        ],
+        "modifierCapabilities": []
+      },
+      "lovelace/card/media-control": {
+        "role": "decoration",
+        "shelfRole": "Leaf",
+        "traits": [
+          "LovelaceCard"
+        ],
+        "displayName": "Media Control",
+        "group": "Cards",
+        "canvas": "lovelace/card",
+        "slots": {},
+        "properties": [
+          {
+            "name": "rawConfig",
+            "jsonType": "string",
+            "required": false,
+            "notes": "Opaque original config as JSON text. Preserves unknown fields and numbers through .uid storage."
+          },
+          {
+            "name": "title",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "name",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "entity",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "icon",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "content",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "unit",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "min",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "max",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "show_name",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "show_state",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "grid_columns",
+            "jsonType": [
+              "integer",
+              "string"
+            ],
+            "required": false,
+            "allowedValues": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              "full"
+            ]
+          },
+          {
+            "name": "grid_rows",
+            "jsonType": "integer",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": 1,
+              "maximum": 256,
+              "step": 1
+            }
+          }
+        ],
+        "modifierCapabilities": []
+      },
+      "lovelace/card/alarm-panel": {
+        "role": "decoration",
+        "shelfRole": "Leaf",
+        "traits": [
+          "LovelaceCard"
+        ],
+        "displayName": "Alarm Panel",
+        "group": "Cards",
+        "canvas": "lovelace/card",
+        "slots": {},
+        "properties": [
+          {
+            "name": "rawConfig",
+            "jsonType": "string",
+            "required": false,
+            "notes": "Opaque original config as JSON text. Preserves unknown fields and numbers through .uid storage."
+          },
+          {
+            "name": "title",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "name",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "entity",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "icon",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "content",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "unit",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "min",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "max",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "show_name",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "show_state",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "grid_columns",
+            "jsonType": [
+              "integer",
+              "string"
+            ],
+            "required": false,
+            "allowedValues": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              "full"
+            ]
+          },
+          {
+            "name": "grid_rows",
+            "jsonType": "integer",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": 1,
+              "maximum": 256,
+              "step": 1
+            }
+          }
+        ],
+        "modifierCapabilities": []
+      },
+      "lovelace/card/area": {
+        "role": "decoration",
+        "shelfRole": "Leaf",
+        "traits": [
+          "LovelaceCard"
+        ],
+        "displayName": "Area",
+        "group": "Cards",
+        "canvas": "lovelace/card",
+        "slots": {},
+        "properties": [
+          {
+            "name": "rawConfig",
+            "jsonType": "string",
+            "required": false,
+            "notes": "Opaque original config as JSON text. Preserves unknown fields and numbers through .uid storage."
+          },
+          {
+            "name": "title",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "name",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "entity",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "icon",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "content",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "unit",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "min",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "max",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "show_name",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "show_state",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "grid_columns",
+            "jsonType": [
+              "integer",
+              "string"
+            ],
+            "required": false,
+            "allowedValues": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              "full"
+            ]
+          },
+          {
+            "name": "grid_rows",
+            "jsonType": "integer",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": 1,
+              "maximum": 256,
+              "step": 1
+            }
+          }
+        ],
+        "modifierCapabilities": []
+      },
+      "lovelace/card/clock": {
+        "role": "decoration",
+        "shelfRole": "Leaf",
+        "traits": [
+          "LovelaceCard"
+        ],
+        "displayName": "Clock",
+        "group": "Cards",
+        "canvas": "lovelace/card",
+        "slots": {},
+        "properties": [
+          {
+            "name": "rawConfig",
+            "jsonType": "string",
+            "required": false,
+            "notes": "Opaque original config as JSON text. Preserves unknown fields and numbers through .uid storage."
+          },
+          {
+            "name": "title",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "name",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "entity",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "icon",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "content",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "unit",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "min",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "max",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "show_name",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "show_state",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "grid_columns",
+            "jsonType": [
+              "integer",
+              "string"
+            ],
+            "required": false,
+            "allowedValues": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              "full"
+            ]
+          },
+          {
+            "name": "grid_rows",
+            "jsonType": "integer",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": 1,
+              "maximum": 256,
+              "step": 1
+            }
+          }
+        ],
+        "modifierCapabilities": []
+      },
+      "lovelace/card/picture": {
+        "role": "decoration",
+        "shelfRole": "Leaf",
+        "traits": [
+          "LovelaceCard"
+        ],
+        "displayName": "Picture",
+        "group": "Cards",
+        "canvas": "lovelace/card",
+        "slots": {},
+        "properties": [
+          {
+            "name": "rawConfig",
+            "jsonType": "string",
+            "required": false,
+            "notes": "Opaque original config as JSON text. Preserves unknown fields and numbers through .uid storage."
+          },
+          {
+            "name": "title",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "name",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "entity",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "icon",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "content",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "unit",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "min",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "max",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "show_name",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "show_state",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "grid_columns",
+            "jsonType": [
+              "integer",
+              "string"
+            ],
+            "required": false,
+            "allowedValues": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              "full"
+            ]
+          },
+          {
+            "name": "grid_rows",
+            "jsonType": "integer",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": 1,
+              "maximum": 256,
+              "step": 1
+            }
+          }
+        ],
+        "modifierCapabilities": []
+      },
+      "lovelace/card/picture-glance": {
+        "role": "decoration",
+        "shelfRole": "Leaf",
+        "traits": [
+          "LovelaceCard"
+        ],
+        "displayName": "Picture Glance",
+        "group": "Cards",
+        "canvas": "lovelace/card",
+        "slots": {},
+        "properties": [
+          {
+            "name": "rawConfig",
+            "jsonType": "string",
+            "required": false,
+            "notes": "Opaque original config as JSON text. Preserves unknown fields and numbers through .uid storage."
+          },
+          {
+            "name": "title",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "name",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "entity",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "icon",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "content",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "unit",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "min",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "max",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "show_name",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "show_state",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "grid_columns",
+            "jsonType": [
+              "integer",
+              "string"
+            ],
+            "required": false,
+            "allowedValues": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              "full"
+            ]
+          },
+          {
+            "name": "grid_rows",
+            "jsonType": "integer",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": 1,
+              "maximum": 256,
+              "step": 1
+            }
+          }
+        ],
+        "modifierCapabilities": []
+      },
+      "lovelace/card/picture-elements": {
+        "role": "decoration",
+        "shelfRole": "Leaf",
+        "traits": [
+          "LovelaceCard"
+        ],
+        "displayName": "Picture Elements",
+        "group": "Cards",
+        "canvas": "lovelace/card",
+        "slots": {},
+        "properties": [
+          {
+            "name": "rawConfig",
+            "jsonType": "string",
+            "required": false,
+            "notes": "Opaque original config as JSON text. Preserves unknown fields and numbers through .uid storage."
+          },
+          {
+            "name": "title",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "name",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "entity",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "icon",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "content",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "unit",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "min",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "max",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "show_name",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "show_state",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "grid_columns",
+            "jsonType": [
+              "integer",
+              "string"
+            ],
+            "required": false,
+            "allowedValues": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              "full"
+            ]
+          },
+          {
+            "name": "grid_rows",
+            "jsonType": "integer",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": 1,
+              "maximum": 256,
+              "step": 1
+            }
+          }
+        ],
+        "modifierCapabilities": []
+      },
+      "lovelace/card/picture-entity": {
+        "role": "decoration",
+        "shelfRole": "Leaf",
+        "traits": [
+          "LovelaceCard"
+        ],
+        "displayName": "Picture Entity",
+        "group": "Cards",
+        "canvas": "lovelace/card",
+        "slots": {},
+        "properties": [
+          {
+            "name": "rawConfig",
+            "jsonType": "string",
+            "required": false,
+            "notes": "Opaque original config as JSON text. Preserves unknown fields and numbers through .uid storage."
+          },
+          {
+            "name": "title",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "name",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "entity",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "icon",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "content",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "unit",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "min",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "max",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "show_name",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "show_state",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "grid_columns",
+            "jsonType": [
+              "integer",
+              "string"
+            ],
+            "required": false,
+            "allowedValues": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              "full"
+            ]
+          },
+          {
+            "name": "grid_rows",
+            "jsonType": "integer",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": 1,
+              "maximum": 256,
+              "step": 1
+            }
+          }
+        ],
+        "modifierCapabilities": []
+      },
+      "lovelace/card/map": {
+        "role": "decoration",
+        "shelfRole": "Leaf",
+        "traits": [
+          "LovelaceCard"
+        ],
+        "displayName": "Map",
+        "group": "Cards",
+        "canvas": "lovelace/card",
+        "slots": {},
+        "properties": [
+          {
+            "name": "rawConfig",
+            "jsonType": "string",
+            "required": false,
+            "notes": "Opaque original config as JSON text. Preserves unknown fields and numbers through .uid storage."
+          },
+          {
+            "name": "title",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "name",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "entity",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "icon",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "content",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "unit",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "min",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "max",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "show_name",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "show_state",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "grid_columns",
+            "jsonType": [
+              "integer",
+              "string"
+            ],
+            "required": false,
+            "allowedValues": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              "full"
+            ]
+          },
+          {
+            "name": "grid_rows",
+            "jsonType": "integer",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": 1,
+              "maximum": 256,
+              "step": 1
+            }
+          }
+        ],
+        "modifierCapabilities": []
+      },
+      "lovelace/card/iframe": {
+        "role": "decoration",
+        "shelfRole": "Leaf",
+        "traits": [
+          "LovelaceCard"
+        ],
+        "displayName": "Iframe",
+        "group": "Cards",
+        "canvas": "lovelace/card",
+        "slots": {},
+        "properties": [
+          {
+            "name": "rawConfig",
+            "jsonType": "string",
+            "required": false,
+            "notes": "Opaque original config as JSON text. Preserves unknown fields and numbers through .uid storage."
+          },
+          {
+            "name": "title",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "name",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "entity",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "icon",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "content",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "unit",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "min",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "max",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "show_name",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "show_state",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "grid_columns",
+            "jsonType": [
+              "integer",
+              "string"
+            ],
+            "required": false,
+            "allowedValues": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              "full"
+            ]
+          },
+          {
+            "name": "grid_rows",
+            "jsonType": "integer",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": 1,
+              "maximum": 256,
+              "step": 1
+            }
+          }
+        ],
+        "modifierCapabilities": []
+      },
+      "lovelace/card/vertical-stack": {
+        "role": "decoration",
+        "shelfRole": "Leaf",
+        "traits": [
+          "LovelaceCard"
+        ],
+        "displayName": "Vertical Stack",
+        "group": "Cards",
+        "canvas": "lovelace/card",
+        "slots": {},
+        "properties": [
+          {
+            "name": "rawConfig",
+            "jsonType": "string",
+            "required": false,
+            "notes": "Opaque original config as JSON text. Preserves unknown fields and numbers through .uid storage."
+          },
+          {
+            "name": "title",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "name",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "entity",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "icon",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "content",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "unit",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "min",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "max",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "show_name",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "show_state",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "grid_columns",
+            "jsonType": [
+              "integer",
+              "string"
+            ],
+            "required": false,
+            "allowedValues": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              "full"
+            ]
+          },
+          {
+            "name": "grid_rows",
+            "jsonType": "integer",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": 1,
+              "maximum": 256,
+              "step": 1
+            }
+          }
+        ],
+        "modifierCapabilities": []
+      },
+      "lovelace/card/horizontal-stack": {
+        "role": "decoration",
+        "shelfRole": "Leaf",
+        "traits": [
+          "LovelaceCard"
+        ],
+        "displayName": "Horizontal Stack",
+        "group": "Cards",
+        "canvas": "lovelace/card",
+        "slots": {},
+        "properties": [
+          {
+            "name": "rawConfig",
+            "jsonType": "string",
+            "required": false,
+            "notes": "Opaque original config as JSON text. Preserves unknown fields and numbers through .uid storage."
+          },
+          {
+            "name": "title",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "name",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "entity",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "icon",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "content",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "unit",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "min",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "max",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "show_name",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "show_state",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "grid_columns",
+            "jsonType": [
+              "integer",
+              "string"
+            ],
+            "required": false,
+            "allowedValues": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              "full"
+            ]
+          },
+          {
+            "name": "grid_rows",
+            "jsonType": "integer",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": 1,
+              "maximum": 256,
+              "step": 1
+            }
+          }
+        ],
+        "modifierCapabilities": []
+      },
+      "lovelace/card/grid": {
+        "role": "decoration",
+        "shelfRole": "Leaf",
+        "traits": [
+          "LovelaceCard"
+        ],
+        "displayName": "Grid",
+        "group": "Cards",
+        "canvas": "lovelace/card",
+        "slots": {},
+        "properties": [
+          {
+            "name": "rawConfig",
+            "jsonType": "string",
+            "required": false,
+            "notes": "Opaque original config as JSON text. Preserves unknown fields and numbers through .uid storage."
+          },
+          {
+            "name": "title",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "name",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "entity",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "icon",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "content",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "unit",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "min",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "max",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "show_name",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "show_state",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "grid_columns",
+            "jsonType": [
+              "integer",
+              "string"
+            ],
+            "required": false,
+            "allowedValues": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              "full"
+            ]
+          },
+          {
+            "name": "grid_rows",
+            "jsonType": "integer",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": 1,
+              "maximum": 256,
+              "step": 1
+            }
+          }
+        ],
+        "modifierCapabilities": []
+      },
+      "lovelace/card/conditional": {
+        "role": "decoration",
+        "shelfRole": "Leaf",
+        "traits": [
+          "LovelaceCard"
+        ],
+        "displayName": "Conditional",
+        "group": "Cards",
+        "canvas": "lovelace/card",
+        "slots": {},
+        "properties": [
+          {
+            "name": "rawConfig",
+            "jsonType": "string",
+            "required": false,
+            "notes": "Opaque original config as JSON text. Preserves unknown fields and numbers through .uid storage."
+          },
+          {
+            "name": "title",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "name",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "entity",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "icon",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "content",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "unit",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "min",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "max",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "show_name",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "show_state",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "grid_columns",
+            "jsonType": [
+              "integer",
+              "string"
+            ],
+            "required": false,
+            "allowedValues": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              "full"
+            ]
+          },
+          {
+            "name": "grid_rows",
+            "jsonType": "integer",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": 1,
+              "maximum": 256,
+              "step": 1
+            }
+          }
+        ],
+        "modifierCapabilities": []
+      },
+      "lovelace/card/custom": {
+        "role": "decoration",
+        "shelfRole": "Leaf",
+        "traits": [
+          "LovelaceCard"
+        ],
+        "displayName": "Custom",
+        "group": "Cards",
+        "canvas": "lovelace/card",
+        "slots": {},
+        "properties": [
+          {
+            "name": "rawConfig",
+            "jsonType": "string",
+            "required": false,
+            "notes": "Opaque original config as JSON text. Preserves unknown fields and numbers through .uid storage."
+          },
+          {
+            "name": "title",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "name",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "entity",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "icon",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "content",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "unit",
+            "jsonType": "string",
+            "required": false
+          },
+          {
+            "name": "min",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "max",
+            "jsonType": "number",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": -1000000000,
+              "maximum": 1000000000,
+              "step": 1
+            }
+          },
+          {
+            "name": "show_name",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "show_state",
+            "jsonType": "boolean",
+            "required": false
+          },
+          {
+            "name": "grid_columns",
+            "jsonType": [
+              "integer",
+              "string"
+            ],
+            "required": false,
+            "allowedValues": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              "full"
+            ]
+          },
+          {
+            "name": "grid_rows",
+            "jsonType": "integer",
+            "required": false,
+            "editor": {
+              "control": "number",
+              "minimum": 1,
+              "maximum": 256,
+              "step": 1
+            }
+          }
+        ],
+        "modifierCapabilities": []
+      }
+    },
+    "components": {},
+    "templates": [
+      "ui-builder/designs/dashboard.json"
+    ]
+  }
+}

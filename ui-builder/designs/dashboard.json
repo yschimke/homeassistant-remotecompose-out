@@ -1,0 +1,66 @@
+{
+  "schema": "compose-ui-builder-document/v1-candidate",
+  "id": "dashboard",
+  "template": "dashboard",
+  "title": "Home Assistant dashboard",
+  "revision": 0,
+  "catalogPin": {
+    "systemId": "lovelace",
+    "catalogRevision": "candidate",
+    "capabilityDigest": "candidate",
+    "nativeRuntimeId": "candidate"
+  },
+  "environment": {
+    "widthDp": 1200,
+    "heightDp": 900,
+    "density": 1,
+    "theme": "light",
+    "locale": "en-US",
+    "fontScale": 1,
+    "layoutDirection": "ltr"
+  },
+  "stateVariables": {},
+  "roots": [
+    "dashboard"
+  ],
+  "nodes": {
+    "dashboard": {
+      "id": "dashboard",
+      "componentId": "lovelace/dashboard",
+      "properties": {
+        "title": {
+          "type": "string",
+          "value": "Home"
+        }
+      },
+      "slots": {
+        "views": [
+          "home"
+        ]
+      }
+    },
+    "home": {
+      "id": "home",
+      "componentId": "lovelace/view",
+      "properties": {
+        "title": {
+          "type": "string",
+          "value": "Home"
+        }
+      },
+      "slots": {
+        "sections": [
+          "section"
+        ]
+      }
+    },
+    "section": {
+      "id": "section",
+      "componentId": "lovelace/section",
+      "properties": {},
+      "slots": {
+        "cards": []
+      }
+    }
+  }
+}
