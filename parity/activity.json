@@ -1,11 +1,83 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-17T13:16:00.691Z",
+  "generatedAt": "2026-10-17T14:07:54.958Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "42dbdee650d15365f40282512f405856ef5e5a36",
+        "subject": "fix(grid): a short last row stretches; picture grids keep HA's columns (#875)",
+        "at": "2026-10-17T14:16:58+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "c69744113679bf4e22b393890166e7b5cb19bc73",
+        "subject": "feat: add public WASM demo and Home Assistant frontend integration (#880)",
+        "at": "2026-10-17T14:14:55+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "d0ef1fcc10ca5de2d44bdd3446c49298e39ba81a",
+        "subject": "fix(sections): leave hidden conditionals out of section rows (#882)",
+        "at": "2026-10-17T13:56:38+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "9df9d9837720370ea2572ec12223957eacbd402e",
+        "subject": "feat(ha): add authenticated WASM dashboard and Remote Compose cards (#879)",
+        "at": "2026-10-17T13:31:41+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "f68c5814d363fccbdd2faf8b69d3cd6a34372b0c",
+        "subject": "feat(demo): add isolated read-only Home Assistant backend (#878)",
+        "at": "2026-10-17T13:23:49+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "cd6731a2fdf2ca3c6e5f32d3729e27fa2ae65b6e",
+        "subject": "feat(lovelace): publish dashboard catalog before host rollout (#877)",
+        "at": "2026-10-17T13:19:41+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "2557c616f7443bf7069d381374853edcce420a81",
+        "subject": "fix(designs): explain unsupported theme mode filters (#876)",
+        "at": "2026-10-17T13:16:28+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "13f2323388c0a7b78536d884975ef204d7884408",
+        "subject": "fix(grid): hidden conditionals take no cell; a shown one sizes as its card (#874)",
+        "at": "2026-10-17T13:13:55+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "21fe33b45b4eae959ddb2bdb5d825fddee7ede9b",
+        "subject": "fix(previews): dashboard images are drawn before the capture, every run (#873)",
+        "at": "2026-10-17T13:12:39+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "867a2f102821ed3fed03c26aa9e3eafa40c41a70",
         "subject": "fix(deps): update dependency org.jetbrains:markdown to v0.7.18 (#825)",
@@ -411,78 +483,6 @@
         "subject": "fix(deps): update compose-ai-tools (#811)",
         "at": "2026-10-15T01:21:55Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "7490ef121368a727e32f46da13bcaa12918616a0",
-        "subject": "fix: restore platform widget rendering and Card Studio previews (#818)",
-        "at": "2026-10-15T01:34:06+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ce37e4a42daed4cbd0ac0b6261c1cf7bbc9de357",
-        "subject": "feat(design-server): tag designs by card type, style, variant and author (#819)",
-        "at": "2026-10-15T01:34:02+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "2fd97ab206ced58fe0a28e4a10d3601b1aad59c1",
-        "subject": "chore(main): release 0.1.39 (#719)",
-        "at": "2026-10-14T23:09:10+01:00",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "96c11885bb8ff98493ad8e4adc2f213e0f4c86fe",
-        "subject": "feat(design-server): publish the image to GHCR from main (#815)",
-        "at": "2026-10-14T22:47:54+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "527b4191a59c8a2ebfe291cdc2fa57f2f0577e5e",
-        "subject": "test(app): scroll to the widget button in the long-press history test (#817)",
-        "at": "2026-10-14T22:47:21+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "3102ab090420c7c95af3667881139a81bb00e929",
-        "subject": "feat: real cards in the TV kiosk, and legible accents under card styles (#816)",
-        "at": "2026-10-14T22:41:54+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "80be1553dc8d47fd721065506b2ca1aa75cf1e52",
-        "subject": "fix: polish widget sizing and Card Studio feedback (#812)",
-        "at": "2026-10-14T21:40:43+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "185a97a9d0121759a5d13ae830d907b30425d01a",
-        "subject": "feat: card styles theme the control dials, graphs, controls, Wear and TV (#813)",
-        "at": "2026-10-14T21:25:59+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "e08513899cb94ed6997790cf7d07487b4636a644",
-        "subject": "feat(app): long-press a dashboard card to fork it into the card designer (#810)",
-        "at": "2026-10-14T21:12:09+01:00",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
