@@ -2155,12 +2155,98 @@
     "androidx.wear.compose.remote:remote-material3",
     "ee.schimke.ha:rc-components (RemoteHa* cards)"
   ],
-  "renderer": "compose-preview 2.60.0",
-  "generatedAt": "2026-10-17T16:50:39.949Z",
+  "renderer": "compose-preview 2.66.0",
+  "generatedAt": "2026-10-17T17:59:34.113Z",
   "display": {
     "surface": "light",
     "hero": "HaCard/Tile"
   },
+  "themes": [
+    {
+      "id": "ee.schimke.ha.cards.HaDarkThemeCatalog",
+      "tokensFile": "themes/ee.schimke.ha.cards.hadarkthemecatalog.dtcg.json",
+      "name": "Home Assistant Dark",
+      "group": "Home Assistant",
+      "dark": true
+    },
+    {
+      "id": "ee.schimke.ha.cards.HaLightThemeCatalog",
+      "tokensFile": "themes/ee.schimke.ha.cards.halightthemecatalog.dtcg.json",
+      "name": "Home Assistant Light",
+      "group": "Home Assistant",
+      "dark": false
+    },
+    {
+      "id": "ee.schimke.ha.cards.TerrazzoHomeDarkThemeCatalog",
+      "tokensFile": "themes/ee.schimke.ha.cards.terrazzohomedarkthemecatalog.dtcg.json",
+      "name": "Home Dark",
+      "group": "Terrazzo",
+      "dark": true
+    },
+    {
+      "id": "ee.schimke.ha.cards.TerrazzoHomeLightThemeCatalog",
+      "tokensFile": "themes/ee.schimke.ha.cards.terrazzohomelightthemecatalog.dtcg.json",
+      "name": "Home Light",
+      "group": "Terrazzo",
+      "dark": false
+    },
+    {
+      "id": "ee.schimke.ha.cards.TerrazzoKioskDarkThemeCatalog",
+      "tokensFile": "themes/ee.schimke.ha.cards.terrazzokioskdarkthemecatalog.dtcg.json",
+      "name": "Kiosk Dark",
+      "group": "Terrazzo",
+      "dark": true
+    },
+    {
+      "id": "ee.schimke.ha.cards.TerrazzoKioskLightThemeCatalog",
+      "tokensFile": "themes/ee.schimke.ha.cards.terrazzokiosklightthemecatalog.dtcg.json",
+      "name": "Kiosk Light",
+      "group": "Terrazzo",
+      "dark": false
+    },
+    {
+      "id": "ee.schimke.ha.cards.Material3DarkThemeCatalog",
+      "tokensFile": "themes/ee.schimke.ha.cards.material3darkthemecatalog.dtcg.json",
+      "name": "Material 3 Dark",
+      "group": "Terrazzo",
+      "dark": true
+    },
+    {
+      "id": "ee.schimke.ha.cards.Material3LightThemeCatalog",
+      "tokensFile": "themes/ee.schimke.ha.cards.material3lightthemecatalog.dtcg.json",
+      "name": "Material 3 Light",
+      "group": "Terrazzo",
+      "dark": false
+    },
+    {
+      "id": "ee.schimke.ha.cards.TerrazzoMinimalistDarkThemeCatalog",
+      "tokensFile": "themes/ee.schimke.ha.cards.terrazzominimalistdarkthemecatalog.dtcg.json",
+      "name": "Minimalist Dark",
+      "group": "Terrazzo",
+      "dark": true
+    },
+    {
+      "id": "ee.schimke.ha.cards.TerrazzoMinimalistLightThemeCatalog",
+      "tokensFile": "themes/ee.schimke.ha.cards.terrazzominimalistlightthemecatalog.dtcg.json",
+      "name": "Minimalist Light",
+      "group": "Terrazzo",
+      "dark": false
+    },
+    {
+      "id": "ee.schimke.ha.cards.TerrazzoMushroomDarkThemeCatalog",
+      "tokensFile": "themes/ee.schimke.ha.cards.terrazzomushroomdarkthemecatalog.dtcg.json",
+      "name": "Mushroom Dark",
+      "group": "Terrazzo",
+      "dark": true
+    },
+    {
+      "id": "ee.schimke.ha.cards.TerrazzoMushroomLightThemeCatalog",
+      "tokensFile": "themes/ee.schimke.ha.cards.terrazzomushroomlightthemecatalog.dtcg.json",
+      "name": "Mushroom Light",
+      "group": "Terrazzo",
+      "dark": false
+    }
+  ],
   "liveBundle": {
     "path": "bundle/",
     "file": "bundle.png"
@@ -2177,7 +2263,7 @@
   "uiBuilderFile": "ui-builder.json",
   "source": {
     "repo": "yschimke/homeassistant-remotecompose",
-    "ref": "35374ea015387a07ae5bf4a717a86be2c994a5ab",
+    "ref": "6026b677615980f41653291b654943ea6ed57cac",
     "module": ":ha-cards-catalog"
   }
 }

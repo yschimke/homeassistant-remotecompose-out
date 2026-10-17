@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-17T16:50:42.006Z",
+  "generatedAt": "2026-10-17T17:59:36.874Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "6026b677615980f41653291b654943ea6ed57cac",
+        "subject": "fix(deps): update compose-ai-tools (#826)",
+        "at": "2026-10-17T18:52:27+01:00",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "35374ea015387a07ae5bf4a717a86be2c994a5ab",
         "subject": "fix(cards): give every tappable card part a 48dp touch target (#890)",
@@ -475,14 +483,6 @@
         "subject": "feat: card style overrides, agent-edited dashboards, and published user designs (#829)",
         "at": "2026-10-16T00:43:25+01:00",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "54360e86cba77998cb66d8f917597a5da0519a6d",
-        "subject": "chore(deps): update github-actions (#814)",
-        "at": "2026-10-15T23:10:05Z",
-        "author": "renovate[bot]",
         "previewIds": [],
         "components": []
       }
