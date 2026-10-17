@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-17T13:33:09.522Z",
+  "generatedAt": "2026-10-17T14:15:40.381Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "399fcb4dfddfa565aed36f283132be6250634db1",
+        "subject": "feat(lovelace): host dashboard editing, previews and reusable templates (#834)",
+        "at": "2026-10-17T15:08:51+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "31e5d0793204a39835c03a190fa8665402fe0796",
+        "subject": "fix(demo): verify HA facade through its isolated edge network (#886)",
+        "at": "2026-10-17T14:41:58+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "b1e869324acc2ee00cc9483af3c2da03608d6487",
+        "subject": "fix(ha): validate live card bindings and fill panel height (#887)",
+        "at": "2026-10-17T14:41:55+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "42dbdee650d15365f40282512f405856ef5e5a36",
         "subject": "fix(grid): a short last row stretches; picture grids keep HA's columns (#875)",
@@ -459,30 +483,6 @@
         "subject": "feat(ha-cards): capture stickers in named WearM3 colours and declare the app's themes (#821)",
         "at": "2026-10-15T08:33:36+01:00",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "639dcd873f3578c9c4e220b7cb9e454bd16ed3eb",
-        "subject": "feat(app): fetch card designs by style, variant and author, on by default (#822)",
-        "at": "2026-10-15T08:18:19+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "7d8e35966559f76c52a0f8eb009446c81c20b630",
-        "subject": "chore(main): release 0.1.40 (#820)",
-        "at": "2026-10-15T06:56:22+01:00",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "cfbad962d2d6919134519b8696ee2df89c735a11",
-        "subject": "fix(deps): update compose-ai-tools (#811)",
-        "at": "2026-10-15T01:21:55Z",
-        "author": "renovate[bot]",
         "previewIds": [],
         "components": []
       }
