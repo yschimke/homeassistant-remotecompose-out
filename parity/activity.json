@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-17T19:33:37.169Z",
+  "generatedAt": "2026-10-17T20:20:53.931Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "53e31ae45dd9143eb59db6ce118b9b0ebe30d7e6",
+        "subject": "fix(previews): label the launcher-widget player with its card's name (#893)",
+        "at": "2026-10-17T21:14:23+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "5d64f1f50ce37f58cc2c929e7e70312caa6b47d2",
         "subject": "fix(wear): sync card styles and improve widget quality (#836)",
@@ -474,14 +482,6 @@
         "sha": "007c52d58d970c50761a2e37061ed7f5d94e05f6",
         "subject": "feat: resolve any card to its library design; launcher widgets take the card style (#832)",
         "at": "2026-10-16T10:19:04+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "d73fcda1a0c297d28af9daa6710edab937a1653e",
-        "subject": "feat(design-server): editable .uid source for every library design (#831)",
-        "at": "2026-10-16T07:53:50+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
