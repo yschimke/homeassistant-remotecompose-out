@@ -5,9 +5,9 @@
       "cleanBasename": "Play_Phone_01_HomeLight_play_phone_home_light-27629862.png",
       "findings": [
         {
-          "boundsInScreen": "40,423,782,831",
+          "boundsInScreen": "40,423,782,643",
           "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"dashboard-card:grid\" is identical to that of 2 other item(s).",
+          "message": "This non-clickable item's speakable text: \"dashboard-card:grid, 742\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         }
@@ -24,9 +24,9 @@
       "cleanBasename": "Play_Phone_02_HomeDark_play_phone_home_dark-87829c7b.png",
       "findings": [
         {
-          "boundsInScreen": "40,423,782,831",
+          "boundsInScreen": "40,423,782,643",
           "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"dashboard-card:grid\" is identical to that of 2 other item(s).",
+          "message": "This non-clickable item's speakable text: \"dashboard-card:grid, 742\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         }
@@ -43,9 +43,9 @@
       "cleanBasename": "Play_Tablet10_01_Home_play_10_inch_home-7ca1827e.png",
       "findings": [
         {
-          "boundsInScreen": "151,332,969,740",
+          "boundsInScreen": "151,332,969,552",
           "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"dashboard-card:grid\" is identical to that of 2 other item(s).",
+          "message": "This non-clickable item's speakable text: \"dashboard-card:grid, 818\" is identical to that of 2 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         }
@@ -62,9 +62,9 @@
       "cleanBasename": "Play_Tablet7_01_Home_play_7_inch_home-eb94cb4a.png",
       "findings": [
         {
-          "boundsInScreen": "87,387,813,931",
+          "boundsInScreen": "87,387,813,680",
           "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"dashboard-card:grid\" is identical to that of 1 other item(s).",
+          "message": "This non-clickable item's speakable text: \"dashboard-card:grid, 726\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         }
@@ -81,9 +81,9 @@
       "cleanBasename": "Screen_DashboardView_dashboard_view-c60327e8.png",
       "findings": [
         {
-          "boundsInScreen": "53,559,1028,1103",
+          "boundsInScreen": "53,559,1028,852",
           "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"dashboard-card:grid\" is identical to that of 2 other item(s).",
+          "message": "This non-clickable item's speakable text: \"dashboard-card:grid, 975\" is identical to that of 2 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         }
@@ -98,7 +98,15 @@
     {
       "annotatedBasename": "Screen_DashboardView_PhoneLandscapeMedium_dashboard_view_phone_landscape_medium-8837149f.a11y.png",
       "cleanBasename": "Screen_DashboardView_PhoneLandscapeMedium_dashboard_view_phone_landscape_medium-8837149f.png",
-      "findings": [],
+      "findings": [
+        {
+          "boundsInScreen": "325,559,1596,852",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"dashboard-card:grid, 1271\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
       "functionName": "Screen_DashboardView_PhoneLandscapeMedium",
       "module": "app",
       "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardView_PhoneLandscapeMedium_dashboard view \u00b7 phone landscape medium",
@@ -111,9 +119,9 @@
       "cleanBasename": "",
       "findings": [
         {
-          "boundsInScreen": "53,559,1028,1103",
+          "boundsInScreen": "53,559,1028,852",
           "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"dashboard-card:grid\" is identical to that of 2 other item(s).",
+          "message": "This non-clickable item's speakable text: \"dashboard-card:grid, 975\" is identical to that of 2 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         }
@@ -194,53 +202,114 @@
       "variant": ""
     },
     {
+      "annotatedBasename": "CardPreviewMatrix_PictureEntity_matrix_picture_entity-7c87f231.a11y.png",
+      "cleanBasename": "CardPreviewMatrix_PictureEntity_matrix_picture_entity-7c87f231.png",
+      "findings": [
+        {
+          "boundsInScreen": "21,673,399,894",
+          "level": "ERROR",
+          "message": "This item may not have a label readable by screen readers.",
+          "type": "SpeakableTextPresentCheck",
+          "viewDescription": "androidx.compose.remote.player.view.RemoteComposePlayer"
+        },
+        {
+          "boundsInScreen": "420,673,987,1114",
+          "level": "ERROR",
+          "message": "This item may not have a label readable by screen readers.",
+          "type": "SpeakableTextPresentCheck",
+          "viewDescription": "androidx.compose.remote.player.view.RemoteComposePlayer"
+        },
+        {
+          "boundsInScreen": "1008,673,1764,1335",
+          "level": "ERROR",
+          "message": "This item may not have a label readable by screen readers.",
+          "type": "SpeakableTextPresentCheck",
+          "viewDescription": "androidx.compose.remote.player.view.RemoteComposePlayer"
+        },
+        {
+          "boundsInScreen": "909,321,1309,441",
+          "level": "ERROR",
+          "message": "This item's height is 46dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "909,321,1309,441",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Streaming\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "1028,230,1191,263",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"Terrazzo slot\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        }
+      ],
+      "functionName": "CardPreviewMatrix_PictureEntity",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_PictureEntity_matrix \u2014 picture-entity",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CardPreviewMatrix.kt",
+      "variant": ""
+    },
+    {
       "annotatedBasename": "Dashboard3dPrintingMobile_dashboard_3d_printing_mobile-2701c9cf.a11y.png",
       "cleanBasename": "Dashboard3dPrintingMobile_dashboard_3d_printing_mobile-2701c9cf.png",
       "findings": [
         {
-          "boundsInScreen": "53,1056,1026,1182",
+          "boundsInScreen": "53,1219,497,1345",
           "level": "WARNING",
           "message": "This clickable item's speakable text: \"Online, Online, Running\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "53,1192,1026,1318",
+          "boundsInScreen": "581,1219,1026,1345",
           "level": "WARNING",
           "message": "This clickable item's speakable text: \"Status, Status, Idle\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "21,4495,1057,4725",
+          "boundsInScreen": "21,1214,89,1251",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"1036\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "21,3859,1057,4725",
           "level": "INFO",
           "message": "This non-clickable item's speakable text: \"Idle\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "53,1464,1026,1590",
+          "boundsInScreen": "581,1376,1026,1502",
           "level": "WARNING",
           "message": "This clickable item's speakable text: \"Progress, Progress, 0 %\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "53,1328,1026,1454",
+          "boundsInScreen": "53,1376,497,1502",
           "level": "WARNING",
           "message": "This clickable item's speakable text: \"Stage, Stage, Idle\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "209,4311,270,4358",
+          "boundsInScreen": "209,3675,270,3722",
           "level": "INFO",
           "message": "This non-clickable item's speakable text: \"idle\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
         },
         {
-          "boundsInScreen": "53,1872,1026,1998",
+          "boundsInScreen": "53,1690,497,1816",
           "level": "WARNING",
           "message": "This clickable item's speakable text: \"Remaining, Remaining, 0 s\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
@@ -254,7 +323,7 @@
           "viewDescription": "android.widget.TextView"
         },
         {
-          "boundsInScreen": "281,4311,291,4358",
+          "boundsInScreen": "281,3675,291,3722",
           "level": "INFO",
           "message": "This non-clickable item's speakable text: \"\u00b7\" is identical to that of 2 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
@@ -273,51 +342,58 @@
       "cleanBasename": "Dashboard3dPrintingTablet_dashboard_3d_printing_tablet-d15705fe.png",
       "findings": [
         {
-          "boundsInScreen": "295,1056,1807,1182",
+          "boundsInScreen": "1093,615,1408,741",
           "level": "WARNING",
           "message": "This clickable item's speakable text: \"Online, Online, Running\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "295,1192,1807,1318",
+          "boundsInScreen": "1492,615,1807,741",
           "level": "WARNING",
           "message": "This clickable item's speakable text: \"Status, Status, Idle\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "263,4448,1838,4725",
+          "boundsInScreen": "263,2604,1838,4725",
           "level": "INFO",
           "message": "This non-clickable item's speakable text: \"Idle\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "295,1464,1807,1590",
+          "boundsInScreen": "1061,610,1112,647",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"777\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "1492,772,1807,898",
           "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Progress, Progress, 0 %\" is identical to that of 1 other item(s).",
+          "message": "This clickable item's speakable text: \"Progress, Progress, 0 %\" is identical to that of 2 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "295,1328,1807,1454",
+          "boundsInScreen": "1093,772,1408,898",
           "level": "WARNING",
           "message": "This clickable item's speakable text: \"Stage, Stage, Idle\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "451,4311,512,4358",
+          "boundsInScreen": "451,2467,512,2514",
           "level": "INFO",
           "message": "This non-clickable item's speakable text: \"idle\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
         },
         {
-          "boundsInScreen": "295,1872,1807,1998",
+          "boundsInScreen": "1093,1086,1408,1212",
           "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Remaining, Remaining, 0 s\" is identical to that of 1 other item(s).",
+          "message": "This clickable item's speakable text: \"Remaining, Remaining, 0 s\" is identical to that of 2 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         },
@@ -329,9 +405,16 @@
           "viewDescription": "android.widget.TextView"
         },
         {
-          "boundsInScreen": "523,4311,533,4358",
+          "boundsInScreen": "523,2467,533,2514",
           "level": "INFO",
           "message": "This non-clickable item's speakable text: \"\u00b7\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "448,2771,618,2818",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"P2S Kodu\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
         }
@@ -346,7 +429,36 @@
     {
       "annotatedBasename": "DashboardClimateMobile_dashboard_climate_mobile-bdcd432b.a11y.png",
       "cleanBasename": "DashboardClimateMobile_dashboard_climate_mobile-bdcd432b.png",
-      "findings": [],
+      "findings": [
+        {
+          "boundsInScreen": "58,3595,536,3642",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"No history in the last 2 days\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "58,3658,657,3695",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"Outside \u00b7 Upstairs \u00b7 Downstairs \u00b7 Kitchen\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "21,777,89,814",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"1036\" is identical to that of 3 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "120,674,224,704",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"Humidity\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        }
+      ],
       "functionName": "DashboardClimateMobile",
       "module": "previews",
       "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardClimateMobile_dashboard climate \u2014 mobile",
@@ -357,7 +469,36 @@
     {
       "annotatedBasename": "DashboardClimateTablet_dashboard_climate_tablet-456c7098.a11y.png",
       "cleanBasename": "DashboardClimateTablet_dashboard_climate_tablet-456c7098.png",
-      "findings": [],
+      "findings": [
+        {
+          "boundsInScreen": "300,2894,778,2941",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"No history in the last 2 days\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "300,2957,899,2994",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"Outside \u00b7 Upstairs \u00b7 Downstairs \u00b7 Kitchen\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "330,674,434,704",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"Humidity\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "1061,395,1112,432",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"777\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        }
+      ],
       "functionName": "DashboardClimateTablet",
       "module": "previews",
       "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardClimateTablet_dashboard climate \u2014 tablet",
@@ -369,6 +510,13 @@
       "annotatedBasename": "DashboardEnergyMobile_dashboard_energy_mobile-47191266.a11y.png",
       "cleanBasename": "DashboardEnergyMobile_dashboard_energy_mobile-47191266.png",
       "findings": [
+        {
+          "boundsInScreen": "74,3718,100,3765",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"\u2026\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
         {
           "boundsInScreen": "645,342,722,389",
           "level": "INFO",
@@ -389,6 +537,13 @@
           "message": "This non-clickable item's speakable text: \"p/kWh\" is identical to that of 2 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "21,704,89,741",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"1036\" is identical to that of 5 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
         }
       ],
       "functionName": "DashboardEnergyMobile",
@@ -402,6 +557,27 @@
       "annotatedBasename": "DashboardEnergyTablet_dashboard_energy_tablet-e2041a44.a11y.png",
       "cleanBasename": "DashboardEnergyTablet_dashboard_energy_tablet-e2041a44.png",
       "findings": [
+        {
+          "boundsInScreen": "295,662,610,788",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Solar production, Solar production, 0 W\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "263,657,331,694",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"1575\" is identical to that of 4 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "316,2487,342,2534",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"\u2026\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
         {
           "boundsInScreen": "887,342,964,389",
           "level": "INFO",
@@ -422,6 +598,13 @@
           "message": "This non-clickable item's speakable text: \"p/kWh\" is identical to that of 2 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "1492,662,1807,788",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Cloud cover, Cloud cover, 100 %\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
         }
       ],
       "functionName": "DashboardEnergyTablet",
@@ -464,77 +647,112 @@
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "53,2750,305,2797",
+          "boundsInScreen": "53,2384,305,2431",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "316,2750,568,2797",
+          "boundsInScreen": "316,2384,568,2431",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "579,2750,831,2797",
+          "boundsInScreen": "579,2384,831,2431",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "53,2797,305,2923",
+          "boundsInScreen": "53,2431,305,2557",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "316,2797,568,2923",
+          "boundsInScreen": "316,2431,568,2557",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "579,2797,831,2923",
+          "boundsInScreen": "579,2431,831,2557",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "53,4253,305,4300",
+          "boundsInScreen": "53,3521,305,3568",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "316,4253,568,4300",
+          "boundsInScreen": "316,3521,568,3568",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "579,4253,831,4379",
+          "boundsInScreen": "579,3521,831,3647",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "53,4300,305,4426",
+          "boundsInScreen": "53,3568,305,3694",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "316,4300,568,4426",
+          "boundsInScreen": "316,3568,568,3694",
+          "level": "ERROR",
+          "message": "This item may not have a label readable by screen readers.",
+          "type": "SpeakableTextPresentCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "53,4658,305,4705",
+          "level": "ERROR",
+          "message": "This item may not have a label readable by screen readers.",
+          "type": "SpeakableTextPresentCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "316,4658,568,4705",
+          "level": "ERROR",
+          "message": "This item may not have a label readable by screen readers.",
+          "type": "SpeakableTextPresentCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "579,4658,831,4725",
+          "level": "ERROR",
+          "message": "This item may not have a label readable by screen readers.",
+          "type": "SpeakableTextPresentCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "53,4705,305,4725",
+          "level": "ERROR",
+          "message": "This item may not have a label readable by screen readers.",
+          "type": "SpeakableTextPresentCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "316,4705,568,4725",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
@@ -548,35 +766,49 @@
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "53,2750,305,2797",
+          "boundsInScreen": "53,2384,305,2431",
           "level": "ERROR",
           "message": "This item's height is 18dp. Consider making the height of this touch target 48dp or larger.",
           "type": "TouchTargetSizeCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "316,2750,568,2797",
+          "boundsInScreen": "316,2384,568,2431",
           "level": "ERROR",
           "message": "This item's height is 18dp. Consider making the height of this touch target 48dp or larger.",
           "type": "TouchTargetSizeCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "579,2750,831,2797",
+          "boundsInScreen": "579,2384,831,2431",
           "level": "ERROR",
           "message": "This item's height is 18dp. Consider making the height of this touch target 48dp or larger.",
           "type": "TouchTargetSizeCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "53,4253,305,4300",
+          "boundsInScreen": "53,3521,305,3568",
           "level": "ERROR",
           "message": "This item's height is 18dp. Consider making the height of this touch target 48dp or larger.",
           "type": "TouchTargetSizeCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "316,4253,568,4300",
+          "boundsInScreen": "316,3521,568,3568",
+          "level": "ERROR",
+          "message": "This item's height is 18dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "53,4658,305,4705",
+          "level": "ERROR",
+          "message": "This item's height is 18dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "316,4658,568,4705",
           "level": "ERROR",
           "message": "This item's height is 18dp. Consider making the height of this touch target 48dp or larger.",
           "type": "TouchTargetSizeCheck",
@@ -585,7 +817,7 @@
         {
           "boundsInScreen": "655,1153,924,1279",
           "level": "WARNING",
-          "message": "This clickable item's speakable text: \"View on GitHub\" is identical to that of 2 other item(s).",
+          "message": "This clickable item's speakable text: \"View on GitHub\" is identical to that of 3 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.Button"
         },
@@ -613,7 +845,7 @@
         {
           "boundsInScreen": "634,1192,644,1200",
           "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"\u00b7\" is identical to that of 2 other item(s).",
+          "message": "This non-clickable item's speakable text: \"\u00b7\" is identical to that of 3 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
         },
@@ -625,9 +857,16 @@
           "viewDescription": "android.widget.TextView"
         },
         {
-          "boundsInScreen": "53,1836,446,1883",
+          "boundsInScreen": "53,1721,446,1768",
           "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"no recent commit data\" is identical to that of 1 other item(s).",
+          "message": "This non-clickable item's speakable text: \"no recent commit data\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "21,1381,89,1418",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"1036\" is identical to that of 5 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
         },
@@ -665,123 +904,242 @@
       "cleanBasename": "DashboardGithubTablet_dashboard_github_tablet-89194c99.png",
       "findings": [
         {
-          "boundsInScreen": "295,1153,547,1279",
+          "boundsInScreen": "295,1200,547,1247",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "558,1153,810,1279",
+          "boundsInScreen": "558,1200,810,1247",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "821,1153,1073,1279",
+          "boundsInScreen": "295,1247,547,1373",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "1084,1153,1336,1279",
+          "boundsInScreen": "558,1247,810,1373",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "295,2609,547,2656",
+          "boundsInScreen": "295,2001,547,2048",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "558,2609,810,2735",
+          "boundsInScreen": "558,2001,810,2048",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "821,2609,1073,2735",
+          "boundsInScreen": "295,2048,547,2095",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "1084,2609,1336,2735",
+          "boundsInScreen": "558,2048,810,2095",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "1347,2609,1599,2735",
+          "boundsInScreen": "295,2095,547,2221",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "295,2656,547,2782",
+          "boundsInScreen": "558,2095,810,2221",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "295,4112,547,4238",
+          "boundsInScreen": "295,2802,547,2849",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "558,4112,810,4238",
+          "boundsInScreen": "558,2802,810,2849",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "821,4112,1073,4238",
+          "boundsInScreen": "295,2849,547,2896",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "1084,4112,1336,4238",
+          "boundsInScreen": "558,2849,810,2975",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "1347,4112,1599,4238",
+          "boundsInScreen": "295,2896,547,3022",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "295,2609,547,2656",
+          "boundsInScreen": "295,3603,547,3650",
+          "level": "ERROR",
+          "message": "This item may not have a label readable by screen readers.",
+          "type": "SpeakableTextPresentCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "558,3603,810,3650",
+          "level": "ERROR",
+          "message": "This item may not have a label readable by screen readers.",
+          "type": "SpeakableTextPresentCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "295,3650,547,3697",
+          "level": "ERROR",
+          "message": "This item may not have a label readable by screen readers.",
+          "type": "SpeakableTextPresentCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "558,3650,810,3776",
+          "level": "ERROR",
+          "message": "This item may not have a label readable by screen readers.",
+          "type": "SpeakableTextPresentCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "295,3697,547,3823",
+          "level": "ERROR",
+          "message": "This item may not have a label readable by screen readers.",
+          "type": "SpeakableTextPresentCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "295,1200,547,1247",
           "level": "ERROR",
           "message": "This item's height is 18dp. Consider making the height of this touch target 48dp or larger.",
           "type": "TouchTargetSizeCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "897,1106,1166,1232",
+          "boundsInScreen": "558,1200,810,1247",
+          "level": "ERROR",
+          "message": "This item's height is 18dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "295,2001,547,2048",
+          "level": "ERROR",
+          "message": "This item's height is 18dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "558,2001,810,2048",
+          "level": "ERROR",
+          "message": "This item's height is 18dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "295,2048,547,2095",
+          "level": "ERROR",
+          "message": "This item's height is 18dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "558,2048,810,2095",
+          "level": "ERROR",
+          "message": "This item's height is 18dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "295,2802,547,2849",
+          "level": "ERROR",
+          "message": "This item's height is 18dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "558,2802,810,2849",
+          "level": "ERROR",
+          "message": "This item's height is 18dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "295,2849,547,2896",
+          "level": "ERROR",
+          "message": "This item's height is 18dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "295,3603,547,3650",
+          "level": "ERROR",
+          "message": "This item's height is 18dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "558,3603,810,3650",
+          "level": "ERROR",
+          "message": "This item's height is 18dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "295,3650,547,3697",
+          "level": "ERROR",
+          "message": "This item's height is 18dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "295,1153,564,1279",
           "level": "WARNING",
-          "message": "This clickable item's speakable text: \"View on GitHub\" is identical to that of 2 other item(s).",
+          "message": "This clickable item's speakable text: \"View on GitHub\" is identical to that of 3 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.Button"
+        },
+        {
+          "boundsInScreen": "1093,1281,1408,1407",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Open PRs, Open PRs, 0\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
         },
         {
           "boundsInScreen": "567,389,650,436",
@@ -789,6 +1147,20 @@
           "message": "This non-clickable item's speakable text: \"from\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "1093,1438,1408,1564",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Latest PR, Latest PR, Unavailable\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "1093,3197,1408,3323",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Latest release, Latest release, v0.1.2\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
         },
         {
           "boundsInScreen": "459,389,556,436",
@@ -805,11 +1177,18 @@
           "viewDescription": "android.widget.TextView"
         },
         {
-          "boundsInScreen": "876,1145,886,1153",
+          "boundsInScreen": "876,1145,886,1192",
           "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"\u00b7\" is identical to that of 2 other item(s).",
+          "message": "This non-clickable item's speakable text: \"\u00b7\" is identical to that of 3 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "1492,3197,1807,3323",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Latest tag, Latest tag, v0.1.2\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
         },
         {
           "boundsInScreen": "792,389,913,436",
@@ -819,9 +1198,23 @@
           "viewDescription": "android.widget.TextView"
         },
         {
-          "boundsInScreen": "295,1742,688,1789",
+          "boundsInScreen": "295,1459,688,1506",
           "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"no recent commit data\" is identical to that of 2 other item(s).",
+          "message": "This non-clickable item's speakable text: \"no recent commit data\" is identical to that of 3 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "1492,1124,1807,1250",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Open issues, Open issues, 2\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "1061,1119,1112,1156",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"777\" is identical to that of 7 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
         },
@@ -829,6 +1222,13 @@
           "boundsInScreen": "661,389,716,436",
           "level": "INFO",
           "message": "This non-clickable item's speakable text: \"the\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "1225,389,1353,436",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"badges\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
         },
@@ -859,28 +1259,28 @@
       "cleanBasename": "DashboardMeshcoreMobile_dashboard_meshcore_mobile-30d7121c.png",
       "findings": [
         {
-          "boundsInScreen": "53,4190,1026,4275",
+          "boundsInScreen": "53,3343,1026,3428",
           "level": "ERROR",
           "message": "This item's height is 32dp. Consider making the height of this touch target 48dp or larger.",
           "type": "TouchTargetSizeCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "53,4275,1026,4360",
+          "boundsInScreen": "53,3428,1026,3513",
           "level": "ERROR",
           "message": "This item's height is 32dp. Consider making the height of this touch target 48dp or larger.",
           "type": "TouchTargetSizeCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "53,4360,1026,4445",
+          "boundsInScreen": "53,3513,1026,3598",
           "level": "ERROR",
           "message": "This item's height is 32dp. Consider making the height of this touch target 48dp or larger.",
           "type": "TouchTargetSizeCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "53,4445,1026,4530",
+          "boundsInScreen": "53,3598,1026,3683",
           "level": "ERROR",
           "message": "This item's height is 32dp. Consider making the height of this touch target 48dp or larger.",
           "type": "TouchTargetSizeCheck",
@@ -899,6 +1299,20 @@
           "message": "This non-clickable item's speakable text: \"\u00b7\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "21,610,89,647",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"1036\" is identical to that of 6 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "581,1926,1026,2052",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Contact, Contact, Stale\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
         }
       ],
       "functionName": "DashboardMeshcoreMobile",
@@ -913,28 +1327,28 @@
       "cleanBasename": "DashboardMeshcoreTablet_dashboard_meshcore_tablet-e5c71810.png",
       "findings": [
         {
-          "boundsInScreen": "295,4190,1807,4275",
+          "boundsInScreen": "295,2523,1807,2608",
           "level": "ERROR",
           "message": "This item's height is 32dp. Consider making the height of this touch target 48dp or larger.",
           "type": "TouchTargetSizeCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "295,4275,1807,4360",
+          "boundsInScreen": "295,2608,1807,2693",
           "level": "ERROR",
           "message": "This item's height is 32dp. Consider making the height of this touch target 48dp or larger.",
           "type": "TouchTargetSizeCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "295,4360,1807,4445",
+          "boundsInScreen": "295,2693,1807,2778",
           "level": "ERROR",
           "message": "This item's height is 32dp. Consider making the height of this touch target 48dp or larger.",
           "type": "TouchTargetSizeCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "295,4445,1807,4530",
+          "boundsInScreen": "295,2778,1807,2863",
           "level": "ERROR",
           "message": "This item's height is 32dp. Consider making the height of this touch target 48dp or larger.",
           "type": "TouchTargetSizeCheck",
@@ -948,11 +1362,53 @@
           "viewDescription": "android.widget.TextView"
         },
         {
+          "boundsInScreen": "263,610,331,647",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"1575\" is identical to that of 4 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
           "boundsInScreen": "531,342,541,389",
           "level": "INFO",
           "message": "This non-clickable item's speakable text: \"\u00b7\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "1098,2166,1606,2213",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"No history in the last 2 weeks\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "694,2077,1009,2203",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Battery V, Battery V, 4.1 V\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "1061,1186,1112,1223",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"777\" is identical to that of 3 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "1492,1348,1807,1474",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Contact, Contact, Stale\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "694,2234,1009,2360",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Uptime, Uptime, 32 d 11 h\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
         }
       ],
       "functionName": "DashboardMeshcoreTablet",
@@ -966,6 +1422,13 @@
       "annotatedBasename": "DashboardNetworksMobile_dashboard_networks_mobile-d5ee47c2.a11y.png",
       "cleanBasename": "DashboardNetworksMobile_dashboard_networks_mobile-d5ee47c2.png",
       "findings": [
+        {
+          "boundsInScreen": "21,657,89,694",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"1036\" is identical to that of 3 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
         {
           "boundsInScreen": "340,389,362,436",
           "level": "INFO",
@@ -1000,6 +1463,20 @@
       "cleanBasename": "DashboardNetworksTablet_dashboard_networks_tablet-fbca9889.png",
       "findings": [
         {
+          "boundsInScreen": "263,1403,331,1440",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"1575\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "263,610,314,647",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"777\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
           "boundsInScreen": "1513,342,1535,389",
           "level": "INFO",
           "message": "This non-clickable item's speakable text: \"2\" is identical to that of 1 other item(s).",
@@ -1033,21 +1510,21 @@
       "cleanBasename": "DashboardSectionCardGridMobile_dashboard_section_card_grid_mobile-a90a06a6.png",
       "findings": [
         {
-          "boundsInScreen": "58,4043,536,4090",
+          "boundsInScreen": "58,3596,536,3643",
           "level": "INFO",
           "message": "This non-clickable item's speakable text: \"No history in the last 2 days\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
         },
         {
-          "boundsInScreen": "58,4106,657,4143",
+          "boundsInScreen": "58,3659,657,3696",
           "level": "INFO",
           "message": "This non-clickable item's speakable text: \"Outside \u00b7 Upstairs \u00b7 Downstairs \u00b7 Kitchen\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
         },
         {
-          "boundsInScreen": "120,674,224,704",
+          "boundsInScreen": "71,674,175,704",
           "level": "INFO",
           "message": "This non-clickable item's speakable text: \"Humidity\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
@@ -1066,21 +1543,21 @@
       "cleanBasename": "DashboardSectionCardGridTablet_dashboard_section_card_grid_tablet-eac162a7.png",
       "findings": [
         {
-          "boundsInScreen": "300,2621,778,2668",
+          "boundsInScreen": "300,2834,778,2881",
           "level": "INFO",
           "message": "This non-clickable item's speakable text: \"No history in the last 2 days\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
         },
         {
-          "boundsInScreen": "300,2684,899,2721",
+          "boundsInScreen": "300,2897,899,2934",
           "level": "INFO",
           "message": "This non-clickable item's speakable text: \"Outside \u00b7 Upstairs \u00b7 Downstairs \u00b7 Kitchen\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
         },
         {
-          "boundsInScreen": "330,674,434,704",
+          "boundsInScreen": "322,674,426,704",
           "level": "INFO",
           "message": "This non-clickable item's speakable text: \"Humidity\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
@@ -1099,14 +1576,21 @@
       "cleanBasename": "DashboardSectionsSpanOneTablet_dashboard_sections_span_1_tablet-56a3e21b.png",
       "findings": [
         {
-          "boundsInScreen": "1129,3733,1607,3780",
+          "boundsInScreen": "1129,2381,1607,2428",
           "level": "INFO",
           "message": "This non-clickable item's speakable text: \"No history in the last 2 days\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
         },
         {
-          "boundsInScreen": "1129,3796,1728,3833",
+          "boundsInScreen": "84,777,135,814",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"924\" is identical to that of 3 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "1129,2444,1728,2481",
           "level": "INFO",
           "message": "This non-clickable item's speakable text: \"Outside \u00b7 Upstairs \u00b7 Downstairs \u00b7 Kitchen\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
@@ -1130,7 +1614,15 @@
     {
       "annotatedBasename": "DashboardSecurityMobile_dashboard_security_mobile-842e09ef.a11y.png",
       "cleanBasename": "DashboardSecurityMobile_dashboard_security_mobile-842e09ef.png",
-      "findings": [],
+      "findings": [
+        {
+          "boundsInScreen": "21,764,89,801",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"1036\" is identical to that of 3 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        }
+      ],
       "functionName": "DashboardSecurityMobile",
       "module": "previews",
       "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardSecurityMobile_dashboard security \u2014 mobile",
@@ -1141,7 +1633,15 @@
     {
       "annotatedBasename": "DashboardSecurityTablet_dashboard_security_tablet-d081c9e6.a11y.png",
       "cleanBasename": "DashboardSecurityTablet_dashboard_security_tablet-d081c9e6.png",
-      "findings": [],
+      "findings": [
+        {
+          "boundsInScreen": "263,764,331,801",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"1575\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        }
+      ],
       "functionName": "DashboardSecurityTablet",
       "module": "previews",
       "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardSecurityTablet_dashboard security \u2014 tablet",
@@ -1161,7 +1661,14 @@
           "viewDescription": "android.widget.TextView"
         },
         {
-          "boundsInScreen": "21,526,1057,8914",
+          "boundsInScreen": "21,1386,89,1423",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"1036\" is identical to that of 6 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "21,526,1057,6418",
           "level": "INFO",
           "message": "This non-clickable item's speakable text: \"Idle\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
@@ -1194,7 +1701,7 @@
       "cleanBasename": "DashboardView3dPrintingFilamentMobile_dashboard_3d_printing_view_4_Filament_mobi-3b5ad5f4.png",
       "findings": [
         {
-          "boundsInScreen": "242,2441,439,2478",
+          "boundsInScreen": "242,1845,439,1882",
           "level": "INFO",
           "message": "This non-clickable item's speakable text: \"External spool\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
@@ -1208,28 +1715,35 @@
           "viewDescription": "android.widget.TextView"
         },
         {
-          "boundsInScreen": "53,2639,1026,2765",
+          "boundsInScreen": "53,2043,497,2169",
           "level": "WARNING",
           "message": "This clickable item's speakable text: \"External spool, External spool, Not running\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "352,3271,439,3308",
+          "boundsInScreen": "352,2539,439,2576",
           "level": "INFO",
           "message": "This non-clickable item's speakable text: \"Empty\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
         },
         {
-          "boundsInScreen": "242,2530,272,2577",
+          "boundsInScreen": "421,645,445,682",
           "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"\u2014\" is identical to that of 1 other item(s).",
+          "message": "This non-clickable item's speakable text: \"\u2014\" is identical to that of 4 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
         },
         {
-          "boundsInScreen": "53,739,1026,865",
+          "boundsInScreen": "21,734,89,771",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"1036\" is identical to that of 5 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "53,739,497,865",
           "level": "WARNING",
           "message": "This clickable item's speakable text: \"AMS active, AMS active, Not running\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
@@ -1239,13 +1753,6 @@
           "boundsInScreen": "58,427,148,476",
           "level": "INFO",
           "message": "This non-clickable item's speakable text: \"AMS\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "405,645,462,682",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"-1 %\" is identical to that of 2 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
         },
@@ -1269,58 +1776,65 @@
       "cleanBasename": "DashboardView3dPrintingFilamentTablet_dashboard_3d_printing_view_4_Filament_tabl-09a2b0b7.png",
       "findings": [
         {
-          "boundsInScreen": "484,2441,681,2478",
+          "boundsInScreen": "484,1349,681,1386",
           "level": "INFO",
           "message": "This non-clickable item's speakable text: \"External spool\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
         },
         {
-          "boundsInScreen": "764,608,938,645",
+          "boundsInScreen": "588,608,762,645",
           "level": "INFO",
           "message": "This non-clickable item's speakable text: \"Generic PLA\" is identical to that of 2 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
         },
         {
-          "boundsInScreen": "295,2639,1807,2765",
+          "boundsInScreen": "1093,1316,1408,1442",
           "level": "WARNING",
           "message": "This clickable item's speakable text: \"External spool, External spool, Not running\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "774,3271,861,3308",
+          "boundsInScreen": "508,1886,595,1923",
           "level": "INFO",
           "message": "This non-clickable item's speakable text: \"Empty\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
         },
         {
-          "boundsInScreen": "484,2530,514,2577",
+          "boundsInScreen": "663,645,687,682",
           "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"\u2014\" is identical to that of 1 other item(s).",
+          "message": "This non-clickable item's speakable text: \"\u2014\" is identical to that of 4 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
         },
         {
-          "boundsInScreen": "295,739,1807,865",
+          "boundsInScreen": "1093,400,1408,526",
           "level": "WARNING",
           "message": "This clickable item's speakable text: \"AMS active, AMS active, Not running\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "300,427,390,476",
+          "boundsInScreen": "263,1023,331,1060",
           "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"AMS\" is identical to that of 1 other item(s).",
+          "message": "This non-clickable item's speakable text: \"1575\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
         },
         {
-          "boundsInScreen": "823,645,880,682",
+          "boundsInScreen": "1061,395,1112,432",
           "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"-1 %\" is identical to that of 2 other item(s).",
+          "message": "This non-clickable item's speakable text: \"777\" is identical to that of 3 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "300,427,390,476",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"AMS\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
         },
@@ -1351,7 +1865,14 @@
           "viewDescription": "android.widget.TextView"
         },
         {
-          "boundsInScreen": "21,526,1057,8358",
+          "boundsInScreen": "21,1914,89,1951",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"1036\" is identical to that of 6 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "21,526,1057,6946",
           "level": "INFO",
           "message": "This non-clickable item's speakable text: \"Idle\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
@@ -1384,6 +1905,13 @@
       "cleanBasename": "DashboardView3dPrintingP2sTablet_dashboard_3d_printing_view_2_P2s_tablet-91c638ec.png",
       "findings": [
         {
+          "boundsInScreen": "263,1408,331,1445",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"1575\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
           "boundsInScreen": "523,342,533,389",
           "level": "INFO",
           "message": "This non-clickable item's speakable text: \"\u00b7\" is identical to that of 2 other item(s).",
@@ -1391,11 +1919,18 @@
           "viewDescription": "android.widget.TextView"
         },
         {
-          "boundsInScreen": "263,479,1838,8311",
+          "boundsInScreen": "263,479,1838,4910",
           "level": "INFO",
           "message": "This non-clickable item's speakable text: \"Idle\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "1061,2209,1112,2246",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"777\" is identical to that of 3 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
         },
         {
           "boundsInScreen": "451,342,512,389",
@@ -1424,35 +1959,42 @@
       "cleanBasename": "DashboardView3dPrintingPrintersMobile_dashboard_3d_printing_view_1_Printers_mobi-ea1de9f9.png",
       "findings": [
         {
-          "boundsInScreen": "53,1056,1026,1182",
+          "boundsInScreen": "53,1219,497,1345",
           "level": "WARNING",
           "message": "This clickable item's speakable text: \"Online, Online, Running\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "53,1328,1026,1454",
+          "boundsInScreen": "53,1376,497,1502",
           "level": "WARNING",
           "message": "This clickable item's speakable text: \"Stage, Stage, Idle\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "53,1872,1026,1998",
+          "boundsInScreen": "53,1690,497,1816",
           "level": "WARNING",
           "message": "This clickable item's speakable text: \"Remaining, Remaining, 0 s\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "53,1192,1026,1318",
+          "boundsInScreen": "581,1219,1026,1345",
           "level": "WARNING",
           "message": "This clickable item's speakable text: \"Status, Status, Idle\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "53,1464,1026,1590",
+          "boundsInScreen": "21,1214,89,1251",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"1036\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "581,1376,1026,1502",
           "level": "WARNING",
           "message": "This clickable item's speakable text: \"Progress, Progress, 0 %\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
@@ -1471,16 +2013,23 @@
       "cleanBasename": "DashboardViewClimateHomeMobile_dashboard_climate_view_1_Home_mobile-a5e725cc.png",
       "findings": [
         {
-          "boundsInScreen": "58,5397,536,5444",
+          "boundsInScreen": "58,3595,536,3642",
           "level": "INFO",
           "message": "This non-clickable item's speakable text: \"No history in the last 2 days\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
         },
         {
-          "boundsInScreen": "58,5460,657,5497",
+          "boundsInScreen": "58,3658,657,3695",
           "level": "INFO",
           "message": "This non-clickable item's speakable text: \"Outside \u00b7 Upstairs \u00b7 Downstairs \u00b7 Kitchen\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "21,777,89,814",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"1036\" is identical to that of 3 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
         },
@@ -1523,6 +2072,13 @@
           "message": "This non-clickable item's speakable text: \"p/kWh\" is identical to that of 2 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "21,704,89,741",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"1036\" is identical to that of 3 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
         }
       ],
       "functionName": "DashboardViewEnergyOverviewMobile",
@@ -1540,6 +2096,13 @@
           "boundsInScreen": "74,290,100,337",
           "level": "INFO",
           "message": "This non-clickable item's speakable text: \"\u2026\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "21,558,89,595",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"1036\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
         }
@@ -1584,112 +2147,112 @@
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "53,2750,305,2797",
+          "boundsInScreen": "53,2384,305,2431",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "316,2750,568,2797",
+          "boundsInScreen": "316,2384,568,2431",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "579,2750,831,2797",
+          "boundsInScreen": "579,2384,831,2431",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "53,2797,305,2923",
+          "boundsInScreen": "53,2431,305,2557",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "316,2797,568,2923",
+          "boundsInScreen": "316,2431,568,2557",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "579,2797,831,2923",
+          "boundsInScreen": "579,2431,831,2557",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "53,4253,305,4300",
+          "boundsInScreen": "53,3521,305,3568",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "316,4253,568,4300",
+          "boundsInScreen": "316,3521,568,3568",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "579,4253,831,4379",
+          "boundsInScreen": "579,3521,831,3647",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "53,4300,305,4426",
+          "boundsInScreen": "53,3568,305,3694",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "316,4300,568,4426",
+          "boundsInScreen": "316,3568,568,3694",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "53,5756,305,5803",
+          "boundsInScreen": "53,4658,305,4705",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "316,5756,568,5803",
+          "boundsInScreen": "316,4658,568,4705",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "579,5756,831,5882",
+          "boundsInScreen": "579,4658,831,4784",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "53,5803,305,5929",
+          "boundsInScreen": "53,4705,305,4831",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "316,5803,568,5929",
+          "boundsInScreen": "316,4705,568,4831",
           "level": "ERROR",
           "message": "This item may not have a label readable by screen readers.",
           "type": "SpeakableTextPresentCheck",
@@ -1703,56 +2266,56 @@
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "53,2750,305,2797",
+          "boundsInScreen": "53,2384,305,2431",
           "level": "ERROR",
           "message": "This item's height is 18dp. Consider making the height of this touch target 48dp or larger.",
           "type": "TouchTargetSizeCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "316,2750,568,2797",
+          "boundsInScreen": "316,2384,568,2431",
           "level": "ERROR",
           "message": "This item's height is 18dp. Consider making the height of this touch target 48dp or larger.",
           "type": "TouchTargetSizeCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "579,2750,831,2797",
+          "boundsInScreen": "579,2384,831,2431",
           "level": "ERROR",
           "message": "This item's height is 18dp. Consider making the height of this touch target 48dp or larger.",
           "type": "TouchTargetSizeCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "53,4253,305,4300",
+          "boundsInScreen": "53,3521,305,3568",
           "level": "ERROR",
           "message": "This item's height is 18dp. Consider making the height of this touch target 48dp or larger.",
           "type": "TouchTargetSizeCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "316,4253,568,4300",
+          "boundsInScreen": "316,3521,568,3568",
           "level": "ERROR",
           "message": "This item's height is 18dp. Consider making the height of this touch target 48dp or larger.",
           "type": "TouchTargetSizeCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "53,5756,305,5803",
+          "boundsInScreen": "53,4658,305,4705",
           "level": "ERROR",
           "message": "This item's height is 18dp. Consider making the height of this touch target 48dp or larger.",
           "type": "TouchTargetSizeCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "316,5756,568,5803",
+          "boundsInScreen": "316,4658,568,4705",
           "level": "ERROR",
           "message": "This item's height is 18dp. Consider making the height of this touch target 48dp or larger.",
           "type": "TouchTargetSizeCheck",
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "53,1936,1026,2062",
+          "boundsInScreen": "53,1821,497,1947",
           "level": "WARNING",
           "message": "This clickable item's speakable text: \"Latest PR, Latest PR, Unavailable\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
@@ -1773,14 +2336,14 @@
           "viewDescription": "android.widget.TextView"
         },
         {
-          "boundsInScreen": "53,5397,1026,5523",
+          "boundsInScreen": "581,4299,1026,4425",
           "level": "WARNING",
           "message": "This clickable item's speakable text: \"Latest tag, Latest tag, v0.1.2\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "53,1522,1026,1648",
+          "boundsInScreen": "581,1386,1026,1512",
           "level": "WARNING",
           "message": "This clickable item's speakable text: \"Open issues, Open issues, 2\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
@@ -1794,7 +2357,7 @@
           "viewDescription": "android.widget.TextView"
         },
         {
-          "boundsInScreen": "787,7764,822,7811",
+          "boundsInScreen": "787,6164,822,6211",
           "level": "INFO",
           "message": "This non-clickable item's speakable text: \"to\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
@@ -1808,7 +2371,7 @@
           "viewDescription": "android.widget.Button"
         },
         {
-          "boundsInScreen": "53,1658,1026,1784",
+          "boundsInScreen": "53,1543,497,1669",
           "level": "WARNING",
           "message": "This clickable item's speakable text: \"Open PRs, Open PRs, 0\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
@@ -1822,7 +2385,7 @@
           "viewDescription": "android.widget.TextView"
         },
         {
-          "boundsInScreen": "53,5261,1026,5387",
+          "boundsInScreen": "53,4299,497,4425",
           "level": "WARNING",
           "message": "This clickable item's speakable text: \"Latest release, Latest release, v0.1.2\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
@@ -1843,9 +2406,16 @@
           "viewDescription": "android.widget.TextView"
         },
         {
-          "boundsInScreen": "53,1836,446,1883",
+          "boundsInScreen": "53,1721,446,1768",
           "level": "INFO",
           "message": "This non-clickable item's speakable text: \"no recent commit data\" is identical to that of 3 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "21,1381,89,1418",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"1036\" is identical to that of 8 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
         },
@@ -1886,32 +2456,86 @@
       "variant": ""
     },
     {
+      "annotatedBasename": "DashboardViewMeshcoreControlsMobile_dashboard_meshcore_view_4_Controls_mobile-c76ed086.a11y.png",
+      "cleanBasename": "DashboardViewMeshcoreControlsMobile_dashboard_meshcore_view_4_Controls_mobile-c76ed086.png",
+      "findings": [
+        {
+          "boundsInScreen": "53,401,1026,486",
+          "level": "ERROR",
+          "message": "This item's height is 32dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "53,486,1026,571",
+          "level": "ERROR",
+          "message": "This item's height is 32dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "53,571,1026,656",
+          "level": "ERROR",
+          "message": "This item's height is 32dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "53,656,1026,741",
+          "level": "ERROR",
+          "message": "This item's height is 32dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "53,741,1026,826",
+          "level": "ERROR",
+          "message": "This item's height is 32dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "21,1110,89,1147",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"1036\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        }
+      ],
+      "functionName": "DashboardViewMeshcoreControlsMobile",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardViewMeshcoreControlsMobile_dashboard meshcore view 4 Controls \u2014 mobile",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/DashboardPreviews.kt",
+      "variant": ""
+    },
+    {
       "annotatedBasename": "DashboardViewMeshcoreOverviewMobile_dashboard_meshcore_view_1_Overview_mobile-49f1bca6.a11y.png",
       "cleanBasename": "DashboardViewMeshcoreOverviewMobile_dashboard_meshcore_view_1_Overview_mobile-49f1bca6.png",
       "findings": [
         {
-          "boundsInScreen": "53,4190,1026,4275",
+          "boundsInScreen": "53,3343,1026,3428",
           "level": "ERROR",
           "message": "This item's height is 32dp. Consider making the height of this touch target 48dp or larger.",
           "type": "TouchTargetSizeCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "53,4275,1026,4360",
+          "boundsInScreen": "53,3428,1026,3513",
           "level": "ERROR",
           "message": "This item's height is 32dp. Consider making the height of this touch target 48dp or larger.",
           "type": "TouchTargetSizeCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "53,4360,1026,4445",
+          "boundsInScreen": "53,3513,1026,3598",
           "level": "ERROR",
           "message": "This item's height is 32dp. Consider making the height of this touch target 48dp or larger.",
           "type": "TouchTargetSizeCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "53,4445,1026,4530",
+          "boundsInScreen": "53,3598,1026,3683",
           "level": "ERROR",
           "message": "This item's height is 32dp. Consider making the height of this touch target 48dp or larger.",
           "type": "TouchTargetSizeCheck",
@@ -1932,7 +2556,14 @@
           "viewDescription": "android.widget.TextView"
         },
         {
-          "boundsInScreen": "53,2522,1026,2648",
+          "boundsInScreen": "21,610,89,647",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"1036\" is identical to that of 5 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "581,1926,1026,2052",
           "level": "WARNING",
           "message": "This clickable item's speakable text: \"Contact, Contact, Stale\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
@@ -1951,25 +2582,32 @@
       "cleanBasename": "DashboardViewMeshcoreRoomServerMobile_dashboard_meshcore_view_3_Room_Server_mobi-76b5c26e.png",
       "findings": [
         {
-          "boundsInScreen": "53,1165,1026,1250",
+          "boundsInScreen": "53,914,1026,999",
           "level": "ERROR",
           "message": "This item's height is 32dp. Consider making the height of this touch target 48dp or larger.",
           "type": "TouchTargetSizeCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "53,1250,1026,1335",
+          "boundsInScreen": "53,999,1026,1084",
           "level": "ERROR",
           "message": "This item's height is 32dp. Consider making the height of this touch target 48dp or larger.",
           "type": "TouchTargetSizeCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "53,1335,1026,1420",
+          "boundsInScreen": "53,1084,1026,1169",
           "level": "ERROR",
           "message": "This item's height is 32dp. Consider making the height of this touch target 48dp or larger.",
           "type": "TouchTargetSizeCheck",
           "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "21,463,89,500",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"1036\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
         }
       ],
       "functionName": "DashboardViewMeshcoreRoomServerMobile",
@@ -1982,7 +2620,15 @@
     {
       "annotatedBasename": "DashboardViewMeshcoreSolarRepeaterMobile_dashboard_meshcore_view_2_Solar_Repeate-27a5d9ad.a11y.png",
       "cleanBasename": "DashboardViewMeshcoreSolarRepeaterMobile_dashboard_meshcore_view_2_Solar_Repeate-27a5d9ad.png",
-      "findings": [],
+      "findings": [
+        {
+          "boundsInScreen": "21,395,89,432",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"1036\" is identical to that of 4 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        }
+      ],
       "functionName": "DashboardViewMeshcoreSolarRepeaterMobile",
       "module": "previews",
       "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardViewMeshcoreSolarRepeaterMobile_dashboard meshcore view 2 Solar Repeater \u2014 mobile",
@@ -1997,6 +2643,83 @@
       "functionName": "Glance_Availability_Light",
       "module": "previews",
       "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Glance_Availability_Light_glance availability (light)",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CardPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "GridButtons4Columns_360_grid_4_buttons_360dp-964d312a.a11y.png",
+      "cleanBasename": "GridButtons4Columns_360_grid_4_buttons_360dp-964d312a.png",
+      "findings": [],
+      "functionName": "GridButtons4Columns_360",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.GridButtons4Columns_360_grid 4 buttons \u2014 360dp",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CardPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "GridSquarePictures_360_grid_2_square_pictures_360dp-f6c316af.a11y.png",
+      "cleanBasename": "GridSquarePictures_360_grid_2_square_pictures_360dp-f6c316af.png",
+      "findings": [],
+      "functionName": "GridSquarePictures_360",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.GridSquarePictures_360_grid 2 square pictures \u2014 360dp",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CardPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "GridSquarePictures_700_grid_2_square_pictures_700dp-d9d66f28.a11y.png",
+      "cleanBasename": "GridSquarePictures_700_grid_2_square_pictures_700dp-d9d66f28.png",
+      "findings": [],
+      "functionName": "GridSquarePictures_700",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.GridSquarePictures_700_grid 2 square pictures \u2014 700dp",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CardPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "GridTiles_360_grid_tiles_360dp-3d2fd6f3.a11y.png",
+      "cleanBasename": "GridTiles_360_grid_tiles_360dp-3d2fd6f3.png",
+      "findings": [],
+      "functionName": "GridTiles_360",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.GridTiles_360_grid tiles \u2014 360dp",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CardPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "GridTiles_700_grid_tiles_700dp-b2465ead.a11y.png",
+      "cleanBasename": "GridTiles_700_grid_tiles_700dp-b2465ead.png",
+      "findings": [],
+      "functionName": "GridTiles_700",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.GridTiles_700_grid tiles \u2014 700dp",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CardPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Grid_Dark_grid_dark-2c74835b.a11y.png",
+      "cleanBasename": "Grid_Dark_grid_dark-2c74835b.png",
+      "findings": [],
+      "functionName": "Grid_Dark",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Grid_Dark_grid (dark)",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CardPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Grid_Light_grid_light-ffbb7c50.a11y.png",
+      "cleanBasename": "Grid_Light_grid_light-ffbb7c50.png",
+      "findings": [],
+      "functionName": "Grid_Light",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Grid_Light_grid (light)",
       "rendersDir": "previews",
       "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CardPreviews.kt",
       "variant": ""
@@ -2054,9 +2777,208 @@
       "variant": ""
     },
     {
+      "annotatedBasename": "PictureEntity_AppMode_Dark_picture_entity_app_mode_dark-675bae3c.a11y.png",
+      "cleanBasename": "PictureEntity_AppMode_Dark_picture_entity_app_mode_dark-675bae3c.png",
+      "findings": [],
+      "functionName": "PictureEntity_AppMode_Dark",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.PictureEntityStrategyPreviewsKt.PictureEntity_AppMode_Dark_picture-entity app-mode (dark)",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/PictureEntityStrategyPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "PictureEntity_AppMode_Light_picture_entity_app_mode_light-5174ea1f.a11y.png",
+      "cleanBasename": "PictureEntity_AppMode_Light_picture_entity_app_mode_light-5174ea1f.png",
+      "findings": [],
+      "functionName": "PictureEntity_AppMode_Light",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.PictureEntityStrategyPreviewsKt.PictureEntity_AppMode_Light_picture-entity app-mode (light)",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/PictureEntityStrategyPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "PictureEntity_Dark_picture_entity_dark-7bd210f8.a11y.png",
+      "cleanBasename": "PictureEntity_Dark_picture_entity_dark-7bd210f8.png",
+      "findings": [],
+      "functionName": "PictureEntity_Dark",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.PictureEntity_Dark_picture-entity (dark)",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CardPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "PictureEntity_IconFallback_Light_picture_entity_icon_fallback_light-c5cf7c6c.a11y.png",
+      "cleanBasename": "PictureEntity_IconFallback_Light_picture_entity_icon_fallback_light-c5cf7c6c.png",
+      "findings": [],
+      "functionName": "PictureEntity_IconFallback_Light",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.PictureEntityStrategyPreviewsKt.PictureEntity_IconFallback_Light_picture-entity icon-fallback (light)",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/PictureEntityStrategyPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "PictureEntity_Light_picture_entity_light-726fa4df.a11y.png",
+      "cleanBasename": "PictureEntity_Light_picture_entity_light-726fa4df.png",
+      "findings": [],
+      "functionName": "PictureEntity_Light",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.PictureEntity_Light_picture-entity (light)",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CardPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "PictureEntity_WidgetMode_Light_picture_entity_widget_mode_light-f8a84474.a11y.png",
+      "cleanBasename": "PictureEntity_WidgetMode_Light_picture_entity_widget_mode_light-f8a84474.png",
+      "findings": [],
+      "functionName": "PictureEntity_WidgetMode_Light",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.PictureEntityStrategyPreviewsKt.PictureEntity_WidgetMode_Light_picture-entity widget-mode (light)",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/PictureEntityStrategyPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "PictureGlance_Dark_picture_glance_dark-26cfeaf0.a11y.png",
+      "cleanBasename": "PictureGlance_Dark_picture_glance_dark-26cfeaf0.png",
+      "findings": [
+        {
+          "boundsInScreen": "232,561,337,687",
+          "level": "ERROR",
+          "message": "This item's width is 40dp. Consider making the width of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "337,561,442,687",
+          "level": "ERROR",
+          "message": "This item's width is 40dp. Consider making the width of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "442,561,547,687",
+          "level": "ERROR",
+          "message": "This item's width is 40dp. Consider making the width of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "446,228,551,333",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"Living room\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View  desc=\"Living room\""
+        }
+      ],
+      "functionName": "PictureGlance_Dark",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.PictureGlance_Dark_picture-glance (dark)",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CardPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "PictureGlance_Light_picture_glance_light-de890a08.a11y.png",
+      "cleanBasename": "PictureGlance_Light_picture_glance_light-de890a08.png",
+      "findings": [
+        {
+          "boundsInScreen": "232,561,337,687",
+          "level": "ERROR",
+          "message": "This item's width is 40dp. Consider making the width of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "337,561,442,687",
+          "level": "ERROR",
+          "message": "This item's width is 40dp. Consider making the width of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "442,561,547,687",
+          "level": "ERROR",
+          "message": "This item's width is 40dp. Consider making the width of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "446,228,551,333",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"Living room\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View  desc=\"Living room\""
+        }
+      ],
+      "functionName": "PictureGlance_Light",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.PictureGlance_Light_picture-glance (light)",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CardPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Picture_Dark_picture_dark-d55416da.a11y.png",
+      "cleanBasename": "Picture_Dark_picture_dark-d55416da.png",
+      "findings": [
+        {
+          "boundsInScreen": "357,173,483,299",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"Floor plan\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View  desc=\"Floor plan\""
+        }
+      ],
+      "functionName": "Picture_Dark",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Picture_Dark_picture (dark)",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CardPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Picture_Light_picture_light-4811d86d.a11y.png",
+      "cleanBasename": "Picture_Light_picture_light-4811d86d.png",
+      "findings": [
+        {
+          "boundsInScreen": "357,173,483,299",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"Floor plan\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View  desc=\"Floor plan\""
+        }
+      ],
+      "functionName": "Picture_Light",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Picture_Light_picture (light)",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CardPreviews.kt",
+      "variant": ""
+    },
+    {
       "annotatedBasename": "Tiles_Availability_Dark_tiles_availability_dark-c0e64dff.a11y.png",
       "cleanBasename": "Tiles_Availability_Dark_tiles_availability_dark-c0e64dff.png",
-      "findings": [],
+      "findings": [
+        {
+          "boundsInScreen": "32,319,457,435",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "541,319,966,435",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
       "functionName": "Tiles_Availability_Dark",
       "module": "previews",
       "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Tiles_Availability_Dark_tiles availability (dark)",
@@ -2067,7 +2989,22 @@
     {
       "annotatedBasename": "Tiles_Availability_Light_tiles_availability_light-052c5b12.a11y.png",
       "cleanBasename": "Tiles_Availability_Light_tiles_availability_light-052c5b12.png",
-      "findings": [],
+      "findings": [
+        {
+          "boundsInScreen": "32,319,457,435",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "541,319,966,435",
+          "level": "ERROR",
+          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
       "functionName": "Tiles_Availability_Light",
       "module": "previews",
       "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Tiles_Availability_Light_tiles availability (light)",
@@ -2307,10 +3244,6 @@
     },
     {
       "module": "previews",
-      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_PictureEntity_matrix \u2014 picture-entity"
-    },
-    {
-      "module": "previews",
       "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_Sensor_matrix \u2014 sensor"
     },
     {
@@ -2523,14 +3456,6 @@
     },
     {
       "module": "previews",
-      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Grid_Dark_grid (dark)"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Grid_Light_grid (light)"
-    },
-    {
-      "module": "previews",
       "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Heading_Dark_heading (dark)"
     },
     {
@@ -2619,30 +3544,6 @@
     },
     {
       "module": "previews",
-      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.PictureEntity_Dark_picture-entity (dark)"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.PictureEntity_Light_picture-entity (light)"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.PictureGlance_Dark_picture-glance (dark)"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.PictureGlance_Light_picture-glance (light)"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Picture_Dark_picture (dark)"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Picture_Light_picture (light)"
-    },
-    {
-      "module": "previews",
       "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Sensor_Dark_sensor (dark)"
     },
     {
@@ -2723,10 +3624,6 @@
     },
     {
       "module": "previews",
-      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardViewMeshcoreControlsMobile_dashboard meshcore view 4 Controls \u2014 mobile"
-    },
-    {
-      "module": "previews",
       "previewId": "ee.schimke.ha.previews.GarageShutterCardPreviewsKt.Garage_Animation_Dark_garage-anim (dark)"
     },
     {
@@ -2780,22 +3677,6 @@
     {
       "module": "previews",
       "previewId": "ee.schimke.ha.previews.ImagePreviewsKt.ImageUrl_Probe_Frame1_image-url probe frame=1"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.PictureEntityStrategyPreviewsKt.PictureEntity_AppMode_Dark_picture-entity app-mode (dark)"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.PictureEntityStrategyPreviewsKt.PictureEntity_AppMode_Light_picture-entity app-mode (light)"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.PictureEntityStrategyPreviewsKt.PictureEntity_IconFallback_Light_picture-entity icon-fallback (light)"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.PictureEntityStrategyPreviewsKt.PictureEntity_WidgetMode_Light_picture-entity widget-mode (light)"
     },
     {
       "module": "previews",
