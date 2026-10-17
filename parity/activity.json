@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-17T12:02:46.078Z",
+  "generatedAt": "2026-10-17T12:41:49.325Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "13f2323388c0a7b78536d884975ef204d7884408",
+        "subject": "fix(grid): hidden conditionals take no cell; a shown one sizes as its card (#874)",
+        "at": "2026-10-17T13:13:55+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "21fe33b45b4eae959ddb2bdb5d825fddee7ede9b",
+        "subject": "fix(previews): dashboard images are drawn before the capture, every run (#873)",
+        "at": "2026-10-17T13:12:39+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "867a2f102821ed3fed03c26aa9e3eafa40c41a70",
         "subject": "fix(deps): update dependency org.jetbrains:markdown to v0.7.18 (#825)",
@@ -466,22 +482,6 @@
         "sha": "80be1553dc8d47fd721065506b2ca1aa75cf1e52",
         "subject": "fix: polish widget sizing and Card Studio feedback (#812)",
         "at": "2026-10-14T21:40:43+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "185a97a9d0121759a5d13ae830d907b30425d01a",
-        "subject": "feat: card styles theme the control dials, graphs, controls, Wear and TV (#813)",
-        "at": "2026-10-14T21:25:59+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "e08513899cb94ed6997790cf7d07487b4636a644",
-        "subject": "feat(app): long-press a dashboard card to fork it into the card designer (#810)",
-        "at": "2026-10-14T21:12:09+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
