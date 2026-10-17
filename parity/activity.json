@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-17T14:15:40.381Z",
+  "generatedAt": "2026-10-17T14:26:41.126Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "f09d584ae3a39a2a37bee5cb52513ea10eb09755",
+        "subject": "feat(themes): every card shows an unavailable entity the way its uber theme does (#881)",
+        "at": "2026-10-17T15:09:26+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "399fcb4dfddfa565aed36f283132be6250634db1",
         "subject": "feat(lovelace): host dashboard editing, previews and reusable templates (#834)",
@@ -474,14 +482,6 @@
         "sha": "d4885a4f94facdd558ff03f268e7ae79b2dad30d",
         "subject": "feat(app): keep the app's own card designs on disk, and show what the server lacks (#824)",
         "at": "2026-10-15T09:44:55+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "f223e36f79a6634b87e36a41056a32366a47a9df",
-        "subject": "feat(ha-cards): capture stickers in named WearM3 colours and declare the app's themes (#821)",
-        "at": "2026-10-15T08:33:36+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
