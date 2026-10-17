@@ -1,11 +1,235 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-16T19:54:37.237Z",
+  "generatedAt": "2026-10-17T09:03:20.543Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "43a6add201b4a3733aafda440a1644adc8bc4387",
+        "subject": "feat(dashboard): sections lay out their cards by harc's designs, in HA's order (#866)",
+        "at": "2026-10-17T07:26:41+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "ae3d61b5964a2d15eece55b3e54f1777bad105dd",
+        "subject": "fix(cards): lay grid cards out in columns that wrap, and honour aspect_ratio (#841)",
+        "at": "2026-10-17T07:16:04+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "a20cac6960f6606d257ecdd34f3d32a3f8b76082",
+        "subject": "fix(cards): show an AMS tray's unknown remaining filament as \"—\", not \"-1 %\" (#865)",
+        "at": "2026-10-17T07:14:23+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "ef5ed18a1ab16c545830ec138eae0c91e9e583c2",
+        "subject": "feat(cards): Material Design Icons for card overrides and HA's domain defaults (#845)",
+        "at": "2026-10-17T07:13:41+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "f9f1977da35dba6f4e8dc96fee39ee85fadfbc9e",
+        "subject": "fix(cards): Bambu cards act on the configured printer, never a guessed one (#844)",
+        "at": "2026-10-17T06:38:06+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "8b2e708b144a5c80c03a243d4e75d58f60cb5533",
+        "subject": "feat(cards): tile card features, state_content, climate badge and color (#855)",
+        "at": "2026-10-17T06:12:10+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "5ea8c2490fb45e0c08b8dd7931fd23115fa868bd",
+        "subject": "fix(markdown): render bold and inline code like HA's markdown card (#859)",
+        "at": "2026-10-17T06:12:06+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "9ee2e7eaaa526c2a9a3b26e9fa1bd1f070ddf0d7",
+        "subject": "fix(demo): tidy demo dashboard data flagged by the usability audit (#860)",
+        "at": "2026-10-17T05:40:17+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "0e03cb7044b34b775c184748dc56c9383f608d3f",
+        "subject": "test(previews): render each demo dashboard view on its own canvas (#864)",
+        "at": "2026-10-17T05:40:14+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "b8541ceff756bcb8e36b80ec6242b18287b043d0",
+        "subject": "ci: give the preview render job 45 minutes (#862)",
+        "at": "2026-10-17T05:14:21+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "a016cc0a97f647a477ed9e2275e74a2e630e0abe",
+        "subject": "fix(cards): bake the entities rows' on/off state into widget templates (#863)",
+        "at": "2026-10-17T05:14:18+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "55ca5a9d944d2b4ef1c3f1ce681632129ad0722c",
+        "subject": "fix(cards): give the entities card row lists that grow with the widget (#861)",
+        "at": "2026-10-17T04:40:59+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "8914123977d1bd18981c39a4b65af9e88a6c6136",
+        "subject": "fix(cards): read the clock card's template bindings from the injected clock (#857)",
+        "at": "2026-10-17T04:14:43+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "dca4b72fe26eb5b738d0644acd30121452334105",
+        "subject": "fix(cards): humanise the sensor card's graph window label (#858)",
+        "at": "2026-10-17T04:14:39+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "9b524cc6a4c2e7fa929a76e0a1e32faf032ec3fa",
+        "subject": "fix(cards): reflow the map card's rows and fit the weather chips (#854)",
+        "at": "2026-10-17T03:42:20+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "5d5fc8526f1587e40e8a749440d16cbde7e04da5",
+        "subject": "fix(cards): keep the Bambu fallback state on one line on Wear (#856)",
+        "at": "2026-10-17T03:42:17+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "6bbdd9c5b0a7c61806fcd9c794d417c19d946a60",
+        "subject": "fix(cards): a history graph with no history fits the Wear small slot (#852)",
+        "at": "2026-10-17T03:17:53+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "c00d6acd17073e0d713b80549b2207d6f9b74ae1",
+        "subject": "feat(dashboard): lay out cards in each section on HA's 12-column grid (#853)",
+        "at": "2026-10-17T03:17:50+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "2909a5316b834200e73b2a4472da09e6849e4f70",
+        "subject": "fix(dashboard): sections views honour header, column_span and balanced columns (#850)",
+        "at": "2026-10-17T02:44:17+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "53c4110bde8ab1249a60a28927d5b82b971c3823",
+        "subject": "fix(cards): garage door controls follow the door, and the door looks like a door (#851)",
+        "at": "2026-10-17T02:44:13+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "27749fff4c7654f802b4d3a1fe8cf1e06d9144e2",
+        "subject": "fix(cards): fit the larger type into the Wear small slot and fixed widget cells (#848)",
+        "at": "2026-10-17T02:20:46+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "4b4d3f208162a1334fd1cb64621b64935dae7350",
+        "subject": "fix(cards): history graphs use configured names, readable windows and one empty state (#849)",
+        "at": "2026-10-17T02:20:43+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "ad2a7b7dc5bf727adb6cf1f0c49bbc33d7b42806",
+        "subject": "fix(cards): state colour follows state, and unavailable entities look unavailable (#846)",
+        "at": "2026-10-17T01:34:49+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "47a8f38ee1da0db13ec69d3ee39ed23c835cc8dc",
+        "subject": "feat(cards): a larger card type scale for phones (#843)",
+        "at": "2026-10-17T00:35:07+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "c20ae6fd64a7756ab814106fe2db3c9781820ea2",
+        "subject": "fix(demo): show stand-in pictures for demo cameras and images (#839)",
+        "at": "2026-10-17T00:10:54+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "4270ce5d46314da96483e38cb8e169b0ffeafe33",
+        "subject": "fix(app): keep the dashboard title on one line (#837)",
+        "at": "2026-10-16T23:38:55+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "483ef3e77fded9e4dc95ba5409eee8e5ad6abf67",
+        "subject": "fix(cards): a clear idle state for the Bambu print card (#838)",
+        "at": "2026-10-16T23:38:52+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "db3c08de10be66b8cd5e5804b14861e9121631ff",
+        "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.252 (#840)",
+        "at": "2026-10-16T22:36:19Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "566d08b6f7710bc94c02a8e405b1a31906317017",
         "subject": "chore(main): release 0.1.42 (#828)",
@@ -258,230 +482,6 @@
         "sha": "ace0fa069d21ef99ea18ca3a160c0bb26dc409ec",
         "subject": "fix(deps): update compose-ai-tools (#799)",
         "at": "2026-10-14T16:14:53Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "92f0c96caa9d599c32ff91d67d105f1a4a506443",
-        "subject": "fix(deps): update dependency ee.schimke.composeai:data-render-core to v3.32.0 (#802)",
-        "at": "2026-10-14T16:14:48Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a2d7800432da1330c688682899462983949b1bf5",
-        "subject": "fix: match in-app widget previews to launcher rendering (#801)",
-        "at": "2026-10-14T16:42:03+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "26943a44af0c54853169d4f1f42c05b4536a6d5d",
-        "subject": "feat: prepare and preview adaptive home screen widgets (#798)",
-        "at": "2026-10-14T13:50:34+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "acd2d6eec2c1994b90ba29533b82b129c1c454d6",
-        "subject": "feat: Console skeuomorphic uber theme, with haptics and synthesized interface sounds (#800)",
-        "at": "2026-10-14T10:15:21+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "b2ecd3db751fa5733eff1c8ecc35cb29762a2208",
-        "subject": "feat: uber themes as real designs, and a Card style picker in Settings (#797)",
-        "at": "2026-10-14T08:42:07+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "3fe78bc189862a99fd4ce83525ba4d533842684c",
-        "subject": "chore(deps): update yschimke/compose-ai-tools action to v2.58.0 (#796)",
-        "at": "2026-10-14T07:18:39Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "e7399949b177786fcf1e79bab991a12b291f291d",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 8e63e96 (#795)",
-        "at": "2026-10-14T06:53:46Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "1c6c44c1cf03f5ba8be4eaa790ed78c3bb8b49b9",
-        "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.249 (#794)",
-        "at": "2026-10-14T06:23:32Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "f08377d232785ded568740338e3cb66ddd9fdd3c",
-        "subject": "fix(deps): update dependency ee.schimke.composeai:data-render-core to v3.31.0 (#793)",
-        "at": "2026-10-14T01:22:30Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "1d28bf52af9626e72954ed2d0993ec50dbe34a88",
-        "subject": "fix(deps): update compose-ai-tools (#790)",
-        "at": "2026-10-14T00:33:43Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "dee62441c1a309655fa2e89adfecc5d210c2c425",
-        "subject": "feat: card component system — theming rules, data hierarchy, adaptive measurements, uber themes (#792)",
-        "at": "2026-10-14T01:33:39+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "31c15241dd90688396bfd3208c6bedc3ffccb694",
-        "subject": "fix: render Card Studio content with the served catalog (#791)",
-        "at": "2026-10-13T23:38:15+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "7bee3e233f5128e5861c43ffbf069ead59772b84",
-        "subject": "fix(deps): update dependency org.jetbrains:markdown to v0.7.17 (#788)",
-        "at": "2026-10-13T22:14:17Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "f68699b9ffa87a49a7363f6f1676da819babbcec",
-        "subject": "chore(deps): update dependency com.gradleup.tapmoc to v0.5.0 (#789)",
-        "at": "2026-10-13T22:14:14Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a51340a9309c1fc2f47663d6ba3002d9480bdf78",
-        "subject": "feat(ui-builder): publish the complete typed native card catalog (#785)",
-        "at": "2026-10-13T22:38:51+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "822d282e61aa9785c2461b369fddcd4e30a81e0b",
-        "subject": "fix: keep offline Robolectric SDK images aligned with API 35 tests (#762)",
-        "at": "2026-10-13T22:15:28+01:00",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "9d7dbbd916725a26688c84173813ca9f02869cf5",
-        "subject": "fix: make Card Studio browser handoffs work with published catalogs (#787)",
-        "at": "2026-10-13T21:14:13+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "d32323bf379c2b2958cdcc62c963d01afab4272f",
-        "subject": "fix(ui-builder-catalog): correct live metric and release metadata (#786)",
-        "at": "2026-10-13T20:19:26+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "1e05074cfa55735b16890f4dabcdcf16928371c6",
-        "subject": "feat: add card studio and agent drafts to mobile and desktop (#784)",
-        "at": "2026-10-13T13:55:33+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "cbd75444f5a444956efe86bafc99ed4bc5741330",
-        "subject": "fix(deps): update compose-ai-tools (#779)",
-        "at": "2026-10-13T09:16:31Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "c3f4eb4e6f621cc3eee200bf3cac79df065b4534",
-        "subject": "feat(ui-builder-catalog): add editable Home Assistant card parts (#783)",
-        "at": "2026-10-13T09:37:36+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "52ed43ae5dc538ff09dd88bd8c160fc23427edb1",
-        "subject": "fix(design-server): carry a gauge's unit into the ha-cards templates (#782)",
-        "at": "2026-10-13T00:09:22+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "c01db26b98b0bbb901b4531f2c83f15962cba62f",
-        "subject": "feat: ha-cards UI-builder catalog for dashboard cards, Wear widgets and launcher widgets (#781)",
-        "at": "2026-10-12T23:50:53+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "9d31686c438728895865db69012c7a310ff1adb7",
-        "subject": "feat: embed a Home Assistant card in any web page (#778)",
-        "at": "2026-10-12T22:04:26+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "7b74449c490cae837447c0ab1c910850cdb9f787",
-        "subject": "ci: publish generated branches to yschimke/homeassistant-remotecompose-out (#780)",
-        "at": "2026-10-12T22:00:19+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "9390cd95fc981e35618c7eda2ed855fe9d7017ba",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 7a14996 (#777)",
-        "at": "2026-10-12T15:43:07Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "1fbe4f491d207daebdddfe20c04a525d0e295c0b",
-        "subject": "fix(deps): update dependency ee.schimke.composeai:rc-player-compose to v2.10.0 (#776)",
-        "at": "2026-10-12T15:16:30Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "277c6d9cabceff6f01093ec012accac1a0be5915",
-        "subject": "fix(deps): update compose-ai-tools (#775)",
-        "at": "2026-10-12T14:49:06Z",
         "author": "renovate[bot]",
         "previewIds": [],
         "components": []

@@ -10330,6 +10330,23 @@
                                     "jsonType": "string",
                                     "literalType": "string",
                                     "nullable": true
+                                },
+                                {
+                                    "name": "phase",
+                                    "required": false,
+                                    "default": {
+                                        "type": "string",
+                                        "value": "printing"
+                                    },
+                                    "jsonType": "string",
+                                    "literalType": "string",
+                                    "allowedValues": [
+                                        "failed",
+                                        "finished",
+                                        "idle",
+                                        "offline",
+                                        "printing"
+                                    ]
                                 }
                             ]
                         }
@@ -10377,6 +10394,10 @@
                                 "bedLine": {
                                     "type": "string",
                                     "value": "Bed 55 °C → 55 °C"
+                                },
+                                "phase": {
+                                    "type": "string",
+                                    "value": "printing"
                                 }
                             }
                         }
