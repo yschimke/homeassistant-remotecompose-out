@@ -71,6 +71,17 @@
       "variant": ""
     },
     {
+      "annotatedBasename": "HaCardConsoleServiceLabelsSticker-536b4d98.a11y.png",
+      "cleanBasename": "HaCardConsoleServiceLabelsSticker-536b4d98.png",
+      "findings": [],
+      "functionName": "HaCardConsoleServiceLabelsSticker",
+      "module": "ha-cards-catalog",
+      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardConsoleServiceLabelsSticker",
+      "rendersDir": "ha-cards-catalog",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
+      "variant": ""
+    },
+    {
       "annotatedBasename": "HaCardEntitiesSticker-f747a925.a11y.png",
       "cleanBasename": "HaCardEntitiesSticker-f747a925.png",
       "findings": [],
@@ -363,13 +374,6 @@
           "message": "This non-clickable item's speakable text: \"Disarmed\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "53,1032,307,1084",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"The Anthem\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
         }
       ],
       "functionName": "UberCards_Console",
@@ -380,41 +384,41 @@
       "variant": ""
     },
     {
-      "annotatedBasename": "Uber_Console_uber_Console-e263c2ad.a11y.png",
-      "cleanBasename": "Uber_Console_uber_Console-e263c2ad.png",
+      "annotatedBasename": "UberDials_Console_uber_dials_Console-81287a28.a11y.png",
+      "cleanBasename": "UberDials_Console_uber_dials_Console-81287a28.png",
       "findings": [
         {
-          "boundsInScreen": "53,1392,893,1512",
-          "level": "ERROR",
-          "message": "This item's height is 46dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
+          "boundsInScreen": "331,598,457,724",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"stepper\" is identical to that of 5 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         }
       ],
-      "functionName": "Uber_Console",
+      "functionName": "UberDials_Console",
       "module": "previews",
-      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Console_uber_ Console",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Console_uber dials_ Console",
       "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemePreviews.kt",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemeSheets.kt",
       "variant": ""
     },
     {
-      "annotatedBasename": "TvKioskPreview_Console_TV_kiosk_Console_card_style-a5516ae5.a11y.png",
-      "cleanBasename": "TvKioskPreview_Console_TV_kiosk_Console_card_style-a5516ae5.png",
+      "annotatedBasename": "Uber_Console_Desk_uber_Console_desk-a93e894d.a11y.png",
+      "cleanBasename": "Uber_Console_Desk_uber_Console_desk-a93e894d.png",
       "findings": [
         {
-          "boundsInScreen": "127,339,178,376",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"578\" is identical to that of 1 other item(s).",
+          "boundsInScreen": "331,598,457,724",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"stepper\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
+          "viewDescription": "android.view.View"
         }
       ],
-      "functionName": "TvKioskPreview_Console",
-      "module": "tv",
-      "previewId": "ee.schimke.terrazzo.tv.ui.TvPreviewsKt.TvKioskPreview_Console_TV_ kiosk (Console card style)",
-      "rendersDir": "tv",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/tv/ui/TvPreviews.kt",
+      "functionName": "Uber_Console_Desk",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Console_Desk_uber_ Console (desk)",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemePreviews.kt",
       "variant": ""
     }
   ],
@@ -1502,7 +1506,7 @@
     },
     {
       "module": "previews",
-      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Console_Desk_uber_ Console (desk)"
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Console_uber_ Console"
     },
     {
       "module": "previews",
@@ -1562,10 +1566,6 @@
     },
     {
       "module": "previews",
-      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Console_uber dials_ Console"
-    },
-    {
-      "module": "previews",
       "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Expressive_uber dials_ Expressive"
     },
     {
@@ -1591,22 +1591,6 @@
     {
       "module": "previews",
       "previewId": "ee.schimke.ha.previews.WrapContentHeightReproKt.WrapContentHeightReproAlpha010_wrap-content height repro \u00b7 alpha010"
-    },
-    {
-      "module": "tv",
-      "previewId": "ee.schimke.terrazzo.tv.ui.TvPreviewsKt.TvKioskPreview_Demo_TV_ kiosk (demo)"
-    },
-    {
-      "module": "tv",
-      "previewId": "ee.schimke.terrazzo.tv.ui.TvPreviewsKt.TvKioskPreview_HomePalette_TV_ kiosk (Home palette)"
-    },
-    {
-      "module": "tv",
-      "previewId": "ee.schimke.terrazzo.tv.ui.TvPreviewsKt.TvKioskPreview_Lcd_TV_ kiosk (LCD card style)"
-    },
-    {
-      "module": "tv",
-      "previewId": "ee.schimke.terrazzo.tv.ui.TvPreviewsKt.TvKioskPreview_Live_TV_ kiosk (live)"
     }
   ]
 }
