@@ -1,79 +1,8 @@
 # Accessibility Report
 
-_Auto-generated from `compose-preview/a11y/pr`. 111 preview(s) across 3 module(s) · 123 error(s) · 60 warning(s) · 72 info._
+_Auto-generated from `compose-preview/a11y/pr`. 96 preview(s) across 2 module(s) · 18 error(s) · 30 warning(s) · 51 info._
 
 Browse inline; image URLs are pinned to the commit SHA on the baseline branch so links keep resolving after merge.
-
-## app
-
-### `Play_Phone_01_HomeLight` · `spec:width=411dp,height=731dp,dpi=320`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Play_Phone_01_HomeLight_play_phone_home_light-27629862.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
-| 2 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
-| 3 | INFO | DuplicateSpeakableTextCheck | android.view.View | This non-clickable item's speakable text: "dashboard-card:grid" is identical to that of 2 other item(s). |
-
-### `Play_Phone_02_HomeDark` · `spec:width=411dp,height=731dp,dpi=320`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Play_Phone_02_HomeDark_play_phone_home_dark-87829c7b.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
-| 2 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
-| 3 | INFO | DuplicateSpeakableTextCheck | android.view.View | This non-clickable item's speakable text: "dashboard-card:grid" is identical to that of 2 other item(s). |
-
-### `Play_Tablet10_01_Home` · `spec:width=800dp,height=1280dp,dpi=224`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Play_Tablet10_01_Home_play_10_inch_home-7ca1827e.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 41dp. Consider making the height of this touch target 48dp or larger. |
-| 2 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 41dp. Consider making the height of this touch target 48dp or larger. |
-| 3 | INFO | DuplicateSpeakableTextCheck | android.view.View | This non-clickable item's speakable text: "dashboard-card:grid" is identical to that of 2 other item(s). |
-
-### `Play_Tablet7_01_Home` · `spec:width=600dp,height=960dp,dpi=240`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Play_Tablet7_01_Home_play_7_inch_home-eb94cb4a.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 43dp. Consider making the height of this touch target 48dp or larger. |
-| 2 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 43dp. Consider making the height of this touch target 48dp or larger. |
-| 3 | INFO | DuplicateSpeakableTextCheck | android.view.View | This non-clickable item's speakable text: "dashboard-card:grid" is identical to that of 1 other item(s). |
-
-### `Screen_DashboardView`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_DashboardView_dashboard_view-c60327e8.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
-| 2 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
-| 3 | INFO | DuplicateSpeakableTextCheck | android.view.View | This non-clickable item's speakable text: "dashboard-card:grid" is identical to that of 2 other item(s). |
-
-### `Screen_DashboardView_PhoneLandscapeMedium`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_DashboardView_PhoneLandscapeMedium_dashboard_view_phone_landscape_medium-8837149f.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
-| 2 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
-
-### `Screen_DashboardView_ThemeStyle`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardView_ThemeStyle_dashboard · theme.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
-| 2 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
-| 3 | INFO | DuplicateSpeakableTextCheck | android.view.View | This non-clickable item's speakable text: "dashboard-card:grid" is identical to that of 2 other item(s). |
 
 ## previews
 
@@ -125,6 +54,48 @@ _No findings._
 
 _No findings._
 
+### `BambuPrintControlAmbiguous_Dark`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/BambuPrintControlAmbiguous_Dark_bambu_print_control_ambiguous_printer_dark-20af75ab.a11y.png" width="400" />
+
+_No findings._
+
+### `BambuPrintControlAmbiguous_Light`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/BambuPrintControlAmbiguous_Light_bambu_print_control_ambiguous_printer_light-7eb18148.a11y.png" width="400" />
+
+_No findings._
+
+### `BambuPrintControlIdle_Light`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/BambuPrintControlIdle_Light_bambu_print_control_idle_light-90996367.a11y.png" width="400" />
+
+_No findings._
+
+### `BambuPrintControlPaused_Light`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/BambuPrintControlPaused_Light_bambu_print_control_paused_light-7ad5f0f3.a11y.png" width="400" />
+
+_No findings._
+
+### `BambuPrintControlUnavailable_Dark`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/BambuPrintControlUnavailable_Dark_bambu_print_control_unavailable_dark-62773b53.a11y.png" width="400" />
+
+| # | Level | Rule | Element | Message |
+|--:|---|---|---|---|
+| 1 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="Pause" | This non-clickable item's speakable text: "Pause" is identical to that of 1 other item(s). |
+| 2 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="Stop" | This non-clickable item's speakable text: "Stop" is identical to that of 1 other item(s). |
+
+### `BambuPrintControlUnavailable_Light`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/BambuPrintControlUnavailable_Light_bambu_print_control_unavailable_light-a9a5173a.a11y.png" width="400" />
+
+| # | Level | Rule | Element | Message |
+|--:|---|---|---|---|
+| 1 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="Pause" | This non-clickable item's speakable text: "Pause" is identical to that of 1 other item(s). |
+| 2 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="Stop" | This non-clickable item's speakable text: "Stop" is identical to that of 1 other item(s). |
+
 ### `BambuPrintControl_Dark`
 
 <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/BambuPrintControl_Dark_bambu_print_control_dark-6396fcec.a11y.png" width="400" />
@@ -134,6 +105,12 @@ _No findings._
 ### `BambuPrintControl_Light`
 
 <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/BambuPrintControl_Light_bambu_print_control_light-7e7d7120.a11y.png" width="400" />
+
+_No findings._
+
+### `BambuPrintStatusAmbiguous_Light`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/BambuPrintStatusAmbiguous_Light_bambu_print_status_ambiguous_printer_light-0e9ce3d0.a11y.png" width="400" />
 
 _No findings._
 
@@ -229,33 +206,6 @@ _No findings._
 
 _No findings._
 
-### `CardPreviewMatrix_Entities`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/CardPreviewMatrix_Entities_matrix_entities-898c466b.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | ERROR | SpeakableTextPresentCheck | androidx.compose.remote.player.view.RemoteComposePlayer | This item may not have a label readable by screen readers. |
-| 2 | ERROR | SpeakableTextPresentCheck | androidx.compose.remote.player.view.RemoteComposePlayer | This item may not have a label readable by screen readers. |
-| 3 | ERROR | SpeakableTextPresentCheck | androidx.compose.remote.player.view.RemoteComposePlayer | This item may not have a label readable by screen readers. |
-| 4 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 33dp. Consider making the height of this touch target 48dp or larger. |
-| 5 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 34dp. Consider making the height of this touch target 48dp or larger. |
-| 6 | WARNING | TouchTargetSizeCheck | android.view.View | This item's height is 34dp. Consider making the height of this touch target 48dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item. |
-| 7 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 34dp. Consider making the height of this touch target 48dp or larger. |
-| 8 | WARNING | TouchTargetSizeCheck | android.view.View | This item's height is 34dp. Consider making the height of this touch target 48dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item. |
-| 9 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 37dp. Consider making the height of this touch target 48dp or larger. |
-| 10 | ERROR | TouchTargetSizeCheck | android.view.View | This item's size is 40dp x 37dp. Consider making this touch target 48dp wide and 48dp high or larger. |
-| 11 | ERROR | TouchTargetSizeCheck | android.view.View | This item's size is 37dp x 37dp. Consider making this touch target 48dp wide and 48dp high or larger. |
-| 12 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 37dp. Consider making the height of this touch target 48dp or larger. |
-| 13 | ERROR | TouchTargetSizeCheck | android.view.View | This item's size is 29dp x 37dp. Consider making this touch target 48dp wide and 48dp high or larger. |
-| 14 | ERROR | TouchTargetSizeCheck | android.view.View | This item's size is 37dp x 37dp. Consider making this touch target 48dp wide and 48dp high or larger. |
-| 15 | ERROR | TouchTargetSizeCheck | android.view.View  desc="Living Room" | This item's height is 32dp. Consider making the height of this touch target 48dp or larger. |
-| 16 | ERROR | TouchTargetSizeCheck | android.view.View  desc="Office lamp" | This item's height is 34dp. Consider making the height of this touch target 48dp or larger. |
-| 17 | ERROR | TouchTargetSizeCheck | android.view.View  desc="Coffee maker" | This item's height is 34dp. Consider making the height of this touch target 48dp or larger. |
-| 18 | ERROR | TouchTargetSizeCheck | android.view.View  desc="Front door" | This item's height is 24dp. Consider making the height of this touch target 48dp or larger. |
-| 19 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Terrazzo slot" is identical to that of 1 other item(s). |
-| 20 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Living Room" is identical to that of 2 other item(s). |
-
 ### `Clock_Dark`
 
 <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Clock_Dark_clock_dark-0e7fa048.a11y.png" width="400" />
@@ -304,168 +254,8 @@ _No findings._
 | 3 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Progress, Progress, 0 %" is identical to that of 2 other item(s). |
 | 4 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Remaining, Remaining, 0 h" is identical to that of 2 other item(s). |
 | 5 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Stage, Stage, Idle" is identical to that of 1 other item(s). |
-| 6 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "A1 mini" is identical to that of 1 other item(s). |
-| 7 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Online, Online, On" is identical to that of 1 other item(s). |
-
-### `DashboardEnergyMobile`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/DashboardEnergyMobile_dashboard_energy_mobile-47191266.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "No samples" is identical to that of 3 other item(s). |
-| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "no data" is identical to that of 3 other item(s). |
-
-### `DashboardEnergyTablet`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/DashboardEnergyTablet_dashboard_energy_tablet-e2041a44.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "No samples" is identical to that of 3 other item(s). |
-| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "no data" is identical to that of 3 other item(s). |
-
-### `DashboardGithubMobile`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/DashboardGithubMobile_dashboard_github_mobile-8f04a7c1.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
-| 2 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
-| 3 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
-| 4 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
-| 5 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
-| 6 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
-| 7 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
-| 8 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
-| 9 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
-| 10 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
-| 11 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
-| 12 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
-| 13 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
-| 14 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
-| 15 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
-| 16 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 33dp. Consider making the height of this touch target 48dp or larger. |
-| 17 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 18dp. Consider making the height of this touch target 48dp or larger. |
-| 18 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 33dp. Consider making the height of this touch target 48dp or larger. |
-| 19 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 18dp. Consider making the height of this touch target 48dp or larger. |
-| 20 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 18dp. Consider making the height of this touch target 48dp or larger. |
-| 21 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 18dp. Consider making the height of this touch target 48dp or larger. |
-| 22 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 36dp. Consider making the height of this touch target 48dp or larger. |
-| 23 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 18dp. Consider making the height of this touch target 48dp or larger. |
-| 24 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 18dp. Consider making the height of this touch target 48dp or larger. |
-| 25 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "no recent commit data" is identical to that of 1 other item(s). |
-| 26 | WARNING | DuplicateSpeakableTextCheck | android.widget.Button | This clickable item's speakable text: "homeassistant-remotecompose" is identical to that of 1 other item(s). |
-| 27 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "No samples" is identical to that of 3 other item(s). |
-| 28 | WARNING | DuplicateSpeakableTextCheck | android.widget.Button | This clickable item's speakable text: "meshcore-mobile" is identical to that of 1 other item(s). |
-| 29 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "no data" is identical to that of 3 other item(s). |
-| 30 | WARNING | DuplicateSpeakableTextCheck | android.widget.Button | This clickable item's speakable text: "compose-ai-tools" is identical to that of 1 other item(s). |
-
-### `DashboardGithubTablet`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/DashboardGithubTablet_dashboard_github_tablet-89194c99.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
-| 2 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
-| 3 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
-| 4 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
-| 5 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
-| 6 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
-| 7 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
-| 8 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
-| 9 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
-| 10 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
-| 11 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
-| 12 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
-| 13 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
-| 14 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
-| 15 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
-| 16 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
-| 17 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
-| 18 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
-| 19 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
-| 20 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
-| 21 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 33dp. Consider making the height of this touch target 48dp or larger. |
-| 22 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 18dp. Consider making the height of this touch target 48dp or larger. |
-| 23 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 18dp. Consider making the height of this touch target 48dp or larger. |
-| 24 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 18dp. Consider making the height of this touch target 48dp or larger. |
-| 25 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 18dp. Consider making the height of this touch target 48dp or larger. |
-| 26 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 18dp. Consider making the height of this touch target 48dp or larger. |
-| 27 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 18dp. Consider making the height of this touch target 48dp or larger. |
-| 28 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 33dp. Consider making the height of this touch target 48dp or larger. |
-| 29 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 18dp. Consider making the height of this touch target 48dp or larger. |
-| 30 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 36dp. Consider making the height of this touch target 48dp or larger. |
-| 31 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 18dp. Consider making the height of this touch target 48dp or larger. |
-| 32 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 18dp. Consider making the height of this touch target 48dp or larger. |
-| 33 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "no recent commit data" is identical to that of 3 other item(s). |
-| 34 | WARNING | DuplicateSpeakableTextCheck | android.widget.Button | This clickable item's speakable text: "homeassistant-remotecompose" is identical to that of 1 other item(s). |
-| 35 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "No samples" is identical to that of 3 other item(s). |
-| 36 | WARNING | DuplicateSpeakableTextCheck | android.widget.Button | This clickable item's speakable text: "meshcore-mobile" is identical to that of 1 other item(s). |
-| 37 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Latest PR, Latest PR, Unavailable" is identical to that of 1 other item(s). |
-| 38 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "no data" is identical to that of 3 other item(s). |
-| 39 | WARNING | DuplicateSpeakableTextCheck | android.widget.Button | This clickable item's speakable text: "compose-ai-tools" is identical to that of 1 other item(s). |
-| 40 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Open PRs, Open PRs, 0 pull requests" is identical to that of 1 other item(s). |
-| 41 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Open issues, Open issues, 2 issues" is identical to that of 1 other item(s). |
-| 42 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Latest release, Latest release, V0.1.2" is identical to that of 1 other item(s). |
-| 43 | WARNING | DuplicateSpeakableTextCheck | android.widget.Button | This clickable item's speakable text: "cadence" is identical to that of 1 other item(s). |
-| 44 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Latest tag, Latest tag, V0.1.2" is identical to that of 1 other item(s). |
-
-### `DashboardMeshcoreMobile`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/DashboardMeshcoreMobile_dashboard_meshcore_mobile-30d7121c.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: ", " is identical to that of 3 other item(s). |
-
-### `DashboardMeshcoreTablet`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/DashboardMeshcoreTablet_dashboard_meshcore_tablet-e5c71810.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: ", " is identical to that of 2 other item(s). |
-
-### `DashboardNetworksMobile`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/DashboardNetworksMobile_dashboard_networks_mobile-d5ee47c2.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "No samples" is identical to that of 1 other item(s). |
-| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "no data" is identical to that of 1 other item(s). |
-| 3 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "iPhone, iPhone, Not home" is identical to that of 2 other item(s). |
-
-### `DashboardNetworksTablet`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/DashboardNetworksTablet_dashboard_networks_tablet-fbca9889.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "No samples" is identical to that of 1 other item(s). |
-| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "no data" is identical to that of 1 other item(s). |
-| 3 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "iPhone, iPhone, Not home" is identical to that of 2 other item(s). |
-
-### `DashboardSecurityMobile`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/DashboardSecurityMobile_dashboard_security_mobile-842e09ef.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
-| 2 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
-
-### `DashboardSecurityTablet`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/DashboardSecurityTablet_dashboard_security_tablet-d081c9e6.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
-| 2 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
+| 6 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Online, Online, On" is identical to that of 1 other item(s). |
+| 7 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "P2S Kodu" is identical to that of 1 other item(s). |
 
 ### `Dashboard_Dark`
 
@@ -488,48 +278,6 @@ _No findings._
 | 2 | WARNING | TouchTargetSizeCheck | android.view.View | This item's height is 34dp. Consider making the height of this touch target 48dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item. |
 | 3 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Living Room, Living Room, 21.4 °C" is identical to that of 1 other item(s). |
 | 4 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Kitchen, Kitchen, On" is identical to that of 1 other item(s). |
-
-### `Entities_Availability_Dark`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Entities_Availability_Dark_entities_availability_dark-63decfae.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 34dp. Consider making the height of this touch target 48dp or larger. |
-| 2 | WARNING | TouchTargetSizeCheck | android.view.View | This item's height is 34dp. Consider making the height of this touch target 48dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item. |
-| 3 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 34dp. Consider making the height of this touch target 48dp or larger. |
-| 4 | WARNING | TouchTargetSizeCheck | android.view.View | This item's height is 34dp. Consider making the height of this touch target 48dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item. |
-| 5 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 34dp. Consider making the height of this touch target 48dp or larger. |
-| 6 | WARNING | TouchTargetSizeCheck | android.view.View | This item's height is 34dp. Consider making the height of this touch target 48dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item. |
-| 7 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 34dp. Consider making the height of this touch target 48dp or larger. |
-| 8 | WARNING | TouchTargetSizeCheck | android.view.View | This item's height is 34dp. Consider making the height of this touch target 48dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item. |
-| 9 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 34dp. Consider making the height of this touch target 48dp or larger. |
-| 10 | WARNING | TouchTargetSizeCheck | android.view.View | This item's height is 34dp. Consider making the height of this touch target 48dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item. |
-| 11 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 34dp. Consider making the height of this touch target 48dp or larger. |
-| 12 | WARNING | TouchTargetSizeCheck | android.view.View | This item's height is 34dp. Consider making the height of this touch target 48dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item. |
-| 13 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 34dp. Consider making the height of this touch target 48dp or larger. |
-| 14 | WARNING | TouchTargetSizeCheck | android.view.View | This item's height is 34dp. Consider making the height of this touch target 48dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item. |
-
-### `Entities_Availability_Light`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Entities_Availability_Light_entities_availability_light-351a13c0.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 34dp. Consider making the height of this touch target 48dp or larger. |
-| 2 | WARNING | TouchTargetSizeCheck | android.view.View | This item's height is 34dp. Consider making the height of this touch target 48dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item. |
-| 3 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 34dp. Consider making the height of this touch target 48dp or larger. |
-| 4 | WARNING | TouchTargetSizeCheck | android.view.View | This item's height is 34dp. Consider making the height of this touch target 48dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item. |
-| 5 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 34dp. Consider making the height of this touch target 48dp or larger. |
-| 6 | WARNING | TouchTargetSizeCheck | android.view.View | This item's height is 34dp. Consider making the height of this touch target 48dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item. |
-| 7 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 34dp. Consider making the height of this touch target 48dp or larger. |
-| 8 | WARNING | TouchTargetSizeCheck | android.view.View | This item's height is 34dp. Consider making the height of this touch target 48dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item. |
-| 9 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 34dp. Consider making the height of this touch target 48dp or larger. |
-| 10 | WARNING | TouchTargetSizeCheck | android.view.View | This item's height is 34dp. Consider making the height of this touch target 48dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item. |
-| 11 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 34dp. Consider making the height of this touch target 48dp or larger. |
-| 12 | WARNING | TouchTargetSizeCheck | android.view.View | This item's height is 34dp. Consider making the height of this touch target 48dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item. |
-| 13 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 34dp. Consider making the height of this touch target 48dp or larger. |
-| 14 | WARNING | TouchTargetSizeCheck | android.view.View | This item's height is 34dp. Consider making the height of this touch target 48dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item. |
 
 ### `Entities_Dark`
 
@@ -586,14 +334,6 @@ _No findings._
 <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Gauge_Light_gauge_light-d907576b.a11y.png" width="400" />
 
 _No findings._
-
-### `Glance_Availability_Light`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Glance_Availability_Light_glance_availability_light-99a3b559.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's width is 47dp. Consider making the width of this touch target 48dp or larger. |
 
 ### `Glance_Dark`
 
@@ -893,18 +633,6 @@ _No findings._
 
 _No findings._
 
-### `Tiles_Availability_Dark`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Tiles_Availability_Dark_tiles_availability_dark-c0e64dff.a11y.png" width="400" />
-
-_No findings._
-
-### `Tiles_Availability_Light`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Tiles_Availability_Light_tiles_availability_light-052c5b12.a11y.png" width="400" />
-
-_No findings._
-
 ### `TodoList_Dark`
 
 <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/TodoList_Dark_todo_list_dark-dc0ab987.a11y.png" width="400" />
@@ -979,12 +707,16 @@ _No findings._
 | 9 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="Pressure" | This non-clickable item's speakable text: "Pressure" is identical to that of 1 other item(s). |
 | 10 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Fri" is identical to that of 1 other item(s). |
 
-## tv
+## wear
 
-### `TvKioskPreview_Live`
+### `WearBambuPrintControlLarge`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/tv/TvKioskPreview_Live_TV_kiosk_live-7c5c8e30.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/wear/WearBambuPrintControlLarge_wear_bambu_print_control_large-bc1b37ba.a11y.png" width="400" />
 
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "578" is identical to that of 1 other item(s). |
+_No findings._
+
+### `WearBambuPrintStatusLarge`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/wear/WearBambuPrintStatusLarge_wear_bambu_print_status_large-a4d2344d.a11y.png" width="400" />
+
+_No findings._
