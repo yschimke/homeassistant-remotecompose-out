@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-17T06:30:40.482Z",
+  "generatedAt": "2026-10-17T06:41:01.481Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "43a6add201b4a3733aafda440a1644adc8bc4387",
+        "subject": "feat(dashboard): sections lay out their cards by harc's designs, in HA's order (#866)",
+        "at": "2026-10-17T07:26:41+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "ae3d61b5964a2d15eece55b3e54f1777bad105dd",
         "subject": "fix(cards): lay grid cards out in columns that wrap, and honour aspect_ratio (#841)",
@@ -474,14 +482,6 @@
         "sha": "ace0fa069d21ef99ea18ca3a160c0bb26dc409ec",
         "subject": "fix(deps): update compose-ai-tools (#799)",
         "at": "2026-10-14T16:14:53Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "92f0c96caa9d599c32ff91d67d105f1a4a506443",
-        "subject": "fix(deps): update dependency ee.schimke.composeai:data-render-core to v3.32.0 (#802)",
-        "at": "2026-10-14T16:14:48Z",
         "author": "renovate[bot]",
         "previewIds": [],
         "components": []
