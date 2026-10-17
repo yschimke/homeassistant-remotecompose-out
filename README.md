@@ -1,10 +1,30 @@
 # Accessibility Report
 
-_Auto-generated from `compose-preview/a11y/pr`. 19 preview(s) across 1 module(s) · 27 error(s) · 23 warning(s) · 10 info._
+_Auto-generated from `compose-preview/a11y/pr`. 31 preview(s) across 1 module(s) · 95 error(s) · 32 warning(s) · 40 info._
 
 Browse inline; image URLs are pinned to the commit SHA on the baseline branch so links keep resolving after merge.
 
 ## previews
+
+### `Dashboard3dPrintingMobile`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Dashboard3dPrintingMobile_dashboard_3d_printing_mobile-2701c9cf.png" width="400" />
+
+_No findings._
+
+### `Dashboard3dPrintingTablet`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Dashboard3dPrintingTablet_dashboard_3d_printing_tablet-d15705fe.a11y.png" width="400" />
+
+| # | Level | Rule | Element | Message |
+|--:|---|---|---|---|
+| 1 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Status, Status, Idle" is identical to that of 1 other item(s). |
+| 2 | INFO | DuplicateSpeakableTextCheck | android.view.View | This non-clickable item's speakable text: "Idle" is identical to that of 1 other item(s). |
+| 3 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Progress, Progress, 0 %" is identical to that of 1 other item(s). |
+| 4 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Remaining, Remaining, 0 h" is identical to that of 1 other item(s). |
+| 5 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Stage, Stage, Idle" is identical to that of 1 other item(s). |
+| 6 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "🖨️ P2s" is identical to that of 1 other item(s). |
+| 7 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Online, Online, On" is identical to that of 1 other item(s). |
 
 ### `DashboardClimateMobile`
 
@@ -12,10 +32,7 @@ Browse inline; image URLs are pinned to the commit SHA on the baseline branch so
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Target temperature −" is identical to that of 2 other item(s). |
-| 2 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Off" is identical to that of 2 other item(s). |
-| 3 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Target temperature +" is identical to that of 2 other item(s). |
-| 4 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Heat" is identical to that of 2 other item(s). |
+| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Humidity" is identical to that of 1 other item(s). |
 
 ### `DashboardClimateTablet`
 
@@ -23,10 +40,54 @@ Browse inline; image URLs are pinned to the commit SHA on the baseline branch so
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Target temperature −" is identical to that of 2 other item(s). |
-| 2 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Off" is identical to that of 2 other item(s). |
-| 3 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Target temperature +" is identical to that of 2 other item(s). |
-| 4 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Heat" is identical to that of 2 other item(s). |
+| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Humidity" is identical to that of 1 other item(s). |
+
+### `DashboardEnergyMobile`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/DashboardEnergyMobile_dashboard_energy_mobile-47191266.a11y.png" width="400" />
+
+_No findings._
+
+### `DashboardEnergyTablet`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/DashboardEnergyTablet_dashboard_energy_tablet-e2041a44.a11y.png" width="400" />
+
+_No findings._
+
+### `DashboardGithubMobile`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/DashboardGithubMobile_dashboard_github_mobile-8f04a7c1.a11y.png" width="400" />
+
+| # | Level | Rule | Element | Message |
+|--:|---|---|---|---|
+| 1 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
+| 2 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
+| 3 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
+| 4 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
+| 5 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
+| 6 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
+| 7 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
+| 8 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
+| 9 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
+| 10 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
+| 11 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
+| 12 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
+| 13 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
+| 14 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
+| 15 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
+| 16 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 33dp. Consider making the height of this touch target 48dp or larger. |
+| 17 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 18dp. Consider making the height of this touch target 48dp or larger. |
+| 18 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 33dp. Consider making the height of this touch target 48dp or larger. |
+| 19 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 18dp. Consider making the height of this touch target 48dp or larger. |
+| 20 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 18dp. Consider making the height of this touch target 48dp or larger. |
+| 21 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 18dp. Consider making the height of this touch target 48dp or larger. |
+| 22 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 36dp. Consider making the height of this touch target 48dp or larger. |
+| 23 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 18dp. Consider making the height of this touch target 48dp or larger. |
+| 24 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 18dp. Consider making the height of this touch target 48dp or larger. |
+| 25 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "no recent commit data" is identical to that of 1 other item(s). |
+| 26 | WARNING | DuplicateSpeakableTextCheck | android.widget.Button | This clickable item's speakable text: "homeassistant-remotecompose" is identical to that of 1 other item(s). |
+| 27 | WARNING | DuplicateSpeakableTextCheck | android.widget.Button | This clickable item's speakable text: "meshcore-mobile" is identical to that of 1 other item(s). |
+| 28 | WARNING | DuplicateSpeakableTextCheck | android.widget.Button | This clickable item's speakable text: "compose-ai-tools" is identical to that of 1 other item(s). |
 
 ### `DashboardGithubTablet`
 
@@ -80,19 +141,31 @@ Browse inline; image URLs are pinned to the commit SHA on the baseline branch so
 | 3 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 32dp. Consider making the height of this touch target 48dp or larger. |
 | 4 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 32dp. Consider making the height of this touch target 48dp or larger. |
 
+### `DashboardNetworksMobile`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/DashboardNetworksMobile_dashboard_networks_mobile-d5ee47c2.a11y.png" width="400" />
+
+| # | Level | Rule | Element | Message |
+|--:|---|---|---|---|
+| 1 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "iPhone, iPhone, Not home" is identical to that of 2 other item(s). |
+
+### `DashboardNetworksTablet`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/DashboardNetworksTablet_dashboard_networks_tablet-fbca9889.a11y.png" width="400" />
+
+| # | Level | Rule | Element | Message |
+|--:|---|---|---|---|
+| 1 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "iPhone, iPhone, Not home" is identical to that of 2 other item(s). |
+
 ### `DashboardSectionCardGridMobile`
 
 <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/DashboardSectionCardGridMobile_dashboard_section_card_grid_mobile-a90a06a6.a11y.png" width="400" />
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Target temperature −" is identical to that of 2 other item(s). |
-| 2 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Off" is identical to that of 2 other item(s). |
-| 3 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Outside · Upstairs · Downstairs · Kitchen" is identical to that of 1 other item(s). |
-| 4 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Humidity" is identical to that of 1 other item(s). |
-| 5 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Target temperature +" is identical to that of 2 other item(s). |
-| 6 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "No history in the last 2 days" is identical to that of 1 other item(s). |
-| 7 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Heat" is identical to that of 2 other item(s). |
+| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Outside · Upstairs · Downstairs · Kitchen" is identical to that of 1 other item(s). |
+| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Humidity" is identical to that of 1 other item(s). |
+| 3 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "No history in the last 2 days" is identical to that of 1 other item(s). |
 
 ### `DashboardSectionCardGridTablet`
 
@@ -100,13 +173,9 @@ Browse inline; image URLs are pinned to the commit SHA on the baseline branch so
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Target temperature −" is identical to that of 2 other item(s). |
-| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "No history in the last 2 days" is identical to that of 1 other item(s). |
-| 3 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Heat" is identical to that of 2 other item(s). |
-| 4 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Off" is identical to that of 2 other item(s). |
-| 5 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Outside · Upstairs · Downstairs · Kitchen" is identical to that of 1 other item(s). |
-| 6 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Humidity" is identical to that of 1 other item(s). |
-| 7 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Target temperature +" is identical to that of 2 other item(s). |
+| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Outside · Upstairs · Downstairs · Kitchen" is identical to that of 1 other item(s). |
+| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Humidity" is identical to that of 1 other item(s). |
+| 3 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "No history in the last 2 days" is identical to that of 1 other item(s). |
 
 ### `DashboardSectionsSpanOneTablet`
 
@@ -114,13 +183,9 @@ Browse inline; image URLs are pinned to the commit SHA on the baseline branch so
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Target temperature −" is identical to that of 2 other item(s). |
-| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "No history in the last 2 days" is identical to that of 1 other item(s). |
-| 3 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Heat" is identical to that of 2 other item(s). |
-| 4 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Off" is identical to that of 2 other item(s). |
-| 5 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Outside · Upstairs · Downstairs · Kitchen" is identical to that of 1 other item(s). |
-| 6 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Humidity" is identical to that of 1 other item(s). |
-| 7 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Target temperature +" is identical to that of 2 other item(s). |
+| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Outside · Upstairs · Downstairs · Kitchen" is identical to that of 1 other item(s). |
+| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Humidity" is identical to that of 1 other item(s). |
+| 3 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "No history in the last 2 days" is identical to that of 1 other item(s). |
 
 ### `DashboardSecurityMobile`
 
@@ -128,62 +193,192 @@ Browse inline; image URLs are pinned to the commit SHA on the baseline branch so
 
 _No findings._
 
-### `Tile_Climate_Heating_Features`
+### `DashboardSecurityTablet`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Tile_Climate_Heating_Features_tile_climate_heating_features-b3865d14.a11y.png" width="400" />
-
-_No findings._
-
-### `Tile_Climate_Heating_Features_Dark`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Tile_Climate_Heating_Features_Dark_tile_climate_heating_features_dark-f1d1e8e2.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/DashboardSecurityTablet_dashboard_security_tablet-d081c9e6.a11y.png" width="400" />
 
 _No findings._
 
-### `Tile_Climate_Idle_Features`
+### `DashboardView3dPrintingA1MiniMobile`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Tile_Climate_Idle_Features_tile_climate_idle_features-6708b40c.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/DashboardView3dPrintingA1MiniMobile_dashboard_3d_printing_view_3_A1_Mini_mobile-5ea13cad.a11y.png" width="400" />
+
+| # | Level | Rule | Element | Message |
+|--:|---|---|---|---|
+| 1 | INFO | DuplicateSpeakableTextCheck | android.view.View | This non-clickable item's speakable text: "Idle" is identical to that of 1 other item(s). |
+| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "A1 mini" is identical to that of 1 other item(s). |
+
+### `DashboardView3dPrintingFilamentMobile`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/DashboardView3dPrintingFilamentMobile_dashboard_3d_printing_view_4_Filament_mobi-3b5ad5f4.a11y.png" width="400" />
+
+| # | Level | Rule | Element | Message |
+|--:|---|---|---|---|
+| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Generic PLA" is identical to that of 3 other item(s). |
+| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Empty" is identical to that of 3 other item(s). |
+| 3 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Bambu PLA Basic" is identical to that of 1 other item(s). |
+| 4 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "AMS" is identical to that of 1 other item(s). |
+| 5 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Slot 1" is identical to that of 1 other item(s). |
+| 6 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "AMS active, AMS active, Off" is identical to that of 1 other item(s). |
+| 7 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "External spool, External spool, Off" is identical to that of 1 other item(s). |
+| 8 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "-1 %" is identical to that of 3 other item(s). |
+| 9 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "100 %" is identical to that of 5 other item(s). |
+
+### `DashboardView3dPrintingFilamentTablet`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/DashboardView3dPrintingFilamentTablet_dashboard_3d_printing_view_4_Filament_tabl-09a2b0b7.a11y.png" width="400" />
+
+| # | Level | Rule | Element | Message |
+|--:|---|---|---|---|
+| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Generic PLA" is identical to that of 3 other item(s). |
+| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Empty" is identical to that of 3 other item(s). |
+| 3 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Bambu PLA Basic" is identical to that of 1 other item(s). |
+| 4 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "AMS" is identical to that of 1 other item(s). |
+| 5 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Slot 1" is identical to that of 1 other item(s). |
+| 6 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "AMS active, AMS active, Off" is identical to that of 1 other item(s). |
+| 7 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "External spool, External spool, Off" is identical to that of 1 other item(s). |
+| 8 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "-1 %" is identical to that of 3 other item(s). |
+| 9 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "100 %" is identical to that of 5 other item(s). |
+
+### `DashboardView3dPrintingP2sMobile`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/DashboardView3dPrintingP2sMobile_dashboard_3d_printing_view_2_P2s_mobile-7506075a.a11y.png" width="400" />
+
+| # | Level | Rule | Element | Message |
+|--:|---|---|---|---|
+| 1 | INFO | DuplicateSpeakableTextCheck | android.view.View | This non-clickable item's speakable text: "Idle" is identical to that of 1 other item(s). |
+| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "A1 mini" is identical to that of 1 other item(s). |
+
+### `DashboardView3dPrintingP2sTablet`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/DashboardView3dPrintingP2sTablet_dashboard_3d_printing_view_2_P2s_tablet-91c638ec.a11y.png" width="400" />
+
+| # | Level | Rule | Element | Message |
+|--:|---|---|---|---|
+| 1 | INFO | DuplicateSpeakableTextCheck | android.view.View | This non-clickable item's speakable text: "Idle" is identical to that of 1 other item(s). |
+| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "A1 mini" is identical to that of 1 other item(s). |
+
+### `DashboardView3dPrintingPrintersMobile`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/DashboardView3dPrintingPrintersMobile_dashboard_3d_printing_view_1_Printers_mobi-ea1de9f9.a11y.png" width="400" />
+
+| # | Level | Rule | Element | Message |
+|--:|---|---|---|---|
+| 1 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Stage, Stage, Idle" is identical to that of 1 other item(s). |
+| 2 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Status, Status, Idle" is identical to that of 1 other item(s). |
+| 3 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Online, Online, On" is identical to that of 1 other item(s). |
+| 4 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Progress, Progress, 0 %" is identical to that of 1 other item(s). |
+| 5 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Remaining, Remaining, 0 h" is identical to that of 1 other item(s). |
+
+### `DashboardViewClimateHomeMobile`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/DashboardViewClimateHomeMobile_dashboard_climate_view_1_Home_mobile-a5e725cc.a11y.png" width="400" />
+
+| # | Level | Rule | Element | Message |
+|--:|---|---|---|---|
+| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Outside · Upstairs · Downstairs · Kitchen" is identical to that of 1 other item(s). |
+| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Humidity" is identical to that of 1 other item(s). |
+| 3 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "No history in the last 2 days" is identical to that of 1 other item(s). |
+
+### `DashboardViewEnergyOverviewMobile`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/DashboardViewEnergyOverviewMobile_dashboard_energy_view_1_Overview_mobile-efd95fc9.a11y.png" width="400" />
 
 _No findings._
 
-### `Tile_Climate_Idle_Features_Dark`
+### `DashboardViewEnergySunMobile`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Tile_Climate_Idle_Features_Dark_tile_climate_idle_features_dark-ac6cbf1e.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/DashboardViewEnergySunMobile_dashboard_energy_view_2_Sun_mobile-9e92f25b.a11y.png" width="400" />
 
-_No findings._
+| # | Level | Rule | Element | Message |
+|--:|---|---|---|---|
+| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "…" is identical to that of 1 other item(s). |
 
-### `Tile_Color_Blue`
+### `DashboardViewGithubProjectsMobile`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Tile_Color_Blue_tile_colour_blue-b452d2ed.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/DashboardViewGithubProjectsMobile_dashboard_github_view_1_Projects_mobile-266d311b.a11y.png" width="400" />
 
-_No findings._
+| # | Level | Rule | Element | Message |
+|--:|---|---|---|---|
+| 1 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
+| 2 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
+| 3 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
+| 4 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
+| 5 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
+| 6 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
+| 7 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
+| 8 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
+| 9 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
+| 10 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
+| 11 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
+| 12 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
+| 13 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
+| 14 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
+| 15 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
+| 16 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
+| 17 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
+| 18 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
+| 19 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
+| 20 | ERROR | SpeakableTextPresentCheck | android.widget.Button | This item may not have a label readable by screen readers. |
+| 21 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 33dp. Consider making the height of this touch target 48dp or larger. |
+| 22 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 18dp. Consider making the height of this touch target 48dp or larger. |
+| 23 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 33dp. Consider making the height of this touch target 48dp or larger. |
+| 24 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 18dp. Consider making the height of this touch target 48dp or larger. |
+| 25 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 18dp. Consider making the height of this touch target 48dp or larger. |
+| 26 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 18dp. Consider making the height of this touch target 48dp or larger. |
+| 27 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 36dp. Consider making the height of this touch target 48dp or larger. |
+| 28 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 18dp. Consider making the height of this touch target 48dp or larger. |
+| 29 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 18dp. Consider making the height of this touch target 48dp or larger. |
+| 30 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 18dp. Consider making the height of this touch target 48dp or larger. |
+| 31 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 18dp. Consider making the height of this touch target 48dp or larger. |
+| 32 | ERROR | TouchTargetSizeCheck | android.widget.Button | This item's height is 18dp. Consider making the height of this touch target 48dp or larger. |
+| 33 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "no recent commit data" is identical to that of 3 other item(s). |
+| 34 | WARNING | DuplicateSpeakableTextCheck | android.widget.Button | This clickable item's speakable text: "homeassistant-remotecompose" is identical to that of 1 other item(s). |
+| 35 | WARNING | DuplicateSpeakableTextCheck | android.widget.Button | This clickable item's speakable text: "meshcore-mobile" is identical to that of 1 other item(s). |
+| 36 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Latest PR, Latest PR, Unavailable" is identical to that of 1 other item(s). |
+| 37 | WARNING | DuplicateSpeakableTextCheck | android.widget.Button | This clickable item's speakable text: "compose-ai-tools" is identical to that of 1 other item(s). |
+| 38 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Open PRs, Open PRs, 0 pull requests" is identical to that of 1 other item(s). |
+| 39 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Open issues, Open issues, 2 issues" is identical to that of 1 other item(s). |
+| 40 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Latest release, Latest release, V0.1.2" is identical to that of 1 other item(s). |
+| 41 | WARNING | DuplicateSpeakableTextCheck | android.widget.Button | This clickable item's speakable text: "cadence" is identical to that of 1 other item(s). |
+| 42 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Latest tag, Latest tag, V0.1.2" is identical to that of 1 other item(s). |
 
-### `Tile_Color_Blue_Dark`
+### `DashboardViewMeshcoreControlsMobile`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Tile_Color_Blue_Dark_tile_colour_blue_dark-d280dd42.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/DashboardViewMeshcoreControlsMobile_dashboard_meshcore_view_4_Controls_mobile-c76ed086.a11y.png" width="400" />
 
-_No findings._
+| # | Level | Rule | Element | Message |
+|--:|---|---|---|---|
+| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 32dp. Consider making the height of this touch target 48dp or larger. |
+| 2 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 32dp. Consider making the height of this touch target 48dp or larger. |
+| 3 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 32dp. Consider making the height of this touch target 48dp or larger. |
+| 4 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 32dp. Consider making the height of this touch target 48dp or larger. |
+| 5 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 32dp. Consider making the height of this touch target 48dp or larger. |
 
-### `Tile_LightOn`
+### `DashboardViewMeshcoreOverviewMobile`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Tile_LightOn_tile_light_on-724ad2fe.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/DashboardViewMeshcoreOverviewMobile_dashboard_meshcore_view_1_Overview_mobile-49f1bca6.a11y.png" width="400" />
 
-_No findings._
+| # | Level | Rule | Element | Message |
+|--:|---|---|---|---|
+| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 32dp. Consider making the height of this touch target 48dp or larger. |
+| 2 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 32dp. Consider making the height of this touch target 48dp or larger. |
+| 3 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 32dp. Consider making the height of this touch target 48dp or larger. |
+| 4 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 32dp. Consider making the height of this touch target 48dp or larger. |
+| 5 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Contact, Contact, Stale" is identical to that of 1 other item(s). |
 
-### `Tile_LightOn_Dark`
+### `DashboardViewMeshcoreRoomServerMobile`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Tile_LightOn_Dark_tile_light_on_dark-3df73fdf.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/DashboardViewMeshcoreRoomServerMobile_dashboard_meshcore_view_3_Room_Server_mobi-76b5c26e.a11y.png" width="400" />
 
-_No findings._
+| # | Level | Rule | Element | Message |
+|--:|---|---|---|---|
+| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 32dp. Consider making the height of this touch target 48dp or larger. |
+| 2 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 32dp. Consider making the height of this touch target 48dp or larger. |
+| 3 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 32dp. Consider making the height of this touch target 48dp or larger. |
 
-### `Tile_TemperatureSensor`
+### `DashboardViewMeshcoreSolarRepeaterMobile`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Tile_TemperatureSensor_tile_sensor_temperature-f2f597a3.a11y.png" width="400" />
-
-_No findings._
-
-### `Tile_TemperatureSensor_Dark`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Tile_TemperatureSensor_Dark_tile_sensor_temperature_dark-970dc699.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/DashboardViewMeshcoreSolarRepeaterMobile_dashboard_meshcore_view_2_Solar_Repeate-27a5d9ad.a11y.png" width="400" />
 
 _No findings._
