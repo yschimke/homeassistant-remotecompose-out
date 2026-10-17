@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-17T17:59:36.874Z",
+  "generatedAt": "2026-10-17T19:33:37.169Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "5d64f1f50ce37f58cc2c929e7e70312caa6b47d2",
+        "subject": "fix(wear): sync card styles and improve widget quality (#836)",
+        "at": "2026-10-17T20:27:45+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "f813ade6bf7f830a3d7e00c530f588fa23662563",
+        "subject": "fix(cards): keep neighbouring touch targets from overlapping (#892)",
+        "at": "2026-10-17T20:08:49+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "6026b677615980f41653291b654943ea6ed57cac",
         "subject": "fix(deps): update compose-ai-tools (#826)",
@@ -466,22 +482,6 @@
         "sha": "d73fcda1a0c297d28af9daa6710edab937a1653e",
         "subject": "feat(design-server): editable .uid source for every library design (#831)",
         "at": "2026-10-16T07:53:50+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "4459268b0051be0197e94f9c1bbcc4d8356b309c",
-        "subject": "feat: card designs made for one kind of device (#830)",
-        "at": "2026-10-16T01:34:21+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "539edb9b7e886be2f0388de56fe821c40cce9b99",
-        "subject": "feat: card style overrides, agent-edited dashboards, and published user designs (#829)",
-        "at": "2026-10-16T00:43:25+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
