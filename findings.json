@@ -1,6 +1,46 @@
 {
   "entries": [
     {
+      "annotatedBasename": "DashboardClimateTablet_dashboard_climate_tablet-456c7098.a11y.png",
+      "cleanBasename": "DashboardClimateTablet_dashboard_climate_tablet-456c7098.png",
+      "findings": [
+        {
+          "boundsInScreen": "300,2894,778,2941",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"No history in the last 2 days\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "300,2957,899,2994",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"Outside \u00b7 Upstairs \u00b7 Downstairs \u00b7 Kitchen\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "330,674,434,704",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"Humidity\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "1061,395,1112,432",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"777\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        }
+      ],
+      "functionName": "DashboardClimateTablet",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardClimateTablet_dashboard climate \u2014 tablet",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/DashboardPreviews.kt",
+      "variant": ""
+    },
+    {
       "annotatedBasename": "Entities_Availability_Dark_entities_availability_dark-63decfae.a11y.png",
       "cleanBasename": "Entities_Availability_Dark_entities_availability_dark-63decfae.png",
       "findings": [
@@ -668,10 +708,6 @@
     {
       "module": "previews",
       "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardClimateMobile_dashboard climate \u2014 mobile"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardClimateTablet_dashboard climate \u2014 tablet"
     },
     {
       "module": "previews",
