@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-17T21:03:43.687Z",
+  "generatedAt": "2026-10-17T23:14:57.026Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "a15cde8e10ee0765763df50624a7c22a3d4451b3",
+        "subject": "chore(deps): update python docker tag to v3.15.0 (#884)",
+        "at": "2026-10-17T22:37:40Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "90a1e86be946ce1f2e2a3bbc7f7e79d2a5bc9e97",
+        "subject": "chore(deps): update actions/setup-python action to v7 (#885)",
+        "at": "2026-10-17T22:37:37Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "53e31ae45dd9143eb59db6ce118b9b0ebe30d7e6",
         "subject": "fix(previews): label the launcher-widget player with its card's name (#893)",
@@ -466,22 +482,6 @@
         "sha": "540a8b8c5b8102f6f2301cf50a8d4b352995bc3f",
         "subject": "feat(ha-cards): preview every card on Wear, the launcher and app widths (#835)",
         "at": "2026-10-16T17:15:25+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "0550815a6bf1b11902551da3817fda75be160b75",
-        "subject": "feat(embed): ha-card finds its own design when given only a card (#833)",
-        "at": "2026-10-16T11:26:38+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "007c52d58d970c50761a2e37061ed7f5d94e05f6",
-        "subject": "feat: resolve any card to its library design; launcher widgets take the card style (#832)",
-        "at": "2026-10-16T10:19:04+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
