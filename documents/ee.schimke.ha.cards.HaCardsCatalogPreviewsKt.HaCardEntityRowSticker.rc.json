@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 513,
         "densityAtGeneration": 2.625,
-        "byteLength": 1422
+        "byteLength": 1398
     },
     "operations": [
         {
@@ -118,11 +118,6 @@
                                     "text": "21.5 °C"
                                 },
                                 {
-                                    "type": "ColorConstant",
-                                    "color": "0xff8f8f8f",
-                                    "colorId": 51
-                                },
-                                {
                                     "$tags": [
                                         "MODIFIER"
                                     ],
@@ -173,7 +168,29 @@
                                                 "MODIFIER"
                                             ],
                                             "type": "ComponentModifiers",
-                                            "modifiers": []
+                                            "modifiers": [
+                                                {
+                                                    "$tags": [
+                                                        "MODIFIER"
+                                                    ],
+                                                    "type": "WidthModifierOperation",
+                                                    "width": [
+                                                        1.0,
+                                                        1.0
+                                                    ],
+                                                    "dimensionModifierType": "WEIGHT"
+                                                },
+                                                {
+                                                    "$tags": [
+                                                        "MODIFIER"
+                                                    ],
+                                                    "type": "PaddingModifierOperation",
+                                                    "left": 0.0,
+                                                    "top": 0.0,
+                                                    "right": 21.0,
+                                                    "bottom": 0.0
+                                                }
+                                            ]
                                         },
                                         {
                                             "$tags": [
@@ -610,8 +627,8 @@
                                                         -1.0
                                                     ],
                                                     "fontSize": [
-                                                        34.125,
-                                                        34.125
+                                                        39.375,
+                                                        39.375
                                                     ],
                                                     "fontStyle": 0,
                                                     "fontWeight": 400.0,
@@ -628,7 +645,7 @@
                                         }
                                     ],
                                     "paddingLeft": 0.0,
-                                    "paddingRight": 0.0,
+                                    "paddingRight": 21.0,
                                     "paddingTop": 0.0,
                                     "paddingBottom": 0.0,
                                     "verticalPositioning": "CENTER",
@@ -666,8 +683,8 @@
                                         -1.0
                                     ],
                                     "fontSize": [
-                                        34.125,
-                                        34.125
+                                        39.375,
+                                        39.375
                                     ],
                                     "fontStyle": 0,
                                     "fontWeight": 400.0,
