@@ -1,1618 +1,84 @@
 {
   "entries": [
     {
-      "annotatedBasename": "Play_Phone_01_HomeLight_play_phone_home_light-27629862.a11y.png",
-      "cleanBasename": "Play_Phone_01_HomeLight_play_phone_home_light-27629862.png",
+      "annotatedBasename": "CardPreviewMatrix_Sensor_matrix_sensor-0a1072f1.a11y.png",
+      "cleanBasename": "CardPreviewMatrix_Sensor_matrix_sensor-0a1072f1.png",
       "findings": [
         {
-          "boundsInScreen": "40,423,782,643",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"dashboard-card:grid, 742\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        }
-      ],
-      "functionName": "Play_Phone_01_HomeLight",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_01_HomeLight_play \u00b7 phone \u00b7 home (light)",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": "spec:width=411dp,height=731dp,dpi=320"
-    },
-    {
-      "annotatedBasename": "Play_Phone_02_HomeDark_play_phone_home_dark-87829c7b.a11y.png",
-      "cleanBasename": "Play_Phone_02_HomeDark_play_phone_home_dark-87829c7b.png",
-      "findings": [
+          "boundsInScreen": "21,643,210,864",
+          "level": "ERROR",
+          "message": "This item may not have a label readable by screen readers.",
+          "type": "SpeakableTextPresentCheck",
+          "viewDescription": "androidx.compose.remote.player.view.RemoteComposePlayer"
+        },
         {
-          "boundsInScreen": "40,423,782,643",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"dashboard-card:grid, 742\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        }
-      ],
-      "functionName": "Play_Phone_02_HomeDark",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_02_HomeDark_play \u00b7 phone \u00b7 home (dark)",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": "spec:width=411dp,height=731dp,dpi=320"
-    },
-    {
-      "annotatedBasename": "Play_Tablet10_01_Home_play_10_inch_home-7ca1827e.a11y.png",
-      "cleanBasename": "Play_Tablet10_01_Home_play_10_inch_home-7ca1827e.png",
-      "findings": [
+          "boundsInScreen": "231,643,609,864",
+          "level": "ERROR",
+          "message": "This item may not have a label readable by screen readers.",
+          "type": "SpeakableTextPresentCheck",
+          "viewDescription": "androidx.compose.remote.player.view.RemoteComposePlayer"
+        },
         {
-          "boundsInScreen": "151,297,969,367",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"dashboard-card:grid, 818\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        }
-      ],
-      "functionName": "Play_Tablet10_01_Home",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Tablet10_01_Home_play \u00b7 10-inch \u00b7 home",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": "spec:width=800dp,height=1280dp,dpi=224"
-    },
-    {
-      "annotatedBasename": "Play_Tablet7_01_Home_play_7_inch_home-eb94cb4a.a11y.png",
-      "cleanBasename": "Play_Tablet7_01_Home_play_7_inch_home-eb94cb4a.png",
-      "findings": [
+          "boundsInScreen": "630,643,1197,1029",
+          "level": "ERROR",
+          "message": "This item may not have a label readable by screen readers.",
+          "type": "SpeakableTextPresentCheck",
+          "viewDescription": "androidx.compose.remote.player.view.RemoteComposePlayer"
+        },
         {
-          "boundsInScreen": "87,347,813,567",
+          "boundsInScreen": "1028,230,1191,263",
           "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"dashboard-card:grid, 726\" is identical to that of 2 other item(s).",
+          "message": "This non-clickable item's speakable text: \"Terrazzo slot\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        }
-      ],
-      "functionName": "Play_Tablet7_01_Home",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Tablet7_01_Home_play \u00b7 7-inch \u00b7 home",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": "spec:width=600dp,height=960dp,dpi=240"
-    },
-    {
-      "annotatedBasename": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardView_ThemeStyle_dashboard \u00b7 theme.a11y.png",
-      "cleanBasename": "",
-      "findings": [
+          "viewDescription": "android.widget.TextView"
+        },
         {
-          "boundsInScreen": "53,559,1028,852",
+          "boundsInScreen": "742,218,824,255",
           "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"dashboard-card:grid, 975\" is identical to that of 2 other item(s).",
+          "message": "This non-clickable item's speakable text: \"8.2 \u00b0C\" is identical to that of 2 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "58,216,721,256",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"Outside\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
         }
       ],
-      "functionName": "Screen_DashboardView_ThemeStyle",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardView_ThemeStyle_dashboard \u00b7 theme",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "functionName": "CardPreviewMatrix_Sensor",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_Sensor_matrix \u2014 sensor",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CardPreviewMatrix.kt",
       "variant": ""
     },
     {
-      "annotatedBasename": "Dashboard3dPrintingMobile_dashboard_3d_printing_mobile-2701c9cf.a11y.png",
-      "cleanBasename": "Dashboard3dPrintingMobile_dashboard_3d_printing_mobile-2701c9cf.png",
-      "findings": [
-        {
-          "boundsInScreen": "447,929,1026,1055",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Stage, Idle\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "21,3907,1057,4725",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Idle\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "447,772,1026,898",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Status, Idle\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "209,3723,270,3770",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"idle\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "21,500,1057,568",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"\ud83d\udda8\ufe0f P2s\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "447,615,1026,741",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Online, Running\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "447,1557,1026,1683",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Remaining, 0 s\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "447,1086,1026,1212",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Progress, 0 %\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "415,610,466,647",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"642\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "281,3723,291,3770",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"\u00b7\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        }
-      ],
-      "functionName": "Dashboard3dPrintingMobile",
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.Dashboard3dPrintingMobile_dashboard 3d-printing \u2014 mobile",
-      "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/DashboardPreviews.kt",
+      "annotatedBasename": "WearSensorLarge_wear_sensor_large-8173f01c.a11y.png",
+      "cleanBasename": "WearSensorLarge_wear_sensor_large-8173f01c.png",
+      "findings": [],
+      "functionName": "WearSensorLarge",
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearSensorLarge_wear \u00b7 sensor (large)",
+      "rendersDir": "wear",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/wear/widget/CardSlotWidgetPreviews.kt",
       "variant": ""
     },
     {
-      "annotatedBasename": "Dashboard3dPrintingTablet_dashboard_3d_printing_tablet-d15705fe.a11y.png",
-      "cleanBasename": "Dashboard3dPrintingTablet_dashboard_3d_printing_tablet-d15705fe.png",
-      "findings": [
-        {
-          "boundsInScreen": "888,772,1305,898",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Stage, Idle\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "888,929,1305,1055",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Nozzle, 22 \u00b0C\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "263,3134,331,3171",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"1575\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "1389,615,1807,741",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Status, Idle\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "1389,929,1807,1055",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Bed, 20 \u00b0C\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "263,500,1838,568",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"\ud83d\udda8\ufe0f P2s\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "1389,772,1807,898",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Progress, 0 %\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "523,2467,533,2514",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"\u00b7\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "263,2604,1838,4725",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Idle\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "1061,3579,1112,3616",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"777\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "451,2467,512,2514",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"idle\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "888,615,1305,741",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Online, Running\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "888,1086,1305,1212",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Remaining, 0 s\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "856,610,907,647",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"982\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "448,2771,618,2818",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"P2S Kodu\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        }
-      ],
-      "functionName": "Dashboard3dPrintingTablet",
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.Dashboard3dPrintingTablet_dashboard 3d-printing \u2014 tablet",
-      "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/DashboardPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "DashboardClimateMobile_dashboard_climate_mobile-bdcd432b.a11y.png",
-      "cleanBasename": "DashboardClimateMobile_dashboard_climate_mobile-bdcd432b.png",
-      "findings": [
-        {
-          "boundsInScreen": "58,3595,536,3642",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"No history in the last 2 days\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "58,3658,657,3695",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Outside \u00b7 Upstairs \u00b7 Downstairs \u00b7 Kitchen\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "21,777,89,814",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"1036\" is identical to that of 3 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "120,674,224,704",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Humidity\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        }
-      ],
-      "functionName": "DashboardClimateMobile",
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardClimateMobile_dashboard climate \u2014 mobile",
-      "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/DashboardPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "DashboardClimateTablet_dashboard_climate_tablet-456c7098.a11y.png",
-      "cleanBasename": "DashboardClimateTablet_dashboard_climate_tablet-456c7098.png",
-      "findings": [
-        {
-          "boundsInScreen": "300,2894,778,2941",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"No history in the last 2 days\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "300,2957,899,2994",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Outside \u00b7 Upstairs \u00b7 Downstairs \u00b7 Kitchen\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "330,674,434,704",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Humidity\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "1061,395,1112,432",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"777\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        }
-      ],
-      "functionName": "DashboardClimateTablet",
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardClimateTablet_dashboard climate \u2014 tablet",
-      "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/DashboardPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "DashboardEnergyMobile_dashboard_energy_mobile-47191266.a11y.png",
-      "cleanBasename": "DashboardEnergyMobile_dashboard_energy_mobile-47191266.png",
-      "findings": [
-        {
-          "boundsInScreen": "74,3718,100,3765",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"\u2026\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "645,342,722,389",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"rate:\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "437,342,447,389",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"\u00b7\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "821,342,935,389",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"p/kWh\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "21,704,89,741",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"1036\" is identical to that of 5 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        }
-      ],
-      "functionName": "DashboardEnergyMobile",
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardEnergyMobile_dashboard energy \u2014 mobile",
-      "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/DashboardPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "DashboardGithubMobile_dashboard_github_mobile-8f04a7c1.a11y.png",
-      "cleanBasename": "DashboardGithubMobile_dashboard_github_mobile-8f04a7c1.png",
-      "findings": [
-        {
-          "boundsInScreen": "655,1153,924,1279",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"View on GitHub\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.Button"
-        },
-        {
-          "boundsInScreen": "53,1365,305,1491",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"License\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "74,436,157,483",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"from\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "316,1239,568,1365",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"ktfmt\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "823,389,920,436",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"come\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "288,389,304,436",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"/\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "634,1192,644,1239",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"\u00b7\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "299,436,420,483",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"GitHub\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "53,1879,446,1926",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"no recent commit data\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "21,1539,89,1576",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"1036\" is identical to that of 5 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "579,1239,831,1365",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Last commit\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "53,1239,305,1365",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"ci\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "168,436,223,483",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"the\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "674,342,758,389",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"build\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "234,436,288,483",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"HA\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        }
-      ],
-      "functionName": "DashboardGithubMobile",
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardGithubMobile_dashboard github \u2014 mobile",
-      "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/DashboardPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "DashboardGithubTablet_dashboard_github_tablet-89194c99.a11y.png",
-      "cleanBasename": "DashboardGithubTablet_dashboard_github_tablet-89194c99.png",
-      "findings": [
-        {
-          "boundsInScreen": "295,3305,547,3431",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"preview-baselines\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "295,1153,564,1279",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"View on GitHub\" is identical to that of 3 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.Button"
-        },
-        {
-          "boundsInScreen": "558,1365,810,1491",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"License\" is identical to that of 3 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "1093,1544,1408,1670",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Latest PR, Unavailable\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "1093,1281,1807,1407",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Open PRs, 0\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "567,389,650,436",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"from\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "558,1239,810,1365",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"ktfmt\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "459,389,556,436",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"come\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "1400,342,1416,389",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"/\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "876,1145,886,1192",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"\u00b7\" is identical to that of 3 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "792,389,913,436",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"GitHub\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "295,1565,688,1612",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"no recent commit data\" is identical to that of 3 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "1492,1124,1807,1250",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Open issues, 2\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "1061,1119,1112,1156",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"777\" is identical to that of 7 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "295,1365,547,1491",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Last commit\" is identical to that of 3 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "295,1239,547,1365",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"ci\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "661,389,716,436",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"the\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "295,4212,547,4338",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"build\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "727,389,781,436",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"HA\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        }
-      ],
-      "functionName": "DashboardGithubTablet",
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardGithubTablet_dashboard github \u2014 tablet",
-      "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/DashboardPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "DashboardMeshcoreMobile_dashboard_meshcore_mobile-30d7121c.a11y.png",
-      "cleanBasename": "DashboardMeshcoreMobile_dashboard_meshcore_mobile-30d7121c.png",
-      "findings": [
-        {
-          "boundsInScreen": "594,342,669,389",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Last\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "581,1926,1026,2052",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Contact, Stale\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "289,342,299,389",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"\u00b7\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "21,610,89,647",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"1036\" is identical to that of 6 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        }
-      ],
-      "functionName": "DashboardMeshcoreMobile",
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardMeshcoreMobile_dashboard meshcore \u2014 mobile",
-      "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/DashboardPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "DashboardNetworksMobile_dashboard_networks_mobile-d5ee47c2.a11y.png",
-      "cleanBasename": "DashboardNetworksMobile_dashboard_networks_mobile-d5ee47c2.png",
-      "findings": [
-        {
-          "boundsInScreen": "21,657,89,694",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"1036\" is identical to that of 3 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "340,389,362,436",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"2\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "503,342,513,389",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"\u00b7\" is identical to that of 4 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "378,342,492,389",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Mbit/s\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        }
-      ],
-      "functionName": "DashboardNetworksMobile",
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardNetworksMobile_dashboard networks \u2014 mobile",
-      "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/DashboardPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "DashboardNetworksTablet_dashboard_networks_tablet-fbca9889.a11y.png",
-      "cleanBasename": "DashboardNetworksTablet_dashboard_networks_tablet-fbca9889.png",
-      "findings": [
-        {
-          "boundsInScreen": "263,1403,331,1440",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"1575\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "263,610,314,647",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"777\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "1513,342,1535,389",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"2\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "745,342,755,389",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"\u00b7\" is identical to that of 4 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "620,342,734,389",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Mbit/s\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        }
-      ],
-      "functionName": "DashboardNetworksTablet",
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardNetworksTablet_dashboard networks \u2014 tablet",
-      "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/DashboardPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "DashboardSectionsSpanOneTablet_dashboard_sections_span_1_tablet-56a3e21b.a11y.png",
-      "cleanBasename": "DashboardSectionsSpanOneTablet_dashboard_sections_span_1_tablet-56a3e21b.png",
-      "findings": [
-        {
-          "boundsInScreen": "1129,2381,1607,2428",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"No history in the last 2 days\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "84,777,135,814",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"924\" is identical to that of 3 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "1129,2444,1728,2481",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Outside \u00b7 Upstairs \u00b7 Downstairs \u00b7 Kitchen\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "169,674,273,704",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Humidity\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        }
-      ],
-      "functionName": "DashboardSectionsSpanOneTablet",
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardSectionsSpanOneTablet_dashboard sections span 1 \u2014 tablet",
-      "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/DashboardPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "DashboardSecurityMobile_dashboard_security_mobile-842e09ef.a11y.png",
-      "cleanBasename": "DashboardSecurityMobile_dashboard_security_mobile-842e09ef.png",
-      "findings": [
-        {
-          "boundsInScreen": "21,764,89,801",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"1036\" is identical to that of 3 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        }
-      ],
-      "functionName": "DashboardSecurityMobile",
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardSecurityMobile_dashboard security \u2014 mobile",
-      "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/DashboardPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "DashboardView3dPrintingA1MiniMobile_dashboard_3d_printing_view_3_A1_Mini_mobile-5ea13cad.a11y.png",
-      "cleanBasename": "DashboardView3dPrintingA1MiniMobile_dashboard_3d_printing_view_3_A1_Mini_mobile-5ea13cad.png",
-      "findings": [
-        {
-          "boundsInScreen": "281,342,291,389",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"\u00b7\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "21,1386,89,1423",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"1036\" is identical to that of 6 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "21,526,1057,6062",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Idle\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "209,342,270,389",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"idle\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "206,693,337,740",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"A1 mini\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        }
-      ],
-      "functionName": "DashboardView3dPrintingA1MiniMobile",
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardView3dPrintingA1MiniMobile_dashboard 3d-printing view 3 A1 Mini \u2014 mobile",
-      "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/DashboardPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "DashboardView3dPrintingFilamentMobile_dashboard_3d_printing_view_4_Filament_mobi-3b5ad5f4.a11y.png",
-      "cleanBasename": "DashboardView3dPrintingFilamentMobile_dashboard_3d_printing_view_4_Filament_mobi-3b5ad5f4.png",
-      "findings": [
-        {
-          "boundsInScreen": "242,1845,439,1882",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"External spool\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "346,608,520,645",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Generic PLA\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "352,2539,439,2576",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Empty\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "421,645,445,682",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"\u2014\" is identical to that of 4 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "21,734,89,771",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"1036\" is identical to that of 5 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "58,427,148,476",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"AMS\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "53,2043,497,2169",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"External spool, Not running\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "53,739,497,865",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"AMS active, Not running\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "161,645,243,682",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"100 %\" is identical to that of 3 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        }
-      ],
-      "functionName": "DashboardView3dPrintingFilamentMobile",
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardView3dPrintingFilamentMobile_dashboard 3d-printing view 4 Filament \u2014 mobile",
-      "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/DashboardPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "DashboardView3dPrintingFilamentTablet_dashboard_3d_printing_view_4_Filament_tabl-09a2b0b7.a11y.png",
-      "cleanBasename": "DashboardView3dPrintingFilamentTablet_dashboard_3d_printing_view_4_Filament_tabl-09a2b0b7.png",
-      "findings": [
-        {
-          "boundsInScreen": "484,1349,681,1386",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"External spool\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "588,608,762,645",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Generic PLA\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "508,1886,595,1923",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Empty\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "663,645,687,682",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"\u2014\" is identical to that of 4 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "263,1023,331,1060",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"1575\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "1061,395,1112,432",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"777\" is identical to that of 3 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "300,427,390,476",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"AMS\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "1093,1316,1408,1442",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"External spool, Not running\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "1093,400,1408,526",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"AMS active, Not running\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "403,645,485,682",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"100 %\" is identical to that of 3 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        }
-      ],
-      "functionName": "DashboardView3dPrintingFilamentTablet",
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardView3dPrintingFilamentTablet_dashboard 3d-printing view 4 Filament \u2014 tablet",
-      "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/DashboardPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "DashboardView3dPrintingP2sMobile_dashboard_3d_printing_view_2_P2s_mobile-7506075a.a11y.png",
-      "cleanBasename": "DashboardView3dPrintingP2sMobile_dashboard_3d_printing_view_2_P2s_mobile-7506075a.png",
-      "findings": [
-        {
-          "boundsInScreen": "281,342,291,389",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"\u00b7\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "21,1386,89,1423",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"1036\" is identical to that of 6 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "21,526,1057,6062",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Idle\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "209,342,270,389",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"idle\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "206,693,376,740",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"P2S Kodu\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        }
-      ],
-      "functionName": "DashboardView3dPrintingP2sMobile",
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardView3dPrintingP2sMobile_dashboard 3d-printing view 2 P2s \u2014 mobile",
-      "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/DashboardPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "DashboardView3dPrintingP2sTablet_dashboard_3d_printing_view_2_P2s_tablet-91c638ec.a11y.png",
-      "cleanBasename": "DashboardView3dPrintingP2sTablet_dashboard_3d_printing_view_2_P2s_tablet-91c638ec.png",
-      "findings": [
-        {
-          "boundsInScreen": "263,1009,331,1046",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"1575\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "523,342,533,389",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"\u00b7\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "263,479,1838,4155",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Idle\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "1061,1454,1112,1491",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"777\" is identical to that of 3 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "451,342,512,389",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"idle\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "448,646,618,693",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"P2S Kodu\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        }
-      ],
-      "functionName": "DashboardView3dPrintingP2sTablet",
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardView3dPrintingP2sTablet_dashboard 3d-printing view 2 P2s \u2014 tablet",
-      "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/DashboardPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "DashboardViewClimateHomeMobile_dashboard_climate_view_1_Home_mobile-a5e725cc.a11y.png",
-      "cleanBasename": "DashboardViewClimateHomeMobile_dashboard_climate_view_1_Home_mobile-a5e725cc.png",
-      "findings": [
-        {
-          "boundsInScreen": "58,3595,536,3642",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"No history in the last 2 days\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "58,3658,657,3695",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Outside \u00b7 Upstairs \u00b7 Downstairs \u00b7 Kitchen\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "21,777,89,814",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"1036\" is identical to that of 3 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "120,674,224,704",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Humidity\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        }
-      ],
-      "functionName": "DashboardViewClimateHomeMobile",
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardViewClimateHomeMobile_dashboard climate view 1 Home \u2014 mobile",
-      "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/DashboardPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "DashboardViewEnergyOverviewMobile_dashboard_energy_view_1_Overview_mobile-efd95fc9.a11y.png",
-      "cleanBasename": "DashboardViewEnergyOverviewMobile_dashboard_energy_view_1_Overview_mobile-efd95fc9.png",
-      "findings": [
-        {
-          "boundsInScreen": "645,342,722,389",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"rate:\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "437,342,447,389",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"\u00b7\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "821,342,935,389",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"p/kWh\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "21,704,89,741",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"1036\" is identical to that of 3 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        }
-      ],
-      "functionName": "DashboardViewEnergyOverviewMobile",
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardViewEnergyOverviewMobile_dashboard energy view 1 Overview \u2014 mobile",
-      "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/DashboardPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "DashboardViewGithubProjectsMobile_dashboard_github_view_1_Projects_mobile-266d311b.a11y.png",
-      "cleanBasename": "DashboardViewGithubProjectsMobile_dashboard_github_view_1_Projects_mobile-266d311b.png",
-      "findings": [
-        {
-          "boundsInScreen": "53,1365,305,1491",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"License\" is identical to that of 3 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "53,1979,497,2105",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Latest PR, Unavailable\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "53,1701,1026,1827",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Open PRs, 0\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "823,389,920,436",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"come\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "288,389,304,436",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"/\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "581,4773,1026,4899",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Latest tag, v0.1.2\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "581,1544,1026,1670",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Open issues, 2\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "579,1239,831,1365",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Last commit\" is identical to that of 3 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "53,1239,305,1365",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"ci\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "168,436,223,483",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"the\" is identical to that of 5 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "787,6796,822,6843",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"to\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "579,3876,831,4002",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"preview-baselines\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "655,1153,924,1279",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"View on GitHub\" is identical to that of 3 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.Button"
-        },
-        {
-          "boundsInScreen": "74,436,157,483",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"from\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "316,1239,568,1365",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"ktfmt\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "634,1192,644,1239",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"\u00b7\" is identical to that of 3 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "299,436,420,483",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"GitHub\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "53,1879,446,1926",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"no recent commit data\" is identical to that of 3 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "21,1539,89,1576",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"1036\" is identical to that of 8 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "732,436,860,483",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"badges\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "591,342,663,389",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"with\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "53,5171,305,5297",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"build\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "234,436,288,483",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"HA\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "53,4773,497,4899",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Latest release, v0.1.2\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        }
-      ],
-      "functionName": "DashboardViewGithubProjectsMobile",
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardViewGithubProjectsMobile_dashboard github view 1 Projects \u2014 mobile",
-      "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/DashboardPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "DashboardViewMeshcoreOverviewMobile_dashboard_meshcore_view_1_Overview_mobile-49f1bca6.a11y.png",
-      "cleanBasename": "DashboardViewMeshcoreOverviewMobile_dashboard_meshcore_view_1_Overview_mobile-49f1bca6.png",
-      "findings": [
-        {
-          "boundsInScreen": "594,342,669,389",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Last\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "581,1926,1026,2052",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Contact, Stale\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "289,342,299,389",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"\u00b7\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "21,610,89,647",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"1036\" is identical to that of 5 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        }
-      ],
-      "functionName": "DashboardViewMeshcoreOverviewMobile",
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardViewMeshcoreOverviewMobile_dashboard meshcore view 1 Overview \u2014 mobile",
-      "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/DashboardPreviews.kt",
+      "annotatedBasename": "WearSensorSmall_wear_sensor_small-fc79a838.a11y.png",
+      "cleanBasename": "WearSensorSmall_wear_sensor_small-fc79a838.png",
+      "findings": [],
+      "functionName": "WearSensorSmall",
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearSensorSmall_wear \u00b7 sensor (small)",
+      "rendersDir": "wear",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/wear/widget/CardSlotWidgetPreviews.kt",
       "variant": ""
     }
   ],
   "scope": "changed-previews",
   "uncheckedPreviews": [
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.CardDebugPreviewsKt.DataGridOverlayPreview_Data grid overlay"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_03_Discovery_play \u00b7 phone \u00b7 discovery"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_04_Picker_play \u00b7 phone \u00b7 picker"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_05_Widgets_play \u00b7 phone \u00b7 widgets"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardActions_card actions"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardHistory_ThemeStyle_card history \u00b7 theme"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardHistory_card history"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardPicker_ThemeStyle_dashboard picker \u00b7 theme"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardPicker_dashboard picker"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardSelection_Settings_dashboard selection \u00b7 settings"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardSelection_Signin_dashboard selection \u00b7 signin"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardSelection_ThemeStyle_dashboard selection \u00b7 theme"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_Connecting_top bar \u00b7 360dp \u00b7 connecting"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_Failed_top bar \u00b7 360dp \u00b7 failed"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_LongTitle_top bar \u00b7 360dp \u00b7 long title"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_Narrow_top bar \u00b7 360dp \u00b7 switcher"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_Paused_top bar \u00b7 360dp \u00b7 paused"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_Phone_top bar \u00b7 412dp \u00b7 switcher, agent inline"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_SingleReadOnly_top bar \u00b7 360dp \u00b7 single dashboard, read only"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardView_PhoneLandscapeMedium_dashboard view \u00b7 phone landscape medium"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardView_dashboard view"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Discovery_ThemeStyle_discovery \u00b7 theme"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Discovery_discovery"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Logs_Dark_logs \u00b7 dark"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Logs_Empty_logs \u00b7 empty"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Logs_logs"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_ManagePinned_Empty_manage pinned \u00b7 empty"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_ManagePinned_manage pinned"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_ThemeStyle_settings \u00b7 theme"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_settings"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_SyncDiagnostics_sync diagnostics"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_WearWidgets_wear widgets"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Widgets_ThemeStyle_widgets \u00b7 theme"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Widgets_widgets"
-    },
     {
       "module": "previews",
       "previewId": "ee.schimke.ha.previews.AnimationPreviewsKt.Gauge_Animation_Dark_gauge-anim (dark)"
@@ -1700,10 +166,6 @@
     {
       "module": "previews",
       "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_PictureEntity_matrix \u2014 picture-entity"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_Sensor_matrix \u2014 sensor"
     },
     {
       "module": "previews",
@@ -2155,11 +617,51 @@
     },
     {
       "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.Dashboard3dPrintingMobile_dashboard 3d-printing \u2014 mobile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.Dashboard3dPrintingTablet_dashboard 3d-printing \u2014 tablet"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardClimateMobile_dashboard climate \u2014 mobile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardClimateTablet_dashboard climate \u2014 tablet"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardEnergyMobile_dashboard energy \u2014 mobile"
+    },
+    {
+      "module": "previews",
       "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardEnergyTablet_dashboard energy \u2014 tablet"
     },
     {
       "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardGithubMobile_dashboard github \u2014 mobile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardGithubTablet_dashboard github \u2014 tablet"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardMeshcoreMobile_dashboard meshcore \u2014 mobile"
+    },
+    {
+      "module": "previews",
       "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardMeshcoreTablet_dashboard meshcore \u2014 tablet"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardNetworksMobile_dashboard networks \u2014 mobile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardNetworksTablet_dashboard networks \u2014 tablet"
     },
     {
       "module": "previews",
@@ -2171,7 +673,35 @@
     },
     {
       "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardSectionsSpanOneTablet_dashboard sections span 1 \u2014 tablet"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardSecurityMobile_dashboard security \u2014 mobile"
+    },
+    {
+      "module": "previews",
       "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardSecurityTablet_dashboard security \u2014 tablet"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardView3dPrintingA1MiniMobile_dashboard 3d-printing view 3 A1 Mini \u2014 mobile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardView3dPrintingFilamentMobile_dashboard 3d-printing view 4 Filament \u2014 mobile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardView3dPrintingFilamentTablet_dashboard 3d-printing view 4 Filament \u2014 tablet"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardView3dPrintingP2sMobile_dashboard 3d-printing view 2 P2s \u2014 mobile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardView3dPrintingP2sTablet_dashboard 3d-printing view 2 P2s \u2014 tablet"
     },
     {
       "module": "previews",
@@ -2179,11 +709,27 @@
     },
     {
       "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardViewClimateHomeMobile_dashboard climate view 1 Home \u2014 mobile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardViewEnergyOverviewMobile_dashboard energy view 1 Overview \u2014 mobile"
+    },
+    {
+      "module": "previews",
       "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardViewEnergySunMobile_dashboard energy view 2 Sun \u2014 mobile"
     },
     {
       "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardViewGithubProjectsMobile_dashboard github view 1 Projects \u2014 mobile"
+    },
+    {
+      "module": "previews",
       "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardViewMeshcoreControlsMobile_dashboard meshcore view 4 Controls \u2014 mobile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardViewMeshcoreOverviewMobile_dashboard meshcore view 1 Overview \u2014 mobile"
     },
     {
       "module": "previews",
@@ -2704,6 +1250,290 @@
     {
       "module": "previews",
       "previewId": "ee.schimke.ha.previews.WrapContentHeightReproKt.WrapContentHeightReproAlpha010_wrap-content height repro \u00b7 alpha010"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearDashboardPreview_Wear_ dashboard"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearDashboardsPreview_Wear_ dashboards"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearSectionPreview_Wear_ section"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearSettingsPreview_Wear_ settings"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearTopLevelPreview_Demo_Wear_ top-level (demo)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearTopLevelPreview_Empty_Wear_ top-level (empty)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearTopLevelPreview_Live_Wear_ top-level (live)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearAlarmPanelLarge_wear \u00b7 alarm-panel (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearAlarmPanelSmall_wear \u00b7 alarm-panel (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearAreaLarge_wear \u00b7 area (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearAreaSmall_wear \u00b7 area (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearBambuAmsLarge_wear \u00b7 bambu ams (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearBambuAmsSmall_wear \u00b7 bambu ams (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearBambuPrintControlLarge_wear \u00b7 bambu print-control (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearBambuPrintControlSmall_wear \u00b7 bambu print-control (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearBambuPrintStatusLarge_wear \u00b7 bambu print-status (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearBambuPrintStatusSmall_wear \u00b7 bambu print-status (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearBambuSpoolLarge_wear \u00b7 bambu spool (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearBambuSpoolSmall_wear \u00b7 bambu spool (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearButtonLarge_wear \u00b7 button (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearButtonSmall_wear \u00b7 button (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearCalendarSmall_wear \u00b7 calendar (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearClockSmall_wear \u00b7 clock (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearEntitiesLarge_wear \u00b7 entities (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearEntitiesSmall_wear \u00b7 entities (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearEntityFilterLarge_wear \u00b7 entity-filter (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearEntityFilterSmall_wear \u00b7 entity-filter (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearEntityLarge_wear \u00b7 entity (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearEntitySmall_wear \u00b7 entity (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearGaugeLarge_wear \u00b7 gauge (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearGaugeSmall_wear \u00b7 gauge (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearGlanceLarge_wear \u00b7 glance (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearGlanceSmall_wear \u00b7 glance (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearGridLarge_wear \u00b7 grid (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearGridSmall_wear \u00b7 grid (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearHeadingSmall_wear \u00b7 heading (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearHistoryGraphSmall_wear \u00b7 history-graph (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearHorizontalStackLarge_wear \u00b7 horizontal-stack (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearHorizontalStackSmall_wear \u00b7 horizontal-stack (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearHumidifierLarge_wear \u00b7 humidifier (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearHumidifierSmall_wear \u00b7 humidifier (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearLightLarge_wear \u00b7 light (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearLightSmall_wear \u00b7 light (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearLogbookSmall_wear \u00b7 logbook (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearMarkdownSmall_wear \u00b7 markdown (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearMediaControlLarge_wear \u00b7 media-control (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearMediaControlSmall_wear \u00b7 media-control (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearPictureElementsLarge_wear \u00b7 picture-elements (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearPictureElementsSmall_wear \u00b7 picture-elements (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearPictureEntityLarge_wear \u00b7 picture-entity (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearPictureEntitySmall_wear \u00b7 picture-entity (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearPictureGlanceLarge_wear \u00b7 picture-glance (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearPictureGlanceSmall_wear \u00b7 picture-glance (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearPictureLarge_wear \u00b7 picture (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearPictureSmall_wear \u00b7 picture (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearStatisticLarge_wear \u00b7 statistic (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearStatisticSmall_wear \u00b7 statistic (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearStatisticsGraphSmall_wear \u00b7 statistics-graph (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearThermostatLarge_wear \u00b7 thermostat (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearThermostatSmall_wear \u00b7 thermostat (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearTileLarge_wear \u00b7 tile (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearTileSmall_wear \u00b7 tile (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearTodoListSmall_wear \u00b7 todo-list (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearUnsupportedLarge_wear \u00b7 unsupported (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearUnsupportedSmall_wear \u00b7 unsupported (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearVerticalStackLarge_wear \u00b7 vertical-stack (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearVerticalStackSmall_wear \u00b7 vertical-stack (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearWeatherForecastSmall_wear \u00b7 weather-forecast (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.SlotWidgetPreviewsKt.SlotWidgetPreview_Empty_Slot widget \u2014 empty placeholder"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.SlotWidgetPreviewsKt.SlotWidgetPreview_EntitiesLarge_Slot widget \u2014 entities (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.SlotWidgetPreviewsKt.SlotWidgetPreview_TileSmall_Slot widget \u2014 tile (small)"
     }
   ]
 }
