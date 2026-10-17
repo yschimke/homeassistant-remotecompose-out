@@ -1,6 +1,6 @@
 # Accessibility Report
 
-_Auto-generated from `compose-preview/a11y/pr`. 24 preview(s) across 2 module(s) · 47 error(s) · 13 warning(s) · 23 info._
+_Auto-generated from `compose-preview/a11y/pr`. 29 preview(s) across 3 module(s) · 50 error(s) · 18 warning(s) · 29 info._
 
 Browse inline; image URLs are pinned to the commit SHA on the baseline branch so links keep resolving after merge.
 
@@ -62,11 +62,34 @@ _No findings._
 
 ## previews
 
+### `CardPreviewMatrix_Logbook`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/CardPreviewMatrix_Logbook_matrix_logbook-1e109936.a11y.png" width="400" />
+
+| # | Level | Rule | Element | Message |
+|--:|---|---|---|---|
+| 1 | ERROR | SpeakableTextPresentCheck | androidx.compose.remote.player.view.RemoteComposePlayer | This item may not have a label readable by screen readers. |
+| 2 | ERROR | SpeakableTextPresentCheck | androidx.compose.remote.player.view.RemoteComposePlayer | This item may not have a label readable by screen readers. |
+| 3 | ERROR | SpeakableTextPresentCheck | androidx.compose.remote.player.view.RemoteComposePlayer | This item may not have a label readable by screen readers. |
+| 4 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="Garage motion" | This non-clickable item's speakable text: "Garage motion" is identical to that of 1 other item(s). |
+| 5 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="Front door" | This non-clickable item's speakable text: "Front door" is identical to that of 5 other item(s). |
+| 6 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Terrazzo slot" is identical to that of 1 other item(s). |
+| 7 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "400" is identical to that of 1 other item(s). |
+| 8 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Closed" is identical to that of 1 other item(s). |
+
 ### `Dashboard3dPrintingMobile`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Dashboard3dPrintingMobile_dashboard_3d_printing_mobile-2701c9cf.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Dashboard3dPrintingMobile_dashboard_3d_printing_mobile-2701c9cf.a11y.png" width="400" />
 
-_No findings._
+| # | Level | Rule | Element | Message |
+|--:|---|---|---|---|
+| 1 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Online, Online, Running" is identical to that of 1 other item(s). |
+| 2 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Status, Status, Idle" is identical to that of 1 other item(s). |
+| 3 | INFO | DuplicateSpeakableTextCheck | android.view.View | This non-clickable item's speakable text: "Idle" is identical to that of 1 other item(s). |
+| 4 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Progress, Progress, 0 %" is identical to that of 1 other item(s). |
+| 5 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Stage, Stage, Idle" is identical to that of 1 other item(s). |
+| 6 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Remaining, Remaining, 0 s" is identical to that of 1 other item(s). |
+| 7 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "🖨️ P2s" is identical to that of 1 other item(s). |
 
 ### `Dashboard3dPrintingTablet`
 
@@ -74,13 +97,13 @@ _No findings._
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Status, Status, Idle" is identical to that of 1 other item(s). |
-| 2 | INFO | DuplicateSpeakableTextCheck | android.view.View | This non-clickable item's speakable text: "Idle" is identical to that of 1 other item(s). |
-| 3 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Progress, Progress, 0 %" is identical to that of 1 other item(s). |
-| 4 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Remaining, Remaining, 0 h" is identical to that of 1 other item(s). |
+| 1 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Online, Online, Running" is identical to that of 1 other item(s). |
+| 2 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Status, Status, Idle" is identical to that of 1 other item(s). |
+| 3 | INFO | DuplicateSpeakableTextCheck | android.view.View | This non-clickable item's speakable text: "Idle" is identical to that of 1 other item(s). |
+| 4 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Progress, Progress, 0 %" is identical to that of 1 other item(s). |
 | 5 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Stage, Stage, Idle" is identical to that of 1 other item(s). |
-| 6 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "🖨️ P2s" is identical to that of 1 other item(s). |
-| 7 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Online, Online, On" is identical to that of 1 other item(s). |
+| 6 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Remaining, Remaining, 0 s" is identical to that of 1 other item(s). |
+| 7 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "🖨️ P2s" is identical to that of 1 other item(s). |
 
 ### `DashboardClimateMobile`
 
@@ -201,7 +224,7 @@ _No findings._
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "iPhone, iPhone, Not home" is identical to that of 2 other item(s). |
+| 1 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "iPhone, iPhone, Away" is identical to that of 2 other item(s). |
 
 ### `DashboardNetworksTablet`
 
@@ -209,27 +232,7 @@ _No findings._
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "iPhone, iPhone, Not home" is identical to that of 2 other item(s). |
-
-### `DashboardSectionCardGridMobile`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/DashboardSectionCardGridMobile_dashboard_section_card_grid_mobile-a90a06a6.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Outside · Upstairs · Downstairs · Kitchen" is identical to that of 1 other item(s). |
-| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Humidity" is identical to that of 1 other item(s). |
-| 3 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "No history in the last 2 days" is identical to that of 1 other item(s). |
-
-### `DashboardSectionCardGridTablet`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/DashboardSectionCardGridTablet_dashboard_section_card_grid_tablet-eac162a7.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Outside · Upstairs · Downstairs · Kitchen" is identical to that of 1 other item(s). |
-| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Humidity" is identical to that of 1 other item(s). |
-| 3 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "No history in the last 2 days" is identical to that of 1 other item(s). |
+| 1 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "iPhone, iPhone, Away" is identical to that of 2 other item(s). |
 
 ### `DashboardSectionsSpanOneTablet`
 
@@ -252,3 +255,49 @@ _No findings._
 <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/DashboardSecurityTablet_dashboard_security_tablet-d081c9e6.a11y.png" width="400" />
 
 _No findings._
+
+### `Glance_Availability_Light`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Glance_Availability_Light_glance_availability_light-99a3b559.a11y.png" width="400" />
+
+_No findings._
+
+### `Logbook_Dark`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Logbook_Dark_logbook_dark-7e305fb6.a11y.png" width="400" />
+
+| # | Level | Rule | Element | Message |
+|--:|---|---|---|---|
+| 1 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="Garage motion" | This non-clickable item's speakable text: "Garage motion" is identical to that of 1 other item(s). |
+| 2 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="Front door" | This non-clickable item's speakable text: "Front door" is identical to that of 1 other item(s). |
+
+### `Logbook_Light`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Logbook_Light_logbook_light-b438574b.a11y.png" width="400" />
+
+| # | Level | Rule | Element | Message |
+|--:|---|---|---|---|
+| 1 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="Garage motion" | This non-clickable item's speakable text: "Garage motion" is identical to that of 1 other item(s). |
+| 2 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="Front door" | This non-clickable item's speakable text: "Front door" is identical to that of 1 other item(s). |
+
+### `Tiles_Availability_Dark`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Tiles_Availability_Dark_tiles_availability_dark-c0e64dff.a11y.png" width="400" />
+
+_No findings._
+
+### `Tiles_Availability_Light`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Tiles_Availability_Light_tiles_availability_light-052c5b12.a11y.png" width="400" />
+
+_No findings._
+
+## wear
+
+### `WearDashboardPreview` · `wearos_small_round`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/wear/WearDashboardPreview_Wear_dashboard-67ae6304.a11y.png" width="400" />
+
+| # | Level | Rule | Element | Message |
+|--:|---|---|---|---|
+| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "On" is identical to that of 1 other item(s). |
