@@ -1,6 +1,6 @@
 # Accessibility Report
 
-_Auto-generated from `compose-preview/a11y/pr`. 27 preview(s) across 2 module(s) · 0 error(s) · 40 warning(s) · 116 info._
+_Auto-generated from `compose-preview/a11y/pr`. 26 preview(s) across 2 module(s) · 0 error(s) · 40 warning(s) · 116 info._
 
 Browse inline; image URLs are pinned to the commit SHA on the baseline branch so links keep resolving after merge.
 
@@ -344,9 +344,3 @@ _No findings._
 | 2 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Contact, Stale" is identical to that of 1 other item(s). |
 | 3 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "·" is identical to that of 1 other item(s). |
 | 4 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "1036" is identical to that of 5 other item(s). |
-
-### `LovelaceCardPreview`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/LovelaceCardPreview-252cb49c.a11y.png" width="400" />
-
-_No findings._
