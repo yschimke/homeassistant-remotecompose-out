@@ -1571,7 +1571,9 @@
         },
         {
             "canonicalId": "previews/ee.schimke.ha.previews.CardPreviewsKt.CardHost",
-            "componentIds": [],
+            "componentIds": [
+                "Dashboard/CardEditor"
+            ],
             "symbol": {
                 "jvmOwner": "ee.schimke.ha.previews.CardPreviewsKt",
                 "callable": "ee.schimke.ha.previews.CardHost",
@@ -2138,6 +2140,11 @@
                     "previewId": "ee.schimke.ha.previews.CardPreviewsKt.WeatherForecast_Light_weather-forecast__light_",
                     "componentId": null,
                     "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.LovelaceCardPreviewKt.LovelaceCardPreview",
+                    "componentId": "Dashboard/CardEditor",
+                    "group": "Dashboard"
                 },
                 {
                     "previewId": "ee.schimke.ha.previews.ResponsiveCardPreviewsKt.Entities_Responsive_Light_entities_responsive_narrow",

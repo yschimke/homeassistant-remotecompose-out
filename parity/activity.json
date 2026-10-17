@@ -1,11 +1,75 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-17T14:07:54.958Z",
+  "generatedAt": "2026-10-17T19:32:02.408Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "6026b677615980f41653291b654943ea6ed57cac",
+        "subject": "fix(deps): update compose-ai-tools (#826)",
+        "at": "2026-10-17T18:52:27+01:00",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "35374ea015387a07ae5bf4a717a86be2c994a5ab",
+        "subject": "fix(cards): give every tappable card part a 48dp touch target (#890)",
+        "at": "2026-10-17T17:44:41+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "5addce26a52b86dbd306fbc61c44db2e29104eb6",
+        "subject": "feat(deploy): add repeatable demo HA host provisioning (#889)",
+        "at": "2026-10-17T16:48:39+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "2eb8cf016d32cb5a6dd811f9e97cb40d1fcd69bf",
+        "subject": "fix(designs): make console available in both modes (#888)",
+        "at": "2026-10-17T15:10:20+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "f09d584ae3a39a2a37bee5cb52513ea10eb09755",
+        "subject": "feat(themes): every card shows an unavailable entity the way its uber theme does (#881)",
+        "at": "2026-10-17T15:09:26+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "399fcb4dfddfa565aed36f283132be6250634db1",
+        "subject": "feat(lovelace): host dashboard editing, previews and reusable templates (#834)",
+        "at": "2026-10-17T15:08:51+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "31e5d0793204a39835c03a190fa8665402fe0796",
+        "subject": "fix(demo): verify HA facade through its isolated edge network (#886)",
+        "at": "2026-10-17T14:41:58+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "b1e869324acc2ee00cc9483af3c2da03608d6487",
+        "subject": "fix(ha): validate live card bindings and fill panel height (#887)",
+        "at": "2026-10-17T14:41:55+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "42dbdee650d15365f40282512f405856ef5e5a36",
         "subject": "fix(grid): a short last row stretches; picture grids keep HA's columns (#875)",
@@ -419,70 +483,6 @@
         "subject": "feat: card style overrides, agent-edited dashboards, and published user designs (#829)",
         "at": "2026-10-16T00:43:25+01:00",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "54360e86cba77998cb66d8f917597a5da0519a6d",
-        "subject": "chore(deps): update github-actions (#814)",
-        "at": "2026-10-15T23:10:05Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "09493477311c2a8824a3fceb50789bbcfa7a6ffa",
-        "subject": "feat(rc-converter): render unsupported custom cards as their entities (#827)",
-        "at": "2026-10-15T23:37:10+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "8758dab10463a949c6ff0fcbb1b8ac21ad53dc69",
-        "subject": "chore(main): release 0.1.41 (#823)",
-        "at": "2026-10-15T23:02:58+01:00",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "d4885a4f94facdd558ff03f268e7ae79b2dad30d",
-        "subject": "feat(app): keep the app's own card designs on disk, and show what the server lacks (#824)",
-        "at": "2026-10-15T09:44:55+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "f223e36f79a6634b87e36a41056a32366a47a9df",
-        "subject": "feat(ha-cards): capture stickers in named WearM3 colours and declare the app's themes (#821)",
-        "at": "2026-10-15T08:33:36+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "639dcd873f3578c9c4e220b7cb9e454bd16ed3eb",
-        "subject": "feat(app): fetch card designs by style, variant and author, on by default (#822)",
-        "at": "2026-10-15T08:18:19+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "7d8e35966559f76c52a0f8eb009446c81c20b630",
-        "subject": "chore(main): release 0.1.40 (#820)",
-        "at": "2026-10-15T06:56:22+01:00",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "cfbad962d2d6919134519b8696ee2df89c735a11",
-        "subject": "fix(deps): update compose-ai-tools (#811)",
-        "at": "2026-10-15T01:21:55Z",
-        "author": "renovate[bot]",
         "previewIds": [],
         "components": []
       }
