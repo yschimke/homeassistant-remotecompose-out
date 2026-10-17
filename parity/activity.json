@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-17T06:20:20.528Z",
+  "generatedAt": "2026-10-17T06:30:40.482Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "ae3d61b5964a2d15eece55b3e54f1777bad105dd",
+        "subject": "fix(cards): lay grid cards out in columns that wrap, and honour aspect_ratio (#841)",
+        "at": "2026-10-17T07:16:04+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "a20cac6960f6606d257ecdd34f3d32a3f8b76082",
+        "subject": "fix(cards): show an AMS tray's unknown remaining filament as \"—\", not \"-1 %\" (#865)",
+        "at": "2026-10-17T07:14:23+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "ef5ed18a1ab16c545830ec138eae0c91e9e583c2",
         "subject": "feat(cards): Material Design Icons for card overrides and HA's domain defaults (#845)",
@@ -467,22 +483,6 @@
         "subject": "fix(deps): update dependency ee.schimke.composeai:data-render-core to v3.32.0 (#802)",
         "at": "2026-10-14T16:14:48Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a2d7800432da1330c688682899462983949b1bf5",
-        "subject": "fix: match in-app widget previews to launcher rendering (#801)",
-        "at": "2026-10-14T16:42:03+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "26943a44af0c54853169d4f1f42c05b4536a6d5d",
-        "subject": "feat: prepare and preview adaptive home screen widgets (#798)",
-        "at": "2026-10-14T13:50:34+01:00",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
