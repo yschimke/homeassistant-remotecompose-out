@@ -1,9 +1,80 @@
 {
   "entries": [
     {
-      "annotatedBasename": "",
+      "annotatedBasename": "Dashboard3dPrintingMobile_dashboard_3d_printing_mobile-2701c9cf.a11y.png",
       "cleanBasename": "Dashboard3dPrintingMobile_dashboard_3d_printing_mobile-2701c9cf.png",
-      "findings": [],
+      "findings": [
+        {
+          "boundsInScreen": "447,929,1026,1055",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Stage, Idle\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "21,3907,1057,4725",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"Idle\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "447,772,1026,898",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Status, Idle\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "209,3723,270,3770",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"idle\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "21,500,1057,568",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"\ud83d\udda8\ufe0f P2s\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "447,615,1026,741",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Online, Running\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "447,1557,1026,1683",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Remaining, 0 s\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "447,1086,1026,1212",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Progress, 0 %\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "415,610,466,647",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"642\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "281,3723,291,3770",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"\u00b7\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        }
+      ],
       "functionName": "Dashboard3dPrintingMobile",
       "module": "previews",
       "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.Dashboard3dPrintingMobile_dashboard 3d-printing \u2014 mobile",
