@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-17T14:26:41.126Z",
+  "generatedAt": "2026-10-17T16:50:42.006Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "35374ea015387a07ae5bf4a717a86be2c994a5ab",
+        "subject": "fix(cards): give every tappable card part a 48dp touch target (#890)",
+        "at": "2026-10-17T17:44:41+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "5addce26a52b86dbd306fbc61c44db2e29104eb6",
+        "subject": "feat(deploy): add repeatable demo HA host provisioning (#889)",
+        "at": "2026-10-17T16:48:39+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "2eb8cf016d32cb5a6dd811f9e97cb40d1fcd69bf",
+        "subject": "fix(designs): make console available in both modes (#888)",
+        "at": "2026-10-17T15:10:20+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "f09d584ae3a39a2a37bee5cb52513ea10eb09755",
         "subject": "feat(themes): every card shows an unavailable entity the way its uber theme does (#881)",
@@ -459,30 +483,6 @@
         "subject": "chore(deps): update github-actions (#814)",
         "at": "2026-10-15T23:10:05Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "09493477311c2a8824a3fceb50789bbcfa7a6ffa",
-        "subject": "feat(rc-converter): render unsupported custom cards as their entities (#827)",
-        "at": "2026-10-15T23:37:10+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "8758dab10463a949c6ff0fcbb1b8ac21ad53dc69",
-        "subject": "chore(main): release 0.1.41 (#823)",
-        "at": "2026-10-15T23:02:58+01:00",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "d4885a4f94facdd558ff03f268e7ae79b2dad30d",
-        "subject": "feat(app): keep the app's own card designs on disk, and show what the server lacks (#824)",
-        "at": "2026-10-15T09:44:55+01:00",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
