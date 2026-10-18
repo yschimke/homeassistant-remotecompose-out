@@ -38,11 +38,11 @@ customising the live render are two ends of one workflow.
 
 | | |
 | --- | --- |
-| Components | **63** |
-| Rendered images (PNG) | **63** |
-| Editable wireframes (SVG) | **63** |
-| Editable design vectors (figma-svg) | **63** |
-| Components with a11y greenlines | **47** |
+| Components | **139** |
+| Rendered images (PNG) | **139** |
+| Editable wireframes (SVG) | **139** |
+| Editable design vectors (figma-svg) | **139** |
+| Components with a11y greenlines | **103** |
 | Library | `androidx.compose.material3:material3`<br>`androidx.compose.remote:remote-player-compose (RemoteCompose)`<br>`ee.schimke.ha:rc-components (Terrazzo themes)` |
 | Renderer | compose-preview 2.66.0 |
 | Schema | `design-parity-catalog/v1` |
@@ -52,9 +52,11 @@ customising the live render are two ends of one workflow.
 
 | Group | Count |
 | --- | ---: |
+| Community Uber families | 70 |
 | Cards | 36 |
 | Themes | 10 |
 | Layout | 8 |
+| IKEA Showroom | 6 |
 | Specialised cards | 6 |
 | Brand | 2 |
 | Dashboard editor | 1 |

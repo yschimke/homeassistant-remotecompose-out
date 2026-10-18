@@ -1,11 +1,123 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-18T10:35:33.217Z",
+  "generatedAt": "2026-10-18T17:07:21.075Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "71d69df516e9ed74f2bccdd2188b3dc107bf34b2",
+        "subject": "feat: add public bug report feedback flow (#919)",
+        "at": "2026-10-18T17:33:34+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "44291e9ae21916818d50aaa9c8ca1bbdadd8840c",
+        "subject": "fix: keep widget previews stable and installed data current (#914)",
+        "at": "2026-10-18T17:32:53+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "d67dc3736d91d8a1670841131f06073553dc01b3",
+        "subject": "fix: restore iOS live updates and structured service calls (#916)",
+        "at": "2026-10-18T16:54:53+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "583ef829b53f76d8b659a883c12cdd806fde3100",
+        "subject": "fix: consolidate launcher cards onto one resizable widget (#921)",
+        "at": "2026-10-18T15:11:02+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "75bccf42207e00ea6712a9e7d367edd60f766d63",
+        "subject": "fix: keep short climate widgets readable and show media progress (#918)",
+        "at": "2026-10-18T14:35:57+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "62b4646ded17153f2b6c6ddc4daf3a269f151c16",
+        "subject": "feat: add ten distinct Uber design families (#913)",
+        "at": "2026-10-18T14:18:10+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "3e581069301589f5facab838e93ed39564cd3042",
+        "subject": "fix: default launcher widgets to resizable 1x1 cells (#915)",
+        "at": "2026-10-18T14:18:06+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "6b00df1dfaf5f46483b921e87e9e1e629365c535",
+        "subject": "feat: add IKEA Showroom card design (#912)",
+        "at": "2026-10-18T12:44:33+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "4dd5d86b694db1306d02a1e3aca5d4da9aacc845",
+        "subject": "feat(dashboard): pack adaptive sections and add MeshCore chat (#898)",
+        "at": "2026-10-18T12:43:02+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "e5b3c1fa74f5a5871d9f3eed251d28672d77eb10",
+        "subject": "feat(design): binding recipes so non-Kotlin hosts can play gauge templates (#911)",
+        "at": "2026-10-18T12:35:34+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "524ca98970ff89ab813e8f08c36a4c615b0c9bfc",
+        "subject": "fix(android): keep bottom fields and actions reachable with keyboard open (#907)",
+        "at": "2026-10-18T12:14:14+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "e95fd17c6c2294e651fcb3fa1fb68d7667854db1",
+        "subject": "chore(deps): update github-actions (#908)",
+        "at": "2026-10-18T11:04:46Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "8d0aa3fc14c1d10fdfcee33f03ab5f844d7ddf17",
+        "subject": "feat(demo): expose guarded native read-only HA dashboard (#906)",
+        "at": "2026-10-18T11:48:43+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "9d4b78c855733e4de7d625024d177941e760d538",
+        "subject": "feat(ha): publish HACS packages and select dashboards (#904)",
+        "at": "2026-10-18T10:53:50+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "36f60db60349324fd203a8411adff08a9bcac209",
         "subject": "chore(deps): update dependency python to v3.15.0 (#902)",
@@ -370,118 +482,6 @@
         "sha": "8b2e708b144a5c80c03a243d4e75d58f60cb5533",
         "subject": "feat(cards): tile card features, state_content, climate badge and color (#855)",
         "at": "2026-10-17T06:12:10+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "5ea8c2490fb45e0c08b8dd7931fd23115fa868bd",
-        "subject": "fix(markdown): render bold and inline code like HA's markdown card (#859)",
-        "at": "2026-10-17T06:12:06+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "9ee2e7eaaa526c2a9a3b26e9fa1bd1f070ddf0d7",
-        "subject": "fix(demo): tidy demo dashboard data flagged by the usability audit (#860)",
-        "at": "2026-10-17T05:40:17+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "0e03cb7044b34b775c184748dc56c9383f608d3f",
-        "subject": "test(previews): render each demo dashboard view on its own canvas (#864)",
-        "at": "2026-10-17T05:40:14+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "b8541ceff756bcb8e36b80ec6242b18287b043d0",
-        "subject": "ci: give the preview render job 45 minutes (#862)",
-        "at": "2026-10-17T05:14:21+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a016cc0a97f647a477ed9e2275e74a2e630e0abe",
-        "subject": "fix(cards): bake the entities rows' on/off state into widget templates (#863)",
-        "at": "2026-10-17T05:14:18+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "55ca5a9d944d2b4ef1c3f1ce681632129ad0722c",
-        "subject": "fix(cards): give the entities card row lists that grow with the widget (#861)",
-        "at": "2026-10-17T04:40:59+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "8914123977d1bd18981c39a4b65af9e88a6c6136",
-        "subject": "fix(cards): read the clock card's template bindings from the injected clock (#857)",
-        "at": "2026-10-17T04:14:43+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "dca4b72fe26eb5b738d0644acd30121452334105",
-        "subject": "fix(cards): humanise the sensor card's graph window label (#858)",
-        "at": "2026-10-17T04:14:39+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "9b524cc6a4c2e7fa929a76e0a1e32faf032ec3fa",
-        "subject": "fix(cards): reflow the map card's rows and fit the weather chips (#854)",
-        "at": "2026-10-17T03:42:20+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "5d5fc8526f1587e40e8a749440d16cbde7e04da5",
-        "subject": "fix(cards): keep the Bambu fallback state on one line on Wear (#856)",
-        "at": "2026-10-17T03:42:17+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "6bbdd9c5b0a7c61806fcd9c794d417c19d946a60",
-        "subject": "fix(cards): a history graph with no history fits the Wear small slot (#852)",
-        "at": "2026-10-17T03:17:53+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "c00d6acd17073e0d713b80549b2207d6f9b74ae1",
-        "subject": "feat(dashboard): lay out cards in each section on HA's 12-column grid (#853)",
-        "at": "2026-10-17T03:17:50+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "2909a5316b834200e73b2a4472da09e6849e4f70",
-        "subject": "fix(dashboard): sections views honour header, column_span and balanced columns (#850)",
-        "at": "2026-10-17T02:44:17+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "53c4110bde8ab1249a60a28927d5b82b971c3823",
-        "subject": "fix(cards): garage door controls follow the door, and the door looks like a door (#851)",
-        "at": "2026-10-17T02:44:13+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
