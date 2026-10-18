@@ -1,11 +1,75 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-18T11:51:24.676Z",
+  "generatedAt": "2026-10-18T16:57:35.746Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "9b78b0388c0671d55335c63470e17bba51c0c452",
+        "subject": "fix: embed pictures in direct launcher widget captures (#917)",
+        "at": "2026-10-18T17:50:49+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "71d69df516e9ed74f2bccdd2188b3dc107bf34b2",
+        "subject": "feat: add public bug report feedback flow (#919)",
+        "at": "2026-10-18T17:33:34+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "44291e9ae21916818d50aaa9c8ca1bbdadd8840c",
+        "subject": "fix: keep widget previews stable and installed data current (#914)",
+        "at": "2026-10-18T17:32:53+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "d67dc3736d91d8a1670841131f06073553dc01b3",
+        "subject": "fix: restore iOS live updates and structured service calls (#916)",
+        "at": "2026-10-18T16:54:53+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "583ef829b53f76d8b659a883c12cdd806fde3100",
+        "subject": "fix: consolidate launcher cards onto one resizable widget (#921)",
+        "at": "2026-10-18T15:11:02+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "75bccf42207e00ea6712a9e7d367edd60f766d63",
+        "subject": "fix: keep short climate widgets readable and show media progress (#918)",
+        "at": "2026-10-18T14:35:57+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "62b4646ded17153f2b6c6ddc4daf3a269f151c16",
+        "subject": "feat: add ten distinct Uber design families (#913)",
+        "at": "2026-10-18T14:18:10+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "3e581069301589f5facab838e93ed39564cd3042",
+        "subject": "fix: default launcher widgets to resizable 1x1 cells (#915)",
+        "at": "2026-10-18T14:18:06+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "6b00df1dfaf5f46483b921e87e9e1e629365c535",
         "subject": "feat: add IKEA Showroom card design (#912)",
@@ -418,70 +482,6 @@
         "sha": "f9f1977da35dba6f4e8dc96fee39ee85fadfbc9e",
         "subject": "fix(cards): Bambu cards act on the configured printer, never a guessed one (#844)",
         "at": "2026-10-17T06:38:06+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "8b2e708b144a5c80c03a243d4e75d58f60cb5533",
-        "subject": "feat(cards): tile card features, state_content, climate badge and color (#855)",
-        "at": "2026-10-17T06:12:10+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "5ea8c2490fb45e0c08b8dd7931fd23115fa868bd",
-        "subject": "fix(markdown): render bold and inline code like HA's markdown card (#859)",
-        "at": "2026-10-17T06:12:06+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "9ee2e7eaaa526c2a9a3b26e9fa1bd1f070ddf0d7",
-        "subject": "fix(demo): tidy demo dashboard data flagged by the usability audit (#860)",
-        "at": "2026-10-17T05:40:17+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "0e03cb7044b34b775c184748dc56c9383f608d3f",
-        "subject": "test(previews): render each demo dashboard view on its own canvas (#864)",
-        "at": "2026-10-17T05:40:14+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "b8541ceff756bcb8e36b80ec6242b18287b043d0",
-        "subject": "ci: give the preview render job 45 minutes (#862)",
-        "at": "2026-10-17T05:14:21+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a016cc0a97f647a477ed9e2275e74a2e630e0abe",
-        "subject": "fix(cards): bake the entities rows' on/off state into widget templates (#863)",
-        "at": "2026-10-17T05:14:18+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "55ca5a9d944d2b4ef1c3f1ce681632129ad0722c",
-        "subject": "fix(cards): give the entities card row lists that grow with the widget (#861)",
-        "at": "2026-10-17T04:40:59+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "8914123977d1bd18981c39a4b65af9e88a6c6136",
-        "subject": "fix(cards): read the clock card's template bindings from the injected clock (#857)",
-        "at": "2026-10-17T04:14:43+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
