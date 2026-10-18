@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-18T16:57:35.746Z",
+  "generatedAt": "2026-10-18T17:29:00.535Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "e6423ed7152ac922f68631cdca169a1bdf8a7242",
+        "subject": "fix: update adaptive player documents on stable wrap slots (#920)",
+        "at": "2026-10-18T18:21:28+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "9b78b0388c0671d55335c63470e17bba51c0c452",
         "subject": "fix: embed pictures in direct launcher widget captures (#917)",
@@ -474,14 +482,6 @@
         "sha": "ef5ed18a1ab16c545830ec138eae0c91e9e583c2",
         "subject": "feat(cards): Material Design Icons for card overrides and HA's domain defaults (#845)",
         "at": "2026-10-17T07:13:41+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "f9f1977da35dba6f4e8dc96fee39ee85fadfbc9e",
-        "subject": "fix(cards): Bambu cards act on the configured printer, never a guessed one (#844)",
-        "at": "2026-10-17T06:38:06+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
