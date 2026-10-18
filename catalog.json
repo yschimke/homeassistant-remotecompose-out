@@ -1368,9 +1368,9 @@
         {
           "bounds": {
             "x": 58,
-            "y": 101,
+            "y": 93,
             "width": 829,
-            "height": 533
+            "height": 549
           },
           "padding": {
             "start": 14.095238,
@@ -1382,7 +1382,7 @@
         {
           "bounds": {
             "x": 58,
-            "y": 697,
+            "y": 705,
             "width": 829,
             "height": 379
           },
@@ -1396,7 +1396,7 @@
         {
           "bounds": {
             "x": 53,
-            "y": 1139,
+            "y": 1147,
             "width": 840,
             "height": 232
           },
@@ -1567,6 +1567,167 @@
       "bodyLine": 531,
       "sourceDirectory": "ha-cards-catalog",
       "sourceFunction": "HaCardConsoleControlsSticker"
+    },
+    {
+      "componentId": "HaCard/ConsoleServiceLabels",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/hacard-consoleservicelabels/ideal__default__card.png",
+          "state": "default",
+          "width": 945,
+          "height": 735,
+          "size": "card",
+          "livePreview": "https://preview.coo.ee/ha-cards/p/hacard-consoleservicelabels__ideal__default__card",
+          "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardConsoleServiceLabelsSticker",
+          "density": 2.625
+        }
+      ],
+      "greenlines": [],
+      "redlines": [
+        {
+          "bounds": {
+            "x": 53,
+            "y": 102,
+            "width": 366,
+            "height": 109
+          },
+          "padding": {
+            "start": 12.190476,
+            "top": 12.190476,
+            "end": 11.809524,
+            "bottom": 11.809524
+          }
+        },
+        {
+          "bounds": {
+            "x": 53,
+            "y": 263,
+            "width": 840,
+            "height": 189
+          },
+          "padding": {
+            "start": 12.190476,
+            "top": 8,
+            "end": 11.809524,
+            "bottom": 8
+          }
+        },
+        {
+          "bounds": {
+            "x": 427,
+            "y": 297,
+            "width": 58,
+            "height": 58
+          },
+          "padding": {
+            "start": 0,
+            "top": 0,
+            "end": 13.333333,
+            "bottom": 0
+          }
+        },
+        {
+          "bounds": {
+            "x": 58,
+            "y": 505,
+            "width": 829,
+            "height": 130
+          },
+          "padding": {
+            "start": 14.095238,
+            "top": 12.190476,
+            "end": 14.095238,
+            "bottom": 11.809524
+          }
+        }
+      ],
+      "group": "Containment",
+      "caption": "White service tape labels Console's missing, unsupported and unavailable content, while preserving the original message and live recovery behavior.",
+      "noReference": "No published design kit covers Home Assistant cards in Remote Compose.",
+      "wireframe": "wireframes/hacard-consoleservicelabels.svg",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
+      "sourceModule": ":ha-cards-catalog",
+      "bodyLine": 582,
+      "sourceDirectory": "ha-cards-catalog",
+      "sourceFunction": "HaCardConsoleServiceLabelsSticker",
+      "parameters": [
+        {
+          "name": "content",
+          "type": "() -> Unit",
+          "composableSlot": true
+        }
+      ]
+    },
+    {
+      "componentId": "HaCard/UberThemeIkea",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/hacard-uberthemeikea/ideal__default__card.png",
+          "state": "default",
+          "width": 945,
+          "height": 1470,
+          "size": "card",
+          "livePreview": "https://preview.coo.ee/ha-cards/p/hacard-uberthemeikea__ideal__default__card",
+          "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardUberThemeIkeaSticker",
+          "density": 2.625
+        }
+      ],
+      "greenlines": [],
+      "redlines": [
+        {
+          "bounds": {
+            "x": 58,
+            "y": 101,
+            "width": 829,
+            "height": 533
+          },
+          "padding": {
+            "start": 14.095238,
+            "top": 12.190476,
+            "end": 14.095238,
+            "bottom": 11.809524
+          }
+        },
+        {
+          "bounds": {
+            "x": 58,
+            "y": 697,
+            "width": 829,
+            "height": 379
+          },
+          "padding": {
+            "start": 14.095238,
+            "top": 12.190476,
+            "end": 14.095238,
+            "bottom": 11.809524
+          }
+        },
+        {
+          "bounds": {
+            "x": 53,
+            "y": 1139,
+            "width": 840,
+            "height": 232
+          },
+          "padding": {
+            "start": 12.190476,
+            "top": 12.190476,
+            "end": 11.809524,
+            "bottom": 11.809524
+          }
+        }
+      ],
+      "group": "Containment",
+      "caption": "IKEA Showroom: timber-edged frames, rechargeable-cell meters and moulded smart-control paddles. Original product-inspired drawings; portable sans typography.",
+      "noReference": "No published design kit covers Home Assistant cards in Remote Compose.",
+      "wireframe": "wireframes/hacard-uberthemeikea.svg",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
+      "sourceModule": ":ha-cards-catalog",
+      "bodyLine": 613,
+      "sourceDirectory": "ha-cards-catalog",
+      "sourceFunction": "HaCardUberThemeIkeaSticker"
     },
     {
       "componentId": "Remote/Button",
@@ -2306,7 +2467,7 @@
     "ee.schimke.ha:rc-components (RemoteHa* cards)"
   ],
   "renderer": "compose-preview 2.66.0",
-  "generatedAt": "2026-10-17T23:19:44.524Z",
+  "generatedAt": "2026-10-18T11:51:21.559Z",
   "display": {
     "surface": "light",
     "hero": "HaCard/Tile"
@@ -2413,7 +2574,7 @@
   "uiBuilderFile": "ui-builder.json",
   "source": {
     "repo": "yschimke/homeassistant-remotecompose",
-    "ref": "a147fff45f3095bd85e1b1d72b25bcdb90ca8a40",
+    "ref": "6b00df1dfaf5f46483b921e87e9e1e629365c535",
     "module": ":ha-cards-catalog"
   }
 }

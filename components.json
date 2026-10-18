@@ -4383,6 +4383,7 @@
         {
             "canonicalId": "ha-cards-catalog/ee.schimke.ha.cards.HaCardStickerKt.HaCardSticker",
             "componentIds": [
+                "HaCard/ConsoleServiceLabels",
                 "Remote/Button",
                 "Remote/Card",
                 "Remote/SwitchButton",
@@ -4422,6 +4423,11 @@
                 }
             ],
             "bindings": [
+                {
+                    "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardConsoleServiceLabelsSticker",
+                    "componentId": "HaCard/ConsoleServiceLabels",
+                    "group": "Containment"
+                },
                 {
                     "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteButtonSticker",
                     "componentId": "Remote/Button",
