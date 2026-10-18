@@ -1,11 +1,75 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-17T23:55:25.711Z",
+  "generatedAt": "2026-10-18T09:50:27.215Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "60e10869373f6742deb233c0ef3448885d0a118b",
+        "subject": "chore(main): release 0.1.43 (#842)",
+        "at": "2026-10-18T10:17:06+01:00",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "803624a4e2ee6ccc84ff8a160f9c1fdefce676cc",
+        "subject": "chore(deps): update github-actions (#883)",
+        "at": "2026-10-18T10:16:51+01:00",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "80c26a3ee05381596b943da07333c282f88484e5",
+        "subject": "feat(mobile): add placeholder cards and agent handoff (#900)",
+        "at": "2026-10-18T10:12:47+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "6f27f387117cb82f10177e7903549024a309a5ee",
+        "subject": "feat(ha): load Remote Compose card templates by URL (#901)",
+        "at": "2026-10-18T10:12:43+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "7e64a2ce7aa18ba7c90b4c358c7900fce0771819",
+        "subject": "fix(release): make Apple asset checksums portable (#899)",
+        "at": "2026-10-18T09:19:05+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "13f80b1a8ceedba54120365d3e2b38c6eef14228",
+        "subject": "fix(ui): collapse demo controls into one toolbar (#897)",
+        "at": "2026-10-18T08:37:58+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "94b77d70206230770d20bfbfbb1457db98a557be",
+        "subject": "feat: give Console thermostats physical set-point controls (#896)",
+        "at": "2026-10-18T08:12:36+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "8c4e25940f551a445080cf471d27f714838d4c16",
+        "subject": "feat: complete Console button hardware and add tape labels (#895)",
+        "at": "2026-10-18T01:38:52+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "a147fff45f3095bd85e1b1d72b25bcdb90ca8a40",
         "subject": "feat: extend Console physical instruments and controls (#894)",
@@ -419,70 +483,6 @@
         "subject": "fix(cards): fit the larger type into the Wear small slot and fixed widget cells (#848)",
         "at": "2026-10-17T02:20:46+01:00",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "4b4d3f208162a1334fd1cb64621b64935dae7350",
-        "subject": "fix(cards): history graphs use configured names, readable windows and one empty state (#849)",
-        "at": "2026-10-17T02:20:43+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ad2a7b7dc5bf727adb6cf1f0c49bbc33d7b42806",
-        "subject": "fix(cards): state colour follows state, and unavailable entities look unavailable (#846)",
-        "at": "2026-10-17T01:34:49+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "47a8f38ee1da0db13ec69d3ee39ed23c835cc8dc",
-        "subject": "feat(cards): a larger card type scale for phones (#843)",
-        "at": "2026-10-17T00:35:07+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "c20ae6fd64a7756ab814106fe2db3c9781820ea2",
-        "subject": "fix(demo): show stand-in pictures for demo cameras and images (#839)",
-        "at": "2026-10-17T00:10:54+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "4270ce5d46314da96483e38cb8e169b0ffeafe33",
-        "subject": "fix(app): keep the dashboard title on one line (#837)",
-        "at": "2026-10-16T23:38:55+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "483ef3e77fded9e4dc95ba5409eee8e5ad6abf67",
-        "subject": "fix(cards): a clear idle state for the Bambu print card (#838)",
-        "at": "2026-10-16T23:38:52+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "db3c08de10be66b8cd5e5804b14861e9121631ff",
-        "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.252 (#840)",
-        "at": "2026-10-16T22:36:19Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "566d08b6f7710bc94c02a8e405b1a31906317017",
-        "subject": "chore(main): release 0.1.42 (#828)",
-        "at": "2026-10-16T20:23:02+01:00",
-        "author": "github-actions[bot]",
         "previewIds": [],
         "components": []
       }
