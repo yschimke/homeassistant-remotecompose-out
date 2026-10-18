@@ -1,49 +1,62 @@
 {
   "entries": [
     {
-      "annotatedBasename": "DataGridOverlayPreview_Data_grid_overlay-d5c0afe1.a11y.png",
-      "cleanBasename": "DataGridOverlayPreview_Data_grid_overlay-d5c0afe1.png",
+      "annotatedBasename": "Screen_Settings_settings-fc99b7e6.a11y.png",
+      "cleanBasename": "Screen_Settings_settings-fc99b7e6.png",
       "findings": [
         {
-          "boundsInScreen": "523,185,836,219",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"off\" is identical to that of 1 other item(s).",
+          "boundsInScreen": "64,1294,190,1420",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Not selected\" is identical to that of 3 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
+          "viewDescription": "android.widget.RadioButton"
         }
       ],
-      "functionName": "DataGridOverlayPreview",
+      "functionName": "Screen_Settings",
       "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.CardDebugPreviewsKt.DataGridOverlayPreview_Data grid overlay",
-      "rendersDir": "app",
-      "sourceFile": "src/debug/kotlin/ee/schimke/terrazzo/previews/CardDebugPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_CardHistory_card_history-07f74f5f.a11y.png",
-      "cleanBasename": "Screen_CardHistory_card_history-07f74f5f.png",
-      "findings": [],
-      "functionName": "Screen_CardHistory",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardHistory_card history",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_settings",
       "rendersDir": "app",
       "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
       "variant": ""
     },
     {
-      "annotatedBasename": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardHistory_ThemeStyle_card history \u00b7 theme.a11y.png",
+      "annotatedBasename": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_ThemeStyle_settings \u00b7 theme.a11y.png",
       "cleanBasename": "",
-      "findings": [],
-      "functionName": "Screen_CardHistory_ThemeStyle",
+      "findings": [
+        {
+          "boundsInScreen": "64,1252,190,1378",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Not selected\" is identical to that of 3 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.RadioButton"
+        }
+      ],
+      "functionName": "Screen_Settings_ThemeStyle",
       "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardHistory_ThemeStyle_card history \u00b7 theme",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_ThemeStyle_settings \u00b7 theme",
       "rendersDir": "app",
       "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
       "variant": ""
+    },
+    {
+      "annotatedBasename": "WearSettingsPreview_Wear_settings-866444c2.a11y.png",
+      "cleanBasename": "WearSettingsPreview_Wear_settings-866444c2.png",
+      "findings": [],
+      "functionName": "WearSettingsPreview",
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearSettingsPreview_Wear_ settings",
+      "rendersDir": "wear",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/wear/ui/WearPreviews.kt",
+      "variant": "wearos_small_round"
     }
   ],
   "scope": "changed-previews",
+  "status": "atf-unavailable",
   "uncheckedPreviews": [
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.CardDebugPreviewsKt.DataGridOverlayPreview_Data grid overlay"
+    },
     {
       "module": "app",
       "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_01_HomeLight_play \u00b7 phone \u00b7 home (light)"
@@ -75,6 +88,14 @@
     {
       "module": "app",
       "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardActions_card actions"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardHistory_ThemeStyle_card history \u00b7 theme"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardHistory_card history"
     },
     {
       "module": "app",
@@ -166,14 +187,6 @@
     },
     {
       "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_ThemeStyle_settings \u00b7 theme"
-    },
-    {
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_settings"
-    },
-    {
-      "module": "app",
       "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_SyncDiagnostics_sync diagnostics"
     },
     {
@@ -187,6 +200,314 @@
     {
       "module": "app",
       "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Widgets_widgets"
+    },
+    {
+      "module": "tv",
+      "previewId": "ee.schimke.terrazzo.tv.ui.TvPreviewsKt.TvKioskPreview_Console_TV_ kiosk (Console card style)"
+    },
+    {
+      "module": "tv",
+      "previewId": "ee.schimke.terrazzo.tv.ui.TvPreviewsKt.TvKioskPreview_Demo_TV_ kiosk (demo)"
+    },
+    {
+      "module": "tv",
+      "previewId": "ee.schimke.terrazzo.tv.ui.TvPreviewsKt.TvKioskPreview_HomePalette_TV_ kiosk (Home palette)"
+    },
+    {
+      "module": "tv",
+      "previewId": "ee.schimke.terrazzo.tv.ui.TvPreviewsKt.TvKioskPreview_Lcd_TV_ kiosk (LCD card style)"
+    },
+    {
+      "module": "tv",
+      "previewId": "ee.schimke.terrazzo.tv.ui.TvPreviewsKt.TvKioskPreview_Live_TV_ kiosk (live)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearDashboardPreview_Wear_ dashboard"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearDashboardsPreview_Wear_ dashboards"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearSectionPreview_Wear_ section"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearTopLevelPreview_Demo_Wear_ top-level (demo)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearTopLevelPreview_Empty_Wear_ top-level (empty)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearTopLevelPreview_Live_Wear_ top-level (live)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearAlarmPanelLarge_wear \u00b7 alarm-panel (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearAlarmPanelSmall_wear \u00b7 alarm-panel (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearAreaLarge_wear \u00b7 area (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearAreaSmall_wear \u00b7 area (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearBambuAmsLarge_wear \u00b7 bambu ams (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearBambuAmsSmall_wear \u00b7 bambu ams (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearBambuPrintControlLarge_wear \u00b7 bambu print-control (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearBambuPrintControlSmall_wear \u00b7 bambu print-control (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearBambuPrintStatusLarge_wear \u00b7 bambu print-status (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearBambuPrintStatusSmall_wear \u00b7 bambu print-status (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearBambuSpoolLarge_wear \u00b7 bambu spool (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearBambuSpoolSmall_wear \u00b7 bambu spool (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearButtonLarge_wear \u00b7 button (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearButtonSmall_wear \u00b7 button (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearCalendarSmall_wear \u00b7 calendar (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearClockSmall_wear \u00b7 clock (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearEntitiesLarge_wear \u00b7 entities (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearEntitiesSmall_wear \u00b7 entities (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearEntityFilterLarge_wear \u00b7 entity-filter (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearEntityFilterSmall_wear \u00b7 entity-filter (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearEntityLarge_wear \u00b7 entity (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearEntitySmall_wear \u00b7 entity (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearGaugeLarge_wear \u00b7 gauge (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearGaugeSmall_wear \u00b7 gauge (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearGlanceLarge_wear \u00b7 glance (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearGlanceSmall_wear \u00b7 glance (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearGridLarge_wear \u00b7 grid (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearGridSmall_wear \u00b7 grid (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearHeadingSmall_wear \u00b7 heading (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearHistoryGraphSmall_wear \u00b7 history-graph (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearHorizontalStackLarge_wear \u00b7 horizontal-stack (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearHorizontalStackSmall_wear \u00b7 horizontal-stack (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearHumidifierLarge_wear \u00b7 humidifier (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearHumidifierSmall_wear \u00b7 humidifier (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearLightLarge_wear \u00b7 light (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearLightSmall_wear \u00b7 light (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearLogbookSmall_wear \u00b7 logbook (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearMarkdownSmall_wear \u00b7 markdown (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearMediaControlLarge_wear \u00b7 media-control (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearMediaControlSmall_wear \u00b7 media-control (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearPictureElementsLarge_wear \u00b7 picture-elements (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearPictureElementsSmall_wear \u00b7 picture-elements (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearPictureEntityLarge_wear \u00b7 picture-entity (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearPictureEntitySmall_wear \u00b7 picture-entity (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearPictureGlanceLarge_wear \u00b7 picture-glance (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearPictureGlanceSmall_wear \u00b7 picture-glance (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearPictureLarge_wear \u00b7 picture (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearPictureSmall_wear \u00b7 picture (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearSensorLarge_wear \u00b7 sensor (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearSensorSmall_wear \u00b7 sensor (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearStatisticLarge_wear \u00b7 statistic (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearStatisticSmall_wear \u00b7 statistic (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearStatisticsGraphSmall_wear \u00b7 statistics-graph (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearThermostatLarge_wear \u00b7 thermostat (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearThermostatSmall_wear \u00b7 thermostat (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearTileLarge_wear \u00b7 tile (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearTileSmall_wear \u00b7 tile (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearTodoListSmall_wear \u00b7 todo-list (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearUnsupportedLarge_wear \u00b7 unsupported (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearUnsupportedSmall_wear \u00b7 unsupported (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearVerticalStackLarge_wear \u00b7 vertical-stack (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearVerticalStackSmall_wear \u00b7 vertical-stack (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearWeatherForecastSmall_wear \u00b7 weather-forecast (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.SlotWidgetPreviewsKt.SlotWidgetPreview_Empty_Slot widget \u2014 empty placeholder"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.SlotWidgetPreviewsKt.SlotWidgetPreview_EntitiesLarge_Slot widget \u2014 entities (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.SlotWidgetPreviewsKt.SlotWidgetPreview_TileSmall_Slot widget \u2014 tile (small)"
     }
   ]
 }
