@@ -1,11 +1,43 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-18T18:34:12.200Z",
+  "generatedAt": "2026-10-18T21:53:20.545Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "fdaf53ef9b2a4e443c0a2865b8c2c555da4f17e8",
+        "subject": "chore(main): release 0.1.44 (#905)",
+        "at": "2026-10-18T22:10:54+01:00",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "c50b6e6a6541a8cbb0711dd0cb7fb1e725d03642",
+        "subject": "fix(android): correct system bar contrast and inset layouts (#923)",
+        "at": "2026-10-18T21:37:26+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "fcdd86e3e5b71bc39a5438d065db3816737b9e83",
+        "subject": "fix: stabilize WASM dashboard cards and render HA images (#925)",
+        "at": "2026-10-18T19:39:42+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "3cb5c0c9432bdb93b0ead883eefa2518d2369c95",
+        "subject": "feat: script native demo Caddy route setup (#924)",
+        "at": "2026-10-18T19:13:58+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "e6423ed7152ac922f68631cdca169a1bdf8a7242",
         "subject": "fix: update adaptive player documents on stable wrap slots (#920)",
@@ -450,38 +482,6 @@
         "sha": "c76482bbc8b46d57d6f7c8230cefa52867c3d403",
         "subject": "fix(cards): nested cards in a launcher widget lay out for their own share (#868)",
         "at": "2026-10-17T08:12:14+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "43a6add201b4a3733aafda440a1644adc8bc4387",
-        "subject": "feat(dashboard): sections lay out their cards by harc's designs, in HA's order (#866)",
-        "at": "2026-10-17T07:26:41+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ae3d61b5964a2d15eece55b3e54f1777bad105dd",
-        "subject": "fix(cards): lay grid cards out in columns that wrap, and honour aspect_ratio (#841)",
-        "at": "2026-10-17T07:16:04+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a20cac6960f6606d257ecdd34f3d32a3f8b76082",
-        "subject": "fix(cards): show an AMS tray's unknown remaining filament as \"—\", not \"-1 %\" (#865)",
-        "at": "2026-10-17T07:14:23+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ef5ed18a1ab16c545830ec138eae0c91e9e583c2",
-        "subject": "feat(cards): Material Design Icons for card overrides and HA's domain defaults (#845)",
-        "at": "2026-10-17T07:13:41+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
