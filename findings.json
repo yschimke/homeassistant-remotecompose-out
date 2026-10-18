@@ -1,285 +1,6 @@
 {
   "entries": [
     {
-      "annotatedBasename": "",
-      "cleanBasename": "HaCardArcMeterSticker-298ae715.png",
-      "findings": [],
-      "functionName": "HaCardArcMeterSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardArcMeterSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "",
-      "cleanBasename": "HaCardBarMeterSticker-932e0172.png",
-      "findings": [],
-      "functionName": "HaCardBarMeterSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardBarMeterSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardBatterySticker-14ccc73a.a11y.png",
-      "cleanBasename": "HaCardBatterySticker-14ccc73a.png",
-      "findings": [],
-      "functionName": "HaCardBatterySticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardBatterySticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardButtonSticker-53b6e3a7.a11y.png",
-      "cleanBasename": "HaCardButtonSticker-53b6e3a7.png",
-      "findings": [],
-      "functionName": "HaCardButtonSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardButtonSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardConsoleControlsSticker-cf871c96.a11y.png",
-      "cleanBasename": "HaCardConsoleControlsSticker-cf871c96.png",
-      "findings": [
-        {
-          "boundsInScreen": "265,440,328,503",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Pause\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View  desc=\"Pause\""
-        },
-        {
-          "boundsInScreen": "584,440,647,503",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Stop\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View  desc=\"Stop\""
-        }
-      ],
-      "functionName": "HaCardConsoleControlsSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardConsoleControlsSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardConsoleServiceLabelsSticker-536b4d98.a11y.png",
-      "cleanBasename": "HaCardConsoleServiceLabelsSticker-536b4d98.png",
-      "findings": [],
-      "functionName": "HaCardConsoleServiceLabelsSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardConsoleServiceLabelsSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardEntitiesSticker-f747a925.a11y.png",
-      "cleanBasename": "HaCardEntitiesSticker-f747a925.png",
-      "findings": [],
-      "functionName": "HaCardEntitiesSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardEntitiesSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardEntityRowSticker-e753861e.a11y.png",
-      "cleanBasename": "HaCardEntityRowSticker-e753861e.png",
-      "findings": [],
-      "functionName": "HaCardEntityRowSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardEntityRowSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardGaugeSticker-f985b7e9.a11y.png",
-      "cleanBasename": "HaCardGaugeSticker-f985b7e9.png",
-      "findings": [],
-      "functionName": "HaCardGaugeSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardGaugeSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardGlanceSticker-ed578dc9.a11y.png",
-      "cleanBasename": "HaCardGlanceSticker-ed578dc9.png",
-      "findings": [],
-      "functionName": "HaCardGlanceSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardGlanceSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardHeadingSticker-ead292c1.a11y.png",
-      "cleanBasename": "HaCardHeadingSticker-ead292c1.png",
-      "findings": [],
-      "functionName": "HaCardHeadingSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardHeadingSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardIconSticker-abac8ae5.a11y.png",
-      "cleanBasename": "HaCardIconSticker-abac8ae5.png",
-      "findings": [],
-      "functionName": "HaCardIconSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardIconSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardMeasurementSticker-96d0258f.a11y.png",
-      "cleanBasename": "HaCardMeasurementSticker-96d0258f.png",
-      "findings": [],
-      "functionName": "HaCardMeasurementSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardMeasurementSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardMetricSticker-5f00defd.a11y.png",
-      "cleanBasename": "HaCardMetricSticker-5f00defd.png",
-      "findings": [],
-      "functionName": "HaCardMetricSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardMetricSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardStatusChipSticker-491fda3b.a11y.png",
-      "cleanBasename": "HaCardStatusChipSticker-491fda3b.png",
-      "findings": [],
-      "functionName": "HaCardStatusChipSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardStatusChipSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardSurfaceSticker-8638109c.a11y.png",
-      "cleanBasename": "HaCardSurfaceSticker-8638109c.png",
-      "findings": [],
-      "functionName": "HaCardSurfaceSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardSurfaceSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardTemplateSticker-748c3333.a11y.png",
-      "cleanBasename": "HaCardTemplateSticker-748c3333.png",
-      "findings": [],
-      "functionName": "HaCardTemplateSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardTemplateSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardThermometerChipSticker-d042f2cf.a11y.png",
-      "cleanBasename": "HaCardThermometerChipSticker-d042f2cf.png",
-      "findings": [],
-      "functionName": "HaCardThermometerChipSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardThermometerChipSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardThermometerShortSticker-bfd4e8b6.a11y.png",
-      "cleanBasename": "HaCardThermometerShortSticker-bfd4e8b6.png",
-      "findings": [],
-      "functionName": "HaCardThermometerShortSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardThermometerShortSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardThermometerSticker-f4bb4f74.a11y.png",
-      "cleanBasename": "HaCardThermometerSticker-f4bb4f74.png",
-      "findings": [],
-      "functionName": "HaCardThermometerSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardThermometerSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardThermometerTallSticker-d37ae034.a11y.png",
-      "cleanBasename": "HaCardThermometerTallSticker-d37ae034.png",
-      "findings": [],
-      "functionName": "HaCardThermometerTallSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardThermometerTallSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardThermostatSticker-a73181b7.a11y.png",
-      "cleanBasename": "HaCardThermostatSticker-a73181b7.png",
-      "findings": [],
-      "functionName": "HaCardThermostatSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardThermostatSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaCardTileSticker-91a245fb.a11y.png",
-      "cleanBasename": "HaCardTileSticker-91a245fb.png",
-      "findings": [],
-      "functionName": "HaCardTileSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardTileSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "",
-      "cleanBasename": "HaCardToggleSticker-07b8d001.png",
-      "findings": [],
-      "functionName": "HaCardToggleSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardToggleSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
       "annotatedBasename": "HaCardUberThemeConsoleSticker-60e251cd.a11y.png",
       "cleanBasename": "HaCardUberThemeConsoleSticker-60e251cd.png",
       "findings": [],
@@ -291,104 +12,11 @@
       "variant": ""
     },
     {
-      "annotatedBasename": "HaCardUberThemeSticker-7f4ced60.a11y.png",
-      "cleanBasename": "HaCardUberThemeSticker-7f4ced60.png",
-      "findings": [],
-      "functionName": "HaCardUberThemeSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardUberThemeSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "HaDashboardSectionSticker-30b748ce.a11y.png",
-      "cleanBasename": "HaDashboardSectionSticker-30b748ce.png",
-      "findings": [
-        {
-          "boundsInScreen": "21,45,216,113",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Kitchen\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        }
-      ],
-      "functionName": "HaDashboardSectionSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaDashboardSectionSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "RemoteButtonSticker-4371877d.a11y.png",
-      "cleanBasename": "RemoteButtonSticker-4371877d.png",
-      "findings": [],
-      "functionName": "RemoteButtonSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteButtonSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "RemoteCardSticker-7685c951.a11y.png",
-      "cleanBasename": "RemoteCardSticker-7685c951.png",
-      "findings": [],
-      "functionName": "RemoteCardSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteCardSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "RemoteSwitchButtonSticker-c082b22a.a11y.png",
-      "cleanBasename": "RemoteSwitchButtonSticker-c082b22a.png",
-      "findings": [],
-      "functionName": "RemoteSwitchButtonSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteSwitchButtonSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "RemoteTextSticker-246b8608.a11y.png",
-      "cleanBasename": "RemoteTextSticker-246b8608.png",
-      "findings": [],
-      "functionName": "RemoteTextSticker",
-      "module": "ha-cards-catalog",
-      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteTextSticker",
-      "rendersDir": "ha-cards-catalog",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "UberCards_Console_uber_cards_Console-af191643.a11y.png",
-      "cleanBasename": "UberCards_Console_uber_cards_Console-af191643.png",
-      "findings": [
-        {
-          "boundsInScreen": "58,1438,216,1478",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Disarmed\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        }
-      ],
-      "functionName": "UberCards_Console",
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberCards_Console_uber cards_ Console",
-      "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemeSheets.kt",
-      "variant": ""
-    },
-    {
       "annotatedBasename": "UberDials_Console_uber_dials_Console-81287a28.a11y.png",
       "cleanBasename": "UberDials_Console_uber_dials_Console-81287a28.png",
       "findings": [
         {
-          "boundsInScreen": "331,598,457,724",
+          "boundsInScreen": "331,614,457,740",
           "level": "WARNING",
           "message": "This clickable item's speakable text: \"stepper\" is identical to that of 5 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
@@ -407,7 +35,7 @@
       "cleanBasename": "Uber_Console_Desk_uber_Console_desk-a93e894d.png",
       "findings": [
         {
-          "boundsInScreen": "331,598,457,724",
+          "boundsInScreen": "331,614,457,740",
           "level": "WARNING",
           "message": "This clickable item's speakable text: \"stepper\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
@@ -420,10 +48,149 @@
       "rendersDir": "previews",
       "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemePreviews.kt",
       "variant": ""
+    },
+    {
+      "annotatedBasename": "TvKioskPreview_Console_TV_kiosk_Console_card_style-a5516ae5.a11y.png",
+      "cleanBasename": "TvKioskPreview_Console_TV_kiosk_Console_card_style-a5516ae5.png",
+      "findings": [
+        {
+          "boundsInScreen": "127,339,178,376",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"578\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        }
+      ],
+      "functionName": "TvKioskPreview_Console",
+      "module": "tv",
+      "previewId": "ee.schimke.terrazzo.tv.ui.TvPreviewsKt.TvKioskPreview_Console_TV_ kiosk (Console card style)",
+      "rendersDir": "tv",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/tv/ui/TvPreviews.kt",
+      "variant": ""
     }
   ],
   "scope": "changed-previews",
   "uncheckedPreviews": [
+    {
+      "module": "ha-cards-catalog",
+      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardArcMeterSticker"
+    },
+    {
+      "module": "ha-cards-catalog",
+      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardBarMeterSticker"
+    },
+    {
+      "module": "ha-cards-catalog",
+      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardBatterySticker"
+    },
+    {
+      "module": "ha-cards-catalog",
+      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardButtonSticker"
+    },
+    {
+      "module": "ha-cards-catalog",
+      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardConsoleControlsSticker"
+    },
+    {
+      "module": "ha-cards-catalog",
+      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardConsoleServiceLabelsSticker"
+    },
+    {
+      "module": "ha-cards-catalog",
+      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardEntitiesSticker"
+    },
+    {
+      "module": "ha-cards-catalog",
+      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardEntityRowSticker"
+    },
+    {
+      "module": "ha-cards-catalog",
+      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardGaugeSticker"
+    },
+    {
+      "module": "ha-cards-catalog",
+      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardGlanceSticker"
+    },
+    {
+      "module": "ha-cards-catalog",
+      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardHeadingSticker"
+    },
+    {
+      "module": "ha-cards-catalog",
+      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardIconSticker"
+    },
+    {
+      "module": "ha-cards-catalog",
+      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardMeasurementSticker"
+    },
+    {
+      "module": "ha-cards-catalog",
+      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardMetricSticker"
+    },
+    {
+      "module": "ha-cards-catalog",
+      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardStatusChipSticker"
+    },
+    {
+      "module": "ha-cards-catalog",
+      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardSurfaceSticker"
+    },
+    {
+      "module": "ha-cards-catalog",
+      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardTemplateSticker"
+    },
+    {
+      "module": "ha-cards-catalog",
+      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardThermometerChipSticker"
+    },
+    {
+      "module": "ha-cards-catalog",
+      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardThermometerShortSticker"
+    },
+    {
+      "module": "ha-cards-catalog",
+      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardThermometerSticker"
+    },
+    {
+      "module": "ha-cards-catalog",
+      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardThermometerTallSticker"
+    },
+    {
+      "module": "ha-cards-catalog",
+      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardThermostatSticker"
+    },
+    {
+      "module": "ha-cards-catalog",
+      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardTileSticker"
+    },
+    {
+      "module": "ha-cards-catalog",
+      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardToggleSticker"
+    },
+    {
+      "module": "ha-cards-catalog",
+      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardUberThemeSticker"
+    },
+    {
+      "module": "ha-cards-catalog",
+      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaDashboardSectionSticker"
+    },
+    {
+      "module": "ha-cards-catalog",
+      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteButtonSticker"
+    },
+    {
+      "module": "ha-cards-catalog",
+      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteCardSticker"
+    },
+    {
+      "module": "ha-cards-catalog",
+      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteSwitchButtonSticker"
+    },
+    {
+      "module": "ha-cards-catalog",
+      "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteTextSticker"
+    },
     {
       "module": "previews",
       "previewId": "ee.schimke.ha.previews.AnimationPreviewsKt.Gauge_Animation_Dark_gauge-anim (dark)"
@@ -1542,6 +1309,10 @@
     },
     {
       "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberCards_Console_uber cards_ Console"
+    },
+    {
+      "module": "previews",
       "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberCards_Expressive_uber cards_ Expressive"
     },
     {
@@ -1591,6 +1362,22 @@
     {
       "module": "previews",
       "previewId": "ee.schimke.ha.previews.WrapContentHeightReproKt.WrapContentHeightReproAlpha010_wrap-content height repro \u00b7 alpha010"
+    },
+    {
+      "module": "tv",
+      "previewId": "ee.schimke.terrazzo.tv.ui.TvPreviewsKt.TvKioskPreview_Demo_TV_ kiosk (demo)"
+    },
+    {
+      "module": "tv",
+      "previewId": "ee.schimke.terrazzo.tv.ui.TvPreviewsKt.TvKioskPreview_HomePalette_TV_ kiosk (Home palette)"
+    },
+    {
+      "module": "tv",
+      "previewId": "ee.schimke.terrazzo.tv.ui.TvPreviewsKt.TvKioskPreview_Lcd_TV_ kiosk (LCD card style)"
+    },
+    {
+      "module": "tv",
+      "previewId": "ee.schimke.terrazzo.tv.ui.TvPreviewsKt.TvKioskPreview_Live_TV_ kiosk (live)"
     }
   ]
 }
