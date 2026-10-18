@@ -58,7 +58,7 @@ _No findings._
 | 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Disarmed" is identical to that of 1 other item(s). |
 | 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "The Anthem" is identical to that of 1 other item(s). |
 
-### `UberCards_HomeAssistant_Dark`
+### `UberCards_HomeAssistant_Dark` · `spec:width=360dp,height=1200dp,dpi=160`
 
 <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/UberCards_HomeAssistant_Dark_uber_cards_Home_Assistant_dark-ef25f2ee.a11y.png" width="400" />
 
@@ -67,7 +67,7 @@ _No findings._
 | 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Disarmed" is identical to that of 1 other item(s). |
 | 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "The Anthem" is identical to that of 1 other item(s). |
 
-### `UberCards_HomeAssistant_Light`
+### `UberCards_HomeAssistant_Light` · `spec:width=360dp,height=1200dp,dpi=160`
 
 <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/UberCards_HomeAssistant_Light_uber_cards_Home_Assistant_light-07338e73.a11y.png" width="400" />
 
@@ -153,7 +153,7 @@ _No findings._
 |--:|---|---|---|---|
 | 1 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "stepper" is identical to that of 5 other item(s). |
 
-### `UberDials_HomeAssistant_Dark`
+### `UberDials_HomeAssistant_Dark` · `spec:width=360dp,height=900dp,dpi=160`
 
 <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/UberDials_HomeAssistant_Dark_uber_dials_Home_Assistant_dark-8c237795.a11y.png" width="400" />
 
@@ -161,7 +161,7 @@ _No findings._
 |--:|---|---|---|---|
 | 1 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "stepper" is identical to that of 5 other item(s). |
 
-### `UberDials_HomeAssistant_Light`
+### `UberDials_HomeAssistant_Light` · `spec:width=360dp,height=900dp,dpi=160`
 
 <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/UberDials_HomeAssistant_Light_uber_dials_Home_Assistant_light-692aa8bf.a11y.png" width="400" />
 
@@ -265,13 +265,13 @@ _No findings._
 |--:|---|---|---|---|
 | 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 46dp. Consider making the height of this touch target 48dp or larger. |
 
-### `Uber_HomeAssistant_Dark`
+### `Uber_HomeAssistant_Dark` · `spec:width=360dp,height=900dp,dpi=160`
 
 <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Uber_HomeAssistant_Dark_uber_Home_Assistant_dark-32013739.a11y.png" width="400" />
 
 _No findings._
 
-### `Uber_HomeAssistant_Light`
+### `Uber_HomeAssistant_Light` · `spec:width=360dp,height=900dp,dpi=160`
 
 <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Uber_HomeAssistant_Light_uber_Home_Assistant_light-e847775d.a11y.png" width="400" />
 
