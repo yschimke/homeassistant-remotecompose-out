@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-18T17:07:21.075Z",
+  "generatedAt": "2026-10-18T17:49:18.710Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "9b78b0388c0671d55335c63470e17bba51c0c452",
+        "subject": "fix: embed pictures in direct launcher widget captures (#917)",
+        "at": "2026-10-18T17:50:49+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "71d69df516e9ed74f2bccdd2188b3dc107bf34b2",
         "subject": "feat: add public bug report feedback flow (#919)",
@@ -474,14 +482,6 @@
         "sha": "f9f1977da35dba6f4e8dc96fee39ee85fadfbc9e",
         "subject": "fix(cards): Bambu cards act on the configured printer, never a guessed one (#844)",
         "at": "2026-10-17T06:38:06+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "8b2e708b144a5c80c03a243d4e75d58f60cb5533",
-        "subject": "feat(cards): tile card features, state_content, climate badge and color (#855)",
-        "at": "2026-10-17T06:12:10+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
