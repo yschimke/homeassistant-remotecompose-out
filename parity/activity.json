@@ -1,11 +1,59 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-19T00:07:03.061Z",
+  "generatedAt": "2026-10-19T06:26:20.799Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "5fce357e4f215790f6eda504e118f2b6451999ea",
+        "subject": "ci: set up Play publishing for the Wear app (#928)",
+        "at": "2026-10-19T06:49:28+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "a8efa7c6926ba7936a684cab557203edeba86cb1",
+        "subject": "fix(android): preload host-density card designs; open the app from widgets (#930)",
+        "at": "2026-10-19T02:54:49+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "d35334af243096fd22381bcd4b0c39de29ad613a",
+        "subject": "fix(ci): publish release assets when release-please is dispatched (#931)",
+        "at": "2026-10-19T02:27:50+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "05a0f716771f2ca2639492e7c998e7a0d1567fb0",
+        "subject": "ci: fix stale path filters, scope default tokens and deflake a browser test (#932)",
+        "at": "2026-10-19T02:27:47+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "8b88f2bd52825599e626d1bd0e86b96048c330d6",
+        "subject": "fix(design-server): refuse control characters in sign-in return paths (#933)",
+        "at": "2026-10-19T01:38:09+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "52095cbe19d26462d1cc7b5bc404622f0e873a1f",
+        "subject": "docs: refresh stale versions and install notes; declare the HACS core floor (#934)",
+        "at": "2026-10-19T01:38:06+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "127c11f4e3ee8c9059aa26b7d18cea7530d538ee",
         "subject": "fix(ha-client): bound the WebSocket handshake and close the socket on failure (#935)",
@@ -434,54 +482,6 @@
         "sha": "cd6731a2fdf2ca3c6e5f32d3729e27fa2ae65b6e",
         "subject": "feat(lovelace): publish dashboard catalog before host rollout (#877)",
         "at": "2026-10-17T13:19:41+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "2557c616f7443bf7069d381374853edcce420a81",
-        "subject": "fix(designs): explain unsupported theme mode filters (#876)",
-        "at": "2026-10-17T13:16:28+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "13f2323388c0a7b78536d884975ef204d7884408",
-        "subject": "fix(grid): hidden conditionals take no cell; a shown one sizes as its card (#874)",
-        "at": "2026-10-17T13:13:55+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "21fe33b45b4eae959ddb2bdb5d825fddee7ede9b",
-        "subject": "fix(previews): dashboard images are drawn before the capture, every run (#873)",
-        "at": "2026-10-17T13:12:39+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "867a2f102821ed3fed03c26aa9e3eafa40c41a70",
-        "subject": "fix(deps): update dependency org.jetbrains:markdown to v0.7.18 (#825)",
-        "at": "2026-10-17T11:41:19Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "39a5505551eb8612980cf93c1ef1dddc33d1a8ff",
-        "subject": "fix(wear): a Bambu spool's colour and remaining filament reach the watch (#872)",
-        "at": "2026-10-17T12:10:42+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "9d92f4d4b8b16393865dfff94be16c0a83d7bf62",
-        "subject": "fix(a11y): read an entity's name once; entity rows are 48dp touch targets (#871)",
-        "at": "2026-10-17T11:11:18+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
