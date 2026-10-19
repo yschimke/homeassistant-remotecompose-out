@@ -1,11 +1,43 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-19T19:29:16.387Z",
+  "generatedAt": "2026-10-19T20:34:08.790Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "92fa0bb543fa76e7273daa846f53da70f85b7411",
+        "subject": "chore(deps): update gradle to v9.8.2 (#961)",
+        "at": "2026-10-19T20:25:47Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "cab49088a726314d31434628ae7537d8331aa5c5",
+        "subject": "feat: show the four most common cards under every uber theme (#965)",
+        "at": "2026-10-19T21:19:01+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "329511028207fc4635fdab74f98f8f36bf384fa5",
+        "subject": "fix(deps): update kotlinx to v1.12.0 (#964)",
+        "at": "2026-10-19T20:16:00Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "fbfc94eab24278ed9dd011719a819e2709b1a03d",
+        "subject": "ci: let a manual release skip the phone upload (#960)",
+        "at": "2026-10-19T21:04:32+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "cd8b3618eeb2dcf8f476284af92f522c2e6c77ec",
         "subject": "fix(android): hoist the HA session into a ViewModel so it survives rotation (#956)",
@@ -451,38 +483,6 @@
         "subject": "chore(deps): update dependency python to v3.15.0 (#902)",
         "at": "2026-10-18T09:37:56Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "60e10869373f6742deb233c0ef3448885d0a118b",
-        "subject": "chore(main): release 0.1.43 (#842)",
-        "at": "2026-10-18T10:17:06+01:00",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "803624a4e2ee6ccc84ff8a160f9c1fdefce676cc",
-        "subject": "chore(deps): update github-actions (#883)",
-        "at": "2026-10-18T10:16:51+01:00",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "80c26a3ee05381596b943da07333c282f88484e5",
-        "subject": "feat(mobile): add placeholder cards and agent handoff (#900)",
-        "at": "2026-10-18T10:12:47+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "6f27f387117cb82f10177e7903549024a309a5ee",
-        "subject": "feat(ha): load Remote Compose card templates by URL (#901)",
-        "at": "2026-10-18T10:12:43+01:00",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
