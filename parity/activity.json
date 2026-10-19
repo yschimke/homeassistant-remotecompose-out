@@ -1,11 +1,43 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-19T09:31:40.100Z",
+  "generatedAt": "2026-10-19T11:32:30.850Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "2e93be0a1710a5cf4d963b5994f72f14b52b3949",
+        "subject": "feat: add portable editable message cards and authenticated input actions (#910)",
+        "at": "2026-10-19T12:25:27+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "20222e1812f7de7db3a4052f3a2b386bacffbb12",
+        "subject": "perf(widgets): send widget calls on the app's connected session (#955)",
+        "at": "2026-10-19T11:58:52+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "d5628c7fd7835f189442ed99efda86d9dc9f690e",
+        "subject": "fix: match Home Assistant's toggle domains, button options and thermostat unit (#952)",
+        "at": "2026-10-19T10:46:32+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "a90395e80484ee19ef13a883d0dbf4a2d81ce901",
+        "subject": "test(wasm): expect homeassistant.toggle from live-dashboard toggles (#954)",
+        "at": "2026-10-19T10:46:28+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "bb0bbbe7c39c95dfc60b4376b024ded9aadb56c4",
         "subject": "fix(design-server): cap request bodies, compare tokens in constant time, encode builder URLs (#949)",
@@ -450,38 +482,6 @@
         "sha": "a147fff45f3095bd85e1b1d72b25bcdb90ca8a40",
         "subject": "feat: extend Console physical instruments and controls (#894)",
         "at": "2026-10-18T00:08:11+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a15cde8e10ee0765763df50624a7c22a3d4451b3",
-        "subject": "chore(deps): update python docker tag to v3.15.0 (#884)",
-        "at": "2026-10-17T22:37:40Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "90a1e86be946ce1f2e2a3bbc7f7e79d2a5bc9e97",
-        "subject": "chore(deps): update actions/setup-python action to v7 (#885)",
-        "at": "2026-10-17T22:37:37Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "53e31ae45dd9143eb59db6ce118b9b0ebe30d7e6",
-        "subject": "fix(previews): label the launcher-widget player with its card's name (#893)",
-        "at": "2026-10-17T21:14:23+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "5d64f1f50ce37f58cc2c929e7e70312caa6b47d2",
-        "subject": "fix(wear): sync card styles and improve widget quality (#836)",
-        "at": "2026-10-17T20:27:45+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
