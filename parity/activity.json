@@ -1,11 +1,43 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-19T08:30:20.082Z",
+  "generatedAt": "2026-10-19T09:03:24.054Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "3f3c773367ac623d1506333c09cb951f682745fa",
+        "subject": "fix(rc-converter): keep alarm panel, sensor sparkline and entity-filter cards live (#951)",
+        "at": "2026-10-19T09:56:50+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "6cf3ebec7b5a87a3590aabc36eaf24e9f887477d",
+        "subject": "fix(wear): clear watch data on sign-out and keep sync freshness honest (#953)",
+        "at": "2026-10-19T09:51:56+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "ed4049a02e05ddb848aaec1c1fa3b3f2300096dd",
+        "subject": "fix(android): drop stale dashboard loads (#950)",
+        "at": "2026-10-19T09:24:04+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "0ee47e38eb7acd5b93e7f868716d38d911cc5a05",
+        "subject": "fix(ios): limit plain HTTP to local networks and send homeassistant.toggle (#948)",
+        "at": "2026-10-19T09:23:15+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "1673062606c2ea4d0377df1486e80f9f5087b8f7",
         "subject": "fix(rc-converter): skip entities-card special rows instead of drawing toggle rows (#947)",
@@ -450,38 +482,6 @@
         "sha": "5addce26a52b86dbd306fbc61c44db2e29104eb6",
         "subject": "feat(deploy): add repeatable demo HA host provisioning (#889)",
         "at": "2026-10-17T16:48:39+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "2eb8cf016d32cb5a6dd811f9e97cb40d1fcd69bf",
-        "subject": "fix(designs): make console available in both modes (#888)",
-        "at": "2026-10-17T15:10:20+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "f09d584ae3a39a2a37bee5cb52513ea10eb09755",
-        "subject": "feat(themes): every card shows an unavailable entity the way its uber theme does (#881)",
-        "at": "2026-10-17T15:09:26+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "399fcb4dfddfa565aed36f283132be6250634db1",
-        "subject": "feat(lovelace): host dashboard editing, previews and reusable templates (#834)",
-        "at": "2026-10-17T15:08:51+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "31e5d0793204a39835c03a190fa8665402fe0796",
-        "subject": "fix(demo): verify HA facade through its isolated edge network (#886)",
-        "at": "2026-10-17T14:41:58+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
