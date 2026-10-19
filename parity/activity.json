@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-19T07:14:41.539Z",
+  "generatedAt": "2026-10-19T08:03:21.499Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "2de893768f594c2e4052bdb053ee8b7752ae214e",
+        "subject": "feat(widgets): run widget toggles and service calls; reproducible design bytes (#939)",
+        "at": "2026-10-19T08:52:42+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "ef2972177fa6b967b32d5b0739262ec69dcc1f7a",
+        "subject": "fix(android): subscribe to live state and refresh HA tokens (#942)",
+        "at": "2026-10-19T08:29:52+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "dd496cd9f3ff4a732844a932e019b880ca22ee2d",
         "subject": "feat: add built-in Home Assistant Uber theme (#927)",
@@ -466,22 +482,6 @@
         "sha": "d0ef1fcc10ca5de2d44bdd3446c49298e39ba81a",
         "subject": "fix(sections): leave hidden conditionals out of section rows (#882)",
         "at": "2026-10-17T13:56:38+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "9df9d9837720370ea2572ec12223957eacbd402e",
-        "subject": "feat(ha): add authenticated WASM dashboard and Remote Compose cards (#879)",
-        "at": "2026-10-17T13:31:41+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "f68c5814d363fccbdd2faf8b69d3cd6a34372b0c",
-        "subject": "feat(demo): add isolated read-only Home Assistant backend (#878)",
-        "at": "2026-10-17T13:23:49+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
