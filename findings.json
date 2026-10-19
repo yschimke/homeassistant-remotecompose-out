@@ -1,38 +1,815 @@
 {
   "entries": [
     {
-      "annotatedBasename": "",
-      "cleanBasename": "ImageUrl_Probe_Frame1_image_url_probe_frame_1-97608c2e.png",
+      "annotatedBasename": "Play_Phone_01_HomeLight_play_phone_home_light-27629862.a11y.png",
+      "cleanBasename": "Play_Phone_01_HomeLight_play_phone_home_light-27629862.png",
       "findings": [],
-      "functionName": "ImageUrl_Probe_Frame1",
+      "functionName": "Play_Phone_01_HomeLight",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_01_HomeLight_play \u00b7 phone \u00b7 home (light)",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": "spec:width=411dp,height=731dp,dpi=320"
+    },
+    {
+      "annotatedBasename": "Play_Phone_02_HomeDark_play_phone_home_dark-87829c7b.a11y.png",
+      "cleanBasename": "Play_Phone_02_HomeDark_play_phone_home_dark-87829c7b.png",
+      "findings": [],
+      "functionName": "Play_Phone_02_HomeDark",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_02_HomeDark_play \u00b7 phone \u00b7 home (dark)",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": "spec:width=411dp,height=731dp,dpi=320"
+    },
+    {
+      "annotatedBasename": "",
+      "cleanBasename": "Play_Phone_03_Discovery_play_phone_discovery-8d992da7.png",
+      "findings": [],
+      "functionName": "Play_Phone_03_Discovery",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_03_Discovery_play \u00b7 phone \u00b7 discovery",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": "spec:width=411dp,height=731dp,dpi=320"
+    },
+    {
+      "annotatedBasename": "Play_Phone_04_Picker_play_phone_picker-f1c04503.a11y.png",
+      "cleanBasename": "Play_Phone_04_Picker_play_phone_picker-f1c04503.png",
+      "findings": [],
+      "functionName": "Play_Phone_04_Picker",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_04_Picker_play \u00b7 phone \u00b7 picker",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": "spec:width=411dp,height=731dp,dpi=320"
+    },
+    {
+      "annotatedBasename": "Play_Phone_05_WearWidgets_play_phone_wear_widgets-8eb93844.a11y.png",
+      "cleanBasename": "Play_Phone_05_WearWidgets_play_phone_wear_widgets-8eb93844.png",
+      "findings": [
+        {
+          "boundsInScreen": "64,376,203,472",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Not selected, Small\" is identical to that of 3 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "686,264,782,360",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Clear slot\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "219,376,361,472",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Not selected, Large\" is identical to that of 4 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "377,376,505,472",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Selected, Both\" is identical to that of 3 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "Play_Phone_05_WearWidgets",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_05_WearWidgets_play \u00b7 phone \u00b7 wear widgets",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": "spec:width=411dp,height=731dp,dpi=320"
+    },
+    {
+      "annotatedBasename": "Play_Tablet10_01_Home_play_10_inch_home-7ca1827e.a11y.png",
+      "cleanBasename": "Play_Tablet10_01_Home_play_10_inch_home-7ca1827e.png",
+      "findings": [],
+      "functionName": "Play_Tablet10_01_Home",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Tablet10_01_Home_play \u00b7 10-inch \u00b7 home",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": "spec:width=800dp,height=1280dp,dpi=224"
+    },
+    {
+      "annotatedBasename": "Play_Tablet7_01_Home_play_7_inch_home-eb94cb4a.a11y.png",
+      "cleanBasename": "Play_Tablet7_01_Home_play_7_inch_home-eb94cb4a.png",
+      "findings": [],
+      "functionName": "Play_Tablet7_01_Home",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Tablet7_01_Home_play \u00b7 7-inch \u00b7 home",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": "spec:width=600dp,height=960dp,dpi=240"
+    },
+    {
+      "annotatedBasename": "Screen_CardActions_card_actions-fcba8e8e.a11y.png",
+      "cleanBasename": "Screen_CardActions_card_actions-fcba8e8e.png",
+      "findings": [],
+      "functionName": "Screen_CardActions",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardActions_card actions",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Screen_CardHistory_card_history-07f74f5f.a11y.png",
+      "cleanBasename": "Screen_CardHistory_card_history-07f74f5f.png",
+      "findings": [],
+      "functionName": "Screen_CardHistory",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardHistory_card history",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Screen_CardHistory_ThemeStyle_card_history_theme-38cdf710.a11y.png",
+      "cleanBasename": "Screen_CardHistory_ThemeStyle_card_history_theme-38cdf710.png",
+      "findings": [],
+      "functionName": "Screen_CardHistory_ThemeStyle",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardHistory_ThemeStyle_card history \u00b7 theme",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Screen_DashboardPicker_dashboard_picker-2e66fb7f.a11y.png",
+      "cleanBasename": "Screen_DashboardPicker_dashboard_picker-2e66fb7f.png",
+      "findings": [],
+      "functionName": "Screen_DashboardPicker",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardPicker_dashboard picker",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Screen_DashboardPicker_ThemeStyle_dashboard_picker_theme-b5b3f158.a11y.png",
+      "cleanBasename": "Screen_DashboardPicker_ThemeStyle_dashboard_picker_theme-b5b3f158.png",
+      "findings": [],
+      "functionName": "Screen_DashboardPicker_ThemeStyle",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardPicker_ThemeStyle_dashboard picker \u00b7 theme",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Screen_DashboardSelection_Settings_dashboard_selection_settings-c3a82a12.a11y.png",
+      "cleanBasename": "Screen_DashboardSelection_Settings_dashboard_selection_settings-c3a82a12.png",
+      "findings": [
+        {
+          "boundsInScreen": "85,527,211,653",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"checked\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.CheckBox"
+        },
+        {
+          "boundsInScreen": "85,905,211,1031",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"not checked\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.CheckBox"
+        }
+      ],
+      "functionName": "Screen_DashboardSelection_Settings",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardSelection_Settings_dashboard selection \u00b7 settings",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Screen_DashboardSelection_Signin_dashboard_selection_signin-6c17e1a3.a11y.png",
+      "cleanBasename": "Screen_DashboardSelection_Signin_dashboard_selection_signin-6c17e1a3.png",
+      "findings": [
+        {
+          "boundsInScreen": "85,527,211,653",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"checked\" is identical to that of 3 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.CheckBox"
+        }
+      ],
+      "functionName": "Screen_DashboardSelection_Signin",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardSelection_Signin_dashboard selection \u00b7 signin",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Screen_DashboardSelection_ThemeStyle_dashboard_selection_theme-f7657577.a11y.png",
+      "cleanBasename": "Screen_DashboardSelection_ThemeStyle_dashboard_selection_theme-f7657577.png",
+      "findings": [
+        {
+          "boundsInScreen": "85,527,211,653",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"checked\" is identical to that of 3 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.CheckBox"
+        }
+      ],
+      "functionName": "Screen_DashboardSelection_ThemeStyle",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardSelection_ThemeStyle_dashboard selection \u00b7 theme",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Screen_DashboardTopBar_Connecting_top_bar_360dp_connecting-3d6030f9.a11y.png",
+      "cleanBasename": "Screen_DashboardTopBar_Connecting_top_bar_360dp_connecting-3d6030f9.png",
+      "findings": [
+        {
+          "boundsInScreen": "43,22,380,142",
+          "level": "ERROR",
+          "message": "This item's height is 46dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "431,22,557,142",
+          "level": "ERROR",
+          "message": "This item's height is 46dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "557,22,683,142",
+          "level": "ERROR",
+          "message": "This item's height is 46dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "683,22,809,142",
+          "level": "ERROR",
+          "message": "This item's height is 46dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.widget.CheckBox  desc=\"Write mode\""
+        },
+        {
+          "boundsInScreen": "809,22,935,142",
+          "level": "ERROR",
+          "message": "This item's height is 46dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "Screen_DashboardTopBar_Connecting",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_Connecting_top bar \u00b7 360dp \u00b7 connecting",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Screen_DashboardTopBar_Failed_top_bar_360dp_failed-8597e561.a11y.png",
+      "cleanBasename": "Screen_DashboardTopBar_Failed_top_bar_360dp_failed-8597e561.png",
+      "findings": [],
+      "functionName": "Screen_DashboardTopBar_Failed",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_Failed_top bar \u00b7 360dp \u00b7 failed",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Screen_DashboardTopBar_LongTitle_top_bar_360dp_long_title-367dab62.a11y.png",
+      "cleanBasename": "Screen_DashboardTopBar_LongTitle_top_bar_360dp_long_title-367dab62.png",
+      "findings": [],
+      "functionName": "Screen_DashboardTopBar_LongTitle",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_LongTitle_top bar \u00b7 360dp \u00b7 long title",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Screen_DashboardTopBar_Narrow_top_bar_360dp_switcher-c9001f3a.a11y.png",
+      "cleanBasename": "Screen_DashboardTopBar_Narrow_top_bar_360dp_switcher-c9001f3a.png",
+      "findings": [],
+      "functionName": "Screen_DashboardTopBar_Narrow",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_Narrow_top bar \u00b7 360dp \u00b7 switcher",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Screen_DashboardTopBar_Paused_top_bar_360dp_paused-5e21611f.a11y.png",
+      "cleanBasename": "Screen_DashboardTopBar_Paused_top_bar_360dp_paused-5e21611f.png",
+      "findings": [],
+      "functionName": "Screen_DashboardTopBar_Paused",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_Paused_top bar \u00b7 360dp \u00b7 paused",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Screen_DashboardTopBar_Phone_top_bar_412dp_switcher_agent_inline-475172f6.a11y.png",
+      "cleanBasename": "Screen_DashboardTopBar_Phone_top_bar_412dp_switcher_agent_inline-475172f6.png",
+      "findings": [],
+      "functionName": "Screen_DashboardTopBar_Phone",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_Phone_top bar \u00b7 412dp \u00b7 switcher, agent inline",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Screen_DashboardTopBar_SingleReadOnly_top_bar_360dp_single_dashboard_read_only-c7674660.a11y.png",
+      "cleanBasename": "Screen_DashboardTopBar_SingleReadOnly_top_bar_360dp_single_dashboard_read_only-c7674660.png",
+      "findings": [],
+      "functionName": "Screen_DashboardTopBar_SingleReadOnly",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_SingleReadOnly_top bar \u00b7 360dp \u00b7 single dashboard, read only",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Screen_DashboardView_dashboard_view-c60327e8.a11y.png",
+      "cleanBasename": "Screen_DashboardView_dashboard_view-c60327e8.png",
+      "findings": [],
+      "functionName": "Screen_DashboardView",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardView_dashboard view",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Screen_DashboardView_PhoneLandscapeMedium_dashboard_view_phone_landscape_medium-8837149f.a11y.png",
+      "cleanBasename": "Screen_DashboardView_PhoneLandscapeMedium_dashboard_view_phone_landscape_medium-8837149f.png",
+      "findings": [],
+      "functionName": "Screen_DashboardView_PhoneLandscapeMedium",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardView_PhoneLandscapeMedium_dashboard view \u00b7 phone landscape medium",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Screen_DashboardView_ThemeStyle_dashboard_theme-307a8ffb.a11y.png",
+      "cleanBasename": "Screen_DashboardView_ThemeStyle_dashboard_theme-307a8ffb.png",
+      "findings": [],
+      "functionName": "Screen_DashboardView_ThemeStyle",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardView_ThemeStyle_dashboard \u00b7 theme",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "",
+      "cleanBasename": "Screen_Discovery_discovery-9ef45f57.png",
+      "findings": [],
+      "functionName": "Screen_Discovery",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Discovery_discovery",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "",
+      "cleanBasename": "",
+      "findings": [],
+      "functionName": "Screen_Discovery_ThemeStyle",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Discovery_ThemeStyle_discovery \u00b7 theme",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Screen_Logs_logs-12f4828a.a11y.png",
+      "cleanBasename": "Screen_Logs_logs-12f4828a.png",
+      "findings": [
+        {
+          "boundsInScreen": "209,844,451,970",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Connected\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "209,992,461,1118",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Connecting\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "42,886,188,928",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"22:13:20\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "209,1140,366,1266",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Error\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "Screen_Logs",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Logs_logs",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Screen_Logs_Dark_logs_dark-d93c6e7e.a11y.png",
+      "cleanBasename": "Screen_Logs_Dark_logs_dark-d93c6e7e.png",
+      "findings": [
+        {
+          "boundsInScreen": "209,844,451,970",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Connected\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "209,992,461,1118",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Connecting\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "42,886,188,928",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"22:13:20\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "209,1140,366,1266",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Error\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "Screen_Logs_Dark",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Logs_Dark_logs \u00b7 dark",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Screen_Logs_Empty_logs_empty-8162fa26.a11y.png",
+      "cleanBasename": "Screen_Logs_Empty_logs_empty-8162fa26.png",
+      "findings": [],
+      "functionName": "Screen_Logs_Empty",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Logs_Empty_logs \u00b7 empty",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Screen_ManagePinned_manage_pinned-2ca47dc3.a11y.png",
+      "cleanBasename": "Screen_ManagePinned_manage_pinned-2ca47dc3.png",
+      "findings": [
+        {
+          "boundsInScreen": "777,222,903,348",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Move down\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "651,222,777,348",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Move up\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "903,222,1029,348",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Unpin\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "Screen_ManagePinned",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_ManagePinned_manage pinned",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Screen_ManagePinned_Empty_manage_pinned_empty-a0076758.a11y.png",
+      "cleanBasename": "Screen_ManagePinned_Empty_manage_pinned_empty-a0076758.png",
+      "findings": [],
+      "functionName": "Screen_ManagePinned_Empty",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_ManagePinned_Empty_manage pinned \u00b7 empty",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Screen_Settings_settings-fc99b7e6.a11y.png",
+      "cleanBasename": "Screen_Settings_settings-fc99b7e6.png",
+      "findings": [
+        {
+          "boundsInScreen": "64,1294,190,1420",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Not selected\" is identical to that of 3 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.RadioButton"
+        }
+      ],
+      "functionName": "Screen_Settings",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_settings",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Screen_Settings_ThemeStyle_settings_theme-c88045d9.a11y.png",
+      "cleanBasename": "Screen_Settings_ThemeStyle_settings_theme-c88045d9.png",
+      "findings": [
+        {
+          "boundsInScreen": "64,1252,190,1378",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Not selected\" is identical to that of 3 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.RadioButton"
+        }
+      ],
+      "functionName": "Screen_Settings_ThemeStyle",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_ThemeStyle_settings \u00b7 theme",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Screen_SyncDiagnostics_sync_diagnostics-a38e8a18.a11y.png",
+      "cleanBasename": "Screen_SyncDiagnostics_sync_diagnostics-a38e8a18.png",
+      "findings": [
+        {
+          "boundsInScreen": "919,929,1018,982",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"never\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        }
+      ],
+      "functionName": "Screen_SyncDiagnostics",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_SyncDiagnostics_sync diagnostics",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Screen_WearWidgets_wear_widgets-6b4468dd.a11y.png",
+      "cleanBasename": "Screen_WearWidgets_wear_widgets-6b4468dd.png",
+      "findings": [
+        {
+          "boundsInScreen": "84,496,264,622",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Not selected, Small\" is identical to that of 3 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "903,349,1029,475",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Clear slot\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "285,496,468,622",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Not selected, Large\" is identical to that of 4 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "489,496,655,622",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Selected, Both\" is identical to that of 3 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "Screen_WearWidgets",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_WearWidgets_wear widgets",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Screen_Widgets_widgets-47dcfa25.a11y.png",
+      "cleanBasename": "Screen_Widgets_widgets-47dcfa25.png",
+      "findings": [],
+      "functionName": "Screen_Widgets",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Widgets_widgets",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Screen_Widgets_ThemeStyle_widgets_theme-c6d5903f.a11y.png",
+      "cleanBasename": "Screen_Widgets_ThemeStyle_widgets_theme-c6d5903f.png",
+      "findings": [],
+      "functionName": "Screen_Widgets_ThemeStyle",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Widgets_ThemeStyle_widgets \u00b7 theme",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "",
+      "cleanBasename": "ImageUrl_Probe_Frame0_image_url_probe_frame_0-1464413f.png",
+      "findings": [],
+      "functionName": "ImageUrl_Probe_Frame0",
       "module": "previews",
-      "previewId": "ee.schimke.ha.previews.ImagePreviewsKt.ImageUrl_Probe_Frame1_image-url probe frame=1",
+      "previewId": "ee.schimke.ha.previews.ImagePreviewsKt.ImageUrl_Probe_Frame0_image-url probe frame=0",
       "rendersDir": "previews",
       "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/ImagePreviews.kt",
       "variant": ""
     },
     {
-      "annotatedBasename": "ee.schimke.ha.previews.UberCommonCardPreviewsKt.UberCommon_uber common cards.a11y.png",
-      "cleanBasename": "",
+      "annotatedBasename": "Play_Wear_01_Home_play_wear_home-4a47d00f.a11y.png",
+      "cleanBasename": "Play_Wear_01_Home_play_wear_home-4a47d00f.png",
+      "findings": [],
+      "functionName": "Play_Wear_01_Home",
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.Play_Wear_01_Home_play \u00b7 wear \u00b7 home",
+      "rendersDir": "wear",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/wear/ui/WearPreviews.kt",
+      "variant": "spec:width=227dp,height=227dp,dpi=320,isRound=true"
+    },
+    {
+      "annotatedBasename": "Play_Wear_02_WidgetLarge_play_wear_widget_large-585828ec.a11y.png",
+      "cleanBasename": "Play_Wear_02_WidgetLarge_play_wear_widget_large-585828ec.png",
       "findings": [
         {
-          "boundsInScreen": "347,335,568,382",
+          "boundsInScreen": "51,179,403,270",
+          "level": "ERROR",
+          "message": "This item's height is 46dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "Play_Wear_02_WidgetLarge",
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.Play_Wear_02_WidgetLarge_play \u00b7 wear \u00b7 widget (large)",
+      "rendersDir": "wear",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/wear/ui/WearPreviews.kt",
+      "variant": "spec:width=227dp,height=227dp,dpi=320,isRound=true"
+    },
+    {
+      "annotatedBasename": "Play_Wear_03_WidgetSmall_play_wear_widget_small-7e8331e8.a11y.png",
+      "cleanBasename": "Play_Wear_03_WidgetSmall_play_wear_widget_small-7e8331e8.png",
+      "findings": [],
+      "functionName": "Play_Wear_03_WidgetSmall",
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.Play_Wear_03_WidgetSmall_play \u00b7 wear \u00b7 widget (small)",
+      "rendersDir": "wear",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/wear/ui/WearPreviews.kt",
+      "variant": "spec:width=227dp,height=227dp,dpi=320,isRound=true"
+    },
+    {
+      "annotatedBasename": "Play_Wear_04_Dashboard_play_wear_dashboard-7216484c.a11y.png",
+      "cleanBasename": "Play_Wear_04_Dashboard_play_wear_dashboard-7216484c.png",
+      "findings": [
+        {
+          "boundsInScreen": "36,326,77,360",
           "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Temperature\" is identical to that of 1 other item(s).",
+          "message": "This non-clickable item's speakable text: \"On\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
         }
       ],
-      "functionName": "UberCommon",
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.UberCommonCardPreviewsKt.UberCommon_uber common cards",
-      "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberCommonCardPreviews.kt",
-      "variant": ""
+      "functionName": "Play_Wear_04_Dashboard",
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.Play_Wear_04_Dashboard_play \u00b7 wear \u00b7 dashboard",
+      "rendersDir": "wear",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/wear/ui/WearPreviews.kt",
+      "variant": "spec:width=227dp,height=227dp,dpi=320,isRound=true"
+    },
+    {
+      "annotatedBasename": "WearDashboardPreview_Wear_dashboard-67ae6304.a11y.png",
+      "cleanBasename": "WearDashboardPreview_Wear_dashboard-67ae6304.png",
+      "findings": [
+        {
+          "boundsInScreen": "36,291,77,325",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"On\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        }
+      ],
+      "functionName": "WearDashboardPreview",
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearDashboardPreview_Wear_ dashboard",
+      "rendersDir": "wear",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/wear/ui/WearPreviews.kt",
+      "variant": "wearos_small_round"
+    },
+    {
+      "annotatedBasename": "WearDashboardsPreview_Wear_dashboards-7daf1ddb.a11y.png",
+      "cleanBasename": "WearDashboardsPreview_Wear_dashboards-7daf1ddb.png",
+      "findings": [],
+      "functionName": "WearDashboardsPreview",
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearDashboardsPreview_Wear_ dashboards",
+      "rendersDir": "wear",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/wear/ui/WearPreviews.kt",
+      "variant": "wearos_small_round"
+    },
+    {
+      "annotatedBasename": "WearSectionPreview_Wear_section-712f72f1.a11y.png",
+      "cleanBasename": "WearSectionPreview_Wear_section-712f72f1.png",
+      "findings": [],
+      "functionName": "WearSectionPreview",
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearSectionPreview_Wear_ section",
+      "rendersDir": "wear",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/wear/ui/WearPreviews.kt",
+      "variant": "wearos_small_round"
+    },
+    {
+      "annotatedBasename": "WearSettingsPreview_Wear_settings-866444c2.a11y.png",
+      "cleanBasename": "WearSettingsPreview_Wear_settings-866444c2.png",
+      "findings": [],
+      "functionName": "WearSettingsPreview",
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearSettingsPreview_Wear_ settings",
+      "rendersDir": "wear",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/wear/ui/WearPreviews.kt",
+      "variant": "wearos_small_round"
+    },
+    {
+      "annotatedBasename": "WearTopLevelPreview_Demo_Wear_top_level_demo-7f799f8c.a11y.png",
+      "cleanBasename": "WearTopLevelPreview_Demo_Wear_top_level_demo-7f799f8c.png",
+      "findings": [],
+      "functionName": "WearTopLevelPreview_Demo",
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearTopLevelPreview_Demo_Wear_ top-level (demo)",
+      "rendersDir": "wear",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/wear/ui/WearPreviews.kt",
+      "variant": "wearos_small_round"
+    },
+    {
+      "annotatedBasename": "WearTopLevelPreview_Empty_Wear_top_level_empty-fa5d471f.a11y.png",
+      "cleanBasename": "WearTopLevelPreview_Empty_Wear_top_level_empty-fa5d471f.png",
+      "findings": [],
+      "functionName": "WearTopLevelPreview_Empty",
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearTopLevelPreview_Empty_Wear_ top-level (empty)",
+      "rendersDir": "wear",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/wear/ui/WearPreviews.kt",
+      "variant": "wearos_small_round"
+    },
+    {
+      "annotatedBasename": "WearTopLevelPreview_Live_Wear_top_level_live-182b60ce.a11y.png",
+      "cleanBasename": "WearTopLevelPreview_Live_Wear_top_level_live-182b60ce.png",
+      "findings": [],
+      "functionName": "WearTopLevelPreview_Live",
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearTopLevelPreview_Live_Wear_ top-level (live)",
+      "rendersDir": "wear",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/wear/ui/WearPreviews.kt",
+      "variant": "wearos_small_round"
     }
   ],
   "scope": "changed-previews",
   "uncheckedPreviews": [
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.CardDebugPreviewsKt.DataGridOverlayPreview_Data grid overlay"
+    },
     {
       "module": "previews",
       "previewId": "ee.schimke.ha.previews.AnimationPreviewsKt.Gauge_Animation_Dark_gauge-anim (dark)"
@@ -1027,7 +1804,7 @@
     },
     {
       "module": "previews",
-      "previewId": "ee.schimke.ha.previews.ImagePreviewsKt.ImageUrl_Probe_Frame0_image-url probe frame=0"
+      "previewId": "ee.schimke.ha.previews.ImagePreviewsKt.ImageUrl_Probe_Frame1_image-url probe frame=1"
     },
     {
       "module": "previews",
@@ -1379,6 +2156,10 @@
     },
     {
       "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberCommonCardPreviewsKt.UberCommon_uber common cards"
+    },
+    {
+      "module": "previews",
       "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Braun_Dark_uber_ Braun (dark)"
     },
     {
@@ -1536,6 +2317,270 @@
     {
       "module": "previews",
       "previewId": "ee.schimke.ha.previews.WrapContentHeightReproKt.WrapContentHeightReproAlpha010_wrap-content height repro \u00b7 alpha010"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearAlarmPanelLarge_wear \u00b7 alarm-panel (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearAlarmPanelSmall_wear \u00b7 alarm-panel (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearAreaLarge_wear \u00b7 area (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearAreaSmall_wear \u00b7 area (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearBambuAmsLarge_wear \u00b7 bambu ams (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearBambuAmsSmall_wear \u00b7 bambu ams (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearBambuPrintControlLarge_wear \u00b7 bambu print-control (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearBambuPrintControlSmall_wear \u00b7 bambu print-control (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearBambuPrintStatusLarge_wear \u00b7 bambu print-status (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearBambuPrintStatusSmall_wear \u00b7 bambu print-status (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearBambuSpoolLarge_wear \u00b7 bambu spool (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearBambuSpoolSmall_wear \u00b7 bambu spool (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearButtonLarge_wear \u00b7 button (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearButtonSmall_wear \u00b7 button (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearCalendarSmall_wear \u00b7 calendar (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearClockSmall_wear \u00b7 clock (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearEntitiesLarge_wear \u00b7 entities (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearEntitiesSmall_wear \u00b7 entities (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearEntityFilterLarge_wear \u00b7 entity-filter (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearEntityFilterSmall_wear \u00b7 entity-filter (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearEntityLarge_wear \u00b7 entity (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearEntitySmall_wear \u00b7 entity (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearGaugeLarge_wear \u00b7 gauge (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearGaugeSmall_wear \u00b7 gauge (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearGlanceLarge_wear \u00b7 glance (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearGlanceSmall_wear \u00b7 glance (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearGridLarge_wear \u00b7 grid (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearGridSmall_wear \u00b7 grid (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearHeadingSmall_wear \u00b7 heading (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearHistoryGraphSmall_wear \u00b7 history-graph (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearHorizontalStackLarge_wear \u00b7 horizontal-stack (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearHorizontalStackSmall_wear \u00b7 horizontal-stack (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearHumidifierLarge_wear \u00b7 humidifier (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearHumidifierSmall_wear \u00b7 humidifier (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearLightLarge_wear \u00b7 light (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearLightSmall_wear \u00b7 light (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearLogbookSmall_wear \u00b7 logbook (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearMarkdownSmall_wear \u00b7 markdown (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearMediaControlLarge_wear \u00b7 media-control (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearMediaControlSmall_wear \u00b7 media-control (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearPictureElementsLarge_wear \u00b7 picture-elements (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearPictureElementsSmall_wear \u00b7 picture-elements (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearPictureEntityLarge_wear \u00b7 picture-entity (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearPictureEntitySmall_wear \u00b7 picture-entity (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearPictureGlanceLarge_wear \u00b7 picture-glance (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearPictureGlanceSmall_wear \u00b7 picture-glance (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearPictureLarge_wear \u00b7 picture (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearPictureSmall_wear \u00b7 picture (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearSensorLarge_wear \u00b7 sensor (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearSensorSmall_wear \u00b7 sensor (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearStatisticLarge_wear \u00b7 statistic (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearStatisticSmall_wear \u00b7 statistic (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearStatisticsGraphSmall_wear \u00b7 statistics-graph (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearThermostatLarge_wear \u00b7 thermostat (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearThermostatSmall_wear \u00b7 thermostat (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearTileLarge_wear \u00b7 tile (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearTileSmall_wear \u00b7 tile (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearTodoListSmall_wear \u00b7 todo-list (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearUnsupportedLarge_wear \u00b7 unsupported (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearUnsupportedSmall_wear \u00b7 unsupported (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearVerticalStackLarge_wear \u00b7 vertical-stack (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearVerticalStackSmall_wear \u00b7 vertical-stack (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearWeatherForecastSmall_wear \u00b7 weather-forecast (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.SlotWidgetPreviewsKt.SlotWidgetPreview_Empty_Slot widget \u2014 empty placeholder"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.SlotWidgetPreviewsKt.SlotWidgetPreview_EntitiesLarge_Slot widget \u2014 entities (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.SlotWidgetPreviewsKt.SlotWidgetPreview_TileSmall_Slot widget \u2014 tile (small)"
     }
   ]
 }
