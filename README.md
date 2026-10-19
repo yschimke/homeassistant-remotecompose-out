@@ -24,7 +24,7 @@ The render task completed but no PNG was produced for these previews. Entries wi
 | `Play_Phone_02_HomeDark` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Play_Phone_02_HomeDark_play_phone_home_dark-87829c7b.png" width="150" /> |
 | `Play_Phone_03_Discovery` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Play_Phone_03_Discovery_play_phone_discovery-8d992da7.png" width="150" /> |
 | `Play_Phone_04_Picker` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Play_Phone_04_Picker_play_phone_picker-f1c04503.png" width="150" /> |
-| `Play_Phone_05_Widgets` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Play_Phone_05_Widgets_play_phone_widgets-2ee987dc.png" width="150" /> |
+| `Play_Phone_05_WearWidgets` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Play_Phone_05_WearWidgets_play_phone_wear_widgets-8eb93844.png" width="150" /> |
 | `Play_Tablet10_01_Home` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Play_Tablet10_01_Home_play_10_inch_home-7ca1827e.png" width="150" /> |
 | `Play_Tablet7_01_Home` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Play_Tablet7_01_Home_play_7_inch_home-eb94cb4a.png" width="150" /> |
 | `Screen_CardActions` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Screen_CardActions_card_actions-fcba8e8e.png" width="150" /> |
@@ -617,8 +617,9 @@ The render task completed but no PNG was produced for these previews. Entries wi
 |---------|-------|
 | `WearMainActivity` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/activity__WearMainActivity.png" width="150" /> |
 | `Play_Wear_01_Home` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/Play_Wear_01_Home_play_wear_home-4a47d00f.png" width="150" /> |
-| `Play_Wear_02_Dashboard` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/Play_Wear_02_Dashboard_play_wear_dashboard-223422c3.png" width="150" /> |
-| `Play_Wear_03_Section` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/Play_Wear_03_Section_play_wear_section-17d15165.png" width="150" /> |
+| `Play_Wear_02_WidgetLarge` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/Play_Wear_02_WidgetLarge_play_wear_widget_large-585828ec.png" width="150" /> |
+| `Play_Wear_03_WidgetSmall` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/Play_Wear_03_WidgetSmall_play_wear_widget_small-7e8331e8.png" width="150" /> |
+| `Play_Wear_04_Dashboard` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/Play_Wear_04_Dashboard_play_wear_dashboard-7216484c.png" width="150" /> |
 | `WearDashboardPreview` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/WearDashboardPreview_Wear_dashboard-67ae6304.png" width="150" /> |
 | `WearDashboardsPreview` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/WearDashboardsPreview_Wear_dashboards-7daf1ddb.png" width="150" /> |
 | `WearSectionPreview` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/WearSectionPreview_Wear_section-712f72f1.png" width="150" /> |
