@@ -1,11 +1,43 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-19T08:03:21.499Z",
+  "generatedAt": "2026-10-19T08:30:20.082Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "1673062606c2ea4d0377df1486e80f9f5087b8f7",
+        "subject": "fix(rc-converter): skip entities-card special rows instead of drawing toggle rows (#947)",
+        "at": "2026-10-19T09:22:46+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "8ff8bffdd566da2d0f8fecd8ac91a71bbf5c0729",
+        "subject": "fix(design-server): keep the served manifest serial from falling (#945)",
+        "at": "2026-10-19T09:22:02+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "b95faebfd371db0d9e57873ef450a490ad1dcda5",
+        "subject": "feat: plan placeholder cards by long-pressing a section; automate Play graphics (#941)",
+        "at": "2026-10-19T08:57:03+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "93d82e98d31d03e9557933ca59b1bda107d3be40",
+        "subject": "fix(demo): stop slow sockets stalling the demo gateway (#943)",
+        "at": "2026-10-19T08:57:00+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "2de893768f594c2e4052bdb053ee8b7752ae214e",
         "subject": "feat(widgets): run widget toggles and service calls; reproducible design bytes (#939)",
@@ -450,38 +482,6 @@
         "sha": "31e5d0793204a39835c03a190fa8665402fe0796",
         "subject": "fix(demo): verify HA facade through its isolated edge network (#886)",
         "at": "2026-10-17T14:41:58+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "b1e869324acc2ee00cc9483af3c2da03608d6487",
-        "subject": "fix(ha): validate live card bindings and fill panel height (#887)",
-        "at": "2026-10-17T14:41:55+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "42dbdee650d15365f40282512f405856ef5e5a36",
-        "subject": "fix(grid): a short last row stretches; picture grids keep HA's columns (#875)",
-        "at": "2026-10-17T14:16:58+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "c69744113679bf4e22b393890166e7b5cb19bc73",
-        "subject": "feat: add public WASM demo and Home Assistant frontend integration (#880)",
-        "at": "2026-10-17T14:14:55+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "d0ef1fcc10ca5de2d44bdd3446c49298e39ba81a",
-        "subject": "fix(sections): leave hidden conditionals out of section rows (#882)",
-        "at": "2026-10-17T13:56:38+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
