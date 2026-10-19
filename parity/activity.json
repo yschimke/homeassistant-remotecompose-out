@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-19T09:16:39.713Z",
+  "generatedAt": "2026-10-19T09:31:40.100Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "bb0bbbe7c39c95dfc60b4376b024ded9aadb56c4",
+        "subject": "fix(design-server): cap request bodies, compare tokens in constant time, encode builder URLs (#949)",
+        "at": "2026-10-19T10:25:00+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "f682f9d586611f1a2413999250e84456704ad131",
+        "subject": "fix(addon): require ingress or HA token and fix image build (#940)",
+        "at": "2026-10-19T10:20:48+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "5d896d58e981b5c3ba9b5036b77c80bb1e4aa205",
         "subject": "fix: honour the Wasm design-server setting, dedupe the Wear probe, fail fast on HA readiness (#944)",
@@ -467,22 +483,6 @@
         "subject": "fix(wear): sync card styles and improve widget quality (#836)",
         "at": "2026-10-17T20:27:45+01:00",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "f813ade6bf7f830a3d7e00c530f588fa23662563",
-        "subject": "fix(cards): keep neighbouring touch targets from overlapping (#892)",
-        "at": "2026-10-17T20:08:49+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "6026b677615980f41653291b654943ea6ed57cac",
-        "subject": "fix(deps): update compose-ai-tools (#826)",
-        "at": "2026-10-17T18:52:27+01:00",
-        "author": "renovate[bot]",
         "previewIds": [],
         "components": []
       }
