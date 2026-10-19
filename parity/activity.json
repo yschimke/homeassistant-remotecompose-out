@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-19T20:34:08.790Z",
+  "generatedAt": "2026-10-19T20:45:10.705Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "57ccb6182175fad610144b09c2f66a4345572b79",
+        "subject": "fix(deps): update dependency ee.schimke.composeai:data-render-core to v3.37.0 (#963)",
+        "at": "2026-10-19T20:26:48Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "92fa0bb543fa76e7273daa846f53da70f85b7411",
         "subject": "chore(deps): update gradle to v9.8.2 (#961)",
@@ -475,14 +483,6 @@
         "subject": "feat(ha): publish HACS packages and select dashboards (#904)",
         "at": "2026-10-18T10:53:50+01:00",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "36f60db60349324fd203a8411adff08a9bcac209",
-        "subject": "chore(deps): update dependency python to v3.15.0 (#902)",
-        "at": "2026-10-18T09:37:56Z",
-        "author": "renovate[bot]",
         "previewIds": [],
         "components": []
       }
