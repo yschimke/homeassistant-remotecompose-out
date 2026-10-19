@@ -1,11 +1,139 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-18T17:29:00.535Z",
+  "generatedAt": "2026-10-19T07:14:41.539Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "dd496cd9f3ff4a732844a932e019b880ca22ee2d",
+        "subject": "feat: add built-in Home Assistant Uber theme (#927)",
+        "at": "2026-10-19T07:35:03+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "5fce357e4f215790f6eda504e118f2b6451999ea",
+        "subject": "ci: set up Play publishing for the Wear app (#928)",
+        "at": "2026-10-19T06:49:28+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "a8efa7c6926ba7936a684cab557203edeba86cb1",
+        "subject": "fix(android): preload host-density card designs; open the app from widgets (#930)",
+        "at": "2026-10-19T02:54:49+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "d35334af243096fd22381bcd4b0c39de29ad613a",
+        "subject": "fix(ci): publish release assets when release-please is dispatched (#931)",
+        "at": "2026-10-19T02:27:50+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "05a0f716771f2ca2639492e7c998e7a0d1567fb0",
+        "subject": "ci: fix stale path filters, scope default tokens and deflake a browser test (#932)",
+        "at": "2026-10-19T02:27:47+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "8b88f2bd52825599e626d1bd0e86b96048c330d6",
+        "subject": "fix(design-server): refuse control characters in sign-in return paths (#933)",
+        "at": "2026-10-19T01:38:09+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "52095cbe19d26462d1cc7b5bc404622f0e873a1f",
+        "subject": "docs: refresh stale versions and install notes; declare the HACS core floor (#934)",
+        "at": "2026-10-19T01:38:06+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "127c11f4e3ee8c9059aa26b7d18cea7530d538ee",
+        "subject": "fix(ha-client): bound the WebSocket handshake and close the socket on failure (#935)",
+        "at": "2026-10-19T00:35:18+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "d79db5539ddf7b494941a3522ac5d64135744309",
+        "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.253 (#938)",
+        "at": "2026-10-18T23:35:14Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "bc489372347b934bd4e5b37bd882e0bfe9fc8c93",
+        "subject": "fix(rc-converter): accept list and area targets, guard filter regexes, format numbers locale-free (#936)",
+        "at": "2026-10-19T00:10:28+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "c16675db77dd9b5fbf5d177698dcdfc808d99816",
+        "subject": "fix(android): build valid base URLs for discovered Home Assistant instances (#937)",
+        "at": "2026-10-19T00:10:24+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "2a66d799673bbeece01ffb3bdd858da5de7851eb",
+        "subject": "feat: bound shared demo controls and simulate coherent live readings (#926)",
+        "at": "2026-10-18T23:10:53+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "fdaf53ef9b2a4e443c0a2865b8c2c555da4f17e8",
+        "subject": "chore(main): release 0.1.44 (#905)",
+        "at": "2026-10-18T22:10:54+01:00",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "c50b6e6a6541a8cbb0711dd0cb7fb1e725d03642",
+        "subject": "fix(android): correct system bar contrast and inset layouts (#923)",
+        "at": "2026-10-18T21:37:26+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "fcdd86e3e5b71bc39a5438d065db3816737b9e83",
+        "subject": "fix: stabilize WASM dashboard cards and render HA images (#925)",
+        "at": "2026-10-18T19:39:42+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "3cb5c0c9432bdb93b0ead883eefa2518d2369c95",
+        "subject": "feat: script native demo Caddy route setup (#924)",
+        "at": "2026-10-18T19:13:58+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "e6423ed7152ac922f68631cdca169a1bdf8a7242",
         "subject": "fix: update adaptive player documents on stable wrap slots (#920)",
@@ -354,134 +482,6 @@
         "sha": "f68c5814d363fccbdd2faf8b69d3cd6a34372b0c",
         "subject": "feat(demo): add isolated read-only Home Assistant backend (#878)",
         "at": "2026-10-17T13:23:49+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "cd6731a2fdf2ca3c6e5f32d3729e27fa2ae65b6e",
-        "subject": "feat(lovelace): publish dashboard catalog before host rollout (#877)",
-        "at": "2026-10-17T13:19:41+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "2557c616f7443bf7069d381374853edcce420a81",
-        "subject": "fix(designs): explain unsupported theme mode filters (#876)",
-        "at": "2026-10-17T13:16:28+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "13f2323388c0a7b78536d884975ef204d7884408",
-        "subject": "fix(grid): hidden conditionals take no cell; a shown one sizes as its card (#874)",
-        "at": "2026-10-17T13:13:55+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "21fe33b45b4eae959ddb2bdb5d825fddee7ede9b",
-        "subject": "fix(previews): dashboard images are drawn before the capture, every run (#873)",
-        "at": "2026-10-17T13:12:39+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "867a2f102821ed3fed03c26aa9e3eafa40c41a70",
-        "subject": "fix(deps): update dependency org.jetbrains:markdown to v0.7.18 (#825)",
-        "at": "2026-10-17T11:41:19Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "39a5505551eb8612980cf93c1ef1dddc33d1a8ff",
-        "subject": "fix(wear): a Bambu spool's colour and remaining filament reach the watch (#872)",
-        "at": "2026-10-17T12:10:42+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "9d92f4d4b8b16393865dfff94be16c0a83d7bf62",
-        "subject": "fix(a11y): read an entity's name once; entity rows are 48dp touch targets (#871)",
-        "at": "2026-10-17T11:11:18+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "8c19e0140c5e07cd86bad002507d073a05788448",
-        "subject": "fix(entities): sensors read their state; an unavailable switch reads Unavailable (#869)",
-        "at": "2026-10-17T09:40:00+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "b6c28125a54345c2273f53ae26e5aac87b2ac442",
-        "subject": "fix(markdown): linked badges are named 48dp buttons (#870)",
-        "at": "2026-10-17T09:39:57+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "994918782f2cc80f781777c1637fa77e988f87d7",
-        "subject": "fix(model): format states like Home Assistant does, and never invent a value (#847)",
-        "at": "2026-10-17T08:38:01+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "43ccb520be815ba679dd34d52dca6efee671795c",
-        "subject": "fix(cards): climate tile badge and mode buttons draw HA's MDI glyphs (#867)",
-        "at": "2026-10-17T08:12:18+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "c76482bbc8b46d57d6f7c8230cefa52867c3d403",
-        "subject": "fix(cards): nested cards in a launcher widget lay out for their own share (#868)",
-        "at": "2026-10-17T08:12:14+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "43a6add201b4a3733aafda440a1644adc8bc4387",
-        "subject": "feat(dashboard): sections lay out their cards by harc's designs, in HA's order (#866)",
-        "at": "2026-10-17T07:26:41+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ae3d61b5964a2d15eece55b3e54f1777bad105dd",
-        "subject": "fix(cards): lay grid cards out in columns that wrap, and honour aspect_ratio (#841)",
-        "at": "2026-10-17T07:16:04+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a20cac6960f6606d257ecdd34f3d32a3f8b76082",
-        "subject": "fix(cards): show an AMS tray's unknown remaining filament as \"—\", not \"-1 %\" (#865)",
-        "at": "2026-10-17T07:14:23+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ef5ed18a1ab16c545830ec138eae0c91e9e583c2",
-        "subject": "feat(cards): Material Design Icons for card overrides and HA's domain defaults (#845)",
-        "at": "2026-10-17T07:13:41+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
