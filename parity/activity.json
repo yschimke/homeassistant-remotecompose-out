@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-19T20:45:10.705Z",
+  "generatedAt": "2026-10-19T21:23:40.830Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "406a0840c14a98acd8b30043b9ce1c1a4b73f5df",
+        "subject": "build: resolve plugins from Google Maven before the plugin portal (#966)",
+        "at": "2026-10-19T22:08:36+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "38c9aea751b2e1b945eae1966ef12bfa4f1ecaf2",
+        "subject": "fix(deps): update compose-ai-tools (#962)",
+        "at": "2026-10-19T20:40:18Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "57ccb6182175fad610144b09c2f66a4345572b79",
         "subject": "fix(deps): update dependency ee.schimke.composeai:data-render-core to v3.37.0 (#963)",
@@ -467,22 +483,6 @@
         "subject": "chore(deps): update github-actions (#908)",
         "at": "2026-10-18T11:04:46Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "8d0aa3fc14c1d10fdfcee33f03ab5f844d7ddf17",
-        "subject": "feat(demo): expose guarded native read-only HA dashboard (#906)",
-        "at": "2026-10-18T11:48:43+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "9d4b78c855733e4de7d625024d177941e760d538",
-        "subject": "feat(ha): publish HACS packages and select dashboards (#904)",
-        "at": "2026-10-18T10:53:50+01:00",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
