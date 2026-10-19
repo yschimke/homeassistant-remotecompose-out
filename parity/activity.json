@@ -1,11 +1,51 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-18T21:53:20.545Z",
+  "generatedAt": "2026-10-19T00:07:03.061Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "127c11f4e3ee8c9059aa26b7d18cea7530d538ee",
+        "subject": "fix(ha-client): bound the WebSocket handshake and close the socket on failure (#935)",
+        "at": "2026-10-19T00:35:18+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "d79db5539ddf7b494941a3522ac5d64135744309",
+        "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.253 (#938)",
+        "at": "2026-10-18T23:35:14Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "bc489372347b934bd4e5b37bd882e0bfe9fc8c93",
+        "subject": "fix(rc-converter): accept list and area targets, guard filter regexes, format numbers locale-free (#936)",
+        "at": "2026-10-19T00:10:28+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "c16675db77dd9b5fbf5d177698dcdfc808d99816",
+        "subject": "fix(android): build valid base URLs for discovered Home Assistant instances (#937)",
+        "at": "2026-10-19T00:10:24+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "2a66d799673bbeece01ffb3bdd858da5de7851eb",
+        "subject": "feat: bound shared demo controls and simulate coherent live readings (#926)",
+        "at": "2026-10-18T23:10:53+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "fdaf53ef9b2a4e443c0a2865b8c2c555da4f17e8",
         "subject": "chore(main): release 0.1.44 (#905)",
@@ -442,46 +482,6 @@
         "sha": "9d92f4d4b8b16393865dfff94be16c0a83d7bf62",
         "subject": "fix(a11y): read an entity's name once; entity rows are 48dp touch targets (#871)",
         "at": "2026-10-17T11:11:18+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "8c19e0140c5e07cd86bad002507d073a05788448",
-        "subject": "fix(entities): sensors read their state; an unavailable switch reads Unavailable (#869)",
-        "at": "2026-10-17T09:40:00+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "b6c28125a54345c2273f53ae26e5aac87b2ac442",
-        "subject": "fix(markdown): linked badges are named 48dp buttons (#870)",
-        "at": "2026-10-17T09:39:57+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "994918782f2cc80f781777c1637fa77e988f87d7",
-        "subject": "fix(model): format states like Home Assistant does, and never invent a value (#847)",
-        "at": "2026-10-17T08:38:01+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "43ccb520be815ba679dd34d52dca6efee671795c",
-        "subject": "fix(cards): climate tile badge and mode buttons draw HA's MDI glyphs (#867)",
-        "at": "2026-10-17T08:12:18+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "c76482bbc8b46d57d6f7c8230cefa52867c3d403",
-        "subject": "fix(cards): nested cards in a launcher widget lay out for their own share (#868)",
-        "at": "2026-10-17T08:12:14+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
