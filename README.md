@@ -597,6 +597,9 @@ The render task completed but no PNG was produced for these previews. Entries wi
 | Preview | Image |
 |---------|-------|
 | `WearMainActivity` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/activity__WearMainActivity.png" width="150" /> |
+| `Play_Wear_01_Home` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/Play_Wear_01_Home_play_wear_home-4a47d00f.png" width="150" /> |
+| `Play_Wear_02_Dashboard` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/Play_Wear_02_Dashboard_play_wear_dashboard-223422c3.png" width="150" /> |
+| `Play_Wear_03_Section` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/Play_Wear_03_Section_play_wear_section-17d15165.png" width="150" /> |
 | `WearDashboardPreview` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/WearDashboardPreview_Wear_dashboard-67ae6304.png" width="150" /> |
 | `WearDashboardsPreview` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/WearDashboardsPreview_Wear_dashboards-7daf1ddb.png" width="150" /> |
 | `WearSectionPreview` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/WearSectionPreview_Wear_section-712f72f1.png" width="150" /> |
