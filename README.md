@@ -1,385 +1,278 @@
 # Accessibility Report
 
-_Auto-generated from `compose-preview/a11y/pr`. 53 preview(s) across 2 module(s) · 7 error(s) · 0 warning(s) · 29 info._
+_Auto-generated from `compose-preview/a11y/pr`. 39 preview(s) across 1 module(s) · 5 error(s) · 21 warning(s) · 3 info._
 
 Browse inline; image URLs are pinned to the commit SHA on the baseline branch so links keep resolving after merge.
 
-## previews
+## app
 
-### `CardPreviewMatrix_HistoryGraph`
+### `Play_Phone_01_HomeLight` · `spec:width=411dp,height=731dp,dpi=320`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/CardPreviewMatrix_HistoryGraph_matrix_history_graph-89fb213c.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Play_Phone_01_HomeLight_play_phone_home_light-27629862.a11y.png" width="400" />
+
+_No findings._
+
+### `Play_Phone_02_HomeDark` · `spec:width=411dp,height=731dp,dpi=320`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Play_Phone_02_HomeDark_play_phone_home_dark-87829c7b.a11y.png" width="400" />
+
+_No findings._
+
+### `Play_Phone_03_Discovery` · `spec:width=411dp,height=731dp,dpi=320`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Play_Phone_03_Discovery_play_phone_discovery-8d992da7.png" width="400" />
+
+_No findings._
+
+### `Play_Phone_04_Picker` · `spec:width=411dp,height=731dp,dpi=320`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Play_Phone_04_Picker_play_phone_picker-f1c04503.a11y.png" width="400" />
+
+_No findings._
+
+### `Play_Phone_05_WearWidgets` · `spec:width=411dp,height=731dp,dpi=320`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Play_Phone_05_WearWidgets_play_phone_wear_widgets-8eb93844.a11y.png" width="400" />
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Temperature" is identical to that of 3 other item(s). |
-| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Terrazzo slot" is identical to that of 1 other item(s). |
-| 3 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Outside" is identical to that of 2 other item(s). |
-| 4 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "400" is identical to that of 1 other item(s). |
-| 5 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "5.4 – 14.4 (24)" is identical to that of 2 other item(s). |
+| 1 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Not selected, Small" is identical to that of 3 other item(s). |
+| 2 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Clear slot" is identical to that of 1 other item(s). |
+| 3 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Not selected, Large" is identical to that of 4 other item(s). |
+| 4 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Selected, Both" is identical to that of 3 other item(s). |
 
-### `CommunityCards_Aeon` · `spec:width=381dp,height=600dp,dpi=160`
+### `Play_Tablet10_01_Home` · `spec:width=800dp,height=1280dp,dpi=224`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/CommunityCards_Aeon_community_cards_Aeon-7cbc9bb7.a11y.png" width="400" />
-
-_No findings._
-
-### `CommunityCards_Arctic` · `spec:width=381dp,height=600dp,dpi=160`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/CommunityCards_Arctic_community_cards_Arctic-d6b99fca.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Play_Tablet10_01_Home_play_10_inch_home-7ca1827e.a11y.png" width="400" />
 
 _No findings._
 
-### `CommunityCards_Bubble` · `spec:width=381dp,height=600dp,dpi=160`
+### `Play_Tablet7_01_Home` · `spec:width=600dp,height=960dp,dpi=240`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/CommunityCards_Bubble_community_cards_Bubble-d6099968.a11y.png" width="400" />
-
-_No findings._
-
-### `CommunityCards_Catppuccin` · `spec:width=381dp,height=600dp,dpi=160`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/CommunityCards_Catppuccin_community_cards_Catppuccin-8411a647.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Play_Tablet7_01_Home_play_7_inch_home-eb94cb4a.a11y.png" width="400" />
 
 _No findings._
 
-### `CommunityCards_Cupertino` · `spec:width=381dp,height=600dp,dpi=160`
+### `Screen_CardActions`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/CommunityCards_Cupertino_community_cards_Cupertino-be2fddb6.a11y.png" width="400" />
-
-_No findings._
-
-### `CommunityCards_Lcars` · `spec:width=381dp,height=600dp,dpi=160`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/CommunityCards_Lcars_community_cards_Lcars-a114fda9.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_CardActions_card_actions-fcba8e8e.a11y.png" width="400" />
 
 _No findings._
 
-### `CommunityCards_Minimalist` · `spec:width=381dp,height=600dp,dpi=160`
+### `Screen_CardHistory`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/CommunityCards_Minimalist_community_cards_Minimalist-b66d3b19.a11y.png" width="400" />
-
-_No findings._
-
-### `CommunityCards_Mushroom` · `spec:width=381dp,height=600dp,dpi=160`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/CommunityCards_Mushroom_community_cards_Mushroom-9f18c351.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_CardHistory_card_history-07f74f5f.a11y.png" width="400" />
 
 _No findings._
 
-### `CommunityCards_Noctis` · `spec:width=381dp,height=600dp,dpi=160`
+### `Screen_CardHistory_ThemeStyle`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/CommunityCards_Noctis_community_cards_Noctis-02ffcb53.a11y.png" width="400" />
-
-_No findings._
-
-### `CommunityCards_Obsidian` · `spec:width=381dp,height=600dp,dpi=160`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/CommunityCards_Obsidian_community_cards_Obsidian-aacb8ba1.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_CardHistory_ThemeStyle_card_history_theme-38cdf710.a11y.png" width="400" />
 
 _No findings._
 
-### `Community_Aeon_Dark` · `spec:width=360dp,height=680dp,dpi=160`
+### `Screen_DashboardPicker`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Community_Aeon_Dark_community_Aeon_dark-0e9d928b.a11y.png" width="400" />
-
-_No findings._
-
-### `Community_Aeon_Light` · `spec:width=360dp,height=680dp,dpi=160`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Community_Aeon_Light_community_Aeon_light-b1d8bd24.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_DashboardPicker_dashboard_picker-2e66fb7f.a11y.png" width="400" />
 
 _No findings._
 
-### `Community_Catppuccin_Dark` · `spec:width=360dp,height=680dp,dpi=160`
+### `Screen_DashboardPicker_ThemeStyle`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Community_Catppuccin_Dark_community_Catppuccin_dark-d4f36832.a11y.png" width="400" />
-
-_No findings._
-
-### `Community_Catppuccin_Light` · `spec:width=360dp,height=680dp,dpi=160`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Community_Catppuccin_Light_community_Catppuccin_light-5f3e850d.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_DashboardPicker_ThemeStyle_dashboard_picker_theme-b5b3f158.a11y.png" width="400" />
 
 _No findings._
 
-### `Community_Lcars_Dark` · `spec:width=360dp,height=680dp,dpi=160`
+### `Screen_DashboardSelection_Settings`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Community_Lcars_Dark_community_Lcars_dark-18ff3abd.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_DashboardSelection_Settings_dashboard_selection_settings-c3a82a12.a11y.png" width="400" />
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 42dp. Consider making the height of this touch target 48dp or larger. |
+| 1 | WARNING | DuplicateSpeakableTextCheck | android.widget.CheckBox | This clickable item's speakable text: "checked" is identical to that of 1 other item(s). |
+| 2 | WARNING | DuplicateSpeakableTextCheck | android.widget.CheckBox | This clickable item's speakable text: "not checked" is identical to that of 1 other item(s). |
 
-### `Community_Lcars_Light` · `spec:width=360dp,height=680dp,dpi=160`
+### `Screen_DashboardSelection_Signin`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Community_Lcars_Light_community_Lcars_light-598291cc.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_DashboardSelection_Signin_dashboard_selection_signin-6c17e1a3.a11y.png" width="400" />
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 42dp. Consider making the height of this touch target 48dp or larger. |
+| 1 | WARNING | DuplicateSpeakableTextCheck | android.widget.CheckBox | This clickable item's speakable text: "checked" is identical to that of 3 other item(s). |
 
-### `Community_Mushroom_Dark` · `spec:width=360dp,height=680dp,dpi=160`
+### `Screen_DashboardSelection_ThemeStyle`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Community_Mushroom_Dark_community_Mushroom_dark-f93689c4.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_DashboardSelection_ThemeStyle_dashboard_selection_theme-f7657577.a11y.png" width="400" />
+
+| # | Level | Rule | Element | Message |
+|--:|---|---|---|---|
+| 1 | WARNING | DuplicateSpeakableTextCheck | android.widget.CheckBox | This clickable item's speakable text: "checked" is identical to that of 3 other item(s). |
+
+### `Screen_DashboardTopBar_Connecting`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_DashboardTopBar_Connecting_top_bar_360dp_connecting-3d6030f9.a11y.png" width="400" />
+
+| # | Level | Rule | Element | Message |
+|--:|---|---|---|---|
+| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 46dp. Consider making the height of this touch target 48dp or larger. |
+| 2 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 46dp. Consider making the height of this touch target 48dp or larger. |
+| 3 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 46dp. Consider making the height of this touch target 48dp or larger. |
+| 4 | ERROR | TouchTargetSizeCheck | android.widget.CheckBox  desc="Write mode" | This item's height is 46dp. Consider making the height of this touch target 48dp or larger. |
+| 5 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 46dp. Consider making the height of this touch target 48dp or larger. |
+
+### `Screen_DashboardTopBar_Failed`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_DashboardTopBar_Failed_top_bar_360dp_failed-8597e561.a11y.png" width="400" />
 
 _No findings._
 
-### `Community_Mushroom_Light` · `spec:width=360dp,height=680dp,dpi=160`
+### `Screen_DashboardTopBar_LongTitle`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Community_Mushroom_Light_community_Mushroom_light-c68b159f.a11y.png" width="400" />
-
-_No findings._
-
-### `Community_Noctis_Dark` · `spec:width=360dp,height=680dp,dpi=160`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Community_Noctis_Dark_community_Noctis_dark-33afff48.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_DashboardTopBar_LongTitle_top_bar_360dp_long_title-367dab62.a11y.png" width="400" />
 
 _No findings._
 
-### `Community_Noctis_Light` · `spec:width=360dp,height=680dp,dpi=160`
+### `Screen_DashboardTopBar_Narrow`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Community_Noctis_Light_community_Noctis_light-f9d1851e.a11y.png" width="400" />
-
-_No findings._
-
-### `Community_Obsidian_Dark` · `spec:width=360dp,height=680dp,dpi=160`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Community_Obsidian_Dark_community_Obsidian_dark-24ac49c6.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_DashboardTopBar_Narrow_top_bar_360dp_switcher-c9001f3a.a11y.png" width="400" />
 
 _No findings._
 
-### `Community_Obsidian_Light` · `spec:width=360dp,height=680dp,dpi=160`
+### `Screen_DashboardTopBar_Paused`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Community_Obsidian_Light_community_Obsidian_light-392460c2.a11y.png" width="400" />
-
-_No findings._
-
-### `HistoryGraphNamedPartlyEmpty_Dark`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/HistoryGraphNamedPartlyEmpty_Dark_history_graph_named_partly_empty_dark-66a295d3.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "no data" is identical to that of 1 other item(s). |
-
-### `HistoryGraphNamedPartlyEmpty_Light`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/HistoryGraphNamedPartlyEmpty_Light_history_graph_named_partly_empty_light-5c67c61d.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "no data" is identical to that of 1 other item(s). |
-
-### `HistoryGraph_Dark`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/HistoryGraph_Dark_history_graph_dark-1ce48051.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_DashboardTopBar_Paused_top_bar_360dp_paused-5e21611f.a11y.png" width="400" />
 
 _No findings._
 
-### `HistoryGraph_Light`
+### `Screen_DashboardTopBar_Phone`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/HistoryGraph_Light_history_graph_light-a856fcc6.a11y.png" width="400" />
-
-_No findings._
-
-### `UberCards_Braun`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/UberCards_Braun_uber_cards_Braun-c627ce4c.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Disarmed" is identical to that of 1 other item(s). |
-| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "The Anthem" is identical to that of 1 other item(s). |
-
-### `UberCards_Classic`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/UberCards_Classic_uber_cards_Classic-006e2ca6.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Disarmed" is identical to that of 1 other item(s). |
-| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "The Anthem" is identical to that of 1 other item(s). |
-
-### `UberCards_Console`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/UberCards_Console_uber_cards_Console-af191643.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Disarmed" is identical to that of 1 other item(s). |
-
-### `UberCards_Expressive`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/UberCards_Expressive_uber_cards_Expressive-1450d5de.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Disarmed" is identical to that of 1 other item(s). |
-| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "The Anthem" is identical to that of 1 other item(s). |
-
-### `UberCards_HomeAssistant_Dark` · `spec:width=360dp,height=1200dp,dpi=160`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/UberCards_HomeAssistant_Dark_uber_cards_Home_Assistant_dark-ef25f2ee.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Disarmed" is identical to that of 1 other item(s). |
-| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "The Anthem" is identical to that of 1 other item(s). |
-
-### `UberCards_HomeAssistant_Light` · `spec:width=360dp,height=1200dp,dpi=160`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/UberCards_HomeAssistant_Light_uber_cards_Home_Assistant_light-07338e73.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Disarmed" is identical to that of 1 other item(s). |
-| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "The Anthem" is identical to that of 1 other item(s). |
-
-### `UberCards_Ikea_Dark`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/UberCards_Ikea_Dark_uber_cards_IKEA_Showroom_dark-8e94ca45.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Disarmed" is identical to that of 1 other item(s). |
-| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "The Anthem" is identical to that of 1 other item(s). |
-
-### `UberCards_Ikea_Light`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/UberCards_Ikea_Light_uber_cards_IKEA_Showroom_light-e98df5fb.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Disarmed" is identical to that of 1 other item(s). |
-| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "The Anthem" is identical to that of 1 other item(s). |
-
-### `UberCards_Lcd`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/UberCards_Lcd_uber_cards_LCD-472dd721.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Disarmed" is identical to that of 1 other item(s). |
-| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "The Anthem" is identical to that of 1 other item(s). |
-
-### `UberCards_Nixie`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/UberCards_Nixie_uber_cards_Nixie-d060eacb.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Disarmed" is identical to that of 1 other item(s). |
-| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "The Anthem" is identical to that of 1 other item(s). |
-
-### `UberCards_Trinitron`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/UberCards_Trinitron_uber_cards_Trinitron-0f2dcdbf.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Disarmed" is identical to that of 1 other item(s). |
-| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "The Anthem" is identical to that of 1 other item(s). |
-
-### `UberCommon`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/UberCommon_uber_common_cards-69d5ccb6.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Temperature" is identical to that of 1 other item(s). |
-
-### `UberEverydayText`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/UberEverydayText_uber_text_cards-1a7faf6d.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_DashboardTopBar_Phone_top_bar_412dp_switcher_agent_inline-475172f6.a11y.png" width="400" />
 
 _No findings._
 
-### `Uber_Braun_Dark`
+### `Screen_DashboardTopBar_SingleReadOnly`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Uber_Braun_Dark_uber_Braun_dark-7d150a60.a11y.png" width="400" />
-
-_No findings._
-
-### `Uber_Braun_Light`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Uber_Braun_Light_uber_Braun_light-5a2c2283.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_DashboardTopBar_SingleReadOnly_top_bar_360dp_single_dashboard_read_only-c7674660.a11y.png" width="400" />
 
 _No findings._
 
-### `Uber_Console`
+### `Screen_DashboardView`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Uber_Console_uber_Console-e263c2ad.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_DashboardView_dashboard_view-c60327e8.a11y.png" width="400" />
+
+_No findings._
+
+### `Screen_DashboardView_PhoneLandscapeMedium`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_DashboardView_PhoneLandscapeMedium_dashboard_view_phone_landscape_medium-8837149f.a11y.png" width="400" />
+
+_No findings._
+
+### `Screen_DashboardView_ThemeStyle`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_DashboardView_ThemeStyle_dashboard_theme-307a8ffb.a11y.png" width="400" />
+
+_No findings._
+
+### `Screen_Discovery`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_Discovery_discovery-9ef45f57.png" width="400" />
+
+_No findings._
+
+### `Screen_Discovery_ThemeStyle`
+
+_No findings._
+
+### `Screen_Logs`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_Logs_logs-12f4828a.a11y.png" width="400" />
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 44dp. Consider making the height of this touch target 48dp or larger. |
+| 1 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Connected" is identical to that of 1 other item(s). |
+| 2 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Connecting" is identical to that of 1 other item(s). |
+| 3 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "22:13:20" is identical to that of 2 other item(s). |
+| 4 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Error" is identical to that of 1 other item(s). |
 
-### `Uber_Expressive_Dark`
+### `Screen_Logs_Dark`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Uber_Expressive_Dark_uber_Material_3_Expressive_dark-c2119956.a11y.png" width="400" />
-
-_No findings._
-
-### `Uber_Expressive_Light`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Uber_Expressive_Light_uber_Material_3_Expressive_light-900b0841.a11y.png" width="400" />
-
-_No findings._
-
-### `Uber_Ikea_Dark`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Uber_Ikea_Dark_uber_IKEA_Showroom_dark-2434e666.a11y.png" width="400" />
-
-_No findings._
-
-### `Uber_Ikea_Light`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Uber_Ikea_Light_uber_IKEA_Showroom_light-8d311518.a11y.png" width="400" />
-
-_No findings._
-
-### `Uber_Lcd_Dark`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Uber_Lcd_Dark_uber_LCD_Indiglo_backlight-7b414933.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_Logs_Dark_logs_dark-d93c6e7e.a11y.png" width="400" />
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 35dp. Consider making the height of this touch target 48dp or larger. |
+| 1 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Connected" is identical to that of 1 other item(s). |
+| 2 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Connecting" is identical to that of 1 other item(s). |
+| 3 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "22:13:20" is identical to that of 2 other item(s). |
+| 4 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Error" is identical to that of 1 other item(s). |
 
-### `Uber_Lcd_Light`
+### `Screen_Logs_Empty`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Uber_Lcd_Light_uber_LCD_reflective-cb2651a0.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 35dp. Consider making the height of this touch target 48dp or larger. |
-
-### `Uber_Nixie`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Uber_Nixie_uber_Nixie-89940734.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 43dp. Consider making the height of this touch target 48dp or larger. |
-
-### `Uber_Trinitron`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Uber_Trinitron_uber_Trinitron-fa0b6c99.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 45dp. Consider making the height of this touch target 48dp or larger. |
-
-## tv
-
-### `TvKioskPreview_Console`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/tv/TvKioskPreview_Console_TV_kiosk_Console_card_style-a5516ae5.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_Logs_Empty_logs_empty-8162fa26.a11y.png" width="400" />
 
 _No findings._
 
-### `TvKioskPreview_Lcd`
+### `Screen_ManagePinned`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/tv/TvKioskPreview_Lcd_TV_kiosk_LCD_card_style-71d5ac09.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_ManagePinned_manage_pinned-2ca47dc3.a11y.png" width="400" />
+
+| # | Level | Rule | Element | Message |
+|--:|---|---|---|---|
+| 1 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Move down" is identical to that of 2 other item(s). |
+| 2 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Move up" is identical to that of 2 other item(s). |
+| 3 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Unpin" is identical to that of 2 other item(s). |
+
+### `Screen_ManagePinned_Empty`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_ManagePinned_Empty_manage_pinned_empty-a0076758.a11y.png" width="400" />
+
+_No findings._
+
+### `Screen_Settings`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_Settings_settings-fc99b7e6.a11y.png" width="400" />
+
+_No findings._
+
+### `Screen_Settings_CardStyles`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_Settings_CardStyles_settings_card_styles-f2e3d1b3.a11y.png" width="400" />
+
+_No findings._
+
+### `Screen_Settings_ThemeStyle`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_Settings_ThemeStyle_settings_theme-c88045d9.a11y.png" width="400" />
+
+_No findings._
+
+### `Screen_SyncDiagnostics`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_SyncDiagnostics_sync_diagnostics-a38e8a18.a11y.png" width="400" />
+
+| # | Level | Rule | Element | Message |
+|--:|---|---|---|---|
+| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "never" is identical to that of 2 other item(s). |
+
+### `Screen_WearWidgets`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_WearWidgets_wear_widgets-6b4468dd.a11y.png" width="400" />
+
+| # | Level | Rule | Element | Message |
+|--:|---|---|---|---|
+| 1 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Not selected, Small" is identical to that of 3 other item(s). |
+| 2 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Clear slot" is identical to that of 1 other item(s). |
+| 3 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Not selected, Large" is identical to that of 4 other item(s). |
+| 4 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Selected, Both" is identical to that of 3 other item(s). |
+
+### `Screen_Widgets`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_Widgets_widgets-47dcfa25.a11y.png" width="400" />
+
+_No findings._
+
+### `Screen_Widgets_ThemeStyle`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_Widgets_ThemeStyle_widgets_theme-c6d5903f.a11y.png" width="400" />
 
 _No findings._
