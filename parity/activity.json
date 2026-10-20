@@ -1,11 +1,51 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-20T14:50:46.221Z",
+  "generatedAt": "2026-10-20T22:36:28.686Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "bda713874704fad65767376f2e1329091cb0ab7a",
+        "subject": "feat(wear): report watch crashes to Crashlytics (#1011)",
+        "at": "2026-10-20T23:29:09+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "e86b90160b3543a6a2ad15f5f31e2c2d39098116",
+        "subject": "feat(site): point \"Get the app\" at the Google Play listing (#1010)",
+        "at": "2026-10-20T23:11:50+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "c6ae9a847542dc946ee1bee51a9f6b2233813673",
+        "subject": "chore(deps): update compose-ai-tools (#1005)",
+        "at": "2026-10-20T16:40:10Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "f509e6eda1812afa827cbd74712016560e60f1ee",
+        "subject": "feat: roll opt-in card usage out to widgets, desktop and web (#1006)",
+        "at": "2026-10-20T17:15:37+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "6055c37e74b133d70785ab57903c583de7d7125e",
+        "subject": "chore(main): release 0.1.51 (#1004)",
+        "at": "2026-10-20T15:44:00+01:00",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "e3a4917e43d0044beb83f584f5c8069e401504cd",
         "subject": "feat(app): select crash-reporter backend at build time (#1003)",
@@ -442,46 +482,6 @@
         "sha": "5d896d58e981b5c3ba9b5036b77c80bb1e4aa205",
         "subject": "fix: honour the Wasm design-server setting, dedupe the Wear probe, fail fast on HA readiness (#944)",
         "at": "2026-10-19T10:10:08+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "7bed10cf8a4bb2e12431784559c66f525804c07f",
-        "subject": "fix(android): send the HA bearer to images on the instance origin only (#946)",
-        "at": "2026-10-19T09:57:32+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "3f3c773367ac623d1506333c09cb951f682745fa",
-        "subject": "fix(rc-converter): keep alarm panel, sensor sparkline and entity-filter cards live (#951)",
-        "at": "2026-10-19T09:56:50+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "6cf3ebec7b5a87a3590aabc36eaf24e9f887477d",
-        "subject": "fix(wear): clear watch data on sign-out and keep sync freshness honest (#953)",
-        "at": "2026-10-19T09:51:56+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ed4049a02e05ddb848aaec1c1fa3b3f2300096dd",
-        "subject": "fix(android): drop stale dashboard loads (#950)",
-        "at": "2026-10-19T09:24:04+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "0ee47e38eb7acd5b93e7f868716d38d911cc5a05",
-        "subject": "fix(ios): limit plain HTTP to local networks and send homeassistant.toggle (#948)",
-        "at": "2026-10-19T09:23:15+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
