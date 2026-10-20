@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-20T09:11:01.275Z",
+  "generatedAt": "2026-10-20T09:49:00.927Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "1692c5254e09678c319be2d6823170ba7697ce6c",
+        "subject": "feat: draw the meter glyph on sensor tiles rendered from card designs (#990)",
+        "at": "2026-10-20T10:41:58+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "605b33d150fb3a468591c1d3a8b9b9a273d519c8",
+        "subject": "feat: offer the watch app and Wear widgets from the phone dashboard (#989)",
+        "at": "2026-10-20T10:09:27+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "7fdd122169f5d26bc5796d646af88442b079c496",
+        "subject": "chore(deps): update dependency macos to v26 (#985)",
+        "at": "2026-10-20T10:08:54+01:00",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "0c2f2178d161c1ca9dcd4d922834dc009f398f53",
         "subject": "fix(deps): update dependency ee.schimke.composeai:remote-compose-player-js-dist to v2.17.0 (#984)",
@@ -458,30 +482,6 @@
         "sha": "d35334af243096fd22381bcd4b0c39de29ad613a",
         "subject": "fix(ci): publish release assets when release-please is dispatched (#931)",
         "at": "2026-10-19T02:27:50+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "05a0f716771f2ca2639492e7c998e7a0d1567fb0",
-        "subject": "ci: fix stale path filters, scope default tokens and deflake a browser test (#932)",
-        "at": "2026-10-19T02:27:47+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "8b88f2bd52825599e626d1bd0e86b96048c330d6",
-        "subject": "fix(design-server): refuse control characters in sign-in return paths (#933)",
-        "at": "2026-10-19T01:38:09+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "52095cbe19d26462d1cc7b5bc404622f0e873a1f",
-        "subject": "docs: refresh stale versions and install notes; declare the HACS core floor (#934)",
-        "at": "2026-10-19T01:38:06+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
