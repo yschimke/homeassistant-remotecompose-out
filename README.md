@@ -44,9 +44,9 @@ customising the live render are two ends of one workflow.
 | Editable design vectors (figma-svg) | **32** |
 | Components with a11y greenlines | **9** |
 | Library | `androidx.compose.remote:remote-creation-compose`<br>`androidx.wear.compose.remote:remote-material3`<br>`ee.schimke.ha:rc-components (RemoteHa* cards)` |
-| Renderer | compose-preview 2.69.1 |
+| Renderer | compose-preview 2.70.0 |
 | Schema | `design-parity-catalog/v1` |
-| Generated | 2026-10-19 |
+| Generated | 2026-10-20 |
 
 ## Components by group
 

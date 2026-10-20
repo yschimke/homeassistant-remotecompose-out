@@ -1,11 +1,83 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-19T22:29:16.082Z",
+  "generatedAt": "2026-10-20T07:32:46.575Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "622f0f13bcd9a61cab58f4158946b32a6ca94189",
+        "subject": "feat: baseline profiles and macrobenchmarks for phone and Wear (#975)",
+        "at": "2026-10-20T08:25:55+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "e27356af5288b4df52da831da8b71cbea2665cbd",
+        "subject": "feat: card style options are the sample card itself (#978)",
+        "at": "2026-10-20T08:18:22+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "5faba5c9e70a4be1ec98f37c1c690178382401d9",
+        "subject": "feat(site): step-by-step Home Assistant install on ha.coo.ee (#979)",
+        "at": "2026-10-20T08:18:18+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "4886ac1808137560c336ee463ec47196282bb0b9",
+        "subject": "feat: show a sample card per card style in Settings and group settings (#976)",
+        "at": "2026-10-20T07:27:22+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "bbee99b598368b7567cdbeed40cefd618f7fc6a6",
+        "subject": "chore(main): release 0.1.47 (#972)",
+        "at": "2026-10-20T06:44:04+01:00",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "d17a4d5a19042d4818fae617999d07f899b20fef",
+        "subject": "fix(play): describe the Wear OS app in the store listing (#974)",
+        "at": "2026-10-20T06:43:46+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "9eab32d38c717eb5d8df87ad29c895eaf0bfc279",
+        "subject": "chore(deps): update yschimke/compose-ai-tools action to v2.70.0 (#973)",
+        "at": "2026-10-19T23:37:47Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "a6b4d83deef896210d86f5b9a14ce331af462b27",
+        "subject": "fix(deps): update compose-ai-tools (#967)",
+        "at": "2026-10-19T23:12:25Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "8048681d5234188b1d489059129c39c25c05207d",
+        "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.254 (#971)",
+        "at": "2026-10-19T22:43:37Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "9456bd382590c4333bad120ac8ff4bdc7562bf19",
         "subject": "feat: give every uber theme its own tile, heading, markdown and history graph (#970)",
@@ -410,78 +482,6 @@
         "sha": "e6423ed7152ac922f68631cdca169a1bdf8a7242",
         "subject": "fix: update adaptive player documents on stable wrap slots (#920)",
         "at": "2026-10-18T18:21:28+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "9b78b0388c0671d55335c63470e17bba51c0c452",
-        "subject": "fix: embed pictures in direct launcher widget captures (#917)",
-        "at": "2026-10-18T17:50:49+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "71d69df516e9ed74f2bccdd2188b3dc107bf34b2",
-        "subject": "feat: add public bug report feedback flow (#919)",
-        "at": "2026-10-18T17:33:34+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "44291e9ae21916818d50aaa9c8ca1bbdadd8840c",
-        "subject": "fix: keep widget previews stable and installed data current (#914)",
-        "at": "2026-10-18T17:32:53+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "d67dc3736d91d8a1670841131f06073553dc01b3",
-        "subject": "fix: restore iOS live updates and structured service calls (#916)",
-        "at": "2026-10-18T16:54:53+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "583ef829b53f76d8b659a883c12cdd806fde3100",
-        "subject": "fix: consolidate launcher cards onto one resizable widget (#921)",
-        "at": "2026-10-18T15:11:02+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "75bccf42207e00ea6712a9e7d367edd60f766d63",
-        "subject": "fix: keep short climate widgets readable and show media progress (#918)",
-        "at": "2026-10-18T14:35:57+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "62b4646ded17153f2b6c6ddc4daf3a269f151c16",
-        "subject": "feat: add ten distinct Uber design families (#913)",
-        "at": "2026-10-18T14:18:10+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "3e581069301589f5facab838e93ed39564cd3042",
-        "subject": "fix: default launcher widgets to resizable 1x1 cells (#915)",
-        "at": "2026-10-18T14:18:06+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "6b00df1dfaf5f46483b921e87e9e1e629365c535",
-        "subject": "feat: add IKEA Showroom card design (#912)",
-        "at": "2026-10-18T12:44:33+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
