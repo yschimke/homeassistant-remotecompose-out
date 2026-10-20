@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-20T11:15:38.246Z",
+  "generatedAt": "2026-10-20T14:50:46.221Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "e3a4917e43d0044beb83f584f5c8069e401504cd",
+        "subject": "feat(app): select crash-reporter backend at build time (#1003)",
+        "at": "2026-10-20T15:43:13+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "f202bf00e6868a70fdde843860b84a85680a5f00",
+        "subject": "fix(play): publish only the release variant to Play (#1002)",
+        "at": "2026-10-20T12:38:57+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "4efbe36e31567cec554e86769bf25f1f9c944e7f",
+        "subject": "chore(main): release 0.1.50 (#1000)",
+        "at": "2026-10-20T12:09:21+01:00",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "48cf2e9ef3da060b1bde68e3ac19026a561465f5",
         "subject": "fix(deps): update compose-ai-tools (#995)",
@@ -458,30 +482,6 @@
         "sha": "0ee47e38eb7acd5b93e7f868716d38d911cc5a05",
         "subject": "fix(ios): limit plain HTTP to local networks and send homeassistant.toggle (#948)",
         "at": "2026-10-19T09:23:15+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "1673062606c2ea4d0377df1486e80f9f5087b8f7",
-        "subject": "fix(rc-converter): skip entities-card special rows instead of drawing toggle rows (#947)",
-        "at": "2026-10-19T09:22:46+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "8ff8bffdd566da2d0f8fecd8ac91a71bbf5c0729",
-        "subject": "fix(design-server): keep the served manifest serial from falling (#945)",
-        "at": "2026-10-19T09:22:02+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "b95faebfd371db0d9e57873ef450a490ad1dcda5",
-        "subject": "feat: plan placeholder cards by long-pressing a section; automate Play graphics (#941)",
-        "at": "2026-10-19T08:57:03+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
