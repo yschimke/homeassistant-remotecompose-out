@@ -562,6 +562,25 @@
       "variant": ""
     },
     {
+      "annotatedBasename": "Screen_Settings_UsageSharing_settings_usage_sharing-65948b88.a11y.png",
+      "cleanBasename": "Screen_Settings_UsageSharing_settings_usage_sharing-65948b88.png",
+      "findings": [
+        {
+          "boundsInScreen": "63,311,374,437",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Privacy policy\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "Screen_Settings_UsageSharing",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_UsageSharing_settings \u00b7 usage sharing",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": ""
+    },
+    {
       "annotatedBasename": "Screen_SyncDiagnostics_sync_diagnostics-a38e8a18.a11y.png",
       "cleanBasename": "Screen_SyncDiagnostics_sync_diagnostics-a38e8a18.png",
       "findings": [
