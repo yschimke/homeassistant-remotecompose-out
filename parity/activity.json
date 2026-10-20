@@ -1,11 +1,67 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-20T09:49:00.927Z",
+  "generatedAt": "2026-10-20T11:15:38.246Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "48cf2e9ef3da060b1bde68e3ac19026a561465f5",
+        "subject": "fix(deps): update compose-ai-tools (#995)",
+        "at": "2026-10-20T12:08:50+01:00",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "b60046d68f743a66f4ae034c4fc9a7844817e397",
+        "subject": "fix: keep the widget preview rendering in the preview host (#999)",
+        "at": "2026-10-20T11:39:34+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "6a677f79080085880da34d505b4740389c7f694c",
+        "subject": "feat(home-assistant): wall-panel mode for the /terrazzo panel (#998)",
+        "at": "2026-10-20T11:38:22+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "17cc274e97e0dfc62496f7f89376cf7ac5b7b9ff",
+        "subject": "feat: opt-in template usage counts per app (#997)",
+        "at": "2026-10-20T11:16:49+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "86f3811f530e7301da53484b543e1d01825c5745",
+        "subject": "fix: stabilise the flaky API 36 instrumented tests (#996)",
+        "at": "2026-10-20T11:01:01+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "f89fc40321aa6214c08d959bdeb03104477b8345",
+        "subject": "chore(main): release 0.1.49 (#991)",
+        "at": "2026-10-20T10:47:44+01:00",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "ecd486c50b191d92eed142d4e4f722d696416bb6",
+        "subject": "fix: forget a shown navigation view; keep frontend routes out of views (#993)",
+        "at": "2026-10-20T10:42:22+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "1692c5254e09678c319be2d6823170ba7697ce6c",
         "subject": "feat: draw the meter glyph on sensor tiles rendered from card designs (#990)",
@@ -426,62 +482,6 @@
         "sha": "b95faebfd371db0d9e57873ef450a490ad1dcda5",
         "subject": "feat: plan placeholder cards by long-pressing a section; automate Play graphics (#941)",
         "at": "2026-10-19T08:57:03+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "93d82e98d31d03e9557933ca59b1bda107d3be40",
-        "subject": "fix(demo): stop slow sockets stalling the demo gateway (#943)",
-        "at": "2026-10-19T08:57:00+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "2de893768f594c2e4052bdb053ee8b7752ae214e",
-        "subject": "feat(widgets): run widget toggles and service calls; reproducible design bytes (#939)",
-        "at": "2026-10-19T08:52:42+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ef2972177fa6b967b32d5b0739262ec69dcc1f7a",
-        "subject": "fix(android): subscribe to live state and refresh HA tokens (#942)",
-        "at": "2026-10-19T08:29:52+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "dd496cd9f3ff4a732844a932e019b880ca22ee2d",
-        "subject": "feat: add built-in Home Assistant Uber theme (#927)",
-        "at": "2026-10-19T07:35:03+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "5fce357e4f215790f6eda504e118f2b6451999ea",
-        "subject": "ci: set up Play publishing for the Wear app (#928)",
-        "at": "2026-10-19T06:49:28+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a8efa7c6926ba7936a684cab557203edeba86cb1",
-        "subject": "fix(android): preload host-density card designs; open the app from widgets (#930)",
-        "at": "2026-10-19T02:54:49+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "d35334af243096fd22381bcd4b0c39de29ad613a",
-        "subject": "fix(ci): publish release assets when release-please is dispatched (#931)",
-        "at": "2026-10-19T02:27:50+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
