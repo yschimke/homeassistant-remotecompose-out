@@ -1,11 +1,43 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-21T21:55:33.283Z",
+  "generatedAt": "2026-10-21T23:29:39.274Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "6fccdd12aa66930afc7c8240f3b8a10accf6c6f2",
+        "subject": "fix: stop three crashes reported by Crashlytics (#1047)",
+        "at": "2026-10-22T00:20:52+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "53d7e763b20b4f91103b86667549a10892b6fc15",
+        "subject": "fix(wear): give each screen a ScreenScaffold tied to its list (#1046)",
+        "at": "2026-10-22T00:14:41+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "2273a4f8c1ce984eecec289d4aada57f21c3c26c",
+        "subject": "fix(deps): update dependency com.google.firebase:firebase-bom to v35 (#1041)",
+        "at": "2026-10-21T22:41:05Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "532d34f24b0004a1994d9793ddc0641ee71d6cde",
+        "subject": "chore: register Firebase MCP server in project config (#1042)",
+        "at": "2026-10-21T23:41:01+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "6735ba2657fae5942414bd946904a4772d508303",
         "subject": "perf: resolve dashboard card templates off the main thread (#1040)",
@@ -450,38 +482,6 @@
         "sha": "e27356af5288b4df52da831da8b71cbea2665cbd",
         "subject": "feat: card style options are the sample card itself (#978)",
         "at": "2026-10-20T08:18:22+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "5faba5c9e70a4be1ec98f37c1c690178382401d9",
-        "subject": "feat(site): step-by-step Home Assistant install on ha.coo.ee (#979)",
-        "at": "2026-10-20T08:18:18+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "4886ac1808137560c336ee463ec47196282bb0b9",
-        "subject": "feat: show a sample card per card style in Settings and group settings (#976)",
-        "at": "2026-10-20T07:27:22+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "bbee99b598368b7567cdbeed40cefd618f7fc6a6",
-        "subject": "chore(main): release 0.1.47 (#972)",
-        "at": "2026-10-20T06:44:04+01:00",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "d17a4d5a19042d4818fae617999d07f899b20fef",
-        "subject": "fix(play): describe the Wear OS app in the store listing (#974)",
-        "at": "2026-10-20T06:43:46+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
