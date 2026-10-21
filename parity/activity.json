@@ -1,11 +1,155 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-21T08:19:27.281Z",
+  "generatedAt": "2026-10-21T21:55:33.283Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "6735ba2657fae5942414bd946904a4772d508303",
+        "subject": "perf: resolve dashboard card templates off the main thread (#1040)",
+        "at": "2026-10-21T22:47:48+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "08a048eb75521f0cd369fb15397c7cfae05deb84",
+        "subject": "fix(deps): update androidx to v1.3.0 (#1037)",
+        "at": "2026-10-21T18:17:02Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "7800d32749bf197e7d96b89c94b7fa23934fa234",
+        "subject": "chore(main): release 0.1.56 (#1028)",
+        "at": "2026-10-21T18:47:50+01:00",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "32642698d6a7d994dd01e11267b3bca709ab72a2",
+        "subject": "fix(deps): update rc-player-compose to 2.17.1 (#1032)",
+        "at": "2026-10-21T17:41:45+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "1a5793c38b854f03c1c5aa9c6823e6b251a7c9cf",
+        "subject": "feat(android): one focused actions sheet per card (#1033)",
+        "at": "2026-10-21T17:41:41+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "a9e26c827ba831a7d83c4afa218bda4061150ce3",
+        "subject": "fix(wear): read the watch's values without loading the default dashboard (#1030)",
+        "at": "2026-10-21T16:41:45+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "2fc745387667427f9595799c6a5ea87469e6b721",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 5ea0c2d (#1029)",
+        "at": "2026-10-21T13:40:00Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "e9fd967aa2adc3d662bdcb9f0a046aaaab0c66ab",
+        "subject": "fix(deps): update compose-ai-tools (#1026)",
+        "at": "2026-10-21T13:14:37Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "fe05750a623ac541a188dcedc603d6e3cf227159",
+        "subject": "feat(wear): one Wear widget template for every container, made concrete on the watch (#1027)",
+        "at": "2026-10-21T14:14:34+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "15b2dbd188ca4511729f8eae6ff1f93f9e8e55b0",
+        "subject": "chore(main): release 0.1.55 (#1020)",
+        "at": "2026-10-21T13:45:36+01:00",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "422a2ebaac266cda9c0ffcebd2da39e6fb218af7",
+        "subject": "fix(deps): update compose-ai-tools (#1025)",
+        "at": "2026-10-21T11:40:16Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "dc868a6ada53c6b54ba7d803287397c460a382b3",
+        "subject": "fix(wear): send the watch only the values its cards read (#1024)",
+        "at": "2026-10-21T12:12:20+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "64f38db075fda08623ce1e7addcc0614d83f1ba4",
+        "subject": "test: let the dashboard scroll-jank benchmark run (#1022)",
+        "at": "2026-10-21T11:22:33+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "68c667a6b5b3e663bedebcdd213cf3a7625602eb",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to ec74bb5 (#1023)",
+        "at": "2026-10-21T10:13:11Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "5f84ffbd595f7f0572751e1d913028f7964a3629",
+        "subject": "fix(wear): have the pinned cards' templates ready before the app opens (#1021)",
+        "at": "2026-10-21T10:41:37+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "d5320a4a474603beb339caefbd9a546e74e90e43",
+        "subject": "fix(deps): update compose-ai-tools (#1009)",
+        "at": "2026-10-21T08:45:00Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "32e6f09f884d7ce14145be504f3f5fbb852b69a9",
+        "subject": "refactor(android): build every OkHttp client from one shared client (#1019)",
+        "at": "2026-10-21T09:34:43+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "9dd842643c6b4884f88e5c9ff0cfe9762d9473a7",
+        "subject": "chore(main): release 0.1.54 (#1018)",
+        "at": "2026-10-21T09:17:31+01:00",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "3710973289b9d2482a6e13dd312b3b566a2248e0",
         "subject": "fix: stop dropping frames when a dashboard section scrolls on screen (#1016)",
@@ -338,150 +482,6 @@
         "sha": "d17a4d5a19042d4818fae617999d07f899b20fef",
         "subject": "fix(play): describe the Wear OS app in the store listing (#974)",
         "at": "2026-10-20T06:43:46+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "9eab32d38c717eb5d8df87ad29c895eaf0bfc279",
-        "subject": "chore(deps): update yschimke/compose-ai-tools action to v2.70.0 (#973)",
-        "at": "2026-10-19T23:37:47Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a6b4d83deef896210d86f5b9a14ce331af462b27",
-        "subject": "fix(deps): update compose-ai-tools (#967)",
-        "at": "2026-10-19T23:12:25Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "8048681d5234188b1d489059129c39c25c05207d",
-        "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.254 (#971)",
-        "at": "2026-10-19T22:43:37Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "9456bd382590c4333bad120ac8ff4bdc7562bf19",
-        "subject": "feat: give every uber theme its own tile, heading, markdown and history graph (#970)",
-        "at": "2026-10-19T23:19:51+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "b624a2a0dfcd5c7159e447fe863dc97b5cc811a8",
-        "subject": "feat(play): roll releases straight out to internal testing (#969)",
-        "at": "2026-10-19T23:07:04+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "f74aac6b5335a8a74068d366a18e05533b7c039b",
-        "subject": "chore(main): release 0.1.46 (#958)",
-        "at": "2026-10-19T22:30:30+01:00",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "476b53a8750c6e6142d1669f5521bfc0a3fe2eeb",
-        "subject": "fix(play): refresh store screenshots and drop their alpha channel (#968)",
-        "at": "2026-10-19T22:26:45+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "406a0840c14a98acd8b30043b9ce1c1a4b73f5df",
-        "subject": "build: resolve plugins from Google Maven before the plugin portal (#966)",
-        "at": "2026-10-19T22:08:36+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "38c9aea751b2e1b945eae1966ef12bfa4f1ecaf2",
-        "subject": "fix(deps): update compose-ai-tools (#962)",
-        "at": "2026-10-19T20:40:18Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "57ccb6182175fad610144b09c2f66a4345572b79",
-        "subject": "fix(deps): update dependency ee.schimke.composeai:data-render-core to v3.37.0 (#963)",
-        "at": "2026-10-19T20:26:48Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "92fa0bb543fa76e7273daa846f53da70f85b7411",
-        "subject": "chore(deps): update gradle to v9.8.2 (#961)",
-        "at": "2026-10-19T20:25:47Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "cab49088a726314d31434628ae7537d8331aa5c5",
-        "subject": "feat: show the four most common cards under every uber theme (#965)",
-        "at": "2026-10-19T21:19:01+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "329511028207fc4635fdab74f98f8f36bf384fa5",
-        "subject": "fix(deps): update kotlinx to v1.12.0 (#964)",
-        "at": "2026-10-19T20:16:00Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "fbfc94eab24278ed9dd011719a819e2709b1a03d",
-        "subject": "ci: let a manual release skip the phone upload (#960)",
-        "at": "2026-10-19T21:04:32+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "cd8b3618eeb2dcf8f476284af92f522c2e6c77ec",
-        "subject": "fix(android): hoist the HA session into a ViewModel so it survives rotation (#956)",
-        "at": "2026-10-19T20:18:30+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "6f9b050a0e7f941eaef749ecb8c2d2b034533ede",
-        "subject": "chore(deps): update github-actions (#959)",
-        "at": "2026-10-19T16:41:49Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "83e045236bfb5d0a6da8427204e60950500ab92f",
-        "subject": "chore(deps): update github-actions (major) (#909)",
-        "at": "2026-10-19T16:46:17+01:00",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "c682401ae5099bbd20dff86dd06fc9a0363ec874",
-        "subject": "fix(android): keep sign-in working when the Activity is recreated mid-login (#957)",
-        "at": "2026-10-19T13:51:04+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
