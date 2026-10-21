@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-21T23:29:39.274Z",
+  "generatedAt": "2026-10-21T23:43:27.546Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "54235b6c99b1c32e626006c22521a381e15f9fdf",
+        "subject": "fix(deps): update dependency ee.schimke.composeai:rc-player-protocol to v2.17.2 (#1045)",
+        "at": "2026-10-21T23:22:13Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "6fccdd12aa66930afc7c8240f3b8a10accf6c6f2",
         "subject": "fix: stop three crashes reported by Crashlytics (#1047)",
@@ -474,14 +482,6 @@
         "sha": "622f0f13bcd9a61cab58f4158946b32a6ca94189",
         "subject": "feat: baseline profiles and macrobenchmarks for phone and Wear (#975)",
         "at": "2026-10-20T08:25:55+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "e27356af5288b4df52da831da8b71cbea2665cbd",
-        "subject": "feat: card style options are the sample card itself (#978)",
-        "at": "2026-10-20T08:18:22+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
