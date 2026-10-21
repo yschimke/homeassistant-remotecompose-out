@@ -1,24 +1,89 @@
 # Accessibility Report
 
-_Auto-generated from `compose-preview/a11y/pr`. 1 preview(s) across 1 module(s) · 0 error(s) · 2 warning(s) · 8 info._
+_Auto-generated from `compose-preview/a11y/pr`. 13 preview(s) across 1 module(s) · 2 error(s) · 0 warning(s) · 0 info._
 
 Browse inline; image URLs are pinned to the commit SHA on the baseline branch so links keep resolving after merge.
 
-## previews
+## wear
 
-### `DashboardView3dPrintingFilamentTablet`
+### `Play_Wear_01_Home` · `spec:width=227dp,height=227dp,dpi=320,isRound=true`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/DashboardView3dPrintingFilamentTablet_dashboard_3d_printing_view_4_Filament_tabl-09a2b0b7.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/wear/Play_Wear_01_Home_play_wear_home-4a47d00f.a11y.png" width="400" />
+
+_No findings._
+
+### `Play_Wear_02_WidgetLarge` · `spec:width=227dp,height=227dp,dpi=320,isRound=true`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/wear/Play_Wear_02_WidgetLarge_play_wear_widget_large-585828ec.a11y.png" width="400" />
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "External spool" is identical to that of 1 other item(s). |
-| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Generic PLA" is identical to that of 2 other item(s). |
-| 3 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Empty" is identical to that of 1 other item(s). |
-| 4 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "—" is identical to that of 4 other item(s). |
-| 5 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "1575" is identical to that of 1 other item(s). |
-| 6 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "777" is identical to that of 3 other item(s). |
-| 7 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "AMS" is identical to that of 1 other item(s). |
-| 8 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "External spool, Not running" is identical to that of 1 other item(s). |
-| 9 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "AMS active, Not running" is identical to that of 1 other item(s). |
-| 10 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "100 %" is identical to that of 3 other item(s). |
+| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 46dp. Consider making the height of this touch target 48dp or larger. |
+
+### `Play_Wear_03_WidgetSmall` · `spec:width=227dp,height=227dp,dpi=320,isRound=true`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/wear/Play_Wear_03_WidgetSmall_play_wear_widget_small-7e8331e8.a11y.png" width="400" />
+
+_No findings._
+
+### `Play_Wear_04_Dashboard` · `spec:width=227dp,height=227dp,dpi=320,isRound=true`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/wear/Play_Wear_04_Dashboard_play_wear_dashboard-7216484c.a11y.png" width="400" />
+
+_No findings._
+
+### `WearDashboardPreview` · `wearos_small_round`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/wear/WearDashboardPreview_Wear_dashboard-67ae6304.a11y.png" width="400" />
+
+_No findings._
+
+### `WearDashboardPreview_Braun` · `wearos_small_round`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/wear/WearDashboardPreview_Braun_Wear_dashboard_Braun-76c3dc20.a11y.png" width="400" />
+
+| # | Level | Rule | Element | Message |
+|--:|---|---|---|---|
+| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 47dp. Consider making the height of this touch target 48dp or larger. |
+
+### `WearDashboardPreview_Lcd` · `wearos_small_round`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/wear/WearDashboardPreview_Lcd_Wear_dashboard_LCD-3030cdfc.a11y.png" width="400" />
+
+_No findings._
+
+### `WearDashboardsPreview` · `wearos_small_round`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/wear/WearDashboardsPreview_Wear_dashboards-7daf1ddb.a11y.png" width="400" />
+
+_No findings._
+
+### `WearSectionPreview` · `wearos_small_round`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/wear/WearSectionPreview_Wear_section-712f72f1.a11y.png" width="400" />
+
+_No findings._
+
+### `WearSettingsPreview` · `wearos_small_round`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/wear/WearSettingsPreview_Wear_settings-866444c2.a11y.png" width="400" />
+
+_No findings._
+
+### `WearTopLevelPreview_Demo` · `wearos_small_round`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/wear/WearTopLevelPreview_Demo_Wear_top_level_demo-7f799f8c.a11y.png" width="400" />
+
+_No findings._
+
+### `WearTopLevelPreview_Empty` · `wearos_small_round`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/wear/WearTopLevelPreview_Empty_Wear_top_level_empty-fa5d471f.a11y.png" width="400" />
+
+_No findings._
+
+### `WearTopLevelPreview_Live` · `wearos_small_round`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/wear/WearTopLevelPreview_Live_Wear_top_level_live-182b60ce.a11y.png" width="400" />
+
+_No findings._
