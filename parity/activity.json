@@ -1,11 +1,75 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-20T22:36:28.686Z",
+  "generatedAt": "2026-10-21T08:19:27.281Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "3710973289b9d2482a6e13dd312b3b566a2248e0",
+        "subject": "fix: stop dropping frames when a dashboard section scrolls on screen (#1016)",
+        "at": "2026-10-21T09:10:28+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "a0839ec4dc05e0b160704d5e5e7a8654466abc35",
+        "subject": "fix(android): refuse certificates from the CVE-2026-111943 CAs (#1017)",
+        "at": "2026-10-21T08:57:26+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "62978853e411ae2b8c3e7d34279ba9b5e6b014bc",
+        "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.256 (#1015)",
+        "at": "2026-10-21T06:55:28Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "cabcad6af8ca94c51af46edb219eb6dc6ff31c94",
+        "subject": "chore(main): release 0.1.53 (#1014)",
+        "at": "2026-10-21T07:18:21+01:00",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "67a62a4f6a9749594c2287dd7824aeb697b36027",
+        "subject": "feat: Wear widgets play the card's own design from the design server (#1013)",
+        "at": "2026-10-21T01:35:02+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "be4ab2e78f94bf05e1d163a86f5a15e69cf14a9e",
+        "subject": "chore(main): release 0.1.52 (#1007)",
+        "at": "2026-10-20T23:36:53+01:00",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "545be46bf7975de532306c0eacef9ff750077c0e",
+        "subject": "fix: render selected Wear cards and refresh design identities (#1008)",
+        "at": "2026-10-20T23:36:11+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "58202205ff8eb5b573711700c199da41c37115c9",
+        "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.255 (#1012)",
+        "at": "2026-10-20T22:31:03Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "bda713874704fad65767376f2e1329091cb0ab7a",
         "subject": "feat(wear): report watch crashes to Crashlytics (#1011)",
@@ -418,70 +482,6 @@
         "sha": "c682401ae5099bbd20dff86dd06fc9a0363ec874",
         "subject": "fix(android): keep sign-in working when the Activity is recreated mid-login (#957)",
         "at": "2026-10-19T13:51:04+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "532e3b5f83e1657981208364911eda8ae7c6caeb",
-        "subject": "chore(main): release 0.1.45 (#929)",
-        "at": "2026-10-19T13:15:08+01:00",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "2e93be0a1710a5cf4d963b5994f72f14b52b3949",
-        "subject": "feat: add portable editable message cards and authenticated input actions (#910)",
-        "at": "2026-10-19T12:25:27+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "20222e1812f7de7db3a4052f3a2b386bacffbb12",
-        "subject": "perf(widgets): send widget calls on the app's connected session (#955)",
-        "at": "2026-10-19T11:58:52+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "d5628c7fd7835f189442ed99efda86d9dc9f690e",
-        "subject": "fix: match Home Assistant's toggle domains, button options and thermostat unit (#952)",
-        "at": "2026-10-19T10:46:32+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a90395e80484ee19ef13a883d0dbf4a2d81ce901",
-        "subject": "test(wasm): expect homeassistant.toggle from live-dashboard toggles (#954)",
-        "at": "2026-10-19T10:46:28+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "bb0bbbe7c39c95dfc60b4376b024ded9aadb56c4",
-        "subject": "fix(design-server): cap request bodies, compare tokens in constant time, encode builder URLs (#949)",
-        "at": "2026-10-19T10:25:00+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "f682f9d586611f1a2413999250e84456704ad131",
-        "subject": "fix(addon): require ingress or HA token and fix image build (#940)",
-        "at": "2026-10-19T10:20:48+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "5d896d58e981b5c3ba9b5036b77c80bb1e4aa205",
-        "subject": "fix: honour the Wasm design-server setting, dedupe the Wear probe, fail fast on HA readiness (#944)",
-        "at": "2026-10-19T10:10:08+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
