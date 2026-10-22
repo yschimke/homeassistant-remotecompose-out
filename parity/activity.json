@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-22T21:15:00.143Z",
+  "generatedAt": "2026-10-22T23:18:36.705Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "56bf761f6cd55029f929abe9a67c95bd864a14f8",
+        "subject": "feat(widgets): scale launcher widget cards up and down with their size (#1081)",
+        "at": "2026-10-23T00:11:15+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "983c7f7b37ee0c46a931ef822643c6e6a6e7ef67",
+        "subject": "fix(design-server): keep Wear widgets that leave their container frame to the watch (#1080)",
+        "at": "2026-10-22T23:43:58+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "049240303b587a1f9a18c6f247e750ce57d999d6",
+        "subject": "feat(wear): instantiate a server Wear design that names its container frame (#1077)",
+        "at": "2026-10-22T23:28:07+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "554ee2237c8ea9437b6672d611668d220b5bb6f5",
         "subject": "build: wire up the BuildFetch remote build cache (#1075)",
@@ -459,30 +483,6 @@
         "subject": "fix: stop dropping frames when a dashboard section scrolls on screen (#1016)",
         "at": "2026-10-21T09:10:28+01:00",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a0839ec4dc05e0b160704d5e5e7a8654466abc35",
-        "subject": "fix(android): refuse certificates from the CVE-2026-111943 CAs (#1017)",
-        "at": "2026-10-21T08:57:26+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "62978853e411ae2b8c3e7d34279ba9b5e6b014bc",
-        "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.256 (#1015)",
-        "at": "2026-10-21T06:55:28Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "cabcad6af8ca94c51af46edb219eb6dc6ff31c94",
-        "subject": "chore(main): release 0.1.53 (#1014)",
-        "at": "2026-10-21T07:18:21+01:00",
-        "author": "github-actions[bot]",
         "previewIds": [],
         "components": []
       }
