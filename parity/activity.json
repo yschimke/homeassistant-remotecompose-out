@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-22T07:57:51.857Z",
+  "generatedAt": "2026-10-22T08:14:42.403Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "e097c0c09e40023e9eaf994970964462fd7da8da",
+        "subject": "fix(deps): update compose-ai-tools (#1034)",
+        "at": "2026-10-22T09:05:31+01:00",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "aca6b228374ea7094fe34258a0c20f5f48287696",
         "subject": "fix(deps): hold DataStore at 1.2.1 after a startup hang on 1.3.0 (#1054)",
@@ -474,14 +482,6 @@
         "sha": "2347f60387e72ce7333ea9a1703fe90587e23cb5",
         "subject": "fix: dashboard navigate, more-info and markdown links do something (#988)",
         "at": "2026-10-20T09:52:37+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "67fa1797ee5522033a21940fae59a1543eff014a",
-        "subject": "feat(home-assistant): add the Remote Compose card's Lovelace resource on setup (#986)",
-        "at": "2026-10-20T09:49:35+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
