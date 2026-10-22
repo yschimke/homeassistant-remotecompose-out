@@ -1,11 +1,163 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-22T08:45:52.173Z",
+  "generatedAt": "2026-10-22T21:01:02.448Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "7353b0271659bc0a74c7997ee41696194d921863",
+        "subject": "fix(deps): update rc-players to 2.17.4 (#1074)",
+        "at": "2026-10-22T21:52:14+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "fdbdf409ab40174e8d46ca5958c1f0048675d0b5",
+        "subject": "fix(deps): update compose-ai-tools (#1073)",
+        "at": "2026-10-22T19:10:25Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "5b872ec44e2eee386a9d9f41021b376a564fb4de",
+        "subject": "perf: let a card's player skip recomposition on data changes (#1072)",
+        "at": "2026-10-22T19:43:25+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "1f5916ba1980a9f172319910317a964eb12d20c0",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to c827256 (#1070)",
+        "at": "2026-10-22T15:15:01Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "c11fa380b98a8580823ecb9bca6c01690aecf8ad",
+        "subject": "fix(deps): update dependency ee.schimke.composeai:data-render-core to v3.38.0 (#1071)",
+        "at": "2026-10-22T15:13:58Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "562f8d80e596508e817bebf2be656e206945d943",
+        "subject": "revert: drop the dashboard list's cache window (#1069)",
+        "at": "2026-10-22T15:40:48+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "34578b0fd6f9f5f76148d0e7003b218785fa0614",
+        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-daemon-bom to v3.22.0 (#1068)",
+        "at": "2026-10-22T14:14:20Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "8beef92e2af5ff97c65d0f9f9be6fbb9ca94ec3b",
+        "subject": "feat: prototype RemoteSectionCardFlow, a section flowed inside one document (#1066)",
+        "at": "2026-10-22T14:41:22+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "1d0c74045d4401d62d42a70f1617b4f3115a99e2",
+        "subject": "perf: keep a screen of dashboard rows composed around the viewport (#1065)",
+        "at": "2026-10-22T14:14:44+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "59b31f10a84886133b3b4fd1f64e9cd4429573fe",
+        "subject": "chore(main): release 0.1.58 (#1064)",
+        "at": "2026-10-22T13:21:10+01:00",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "e4d6573ce41299cd0b91b74a1a584e123f7d8959",
+        "subject": "test: diagnose the phone benchmark's startup hang (#1050)",
+        "at": "2026-10-22T11:40:20+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "ddce4297cd99793cf2a99b839fb5d1a89f80005b",
+        "subject": "test: reproduce the DataStore 1.3.0 cold-start deadlock (#1056)",
+        "at": "2026-10-22T11:40:16+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "f7a92b3735c1733b119c10efd1aa4251c4ddc7db",
+        "subject": "feat: add RemoteFlexBox, a Remote Compose port of androidx FlexBox (#1061)",
+        "at": "2026-10-22T11:12:47+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "1989810478071393fc551c9431d1215b19548156",
+        "subject": "feat: assistant access via Android AppFunctions and an opt-in MCP server (#1062)",
+        "at": "2026-10-22T11:12:43+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "8629f1bfba80f8dabcbb0bf1f436fd98adee622b",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 754c17f (#1058)",
+        "at": "2026-10-22T09:42:02Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "38913f0018c8ccd5f5440ca6cc68bec2723e4aa4",
+        "subject": "test: search every shadow root for the demo's Compose canvas (#1059)",
+        "at": "2026-10-22T10:41:58+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "0235174b351ece421b500a30e4ec2e60e574c1d2",
+        "subject": "chore(deps): update dependency java-jdk to v21.0.12+101.0.lts (#1060)",
+        "at": "2026-10-22T09:15:06Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "21c369863212bf73e01a8444e3e37ed79eaeb0ad",
+        "subject": "chore(deps): pin dependency java-jdk to 21.0.12+8.0.lts (#1057)",
+        "at": "2026-10-22T08:55:26Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "48aea1933de87409065477f67eb915b98fb47a02",
+        "subject": "chore(main): release 0.1.57 (#1039)",
+        "at": "2026-10-22T09:19:58+01:00",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "6f641f62ba61dd4e631adec6be862002c777dc58",
         "subject": "fix(deps): update rc-players to 2.17.3 (#1055)",
@@ -331,158 +483,6 @@
         "subject": "chore(main): release 0.1.52 (#1007)",
         "at": "2026-10-20T23:36:53+01:00",
         "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "545be46bf7975de532306c0eacef9ff750077c0e",
-        "subject": "fix: render selected Wear cards and refresh design identities (#1008)",
-        "at": "2026-10-20T23:36:11+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "58202205ff8eb5b573711700c199da41c37115c9",
-        "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.255 (#1012)",
-        "at": "2026-10-20T22:31:03Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "bda713874704fad65767376f2e1329091cb0ab7a",
-        "subject": "feat(wear): report watch crashes to Crashlytics (#1011)",
-        "at": "2026-10-20T23:29:09+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "e86b90160b3543a6a2ad15f5f31e2c2d39098116",
-        "subject": "feat(site): point \"Get the app\" at the Google Play listing (#1010)",
-        "at": "2026-10-20T23:11:50+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "c6ae9a847542dc946ee1bee51a9f6b2233813673",
-        "subject": "chore(deps): update compose-ai-tools (#1005)",
-        "at": "2026-10-20T16:40:10Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "f509e6eda1812afa827cbd74712016560e60f1ee",
-        "subject": "feat: roll opt-in card usage out to widgets, desktop and web (#1006)",
-        "at": "2026-10-20T17:15:37+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "6055c37e74b133d70785ab57903c583de7d7125e",
-        "subject": "chore(main): release 0.1.51 (#1004)",
-        "at": "2026-10-20T15:44:00+01:00",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "e3a4917e43d0044beb83f584f5c8069e401504cd",
-        "subject": "feat(app): select crash-reporter backend at build time (#1003)",
-        "at": "2026-10-20T15:43:13+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "f202bf00e6868a70fdde843860b84a85680a5f00",
-        "subject": "fix(play): publish only the release variant to Play (#1002)",
-        "at": "2026-10-20T12:38:57+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "4efbe36e31567cec554e86769bf25f1f9c944e7f",
-        "subject": "chore(main): release 0.1.50 (#1000)",
-        "at": "2026-10-20T12:09:21+01:00",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "48cf2e9ef3da060b1bde68e3ac19026a561465f5",
-        "subject": "fix(deps): update compose-ai-tools (#995)",
-        "at": "2026-10-20T12:08:50+01:00",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "b60046d68f743a66f4ae034c4fc9a7844817e397",
-        "subject": "fix: keep the widget preview rendering in the preview host (#999)",
-        "at": "2026-10-20T11:39:34+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "6a677f79080085880da34d505b4740389c7f694c",
-        "subject": "feat(home-assistant): wall-panel mode for the /terrazzo panel (#998)",
-        "at": "2026-10-20T11:38:22+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "17cc274e97e0dfc62496f7f89376cf7ac5b7b9ff",
-        "subject": "feat: opt-in template usage counts per app (#997)",
-        "at": "2026-10-20T11:16:49+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "86f3811f530e7301da53484b543e1d01825c5745",
-        "subject": "fix: stabilise the flaky API 36 instrumented tests (#996)",
-        "at": "2026-10-20T11:01:01+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "f89fc40321aa6214c08d959bdeb03104477b8345",
-        "subject": "chore(main): release 0.1.49 (#991)",
-        "at": "2026-10-20T10:47:44+01:00",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ecd486c50b191d92eed142d4e4f722d696416bb6",
-        "subject": "fix: forget a shown navigation view; keep frontend routes out of views (#993)",
-        "at": "2026-10-20T10:42:22+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "1692c5254e09678c319be2d6823170ba7697ce6c",
-        "subject": "feat: draw the meter glyph on sensor tiles rendered from card designs (#990)",
-        "at": "2026-10-20T10:41:58+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "605b33d150fb3a468591c1d3a8b9b9a273d519c8",
-        "subject": "feat: offer the watch app and Wear widgets from the phone dashboard (#989)",
-        "at": "2026-10-20T10:09:27+01:00",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
