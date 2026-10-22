@@ -1,11 +1,43 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-21T23:43:27.546Z",
+  "generatedAt": "2026-10-22T06:50:59.662Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "a8400265e63e55f740ed2dd6edac248c48c06242",
+        "subject": "fix(deps): update okhttp to v5.5.1 (#1051)",
+        "at": "2026-10-22T06:43:06Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "a18b2182cf9009b1f220885feb0a664581be4b4b",
+        "subject": "chore(deps): update python docker tag to v3.15.1 (#1049)",
+        "at": "2026-10-22T01:22:41Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "201f667c84ea38b85d04953846be464a05e096a1",
+        "subject": "fix(deps): update dependency com.google.firebase:firebase-bom to v35.1.0 (#1048)",
+        "at": "2026-10-22T00:35:26Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "aa38120495e8ea2bbb217839be464c820be88cfc",
+        "subject": "feat(web): package the Wasm web app as a Wasmo app with Home Assistant OAuth sign-in (#1043)",
+        "at": "2026-10-22T00:38:01+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "54235b6c99b1c32e626006c22521a381e15f9fdf",
         "subject": "fix(deps): update dependency ee.schimke.composeai:rc-player-protocol to v2.17.2 (#1045)",
@@ -450,38 +482,6 @@
         "sha": "7fca14a33c7142f1dffc5aaea7ef253e77a4bc72",
         "subject": "feat(home-assistant): set Terrazzo up from the UI instead of YAML (#983)",
         "at": "2026-10-20T09:11:44+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "44cab9c0fa07c64ad9d20fe7d48704600521c3e0",
-        "subject": "build: update rc-player to 2.17.0 for its baseline profiles (#982)",
-        "at": "2026-10-20T09:11:06+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "775862aacedb7a22b3d56b0c28fc24414f44b386",
-        "subject": "fix: stabilise the startup and Wear benchmark journeys (#981)",
-        "at": "2026-10-20T08:59:01+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "e8ff180b8329792cb703552ec435187d2ffd7033",
-        "subject": "fix: show current data on a card's first frame, animate only updates (#980)",
-        "at": "2026-10-20T08:27:44+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "622f0f13bcd9a61cab58f4158946b32a6ca94189",
-        "subject": "feat: baseline profiles and macrobenchmarks for phone and Wear (#975)",
-        "at": "2026-10-20T08:25:55+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
