@@ -1,33 +1,261 @@
 {
   "entries": [
     {
-      "annotatedBasename": "",
-      "cleanBasename": "ImageUrl_Probe_Frame0_image_url_probe_frame_0-1464413f.png",
-      "findings": [],
-      "functionName": "ImageUrl_Probe_Frame0",
+      "annotatedBasename": "FlexBox_AlignItems_flexbox_alignItems-e7230f35.a11y.png",
+      "cleanBasename": "FlexBox_AlignItems_flexbox_alignItems-e7230f35.png",
+      "findings": [
+        {
+          "boundsInScreen": "21,1032,83,1062",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"small\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "51,121,66,155",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"a\" is identical to that of 9 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "140,142,156,176",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"b\" is identical to that of 9 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "227,124,249,173",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"c\" is identical to that of 9 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "99,1007,230,1069",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"Large\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "246,1022,307,1065",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"mid\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        }
+      ],
+      "functionName": "FlexBox_AlignItems",
       "module": "previews",
-      "previewId": "ee.schimke.ha.previews.ImagePreviewsKt.ImageUrl_Probe_Frame0_image-url probe frame=0",
+      "previewId": "ee.schimke.ha.previews.FlexBoxPreviewsKt.FlexBox_AlignItems_flexbox alignItems",
       "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/ImagePreviews.kt",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/FlexBoxPreviews.kt",
       "variant": ""
     },
     {
-      "annotatedBasename": "UberDials_Console_uber_dials_Console-81287a28.a11y.png",
-      "cleanBasename": "UberDials_Console_uber_dials_Console-81287a28.png",
+      "annotatedBasename": "FlexBox_GrowBasis_flexbox_grow_and_basis-54ad4bf9.a11y.png",
+      "cleanBasename": "FlexBox_GrowBasis_flexbox_grow_and_basis-54ad4bf9.png",
       "findings": [
         {
-          "boundsInScreen": "331,614,457,740",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"stepper\" is identical to that of 5 other item(s).",
+          "boundsInScreen": "51,865,66,899",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"a\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "54,488,107,522",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"25%\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "135,865,151,899",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"b\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "221,865,236,899",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"c\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "233,488,286,522",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"50%\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "78,132,94,166",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"1\" is identical to that of 3 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "283,132,299,166",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"2\" is identical to that of 3 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "426,488,490,522",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"64dp\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "321,666,337,700",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"3\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "73,310,137,344",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"short\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "241,310,485,344",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"a much longer label\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "453,132,514,166",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"fixed\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
         }
       ],
-      "functionName": "UberDials_Console",
+      "functionName": "FlexBox_GrowBasis",
       "module": "previews",
-      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Console_uber dials_ Console",
+      "previewId": "ee.schimke.ha.previews.FlexBoxPreviewsKt.FlexBox_GrowBasis_flexbox grow and basis",
       "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemeSheets.kt",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/FlexBoxPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "FlexBox_JustifyContent_flexbox_justifyContent-e439daf0.a11y.png",
+      "cleanBasename": "FlexBox_JustifyContent_flexbox_justifyContent-e439daf0.png",
+      "findings": [
+        {
+          "boundsInScreen": "50,132,66,166",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"1\" is identical to that of 13 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "124,132,140,166",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"2\" is identical to that of 13 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "198,132,214,166",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"3\" is identical to that of 13 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        }
+      ],
+      "functionName": "FlexBox_JustifyContent",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.FlexBoxPreviewsKt.FlexBox_JustifyContent_flexbox justifyContent",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/FlexBoxPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "FlexBox_WrapColumn_flexbox_wrap_and_column-121bc94d.a11y.png",
+      "cleanBasename": "FlexBox_WrapColumn_flexbox_wrap_and_column-121bc94d.png",
+      "findings": [
+        {
+          "boundsInScreen": "61,132,77,166",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"1\" is identical to that of 11 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "172,132,188,166",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"2\" is identical to that of 11 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "283,132,299,166",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"3\" is identical to that of 11 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "394,132,410,166",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"4\" is identical to that of 7 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "61,195,77,229",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"5\" is identical to that of 7 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "172,195,188,229",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"6\" is identical to that of 5 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "283,195,299,229",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"7\" is identical to that of 5 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "394,195,410,229",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"8\" is identical to that of 3 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "61,258,77,292",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"9\" is identical to that of 3 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        }
+      ],
+      "functionName": "FlexBox_WrapColumn",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.FlexBoxPreviewsKt.FlexBox_WrapColumn_flexbox wrap and column",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/FlexBoxPreviews.kt",
       "variant": ""
     }
   ],
@@ -1027,6 +1255,10 @@
     },
     {
       "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ImagePreviewsKt.ImageUrl_Probe_Frame0_image-url probe frame=0"
+    },
+    {
+      "module": "previews",
       "previewId": "ee.schimke.ha.previews.ImagePreviewsKt.ImageUrl_Probe_Frame1_image-url probe frame=1"
     },
     {
@@ -1496,6 +1728,10 @@
     {
       "module": "previews",
       "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Classic_uber dials_ Classic"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Console_uber dials_ Console"
     },
     {
       "module": "previews",
