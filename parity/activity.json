@@ -1,11 +1,43 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-22T08:14:42.403Z",
+  "generatedAt": "2026-10-22T08:45:52.173Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "6f641f62ba61dd4e631adec6be862002c777dc58",
+        "subject": "fix(deps): update rc-players to 2.17.3 (#1055)",
+        "at": "2026-10-22T09:19:05+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "33235eb8899fc46a16e9b637172c1234ad5ba19f",
+        "subject": "fix(deps): align player consumers with the published BOM (#1044)",
+        "at": "2026-10-22T09:16:07+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "7ed2deb401f9917044647e55e603944be68a2f79",
+        "subject": "fix(deps): update dependency androidx.compose.material3:material3 to v1.5.0-beta02 (#1035)",
+        "at": "2026-10-22T09:10:59+01:00",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "0c42257abbc5d202e6e6c89167d96557011d6c69",
+        "subject": "fix(deps): update remote-compose (#1036)",
+        "at": "2026-10-22T09:10:42+01:00",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "e097c0c09e40023e9eaf994970964462fd7da8da",
         "subject": "fix(deps): update compose-ai-tools (#1034)",
@@ -450,38 +482,6 @@
         "sha": "605b33d150fb3a468591c1d3a8b9b9a273d519c8",
         "subject": "feat: offer the watch app and Wear widgets from the phone dashboard (#989)",
         "at": "2026-10-20T10:09:27+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "7fdd122169f5d26bc5796d646af88442b079c496",
-        "subject": "chore(deps): update dependency macos to v26 (#985)",
-        "at": "2026-10-20T10:08:54+01:00",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "0c2f2178d161c1ca9dcd4d922834dc009f398f53",
-        "subject": "fix(deps): update dependency ee.schimke.composeai:remote-compose-player-js-dist to v2.17.0 (#984)",
-        "at": "2026-10-20T10:04:04+01:00",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ca3fd01ba5a6b3e6aacb39c423e4608bf3431f2a",
-        "subject": "feat: add the generated Wear baseline profile (#992)",
-        "at": "2026-10-20T10:03:25+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "2347f60387e72ce7333ea9a1703fe90587e23cb5",
-        "subject": "fix: dashboard navigate, more-info and markdown links do something (#988)",
-        "at": "2026-10-20T09:52:37+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
