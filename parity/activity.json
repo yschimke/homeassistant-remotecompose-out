@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-23T01:04:49.117Z",
+  "generatedAt": "2026-10-23T02:08:23.712Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "5482b1281f51bd502d13dd86ff0f510fb6ee7df2",
+        "subject": "fix(cards): fit narrow tiles, picture cards and placeholders in their widgets; name weather conditions (#1092)",
+        "at": "2026-10-23T03:00:46+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "86099d3807770fcd4ca624d29402382f96550069",
         "subject": "feat(widgets): fit Wear and launcher widgets to their space, preview widgets per host (#1090)",
@@ -475,14 +483,6 @@
         "subject": "fix(deps): update compose-ai-tools (#1026)",
         "at": "2026-10-21T13:14:37Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "fe05750a623ac541a188dcedc603d6e3cf227159",
-        "subject": "feat(wear): one Wear widget template for every container, made concrete on the watch (#1027)",
-        "at": "2026-10-21T14:14:34+01:00",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
