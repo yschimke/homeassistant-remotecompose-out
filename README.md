@@ -1,6 +1,6 @@
 # Accessibility Report
 
-_Auto-generated from `compose-preview/a11y/pr`. 45 preview(s) across 1 module(s) · 0 error(s) · 22 warning(s) · 3 info._
+_Auto-generated from `compose-preview/a11y/pr`. 44 preview(s) across 1 module(s) · 0 error(s) · 17 warning(s) · 3 info._
 
 Browse inline; image URLs are pinned to the commit SHA on the baseline branch so links keep resolving after merge.
 
@@ -30,16 +30,15 @@ _No findings._
 
 _No findings._
 
-### `Play_Phone_05_WearWidgets` · `spec:width=411dp,height=731dp,dpi=320`
+### `Play_Phone_05_WatchCards` · `spec:width=411dp,height=731dp,dpi=320`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Play_Phone_05_WearWidgets_play_phone_wear_widgets-8eb93844.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Play_Phone_05_WatchCards_play_phone_watch_cards-dc759884.a11y.png" width="400" />
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Not selected, Small" is identical to that of 3 other item(s). |
-| 2 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Clear slot" is identical to that of 1 other item(s). |
-| 3 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Not selected, Large" is identical to that of 4 other item(s). |
-| 4 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Selected, Both" is identical to that of 3 other item(s). |
+| 1 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Move down" is identical to that of 2 other item(s). |
+| 2 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Move up" is identical to that of 2 other item(s). |
+| 3 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Unpin" is identical to that of 2 other item(s). |
 
 ### `Play_Tablet10_01_Home` · `spec:width=800dp,height=1280dp,dpi=224`
 
@@ -80,12 +79,6 @@ _No findings._
 ### `Screen_CardStyle`
 
 <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_CardStyle_card_style-61803e88.a11y.png" width="400" />
-
-_No findings._
-
-### `Screen_CardStyle_Designs`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_CardStyle_Designs_card_style_designs-9001d612.a11y.png" width="400" />
 
 _No findings._
 
@@ -258,6 +251,12 @@ _No findings._
 
 _No findings._
 
+### `Screen_Settings_CardStylesOnWatch`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_Settings_CardStylesOnWatch_settings_card_styles_on_a_watch-d6c9a800.a11y.png" width="400" />
+
+_No findings._
+
 ### `Screen_Settings_ThemeStyle`
 
 <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_Settings_ThemeStyle_settings_theme-c88045d9.a11y.png" width="400" />
@@ -279,17 +278,6 @@ _No findings._
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
 | 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "never" is identical to that of 2 other item(s). |
-
-### `Screen_WearWidgets`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_WearWidgets_wear_widgets-6b4468dd.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Not selected, Small" is identical to that of 3 other item(s). |
-| 2 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Clear slot" is identical to that of 1 other item(s). |
-| 3 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Not selected, Large" is identical to that of 4 other item(s). |
-| 4 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Selected, Both" is identical to that of 3 other item(s). |
 
 ### `Screen_Widgets`
 

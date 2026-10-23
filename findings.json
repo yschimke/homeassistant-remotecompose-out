@@ -45,41 +45,34 @@
       "variant": "spec:width=411dp,height=731dp,dpi=320"
     },
     {
-      "annotatedBasename": "Play_Phone_05_WearWidgets_play_phone_wear_widgets-8eb93844.a11y.png",
-      "cleanBasename": "Play_Phone_05_WearWidgets_play_phone_wear_widgets-8eb93844.png",
+      "annotatedBasename": "Play_Phone_05_WatchCards_play_phone_watch_cards-dc759884.a11y.png",
+      "cleanBasename": "Play_Phone_05_WatchCards_play_phone_watch_cards-dc759884.png",
       "findings": [
         {
-          "boundsInScreen": "64,376,203,472",
+          "boundsInScreen": "590,168,686,264",
           "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Not selected, Small\" is identical to that of 3 other item(s).",
+          "message": "This clickable item's speakable text: \"Move down\" is identical to that of 2 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "686,264,782,360",
+          "boundsInScreen": "494,168,590,264",
           "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Clear slot\" is identical to that of 1 other item(s).",
+          "message": "This clickable item's speakable text: \"Move up\" is identical to that of 2 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "219,376,361,472",
+          "boundsInScreen": "686,168,782,264",
           "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Not selected, Large\" is identical to that of 4 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "377,376,505,472",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Selected, Both\" is identical to that of 3 other item(s).",
+          "message": "This clickable item's speakable text: \"Unpin\" is identical to that of 2 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         }
       ],
-      "functionName": "Play_Phone_05_WearWidgets",
+      "functionName": "Play_Phone_05_WatchCards",
       "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_05_WearWidgets_play \u00b7 phone \u00b7 wear widgets",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_05_WatchCards_play \u00b7 phone \u00b7 watch cards",
       "rendersDir": "app",
       "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
       "variant": "spec:width=411dp,height=731dp,dpi=320"
@@ -157,17 +150,6 @@
       "functionName": "Screen_CardStyle",
       "module": "app",
       "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardStyle_card style",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_CardStyle_Designs_card_style_designs-9001d612.a11y.png",
-      "cleanBasename": "Screen_CardStyle_Designs_card_style_designs-9001d612.png",
-      "findings": [],
-      "functionName": "Screen_CardStyle_Designs",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardStyle_Designs_card style \u00b7 designs",
       "rendersDir": "app",
       "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
       "variant": ""
@@ -559,6 +541,17 @@
       "variant": ""
     },
     {
+      "annotatedBasename": "Screen_Settings_CardStylesOnWatch_settings_card_styles_on_a_watch-d6c9a800.a11y.png",
+      "cleanBasename": "Screen_Settings_CardStylesOnWatch_settings_card_styles_on_a_watch-d6c9a800.png",
+      "findings": [],
+      "functionName": "Screen_Settings_CardStylesOnWatch",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_CardStylesOnWatch_settings \u00b7 card styles on a watch",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": ""
+    },
+    {
       "annotatedBasename": "Screen_Settings_ThemeStyle_settings_theme-c88045d9.a11y.png",
       "cleanBasename": "Screen_Settings_ThemeStyle_settings_theme-c88045d9.png",
       "findings": [],
@@ -603,46 +596,6 @@
       "functionName": "Screen_SyncDiagnostics",
       "module": "app",
       "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_SyncDiagnostics_sync diagnostics",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_WearWidgets_wear_widgets-6b4468dd.a11y.png",
-      "cleanBasename": "Screen_WearWidgets_wear_widgets-6b4468dd.png",
-      "findings": [
-        {
-          "boundsInScreen": "84,496,264,622",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Not selected, Small\" is identical to that of 3 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "903,349,1029,475",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Clear slot\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "285,496,468,622",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Not selected, Large\" is identical to that of 4 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "489,496,655,622",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Selected, Both\" is identical to that of 3 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        }
-      ],
-      "functionName": "Screen_WearWidgets",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_WearWidgets_wear widgets",
       "rendersDir": "app",
       "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
       "variant": ""
