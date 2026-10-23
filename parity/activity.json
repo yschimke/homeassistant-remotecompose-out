@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-23T21:41:29.456Z",
+  "generatedAt": "2026-10-23T22:02:41.956Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "c271bd6736e9f420b8b410ceb9ade4bf2af3f19b",
+        "subject": "fix: stack the ARM buttons on a two-column alarm panel widget (#1141)",
+        "at": "2026-10-23T22:37:23+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "b221a6a1f25f08fe605dbdd00f2eb66c877a3b3d",
+        "subject": "fix(a11y): give the dial steppers 48 dp touch targets and labels (#1142)",
+        "at": "2026-10-23T22:35:02+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "ca297a73859b28646b242530b3649c3d99e16878",
         "subject": "feat(rc-converter): draw the sensor card from sensor.uid, and keep migrated cards migrated (#1144)",
@@ -466,22 +482,6 @@
         "sha": "e4a6afeb8d919412d1fd8ce362523a31cfef347b",
         "subject": "ci: run the macOS iOS job only for PRs that can affect it (#1085)",
         "at": "2026-10-23T01:05:15+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "8e4628de9d86198dcc3f9f13d3a2cf26f27ab97c",
-        "subject": "build: point the remote build cache at harc's BuildFetch project (#1083)",
-        "at": "2026-10-23T01:05:11+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "d155e18d00b4810ea9d97d09ca52f205276e644b",
-        "subject": "feat(wear): reframe a phone card design into the Wear container, centred (#1084)",
-        "at": "2026-10-23T00:42:03+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
