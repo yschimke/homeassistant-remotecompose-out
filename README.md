@@ -1,8 +1,16 @@
 # Accessibility Report
 
-_Auto-generated from `compose-preview/a11y/pr`. 40 preview(s) across 1 module(s) · 1 error(s) · 43 warning(s) · 13 info._
+_Auto-generated from `compose-preview/a11y/pr`. 41 preview(s) across 2 module(s) · 1 error(s) · 43 warning(s) · 13 info._
 
 Browse inline; image URLs are pinned to the commit SHA on the baseline branch so links keep resolving after merge.
+
+## app
+
+### `Screen_DashboardView_ThemeStyle`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_DashboardView_ThemeStyle_dashboard_theme-307a8ffb.a11y.png" width="400" />
+
+_No findings._
 
 ## previews
 
