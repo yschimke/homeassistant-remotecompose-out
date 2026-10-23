@@ -1,6 +1,532 @@
 {
   "entries": [
     {
+      "annotatedBasename": "CardPreviewMatrix_Humidifier_matrix_humidifier-96bee44d.a11y.png",
+      "cleanBasename": "CardPreviewMatrix_Humidifier_matrix_humidifier-96bee44d.png",
+      "findings": [
+        {
+          "boundsInScreen": "269,420,405,506",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"45%\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "293,511,381,557",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"\u2191 55%\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "818,230,981,263",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"Terrazzo slot\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "244,375,430,415",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"Humidifying\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "249,169,423,218",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"Bedroom\" is identical to that of 5 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        }
+      ],
+      "functionName": "CardPreviewMatrix_Humidifier",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_Humidifier_matrix \u2014 humidifier",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CardPreviewMatrix.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "CardPreviewMatrix_Light_matrix_light-27b95ce0.a11y.png",
+      "cleanBasename": "CardPreviewMatrix_Light_matrix_light-27b95ce0.png",
+      "findings": [
+        {
+          "boundsInScreen": "725,326,1072,435",
+          "level": "ERROR",
+          "message": "This item's height is 42dp. Consider making the height of this touch target 48dp or larger.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "818,230,981,263",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"Terrazzo slot\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "21,933,399,1374",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"Kitchen\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "androidx.compose.remote.player.view.RemoteComposePlayer  desc=\"Kitchen\""
+        },
+        {
+          "boundsInScreen": "725,326,1072,435",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Kitchen, 78%\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "CardPreviewMatrix_Light",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_Light_matrix \u2014 light",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CardPreviewMatrix.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "CardPreviewMatrix_Thermostat_matrix_thermostat-6ce1b10d.a11y.png",
+      "cleanBasename": "CardPreviewMatrix_Thermostat_matrix_thermostat-6ce1b10d.png",
+      "findings": [
+        {
+          "boundsInScreen": "227,420,446,506",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"21.4\u00b0C\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "818,230,981,263",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"Terrazzo slot\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "278,375,396,415",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"Heating\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "219,169,453,218",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"Living Room\" is identical to that of 5 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        },
+        {
+          "boundsInScreen": "288,511,386,557",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"\u2191 22\u00b0C\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        }
+      ],
+      "functionName": "CardPreviewMatrix_Thermostat",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_Thermostat_matrix \u2014 thermostat",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CardPreviewMatrix.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "CommunityDials_Aeon_community_dials_Aeon-fd691c09.a11y.png",
+      "cleanBasename": "CommunityDials_Aeon_community_dials_Aeon-fd691c09.png",
+      "findings": [
+        {
+          "boundsInScreen": "596,287,722,413",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Decrease\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "754,287,880,413",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Increase\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "CommunityDials_Aeon",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityDials_Aeon_community dials_ Aeon",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CommunityFamilyPreviews.kt",
+      "variant": "spec:width=360dp,height=600dp,dpi=160"
+    },
+    {
+      "annotatedBasename": "CommunityDials_Arctic_community_dials_Arctic-96269cf3.a11y.png",
+      "cleanBasename": "CommunityDials_Arctic_community_dials_Arctic-96269cf3.png",
+      "findings": [
+        {
+          "boundsInScreen": "331,597,457,723",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Decrease\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "489,597,615,723",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Increase\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "CommunityDials_Arctic",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityDials_Arctic_community dials_ Arctic",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CommunityFamilyPreviews.kt",
+      "variant": "spec:width=360dp,height=600dp,dpi=160"
+    },
+    {
+      "annotatedBasename": "CommunityDials_Bubble_community_dials_Bubble-5a2144ed.a11y.png",
+      "cleanBasename": "CommunityDials_Bubble_community_dials_Bubble-5a2144ed.png",
+      "findings": [
+        {
+          "boundsInScreen": "596,287,722,413",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Decrease\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "754,287,880,413",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Increase\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "CommunityDials_Bubble",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityDials_Bubble_community dials_ Bubble",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CommunityFamilyPreviews.kt",
+      "variant": "spec:width=360dp,height=600dp,dpi=160"
+    },
+    {
+      "annotatedBasename": "CommunityDials_Catppuccin_community_dials_Catppuccin-5a77666a.a11y.png",
+      "cleanBasename": "CommunityDials_Catppuccin_community_dials_Catppuccin-5a77666a.png",
+      "findings": [
+        {
+          "boundsInScreen": "331,613,457,739",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Decrease\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "489,613,615,739",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Increase\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "CommunityDials_Catppuccin",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityDials_Catppuccin_community dials_ Catppuccin",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CommunityFamilyPreviews.kt",
+      "variant": "spec:width=360dp,height=600dp,dpi=160"
+    },
+    {
+      "annotatedBasename": "CommunityDials_Cupertino_community_dials_Cupertino-b5b7911e.a11y.png",
+      "cleanBasename": "CommunityDials_Cupertino_community_dials_Cupertino-b5b7911e.png",
+      "findings": [
+        {
+          "boundsInScreen": "596,294,722,420",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Decrease\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "754,294,880,420",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Increase\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "CommunityDials_Cupertino",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityDials_Cupertino_community dials_ Cupertino",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CommunityFamilyPreviews.kt",
+      "variant": "spec:width=360dp,height=600dp,dpi=160"
+    },
+    {
+      "annotatedBasename": "CommunityDials_Lcars_community_dials_Lcars-a2c13e56.a11y.png",
+      "cleanBasename": "CommunityDials_Lcars_community_dials_Lcars-a2c13e56.png",
+      "findings": [
+        {
+          "boundsInScreen": "596,300,722,426",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Decrease\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "754,300,880,426",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Increase\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "CommunityDials_Lcars",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityDials_Lcars_community dials_ Lcars",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CommunityFamilyPreviews.kt",
+      "variant": "spec:width=360dp,height=600dp,dpi=160"
+    },
+    {
+      "annotatedBasename": "CommunityDials_Minimalist_community_dials_Minimalist-2a953f64.a11y.png",
+      "cleanBasename": "CommunityDials_Minimalist_community_dials_Minimalist-2a953f64.png",
+      "findings": [
+        {
+          "boundsInScreen": "331,597,457,723",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Decrease\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "489,597,615,723",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Increase\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "CommunityDials_Minimalist",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityDials_Minimalist_community dials_ Minimalist",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CommunityFamilyPreviews.kt",
+      "variant": "spec:width=360dp,height=600dp,dpi=160"
+    },
+    {
+      "annotatedBasename": "CommunityDials_Mushroom_community_dials_Mushroom-f991c13c.a11y.png",
+      "cleanBasename": "CommunityDials_Mushroom_community_dials_Mushroom-f991c13c.png",
+      "findings": [
+        {
+          "boundsInScreen": "331,597,457,723",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Decrease\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "489,597,615,723",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Increase\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "CommunityDials_Mushroom",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityDials_Mushroom_community dials_ Mushroom",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CommunityFamilyPreviews.kt",
+      "variant": "spec:width=360dp,height=600dp,dpi=160"
+    },
+    {
+      "annotatedBasename": "CommunityDials_Noctis_community_dials_Noctis-44b48204.a11y.png",
+      "cleanBasename": "CommunityDials_Noctis_community_dials_Noctis-44b48204.png",
+      "findings": [
+        {
+          "boundsInScreen": "331,597,457,723",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Decrease\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "489,597,615,723",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Increase\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "CommunityDials_Noctis",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityDials_Noctis_community dials_ Noctis",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CommunityFamilyPreviews.kt",
+      "variant": "spec:width=360dp,height=600dp,dpi=160"
+    },
+    {
+      "annotatedBasename": "CommunityDials_Obsidian_community_dials_Obsidian-2f5df53a.a11y.png",
+      "cleanBasename": "CommunityDials_Obsidian_community_dials_Obsidian-2f5df53a.png",
+      "findings": [
+        {
+          "boundsInScreen": "341,597,467,723",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Decrease\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "499,597,625,723",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Increase\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "CommunityDials_Obsidian",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityDials_Obsidian_community dials_ Obsidian",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CommunityFamilyPreviews.kt",
+      "variant": "spec:width=360dp,height=600dp,dpi=160"
+    },
+    {
+      "annotatedBasename": "CommunityLight_Aeon_community_light_Aeon-e0357d5a.a11y.png",
+      "cleanBasename": "CommunityLight_Aeon_community_light_Aeon-e0357d5a.png",
+      "findings": [],
+      "functionName": "CommunityLight_Aeon",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityLight_Aeon_community light_ Aeon",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CommunityFamilyPreviews.kt",
+      "variant": "spec:width=360dp,height=320dp,dpi=160"
+    },
+    {
+      "annotatedBasename": "CommunityLight_Arctic_community_light_Arctic-10fddd83.a11y.png",
+      "cleanBasename": "CommunityLight_Arctic_community_light_Arctic-10fddd83.png",
+      "findings": [],
+      "functionName": "CommunityLight_Arctic",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityLight_Arctic_community light_ Arctic",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CommunityFamilyPreviews.kt",
+      "variant": "spec:width=360dp,height=320dp,dpi=160"
+    },
+    {
+      "annotatedBasename": "CommunityLight_Bubble_community_light_Bubble-4dc75932.a11y.png",
+      "cleanBasename": "CommunityLight_Bubble_community_light_Bubble-4dc75932.png",
+      "findings": [],
+      "functionName": "CommunityLight_Bubble",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityLight_Bubble_community light_ Bubble",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CommunityFamilyPreviews.kt",
+      "variant": "spec:width=360dp,height=320dp,dpi=160"
+    },
+    {
+      "annotatedBasename": "CommunityLight_Catppuccin_community_light_Catppuccin-2999f128.a11y.png",
+      "cleanBasename": "CommunityLight_Catppuccin_community_light_Catppuccin-2999f128.png",
+      "findings": [],
+      "functionName": "CommunityLight_Catppuccin",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityLight_Catppuccin_community light_ Catppuccin",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CommunityFamilyPreviews.kt",
+      "variant": "spec:width=360dp,height=320dp,dpi=160"
+    },
+    {
+      "annotatedBasename": "CommunityLight_Cupertino_community_light_Cupertino-8027604b.a11y.png",
+      "cleanBasename": "CommunityLight_Cupertino_community_light_Cupertino-8027604b.png",
+      "findings": [],
+      "functionName": "CommunityLight_Cupertino",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityLight_Cupertino_community light_ Cupertino",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CommunityFamilyPreviews.kt",
+      "variant": "spec:width=360dp,height=320dp,dpi=160"
+    },
+    {
+      "annotatedBasename": "CommunityLight_Lcars_community_light_Lcars-a631ca83.a11y.png",
+      "cleanBasename": "CommunityLight_Lcars_community_light_Lcars-a631ca83.png",
+      "findings": [],
+      "functionName": "CommunityLight_Lcars",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityLight_Lcars_community light_ Lcars",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CommunityFamilyPreviews.kt",
+      "variant": "spec:width=360dp,height=320dp,dpi=160"
+    },
+    {
+      "annotatedBasename": "CommunityLight_Minimalist_community_light_Minimalist-cb7ff56d.a11y.png",
+      "cleanBasename": "CommunityLight_Minimalist_community_light_Minimalist-cb7ff56d.png",
+      "findings": [],
+      "functionName": "CommunityLight_Minimalist",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityLight_Minimalist_community light_ Minimalist",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CommunityFamilyPreviews.kt",
+      "variant": "spec:width=360dp,height=320dp,dpi=160"
+    },
+    {
+      "annotatedBasename": "CommunityLight_Mushroom_community_light_Mushroom-1696d5f2.a11y.png",
+      "cleanBasename": "CommunityLight_Mushroom_community_light_Mushroom-1696d5f2.png",
+      "findings": [],
+      "functionName": "CommunityLight_Mushroom",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityLight_Mushroom_community light_ Mushroom",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CommunityFamilyPreviews.kt",
+      "variant": "spec:width=360dp,height=320dp,dpi=160"
+    },
+    {
+      "annotatedBasename": "CommunityLight_Noctis_community_light_Noctis-54c58b65.a11y.png",
+      "cleanBasename": "CommunityLight_Noctis_community_light_Noctis-54c58b65.png",
+      "findings": [],
+      "functionName": "CommunityLight_Noctis",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityLight_Noctis_community light_ Noctis",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CommunityFamilyPreviews.kt",
+      "variant": "spec:width=360dp,height=320dp,dpi=160"
+    },
+    {
+      "annotatedBasename": "CommunityLight_Obsidian_community_light_Obsidian-01c1d460.a11y.png",
+      "cleanBasename": "CommunityLight_Obsidian_community_light_Obsidian-01c1d460.png",
+      "findings": [],
+      "functionName": "CommunityLight_Obsidian",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityLight_Obsidian_community light_ Obsidian",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CommunityFamilyPreviews.kt",
+      "variant": "spec:width=360dp,height=320dp,dpi=160"
+    },
+    {
+      "annotatedBasename": "Humidifier_Dark_humidifier_dark-5d49c022.a11y.png",
+      "cleanBasename": "Humidifier_Dark_humidifier_dark-5d49c022.png",
+      "findings": [],
+      "functionName": "Humidifier_Dark",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Humidifier_Dark_humidifier (dark)",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CardPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Humidifier_Light_humidifier_light-e36e227b.a11y.png",
+      "cleanBasename": "Humidifier_Light_humidifier_light-e36e227b.png",
+      "findings": [],
+      "functionName": "Humidifier_Light",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Humidifier_Light_humidifier (light)",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CardPreviews.kt",
+      "variant": ""
+    },
+    {
       "annotatedBasename": "",
       "cleanBasename": "ImageUrl_Probe_Frame1_image_url_probe_frame_1-97608c2e.png",
       "findings": [],
@@ -12,225 +538,341 @@
       "variant": ""
     },
     {
-      "annotatedBasename": "SectionFlowRemoteReflow_section_flow_remote_one_capture_two_widths-2f2b8d2c.a11y.png",
-      "cleanBasename": "SectionFlowRemoteReflow_section_flow_remote_one_capture_two_widths-2f2b8d2c.png",
+      "annotatedBasename": "Thermostat_Dark_thermostat_dark-8434245a.a11y.png",
+      "cleanBasename": "Thermostat_Dark_thermostat_dark-8434245a.png",
+      "findings": [],
+      "functionName": "Thermostat_Dark",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Thermostat_Dark_thermostat (dark)",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CardPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Thermostat_Light_thermostat_light-875563bd.a11y.png",
+      "cleanBasename": "Thermostat_Light_thermostat_light-875563bd.png",
+      "findings": [],
+      "functionName": "Thermostat_Light",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Thermostat_Light_thermostat (light)",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CardPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Tier2_Thermostat_tier2_thermostat-9781988f.a11y.png",
+      "cleanBasename": "Tier2_Thermostat_tier2_thermostat-9781988f.png",
       "findings": [
         {
-          "boundsInScreen": "53,1373,286,1499",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Kitchen, Off\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "21,90,1100,158",
+          "boundsInScreen": "204,32,427,81",
           "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"\ud83d\udcf7 Live view\" is identical to that of 1 other item(s).",
+          "message": "This non-clickable item's speakable text: \"Living room\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
-        },
+        }
+      ],
+      "functionName": "Tier2_Thermostat",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_Thermostat_tier2 thermostat",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/Tier2CardPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "UberDials_Braun_uber_dials_Braun-3315823c.a11y.png",
+      "cleanBasename": "UberDials_Braun_uber_dials_Braun-3315823c.png",
+      "findings": [
         {
-          "boundsInScreen": "58,2161,311,2213",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Temperature\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "21,200,550,497",
+          "boundsInScreen": "331,597,457,723",
           "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Front (driveway)\" is identical to that of 1 other item(s).",
+          "message": "This clickable item's speakable text: \"Decrease\" is identical to that of 2 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "401,1231,527,1357",
+          "boundsInScreen": "489,597,615,723",
           "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Kitchen, Target temperature +\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "595,789,721,915",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Downstairs, Target temperature \u2212\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "53,1112,519,1491",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Heating, Kitchen, Heat \u00b7 21.8 \u00b0C, 22.0 \u00b0C\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "603,670,1069,1049",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Idle, Downstairs, Heat \u00b7 22.8 \u00b0C, 21.8 \u00b0C\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "53,1695,519,1821",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Downstairs humidity, 45 %\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "58,2292,657,2329",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Outside \u00b7 Upstairs \u00b7 Downstairs \u00b7 Kitchen\" is identical to that of 3 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "45,789,171,915",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Upstairs, Target temperature \u2212\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "603,1695,1069,1821",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Kitchen temp, 21.8 \u00b0C\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "21,539,1100,607",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"\ud83c\udfe0 Indoor climate\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "53,670,519,1049",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Idle, Upstairs, Heat \u00b7 22.8 \u00b0C, 22.7 \u00b0C\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "58,2403,234,2455",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Humidity\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "571,200,1100,497",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Back\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "836,931,1069,1057",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Downstairs, Heat\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "286,1373,519,1499",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Kitchen, Heat\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "53,1538,519,1664",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Upstairs humidity, 41 %\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "951,789,1077,915",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Downstairs, Target temperature +\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "21,2025,1100,2093",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"\ud83d\udcca Indoor vs outdoor (48h)\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "45,1231,171,1357",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Kitchen, Target temperature \u2212\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "401,789,527,915",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Upstairs, Target temperature +\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "53,1852,1069,1978",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Kitchen humidity, 58 %\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "53,931,286,1057",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Upstairs, Off\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "603,1096,1069,1222",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Upstairs temp, 22.8 \u00b0C\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "58,2229,536,2276",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"No history in the last 2 days\" is identical to that of 3 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "603,931,836,1057",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Downstairs, Off\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "286,931,519,1057",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Upstairs, Heat\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "603,1538,1069,1664",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Downstairs temp, 22.8 \u00b0C\" is identical to that of 1 other item(s).",
+          "message": "This clickable item's speakable text: \"Increase\" is identical to that of 2 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         }
       ],
-      "functionName": "SectionFlowRemoteReflow",
+      "functionName": "UberDials_Braun",
       "module": "previews",
-      "previewId": "ee.schimke.ha.previews.SectionFlexPreviewsKt.SectionFlowRemoteReflow_section flow remote \u2014 one capture, two widths",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Braun_uber dials_ Braun",
       "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/SectionFlexPreviews.kt",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemeSheets.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "UberDials_Classic_uber_dials_Classic-b181d0f6.a11y.png",
+      "cleanBasename": "UberDials_Classic_uber_dials_Classic-b181d0f6.png",
+      "findings": [
+        {
+          "boundsInScreen": "331,597,457,723",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Decrease\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "489,597,615,723",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Increase\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "UberDials_Classic",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Classic_uber dials_ Classic",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemeSheets.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "UberDials_Console_uber_dials_Console-81287a28.a11y.png",
+      "cleanBasename": "UberDials_Console_uber_dials_Console-81287a28.png",
+      "findings": [
+        {
+          "boundsInScreen": "489,613,615,739",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Increase\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "331,613,457,739",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Decrease\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "UberDials_Console",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Console_uber dials_ Console",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemeSheets.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "UberDials_Expressive_uber_dials_Expressive-bd1608ff.a11y.png",
+      "cleanBasename": "UberDials_Expressive_uber_dials_Expressive-bd1608ff.png",
+      "findings": [
+        {
+          "boundsInScreen": "331,597,457,723",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Decrease\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "489,597,615,723",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Increase\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "UberDials_Expressive",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Expressive_uber dials_ Expressive",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemeSheets.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "UberDials_HomeAssistant_Dark_uber_dials_Home_Assistant_dark-8c237795.a11y.png",
+      "cleanBasename": "UberDials_HomeAssistant_Dark_uber_dials_Home_Assistant_dark-8c237795.png",
+      "findings": [
+        {
+          "boundsInScreen": "331,597,457,723",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Decrease\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "489,597,615,723",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Increase\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "UberDials_HomeAssistant_Dark",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_HomeAssistant_Dark_uber dials_ Home Assistant (dark)",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemeSheets.kt",
+      "variant": "spec:width=360dp,height=904dp,dpi=160"
+    },
+    {
+      "annotatedBasename": "UberDials_HomeAssistant_Light_uber_dials_Home_Assistant_light-692aa8bf.a11y.png",
+      "cleanBasename": "UberDials_HomeAssistant_Light_uber_dials_Home_Assistant_light-692aa8bf.png",
+      "findings": [
+        {
+          "boundsInScreen": "331,597,457,723",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Decrease\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "489,597,615,723",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Increase\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "UberDials_HomeAssistant_Light",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_HomeAssistant_Light_uber dials_ Home Assistant (light)",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemeSheets.kt",
+      "variant": "spec:width=360dp,height=904dp,dpi=160"
+    },
+    {
+      "annotatedBasename": "UberDials_Ikea_Dark_uber_dials_IKEA_Showroom_dark-361b9faa.a11y.png",
+      "cleanBasename": "UberDials_Ikea_Dark_uber_dials_IKEA_Showroom_dark-361b9faa.png",
+      "findings": [
+        {
+          "boundsInScreen": "489,597,615,723",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Increase\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "331,597,457,723",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Decrease\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "UberDials_Ikea_Dark",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Ikea_Dark_uber dials_ IKEA Showroom (dark)",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemeSheets.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "UberDials_Ikea_Light_uber_dials_IKEA_Showroom_light-cb404c46.a11y.png",
+      "cleanBasename": "UberDials_Ikea_Light_uber_dials_IKEA_Showroom_light-cb404c46.png",
+      "findings": [
+        {
+          "boundsInScreen": "489,597,615,723",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Increase\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "331,597,457,723",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Decrease\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "UberDials_Ikea_Light",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Ikea_Light_uber dials_ IKEA Showroom (light)",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemeSheets.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "UberDials_Lcd_uber_dials_LCD-025d197b.a11y.png",
+      "cleanBasename": "UberDials_Lcd_uber_dials_LCD-025d197b.png",
+      "findings": [
+        {
+          "boundsInScreen": "331,597,457,723",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Decrease\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "489,597,615,723",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Increase\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "UberDials_Lcd",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Lcd_uber dials_ LCD",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemeSheets.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "UberDials_Nixie_uber_dials_Nixie-75dfa2e5.a11y.png",
+      "cleanBasename": "UberDials_Nixie_uber_dials_Nixie-75dfa2e5.png",
+      "findings": [
+        {
+          "boundsInScreen": "331,597,457,723",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Decrease\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "489,597,615,723",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Increase\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "UberDials_Nixie",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Nixie_uber dials_ Nixie",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemeSheets.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "UberDials_Trinitron_uber_dials_Trinitron-60080195.a11y.png",
+      "cleanBasename": "UberDials_Trinitron_uber_dials_Trinitron-60080195.png",
+      "findings": [
+        {
+          "boundsInScreen": "331,597,457,723",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Decrease\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "489,597,615,723",
+          "level": "WARNING",
+          "message": "This clickable item's speakable text: \"Increase\" is identical to that of 2 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.view.View"
+        }
+      ],
+      "functionName": "UberDials_Trinitron",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Trinitron_uber dials_ Trinitron",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemeSheets.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Uber_Console_Desk_uber_Console_desk-a93e894d.a11y.png",
+      "cleanBasename": "Uber_Console_Desk_uber_Console_desk-a93e894d.png",
+      "findings": [],
+      "functionName": "Uber_Console_Desk",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Console_Desk_uber_ Console (desk)",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberThemePreviews.kt",
       "variant": ""
     }
   ],
@@ -302,14 +944,6 @@
     },
     {
       "module": "previews",
-      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_Humidifier_matrix \u2014 humidifier"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_Light_matrix \u2014 light"
-    },
-    {
-      "module": "previews",
       "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_Logbook_matrix \u2014 logbook"
     },
     {
@@ -331,10 +965,6 @@
     {
       "module": "previews",
       "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_Statistic_matrix \u2014 statistic"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_Thermostat_matrix \u2014 thermostat"
     },
     {
       "module": "previews",
@@ -610,14 +1240,6 @@
     },
     {
       "module": "previews",
-      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Humidifier_Dark_humidifier (dark)"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Humidifier_Light_humidifier (light)"
-    },
-    {
-      "module": "previews",
       "previewId": "ee.schimke.ha.previews.CardPreviewsKt.LightCard_Dark_light card (dark)"
     },
     {
@@ -711,14 +1333,6 @@
     {
       "module": "previews",
       "previewId": "ee.schimke.ha.previews.CardPreviewsKt.StatisticsGraph_Light_statistics-graph (light)"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Thermostat_Dark_thermostat (dark)"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Thermostat_Light_thermostat (light)"
     },
     {
       "module": "previews",
@@ -851,86 +1465,6 @@
     {
       "module": "previews",
       "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityCompact_Obsidian_community compact_ Obsidian"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityDials_Aeon_community dials_ Aeon"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityDials_Arctic_community dials_ Arctic"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityDials_Bubble_community dials_ Bubble"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityDials_Catppuccin_community dials_ Catppuccin"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityDials_Cupertino_community dials_ Cupertino"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityDials_Lcars_community dials_ Lcars"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityDials_Minimalist_community dials_ Minimalist"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityDials_Mushroom_community dials_ Mushroom"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityDials_Noctis_community dials_ Noctis"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityDials_Obsidian_community dials_ Obsidian"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityLight_Aeon_community light_ Aeon"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityLight_Arctic_community light_ Arctic"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityLight_Bubble_community light_ Bubble"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityLight_Catppuccin_community light_ Catppuccin"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityLight_Cupertino_community light_ Cupertino"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityLight_Lcars_community light_ Lcars"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityLight_Minimalist_community light_ Minimalist"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityLight_Mushroom_community light_ Mushroom"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityLight_Noctis_community light_ Noctis"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityLight_Obsidian_community light_ Obsidian"
     },
     {
       "module": "previews",
@@ -1358,6 +1892,10 @@
     },
     {
       "module": "previews",
+      "previewId": "ee.schimke.ha.previews.SectionFlexPreviewsKt.SectionFlowRemoteReflow_section flow remote \u2014 one capture, two widths"
+    },
+    {
+      "module": "previews",
       "previewId": "ee.schimke.ha.previews.SectionFlexPreviewsKt.SectionFlowRemoteTablet_section flow remote \u2014 tablet"
     },
     {
@@ -1562,10 +2100,6 @@
     },
     {
       "module": "previews",
-      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_Thermostat_tier2 thermostat"
-    },
-    {
-      "module": "previews",
       "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_TodoList_tier2 todo-list"
     },
     {
@@ -1662,10 +2196,6 @@
     },
     {
       "module": "previews",
-      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Console_Desk_uber_ Console (desk)"
-    },
-    {
-      "module": "previews",
       "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Console_uber_ Console"
     },
     {
@@ -1751,50 +2281,6 @@
     {
       "module": "previews",
       "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberCards_Trinitron_uber cards_ Trinitron"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Braun_uber dials_ Braun"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Classic_uber dials_ Classic"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Console_uber dials_ Console"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Expressive_uber dials_ Expressive"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_HomeAssistant_Dark_uber dials_ Home Assistant (dark)"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_HomeAssistant_Light_uber dials_ Home Assistant (light)"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Ikea_Dark_uber dials_ IKEA Showroom (dark)"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Ikea_Light_uber dials_ IKEA Showroom (light)"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Lcd_uber dials_ LCD"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Nixie_uber dials_ Nixie"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Trinitron_uber dials_ Trinitron"
     },
     {
       "module": "previews",
