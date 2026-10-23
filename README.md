@@ -82,12 +82,6 @@ _No findings._
 
 _No findings._
 
-### `Screen_CardStyle_Designs`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_CardStyle_Designs_card_style_designs-9001d612.a11y.png" width="400" />
-
-_No findings._
-
 ### `Screen_DashboardPicker`
 
 <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_DashboardPicker_dashboard_picker-2e66fb7f.a11y.png" width="400" />
@@ -254,6 +248,12 @@ _No findings._
 ### `Screen_Settings_CardStyles`
 
 <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_Settings_CardStyles_settings_card_styles-f2e3d1b3.a11y.png" width="400" />
+
+_No findings._
+
+### `Screen_Settings_CardStylesOnWatch`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_Settings_CardStylesOnWatch_settings_card_styles_on_a_watch-d6c9a800.a11y.png" width="400" />
 
 _No findings._
 
