@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-23T21:03:17.275Z",
+  "generatedAt": "2026-10-23T21:41:29.456Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "ca297a73859b28646b242530b3649c3d99e16878",
+        "subject": "feat(rc-converter): draw the sensor card from sensor.uid, and keep migrated cards migrated (#1144)",
+        "at": "2026-10-23T22:28:17+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "72295ac2137246bca0e6cd74c043831d513ad77f",
+        "subject": "chore(main): release 0.1.62 (#1120)",
+        "at": "2026-10-23T22:25:59+01:00",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "4fb883a28833e748da3c409259531bb6a055a3f8",
+        "subject": "feat(widget): run alarm panel taps and entity-less service calls from launcher widgets (#1146)",
+        "at": "2026-10-23T22:22:35+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "3cebdc77133789cd1748867f0aa4aaa9ba16641f",
         "subject": "feat: offline-first phone and watch, and cache-trim analytics (#1140)",
@@ -458,30 +482,6 @@
         "sha": "d155e18d00b4810ea9d97d09ca52f205276e644b",
         "subject": "feat(wear): reframe a phone card design into the Wear container, centred (#1084)",
         "at": "2026-10-23T00:42:03+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "c2795a0d99626507085f9ddd3d425ad49f7689ec",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to d89073e (#1078)",
-        "at": "2026-10-22T23:12:53Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "56bf761f6cd55029f929abe9a67c95bd864a14f8",
-        "subject": "feat(widgets): scale launcher widget cards up and down with their size (#1081)",
-        "at": "2026-10-23T00:11:15+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "983c7f7b37ee0c46a931ef822643c6e6a6e7ef67",
-        "subject": "fix(design-server): keep Wear widgets that leave their container frame to the watch (#1080)",
-        "at": "2026-10-22T23:43:58+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
