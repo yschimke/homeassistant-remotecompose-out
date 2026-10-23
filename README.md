@@ -2,21 +2,11 @@
 
 Auto-generated from `main`. Browse inline or compare against PR branches.
 
-> [!WARNING]
-> 1 preview(s) failed to render in the latest update (1 with no prior baseline to retain). See **Render Failures** below.
-
-## Render Failures
-
-The render task completed but no PNG was produced for these previews. Entries with a prior baseline keep their previous image; the rest are absent from the gallery until a successful render lands.
-
-| Preview | Module | Function | Source | Baseline |
-|---------|--------|----------|--------|----------|
-| `app/activity__MainActivity` | app | `MainActivity` | `—` | none |
-
 ## app
 
 | Preview | Image |
 |---------|-------|
+| `MainActivity` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/activity__MainActivity.png" width="150" /> |
 | `CardFlashPreview` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/CardFlashPreview_Card_flash_on_data_change-44b71c2b.gif" width="150" /> |
 | `DataGridOverlayPreview` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/DataGridOverlayPreview_Data_grid_overlay-d5c0afe1.png" width="150" /> |
 | `ResizeWidgetPreview` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/ResizeWidgetPreview_Resize_widget_preview-0d70e6c5.gif" width="150" /> |
