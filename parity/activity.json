@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-23T10:55:03.063Z",
+  "generatedAt": "2026-10-23T11:49:05.820Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "354db6159950d01eae5508f0ddcd25ddc8ece0f8",
+        "subject": "fix(deps): update dependency org.jetbrains.androidx.navigation3:navigation3-ui to v1.2.0 (#1110)",
+        "at": "2026-10-23T10:39:01Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "5c5420a7c4f1e2853ab49f540ae54f231d045d99",
         "subject": "fix(deps): update compose-multiplatform to v1.13.0-beta01 (#1108)",
@@ -475,14 +483,6 @@
         "subject": "fix(deps): update dependency com.google.firebase:firebase-bom to v35.1.0 (#1048)",
         "at": "2026-10-22T00:35:26Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "aa38120495e8ea2bbb217839be464c820be88cfc",
-        "subject": "feat(web): package the Wasm web app as a Wasmo app with Home Assistant OAuth sign-in (#1043)",
-        "at": "2026-10-22T00:38:01+01:00",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
