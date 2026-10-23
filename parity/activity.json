@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-23T23:20:21.176Z",
+  "generatedAt": "2026-10-23T23:31:49.345Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "111ed52148cfafc71f3df95fa27fb11c91f362dd",
+        "subject": "feat: measure in-app card rebuilds on live data (#1155)",
+        "at": "2026-10-24T00:13:36+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "72977a9c50a051686ac5efa8dd402fe03a7fd52a",
         "subject": "feat(rc-converter): draw the clock card from clock.uid (#1154)",
@@ -474,14 +482,6 @@
         "sha": "c1dd8c471e72ad54ad9e61e1731077d28f8d0c37",
         "subject": "fix(deps): update compose-ai-tools (#1093)",
         "at": "2026-10-23T06:23:30Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "3e091649aa97790cf3977f9bd1395fe5a7abada3",
-        "subject": "fix(deps): update dependency ee.schimke.composeai:data-render-core to v3.39.0 (#1094)",
-        "at": "2026-10-23T02:19:47Z",
         "author": "renovate[bot]",
         "previewIds": [],
         "components": []
