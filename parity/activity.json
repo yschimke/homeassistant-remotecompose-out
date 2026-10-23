@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-23T22:15:16.924Z",
+  "generatedAt": "2026-10-23T22:53:15.032Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "bcbaed640ee9ea5af7d9d1a6d11cef168316f7fe",
+        "subject": "feat(rc-converter): draw the glance card from glance.uid (#1152)",
+        "at": "2026-10-23T23:28:34+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "6b3dffcd2e8077183067059dc401b6328f4fe740",
+        "subject": "feat(wear): run watch card taps through the phone, and open the app from a Wear widget tap (#1151)",
+        "at": "2026-10-23T23:24:12+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "50b34f2a26866f0763b2035ab9a1064e6c6eb647",
         "subject": "feat(rc-converter): draw the heading card from heading.uid (#1150)",
@@ -467,22 +483,6 @@
         "subject": "feat(widgets): fit Wear and launcher widgets to their space, preview widgets per host (#1090)",
         "at": "2026-10-23T01:56:23+01:00",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "061f68b9d503a74f8178f4c472b916fd4d7bc3d9",
-        "subject": "ci: seed the BuildFetch remote cache nightly from main (#1091)",
-        "at": "2026-10-23T01:43:05+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ea6134aa0eb4955df738d7814e06bf87b3b61d36",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 4ee9889 (#1089)",
-        "at": "2026-10-23T00:36:32Z",
-        "author": "renovate[bot]",
         "previewIds": [],
         "components": []
       }
