@@ -1,6 +1,6 @@
 # Accessibility Report
 
-_Auto-generated from `compose-preview/a11y/pr`. 45 preview(s) across 1 module(s) · 0 error(s) · 17 warning(s) · 3 info._
+_Auto-generated from `compose-preview/a11y/pr`. 46 preview(s) across 2 module(s) · 0 error(s) · 17 warning(s) · 3 info._
 
 Browse inline; image URLs are pinned to the commit SHA on the baseline branch so links keep resolving after merge.
 
@@ -64,12 +64,6 @@ _No findings._
 
 _No findings._
 
-### `Screen_CardDisabled`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_CardDisabled_card_disabled-0e6ac4fe.a11y.png" width="400" />
-
-_No findings._
-
 ### `Screen_CardHistory`
 
 <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_CardHistory_card_history-07f74f5f.a11y.png" width="400" />
@@ -85,6 +79,12 @@ _No findings._
 ### `Screen_CardStyle`
 
 <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_CardStyle_card_style-61803e88.a11y.png" width="400" />
+
+_No findings._
+
+### `Screen_CardStyle_Designs`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_CardStyle_Designs_card_style_designs-9001d612.a11y.png" width="400" />
 
 _No findings._
 
@@ -300,5 +300,13 @@ _No findings._
 ### `Screen_Widgets_ThemeStyle`
 
 <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_Widgets_ThemeStyle_widgets_theme-c6d5903f.a11y.png" width="400" />
+
+_No findings._
+
+## previews
+
+### `ImageUrl_Probe_Frame1`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/ImageUrl_Probe_Frame1_image_url_probe_frame_1-97608c2e.png" width="400" />
 
 _No findings._
