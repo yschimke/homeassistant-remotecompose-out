@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-23T19:02:08.497Z",
+  "generatedAt": "2026-10-23T19:30:14.930Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "148f74f70faf39713b983a546229ada4e1192ccf",
+        "subject": "feat(app): ship the default style's card designs as a fallback under the server's (#1133)",
+        "at": "2026-10-23T20:23:04+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "bbce3210099289609ca54beb436e823cab33c14d",
+        "subject": "feat(wear): don't offer a small-only card for a Large widget (#1134)",
+        "at": "2026-10-23T20:13:31+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "7c6f262ff1fe4535162f7f42d0fa885e2b6f1ec6",
         "subject": "feat: apply the card information hierarchy to thermostat, humidifier and 1×1 widgets (#1132)",
@@ -467,22 +483,6 @@
         "subject": "perf: let a card's player skip recomposition on data changes (#1072)",
         "at": "2026-10-22T19:43:25+01:00",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "1f5916ba1980a9f172319910317a964eb12d20c0",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to c827256 (#1070)",
-        "at": "2026-10-22T15:15:01Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "c11fa380b98a8580823ecb9bca6c01690aecf8ad",
-        "subject": "fix(deps): update dependency ee.schimke.composeai:data-render-core to v3.38.0 (#1071)",
-        "at": "2026-10-22T15:13:58Z",
-        "author": "renovate[bot]",
         "previewIds": [],
         "components": []
       }
