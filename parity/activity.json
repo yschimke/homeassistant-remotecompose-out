@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-23T22:53:15.032Z",
+  "generatedAt": "2026-10-23T23:09:17.802Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "872f8515677d585d58c4775f586453042afd86f5",
+        "subject": "fix: keep weighted rows inside their width, and an inline tile's stepper readable (#1153)",
+        "at": "2026-10-23T23:56:50+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "bcbaed640ee9ea5af7d9d1a6d11cef168316f7fe",
         "subject": "feat(rc-converter): draw the glance card from glance.uid (#1152)",
@@ -474,14 +482,6 @@
         "sha": "5482b1281f51bd502d13dd86ff0f510fb6ee7df2",
         "subject": "fix(cards): fit narrow tiles, picture cards and placeholders in their widgets; name weather conditions (#1092)",
         "at": "2026-10-23T03:00:46+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "86099d3807770fcd4ca624d29402382f96550069",
-        "subject": "feat(widgets): fit Wear and launcher widgets to their space, preview widgets per host (#1090)",
-        "at": "2026-10-23T01:56:23+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
