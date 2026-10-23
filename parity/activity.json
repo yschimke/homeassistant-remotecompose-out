@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-23T09:20:54.972Z",
+  "generatedAt": "2026-10-23T10:07:10.991Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "5f602c549d02736554a3bc2d513e832204ffc081",
+        "subject": "fix(rc-converter): drop RemoteSizeBreakpoint's transparent forcing text; capture the gauge at its preview width (#1099)",
+        "at": "2026-10-23T09:55:05+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "087eff8aeb162aa14eab09030dc9906f51c9187c",
         "subject": "perf(wear): first frame is the pinned list; benchmark real cards (#1102)",
@@ -474,14 +482,6 @@
         "sha": "532d34f24b0004a1994d9793ddc0641ee71d6cde",
         "subject": "chore: register Firebase MCP server in project config (#1042)",
         "at": "2026-10-21T23:41:01+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "6735ba2657fae5942414bd946904a4772d508303",
-        "subject": "perf: resolve dashboard card templates off the main thread (#1040)",
-        "at": "2026-10-21T22:47:48+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
