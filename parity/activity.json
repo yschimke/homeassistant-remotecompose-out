@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-23T19:30:14.930Z",
+  "generatedAt": "2026-10-23T19:58:09.582Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "5eb432b8f83742f8cfb16a7ea4ab7cae103819c1",
+        "subject": "feat(rc-converter): draw the button card from button.uid (#1135)",
+        "at": "2026-10-23T20:50:41+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "148f74f70faf39713b983a546229ada4e1192ccf",
         "subject": "feat(app): ship the default style's card designs as a fallback under the server's (#1133)",
@@ -475,14 +483,6 @@
         "subject": "fix(deps): update compose-ai-tools (#1073)",
         "at": "2026-10-22T19:10:25Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "5b872ec44e2eee386a9d9f41021b376a564fb4de",
-        "subject": "perf: let a card's player skip recomposition on data changes (#1072)",
-        "at": "2026-10-22T19:43:25+01:00",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
