@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-23T14:38:28.136Z",
+  "generatedAt": "2026-10-23T15:44:03.763Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "63924b1fd272f34fd4aa755af2b40b2a55ceac81",
+        "subject": "feat: make every card player an error boundary (#1121)",
+        "at": "2026-10-23T16:36:37+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "9605e1b70112141600f1dba38211dfd60d389b47",
+        "subject": "test(app): tap the IME test's last action once the keyboard has settled (#1122)",
+        "at": "2026-10-23T16:16:51+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "32bba074ad6299de70967808afb1fd5655596d07",
         "subject": "feat(rc-converter): draw the tile from tile.uid and put its parts on UI Builder's shelf (#1117)",
@@ -467,22 +483,6 @@
         "subject": "test: search every shadow root for the demo's Compose canvas (#1059)",
         "at": "2026-10-22T10:41:58+01:00",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "0235174b351ece421b500a30e4ec2e60e574c1d2",
-        "subject": "chore(deps): update dependency java-jdk to v21.0.12+101.0.lts (#1060)",
-        "at": "2026-10-22T09:15:06Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "21c369863212bf73e01a8444e3e37ed79eaeb0ad",
-        "subject": "chore(deps): pin dependency java-jdk to 21.0.12+8.0.lts (#1057)",
-        "at": "2026-10-22T08:55:26Z",
-        "author": "renovate[bot]",
         "previewIds": [],
         "components": []
       }
