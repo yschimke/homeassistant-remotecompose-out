@@ -110,14 +110,14 @@
 <body>
 <header class="top">
   <h1>Home Assistant cards · RemoteCompose</h1>
-  <div class="subtitle">system <code>ha-cards</code> · androidx.compose.remote:remote-creation-compose, androidx.wear.compose.remote:remote-material3, ee.schimke.ha:rc-components (RemoteHa* cards) · rendered by compose-preview 2.72.0 · 2026-10-23T09:01:47.630Z · 32 components</div>
+  <div class="subtitle">system <code>ha-cards</code> · androidx.compose.remote:remote-creation-compose, androidx.wear.compose.remote:remote-material3, ee.schimke.ha:rc-components (RemoteHa* cards) · rendered by compose-preview 2.72.0 · 2026-10-23T14:38:25.066Z · 33 components</div>
   <div class="subtitle"><a class="pagelink" href="compare.html">SVG vs PNG compare ↗</a> <a class="pagelink" href="rc-compare.html">PNG vs Remote Compose ↗</a></div>
 </header>
 
 <div class="layout">
   <nav class="index"><section class="nav-group">
-      <a class="nav-head" href="#g-home-assistant">Home Assistant <span>11</span></a>
-      <ul><li><a href="#c-hacard-tile">HaCard/Tile</a></li><li><a href="#c-hacard-entityrow">HaCard/EntityRow</a></li><li><a href="#c-hacard-metric">HaCard/Metric</a></li><li><a href="#c-hacard-statuschip">HaCard/StatusChip</a></li><li><a href="#c-hacard-entities">HaCard/Entities</a></li><li><a href="#c-hacard-gauge">HaCard/Gauge</a></li><li><a href="#c-hacard-thermostat">HaCard/Thermostat</a></li><li><a href="#c-hacard-glance">HaCard/Glance</a></li><li><a href="#c-hacard-heading">HaCard/Heading</a></li><li><a href="#c-hacard-button">HaCard/Button</a></li><li><a href="#c-hacard-toggle">HaCard/Toggle</a></li></ul>
+      <a class="nav-head" href="#g-home-assistant">Home Assistant <span>12</span></a>
+      <ul><li><a href="#c-hacard-tile">HaCard/Tile</a></li><li><a href="#c-hacard-entitytile">HaCard/EntityTile</a></li><li><a href="#c-hacard-entityrow">HaCard/EntityRow</a></li><li><a href="#c-hacard-metric">HaCard/Metric</a></li><li><a href="#c-hacard-statuschip">HaCard/StatusChip</a></li><li><a href="#c-hacard-entities">HaCard/Entities</a></li><li><a href="#c-hacard-gauge">HaCard/Gauge</a></li><li><a href="#c-hacard-thermostat">HaCard/Thermostat</a></li><li><a href="#c-hacard-glance">HaCard/Glance</a></li><li><a href="#c-hacard-heading">HaCard/Heading</a></li><li><a href="#c-hacard-button">HaCard/Button</a></li><li><a href="#c-hacard-toggle">HaCard/Toggle</a></li></ul>
     </section><section class="nav-group">
       <a class="nav-head" href="#g-iconography">Iconography <span>1</span></a>
       <ul><li><a href="#c-hacard-icon">HaCard/Icon</a></li></ul>
@@ -144,6 +144,14 @@
   <div class="meta">
     <h3><a class="ctitle" href="#d-hacard-tile">HaCard/Tile</a></h3>
     <div class="sub">945×189<a class="wf" href="wireframes/hacard-tile.svg" target="_blank" rel="noopener">wireframe ↗</a><a class="wf figma-svg-link" href="figma/hacard-tile.svg" target="_blank" rel="noopener">figma svg ↗</a></div>
+    <div class="greenlines" title="accessibility greenlines"><span class="chip chip--info">button</span></div>
+  </div>
+</article>
+<article class="card" id="c-hacard-entitytile">
+  <a class="shot" href="#d-hacard-entitytile" aria-label="Zoom HaCard/EntityTile"><img loading="lazy" src="images/hacard-entitytile/ideal__default__card.png" alt="HaCard/EntityTile" /></a>
+  <div class="meta">
+    <h3><a class="ctitle" href="#d-hacard-entitytile">HaCard/EntityTile</a></h3>
+    <div class="sub">945×189<a class="wf" href="wireframes/hacard-entitytile.svg" target="_blank" rel="noopener">wireframe ↗</a><a class="wf figma-svg-link" href="figma/hacard-entitytile.svg" target="_blank" rel="noopener">figma svg ↗</a></div>
     <div class="greenlines" title="accessibility greenlines"><span class="chip chip--info">button</span></div>
   </div>
 </article>
@@ -422,6 +430,15 @@
     <h3>HaCard/Tile</h3>
     <div class="detail-caption">HA&#39;s tile card: a toggleable light, on. Bound to `light.kitchen`, so its state and accent follow the entity live.</div>
     <div class="detail-states"><figure class="state"><figcaption>default</figcaption><div class="state-shots"><div class="state-shot"><img loading="lazy" src="images/hacard-tile/ideal__default__card.png" alt="HaCard/Tile default" /><span>card</span></div></div></figure></div>
+  </div>
+</div>
+<div class="detail" id="d-hacard-entitytile" role="dialog" aria-label="HaCard/EntityTile">
+  <a class="detail-scrim" href="#c-hacard-entitytile" aria-label="Close"></a>
+  <div class="detail-panel">
+    <a class="detail-x" href="#c-hacard-entitytile" aria-label="Close">×</a>
+    <h3>HaCard/EntityTile</h3>
+    <div class="detail-caption">HA&#39;s tile card for one slot entity, drawn as the dashboard draws it: a light here. In a card design its properties come from the design key, so one design covers every tile.</div>
+    <div class="detail-states"><figure class="state"><figcaption>default</figcaption><div class="state-shots"><div class="state-shot"><img loading="lazy" src="images/hacard-entitytile/ideal__default__card.png" alt="HaCard/EntityTile default" /><span>card</span></div></div></figure></div>
   </div>
 </div>
 <div class="detail" id="d-hacard-entityrow" role="dialog" aria-label="HaCard/EntityRow">

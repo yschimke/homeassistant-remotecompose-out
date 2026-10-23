@@ -11,7 +11,7 @@
     "record": {
         "file": "components.json",
         "schemaVersion": 2,
-        "components": 24
+        "components": 25
     },
     "statusSemantics": {
         "platform": "remote-compose",
@@ -32,6 +32,7 @@
                 "Wear widget",
                 "Launcher widget",
                 "Home Assistant",
+                "Card layout",
                 "Measurements",
                 "Containment",
                 "Buttons",
@@ -104,6 +105,9 @@
                     "group": "Home Assistant"
                 },
                 "ha-cards/toggle": {
+                    "group": "Home Assistant"
+                },
+                "ha-cards/entity-tile": {
                     "group": "Home Assistant"
                 }
             }
@@ -2155,6 +2159,61 @@
                 "shelfRole": null,
                 "exportProjection": null
             },
+            "ha-cards/entity-tile": {
+                "record": "ha-cards-catalog/ee.schimke.ha.cards.HaCardEntityTileKt.HaCardEntityTile",
+                "catalogId": null,
+                "displayName": "Entity tile",
+                "canvas": null,
+                "canvasMapping": null,
+                "unrolled": null,
+                "nativeOnly": false,
+                "traits": [],
+                "slots": {},
+                "stateCallbacks": {},
+                "starter": {},
+                "variantProperty": null,
+                "variants": {},
+                "excluded": null,
+                "propertyCapabilities": [
+                    {
+                        "name": "domain",
+                        "jsonType": "string",
+                        "required": false,
+                        "notes": "The slot entity's domain (`light`, `switch`, `sensor`, `binary_sensor`). Unset, a captured card design takes it from the design key, so one design covers every tile key."
+                    },
+                    {
+                        "name": "deviceClass",
+                        "jsonType": "string",
+                        "required": false,
+                        "notes": "The entity's `device_class`, which picks the icon, colour and meter glyph. Unset takes the key's."
+                    },
+                    {
+                        "name": "iconAttribute",
+                        "jsonType": "string",
+                        "required": false,
+                        "notes": "The entity's own `icon` attribute (`mdi:…`). Unset takes the key's."
+                    },
+                    {
+                        "name": "iconConfig",
+                        "jsonType": "string",
+                        "required": false,
+                        "notes": "The card's configured `icon:` (`mdi:…`). Unset takes the key's."
+                    },
+                    {
+                        "name": "unit",
+                        "jsonType": "string",
+                        "required": false,
+                        "notes": "A sensor's `unit_of_measurement`, which with `deviceClass` picks a meter glyph's kind and scale. Unset takes the key's."
+                    }
+                ],
+                "slotCapabilities": null,
+                "modifierCapabilities": null,
+                "insertContent": {
+                    "properties": {}
+                },
+                "shelfRole": null,
+                "exportProjection": null
+            },
             "ha-cards/ha-card-sticker": {
                 "record": "ha-cards-catalog/ee.schimke.ha.cards.HaCardStickerKt.HaCardSticker",
                 "catalogId": null,
@@ -2267,6 +2326,11 @@
             "message": "no canvas adapter claimed, so it draws as a placeholder. That is the honest default and needs no fixing; it is reported so a shelf drawn entirely in placeholders is visible rather than mysterious."
         },
         {
+            "code": "component.canvas.unclaimed",
+            "subject": "ha-cards/entity-tile",
+            "message": "no canvas adapter claimed, so it draws as a placeholder. That is the honest default and needs no fixing; it is reported so a shelf drawn entirely in placeholders is visible rather than mysterious."
+        },
+        {
             "code": "component.excluded",
             "subject": "ha-cards/ha-card-sticker",
             "message": "kept off the builder's shelf: The sticker frame every preview in this module renders through, not a component."
@@ -2280,6 +2344,56 @@
             "code": "component.policy.orphaned",
             "subject": "ha-cards/uber-theme",
             "message": "ui-builder.policy.json states a policy for \"ha-cards/uber-theme\", which joins no component in this record, so every field in it does nothing. Check its `record` canonicalId or its builder id against components.json."
+        },
+        {
+            "code": "component.policy.orphaned",
+            "subject": "ha-cards/card-size-mode",
+            "message": "ui-builder.policy.json states a policy for \"ha-cards/card-size-mode\", which joins no component in this record, so every field in it does nothing. Check its `record` canonicalId or its builder id against components.json."
+        },
+        {
+            "code": "component.policy.orphaned",
+            "subject": "ha-cards/size-tiers",
+            "message": "ui-builder.policy.json states a policy for \"ha-cards/size-tiers\", which joins no component in this record, so every field in it does nothing. Check its `record` canonicalId or its builder id against components.json."
+        },
+        {
+            "code": "component.policy.orphaned",
+            "subject": "ha-cards/centered-cell",
+            "message": "ui-builder.policy.json states a policy for \"ha-cards/centered-cell\", which joins no component in this record, so every field in it does nothing. Check its `record` canonicalId or its builder id against components.json."
+        },
+        {
+            "code": "component.policy.orphaned",
+            "subject": "ha-cards/tile-launcher-cell",
+            "message": "ui-builder.policy.json states a policy for \"ha-cards/tile-launcher-cell\", which joins no component in this record, so every field in it does nothing. Check its `record` canonicalId or its builder id against components.json."
+        },
+        {
+            "code": "component.policy.orphaned",
+            "subject": "ha-cards/tile-full",
+            "message": "ui-builder.policy.json states a policy for \"ha-cards/tile-full\", which joins no component in this record, so every field in it does nothing. Check its `record` canonicalId or its builder id against components.json."
+        },
+        {
+            "code": "component.policy.orphaned",
+            "subject": "ha-cards/tile-compact",
+            "message": "ui-builder.policy.json states a policy for \"ha-cards/tile-compact\", which joins no component in this record, so every field in it does nothing. Check its `record` canonicalId or its builder id against components.json."
+        },
+        {
+            "code": "component.policy.orphaned",
+            "subject": "ha-cards/tile-icon-chip",
+            "message": "ui-builder.policy.json states a policy for \"ha-cards/tile-icon-chip\", which joins no component in this record, so every field in it does nothing. Check its `record` canonicalId or its builder id against components.json."
+        },
+        {
+            "code": "component.policy.orphaned",
+            "subject": "ha-cards/tile-icon-hero",
+            "message": "ui-builder.policy.json states a policy for \"ha-cards/tile-icon-hero\", which joins no component in this record, so every field in it does nothing. Check its `record` canonicalId or its builder id against components.json."
+        },
+        {
+            "code": "component.policy.orphaned",
+            "subject": "ha-cards/tile-wide-hero",
+            "message": "ui-builder.policy.json states a policy for \"ha-cards/tile-wide-hero\", which joins no component in this record, so every field in it does nothing. Check its `record` canonicalId or its builder id against components.json."
+        },
+        {
+            "code": "component.policy.orphaned",
+            "subject": "ha-cards/tile-features-gate",
+            "message": "ui-builder.policy.json states a policy for \"ha-cards/tile-features-gate\", which joins no component in this record, so every field in it does nothing. Check its `record` canonicalId or its builder id against components.json."
         }
     ]
 }

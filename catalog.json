@@ -113,6 +113,102 @@
       ]
     },
     {
+      "componentId": "HaCard/EntityTile",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/hacard-entitytile/ideal__default__card.png",
+          "state": "default",
+          "width": 945,
+          "height": 189,
+          "size": "card",
+          "livePreview": "https://preview.coo.ee/ha-cards/p/hacard-entitytile__ideal__default__card",
+          "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardEntityTileSticker",
+          "density": 2.625
+        }
+      ],
+      "greenlines": [
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button",
+          "detail": {
+            "role": "button",
+            "bounds": {
+              "x": 53,
+              "y": 48,
+              "width": 840,
+              "height": 94
+            }
+          },
+          "bounds": {
+            "x": 53,
+            "y": 48,
+            "width": 840,
+            "height": 94
+          }
+        }
+      ],
+      "redlines": [
+        {
+          "bounds": {
+            "x": 53,
+            "y": 48,
+            "width": 840,
+            "height": 94
+          },
+          "role": "Button",
+          "padding": {
+            "start": 12.190476,
+            "top": 8,
+            "end": 11.809524,
+            "bottom": 8
+          }
+        }
+      ],
+      "group": "Home Assistant",
+      "caption": "HA's tile card for one slot entity, drawn as the dashboard draws it: a light here. In a card design its properties come from the design key, so one design covers every tile.",
+      "noReference": "No published design kit covers Home Assistant cards in Remote Compose.",
+      "wireframe": "wireframes/hacard-entitytile.svg",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
+      "sourceModule": ":ha-cards-catalog",
+      "bodyLine": 86,
+      "sourceDirectory": "ha-cards-catalog",
+      "sourceFunction": "HaCardEntityTileSticker",
+      "parameters": [
+        {
+          "name": "modifier",
+          "type": "RemoteModifier",
+          "hasDefault": true
+        },
+        {
+          "name": "domain",
+          "type": "String",
+          "hasDefault": true
+        },
+        {
+          "name": "deviceClass",
+          "type": "String",
+          "hasDefault": true
+        },
+        {
+          "name": "iconAttribute",
+          "type": "String",
+          "hasDefault": true
+        },
+        {
+          "name": "iconConfig",
+          "type": "String",
+          "hasDefault": true
+        },
+        {
+          "name": "unit",
+          "type": "String",
+          "hasDefault": true
+        }
+      ]
+    },
+    {
       "componentId": "HaCard/EntityRow",
       "images": [
         {
@@ -135,7 +231,7 @@
       "wireframe": "wireframes/hacard-entityrow.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
       "sourceModule": ":ha-cards-catalog",
-      "bodyLine": 84,
+      "bodyLine": 96,
       "sourceDirectory": "ha-cards-catalog",
       "sourceFunction": "HaCardEntityRowSticker",
       "parameters": [
@@ -207,7 +303,7 @@
       "wireframe": "wireframes/hacard-metric.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
       "sourceModule": ":ha-cards-catalog",
-      "bodyLine": 96,
+      "bodyLine": 108,
       "sourceDirectory": "ha-cards-catalog",
       "sourceFunction": "HaCardMetricSticker",
       "parameters": [
@@ -280,7 +376,7 @@
       "wireframe": "wireframes/hacard-statuschip.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
       "sourceModule": ":ha-cards-catalog",
-      "bodyLine": 113,
+      "bodyLine": 125,
       "sourceDirectory": "ha-cards-catalog",
       "sourceFunction": "HaCardStatusChipSticker",
       "parameters": [
@@ -353,7 +449,7 @@
       "wireframe": "wireframes/hacard-entities.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
       "sourceModule": ":ha-cards-catalog",
-      "bodyLine": 125,
+      "bodyLine": 137,
       "sourceDirectory": "ha-cards-catalog",
       "sourceFunction": "HaCardEntitiesSticker",
       "parameters": [
@@ -451,7 +547,7 @@
       "wireframe": "wireframes/hacard-gauge.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
       "sourceModule": ":ha-cards-catalog",
-      "bodyLine": 148,
+      "bodyLine": 160,
       "sourceDirectory": "ha-cards-catalog",
       "sourceFunction": "HaCardGaugeSticker",
       "parameters": [
@@ -528,7 +624,7 @@
       "wireframe": "wireframes/hacard-thermostat.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
       "sourceModule": ":ha-cards-catalog",
-      "bodyLine": 160,
+      "bodyLine": 172,
       "sourceDirectory": "ha-cards-catalog",
       "sourceFunction": "HaCardThermostatSticker",
       "parameters": [
@@ -615,7 +711,7 @@
       "wireframe": "wireframes/hacard-glance.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
       "sourceModule": ":ha-cards-catalog",
-      "bodyLine": 172,
+      "bodyLine": 184,
       "sourceDirectory": "ha-cards-catalog",
       "sourceFunction": "HaCardGlanceSticker",
       "parameters": [
@@ -714,7 +810,7 @@
       "wireframe": "wireframes/hacard-heading.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
       "sourceModule": ":ha-cards-catalog",
-      "bodyLine": 195,
+      "bodyLine": 207,
       "sourceDirectory": "ha-cards-catalog",
       "sourceFunction": "HaCardHeadingSticker",
       "parameters": [
@@ -794,7 +890,7 @@
       "wireframe": "wireframes/hacard-button.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
       "sourceModule": ":ha-cards-catalog",
-      "bodyLine": 207,
+      "bodyLine": 219,
       "sourceDirectory": "ha-cards-catalog",
       "sourceFunction": "HaCardButtonSticker",
       "parameters": [
@@ -882,7 +978,7 @@
       "wireframe": "wireframes/hacard-toggle.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
       "sourceModule": ":ha-cards-catalog",
-      "bodyLine": 219,
+      "bodyLine": 231,
       "sourceDirectory": "ha-cards-catalog",
       "sourceFunction": "HaCardToggleSticker",
       "parameters": [
@@ -935,7 +1031,7 @@
       "wireframe": "wireframes/hacard-icon.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
       "sourceModule": ":ha-cards-catalog",
-      "bodyLine": 229,
+      "bodyLine": 241,
       "sourceDirectory": "ha-cards-catalog",
       "sourceFunction": "HaCardIconSticker",
       "parameters": [
@@ -1013,7 +1109,7 @@
       "wireframe": "wireframes/hacard-surface.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
       "sourceModule": ":ha-cards-catalog",
-      "bodyLine": 243,
+      "bodyLine": 255,
       "sourceDirectory": "ha-cards-catalog",
       "sourceFunction": "HaCardSurfaceSticker",
       "parameters": [
@@ -1096,7 +1192,7 @@
       "wireframe": "wireframes/hacard-dashboardsection.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
       "sourceModule": ":ha-cards-catalog",
-      "bodyLine": 262,
+      "bodyLine": 274,
       "sourceDirectory": "ha-cards-catalog",
       "sourceFunction": "HaDashboardSectionSticker"
     },
@@ -1160,7 +1256,7 @@
       "wireframe": "wireframes/remote-card.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
       "sourceModule": ":ha-cards-catalog",
-      "bodyLine": 280,
+      "bodyLine": 292,
       "sourceDirectory": "ha-cards-catalog",
       "sourceFunction": "RemoteCardSticker",
       "parameters": [
@@ -1274,7 +1370,7 @@
       "wireframe": "wireframes/hacard-template.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
       "sourceModule": ":ha-cards-catalog",
-      "bodyLine": 458,
+      "bodyLine": 470,
       "sourceDirectory": "ha-cards-catalog",
       "sourceFunction": "HaCardTemplateSticker"
     },
@@ -1344,7 +1440,7 @@
       "wireframe": "wireframes/hacard-ubertheme.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
       "sourceModule": ":ha-cards-catalog",
-      "bodyLine": 485,
+      "bodyLine": 497,
       "sourceDirectory": "ha-cards-catalog",
       "sourceFunction": "HaCardUberThemeSticker"
     },
@@ -1414,7 +1510,7 @@
       "wireframe": "wireframes/hacard-uberthemeconsole.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
       "sourceModule": ":ha-cards-catalog",
-      "bodyLine": 506,
+      "bodyLine": 518,
       "sourceDirectory": "ha-cards-catalog",
       "sourceFunction": "HaCardUberThemeConsoleSticker"
     },
@@ -1564,7 +1660,7 @@
       "wireframe": "wireframes/hacard-consolecontrols.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
       "sourceModule": ":ha-cards-catalog",
-      "bodyLine": 531,
+      "bodyLine": 543,
       "sourceDirectory": "ha-cards-catalog",
       "sourceFunction": "HaCardConsoleControlsSticker"
     },
@@ -1648,7 +1744,7 @@
       "wireframe": "wireframes/hacard-consoleservicelabels.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
       "sourceModule": ":ha-cards-catalog",
-      "bodyLine": 582,
+      "bodyLine": 594,
       "sourceDirectory": "ha-cards-catalog",
       "sourceFunction": "HaCardConsoleServiceLabelsSticker",
       "parameters": [
@@ -1725,7 +1821,7 @@
       "wireframe": "wireframes/hacard-uberthemeikea.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
       "sourceModule": ":ha-cards-catalog",
-      "bodyLine": 613,
+      "bodyLine": 625,
       "sourceDirectory": "ha-cards-catalog",
       "sourceFunction": "HaCardUberThemeIkeaSticker"
     },
@@ -1789,7 +1885,7 @@
       "wireframe": "wireframes/remote-button.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
       "sourceModule": ":ha-cards-catalog",
-      "bodyLine": 298,
+      "bodyLine": 310,
       "sourceDirectory": "ha-cards-catalog",
       "sourceFunction": "RemoteButtonSticker",
       "parameters": [
@@ -1860,7 +1956,7 @@
       "wireframe": "wireframes/remote-switchbutton.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
       "sourceModule": ":ha-cards-catalog",
-      "bodyLine": 310,
+      "bodyLine": 322,
       "sourceDirectory": "ha-cards-catalog",
       "sourceFunction": "RemoteSwitchButtonSticker",
       "parameters": [
@@ -1894,7 +1990,7 @@
       "wireframe": "wireframes/remote-text.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
       "sourceModule": ":ha-cards-catalog",
-      "bodyLine": 329,
+      "bodyLine": 341,
       "sourceDirectory": "ha-cards-catalog",
       "sourceFunction": "RemoteTextSticker",
       "parameters": [
@@ -1949,7 +2045,7 @@
       "wireframe": "wireframes/hacard-thermometer.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
       "sourceModule": ":ha-cards-catalog",
-      "bodyLine": 345,
+      "bodyLine": 357,
       "sourceDirectory": "ha-cards-catalog",
       "sourceFunction": "HaCardThermometerSticker",
       "parameters": [
@@ -2016,7 +2112,7 @@
       "wireframe": "wireframes/hacard-thermometer-adaptive-tall.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
       "sourceModule": ":ha-cards-catalog",
-      "bodyLine": 363,
+      "bodyLine": 375,
       "sourceDirectory": "ha-cards-catalog",
       "sourceFunction": "HaCardThermometerTallSticker",
       "parameters": [
@@ -2083,7 +2179,7 @@
       "wireframe": "wireframes/hacard-thermometer-adaptive-short.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
       "sourceModule": ":ha-cards-catalog",
-      "bodyLine": 377,
+      "bodyLine": 389,
       "sourceDirectory": "ha-cards-catalog",
       "sourceFunction": "HaCardThermometerShortSticker",
       "parameters": [
@@ -2150,7 +2246,7 @@
       "wireframe": "wireframes/hacard-thermometer-chip.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
       "sourceModule": ":ha-cards-catalog",
-      "bodyLine": 389,
+      "bodyLine": 401,
       "sourceDirectory": "ha-cards-catalog",
       "sourceFunction": "HaCardThermometerChipSticker",
       "parameters": [
@@ -2238,7 +2334,7 @@
       "wireframe": "wireframes/hacard-battery.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
       "sourceModule": ":ha-cards-catalog",
-      "bodyLine": 401,
+      "bodyLine": 413,
       "sourceDirectory": "ha-cards-catalog",
       "sourceFunction": "HaCardBatterySticker",
       "parameters": [
@@ -2290,7 +2386,7 @@
       "wireframe": "wireframes/hacard-measurement.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
       "sourceModule": ":ha-cards-catalog",
-      "bodyLine": 413,
+      "bodyLine": 425,
       "sourceDirectory": "ha-cards-catalog",
       "sourceFunction": "HaCardMeasurementSticker",
       "parameters": [
@@ -2362,7 +2458,7 @@
       "wireframe": "wireframes/hacard-arcmeter.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
       "sourceModule": ":ha-cards-catalog",
-      "bodyLine": 431,
+      "bodyLine": 443,
       "sourceDirectory": "ha-cards-catalog",
       "sourceFunction": "HaCardArcMeterSticker",
       "parameters": [
@@ -2420,7 +2516,7 @@
       "wireframe": "wireframes/hacard-barmeter.svg",
       "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
       "sourceModule": ":ha-cards-catalog",
-      "bodyLine": 443,
+      "bodyLine": 455,
       "sourceDirectory": "ha-cards-catalog",
       "sourceFunction": "HaCardBarMeterSticker",
       "parameters": [
@@ -2467,7 +2563,7 @@
     "ee.schimke.ha:rc-components (RemoteHa* cards)"
   ],
   "renderer": "compose-preview 2.72.0",
-  "generatedAt": "2026-10-23T09:01:47.630Z",
+  "generatedAt": "2026-10-23T14:38:25.066Z",
   "display": {
     "surface": "light",
     "hero": "HaCard/Tile"
@@ -2574,7 +2670,7 @@
   "uiBuilderFile": "ui-builder.json",
   "source": {
     "repo": "yschimke/homeassistant-remotecompose",
-    "ref": "5f602c549d02736554a3bc2d513e832204ffc081",
+    "ref": "32bba074ad6299de70967808afb1fd5655596d07",
     "module": ":ha-cards-catalog"
   }
 }

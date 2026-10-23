@@ -1,11 +1,155 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-23T09:01:50.622Z",
+  "generatedAt": "2026-10-23T14:38:28.136Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "32bba074ad6299de70967808afb1fd5655596d07",
+        "subject": "feat(rc-converter): draw the tile from tile.uid and put its parts on UI Builder's shelf (#1117)",
+        "at": "2026-10-23T15:32:21+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "beefb9f9ba8b9fc95804c9d9f009371678f95f88",
+        "subject": "feat: preview card styles and library designs on approximate Wear watch screens (#1119)",
+        "at": "2026-10-23T15:15:24+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "fd0ee268bdd82af6c481de358966c95d68fc6bcf",
+        "subject": "test(ha-client): record the entity state test's requests under a lock (#1118)",
+        "at": "2026-10-23T15:05:07+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "0e75cd53245cff080455d0066d5f18ce3cfc46fd",
+        "subject": "feat(design-server): edit library card designs in UI Builder and import them back (#1114)",
+        "at": "2026-10-23T14:43:56+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "684f8fb7ef4accbe3ef95d7a4ee0f3fc5a145b27",
+        "subject": "chore(main): release 0.1.61 (#1100)",
+        "at": "2026-10-23T14:39:29+01:00",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "724b943ff876b848bdd1f8c0773e5a66468307f2",
+        "subject": "perf(wear): minify the release build with R8 (#1112)",
+        "at": "2026-10-23T14:38:41+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "25347b311c52192f5c5cec80c87b9e900f351f7f",
+        "subject": "chore(deps): update compose-ai-tools (#1111)",
+        "at": "2026-10-23T13:19:09Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "da810909dba820c5b60e3b59db7e81df6714257f",
+        "subject": "fix(wear): read a kept widget card's values when the phone stops sending them (#1116)",
+        "at": "2026-10-23T14:10:54+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "1c6c31af71366b1c5d55a634723e0b73a26511ad",
+        "subject": "feat(wear): choose a Wear widget's card on the watch, not the phone (#1113)",
+        "at": "2026-10-23T13:52:57+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "81f7e6ac4a390ccb9c50e84ccb3df054286bf7fe",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 321ce7a (#1101)",
+        "at": "2026-10-23T11:40:09Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "3eed58626cfa4afe5e03df5519667ac5e7706ff5",
+        "subject": "fix(design-server): don't clip card previews with rounded containers (#1104)",
+        "at": "2026-10-23T12:12:56+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "a2d07eec6cab06eaeba0553dc523634fe4bb0158",
+        "subject": "feat(card-designs): draw UI Builder card designs in-repo, starting with the tile (#1106)",
+        "at": "2026-10-23T12:12:53+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "354db6159950d01eae5508f0ddcd25ddc8ece0f8",
+        "subject": "fix(deps): update dependency org.jetbrains.androidx.navigation3:navigation3-ui to v1.2.0 (#1110)",
+        "at": "2026-10-23T10:39:01Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "5c5420a7c4f1e2853ab49f540ae54f231d045d99",
+        "subject": "fix(deps): update compose-multiplatform to v1.13.0-beta01 (#1108)",
+        "at": "2026-10-23T10:13:04Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "a5047f0f27e9f96f5b3da273504d7dd9c0a78275",
+        "subject": "docs(site): lead with the app; the integration is an optional extra (#1107)",
+        "at": "2026-10-23T10:41:30+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "8fe560f767ea4a550c57fb0eff8d9be2eeb1b038",
+        "subject": "fix(wear): recapture a Wear app card's template when its toggle turns on or off (#1109)",
+        "at": "2026-10-23T10:35:24+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "b70a81ba1f0b8513f514288be9ba91b515bc4347",
+        "subject": "feat(wear): draw the Wear app's cards in their widget's frame (#1105)",
+        "at": "2026-10-23T10:23:11+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "3ed1174084bcf43c80ecd2a4c0455a39cd7e5ebe",
+        "subject": "docs: plan server-owned card designs (#1103)",
+        "at": "2026-10-23T10:06:14+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "5f602c549d02736554a3bc2d513e832204ffc081",
         "subject": "fix(rc-converter): drop RemoteSizeBreakpoint's transparent forcing text; capture the gauge at its preview width (#1099)",
@@ -339,150 +483,6 @@
         "subject": "chore(deps): pin dependency java-jdk to 21.0.12+8.0.lts (#1057)",
         "at": "2026-10-22T08:55:26Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "48aea1933de87409065477f67eb915b98fb47a02",
-        "subject": "chore(main): release 0.1.57 (#1039)",
-        "at": "2026-10-22T09:19:58+01:00",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "6f641f62ba61dd4e631adec6be862002c777dc58",
-        "subject": "fix(deps): update rc-players to 2.17.3 (#1055)",
-        "at": "2026-10-22T09:19:05+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "33235eb8899fc46a16e9b637172c1234ad5ba19f",
-        "subject": "fix(deps): align player consumers with the published BOM (#1044)",
-        "at": "2026-10-22T09:16:07+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "7ed2deb401f9917044647e55e603944be68a2f79",
-        "subject": "fix(deps): update dependency androidx.compose.material3:material3 to v1.5.0-beta02 (#1035)",
-        "at": "2026-10-22T09:10:59+01:00",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "0c42257abbc5d202e6e6c89167d96557011d6c69",
-        "subject": "fix(deps): update remote-compose (#1036)",
-        "at": "2026-10-22T09:10:42+01:00",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "e097c0c09e40023e9eaf994970964462fd7da8da",
-        "subject": "fix(deps): update compose-ai-tools (#1034)",
-        "at": "2026-10-22T09:05:31+01:00",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "aca6b228374ea7094fe34258a0c20f5f48287696",
-        "subject": "fix(deps): hold DataStore at 1.2.1 after a startup hang on 1.3.0 (#1054)",
-        "at": "2026-10-22T08:51:09+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "87133471cd4b03c384fd4bd65f66e573a2777558",
-        "subject": "chore(deps): update github-actions (#1031)",
-        "at": "2026-10-22T07:44:01Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "f7f6f3b954ba6d1be8f88d0491ba3e3c54fb8259",
-        "subject": "feat(wear): read card values from Home Assistant directly when the phone has none (#1052)",
-        "at": "2026-10-22T08:20:03+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a8400265e63e55f740ed2dd6edac248c48c06242",
-        "subject": "fix(deps): update okhttp to v5.5.1 (#1051)",
-        "at": "2026-10-22T06:43:06Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a18b2182cf9009b1f220885feb0a664581be4b4b",
-        "subject": "chore(deps): update python docker tag to v3.15.1 (#1049)",
-        "at": "2026-10-22T01:22:41Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "201f667c84ea38b85d04953846be464a05e096a1",
-        "subject": "fix(deps): update dependency com.google.firebase:firebase-bom to v35.1.0 (#1048)",
-        "at": "2026-10-22T00:35:26Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "aa38120495e8ea2bbb217839be464c820be88cfc",
-        "subject": "feat(web): package the Wasm web app as a Wasmo app with Home Assistant OAuth sign-in (#1043)",
-        "at": "2026-10-22T00:38:01+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "54235b6c99b1c32e626006c22521a381e15f9fdf",
-        "subject": "fix(deps): update dependency ee.schimke.composeai:rc-player-protocol to v2.17.2 (#1045)",
-        "at": "2026-10-21T23:22:13Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "6fccdd12aa66930afc7c8240f3b8a10accf6c6f2",
-        "subject": "fix: stop three crashes reported by Crashlytics (#1047)",
-        "at": "2026-10-22T00:20:52+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "53d7e763b20b4f91103b86667549a10892b6fc15",
-        "subject": "fix(wear): give each screen a ScreenScaffold tied to its list (#1046)",
-        "at": "2026-10-22T00:14:41+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "2273a4f8c1ce984eecec289d4aada57f21c3c26c",
-        "subject": "fix(deps): update dependency com.google.firebase:firebase-bom to v35 (#1041)",
-        "at": "2026-10-21T22:41:05Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "532d34f24b0004a1994d9793ddc0641ee71d6cde",
-        "subject": "chore: register Firebase MCP server in project config (#1042)",
-        "at": "2026-10-21T23:41:01+01:00",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }

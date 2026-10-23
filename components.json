@@ -4381,6 +4381,129 @@
             "overloads": []
         },
         {
+            "canonicalId": "ha-cards-catalog/ee.schimke.ha.cards.HaCardEntityTileKt.HaCardEntityTile",
+            "componentIds": [
+                "HaCard/EntityTile"
+            ],
+            "symbol": {
+                "jvmOwner": "ee.schimke.ha.cards.HaCardEntityTileKt",
+                "callable": "ee.schimke.ha.cards.HaCardEntityTile",
+                "name": "HaCardEntityTile",
+                "origin": "PROJECT",
+                "jvmName": "HaCardEntityTile",
+                "descriptor": "(Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroidx/compose/runtime/Composer;II)V",
+                "sourceFile": "src/main/kotlin/ee/schimke/ha/cards/HaCardEntityTile.kt",
+                "docs": "unavailable",
+                "receiver": null
+            },
+            "parameters": [
+                {
+                    "name": "modifier",
+                    "type": "RemoteModifier",
+                    "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "domain",
+                    "type": "String",
+                    "typeFqn": "kotlin.String",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "deviceClass",
+                    "type": "String",
+                    "typeFqn": "kotlin.String",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "iconAttribute",
+                    "type": "String",
+                    "typeFqn": "kotlin.String",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "iconConfig",
+                    "type": "String",
+                    "typeFqn": "kotlin.String",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "unit",
+                    "type": "String",
+                    "typeFqn": "kotlin.String",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                }
+            ],
+            "slots": [],
+            "bindings": [
+                {
+                    "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardEntityTileSticker",
+                    "componentId": "HaCard/EntityTile",
+                    "group": "Home Assistant"
+                }
+            ],
+            "code": {
+                "call": "HaCardEntityTile()",
+                "imports": [
+                    "ee.schimke.ha.cards.HaCardEntityTile"
+                ],
+                "refusedReason": null,
+                "requiredOptIns": [],
+                "androidxOptIns": []
+            },
+            "signatureKnown": true,
+            "callableFromAnotherFile": true,
+            "hasTypeParameters": false,
+            "hasContextReceivers": false,
+            "overloadsCollided": false,
+            "builder": null,
+            "requiredOptIns": [],
+            "androidxOptIns": [],
+            "overloads": []
+        },
+        {
             "canonicalId": "ha-cards-catalog/ee.schimke.ha.cards.HaCardStickerKt.HaCardSticker",
             "componentIds": [
                 "HaCard/ConsoleServiceLabels",
