@@ -1,11 +1,43 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-23T02:08:23.712Z",
+  "generatedAt": "2026-10-23T07:39:21.881Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "7881150ae1d3ba641288b5a12f4b7a1ade313a7c",
+        "subject": "test(integration): pixel-diff the gauge and weather-forecast cards against HA (#1095)",
+        "at": "2026-10-23T08:31:31+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "34411bf997c5aad5286f74ab33c683a3a85582cc",
+        "subject": "chore(main): release 0.1.60 (#1079)",
+        "at": "2026-10-23T08:08:56+01:00",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "c1dd8c471e72ad54ad9e61e1731077d28f8d0c37",
+        "subject": "fix(deps): update compose-ai-tools (#1093)",
+        "at": "2026-10-23T06:23:30Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "3e091649aa97790cf3977f9bd1395fe5a7abada3",
+        "subject": "fix(deps): update dependency ee.schimke.composeai:data-render-core to v3.39.0 (#1094)",
+        "at": "2026-10-23T02:19:47Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "5482b1281f51bd502d13dd86ff0f510fb6ee7df2",
         "subject": "fix(cards): fit narrow tiles, picture cards and placeholders in their widgets; name weather conditions (#1092)",
@@ -451,38 +483,6 @@
         "subject": "fix(deps): update rc-player-compose to 2.17.1 (#1032)",
         "at": "2026-10-21T17:41:45+01:00",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "1a5793c38b854f03c1c5aa9c6823e6b251a7c9cf",
-        "subject": "feat(android): one focused actions sheet per card (#1033)",
-        "at": "2026-10-21T17:41:41+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a9e26c827ba831a7d83c4afa218bda4061150ce3",
-        "subject": "fix(wear): read the watch's values without loading the default dashboard (#1030)",
-        "at": "2026-10-21T16:41:45+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "2fc745387667427f9595799c6a5ea87469e6b721",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 5ea0c2d (#1029)",
-        "at": "2026-10-21T13:40:00Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "e9fd967aa2adc3d662bdcb9f0a046aaaab0c66ab",
-        "subject": "fix(deps): update compose-ai-tools (#1026)",
-        "at": "2026-10-21T13:14:37Z",
-        "author": "renovate[bot]",
         "previewIds": [],
         "components": []
       }
