@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-23T20:49:55.193Z",
+  "generatedAt": "2026-10-23T21:03:17.275Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "3cebdc77133789cd1748867f0aa4aaa9ba16641f",
+        "subject": "feat: offline-first phone and watch, and cache-trim analytics (#1140)",
+        "at": "2026-10-23T21:51:34+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "f6f976bc5b16ef986d6fd04f4d01c318c4be8328",
         "subject": "fix: polish launcher widget sizes for dials, gauge, statistic and alarm panel (#1138)",
@@ -474,14 +482,6 @@
         "sha": "983c7f7b37ee0c46a931ef822643c6e6a6e7ef67",
         "subject": "fix(design-server): keep Wear widgets that leave their container frame to the watch (#1080)",
         "at": "2026-10-22T23:43:58+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "049240303b587a1f9a18c6f247e750ce57d999d6",
-        "subject": "feat(wear): instantiate a server Wear design that names its container frame (#1077)",
-        "at": "2026-10-22T23:28:07+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
