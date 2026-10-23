@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-23T16:11:13.329Z",
+  "generatedAt": "2026-10-23T16:59:01.734Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "a01d9fce22c3a181c3b0455605996e24f19a6dde",
+        "subject": "test(integration): capture pixel-diff references for humidifier, entity-filter and todo-list (#1123)",
+        "at": "2026-10-23T17:03:53+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "a7c49b6468902f7915b217a5fc05aabd1e7012e7",
+        "subject": "feat: choose a card's design per card, by stable design id (#1115)",
+        "at": "2026-10-23T16:52:49+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "63924b1fd272f34fd4aa755af2b40b2a55ceac81",
         "subject": "feat: make every card player an error boundary (#1121)",
@@ -466,22 +482,6 @@
         "sha": "1989810478071393fc551c9431d1215b19548156",
         "subject": "feat: assistant access via Android AppFunctions and an opt-in MCP server (#1062)",
         "at": "2026-10-22T11:12:43+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "8629f1bfba80f8dabcbb0bf1f436fd98adee622b",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 754c17f (#1058)",
-        "at": "2026-10-22T09:42:02Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "38913f0018c8ccd5f5440ca6cc68bec2723e4aa4",
-        "subject": "test: search every shadow root for the demo's Compose canvas (#1059)",
-        "at": "2026-10-22T10:41:58+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
