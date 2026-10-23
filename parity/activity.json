@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-23T20:19:27.625Z",
+  "generatedAt": "2026-10-23T20:37:25.680Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "9a88731e32659d984d56a4d89fc523884786ce44",
+        "subject": "feat(rc-converter): draw the entity card from entity.uid (#1139)",
+        "at": "2026-10-23T21:26:27+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "ea3b0408555c00861f87ee83dfdacd342adaa5c2",
         "subject": "feat: memory benchmarks for phone and watch, and trim-memory support (#1136)",
@@ -475,14 +483,6 @@
         "subject": "build: wire up the BuildFetch remote build cache (#1075)",
         "at": "2026-10-22T21:57:36+01:00",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "660bb5036f37d4c67682c6b88ee7ac55527c0347",
-        "subject": "chore(main): release 0.1.59 (#1067)",
-        "at": "2026-10-22T21:52:39+01:00",
-        "author": "github-actions[bot]",
         "previewIds": [],
         "components": []
       }
