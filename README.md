@@ -64,12 +64,6 @@ _No findings._
 
 _No findings._
 
-### `Screen_CardDisabled`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_CardDisabled_card_disabled-0e6ac4fe.a11y.png" width="400" />
-
-_No findings._
-
 ### `Screen_CardHistory`
 
 <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_CardHistory_card_history-07f74f5f.a11y.png" width="400" />
@@ -85,6 +79,12 @@ _No findings._
 ### `Screen_CardStyle`
 
 <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_CardStyle_card_style-61803e88.a11y.png" width="400" />
+
+_No findings._
+
+### `Screen_CardStyle_Designs`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_CardStyle_Designs_card_style_designs-9001d612.a11y.png" width="400" />
 
 _No findings._
 
