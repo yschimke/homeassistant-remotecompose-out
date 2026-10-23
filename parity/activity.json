@@ -1,11 +1,59 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-22T23:18:36.705Z",
+  "generatedAt": "2026-10-23T00:13:16.438Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "e6ee940107c4539ba379447cd7546c0933003cba",
+        "subject": "fix: AMS spools share their row; a Wear grid shows every cell (#1087)",
+        "at": "2026-10-23T01:06:20+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "29065bb4ec86859eee64a4fdb453607fef55d04f",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 3f7e9f2 (#1086)",
+        "at": "2026-10-23T00:06:07Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "e4a6afeb8d919412d1fd8ce362523a31cfef347b",
+        "subject": "ci: run the macOS iOS job only for PRs that can affect it (#1085)",
+        "at": "2026-10-23T01:05:15+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "8e4628de9d86198dcc3f9f13d3a2cf26f27ab97c",
+        "subject": "build: point the remote build cache at harc's BuildFetch project (#1083)",
+        "at": "2026-10-23T01:05:11+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "d155e18d00b4810ea9d97d09ca52f205276e644b",
+        "subject": "feat(wear): reframe a phone card design into the Wear container, centred (#1084)",
+        "at": "2026-10-23T00:42:03+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "c2795a0d99626507085f9ddd3d425ad49f7689ec",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to d89073e (#1078)",
+        "at": "2026-10-22T23:12:53Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "56bf761f6cd55029f929abe9a67c95bd864a14f8",
         "subject": "feat(widgets): scale launcher widget cards up and down with their size (#1081)",
@@ -434,54 +482,6 @@
         "sha": "64f38db075fda08623ce1e7addcc0614d83f1ba4",
         "subject": "test: let the dashboard scroll-jank benchmark run (#1022)",
         "at": "2026-10-21T11:22:33+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "68c667a6b5b3e663bedebcdd213cf3a7625602eb",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to ec74bb5 (#1023)",
-        "at": "2026-10-21T10:13:11Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "5f84ffbd595f7f0572751e1d913028f7964a3629",
-        "subject": "fix(wear): have the pinned cards' templates ready before the app opens (#1021)",
-        "at": "2026-10-21T10:41:37+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "d5320a4a474603beb339caefbd9a546e74e90e43",
-        "subject": "fix(deps): update compose-ai-tools (#1009)",
-        "at": "2026-10-21T08:45:00Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "32e6f09f884d7ce14145be504f3f5fbb852b69a9",
-        "subject": "refactor(android): build every OkHttp client from one shared client (#1019)",
-        "at": "2026-10-21T09:34:43+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "9dd842643c6b4884f88e5c9ff0cfe9762d9473a7",
-        "subject": "chore(main): release 0.1.54 (#1018)",
-        "at": "2026-10-21T09:17:31+01:00",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "3710973289b9d2482a6e13dd312b3b566a2248e0",
-        "subject": "fix: stop dropping frames when a dashboard section scrolls on screen (#1016)",
-        "at": "2026-10-21T09:10:28+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
