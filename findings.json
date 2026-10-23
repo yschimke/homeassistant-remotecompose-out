@@ -926,10 +926,17 @@
       "cleanBasename": "LightCard_Dark_light_card_dark-d20cc53d.png",
       "findings": [
         {
-          "boundsInScreen": "174,544,300,653",
+          "boundsInScreen": "357,460,483,527",
           "level": "WARNING",
-          "message": "This clickable item's speakable text: \"stepper\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
+          "message": "This item's height is 26dp. Consider making the height of this touch target 32dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "515,460,641,527",
+          "level": "WARNING",
+          "message": "This item's height is 26dp. Consider making the height of this touch target 32dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item.",
+          "type": "TouchTargetSizeCheck",
           "viewDescription": "android.view.View"
         }
       ],
@@ -945,10 +952,17 @@
       "cleanBasename": "LightCard_Light_light_card_light-bd167e24.png",
       "findings": [
         {
-          "boundsInScreen": "174,544,300,653",
+          "boundsInScreen": "357,460,483,527",
           "level": "WARNING",
-          "message": "This clickable item's speakable text: \"stepper\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
+          "message": "This item's height is 26dp. Consider making the height of this touch target 32dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item.",
+          "type": "TouchTargetSizeCheck",
+          "viewDescription": "android.view.View"
+        },
+        {
+          "boundsInScreen": "515,460,641,527",
+          "level": "WARNING",
+          "message": "This item's height is 26dp. Consider making the height of this touch target 32dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item.",
+          "type": "TouchTargetSizeCheck",
           "viewDescription": "android.view.View"
         }
       ],
@@ -1314,7 +1328,7 @@
       "cleanBasename": "Thermostat_Dark_thermostat_dark-8434245a.png",
       "findings": [
         {
-          "boundsInScreen": "174,577,300,703",
+          "boundsInScreen": "357,530,483,624",
           "level": "WARNING",
           "message": "This clickable item's speakable text: \"stepper\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
@@ -1333,7 +1347,7 @@
       "cleanBasename": "Thermostat_Light_thermostat_light-875563bd.png",
       "findings": [
         {
-          "boundsInScreen": "174,577,300,703",
+          "boundsInScreen": "357,530,483,624",
           "level": "WARNING",
           "message": "This clickable item's speakable text: \"stepper\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",

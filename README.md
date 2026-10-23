@@ -1,6 +1,6 @@
 # Accessibility Report
 
-_Auto-generated from `compose-preview/a11y/pr`. 106 preview(s) across 1 module(s) · 0 error(s) · 14 warning(s) · 50 info._
+_Auto-generated from `compose-preview/a11y/pr`. 106 preview(s) across 1 module(s) · 0 error(s) · 16 warning(s) · 50 info._
 
 Browse inline; image URLs are pinned to the commit SHA on the baseline branch so links keep resolving after merge.
 
@@ -454,7 +454,8 @@ _No findings._
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "stepper" is identical to that of 1 other item(s). |
+| 1 | WARNING | TouchTargetSizeCheck | android.view.View | This item's height is 26dp. Consider making the height of this touch target 32dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item. |
+| 2 | WARNING | TouchTargetSizeCheck | android.view.View | This item's height is 26dp. Consider making the height of this touch target 32dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item. |
 
 ### `LightCard_Light`
 
@@ -462,7 +463,8 @@ _No findings._
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "stepper" is identical to that of 1 other item(s). |
+| 1 | WARNING | TouchTargetSizeCheck | android.view.View | This item's height is 26dp. Consider making the height of this touch target 32dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item. |
+| 2 | WARNING | TouchTargetSizeCheck | android.view.View | This item's height is 26dp. Consider making the height of this touch target 32dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item. |
 
 ### `Logbook_Dark`
 
