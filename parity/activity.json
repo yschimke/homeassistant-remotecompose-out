@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-23T11:49:05.820Z",
+  "generatedAt": "2026-10-23T12:33:40.946Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "81f7e6ac4a390ccb9c50e84ccb3df054286bf7fe",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 321ce7a (#1101)",
+        "at": "2026-10-23T11:40:09Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "3eed58626cfa4afe5e03df5519667ac5e7706ff5",
+        "subject": "fix(design-server): don't clip card previews with rounded containers (#1104)",
+        "at": "2026-10-23T12:12:56+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "a2d07eec6cab06eaeba0553dc523634fe4bb0158",
+        "subject": "feat(card-designs): draw UI Builder card designs in-repo, starting with the tile (#1106)",
+        "at": "2026-10-23T12:12:53+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "354db6159950d01eae5508f0ddcd25ddc8ece0f8",
         "subject": "fix(deps): update dependency org.jetbrains.androidx.navigation3:navigation3-ui to v1.2.0 (#1110)",
@@ -459,30 +483,6 @@
         "subject": "feat(wear): read card values from Home Assistant directly when the phone has none (#1052)",
         "at": "2026-10-22T08:20:03+01:00",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a8400265e63e55f740ed2dd6edac248c48c06242",
-        "subject": "fix(deps): update okhttp to v5.5.1 (#1051)",
-        "at": "2026-10-22T06:43:06Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a18b2182cf9009b1f220885feb0a664581be4b4b",
-        "subject": "chore(deps): update python docker tag to v3.15.1 (#1049)",
-        "at": "2026-10-22T01:22:41Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "201f667c84ea38b85d04953846be464a05e096a1",
-        "subject": "fix(deps): update dependency com.google.firebase:firebase-bom to v35.1.0 (#1048)",
-        "at": "2026-10-22T00:35:26Z",
-        "author": "renovate[bot]",
         "previewIds": [],
         "components": []
       }
