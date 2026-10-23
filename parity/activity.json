@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-23T08:30:38.101Z",
+  "generatedAt": "2026-10-23T09:20:54.972Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "087eff8aeb162aa14eab09030dc9906f51c9187c",
+        "subject": "perf(wear): first frame is the pinned list; benchmark real cards (#1102)",
+        "at": "2026-10-23T09:51:25+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "2f438f5bdda82daad50ebf8737e4119d2ccf1a37",
+        "subject": "perf: draw the dashboard, with its cards, as the first frame (#1097)",
+        "at": "2026-10-23T09:17:52+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "a3347767c9e510d7f63f27e2370ab9cbd9cd0510",
+        "subject": "fix: don't long-press a card during a slow drag (#1096)",
+        "at": "2026-10-23T08:43:29+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "7881150ae1d3ba641288b5a12f4b7a1ade313a7c",
         "subject": "test(integration): pixel-diff the gauge and weather-forecast cards against HA (#1095)",
@@ -458,30 +482,6 @@
         "sha": "6735ba2657fae5942414bd946904a4772d508303",
         "subject": "perf: resolve dashboard card templates off the main thread (#1040)",
         "at": "2026-10-21T22:47:48+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "08a048eb75521f0cd369fb15397c7cfae05deb84",
-        "subject": "fix(deps): update androidx to v1.3.0 (#1037)",
-        "at": "2026-10-21T18:17:02Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "7800d32749bf197e7d96b89c94b7fa23934fa234",
-        "subject": "chore(main): release 0.1.56 (#1028)",
-        "at": "2026-10-21T18:47:50+01:00",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "32642698d6a7d994dd01e11267b3bca709ab72a2",
-        "subject": "fix(deps): update rc-player-compose to 2.17.1 (#1032)",
-        "at": "2026-10-21T17:41:45+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
