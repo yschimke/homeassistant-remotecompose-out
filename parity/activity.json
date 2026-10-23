@@ -1,11 +1,43 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-23T14:23:50.110Z",
+  "generatedAt": "2026-10-23T15:11:30.236Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "32bba074ad6299de70967808afb1fd5655596d07",
+        "subject": "feat(rc-converter): draw the tile from tile.uid and put its parts on UI Builder's shelf (#1117)",
+        "at": "2026-10-23T15:32:21+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "beefb9f9ba8b9fc95804c9d9f009371678f95f88",
+        "subject": "feat: preview card styles and library designs on approximate Wear watch screens (#1119)",
+        "at": "2026-10-23T15:15:24+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "fd0ee268bdd82af6c481de358966c95d68fc6bcf",
+        "subject": "test(ha-client): record the entity state test's requests under a lock (#1118)",
+        "at": "2026-10-23T15:05:07+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "0e75cd53245cff080455d0066d5f18ce3cfc46fd",
+        "subject": "feat(design-server): edit library card designs in UI Builder and import them back (#1114)",
+        "at": "2026-10-23T14:43:56+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "684f8fb7ef4accbe3ef95d7a4ee0f3fc5a145b27",
         "subject": "chore(main): release 0.1.61 (#1100)",
@@ -450,38 +482,6 @@
         "sha": "21c369863212bf73e01a8444e3e37ed79eaeb0ad",
         "subject": "chore(deps): pin dependency java-jdk to 21.0.12+8.0.lts (#1057)",
         "at": "2026-10-22T08:55:26Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "48aea1933de87409065477f67eb915b98fb47a02",
-        "subject": "chore(main): release 0.1.57 (#1039)",
-        "at": "2026-10-22T09:19:58+01:00",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "6f641f62ba61dd4e631adec6be862002c777dc58",
-        "subject": "fix(deps): update rc-players to 2.17.3 (#1055)",
-        "at": "2026-10-22T09:19:05+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "33235eb8899fc46a16e9b637172c1234ad5ba19f",
-        "subject": "fix(deps): align player consumers with the published BOM (#1044)",
-        "at": "2026-10-22T09:16:07+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "7ed2deb401f9917044647e55e603944be68a2f79",
-        "subject": "fix(deps): update dependency androidx.compose.material3:material3 to v1.5.0-beta02 (#1035)",
-        "at": "2026-10-22T09:10:59+01:00",
         "author": "renovate[bot]",
         "previewIds": [],
         "components": []
