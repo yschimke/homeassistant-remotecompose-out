@@ -1,11 +1,43 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-23T00:13:16.438Z",
+  "generatedAt": "2026-10-23T01:04:49.117Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "86099d3807770fcd4ca624d29402382f96550069",
+        "subject": "feat(widgets): fit Wear and launcher widgets to their space, preview widgets per host (#1090)",
+        "at": "2026-10-23T01:56:23+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "061f68b9d503a74f8178f4c472b916fd4d7bc3d9",
+        "subject": "ci: seed the BuildFetch remote cache nightly from main (#1091)",
+        "at": "2026-10-23T01:43:05+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "ea6134aa0eb4955df738d7814e06bf87b3b61d36",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 4ee9889 (#1089)",
+        "at": "2026-10-23T00:36:32Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "87eae4985e74596832cbf22dc4ccc98448dbee75",
+        "subject": "docs: tell automated reviewers not to report commit attribution (#1088)",
+        "at": "2026-10-23T01:08:18+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "e6ee940107c4539ba379447cd7546c0933003cba",
         "subject": "fix: AMS spools share their row; a Wear grid shows every cell (#1087)",
@@ -450,38 +482,6 @@
         "sha": "fe05750a623ac541a188dcedc603d6e3cf227159",
         "subject": "feat(wear): one Wear widget template for every container, made concrete on the watch (#1027)",
         "at": "2026-10-21T14:14:34+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "15b2dbd188ca4511729f8eae6ff1f93f9e8e55b0",
-        "subject": "chore(main): release 0.1.55 (#1020)",
-        "at": "2026-10-21T13:45:36+01:00",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "422a2ebaac266cda9c0ffcebd2da39e6fb218af7",
-        "subject": "fix(deps): update compose-ai-tools (#1025)",
-        "at": "2026-10-21T11:40:16Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "dc868a6ada53c6b54ba7d803287397c460a382b3",
-        "subject": "fix(wear): send the watch only the values its cards read (#1024)",
-        "at": "2026-10-21T12:12:20+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "64f38db075fda08623ce1e7addcc0614d83f1ba4",
-        "subject": "test: let the dashboard scroll-jank benchmark run (#1022)",
-        "at": "2026-10-21T11:22:33+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
