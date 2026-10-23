@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-23T18:36:26.959Z",
+  "generatedAt": "2026-10-23T19:02:08.497Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "7c6f262ff1fe4535162f7f42d0fa885e2b6f1ec6",
+        "subject": "feat: apply the card information hierarchy to thermostat, humidifier and 1×1 widgets (#1132)",
+        "at": "2026-10-23T19:55:02+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "36712140df1bfdf163e03dc40bbddad934d6fd16",
         "subject": "feat(wear): name the entity in Small Button and Light widgets (#1130)",
@@ -475,14 +483,6 @@
         "subject": "fix(deps): update dependency ee.schimke.composeai:data-render-core to v3.38.0 (#1071)",
         "at": "2026-10-22T15:13:58Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "562f8d80e596508e817bebf2be656e206945d943",
-        "subject": "revert: drop the dashboard list's cache window (#1069)",
-        "at": "2026-10-22T15:40:48+01:00",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
