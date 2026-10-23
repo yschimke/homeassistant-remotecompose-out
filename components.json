@@ -844,7 +844,52 @@
                     "group": null
                 },
                 {
+                    "previewId": "ee.schimke.ha.previews.FlexBoxPreviewsKt.FlexBox_AlignItems_flexbox_alignItems",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.FlexBoxPreviewsKt.FlexBox_GrowBasis_flexbox_grow_and_basis",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.FlexBoxPreviewsKt.FlexBox_JustifyContent_flexbox_justifyContent",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.FlexBoxPreviewsKt.FlexBox_WrapColumn_flexbox_wrap_and_column",
+                    "componentId": null,
+                    "group": null
+                },
+                {
                     "previewId": "ee.schimke.ha.previews.PlayStoreGraphicsPreviewsKt.Play_Feature_1024x500_play___feature___1024x500",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.SectionFlexPreviewsKt.SectionFlowHostMobile_section_flow_host___mobile",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.SectionFlexPreviewsKt.SectionFlowHostTablet_section_flow_host___tablet",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.SectionFlexPreviewsKt.SectionFlowRemoteMobile_section_flow_remote___mobile",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.SectionFlexPreviewsKt.SectionFlowRemoteReflow_section_flow_remote___one_capture__two_widths",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.SectionFlexPreviewsKt.SectionFlowRemoteTablet_section_flow_remote___tablet",
                     "componentId": null,
                     "group": null
                 },
@@ -2657,6 +2702,75 @@
             "overloads": []
         },
         {
+            "canonicalId": "previews/ee.schimke.ha.previews.FlexBoxPreviewsKt.FlexComparison",
+            "componentIds": [],
+            "symbol": {
+                "jvmOwner": "ee.schimke.ha.previews.FlexBoxPreviewsKt",
+                "callable": "ee.schimke.ha.previews.FlexComparison",
+                "name": "FlexComparison",
+                "origin": "PROJECT",
+                "jvmName": "FlexComparison",
+                "descriptor": "(Ljava/util/List;Landroidx/compose/runtime/Composer;I)V",
+                "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/FlexBoxPreviews.kt",
+                "docs": "unavailable",
+                "receiver": null
+            },
+            "parameters": [
+                {
+                    "name": "cases",
+                    "type": "List<FlexCase>",
+                    "typeFqn": "kotlin.collections.List",
+                    "hasDefault": false,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                }
+            ],
+            "slots": [],
+            "bindings": [
+                {
+                    "previewId": "ee.schimke.ha.previews.FlexBoxPreviewsKt.FlexBox_AlignItems_flexbox_alignItems",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.FlexBoxPreviewsKt.FlexBox_GrowBasis_flexbox_grow_and_basis",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.FlexBoxPreviewsKt.FlexBox_JustifyContent_flexbox_justifyContent",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.FlexBoxPreviewsKt.FlexBox_WrapColumn_flexbox_wrap_and_column",
+                    "componentId": null,
+                    "group": null
+                }
+            ],
+            "code": {
+                "call": null,
+                "imports": [],
+                "refusedReason": "not public or internal, so a generated file cannot call it",
+                "requiredOptIns": [],
+                "androidxOptIns": []
+            },
+            "signatureKnown": true,
+            "callableFromAnotherFile": false,
+            "hasTypeParameters": false,
+            "hasContextReceivers": false,
+            "overloadsCollided": false,
+            "builder": null,
+            "requiredOptIns": [],
+            "androidxOptIns": [],
+            "overloads": []
+        },
+        {
             "canonicalId": "previews/ee.schimke.ha.previews.GarageShutterCardPreviewsKt.GarageHost",
             "componentIds": [],
             "symbol": {
@@ -2717,6 +2831,26 @@
                     "group": null
                 },
                 {
+                    "previewId": "ee.schimke.ha.previews.GarageShutterCardPreviewsKt.Garage_Closing_Dark_garage_closing__dark_",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.GarageShutterCardPreviewsKt.Garage_Closing_Light_garage_closing__light_",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.GarageShutterCardPreviewsKt.Garage_Opening_Dark_garage_opening__dark_",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.GarageShutterCardPreviewsKt.Garage_Opening_Light_garage_opening__light_",
+                    "componentId": null,
+                    "group": null
+                },
+                {
                     "previewId": "ee.schimke.ha.previews.GarageShutterCardPreviewsKt.Garage_State_Dark_garage-state__dark_",
                     "componentId": null,
                     "group": null
@@ -2733,6 +2867,16 @@
                 },
                 {
                     "previewId": "ee.schimke.ha.previews.GarageShutterCardPreviewsKt.Garage_TwoEntities_Light_garage_two-entities__light_",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.GarageShutterCardPreviewsKt.Garage_Unavailable_Dark_garage_unavailable__dark_",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.GarageShutterCardPreviewsKt.Garage_Unavailable_Light_garage_unavailable__light_",
                     "componentId": null,
                     "group": null
                 }
@@ -3177,6 +3321,75 @@
             },
             "signatureKnown": true,
             "callableFromAnotherFile": true,
+            "hasTypeParameters": false,
+            "hasContextReceivers": false,
+            "overloadsCollided": false,
+            "builder": null,
+            "requiredOptIns": [],
+            "androidxOptIns": [],
+            "overloads": []
+        },
+        {
+            "canonicalId": "previews/ee.schimke.ha.previews.SectionFlexPreviewsKt.SectionFlowPreview",
+            "componentIds": [],
+            "symbol": {
+                "jvmOwner": "ee.schimke.ha.previews.SectionFlexPreviewsKt",
+                "callable": "ee.schimke.ha.previews.SectionFlowPreview",
+                "name": "SectionFlowPreview",
+                "origin": "PROJECT",
+                "jvmName": "SectionFlowPreview",
+                "descriptor": "(ZLandroidx/compose/runtime/Composer;I)V",
+                "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/SectionFlexPreviews.kt",
+                "docs": "unavailable",
+                "receiver": null
+            },
+            "parameters": [
+                {
+                    "name": "remote",
+                    "type": "Boolean",
+                    "typeFqn": "kotlin.Boolean",
+                    "hasDefault": false,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                }
+            ],
+            "slots": [],
+            "bindings": [
+                {
+                    "previewId": "ee.schimke.ha.previews.SectionFlexPreviewsKt.SectionFlowHostMobile_section_flow_host___mobile",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.SectionFlexPreviewsKt.SectionFlowHostTablet_section_flow_host___tablet",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.SectionFlexPreviewsKt.SectionFlowRemoteMobile_section_flow_remote___mobile",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.SectionFlexPreviewsKt.SectionFlowRemoteTablet_section_flow_remote___tablet",
+                    "componentId": null,
+                    "group": null
+                }
+            ],
+            "code": {
+                "call": null,
+                "imports": [],
+                "refusedReason": "not public or internal, so a generated file cannot call it",
+                "requiredOptIns": [],
+                "androidxOptIns": []
+            },
+            "signatureKnown": true,
+            "callableFromAnotherFile": false,
             "hasTypeParameters": false,
             "hasContextReceivers": false,
             "overloadsCollided": false,
@@ -3656,6 +3869,11 @@
                 },
                 {
                     "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_Area_tier2_area",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_BambuAmsLongNames_tier2_bambu_ams__long_names_",
                     "componentId": null,
                     "group": null
                 },
@@ -4198,6 +4416,16 @@
                     "group": null
                 },
                 {
+                    "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_HomeAssistant_Dark_uber__Home_Assistant__dark_",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_HomeAssistant_Light_uber__Home_Assistant__light_",
+                    "componentId": null,
+                    "group": null
+                },
+                {
                     "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Ikea_Dark_uber__IKEA_Showroom__dark_",
                     "componentId": null,
                     "group": null
@@ -4503,6 +4731,16 @@
                     "group": null
                 },
                 {
+                    "previewId": "ee.schimke.ha.previews.UberCommonCardPreviewsKt.UberCommon_uber_common_cards",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.UberEverydayTextPreviewsKt.UberEverydayText_uber_text_cards",
+                    "componentId": null,
+                    "group": null
+                },
+                {
                     "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberCards_Braun_uber_cards__Braun",
                     "componentId": null,
                     "group": null
@@ -4519,6 +4757,16 @@
                 },
                 {
                     "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberCards_Expressive_uber_cards__Expressive",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberCards_HomeAssistant_Dark_uber_cards__Home_Assistant__dark_",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberCards_HomeAssistant_Light_uber_cards__Home_Assistant__light_",
                     "componentId": null,
                     "group": null
                 },
@@ -4564,6 +4812,16 @@
                 },
                 {
                     "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Expressive_uber_dials__Expressive",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_HomeAssistant_Dark_uber_dials__Home_Assistant__dark_",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_HomeAssistant_Light_uber_dials__Home_Assistant__light_",
                     "componentId": null,
                     "group": null
                 },
