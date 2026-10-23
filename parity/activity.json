@@ -1,11 +1,51 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-23T10:07:10.991Z",
+  "generatedAt": "2026-10-23T10:55:03.063Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "5c5420a7c4f1e2853ab49f540ae54f231d045d99",
+        "subject": "fix(deps): update compose-multiplatform to v1.13.0-beta01 (#1108)",
+        "at": "2026-10-23T10:13:04Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "a5047f0f27e9f96f5b3da273504d7dd9c0a78275",
+        "subject": "docs(site): lead with the app; the integration is an optional extra (#1107)",
+        "at": "2026-10-23T10:41:30+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "8fe560f767ea4a550c57fb0eff8d9be2eeb1b038",
+        "subject": "fix(wear): recapture a Wear app card's template when its toggle turns on or off (#1109)",
+        "at": "2026-10-23T10:35:24+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "b70a81ba1f0b8513f514288be9ba91b515bc4347",
+        "subject": "feat(wear): draw the Wear app's cards in their widget's frame (#1105)",
+        "at": "2026-10-23T10:23:11+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "3ed1174084bcf43c80ecd2a4c0455a39cd7e5ebe",
+        "subject": "docs: plan server-owned card designs (#1103)",
+        "at": "2026-10-23T10:06:14+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "5f602c549d02736554a3bc2d513e832204ffc081",
         "subject": "fix(rc-converter): drop RemoteSizeBreakpoint's transparent forcing text; capture the gauge at its preview width (#1099)",
@@ -442,46 +482,6 @@
         "sha": "aa38120495e8ea2bbb217839be464c820be88cfc",
         "subject": "feat(web): package the Wasm web app as a Wasmo app with Home Assistant OAuth sign-in (#1043)",
         "at": "2026-10-22T00:38:01+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "54235b6c99b1c32e626006c22521a381e15f9fdf",
-        "subject": "fix(deps): update dependency ee.schimke.composeai:rc-player-protocol to v2.17.2 (#1045)",
-        "at": "2026-10-21T23:22:13Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "6fccdd12aa66930afc7c8240f3b8a10accf6c6f2",
-        "subject": "fix: stop three crashes reported by Crashlytics (#1047)",
-        "at": "2026-10-22T00:20:52+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "53d7e763b20b4f91103b86667549a10892b6fc15",
-        "subject": "fix(wear): give each screen a ScreenScaffold tied to its list (#1046)",
-        "at": "2026-10-22T00:14:41+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "2273a4f8c1ce984eecec289d4aada57f21c3c26c",
-        "subject": "fix(deps): update dependency com.google.firebase:firebase-bom to v35 (#1041)",
-        "at": "2026-10-21T22:41:05Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "532d34f24b0004a1994d9793ddc0641ee71d6cde",
-        "subject": "chore: register Firebase MCP server in project config (#1042)",
-        "at": "2026-10-21T23:41:01+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
