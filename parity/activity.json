@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-23T20:37:25.680Z",
+  "generatedAt": "2026-10-23T20:49:55.193Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "f6f976bc5b16ef986d6fd04f4d01c318c4be8328",
+        "subject": "fix: polish launcher widget sizes for dials, gauge, statistic and alarm panel (#1138)",
+        "at": "2026-10-23T21:34:57+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "9a88731e32659d984d56a4d89fc523884786ce44",
         "subject": "feat(rc-converter): draw the entity card from entity.uid (#1139)",
@@ -474,14 +482,6 @@
         "sha": "049240303b587a1f9a18c6f247e750ce57d999d6",
         "subject": "feat(wear): instantiate a server Wear design that names its container frame (#1077)",
         "at": "2026-10-22T23:28:07+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "554ee2237c8ea9437b6672d611668d220b5bb6f5",
-        "subject": "build: wire up the BuildFetch remote build cache (#1075)",
-        "at": "2026-10-22T21:57:36+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
