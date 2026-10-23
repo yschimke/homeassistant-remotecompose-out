@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-23T23:09:17.802Z",
+  "generatedAt": "2026-10-23T23:20:21.176Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "72977a9c50a051686ac5efa8dd402fe03a7fd52a",
+        "subject": "feat(rc-converter): draw the clock card from clock.uid (#1154)",
+        "at": "2026-10-24T00:03:36+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "872f8515677d585d58c4775f586453042afd86f5",
         "subject": "fix: keep weighted rows inside their width, and an inline tile's stepper readable (#1153)",
@@ -475,14 +483,6 @@
         "subject": "fix(deps): update dependency ee.schimke.composeai:data-render-core to v3.39.0 (#1094)",
         "at": "2026-10-23T02:19:47Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "5482b1281f51bd502d13dd86ff0f510fb6ee7df2",
-        "subject": "fix(cards): fit narrow tiles, picture cards and placeholders in their widgets; name weather conditions (#1092)",
-        "at": "2026-10-23T03:00:46+01:00",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
