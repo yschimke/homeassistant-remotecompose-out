@@ -1,11 +1,67 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-23T16:34:43.615Z",
+  "generatedAt": "2026-10-23T18:36:26.959Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "36712140df1bfdf163e03dc40bbddad934d6fd16",
+        "subject": "feat(wear): name the entity in Small Button and Light widgets (#1130)",
+        "at": "2026-10-23T19:29:15+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "4a78ff863fd1f119366bfd0641482b0492d42ed3",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 231c72a (#1131)",
+        "at": "2026-10-23T18:16:25Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "f4dd8d20f7d0f31442de459397dc197a7591a60c",
+        "subject": "fix(app): don't call a widget's -card type a \"card card\" (#1129)",
+        "at": "2026-10-23T18:36:56+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "771cbe207a08cf476f5725e2ad854202c20781b3",
+        "subject": "feat(app): say what kind of card each home screen widget draws (#1128)",
+        "at": "2026-10-23T18:11:51+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "78076985b1fe0a96e70a8373b398f65d62e4cbc7",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to a1cc691 (#1127)",
+        "at": "2026-10-23T17:11:11Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "f4f11590ca6a40a52c3b32f636035763588a2bdb",
+        "subject": "fix(previews): size the thermostat and entity-filter previews to their cards (#1126)",
+        "at": "2026-10-23T17:49:34+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "8655ddcf7de830f33bb9a9309f904846540f9314",
+        "subject": "feat(app): install skins before a card can use them (#1125)",
+        "at": "2026-10-23T17:35:23+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "f9256ee900bd0cb1f53eb34ca13878b325dc7f7f",
         "subject": "feat: start in safe mode after a crash and check cards off-screen first (#1124)",
@@ -426,62 +482,6 @@
         "sha": "562f8d80e596508e817bebf2be656e206945d943",
         "subject": "revert: drop the dashboard list's cache window (#1069)",
         "at": "2026-10-22T15:40:48+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "34578b0fd6f9f5f76148d0e7003b218785fa0614",
-        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-daemon-bom to v3.22.0 (#1068)",
-        "at": "2026-10-22T14:14:20Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "8beef92e2af5ff97c65d0f9f9be6fbb9ca94ec3b",
-        "subject": "feat: prototype RemoteSectionCardFlow, a section flowed inside one document (#1066)",
-        "at": "2026-10-22T14:41:22+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "1d0c74045d4401d62d42a70f1617b4f3115a99e2",
-        "subject": "perf: keep a screen of dashboard rows composed around the viewport (#1065)",
-        "at": "2026-10-22T14:14:44+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "59b31f10a84886133b3b4fd1f64e9cd4429573fe",
-        "subject": "chore(main): release 0.1.58 (#1064)",
-        "at": "2026-10-22T13:21:10+01:00",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "e4d6573ce41299cd0b91b74a1a584e123f7d8959",
-        "subject": "test: diagnose the phone benchmark's startup hang (#1050)",
-        "at": "2026-10-22T11:40:20+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ddce4297cd99793cf2a99b839fb5d1a89f80005b",
-        "subject": "test: reproduce the DataStore 1.3.0 cold-start deadlock (#1056)",
-        "at": "2026-10-22T11:40:16+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "f7a92b3735c1733b119c10efd1aa4251c4ddc7db",
-        "subject": "feat: add RemoteFlexBox, a Remote Compose port of androidx FlexBox (#1061)",
-        "at": "2026-10-22T11:12:47+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
