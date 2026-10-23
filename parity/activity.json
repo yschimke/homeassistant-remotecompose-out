@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-23T20:01:49.209Z",
+  "generatedAt": "2026-10-23T20:54:24.832Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "ea3b0408555c00861f87ee83dfdacd342adaa5c2",
+        "subject": "feat: memory benchmarks for phone and watch, and trim-memory support (#1136)",
+        "at": "2026-10-23T21:09:00+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "290b593093f756615f4f5e538a769003f9e63415",
+        "subject": "chore(deps): update ghcr.io/home-assistant/home-assistant docker tag to v2026.10.3 (#1137)",
+        "at": "2026-10-23T21:08:40+01:00",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "5eb432b8f83742f8cfb16a7ea4ab7cae103819c1",
+        "subject": "feat(rc-converter): draw the button card from button.uid (#1135)",
+        "at": "2026-10-23T20:50:41+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "148f74f70faf39713b983a546229ada4e1192ccf",
         "subject": "feat(app): ship the default style's card designs as a fallback under the server's (#1133)",
@@ -459,30 +483,6 @@
         "subject": "chore(main): release 0.1.59 (#1067)",
         "at": "2026-10-22T21:52:39+01:00",
         "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "7353b0271659bc0a74c7997ee41696194d921863",
-        "subject": "fix(deps): update rc-players to 2.17.4 (#1074)",
-        "at": "2026-10-22T21:52:14+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "fdbdf409ab40174e8d46ca5958c1f0048675d0b5",
-        "subject": "fix(deps): update compose-ai-tools (#1073)",
-        "at": "2026-10-22T19:10:25Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "5b872ec44e2eee386a9d9f41021b376a564fb4de",
-        "subject": "perf: let a card's player skip recomposition on data changes (#1072)",
-        "at": "2026-10-22T19:43:25+01:00",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
