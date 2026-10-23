@@ -1,69 +1,63 @@
 # Accessibility Report
 
-_Auto-generated from `compose-preview/a11y/pr`. 8 preview(s) across 1 module(s) · 0 error(s) · 6 warning(s) · 2 info._
+_Auto-generated from `compose-preview/a11y/pr`. 8 preview(s) across 1 module(s) · 4 error(s) · 0 warning(s) · 0 info._
 
 Browse inline; image URLs are pinned to the commit SHA on the baseline branch so links keep resolving after merge.
 
-## previews
+## wear
 
-### `AlarmPanel_Dark`
+### `Play_Wear_01_Home` · `spec:width=227dp,height=227dp,dpi=320,isRound=true`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/AlarmPanel_Dark_alarm_panel_dark-f4f0d2b6.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Disarmed" is identical to that of 1 other item(s). |
-
-### `AlarmPanel_Light`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/AlarmPanel_Light_alarm_panel_light-da76f3cf.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Disarmed" is identical to that of 1 other item(s). |
-
-### `Gauge_Dark`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Gauge_Dark_gauge_dark-d3682453.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/wear/Play_Wear_01_Home_play_wear_home-4a47d00f.a11y.png" width="400" />
 
 _No findings._
 
-### `Gauge_Light`
+### `Play_Wear_04_Dashboard` · `spec:width=227dp,height=227dp,dpi=320,isRound=true`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Gauge_Light_gauge_light-d907576b.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/wear/Play_Wear_04_Dashboard_play_wear_dashboard-7216484c.a11y.png" width="400" />
 
 _No findings._
 
-### `LightCard_Dark`
+### `WearDashboardPreview` · `wearos_small_round`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/LightCard_Dark_light_card_dark-d20cc53d.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | WARNING | TouchTargetSizeCheck | android.view.View | This item's height is 26dp. Consider making the height of this touch target 32dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item. |
-| 2 | WARNING | TouchTargetSizeCheck | android.view.View | This item's height is 26dp. Consider making the height of this touch target 32dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item. |
-
-### `LightCard_Light`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/LightCard_Light_light_card_light-bd167e24.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/wear/WearDashboardPreview_Wear_dashboard-67ae6304.a11y.png" width="400" />
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | WARNING | TouchTargetSizeCheck | android.view.View | This item's height is 26dp. Consider making the height of this touch target 32dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item. |
-| 2 | WARNING | TouchTargetSizeCheck | android.view.View | This item's height is 26dp. Consider making the height of this touch target 32dp or larger. A parent container may be handling touch events for this item. If selecting the larger container performs the same action as selecting this item, consider defining this item as not clickable. If a different action is performed, consider increasing the size of this item. |
+| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 47dp. Consider making the height of this touch target 48dp or larger. |
 
-### `Thermostat_Dark`
+### `WearDashboardPreview_Braun` · `wearos_small_round`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Thermostat_Dark_thermostat_dark-8434245a.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "stepper" is identical to that of 1 other item(s). |
-
-### `Thermostat_Light`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Thermostat_Light_thermostat_light-875563bd.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/wear/WearDashboardPreview_Braun_Wear_dashboard_Braun-76c3dc20.a11y.png" width="400" />
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "stepper" is identical to that of 1 other item(s). |
+| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 47dp. Consider making the height of this touch target 48dp or larger. |
+
+### `WearDashboardPreview_Lcd` · `wearos_small_round`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/wear/WearDashboardPreview_Lcd_Wear_dashboard_LCD-3030cdfc.a11y.png" width="400" />
+
+| # | Level | Rule | Element | Message |
+|--:|---|---|---|---|
+| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 47dp. Consider making the height of this touch target 48dp or larger. |
+
+### `WearSectionPreview` · `wearos_small_round`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/wear/WearSectionPreview_Wear_section-712f72f1.a11y.png" width="400" />
+
+| # | Level | Rule | Element | Message |
+|--:|---|---|---|---|
+| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 47dp. Consider making the height of this touch target 48dp or larger. |
+
+### `WearTopLevelPreview_Demo` · `wearos_small_round`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/wear/WearTopLevelPreview_Demo_Wear_top_level_demo-7f799f8c.a11y.png" width="400" />
+
+_No findings._
+
+### `WearTopLevelPreview_Live` · `wearos_small_round`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/wear/WearTopLevelPreview_Live_Wear_top_level_live-182b60ce.a11y.png" width="400" />
+
+_No findings._
