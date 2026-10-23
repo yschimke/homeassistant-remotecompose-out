@@ -14,7 +14,7 @@ Auto-generated from `main`. Browse inline or compare against PR branches.
 | `Play_Phone_02_HomeDark` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Play_Phone_02_HomeDark_play_phone_home_dark-87829c7b.png" width="150" /> |
 | `Play_Phone_03_Discovery` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Play_Phone_03_Discovery_play_phone_discovery-8d992da7.png" width="150" /> |
 | `Play_Phone_04_Picker` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Play_Phone_04_Picker_play_phone_picker-f1c04503.png" width="150" /> |
-| `Play_Phone_05_WearWidgets` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Play_Phone_05_WearWidgets_play_phone_wear_widgets-8eb93844.png" width="150" /> |
+| `Play_Phone_05_WatchCards` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Play_Phone_05_WatchCards_play_phone_watch_cards-dc759884.png" width="150" /> |
 | `Play_Tablet10_01_Home` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Play_Tablet10_01_Home_play_10_inch_home-7ca1827e.png" width="150" /> |
 | `Play_Tablet7_01_Home` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Play_Tablet7_01_Home_play_7_inch_home-eb94cb4a.png" width="150" /> |
 | `Screen_CardActions_Placed` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Screen_CardActions_Placed_card_actions_placed-3ec2defc.png" width="150" /> |
@@ -74,7 +74,6 @@ Auto-generated from `main`. Browse inline or compare against PR branches.
 | `Screen_Settings_UsageSharing` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Screen_Settings_UsageSharing_settings_usage_sharing-65948b88.png" width="150" /> |
 | `Screen_Settings` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Screen_Settings_settings-fc99b7e6.png" width="150" /> |
 | `Screen_SyncDiagnostics` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Screen_SyncDiagnostics_sync_diagnostics-a38e8a18.png" width="150" /> |
-| `Screen_WearWidgets` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Screen_WearWidgets_wear_widgets-6b4468dd.png" width="150" /> |
 | `Screen_Widgets_Installed` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Screen_Widgets_Installed_widgets_installed-ee3431e0.png" width="150" /> |
 | `Screen_Widgets_ThemeStyle · Material3` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Screen_Widgets_ThemeStyle_widgets_theme-c6d5903f_Material3.png" width="150" /> |
 | `Screen_Widgets_ThemeStyle · TerrazzoHome` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Screen_Widgets_ThemeStyle_widgets_theme-c6d5903f_TerrazzoHome.png" width="150" /> |
@@ -648,6 +647,7 @@ Auto-generated from `main`. Browse inline or compare against PR branches.
 | Preview | Image |
 |---------|-------|
 | `WearMainActivity` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/activity__WearMainActivity.png" width="150" /> |
+| `WearWidgetConfigActivity` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/activity__WearWidgetConfigActivity.png" width="150" /> |
 | `Play_Wear_01_Home` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/Play_Wear_01_Home_play_wear_home-4a47d00f.png" width="150" /> |
 | `Play_Wear_02_WidgetLarge` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/Play_Wear_02_WidgetLarge_play_wear_widget_large-585828ec.png" width="150" /> |
 | `Play_Wear_03_WidgetSmall` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/Play_Wear_03_WidgetSmall_play_wear_widget_small-7e8331e8.png" width="150" /> |
@@ -661,6 +661,10 @@ Auto-generated from `main`. Browse inline or compare against PR branches.
 | `WearTopLevelPreview_Demo` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/WearTopLevelPreview_Demo_Wear_top_level_demo-7f799f8c.png" width="150" /> |
 | `WearTopLevelPreview_Empty` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/WearTopLevelPreview_Empty_Wear_top_level_empty-fa5d471f.png" width="150" /> |
 | `WearTopLevelPreview_Live` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/WearTopLevelPreview_Live_Wear_top_level_live-182b60ce.png" width="150" /> |
+| `WearWidgetCardPickerPreview_Empty` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/WearWidgetCardPickerPreview_Empty_Wear_widget_card_picker_empty-df46df07.png" width="150" /> |
+| `WearWidgetCardPickerPreview` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/WearWidgetCardPickerPreview_Wear_widget_card_picker-77ab7dae.png" width="150" /> |
+| `WearWidgetsPreview_Empty` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/WearWidgetsPreview_Empty_Wear_widgets_empty-811190d2.png" width="150" /> |
+| `WearWidgetsPreview` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/WearWidgetsPreview_Wear_widgets-136d5566.png" width="150" /> |
 | `WearAlarmPanelLarge` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/WearAlarmPanelLarge_wear_alarm_panel_large-c5003931.png" width="150" /> |
 | `WearAlarmPanelSmall` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/WearAlarmPanelSmall_wear_alarm_panel_small-e38f5151.png" width="150" /> |
 | `WearAreaLarge` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/WearAreaLarge_wear_area_large-0edd47c4.png" width="150" /> |
@@ -724,7 +728,7 @@ Auto-generated from `main`. Browse inline or compare against PR branches.
 | `WearVerticalStackLarge` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/WearVerticalStackLarge_wear_vertical_stack_large-6822a2ac.png" width="150" /> |
 | `WearVerticalStackSmall` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/WearVerticalStackSmall_wear_vertical_stack_small-8329a953.png" width="150" /> |
 | `WearWeatherForecastSmall` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/WearWeatherForecastSmall_wear_weather_forecast_small-95a921f7.png" width="150" /> |
-| `SlotWidgetPreview_Empty` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/SlotWidgetPreview_Empty_Slot_widget_empty_placeholder-4861b922.png" width="150" /> |
+| `SlotWidgetPreview_Empty` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/SlotWidgetPreview_Empty_Card_widget_no_card_chosen-ad8170cb.png" width="150" /> |
 | `SlotWidgetPreview_EntitiesLarge` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/SlotWidgetPreview_EntitiesLarge_Slot_widget_entities_large-2795b182.png" width="150" /> |
 | `SlotWidgetPreview_TileSmall` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/SlotWidgetPreview_TileSmall_Slot_widget_tile_small-926c14a3.png" width="150" /> |
 

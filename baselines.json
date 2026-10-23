@@ -63,12 +63,12 @@
     "sha256": "5bbf49a42ec20c3009c8c287aa45ac17029adbe5c4becb589bf799d39924e28a",
     "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt"
   },
-  "app/ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_05_WearWidgets_play \u00b7 phone \u00b7 wear widgets": {
+  "app/ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_05_WatchCards_play \u00b7 phone \u00b7 watch cards": {
     "captureLabel": "",
-    "functionName": "Play_Phone_05_WearWidgets",
+    "functionName": "Play_Phone_05_WatchCards",
     "module": "app",
-    "renderBasename": "Play_Phone_05_WearWidgets_play_phone_wear_widgets-8eb93844.png",
-    "sha256": "d4f7e2622a2255a8c723d0c92c4b1ecba34ed102fcf7df8af72757aa32fc3a50",
+    "renderBasename": "Play_Phone_05_WatchCards_play_phone_watch_cards-dc759884.png",
+    "sha256": "9c5f18714002a6b59d87f383b751d91bc9d5419d9a0310bfac6faf9ea559f010",
     "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt"
   },
   "app/ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Tablet10_01_Home_play \u00b7 10-inch \u00b7 home": {
@@ -541,14 +541,6 @@
     "module": "app",
     "renderBasename": "Screen_SyncDiagnostics_sync_diagnostics-a38e8a18.png",
     "sha256": "c541f8adc4a54b3b32199189d7036ba69c8b710bb2516979da2ea50ef1219a88",
-    "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt"
-  },
-  "app/ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_WearWidgets_wear widgets": {
-    "captureLabel": "",
-    "functionName": "Screen_WearWidgets",
-    "module": "app",
-    "renderBasename": "Screen_WearWidgets_wear_widgets-6b4468dd.png",
-    "sha256": "f3f162baf38fa89bc06179e010a66f4d1356c75133ed436d8c6c431180f807d1",
     "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt"
   },
   "app/ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Widgets_Installed_widgets \u00b7 installed": {
@@ -4935,6 +4927,14 @@
     "sha256": "cd0d9672d29f555aca5a7c03163623ef4f770d81863b8edd4b5a8e2148fe7047",
     "sourceFile": null
   },
+  "wear/activity__WearWidgetConfigActivity": {
+    "captureLabel": "",
+    "functionName": "WearWidgetConfigActivity",
+    "module": "wear",
+    "renderBasename": "activity__WearWidgetConfigActivity.png",
+    "sha256": "d88b10c58cf6868e27830f94b01a8a1611fb4446110bd1a919f2967f31b99cee",
+    "sourceFile": null
+  },
   "wear/ee.schimke.terrazzo.wear.ui.WearPreviewsKt.Play_Wear_01_Home_play \u00b7 wear \u00b7 home": {
     "captureLabel": "",
     "functionName": "Play_Wear_01_Home",
@@ -5012,7 +5012,7 @@
     "functionName": "WearSettingsPreview",
     "module": "wear",
     "renderBasename": "WearSettingsPreview_Wear_settings-866444c2.png",
-    "sha256": "422f60e75388bd1237b5b30d98359e38c9fad97a6a777216e9dea9bbd90a36b7",
+    "sha256": "a05f232aaeb04653f2701ae927414462fa0b167e900d91ab2b976a3b3c043cca",
     "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/wear/ui/WearPreviews.kt"
   },
   "wear/ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearTopLevelPreview_Demo_Wear_ top-level (demo)": {
@@ -5037,6 +5037,38 @@
     "module": "wear",
     "renderBasename": "WearTopLevelPreview_Live_Wear_top_level_live-182b60ce.png",
     "sha256": "185c9be2bdb9c4a5bf60503403ec1e971c600c40a2be90a5c72c6e37ff599ede",
+    "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/wear/ui/WearPreviews.kt"
+  },
+  "wear/ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearWidgetCardPickerPreview_Empty_Wear_ widget card picker (empty)": {
+    "captureLabel": "",
+    "functionName": "WearWidgetCardPickerPreview_Empty",
+    "module": "wear",
+    "renderBasename": "WearWidgetCardPickerPreview_Empty_Wear_widget_card_picker_empty-df46df07.png",
+    "sha256": "e9f5b5647c8fd54a21b270ba9f6a79da863ab9f095702bc77f5c1792e9ff258e",
+    "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/wear/ui/WearPreviews.kt"
+  },
+  "wear/ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearWidgetCardPickerPreview_Wear_ widget card picker": {
+    "captureLabel": "",
+    "functionName": "WearWidgetCardPickerPreview",
+    "module": "wear",
+    "renderBasename": "WearWidgetCardPickerPreview_Wear_widget_card_picker-77ab7dae.png",
+    "sha256": "fb9b1f87a94396b1addbabd64433e6d2ee1c30b575d507309485e4a169e5837c",
+    "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/wear/ui/WearPreviews.kt"
+  },
+  "wear/ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearWidgetsPreview_Empty_Wear_ widgets (empty)": {
+    "captureLabel": "",
+    "functionName": "WearWidgetsPreview_Empty",
+    "module": "wear",
+    "renderBasename": "WearWidgetsPreview_Empty_Wear_widgets_empty-811190d2.png",
+    "sha256": "1254e59e2f44980df88eef2eb7bed6bb9d0b8604e80e51a435581b278d893f54",
+    "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/wear/ui/WearPreviews.kt"
+  },
+  "wear/ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearWidgetsPreview_Wear_ widgets": {
+    "captureLabel": "",
+    "functionName": "WearWidgetsPreview",
+    "module": "wear",
+    "renderBasename": "WearWidgetsPreview_Wear_widgets-136d5566.png",
+    "sha256": "43b51b8177b7e26240be087fbde0e0abbaacd953ed17a2c0298796c1a433f32f",
     "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/wear/ui/WearPreviews.kt"
   },
   "wear/ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearAlarmPanelLarge_wear \u00b7 alarm-panel (large)": {
@@ -5543,12 +5575,12 @@
     "sha256": "f607f9cf0133e61de66ffe6608652b065ac2053f65584657025dca8332629508",
     "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/wear/widget/CardSlotWidgetPreviews.kt"
   },
-  "wear/ee.schimke.terrazzo.wear.widget.SlotWidgetPreviewsKt.SlotWidgetPreview_Empty_Slot widget \u2014 empty placeholder": {
+  "wear/ee.schimke.terrazzo.wear.widget.SlotWidgetPreviewsKt.SlotWidgetPreview_Empty_Card widget \u2014 no card chosen": {
     "captureLabel": "",
     "functionName": "SlotWidgetPreview_Empty",
     "module": "wear",
-    "renderBasename": "SlotWidgetPreview_Empty_Slot_widget_empty_placeholder-4861b922.png",
-    "sha256": "ed94e3beb913ace344694a30a5f3a2fc6f87be17ed67b84b33732ae235e8cf7d",
+    "renderBasename": "SlotWidgetPreview_Empty_Card_widget_no_card_chosen-ad8170cb.png",
+    "sha256": "b8a24b07b82448a468c78dbc9c2353b5e43b2c377089c658a2482fdc4c1211df",
     "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/wear/widget/SlotWidgetPreviews.kt"
   },
   "wear/ee.schimke.terrazzo.wear.widget.SlotWidgetPreviewsKt.SlotWidgetPreview_EntitiesLarge_Slot widget \u2014 entities (large)": {
