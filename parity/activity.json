@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-23T23:49:07.211Z",
+  "generatedAt": "2026-10-24T00:05:30.342Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "8e5f9770e31bf8266b0ab2b9f3a6bdcd7e491df8",
+        "subject": "fix(deps): update compose-ai-tools (#1159)",
+        "at": "2026-10-23T23:57:58Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "a93d0060fc9ad9b02e73ae8077707051f59110c5",
         "subject": "feat(rc-converter): draw the thermostat, humidifier and light cards from their designs (#1158)",
@@ -474,14 +482,6 @@
         "sha": "a3347767c9e510d7f63f27e2370ab9cbd9cd0510",
         "subject": "fix: don't long-press a card during a slow drag (#1096)",
         "at": "2026-10-23T08:43:29+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "7881150ae1d3ba641288b5a12f4b7a1ade313a7c",
-        "subject": "test(integration): pixel-diff the gauge and weather-forecast cards against HA (#1095)",
-        "at": "2026-10-23T08:31:31+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
