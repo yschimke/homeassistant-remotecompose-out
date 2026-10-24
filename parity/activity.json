@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-23T23:23:59.665Z",
+  "generatedAt": "2026-10-24T00:05:53.464Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "111ed52148cfafc71f3df95fa27fb11c91f362dd",
+        "subject": "feat: measure in-app card rebuilds on live data (#1155)",
+        "at": "2026-10-24T00:13:36+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "72977a9c50a051686ac5efa8dd402fe03a7fd52a",
+        "subject": "feat(rc-converter): draw the clock card from clock.uid (#1154)",
+        "at": "2026-10-24T00:03:36+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "872f8515677d585d58c4775f586453042afd86f5",
+        "subject": "fix: keep weighted rows inside their width, and an inline tile's stepper readable (#1153)",
+        "at": "2026-10-23T23:56:50+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "bcbaed640ee9ea5af7d9d1a6d11cef168316f7fe",
         "subject": "feat(rc-converter): draw the glance card from glance.uid (#1152)",
@@ -459,30 +483,6 @@
         "subject": "fix(deps): update compose-ai-tools (#1093)",
         "at": "2026-10-23T06:23:30Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "3e091649aa97790cf3977f9bd1395fe5a7abada3",
-        "subject": "fix(deps): update dependency ee.schimke.composeai:data-render-core to v3.39.0 (#1094)",
-        "at": "2026-10-23T02:19:47Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "5482b1281f51bd502d13dd86ff0f510fb6ee7df2",
-        "subject": "fix(cards): fit narrow tiles, picture cards and placeholders in their widgets; name weather conditions (#1092)",
-        "at": "2026-10-23T03:00:46+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "86099d3807770fcd4ca624d29402382f96550069",
-        "subject": "feat(widgets): fit Wear and launcher widgets to their space, preview widgets per host (#1090)",
-        "at": "2026-10-23T01:56:23+01:00",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
