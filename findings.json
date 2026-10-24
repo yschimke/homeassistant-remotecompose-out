@@ -1,182 +1,6 @@
 {
   "entries": [
     {
-      "annotatedBasename": "Play_Phone_01_HomeLight_play_phone_home_light-27629862.a11y.png",
-      "cleanBasename": "Play_Phone_01_HomeLight_play_phone_home_light-27629862.png",
-      "findings": [],
-      "functionName": "Play_Phone_01_HomeLight",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_01_HomeLight_play \u00b7 phone \u00b7 home (light)",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": "spec:width=411dp,height=731dp,dpi=320"
-    },
-    {
-      "annotatedBasename": "Play_Phone_02_HomeDark_play_phone_home_dark-87829c7b.a11y.png",
-      "cleanBasename": "Play_Phone_02_HomeDark_play_phone_home_dark-87829c7b.png",
-      "findings": [],
-      "functionName": "Play_Phone_02_HomeDark",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_02_HomeDark_play \u00b7 phone \u00b7 home (dark)",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": "spec:width=411dp,height=731dp,dpi=320"
-    },
-    {
-      "annotatedBasename": "",
-      "cleanBasename": "Play_Phone_03_Discovery_play_phone_discovery-8d992da7.png",
-      "findings": [],
-      "functionName": "Play_Phone_03_Discovery",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_03_Discovery_play \u00b7 phone \u00b7 discovery",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": "spec:width=411dp,height=731dp,dpi=320"
-    },
-    {
-      "annotatedBasename": "Play_Phone_04_Picker_play_phone_picker-f1c04503.a11y.png",
-      "cleanBasename": "Play_Phone_04_Picker_play_phone_picker-f1c04503.png",
-      "findings": [],
-      "functionName": "Play_Phone_04_Picker",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_04_Picker_play \u00b7 phone \u00b7 picker",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": "spec:width=411dp,height=731dp,dpi=320"
-    },
-    {
-      "annotatedBasename": "Play_Phone_05_WatchCards_play_phone_watch_cards-dc759884.a11y.png",
-      "cleanBasename": "Play_Phone_05_WatchCards_play_phone_watch_cards-dc759884.png",
-      "findings": [
-        {
-          "boundsInScreen": "590,168,686,264",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Move down\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "494,168,590,264",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Move up\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "686,168,782,264",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Unpin\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        }
-      ],
-      "functionName": "Play_Phone_05_WatchCards",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_05_WatchCards_play \u00b7 phone \u00b7 watch cards",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": "spec:width=411dp,height=731dp,dpi=320"
-    },
-    {
-      "annotatedBasename": "Play_Tablet10_01_Home_play_10_inch_home-7ca1827e.a11y.png",
-      "cleanBasename": "Play_Tablet10_01_Home_play_10_inch_home-7ca1827e.png",
-      "findings": [],
-      "functionName": "Play_Tablet10_01_Home",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Tablet10_01_Home_play \u00b7 10-inch \u00b7 home",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": "spec:width=800dp,height=1280dp,dpi=224"
-    },
-    {
-      "annotatedBasename": "Play_Tablet7_01_Home_play_7_inch_home-eb94cb4a.a11y.png",
-      "cleanBasename": "Play_Tablet7_01_Home_play_7_inch_home-eb94cb4a.png",
-      "findings": [],
-      "functionName": "Play_Tablet7_01_Home",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Tablet7_01_Home_play \u00b7 7-inch \u00b7 home",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": "spec:width=600dp,height=960dp,dpi=240"
-    },
-    {
-      "annotatedBasename": "Screen_CardActions_card_actions-fcba8e8e.a11y.png",
-      "cleanBasename": "Screen_CardActions_card_actions-fcba8e8e.png",
-      "findings": [],
-      "functionName": "Screen_CardActions",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardActions_card actions",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_CardActions_Placed_card_actions_placed-3ec2defc.a11y.png",
-      "cleanBasename": "Screen_CardActions_Placed_card_actions_placed-3ec2defc.png",
-      "findings": [],
-      "functionName": "Screen_CardActions_Placed",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardActions_Placed_card actions \u00b7 placed",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_CardDisabled_card_disabled-0e6ac4fe.a11y.png",
-      "cleanBasename": "Screen_CardDisabled_card_disabled-0e6ac4fe.png",
-      "findings": [],
-      "functionName": "Screen_CardDisabled",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardDisabled_card disabled",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_CardHistory_card_history-07f74f5f.a11y.png",
-      "cleanBasename": "Screen_CardHistory_card_history-07f74f5f.png",
-      "findings": [],
-      "functionName": "Screen_CardHistory",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardHistory_card history",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_CardHistory_ThemeStyle_card_history_theme-38cdf710.a11y.png",
-      "cleanBasename": "Screen_CardHistory_ThemeStyle_card_history_theme-38cdf710.png",
-      "findings": [],
-      "functionName": "Screen_CardHistory_ThemeStyle",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardHistory_ThemeStyle_card history \u00b7 theme",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_CardStyle_card_style-61803e88.a11y.png",
-      "cleanBasename": "Screen_CardStyle_card_style-61803e88.png",
-      "findings": [],
-      "functionName": "Screen_CardStyle",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardStyle_card style",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_CardStyle_Skins_card_style_skins-191d11ac.a11y.png",
-      "cleanBasename": "Screen_CardStyle_Skins_card_style_skins-191d11ac.png",
-      "findings": [],
-      "functionName": "Screen_CardStyle_Skins",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardStyle_Skins_card style \u00b7 skins",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
       "annotatedBasename": "Screen_DashboardEditor_dashboard_editor-56a52e3c.a11y.png",
       "cleanBasename": "Screen_DashboardEditor_dashboard_editor-56a52e3c.png",
       "findings": [
@@ -227,485 +51,6 @@
       "rendersDir": "app",
       "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
       "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_DashboardPicker_dashboard_picker-2e66fb7f.a11y.png",
-      "cleanBasename": "Screen_DashboardPicker_dashboard_picker-2e66fb7f.png",
-      "findings": [],
-      "functionName": "Screen_DashboardPicker",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardPicker_dashboard picker",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_DashboardPicker_ThemeStyle_dashboard_picker_theme-b5b3f158.a11y.png",
-      "cleanBasename": "Screen_DashboardPicker_ThemeStyle_dashboard_picker_theme-b5b3f158.png",
-      "findings": [],
-      "functionName": "Screen_DashboardPicker_ThemeStyle",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardPicker_ThemeStyle_dashboard picker \u00b7 theme",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_DashboardSelection_Settings_dashboard_selection_settings-c3a82a12.a11y.png",
-      "cleanBasename": "Screen_DashboardSelection_Settings_dashboard_selection_settings-c3a82a12.png",
-      "findings": [
-        {
-          "boundsInScreen": "85,527,211,653",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"checked\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.CheckBox"
-        },
-        {
-          "boundsInScreen": "85,905,211,1031",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"not checked\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.CheckBox"
-        }
-      ],
-      "functionName": "Screen_DashboardSelection_Settings",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardSelection_Settings_dashboard selection \u00b7 settings",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_DashboardSelection_Signin_dashboard_selection_signin-6c17e1a3.a11y.png",
-      "cleanBasename": "Screen_DashboardSelection_Signin_dashboard_selection_signin-6c17e1a3.png",
-      "findings": [
-        {
-          "boundsInScreen": "85,527,211,653",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"checked\" is identical to that of 3 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.CheckBox"
-        }
-      ],
-      "functionName": "Screen_DashboardSelection_Signin",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardSelection_Signin_dashboard selection \u00b7 signin",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_DashboardSelection_ThemeStyle_dashboard_selection_theme-f7657577.a11y.png",
-      "cleanBasename": "Screen_DashboardSelection_ThemeStyle_dashboard_selection_theme-f7657577.png",
-      "findings": [
-        {
-          "boundsInScreen": "85,527,211,653",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"checked\" is identical to that of 3 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.CheckBox"
-        }
-      ],
-      "functionName": "Screen_DashboardSelection_ThemeStyle",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardSelection_ThemeStyle_dashboard selection \u00b7 theme",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_DashboardTopBar_Connecting_top_bar_360dp_connecting-3d6030f9.a11y.png",
-      "cleanBasename": "Screen_DashboardTopBar_Connecting_top_bar_360dp_connecting-3d6030f9.png",
-      "findings": [],
-      "functionName": "Screen_DashboardTopBar_Connecting",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_Connecting_top bar \u00b7 360dp \u00b7 connecting",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_DashboardTopBar_Failed_top_bar_360dp_failed-8597e561.a11y.png",
-      "cleanBasename": "Screen_DashboardTopBar_Failed_top_bar_360dp_failed-8597e561.png",
-      "findings": [],
-      "functionName": "Screen_DashboardTopBar_Failed",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_Failed_top bar \u00b7 360dp \u00b7 failed",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_DashboardTopBar_LongTitle_top_bar_360dp_long_title-367dab62.a11y.png",
-      "cleanBasename": "Screen_DashboardTopBar_LongTitle_top_bar_360dp_long_title-367dab62.png",
-      "findings": [],
-      "functionName": "Screen_DashboardTopBar_LongTitle",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_LongTitle_top bar \u00b7 360dp \u00b7 long title",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_DashboardTopBar_Narrow_top_bar_360dp_switcher-c9001f3a.a11y.png",
-      "cleanBasename": "Screen_DashboardTopBar_Narrow_top_bar_360dp_switcher-c9001f3a.png",
-      "findings": [],
-      "functionName": "Screen_DashboardTopBar_Narrow",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_Narrow_top bar \u00b7 360dp \u00b7 switcher",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_DashboardTopBar_Paused_top_bar_360dp_paused-5e21611f.a11y.png",
-      "cleanBasename": "Screen_DashboardTopBar_Paused_top_bar_360dp_paused-5e21611f.png",
-      "findings": [],
-      "functionName": "Screen_DashboardTopBar_Paused",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_Paused_top bar \u00b7 360dp \u00b7 paused",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_DashboardTopBar_Phone_top_bar_412dp_switcher_agent_inline-475172f6.a11y.png",
-      "cleanBasename": "Screen_DashboardTopBar_Phone_top_bar_412dp_switcher_agent_inline-475172f6.png",
-      "findings": [],
-      "functionName": "Screen_DashboardTopBar_Phone",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_Phone_top bar \u00b7 412dp \u00b7 switcher, agent inline",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_DashboardTopBar_SingleReadOnly_top_bar_360dp_single_dashboard_read_only-c7674660.a11y.png",
-      "cleanBasename": "Screen_DashboardTopBar_SingleReadOnly_top_bar_360dp_single_dashboard_read_only-c7674660.png",
-      "findings": [],
-      "functionName": "Screen_DashboardTopBar_SingleReadOnly",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_SingleReadOnly_top bar \u00b7 360dp \u00b7 single dashboard, read only",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_DashboardView_dashboard_view-c60327e8.a11y.png",
-      "cleanBasename": "Screen_DashboardView_dashboard_view-c60327e8.png",
-      "findings": [],
-      "functionName": "Screen_DashboardView",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardView_dashboard view",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_DashboardView_PhoneLandscapeMedium_dashboard_view_phone_landscape_medium-8837149f.a11y.png",
-      "cleanBasename": "Screen_DashboardView_PhoneLandscapeMedium_dashboard_view_phone_landscape_medium-8837149f.png",
-      "findings": [],
-      "functionName": "Screen_DashboardView_PhoneLandscapeMedium",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardView_PhoneLandscapeMedium_dashboard view \u00b7 phone landscape medium",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_DashboardView_ThemeStyle_dashboard_theme-307a8ffb.a11y.png",
-      "cleanBasename": "Screen_DashboardView_ThemeStyle_dashboard_theme-307a8ffb.png",
-      "findings": [],
-      "functionName": "Screen_DashboardView_ThemeStyle",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardView_ThemeStyle_dashboard \u00b7 theme",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "",
-      "cleanBasename": "Screen_Discovery_discovery-9ef45f57.png",
-      "findings": [],
-      "functionName": "Screen_Discovery",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Discovery_discovery",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "",
-      "cleanBasename": "",
-      "findings": [],
-      "functionName": "Screen_Discovery_ThemeStyle",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Discovery_ThemeStyle_discovery \u00b7 theme",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_Logs_logs-12f4828a.a11y.png",
-      "cleanBasename": "Screen_Logs_logs-12f4828a.png",
-      "findings": [
-        {
-          "boundsInScreen": "209,844,451,970",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Connected\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "209,992,461,1118",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Connecting\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "42,886,188,928",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"22:13:20\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "209,1140,366,1266",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Error\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        }
-      ],
-      "functionName": "Screen_Logs",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Logs_logs",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_Logs_Dark_logs_dark-d93c6e7e.a11y.png",
-      "cleanBasename": "Screen_Logs_Dark_logs_dark-d93c6e7e.png",
-      "findings": [
-        {
-          "boundsInScreen": "209,844,451,970",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Connected\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "209,992,461,1118",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Connecting\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "42,886,188,928",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"22:13:20\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "209,1140,366,1266",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Error\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        }
-      ],
-      "functionName": "Screen_Logs_Dark",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Logs_Dark_logs \u00b7 dark",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_Logs_Empty_logs_empty-8162fa26.a11y.png",
-      "cleanBasename": "Screen_Logs_Empty_logs_empty-8162fa26.png",
-      "findings": [],
-      "functionName": "Screen_Logs_Empty",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Logs_Empty_logs \u00b7 empty",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_ManagePinned_manage_pinned-2ca47dc3.a11y.png",
-      "cleanBasename": "Screen_ManagePinned_manage_pinned-2ca47dc3.png",
-      "findings": [
-        {
-          "boundsInScreen": "777,222,903,348",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Move down\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "651,222,777,348",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Move up\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "903,222,1029,348",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Unpin\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        }
-      ],
-      "functionName": "Screen_ManagePinned",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_ManagePinned_manage pinned",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_ManagePinned_Empty_manage_pinned_empty-a0076758.a11y.png",
-      "cleanBasename": "Screen_ManagePinned_Empty_manage_pinned_empty-a0076758.png",
-      "findings": [],
-      "functionName": "Screen_ManagePinned_Empty",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_ManagePinned_Empty_manage pinned \u00b7 empty",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_Settings_settings-fc99b7e6.a11y.png",
-      "cleanBasename": "Screen_Settings_settings-fc99b7e6.png",
-      "findings": [],
-      "functionName": "Screen_Settings",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_settings",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_Settings_Assistants_settings_assistants-315fe373.a11y.png",
-      "cleanBasename": "Screen_Settings_Assistants_settings_assistants-315fe373.png",
-      "findings": [],
-      "functionName": "Screen_Settings_Assistants",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_Assistants_settings \u00b7 assistants",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_Settings_CardStyles_settings_card_styles-f2e3d1b3.a11y.png",
-      "cleanBasename": "Screen_Settings_CardStyles_settings_card_styles-f2e3d1b3.png",
-      "findings": [],
-      "functionName": "Screen_Settings_CardStyles",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_CardStyles_settings \u00b7 card styles",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_Settings_CardStylesOnWatch_settings_card_styles_on_a_watch-d6c9a800.a11y.png",
-      "cleanBasename": "Screen_Settings_CardStylesOnWatch_settings_card_styles_on_a_watch-d6c9a800.png",
-      "findings": [],
-      "functionName": "Screen_Settings_CardStylesOnWatch",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_CardStylesOnWatch_settings \u00b7 card styles on a watch",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_Settings_ThemeStyle_settings_theme-c88045d9.a11y.png",
-      "cleanBasename": "Screen_Settings_ThemeStyle_settings_theme-c88045d9.png",
-      "findings": [],
-      "functionName": "Screen_Settings_ThemeStyle",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_ThemeStyle_settings \u00b7 theme",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_Settings_UsageSharing_settings_usage_sharing-65948b88.a11y.png",
-      "cleanBasename": "Screen_Settings_UsageSharing_settings_usage_sharing-65948b88.png",
-      "findings": [
-        {
-          "boundsInScreen": "63,311,374,437",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Privacy policy\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        }
-      ],
-      "functionName": "Screen_Settings_UsageSharing",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_UsageSharing_settings \u00b7 usage sharing",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_SyncDiagnostics_sync_diagnostics-a38e8a18.a11y.png",
-      "cleanBasename": "Screen_SyncDiagnostics_sync_diagnostics-a38e8a18.png",
-      "findings": [
-        {
-          "boundsInScreen": "919,929,1018,982",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"never\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        }
-      ],
-      "functionName": "Screen_SyncDiagnostics",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_SyncDiagnostics_sync diagnostics",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_Widgets_widgets-47dcfa25.a11y.png",
-      "cleanBasename": "Screen_Widgets_widgets-47dcfa25.png",
-      "findings": [],
-      "functionName": "Screen_Widgets",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Widgets_widgets",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_Widgets_Installed_widgets_installed-ee3431e0.a11y.png",
-      "cleanBasename": "Screen_Widgets_Installed_widgets_installed-ee3431e0.png",
-      "findings": [],
-      "functionName": "Screen_Widgets_Installed",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Widgets_Installed_widgets \u00b7 installed",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_Widgets_ThemeStyle_widgets_theme-c6d5903f.a11y.png",
-      "cleanBasename": "Screen_Widgets_ThemeStyle_widgets_theme-c6d5903f.png",
-      "findings": [],
-      "functionName": "Screen_Widgets_ThemeStyle",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Widgets_ThemeStyle_widgets \u00b7 theme",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
     }
   ],
   "scope": "changed-previews",
@@ -713,6 +58,190 @@
     {
       "module": "app",
       "previewId": "ee.schimke.terrazzo.previews.CardDebugPreviewsKt.DataGridOverlayPreview_Data grid overlay"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_01_HomeLight_play \u00b7 phone \u00b7 home (light)"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_02_HomeDark_play \u00b7 phone \u00b7 home (dark)"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_03_Discovery_play \u00b7 phone \u00b7 discovery"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_04_Picker_play \u00b7 phone \u00b7 picker"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_05_WatchCards_play \u00b7 phone \u00b7 watch cards"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Tablet10_01_Home_play \u00b7 10-inch \u00b7 home"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Tablet7_01_Home_play \u00b7 7-inch \u00b7 home"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardActions_Placed_card actions \u00b7 placed"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardActions_card actions"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardDisabled_card disabled"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardHistory_ThemeStyle_card history \u00b7 theme"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardHistory_card history"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardStyle_Skins_card style \u00b7 skins"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardStyle_card style"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardPicker_ThemeStyle_dashboard picker \u00b7 theme"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardPicker_dashboard picker"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardSelection_Settings_dashboard selection \u00b7 settings"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardSelection_Signin_dashboard selection \u00b7 signin"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardSelection_ThemeStyle_dashboard selection \u00b7 theme"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_Connecting_top bar \u00b7 360dp \u00b7 connecting"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_Failed_top bar \u00b7 360dp \u00b7 failed"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_LongTitle_top bar \u00b7 360dp \u00b7 long title"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_Narrow_top bar \u00b7 360dp \u00b7 switcher"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_Paused_top bar \u00b7 360dp \u00b7 paused"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_Phone_top bar \u00b7 412dp \u00b7 switcher, agent inline"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_SingleReadOnly_top bar \u00b7 360dp \u00b7 single dashboard, read only"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardView_PhoneLandscapeMedium_dashboard view \u00b7 phone landscape medium"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardView_ThemeStyle_dashboard \u00b7 theme"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardView_dashboard view"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Discovery_ThemeStyle_discovery \u00b7 theme"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Discovery_discovery"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Logs_Dark_logs \u00b7 dark"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Logs_Empty_logs \u00b7 empty"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Logs_logs"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_ManagePinned_Empty_manage pinned \u00b7 empty"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_ManagePinned_manage pinned"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_Assistants_settings \u00b7 assistants"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_CardStylesOnWatch_settings \u00b7 card styles on a watch"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_CardStyles_settings \u00b7 card styles"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_ThemeStyle_settings \u00b7 theme"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_UsageSharing_settings \u00b7 usage sharing"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_settings"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_SyncDiagnostics_sync diagnostics"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Widgets_Installed_widgets \u00b7 installed"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Widgets_ThemeStyle_widgets \u00b7 theme"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Widgets_widgets"
     }
   ]
 }
