@@ -1,6 +1,6 @@
 # Accessibility Report
 
-_Auto-generated from `compose-preview/a11y/pr`. 52 preview(s) across 1 module(s) · 0 error(s) · 21 warning(s) · 7 info._
+_Auto-generated from `compose-preview/a11y/pr`. 56 preview(s) across 2 module(s) · 0 error(s) · 21 warning(s) · 9 info._
 
 Browse inline; image URLs are pinned to the commit SHA on the baseline branch so links keep resolving after merge.
 
@@ -269,6 +269,12 @@ _No findings._
 
 _No findings._
 
+### `Screen_MoreInfo_Numeric_CardStyle`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_MoreInfo_Numeric_CardStyle_more_info_numeric_card_style-c36e21b7.a11y.png" width="400" />
+
+_No findings._
+
 ### `Screen_MoreInfo_Numeric_ThemeStyle`
 
 <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_MoreInfo_Numeric_ThemeStyle_more_info_numeric_theme-2b5f27e9.a11y.png" width="400" />
@@ -278,6 +284,15 @@ _No findings._
 ### `Screen_MoreInfo_OnOff`
 
 <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_MoreInfo_OnOff_more_info_on_off-2bbf73ba.a11y.png" width="400" />
+
+| # | Level | Rule | Element | Message |
+|--:|---|---|---|---|
+| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "09:25" is identical to that of 1 other item(s). |
+| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "On" is identical to that of 1 other item(s). |
+
+### `Screen_MoreInfo_OnOff_CardStyle`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_MoreInfo_OnOff_CardStyle_more_info_on_off_card_style-154b8d7c.a11y.png" width="400" />
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
@@ -354,5 +369,19 @@ _No findings._
 ### `Screen_Widgets_ThemeStyle`
 
 <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_Widgets_ThemeStyle_widgets_theme-c6d5903f.a11y.png" width="400" />
+
+_No findings._
+
+## previews
+
+### `ImageUrl_Probe_Frame0`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/ImageUrl_Probe_Frame0_image_url_probe_frame_0-1464413f.png" width="400" />
+
+_No findings._
+
+### `ImageUrl_Probe_Frame1`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/ImageUrl_Probe_Frame1_image_url_probe_frame_1-97608c2e.png" width="400" />
 
 _No findings._
