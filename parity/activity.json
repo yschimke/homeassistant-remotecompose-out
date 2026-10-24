@@ -1,11 +1,59 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-24T19:25:01.834Z",
+  "generatedAt": "2026-10-24T21:26:49.884Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "0aa02728c8ea47ea4cf39fd1ab10c01dc510b7ac",
+        "subject": "feat: build the card stack for wasmJs and iOS (#1191)",
+        "at": "2026-10-24T22:18:15+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "e3b4e26c61b13376da24ab4157f6559069ec7909",
+        "subject": "feat(app-ui): log card designs the library couldn't match exactly (#1192)",
+        "at": "2026-10-24T22:10:46+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "ed9b056133549dec5e3a335d602667882ea89753",
+        "subject": "chore(deps): update ghcr.io/home-assistant/home-assistant docker tag to v2026.10.4 (#1190)",
+        "at": "2026-10-24T20:47:44Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "121f327499a4178119b21c4a92e6389340d44663",
+        "subject": "feat(app-ui): theme the web app with the card style and HA, footer navigation and full screen (#1189)",
+        "at": "2026-10-24T21:30:01+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "c1e3b134fe5d0f0adc590319294f0f1db178784e",
+        "subject": "fix(deps): update compose-ai-tools (#1185)",
+        "at": "2026-10-24T20:11:49Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "7dbd849705958accf3b6f9c57d57821ecc334700",
+        "subject": "fix(hacs): publish HACS releases from the -out repository (#1188)",
+        "at": "2026-10-24T20:35:09+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "8cbdc75f44d6dcf5403cd8f11499d709b86a6f9e",
         "subject": "fix(deps): update rc-players to 2.18.0 (#1187)",
@@ -434,54 +482,6 @@
         "sha": "148f74f70faf39713b983a546229ada4e1192ccf",
         "subject": "feat(app): ship the default style's card designs as a fallback under the server's (#1133)",
         "at": "2026-10-23T20:23:04+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "bbce3210099289609ca54beb436e823cab33c14d",
-        "subject": "feat(wear): don't offer a small-only card for a Large widget (#1134)",
-        "at": "2026-10-23T20:13:31+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "7c6f262ff1fe4535162f7f42d0fa885e2b6f1ec6",
-        "subject": "feat: apply the card information hierarchy to thermostat, humidifier and 1×1 widgets (#1132)",
-        "at": "2026-10-23T19:55:02+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "36712140df1bfdf163e03dc40bbddad934d6fd16",
-        "subject": "feat(wear): name the entity in Small Button and Light widgets (#1130)",
-        "at": "2026-10-23T19:29:15+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "4a78ff863fd1f119366bfd0641482b0492d42ed3",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 231c72a (#1131)",
-        "at": "2026-10-23T18:16:25Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "f4dd8d20f7d0f31442de459397dc197a7591a60c",
-        "subject": "fix(app): don't call a widget's -card type a \"card card\" (#1129)",
-        "at": "2026-10-23T18:36:56+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "771cbe207a08cf476f5725e2ad854202c20781b3",
-        "subject": "feat(app): say what kind of card each home screen widget draws (#1128)",
-        "at": "2026-10-23T18:11:51+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
