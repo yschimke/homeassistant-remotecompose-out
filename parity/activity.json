@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-24T00:45:13.661Z",
+  "generatedAt": "2026-10-24T01:33:22.689Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "bc2f839a45bd6e4449a45c5ea1caaccad51f428b",
+        "subject": "feat(rc-converter): draw the logbook, calendar and to-do list cards from their designs (#1163)",
+        "at": "2026-10-24T01:42:38+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "985d1e385e81ef94a4cbdfb37a0a05f6bafd143b",
+        "subject": "fix(rc-converter): capture card design templates under a pinned clock (#1161)",
+        "at": "2026-10-24T01:31:24+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "7f6bb06cf06f752c9921662ee3f99a2c79f60e67",
+        "subject": "feat(rc-converter): draw the gauge and statistic cards from their designs (#1160)",
+        "at": "2026-10-24T01:15:03+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "8e5f9770e31bf8266b0ab2b9f3a6bdcd7e491df8",
         "subject": "fix(deps): update compose-ai-tools (#1159)",
@@ -458,30 +482,6 @@
         "sha": "5f602c549d02736554a3bc2d513e832204ffc081",
         "subject": "fix(rc-converter): drop RemoteSizeBreakpoint's transparent forcing text; capture the gauge at its preview width (#1099)",
         "at": "2026-10-23T09:55:05+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "087eff8aeb162aa14eab09030dc9906f51c9187c",
-        "subject": "perf(wear): first frame is the pinned list; benchmark real cards (#1102)",
-        "at": "2026-10-23T09:51:25+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "2f438f5bdda82daad50ebf8737e4119d2ccf1a37",
-        "subject": "perf: draw the dashboard, with its cards, as the first frame (#1097)",
-        "at": "2026-10-23T09:17:52+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a3347767c9e510d7f63f27e2370ab9cbd9cd0510",
-        "subject": "fix: don't long-press a card during a slow drag (#1096)",
-        "at": "2026-10-23T08:43:29+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
