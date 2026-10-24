@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-24T16:59:57.410Z",
+  "generatedAt": "2026-10-24T19:25:01.834Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "8cbdc75f44d6dcf5403cd8f11499d709b86a6f9e",
+        "subject": "fix(deps): update rc-players to 2.18.0 (#1187)",
+        "at": "2026-10-24T20:17:35+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "26ebc3c8800a01f07173c6ff1afedc6cdaf7a5e7",
+        "subject": "chore: remove unreferenced historical evidence bundles (#1053)",
+        "at": "2026-10-24T19:53:12+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "ca33f570db36c3f7415292fc73c157bd8dca617a",
+        "subject": "ci: opt the design-artifacts catalog into the cmp-android parity lane (#1186)",
+        "at": "2026-10-24T18:36:05+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "6fd494fb29ae170f0158217f86fcbd087807df3b",
         "subject": "fix(rc-components): draw the IKEA key chrome once on arc dial steppers (#1184)",
@@ -458,30 +482,6 @@
         "sha": "771cbe207a08cf476f5725e2ad854202c20781b3",
         "subject": "feat(app): say what kind of card each home screen widget draws (#1128)",
         "at": "2026-10-23T18:11:51+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "78076985b1fe0a96e70a8373b398f65d62e4cbc7",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to a1cc691 (#1127)",
-        "at": "2026-10-23T17:11:11Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "f4f11590ca6a40a52c3b32f636035763588a2bdb",
-        "subject": "fix(previews): size the thermostat and entity-filter previews to their cards (#1126)",
-        "at": "2026-10-23T17:49:34+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "8655ddcf7de830f33bb9a9309f904846540f9314",
-        "subject": "feat(app): install skins before a card can use them (#1125)",
-        "at": "2026-10-23T17:35:23+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
