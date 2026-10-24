@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-24T00:21:50.037Z",
+  "generatedAt": "2026-10-24T00:43:23.315Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "985d1e385e81ef94a4cbdfb37a0a05f6bafd143b",
+        "subject": "fix(rc-converter): capture card design templates under a pinned clock (#1161)",
+        "at": "2026-10-24T01:31:24+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "7f6bb06cf06f752c9921662ee3f99a2c79f60e67",
         "subject": "feat(rc-converter): draw the gauge and statistic cards from their designs (#1160)",
@@ -474,14 +482,6 @@
         "sha": "087eff8aeb162aa14eab09030dc9906f51c9187c",
         "subject": "perf(wear): first frame is the pinned list; benchmark real cards (#1102)",
         "at": "2026-10-23T09:51:25+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "2f438f5bdda82daad50ebf8737e4119d2ccf1a37",
-        "subject": "perf: draw the dashboard, with its cards, as the first frame (#1097)",
-        "at": "2026-10-23T09:17:52+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
