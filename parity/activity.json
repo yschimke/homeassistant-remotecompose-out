@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-24T14:36:28.866Z",
+  "generatedAt": "2026-10-24T14:58:23.572Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "e8d6384f210b60523e3761acc2c53e1022af9f7c",
+        "subject": "refactor(rc-components): build for JVM on the Compose Multiplatform creation fork (#1182)",
+        "at": "2026-10-24T15:50:50+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "e2606e0ebd6c4fce004de16cdd4f4bc65687be96",
         "subject": "refactor(rc-components): build paints with RemotePaint, not android.graphics.Paint (#1181)",
@@ -474,14 +482,6 @@
         "sha": "a7c49b6468902f7915b217a5fc05aabd1e7012e7",
         "subject": "feat: choose a card's design per card, by stable design id (#1115)",
         "at": "2026-10-23T16:52:49+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "63924b1fd272f34fd4aa755af2b40b2a55ceac81",
-        "subject": "feat: make every card player an error boundary (#1121)",
-        "at": "2026-10-23T16:36:37+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
