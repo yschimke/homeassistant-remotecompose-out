@@ -6,12 +6,12 @@
         "platform": "remote-compose",
         "platformLabel": "RemoteCompose · Home Assistant cards",
         "module": "ha-cards-catalog",
-        "variant": "debug"
+        "variant": "androidMain"
     },
     "record": {
         "file": "components.json",
         "schemaVersion": 2,
-        "components": 25
+        "components": 23
     },
     "statusSemantics": {
         "platform": "remote-compose",
@@ -91,9 +91,6 @@
                 },
                 "ha-cards/status-chip": {
                     "group": "Home Assistant"
-                },
-                "ha-cards/card-surface": {
-                    "group": "Containment"
                 },
                 "ha-cards/thermometer": {
                     "group": "Measurements"
@@ -594,28 +591,6 @@
                         ]
                     }
                 },
-                "shelfRole": null,
-                "exportProjection": null
-            },
-            "ha-cards/remote-icon": {
-                "record": "ha-cards-catalog/androidx.wear.compose.remote.material3.RemoteIconKt.RemoteIcon",
-                "catalogId": null,
-                "displayName": null,
-                "canvas": null,
-                "canvasMapping": null,
-                "unrolled": null,
-                "nativeOnly": false,
-                "traits": [],
-                "slots": {},
-                "stateCallbacks": {},
-                "starter": {},
-                "variantProperty": null,
-                "variants": {},
-                "excluded": "Recorded only because HaCardIcon calls it. RemoteIcon takes a captured ImageVector no design value can spell; place `ha-cards/icon`, which names one by key.",
-                "propertyCapabilities": null,
-                "slotCapabilities": null,
-                "modifierCapabilities": null,
-                "insertContent": null,
                 "shelfRole": null,
                 "exportProjection": null
             },
@@ -1804,32 +1779,6 @@
                 "shelfRole": null,
                 "exportProjection": null
             },
-            "ha-cards/card-surface": {
-                "record": "ha-cards-catalog/ee.schimke.ha.cards.HaCardComponentsKt.HaCardSurface",
-                "catalogId": null,
-                "displayName": "Card surface",
-                "canvas": "layout/box",
-                "canvasMapping": {
-                    "slots": {
-                        "children": "content"
-                    }
-                },
-                "unrolled": null,
-                "nativeOnly": false,
-                "traits": [],
-                "slots": {},
-                "stateCallbacks": {},
-                "starter": {},
-                "variantProperty": null,
-                "variants": {},
-                "excluded": null,
-                "propertyCapabilities": null,
-                "slotCapabilities": null,
-                "modifierCapabilities": null,
-                "insertContent": null,
-                "shelfRole": null,
-                "exportProjection": null
-            },
             "ha-cards/thermometer": {
                 "record": "ha-cards-catalog/ee.schimke.ha.cards.HaCardComponentsKt.HaCardThermometer",
                 "catalogId": null,
@@ -2241,11 +2190,6 @@
     },
     "diagnostics": [
         {
-            "code": "component.excluded",
-            "subject": "ha-cards/remote-icon",
-            "message": "kept off the builder's shelf: Recorded only because HaCardIcon calls it. RemoteIcon takes a captured ImageVector no design value can spell; place `ha-cards/icon`, which names one by key."
-        },
-        {
             "code": "component.canvas.unclaimed",
             "subject": "ha-cards/arc-meter",
             "message": "no canvas adapter claimed, so it draws as a placeholder. That is the honest default and needs no fixing; it is reported so a shelf drawn entirely in placeholders is visible rather than mysterious."
@@ -2334,6 +2278,16 @@
             "code": "component.excluded",
             "subject": "ha-cards/ha-card-sticker",
             "message": "kept off the builder's shelf: The sticker frame every preview in this module renders through, not a component."
+        },
+        {
+            "code": "component.policy.orphaned",
+            "subject": "ha-cards/card-surface",
+            "message": "ui-builder.policy.json states a policy for \"ha-cards/card-surface\", which joins no component in this record, so every field in it does nothing. Check its `record` canonicalId or its builder id against components.json."
+        },
+        {
+            "code": "component.policy.orphaned",
+            "subject": "ha-cards/remote-icon",
+            "message": "ui-builder.policy.json states a policy for \"ha-cards/remote-icon\", which joins no component in this record, so every field in it does nothing. Check its `record` canonicalId or its builder id against components.json."
         },
         {
             "code": "component.policy.orphaned",

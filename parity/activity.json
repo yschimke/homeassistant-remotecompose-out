@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-24T21:26:49.884Z",
+  "generatedAt": "2026-10-24T21:53:34.675Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "6256d4a4e29cdb0d2e134ca63612eaa9312b518d",
+        "subject": "feat(ha-cards-catalog): make the card design renderer multiplatform (#1193)",
+        "at": "2026-10-24T22:48:15+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "b23ec51248e684a42a4af1c6bcb4569ba8b86dc3",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 2ddbff5 (#1194)",
+        "at": "2026-10-24T22:47:38+01:00",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "0aa02728c8ea47ea4cf39fd1ab10c01dc510b7ac",
         "subject": "feat: build the card stack for wasmJs and iOS (#1191)",
@@ -467,22 +483,6 @@
         "subject": "chore(deps): update ghcr.io/home-assistant/home-assistant docker tag to v2026.10.3 (#1137)",
         "at": "2026-10-23T21:08:40+01:00",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "5eb432b8f83742f8cfb16a7ea4ab7cae103819c1",
-        "subject": "feat(rc-converter): draw the button card from button.uid (#1135)",
-        "at": "2026-10-23T20:50:41+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "148f74f70faf39713b983a546229ada4e1192ccf",
-        "subject": "feat(app): ship the default style's card designs as a fallback under the server's (#1133)",
-        "at": "2026-10-23T20:23:04+01:00",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
