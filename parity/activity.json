@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-24T03:05:30.390Z",
+  "generatedAt": "2026-10-24T04:00:46.822Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "3fdd452405e486566d4c7b9ba3488161db1ab3c5",
+        "subject": "feat(rc-converter): draw the picture cards from their designs (#1156)",
+        "at": "2026-10-24T03:44:41+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "86fd63c9609d17e725d937535c24fe85c8c4ec9c",
         "subject": "chore(deps): update yschimke/compose-ai-tools digest to 5520a32 (#1167)",
@@ -475,14 +483,6 @@
         "subject": "feat(card-designs): draw UI Builder card designs in-repo, starting with the tile (#1106)",
         "at": "2026-10-23T12:12:53+01:00",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "354db6159950d01eae5508f0ddcd25ddc8ece0f8",
-        "subject": "fix(deps): update dependency org.jetbrains.androidx.navigation3:navigation3-ui to v1.2.0 (#1110)",
-        "at": "2026-10-23T10:39:01Z",
-        "author": "renovate[bot]",
         "previewIds": [],
         "components": []
       }
