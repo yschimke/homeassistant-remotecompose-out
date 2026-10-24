@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-24T01:30:06.780Z",
+  "generatedAt": "2026-10-24T01:49:20.311Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "6a37c28be19f6e71600510b3db6d1d06ee5ceea9",
+        "subject": "feat(rc-converter): draw the alarm-panel, map and picture-elements cards from their designs (#1166)",
+        "at": "2026-10-24T02:37:39+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "3199dad57c3a4454b2da1d2b0885f752db161fe4",
+        "subject": "feat(app): edit dashboards on the phone, with a live grid editor and agent handoff (#1162)",
+        "at": "2026-10-24T02:23:31+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "99597312ef646d19e88cf39ea5d4921883448f14",
         "subject": "fix: no flicker or main-thread capture when a card on screen rebuilds (#1157)",
@@ -466,22 +482,6 @@
         "sha": "a5047f0f27e9f96f5b3da273504d7dd9c0a78275",
         "subject": "docs(site): lead with the app; the integration is an optional extra (#1107)",
         "at": "2026-10-23T10:41:30+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "8fe560f767ea4a550c57fb0eff8d9be2eeb1b038",
-        "subject": "fix(wear): recapture a Wear app card's template when its toggle turns on or off (#1109)",
-        "at": "2026-10-23T10:35:24+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "b70a81ba1f0b8513f514288be9ba91b515bc4347",
-        "subject": "feat(wear): draw the Wear app's cards in their widget's frame (#1105)",
-        "at": "2026-10-23T10:23:11+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
