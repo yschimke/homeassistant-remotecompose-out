@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-24T14:25:14.868Z",
+  "generatedAt": "2026-10-24T15:11:39.019Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "e2606e0ebd6c4fce004de16cdd4f4bc65687be96",
+        "subject": "refactor(rc-components): build paints with RemotePaint, not android.graphics.Paint (#1181)",
+        "at": "2026-10-24T15:29:16+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "a6bb4c79a7b109379ce440f132bf95aae105d7b1",
         "subject": "refactor(rc-components): draw without Wear remote-material3 (#1180)",
@@ -474,14 +482,6 @@
         "sha": "63924b1fd272f34fd4aa755af2b40b2a55ceac81",
         "subject": "feat: make every card player an error boundary (#1121)",
         "at": "2026-10-23T16:36:37+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "9605e1b70112141600f1dba38211dfd60d389b47",
-        "subject": "test(app): tap the IME test's last action once the keyboard has settled (#1122)",
-        "at": "2026-10-23T16:16:51+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
