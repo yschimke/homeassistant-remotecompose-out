@@ -1,11 +1,67 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-24T10:06:20.613Z",
+  "generatedAt": "2026-10-24T13:56:09.932Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "a6bb4c79a7b109379ce440f132bf95aae105d7b1",
+        "subject": "refactor(rc-components): draw without Wear remote-material3 (#1180)",
+        "at": "2026-10-24T14:48:43+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "7beae9b0a35c9a1ea685a06e3749cc2252b083fd",
+        "subject": "feat: card styles that theme the whole app; skinned card actions sheet (#1177)",
+        "at": "2026-10-24T14:36:29+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "0760739e456f71d72ac4beaa0f066aa6ce4a3365",
+        "subject": "feat(integration): dashboard edit sessions, where agents draft and people apply (#1178)",
+        "at": "2026-10-24T14:36:26+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "ded11ba8d9be38d70736a92a15d000a1d34b0c6e",
+        "subject": "docs: plan for every card's template to come from the design server (#1179)",
+        "at": "2026-10-24T14:09:30+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "3ebbf39bdf823e41f0202a5082abab13ad7449c4",
+        "subject": "docs: describe the Wasmo Install App route for the Wasmo app (#1176)",
+        "at": "2026-10-24T13:41:29+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "9ce7dacd7f89f66121d4840d8a1cd192185f2bea",
+        "subject": "feat(app): keep phone dashboard editing light, and point further editing at the integration (#1175)",
+        "at": "2026-10-24T13:17:27+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "8cc213855e0895dbe83ffdd8b7c859c3e8fe8708",
+        "subject": "feat: skinned more-info sheet with history chart (#1172)",
+        "at": "2026-10-24T11:37:35+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "b6f81aa4cb1ae9f3cd723343b5c393192b3b3e74",
         "subject": "feat(rc-converter): draw the Bambu Lab cards from their designs (#1171)",
@@ -427,62 +483,6 @@
         "subject": "test(app): tap the IME test's last action once the keyboard has settled (#1122)",
         "at": "2026-10-23T16:16:51+01:00",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "32bba074ad6299de70967808afb1fd5655596d07",
-        "subject": "feat(rc-converter): draw the tile from tile.uid and put its parts on UI Builder's shelf (#1117)",
-        "at": "2026-10-23T15:32:21+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "beefb9f9ba8b9fc95804c9d9f009371678f95f88",
-        "subject": "feat: preview card styles and library designs on approximate Wear watch screens (#1119)",
-        "at": "2026-10-23T15:15:24+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "fd0ee268bdd82af6c481de358966c95d68fc6bcf",
-        "subject": "test(ha-client): record the entity state test's requests under a lock (#1118)",
-        "at": "2026-10-23T15:05:07+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "0e75cd53245cff080455d0066d5f18ce3cfc46fd",
-        "subject": "feat(design-server): edit library card designs in UI Builder and import them back (#1114)",
-        "at": "2026-10-23T14:43:56+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "684f8fb7ef4accbe3ef95d7a4ee0f3fc5a145b27",
-        "subject": "chore(main): release 0.1.61 (#1100)",
-        "at": "2026-10-23T14:39:29+01:00",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "724b943ff876b848bdd1f8c0773e5a66468307f2",
-        "subject": "perf(wear): minify the release build with R8 (#1112)",
-        "at": "2026-10-23T14:38:41+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "25347b311c52192f5c5cec80c87b9e900f351f7f",
-        "subject": "chore(deps): update compose-ai-tools (#1111)",
-        "at": "2026-10-23T13:19:09Z",
-        "author": "renovate[bot]",
         "previewIds": [],
         "components": []
       }
