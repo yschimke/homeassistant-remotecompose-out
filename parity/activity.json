@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-24T04:02:31.392Z",
+  "generatedAt": "2026-10-24T10:06:20.613Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "b6f81aa4cb1ae9f3cd723343b5c393192b3b3e74",
+        "subject": "feat(rc-converter): draw the Bambu Lab cards from their designs (#1171)",
+        "at": "2026-10-24T10:59:48+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "a9d0411bf8f543e2443657235cf600f79a681074",
+        "subject": "chore(main): release 0.1.63 (#1149)",
+        "at": "2026-10-24T09:49:29+01:00",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "a926de7546c892c97a2f8e469d163df6bba92e1a",
         "subject": "feat(rc-converter): draw the vertical-stack, horizontal-stack and grid cards from their designs (#1169)",
@@ -467,22 +483,6 @@
         "subject": "chore(deps): update compose-ai-tools (#1111)",
         "at": "2026-10-23T13:19:09Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "da810909dba820c5b60e3b59db7e81df6714257f",
-        "subject": "fix(wear): read a kept widget card's values when the phone stops sending them (#1116)",
-        "at": "2026-10-23T14:10:54+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "1c6c31af71366b1c5d55a634723e0b73a26511ad",
-        "subject": "feat(wear): choose a Wear widget's card on the watch, not the phone (#1113)",
-        "at": "2026-10-23T13:52:57+01:00",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
