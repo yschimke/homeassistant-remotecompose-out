@@ -1,6 +1,6 @@
 # Accessibility Report
 
-_Auto-generated from `compose-preview/a11y/pr`. 49 preview(s) across 2 module(s) · 14 error(s) · 25 warning(s) · 5 info._
+_Auto-generated from `compose-preview/a11y/pr`. 48 preview(s) across 1 module(s) · 0 error(s) · 21 warning(s) · 3 info._
 
 Browse inline; image URLs are pinned to the commit SHA on the baseline branch so links keep resolving after merge.
 
@@ -100,18 +100,8 @@ _No findings._
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | ERROR | SpeakableTextPresentCheck | android.view.View | This item may not have a label readable by screen readers. |
-| 2 | ERROR | SpeakableTextPresentCheck | android.view.View | This item may not have a label readable by screen readers. |
-| 3 | ERROR | SpeakableTextPresentCheck | android.view.View | This item may not have a label readable by screen readers. |
-| 4 | ERROR | SpeakableTextPresentCheck | android.view.View | This item may not have a label readable by screen readers. |
-| 5 | ERROR | SpeakableTextPresentCheck | android.view.View | This item may not have a label readable by screen readers. |
-| 6 | ERROR | SpeakableTextPresentCheck | android.view.View | This item may not have a label readable by screen readers. |
-| 7 | ERROR | SpeakableTextPresentCheck | android.view.View | This item may not have a label readable by screen readers. |
-| 8 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Move section down" is identical to that of 1 other item(s). |
-| 9 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Delete section" is identical to that of 1 other item(s). |
-| 10 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="Card 1: heading" | This non-clickable item's speakable text: "Not selected, Card 1: heading" is identical to that of 1 other item(s). |
-| 11 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Move section up" is identical to that of 1 other item(s). |
-| 12 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Add card" is identical to that of 1 other item(s). |
+| 1 | WARNING | DuplicateSpeakableTextCheck | android.view.View  desc="Card 1: heading" | This clickable item's speakable text: "Not selected, Card 1: heading" is identical to that of 1 other item(s). |
+| 2 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Add card" is identical to that of 1 other item(s). |
 
 ### `Screen_DashboardEditor_Selected`
 
@@ -119,18 +109,8 @@ _No findings._
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | ERROR | SpeakableTextPresentCheck | android.view.View | This item may not have a label readable by screen readers. |
-| 2 | ERROR | SpeakableTextPresentCheck | android.view.View | This item may not have a label readable by screen readers. |
-| 3 | ERROR | SpeakableTextPresentCheck | android.view.View | This item may not have a label readable by screen readers. |
-| 4 | ERROR | SpeakableTextPresentCheck | android.view.View | This item may not have a label readable by screen readers. |
-| 5 | ERROR | SpeakableTextPresentCheck | android.view.View | This item may not have a label readable by screen readers. |
-| 6 | ERROR | SpeakableTextPresentCheck | android.view.View | This item may not have a label readable by screen readers. |
-| 7 | ERROR | SpeakableTextPresentCheck | android.view.View | This item may not have a label readable by screen readers. |
-| 8 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Move section up" is identical to that of 1 other item(s). |
-| 9 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Move section down" is identical to that of 1 other item(s). |
-| 10 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Delete section" is identical to that of 1 other item(s). |
-| 11 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="Card 1: heading" | This non-clickable item's speakable text: "Not selected, Card 1: heading" is identical to that of 1 other item(s). |
-| 12 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Add card" is identical to that of 1 other item(s). |
+| 1 | WARNING | DuplicateSpeakableTextCheck | android.view.View  desc="Card 1: heading" | This clickable item's speakable text: "Not selected, Card 1: heading" is identical to that of 1 other item(s). |
+| 2 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Add card" is identical to that of 1 other item(s). |
 
 ### `Screen_DashboardPicker`
 
@@ -344,13 +324,5 @@ _No findings._
 ### `Screen_Widgets_ThemeStyle`
 
 <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_Widgets_ThemeStyle_widgets_theme-c6d5903f.a11y.png" width="400" />
-
-_No findings._
-
-## previews
-
-### `ImageUrl_Probe_Frame0`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/ImageUrl_Probe_Frame0_image_url_probe_frame_0-1464413f.png" width="400" />
 
 _No findings._
