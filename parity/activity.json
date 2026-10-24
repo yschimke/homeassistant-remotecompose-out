@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-24T02:51:40.108Z",
+  "generatedAt": "2026-10-24T03:36:58.695Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "7047faa4d92aadaa7809e623124747a3dde93795",
+        "subject": "feat(rc-converter): draw the history-graph, statistics-graph and markdown cards from their designs (#1165)",
+        "at": "2026-10-24T04:29:47+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "3fdd452405e486566d4c7b9ba3488161db1ab3c5",
         "subject": "feat(rc-converter): draw the picture cards from their designs (#1156)",
@@ -474,14 +482,6 @@
         "sha": "3eed58626cfa4afe5e03df5519667ac5e7706ff5",
         "subject": "fix(design-server): don't clip card previews with rounded containers (#1104)",
         "at": "2026-10-23T12:12:56+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a2d07eec6cab06eaeba0553dc523634fe4bb0158",
-        "subject": "feat(card-designs): draw UI Builder card designs in-repo, starting with the tile (#1106)",
-        "at": "2026-10-23T12:12:53+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
