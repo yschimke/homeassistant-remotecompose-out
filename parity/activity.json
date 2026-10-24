@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-24T04:00:46.822Z",
+  "generatedAt": "2026-10-24T04:49:26.751Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "a926de7546c892c97a2f8e469d163df6bba92e1a",
+        "subject": "feat(rc-converter): draw the vertical-stack, horizontal-stack and grid cards from their designs (#1169)",
+        "at": "2026-10-24T04:55:53+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "48ef4d230054114d87bb46af18e472509c06708a",
+        "subject": "docs: say where the card design migration stands, and how to check a design server before cutover (#1170)",
+        "at": "2026-10-24T04:38:09+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "7047faa4d92aadaa7809e623124747a3dde93795",
+        "subject": "feat(rc-converter): draw the history-graph, statistics-graph and markdown cards from their designs (#1165)",
+        "at": "2026-10-24T04:29:47+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "3fdd452405e486566d4c7b9ba3488161db1ab3c5",
         "subject": "feat(rc-converter): draw the picture cards from their designs (#1156)",
@@ -458,30 +482,6 @@
         "sha": "1c6c31af71366b1c5d55a634723e0b73a26511ad",
         "subject": "feat(wear): choose a Wear widget's card on the watch, not the phone (#1113)",
         "at": "2026-10-23T13:52:57+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "81f7e6ac4a390ccb9c50e84ccb3df054286bf7fe",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 321ce7a (#1101)",
-        "at": "2026-10-23T11:40:09Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "3eed58626cfa4afe5e03df5519667ac5e7706ff5",
-        "subject": "fix(design-server): don't clip card previews with rounded containers (#1104)",
-        "at": "2026-10-23T12:12:56+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a2d07eec6cab06eaeba0553dc523634fe4bb0158",
-        "subject": "feat(card-designs): draw UI Builder card designs in-repo, starting with the tile (#1106)",
-        "at": "2026-10-23T12:12:53+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
