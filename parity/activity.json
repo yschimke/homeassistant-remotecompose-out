@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-24T01:19:01.193Z",
+  "generatedAt": "2026-10-24T01:30:06.780Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "99597312ef646d19e88cf39ea5d4921883448f14",
+        "subject": "fix: no flicker or main-thread capture when a card on screen rebuilds (#1157)",
+        "at": "2026-10-24T02:09:24+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "be5895c2a4aedd3cf24e707e76f91539937e68ff",
         "subject": "feat(rc-converter): draw the area and media-control cards from their designs (#1164)",
@@ -474,14 +482,6 @@
         "sha": "b70a81ba1f0b8513f514288be9ba91b515bc4347",
         "subject": "feat(wear): draw the Wear app's cards in their widget's frame (#1105)",
         "at": "2026-10-23T10:23:11+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "3ed1174084bcf43c80ecd2a4c0455a39cd7e5ebe",
-        "subject": "docs: plan server-owned card designs (#1103)",
-        "at": "2026-10-23T10:06:14+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
