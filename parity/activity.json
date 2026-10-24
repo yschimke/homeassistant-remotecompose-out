@@ -1,11 +1,43 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-24T01:33:22.689Z",
+  "generatedAt": "2026-10-24T02:21:39.766Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "6a37c28be19f6e71600510b3db6d1d06ee5ceea9",
+        "subject": "feat(rc-converter): draw the alarm-panel, map and picture-elements cards from their designs (#1166)",
+        "at": "2026-10-24T02:37:39+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "3199dad57c3a4454b2da1d2b0885f752db161fe4",
+        "subject": "feat(app): edit dashboards on the phone, with a live grid editor and agent handoff (#1162)",
+        "at": "2026-10-24T02:23:31+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "99597312ef646d19e88cf39ea5d4921883448f14",
+        "subject": "fix: no flicker or main-thread capture when a card on screen rebuilds (#1157)",
+        "at": "2026-10-24T02:09:24+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "be5895c2a4aedd3cf24e707e76f91539937e68ff",
+        "subject": "feat(rc-converter): draw the area and media-control cards from their designs (#1164)",
+        "at": "2026-10-24T02:08:06+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "bc2f839a45bd6e4449a45c5ea1caaccad51f428b",
         "subject": "feat(rc-converter): draw the logbook, calendar and to-do list cards from their designs (#1163)",
@@ -450,38 +482,6 @@
         "sha": "a5047f0f27e9f96f5b3da273504d7dd9c0a78275",
         "subject": "docs(site): lead with the app; the integration is an optional extra (#1107)",
         "at": "2026-10-23T10:41:30+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "8fe560f767ea4a550c57fb0eff8d9be2eeb1b038",
-        "subject": "fix(wear): recapture a Wear app card's template when its toggle turns on or off (#1109)",
-        "at": "2026-10-23T10:35:24+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "b70a81ba1f0b8513f514288be9ba91b515bc4347",
-        "subject": "feat(wear): draw the Wear app's cards in their widget's frame (#1105)",
-        "at": "2026-10-23T10:23:11+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "3ed1174084bcf43c80ecd2a4c0455a39cd7e5ebe",
-        "subject": "docs: plan server-owned card designs (#1103)",
-        "at": "2026-10-23T10:06:14+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "5f602c549d02736554a3bc2d513e832204ffc081",
-        "subject": "fix(rc-converter): drop RemoteSizeBreakpoint's transparent forcing text; capture the gauge at its preview width (#1099)",
-        "at": "2026-10-23T09:55:05+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
