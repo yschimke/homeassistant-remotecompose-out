@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-24T16:27:50.301Z",
+  "generatedAt": "2026-10-24T16:59:57.410Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "6fd494fb29ae170f0158217f86fcbd087807df3b",
+        "subject": "fix(rc-components): draw the IKEA key chrome once on arc dial steppers (#1184)",
+        "at": "2026-10-24T17:42:41+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "6db96b98c2bd9bc27838c7e3f37594f92a16e8c3",
+        "subject": "fix(deps): update compose-ai-tools (#1174)",
+        "at": "2026-10-24T16:39:59Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "91978ec672ed9fd32b1417e5be308aeb297237ea",
         "subject": "refactor(rc-converter): build converters and templates for JVM (#1183)",
@@ -466,22 +482,6 @@
         "sha": "8655ddcf7de830f33bb9a9309f904846540f9314",
         "subject": "feat(app): install skins before a card can use them (#1125)",
         "at": "2026-10-23T17:35:23+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "f9256ee900bd0cb1f53eb34ca13878b325dc7f7f",
-        "subject": "feat: start in safe mode after a crash and check cards off-screen first (#1124)",
-        "at": "2026-10-23T17:29:21+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a01d9fce22c3a181c3b0455605996e24f19a6dde",
-        "subject": "test(integration): capture pixel-diff references for humidifier, entity-filter and todo-list (#1123)",
-        "at": "2026-10-23T17:03:53+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
