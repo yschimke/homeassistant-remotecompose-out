@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-25T13:24:10.358Z",
+  "generatedAt": "2026-10-25T13:45:36.423Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "7163cd43a7c56802356758620ed889ed994507f2",
+        "subject": "fix(deps): update dependency androidx.wear:wear-remote-interactions to v1.2.0 (#1230)",
+        "at": "2026-10-25T13:37:50Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "a4fd8a96afe09032cea3fec31cbbc775e280cbaf",
         "subject": "feat: post Home Assistant notifications, bridged to the watch with a live card (#1224)",
@@ -475,14 +483,6 @@
         "subject": "chore(main): release 0.1.63 (#1149)",
         "at": "2026-10-24T09:49:29+01:00",
         "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a926de7546c892c97a2f8e469d163df6bba92e1a",
-        "subject": "feat(rc-converter): draw the vertical-stack, horizontal-stack and grid cards from their designs (#1169)",
-        "at": "2026-10-24T04:55:53+01:00",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
