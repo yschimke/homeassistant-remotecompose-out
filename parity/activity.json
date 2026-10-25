@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-25T15:40:56.849Z",
+  "generatedAt": "2026-10-25T15:52:29.799Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "81346af0af116ecb6a5c7ea0e74f7b53408e7ddf",
+        "subject": "feat: draw Remote Compose and custom designed cards from templates on every host (#1241)",
+        "at": "2026-10-25T15:33:35Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "64e6fe9752b6b5c3854a5fba2fa942f616754504",
         "subject": "feat(notifications): deliver Home Assistant notifications through an FCM push relay (#1242)",
@@ -475,14 +483,6 @@
         "subject": "fix(rc-components): draw the IKEA key chrome once on arc dial steppers (#1184)",
         "at": "2026-10-24T17:42:41+01:00",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "6db96b98c2bd9bc27838c7e3f37594f92a16e8c3",
-        "subject": "fix(deps): update compose-ai-tools (#1174)",
-        "at": "2026-10-24T16:39:59Z",
-        "author": "renovate[bot]",
         "previewIds": [],
         "components": []
       }
