@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-25T12:45:59.926Z",
+  "generatedAt": "2026-10-25T13:33:48.902Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "e08ae3c3a3116ae48dbacbb75c3a33220db84b40",
+        "subject": "chore(main): release 0.1.66 (#1207)",
+        "at": "2026-10-25T12:36:57Z",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "adb1fb578372a871f9b88b7f063c45775da69fb1",
+        "subject": "feat: add Wasmo capability detection and local storage seam (#1225)",
+        "at": "2026-10-25T12:36:43Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "69c06ebda3e22bbabccb632af9bdda9552b4680a",
         "subject": "feat: one-handed gestures and full-screen cards on Wear, lock-mode confirm for risky widgets (#1222)",
@@ -466,22 +482,6 @@
         "sha": "3fdd452405e486566d4c7b9ba3488161db1ab3c5",
         "subject": "feat(rc-converter): draw the picture cards from their designs (#1156)",
         "at": "2026-10-24T03:44:41+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "86fd63c9609d17e725d937535c24fe85c8c4ec9c",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 5520a32 (#1167)",
-        "at": "2026-10-24T02:17:06Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "6c2c23d57c950f753f568a947992c1e38e8a80a2",
-        "subject": "feat(rc-converter): draw the entities and weather-forecast cards from their designs (#1168)",
-        "at": "2026-10-24T03:15:21+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
