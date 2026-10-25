@@ -1,11 +1,43 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-24T23:31:09.197Z",
+  "generatedAt": "2026-10-25T00:18:29.908Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "694fa7d26ae8dd514bb342fc1cb3fdf0e1c6a816",
+        "subject": "feat(card-designs): generate the card design library on the JVM (#1197)",
+        "at": "2026-10-25T00:37:53+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "9fa447075aa8a14a200375f9d1fe1cdd52beec36",
+        "subject": "feat: ask an agent from the phone and panel through integration edit sessions (#1196)",
+        "at": "2026-10-25T00:35:03+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "a1b21c302984367bd7cc23dd917fac35845efe32",
+        "subject": "chore(main): release 0.1.64 (#1173)",
+        "at": "2026-10-25T00:12:37+01:00",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "0d794fcd234da757c15068cd542d20f5b9d3cd8a",
+        "subject": "ci: publish terrazzo.wasmo as a release asset (#1195)",
+        "at": "2026-10-25T00:09:55+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "6256d4a4e29cdb0d2e134ca63612eaa9312b518d",
         "subject": "feat(ha-cards-catalog): make the card design renderer multiplatform (#1193)",
@@ -451,38 +483,6 @@
         "subject": "feat: offline-first phone and watch, and cache-trim analytics (#1140)",
         "at": "2026-10-23T21:51:34+01:00",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "f6f976bc5b16ef986d6fd04f4d01c318c4be8328",
-        "subject": "fix: polish launcher widget sizes for dials, gauge, statistic and alarm panel (#1138)",
-        "at": "2026-10-23T21:34:57+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "9a88731e32659d984d56a4d89fc523884786ce44",
-        "subject": "feat(rc-converter): draw the entity card from entity.uid (#1139)",
-        "at": "2026-10-23T21:26:27+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ea3b0408555c00861f87ee83dfdacd342adaa5c2",
-        "subject": "feat: memory benchmarks for phone and watch, and trim-memory support (#1136)",
-        "at": "2026-10-23T21:09:00+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "290b593093f756615f4f5e538a769003f9e63415",
-        "subject": "chore(deps): update ghcr.io/home-assistant/home-assistant docker tag to v2026.10.3 (#1137)",
-        "at": "2026-10-23T21:08:40+01:00",
-        "author": "renovate[bot]",
         "previewIds": [],
         "components": []
       }
