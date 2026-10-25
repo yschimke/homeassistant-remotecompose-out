@@ -1,11 +1,43 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-25T13:33:48.902Z",
+  "generatedAt": "2026-10-25T14:18:06.959Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "7163cd43a7c56802356758620ed889ed994507f2",
+        "subject": "fix(deps): update dependency androidx.wear:wear-remote-interactions to v1.2.0 (#1230)",
+        "at": "2026-10-25T13:37:50Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "a4fd8a96afe09032cea3fec31cbbc775e280cbaf",
+        "subject": "feat: post Home Assistant notifications, bridged to the watch with a live card (#1224)",
+        "at": "2026-10-25T13:17:56Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "edeb7091f3550fce08ceaf0dd120b44aab67b343",
+        "subject": "test: prepare local Terrazzo AppFunctions agent testing (#1227)",
+        "at": "2026-10-25T13:10:48Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "f228a18075110f4f6cc56d673224fbb77e79e717",
+        "subject": "feat(wear): card details screen with a 24-hour history chart (#1226)",
+        "at": "2026-10-25T12:47:29Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "e08ae3c3a3116ae48dbacbb75c3a33220db84b40",
         "subject": "chore(main): release 0.1.66 (#1207)",
@@ -451,38 +483,6 @@
         "subject": "chore(main): release 0.1.63 (#1149)",
         "at": "2026-10-24T09:49:29+01:00",
         "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a926de7546c892c97a2f8e469d163df6bba92e1a",
-        "subject": "feat(rc-converter): draw the vertical-stack, horizontal-stack and grid cards from their designs (#1169)",
-        "at": "2026-10-24T04:55:53+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "48ef4d230054114d87bb46af18e472509c06708a",
-        "subject": "docs: say where the card design migration stands, and how to check a design server before cutover (#1170)",
-        "at": "2026-10-24T04:38:09+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "7047faa4d92aadaa7809e623124747a3dde93795",
-        "subject": "feat(rc-converter): draw the history-graph, statistics-graph and markdown cards from their designs (#1165)",
-        "at": "2026-10-24T04:29:47+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "3fdd452405e486566d4c7b9ba3488161db1ab3c5",
-        "subject": "feat(rc-converter): draw the picture cards from their designs (#1156)",
-        "at": "2026-10-24T03:44:41+01:00",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
