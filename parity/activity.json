@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-25T00:18:29.908Z",
+  "generatedAt": "2026-10-25T01:07:17.960Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "521efbc3eda63865f446fb59389d30b4bee7eff1",
+        "subject": "feat: take card designs only from the design server (#1203)",
+        "at": "2026-10-25T01:29:52+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "6b1313ef66917d14d538cb9e905e0aa3056dc1fe",
+        "subject": "fix(design-server): ship one runtime jar each, and keep blobs keys still share (#1202)",
+        "at": "2026-10-25T01:15:17+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "bace67f3d41763bc4ddb09c7de5083f6171e3742",
+        "subject": "feat(design-server): capture designs by key, and resolve cards exactly from their states (#1199)",
+        "at": "2026-10-25T00:54:10+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "694fa7d26ae8dd514bb342fc1cb3fdf0e1c6a816",
         "subject": "feat(card-designs): generate the card design library on the JVM (#1197)",
@@ -458,30 +482,6 @@
         "sha": "ca297a73859b28646b242530b3649c3d99e16878",
         "subject": "feat(rc-converter): draw the sensor card from sensor.uid, and keep migrated cards migrated (#1144)",
         "at": "2026-10-23T22:28:17+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "72295ac2137246bca0e6cd74c043831d513ad77f",
-        "subject": "chore(main): release 0.1.62 (#1120)",
-        "at": "2026-10-23T22:25:59+01:00",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "4fb883a28833e748da3c409259531bb6a055a3f8",
-        "subject": "feat(widget): run alarm panel taps and entity-less service calls from launcher widgets (#1146)",
-        "at": "2026-10-23T22:22:35+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "3cebdc77133789cd1748867f0aa4aaa9ba16641f",
-        "subject": "feat: offline-first phone and watch, and cache-trim analytics (#1140)",
-        "at": "2026-10-23T21:51:34+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
