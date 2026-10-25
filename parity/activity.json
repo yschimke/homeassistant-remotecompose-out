@@ -1,11 +1,43 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-25T11:14:40.820Z",
+  "generatedAt": "2026-10-25T11:36:49.800Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "6160c35f52ff5272a166c8a2614b3f5323fae7a2",
+        "subject": "feat(wear): launcher icon follows the watch's card style (#1220)",
+        "at": "2026-10-25T11:29:16Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "c38ef31a5395c9a3dd6518c282fdd3c7335c314f",
+        "subject": "feat(app): demos on the connect screen, Designs before Theme, dashboards in the menu (#1219)",
+        "at": "2026-10-25T11:27:53Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "84b2cb43a63de1295085070bf871d1acc932d094",
+        "subject": "docs: plan one-handed gestures for the Wear app (#1218)",
+        "at": "2026-10-25T11:07:21Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "cee57e286a9cf39856d18717b592b5abf0f93857",
+        "subject": "chore(deps): update github-actions (#1082)",
+        "at": "2026-10-25T11:07:04Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "8979062364e94294d1aedf5d69c10022d6c33b5e",
         "subject": "feat(app): launcher icon follows the card design; clear Play pre-launch warnings (#1216)",
@@ -450,38 +482,6 @@
         "sha": "99597312ef646d19e88cf39ea5d4921883448f14",
         "subject": "fix: no flicker or main-thread capture when a card on screen rebuilds (#1157)",
         "at": "2026-10-24T02:09:24+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "be5895c2a4aedd3cf24e707e76f91539937e68ff",
-        "subject": "feat(rc-converter): draw the area and media-control cards from their designs (#1164)",
-        "at": "2026-10-24T02:08:06+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "bc2f839a45bd6e4449a45c5ea1caaccad51f428b",
-        "subject": "feat(rc-converter): draw the logbook, calendar and to-do list cards from their designs (#1163)",
-        "at": "2026-10-24T01:42:38+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "985d1e385e81ef94a4cbdfb37a0a05f6bafd143b",
-        "subject": "fix(rc-converter): capture card design templates under a pinned clock (#1161)",
-        "at": "2026-10-24T01:31:24+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "7f6bb06cf06f752c9921662ee3f99a2c79f60e67",
-        "subject": "feat(rc-converter): draw the gauge and statistic cards from their designs (#1160)",
-        "at": "2026-10-24T01:15:03+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
