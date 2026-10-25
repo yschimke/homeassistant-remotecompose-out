@@ -1,11 +1,51 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-25T10:19:39.610Z",
+  "generatedAt": "2026-10-25T11:06:22.484Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "263430f6ef255e539f9a712b5d5900afcdc170ae",
+        "subject": "feat(app-ui): public Wasmo landing page and installable web app manifest (#1215)",
+        "at": "2026-10-25T10:29:05Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "87f8a9c52d1985195bc58901469addc74a5a3583",
+        "subject": "ci: add Play promote workflow (internal → closed testing) (#1214)",
+        "at": "2026-10-25T10:28:47Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "7c202437f8abb04b4dc7b4dcb574227f6ace2713",
+        "subject": "fix(widget): install the whole section, a row/column, or one cell (#1211)",
+        "at": "2026-10-25T10:11:47Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "c2d3a4a81d4d6321e40feaca5f0f6012845736eb",
+        "subject": "fix: ship native debug symbols in Play bundles; turn off Analytics ad-id collection (#1213)",
+        "at": "2026-10-25T10:05:42Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "421346c8831d4ce5fcaa0dcf93eef6f7c221607c",
+        "subject": "feat(app): ship the built-in card styles' designs, so the app draws with the server down (#1212)",
+        "at": "2026-10-25T10:01:43Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "675cbe0fc16e8a63745a4b8e7b9d0cad81a663c1",
         "subject": "build(card-designs): generate the published library on the JVM (#1208)",
@@ -443,46 +483,6 @@
         "subject": "fix(deps): update compose-ai-tools (#1143)",
         "at": "2026-10-23T23:36:46Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "111ed52148cfafc71f3df95fa27fb11c91f362dd",
-        "subject": "feat: measure in-app card rebuilds on live data (#1155)",
-        "at": "2026-10-24T00:13:36+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "72977a9c50a051686ac5efa8dd402fe03a7fd52a",
-        "subject": "feat(rc-converter): draw the clock card from clock.uid (#1154)",
-        "at": "2026-10-24T00:03:36+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "872f8515677d585d58c4775f586453042afd86f5",
-        "subject": "fix: keep weighted rows inside their width, and an inline tile's stepper readable (#1153)",
-        "at": "2026-10-23T23:56:50+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "bcbaed640ee9ea5af7d9d1a6d11cef168316f7fe",
-        "subject": "feat(rc-converter): draw the glance card from glance.uid (#1152)",
-        "at": "2026-10-23T23:28:34+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "6b3dffcd2e8077183067059dc401b6328f4fe740",
-        "subject": "feat(wear): run watch card taps through the phone, and open the app from a Wear widget tap (#1151)",
-        "at": "2026-10-23T23:24:12+01:00",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
