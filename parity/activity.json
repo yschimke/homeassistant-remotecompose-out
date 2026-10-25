@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-25T21:11:40.071Z",
+  "generatedAt": "2026-10-25T23:11:01.565Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "343de15ac085b69311937d799160cd861781062c",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 2bfa1d8 (#1198)",
+        "at": "2026-10-25T22:36:08Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "7c394bd61010547122fb535dd43a8f06443e9b8a",
+        "subject": "fix: keep Wear dark and follow system dynamic colors (#1262)",
+        "at": "2026-10-25T21:40:23Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "ee93eaab718e203232e14b0fc08ed763e6d29b47",
         "subject": "fix: make Wear follow mobile theme and card designs (#1260)",
@@ -466,22 +482,6 @@
         "sha": "15f5bc300ac2992a81ae056bb58aab26fcaf11ef",
         "subject": "feat: full dashboard editor in the panel and desktop app (#1201)",
         "at": "2026-10-25T01:38:10+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "521efbc3eda63865f446fb59389d30b4bee7eff1",
-        "subject": "feat: take card designs only from the design server (#1203)",
-        "at": "2026-10-25T01:29:52+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "6b1313ef66917d14d538cb9e905e0aa3056dc1fe",
-        "subject": "fix(design-server): ship one runtime jar each, and keep blobs keys still share (#1202)",
-        "at": "2026-10-25T01:15:17+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
