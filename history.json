@@ -1,6 +1,6 @@
 {
     "formatVersion": "compose-preview-history/v1",
-    "generatedFrom": "dd8b176a080e6ae5961ec158063702922178eefd",
+    "generatedFrom": "1b785c07ef674601d7b90abc48d591376d8ad8c0",
     "previews": {
         "app/activity__MainActivity": {
             "path": "renders/app/activity__MainActivity.png",
@@ -2718,6 +2718,13 @@
             "path": "renders/app/Screen_DashboardView_dashboard_view-c60327e8.png",
             "versions": [
                 {
+                    "blob": "9382168d510332f0b55c133299714c9aac0bff79",
+                    "commit": "1b785c07ef674601d7b90abc48d591376d8ad8c0",
+                    "date": "2026-10-25T11:47:23Z",
+                    "sourceSha": "6160c35f",
+                    "commits": 1
+                },
+                {
                     "blob": "e02f769b62093299407248e3d6556df0f4cadfd1",
                     "commit": "dd8b176a080e6ae5961ec158063702922178eefd",
                     "date": "2026-10-25T11:35:22Z",
@@ -2823,9 +2830,9 @@
                     "commits": 1
                 }
             ],
-            "observations": 15,
+            "observations": 16,
             "unstable": false,
-            "flapCount": 0
+            "flapCount": 1
         },
         "app/ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Discovery_LiveDemo_discovery · live demo": {
             "path": "renders/app/Screen_Discovery_LiveDemo_discovery_live_demo-2b1e4406.png",
@@ -16604,6 +16611,15 @@
             "path": "renders/previews/ImageUrl_Probe_Frame0_image_url_probe_frame_0-1464413f.png",
             "versions": [
                 {
+                    "blob": "56eecb826be5007572fac897aaf9baba24b9b31f",
+                    "commit": "1b785c07ef674601d7b90abc48d591376d8ad8c0",
+                    "date": "2026-10-25T11:47:23Z",
+                    "sourceSha": "6160c35f",
+                    "sinceCommit": "7260ad419c6bc592075bda4dc9a2dc3f84dc646d",
+                    "commits": 12,
+                    "occurrences": 12
+                },
+                {
                     "blob": "1213b875b15516a04b357abaef934f0cb682cb86",
                     "commit": "71e876946e0e44fcf39f0e572c4594d8c5bd6234",
                     "date": "2026-10-25T10:14:27Z",
@@ -16611,20 +16627,11 @@
                     "sinceCommit": "665b78324cb259a9083b84ba5a870c6b815df89d",
                     "commits": 11,
                     "occurrences": 11
-                },
-                {
-                    "blob": "56eecb826be5007572fac897aaf9baba24b9b31f",
-                    "commit": "85a702a0a733d76e1c452753cfe256a9ec45399f",
-                    "date": "2026-10-24T10:48:19Z",
-                    "sourceSha": "8cc21385",
-                    "sinceCommit": "7260ad419c6bc592075bda4dc9a2dc3f84dc646d",
-                    "commits": 11,
-                    "occurrences": 11
                 }
             ],
-            "observations": 22,
+            "observations": 23,
             "unstable": true,
-            "flapCount": 20
+            "flapCount": 21
         },
         "previews/ee.schimke.ha.previews.ImagePreviewsKt.ImageUrl_Probe_Frame1_image-url probe frame=1": {
             "path": "renders/previews/ImageUrl_Probe_Frame1_image_url_probe_frame_1-97608c2e.png",
