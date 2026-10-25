@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-25T08:27:24.447Z",
+  "generatedAt": "2026-10-25T09:16:24.913Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "4f029f24d8fb57c9cc8a5d60ee714e917811f420",
+        "subject": "feat(app-ui): ask the design server for each card's design by its exact key (#1205)",
+        "at": "2026-10-25T08:38:43Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "8a30918bc73ca88e3ca8fbaeeb1f382bdaed9c78",
+        "subject": "chore(main): release 0.1.65 (#1200)",
+        "at": "2026-10-25T07:51:21Z",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "4076430deaf9c97e687ba749bbad638ab687ef71",
         "subject": "fix(app-ui): package terrazzo.wasmo without directory entries (#1204)",
@@ -466,22 +482,6 @@
         "sha": "7529ad03c3bb7412e86f04c21d3ff4749ddd6ad4",
         "subject": "feat: close the offline-first gaps, image refresh rules and live camera mode (#1145)",
         "at": "2026-10-23T22:56:42+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "7b3504e4756de4243ee5f543c6967188a7af104a",
-        "subject": "feat(widget): open a widget's more-info and navigate taps on their target (#1148)",
-        "at": "2026-10-23T22:54:50+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "c271bd6736e9f420b8b410ceb9ade4bf2af3f19b",
-        "subject": "fix: stack the ARM buttons on a two-column alarm panel widget (#1141)",
-        "at": "2026-10-23T22:37:23+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
