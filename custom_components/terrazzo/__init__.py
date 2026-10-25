@@ -3,7 +3,8 @@
 The optional MCP server (`mcp_view.py`) is the one exception: off by default, and when on it
 serves exactly one chosen HA user of this instance, with that user's own tokens and permissions.
 Dashboard edit sessions (`edits.py`) hold an agent's drafts until a person applies one with their
-own session.
+own session. The app's notifications, while it holds no websocket, are held here too (`push.py`):
+the app is woken with a content-free FCM message and collects them with its own session.
 """
 from pathlib import Path
 
@@ -14,6 +15,7 @@ from homeassistant.config_entries import SOURCE_IMPORT
 from homeassistant.helpers import config_validation as cv
 from homeassistant.helpers import issue_registry as ir
 from homeassistant.helpers.collection import ItemNotFound
+from homeassistant.loader import async_get_integration
 
 from .const import (
     CARD_URL,
@@ -27,7 +29,7 @@ from .const import (
     STATIC_URL,
     clean_options,
 )
-from . import edits
+from . import edits, push
 from .mcp_view import TerrazzoMcpMetadataView, TerrazzoMcpView
 
 CONFIG_SCHEMA = vol.Schema(
@@ -93,15 +95,22 @@ async def async_setup_entry(hass, entry):
     if "edits" not in state:
         state["edits"] = await edits.Edits.async_load(hass)
         edits.async_register(hass)
+    # Held notifications for the app's silent push, likewise (push.py).
+    if "push" not in state:
+        state["push"] = await push.Push.async_load(hass)
+        push.async_register(hass)
     options = entry.options
+    # Static files are served without Cache-Control, so a browser may keep an old release's panel
+    # and renderer for hours after an update. Each release gets its own URLs instead.
+    version = (await async_get_integration(hass, DOMAIN)).version
     await panel_custom.async_register_panel(
         hass,
         frontend_url_path=PANEL_URL_PATH,
         webcomponent_name="terrazzo-panel",
         sidebar_title=options.get(CONF_TITLE) or DEFAULT_TITLE,
         sidebar_icon="mdi:view-dashboard",
-        module_url=f"{STATIC_URL}/terrazzo-panel.js",
-        config={"dashboard": options.get(CONF_DASHBOARD, "")},
+        module_url=f"{STATIC_URL}/terrazzo-panel.js?v={version}",
+        config={"dashboard": options.get(CONF_DASHBOARD, ""), "version": str(version)},
         require_admin=False,
     )
     # Before the update listener: recording the resource in the entry must not reload it.
