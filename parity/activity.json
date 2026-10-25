@@ -1,11 +1,43 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-25T18:17:49.331Z",
+  "generatedAt": "2026-10-25T19:07:33.388Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "c1a0999405484603105e93e509ed1e75d7b17ecf",
+        "subject": "chore(main): release 0.1.67 (#1229)",
+        "at": "2026-10-25T18:11:24Z",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "ebc6afb8b5cc60e473e03f5560222cc157c9e5a7",
+        "subject": "fix: open dashboards directly and keep switching in the title (#1252)",
+        "at": "2026-10-25T18:11:14Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "5efa4177e8519945fc3637c12114458138a41594",
+        "subject": "build(deps): keep the push relay's engines.node a bare runtime major (#1255)",
+        "at": "2026-10-25T18:10:46Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "50489f3683250d65c215f26e1b82a41996a9573c",
+        "subject": "feat(panel): draw history graphs, maps, weather and logbooks from card designs (#1254)",
+        "at": "2026-10-25T17:44:48Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "b85b99e112e728da5c52a33e544c434af8fa8a24",
         "subject": "feat(designs): key tiles by colour and state glyph, and gauges with a needle (#1248)",
@@ -450,38 +482,6 @@
         "sha": "0d794fcd234da757c15068cd542d20f5b9d3cd8a",
         "subject": "ci: publish terrazzo.wasmo as a release asset (#1195)",
         "at": "2026-10-25T00:09:55+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "6256d4a4e29cdb0d2e134ca63612eaa9312b518d",
-        "subject": "feat(ha-cards-catalog): make the card design renderer multiplatform (#1193)",
-        "at": "2026-10-24T22:48:15+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "b23ec51248e684a42a4af1c6bcb4569ba8b86dc3",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 2ddbff5 (#1194)",
-        "at": "2026-10-24T22:47:38+01:00",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "0aa02728c8ea47ea4cf39fd1ab10c01dc510b7ac",
-        "subject": "feat: build the card stack for wasmJs and iOS (#1191)",
-        "at": "2026-10-24T22:18:15+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "e3b4e26c61b13376da24ab4157f6559069ec7909",
-        "subject": "feat(app-ui): log card designs the library couldn't match exactly (#1192)",
-        "at": "2026-10-24T22:10:46+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
