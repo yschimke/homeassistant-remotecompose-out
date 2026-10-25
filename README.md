@@ -1,6 +1,6 @@
 # Accessibility Report
 
-_Auto-generated from `compose-preview/a11y/pr`. 1 preview(s) across 1 module(s) · 0 error(s) · 0 warning(s) · 0 info._
+_Auto-generated from `compose-preview/a11y/pr`. 4 preview(s) across 1 module(s) · 0 error(s) · 0 warning(s) · 0 info._
 
 Browse inline; image URLs are pinned to the commit SHA on the baseline branch so links keep resolving after merge.
 
@@ -9,10 +9,28 @@ Browse inline; image URLs are pinned to the commit SHA on the baseline branch so
 
 No accessibility findings.
 
-## previews
+## app
 
-### `ImageUrl_Probe_Frame1`
+### `Screen_CardStyle_Skins`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/ImageUrl_Probe_Frame1_image_url_probe_frame_1-97608c2e.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_CardStyle_Skins_card_style_skins-191d11ac.a11y.png" width="400" />
+
+_No findings._
+
+### `Screen_Settings_CardStyles`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_Settings_CardStyles_settings_card_styles-f2e3d1b3.a11y.png" width="400" />
+
+_No findings._
+
+### `Screen_Settings_CardStylesOnWatch`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_Settings_CardStylesOnWatch_settings_card_styles_on_a_watch-d6c9a800.a11y.png" width="400" />
+
+_No findings._
+
+### `Screen_Settings_CardStylesToInstall`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_Settings_CardStylesToInstall_settings_card_styles_to_install-b29fff7f.a11y.png" width="400" />
 
 _No findings._
