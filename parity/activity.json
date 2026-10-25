@@ -1,11 +1,131 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-25T00:38:20.044Z",
+  "generatedAt": "2026-10-25T11:14:40.820Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "8979062364e94294d1aedf5d69c10022d6c33b5e",
+        "subject": "feat(app): launcher icon follows the card design; clear Play pre-launch warnings (#1216)",
+        "at": "2026-10-25T11:06:36Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "329ca4f9f6cf78dddef752b4caab0a5e3537b982",
+        "subject": "ci: run the keyboard-scrolling emulator matrix on PRs only for inset changes (#1217)",
+        "at": "2026-10-25T10:47:00Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "68994b0cfaab08253ab072d44bf432c8a6a2e712",
+        "subject": "feat(app-ui): resolve the exact tile design on the web with a shape hint (#1210)",
+        "at": "2026-10-25T10:46:44Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "263430f6ef255e539f9a712b5d5900afcdc170ae",
+        "subject": "feat(app-ui): public Wasmo landing page and installable web app manifest (#1215)",
+        "at": "2026-10-25T10:29:05Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "87f8a9c52d1985195bc58901469addc74a5a3583",
+        "subject": "ci: add Play promote workflow (internal → closed testing) (#1214)",
+        "at": "2026-10-25T10:28:47Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "7c202437f8abb04b4dc7b4dcb574227f6ace2713",
+        "subject": "fix(widget): install the whole section, a row/column, or one cell (#1211)",
+        "at": "2026-10-25T10:11:47Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "c2d3a4a81d4d6321e40feaca5f0f6012845736eb",
+        "subject": "fix: ship native debug symbols in Play bundles; turn off Analytics ad-id collection (#1213)",
+        "at": "2026-10-25T10:05:42Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "421346c8831d4ce5fcaa0dcf93eef6f7c221607c",
+        "subject": "feat(app): ship the built-in card styles' designs, so the app draws with the server down (#1212)",
+        "at": "2026-10-25T10:01:43Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "675cbe0fc16e8a63745a4b8e7b9d0cad81a663c1",
+        "subject": "build(card-designs): generate the published library on the JVM (#1208)",
+        "at": "2026-10-25T09:42:43Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "80c4c90979bc9e690f7218ec20eae93594e16d2b",
+        "subject": "feat(app): start with Classic and Home Assistant card styles, install the rest (#1209)",
+        "at": "2026-10-25T09:25:54Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "caaa4a3eab1170d96d517c2f29e3fd6ed4c52cb9",
+        "subject": "feat: card settings forms in the dashboard editor (#1206)",
+        "at": "2026-10-25T09:10:45Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "4f029f24d8fb57c9cc8a5d60ee714e917811f420",
+        "subject": "feat(app-ui): ask the design server for each card's design by its exact key (#1205)",
+        "at": "2026-10-25T08:38:43Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "8a30918bc73ca88e3ca8fbaeeb1f382bdaed9c78",
+        "subject": "chore(main): release 0.1.65 (#1200)",
+        "at": "2026-10-25T07:51:21Z",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "4076430deaf9c97e687ba749bbad638ab687ef71",
+        "subject": "fix(app-ui): package terrazzo.wasmo without directory entries (#1204)",
+        "at": "2026-10-25T07:49:38Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "15f5bc300ac2992a81ae056bb58aab26fcaf11ef",
+        "subject": "feat: full dashboard editor in the panel and desktop app (#1201)",
+        "at": "2026-10-25T01:38:10+01:00",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "521efbc3eda63865f446fb59389d30b4bee7eff1",
         "subject": "feat: take card designs only from the design server (#1203)",
@@ -362,126 +482,6 @@
         "sha": "7f6bb06cf06f752c9921662ee3f99a2c79f60e67",
         "subject": "feat(rc-converter): draw the gauge and statistic cards from their designs (#1160)",
         "at": "2026-10-24T01:15:03+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "8e5f9770e31bf8266b0ab2b9f3a6bdcd7e491df8",
-        "subject": "fix(deps): update compose-ai-tools (#1159)",
-        "at": "2026-10-23T23:57:58Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a93d0060fc9ad9b02e73ae8077707051f59110c5",
-        "subject": "feat(rc-converter): draw the thermostat, humidifier and light cards from their designs (#1158)",
-        "at": "2026-10-24T00:39:48+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "89b923df6cfd1db5ae1c12e6d819a6eab91af5bc",
-        "subject": "fix(deps): update compose-ai-tools (#1143)",
-        "at": "2026-10-23T23:36:46Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "111ed52148cfafc71f3df95fa27fb11c91f362dd",
-        "subject": "feat: measure in-app card rebuilds on live data (#1155)",
-        "at": "2026-10-24T00:13:36+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "72977a9c50a051686ac5efa8dd402fe03a7fd52a",
-        "subject": "feat(rc-converter): draw the clock card from clock.uid (#1154)",
-        "at": "2026-10-24T00:03:36+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "872f8515677d585d58c4775f586453042afd86f5",
-        "subject": "fix: keep weighted rows inside their width, and an inline tile's stepper readable (#1153)",
-        "at": "2026-10-23T23:56:50+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "bcbaed640ee9ea5af7d9d1a6d11cef168316f7fe",
-        "subject": "feat(rc-converter): draw the glance card from glance.uid (#1152)",
-        "at": "2026-10-23T23:28:34+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "6b3dffcd2e8077183067059dc401b6328f4fe740",
-        "subject": "feat(wear): run watch card taps through the phone, and open the app from a Wear widget tap (#1151)",
-        "at": "2026-10-23T23:24:12+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "50b34f2a26866f0763b2035ab9a1064e6c6eb647",
-        "subject": "feat(rc-converter): draw the heading card from heading.uid (#1150)",
-        "at": "2026-10-23T22:58:21+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "6ae93f26d9ee76c0f31fc2b43826e02666b7a262",
-        "subject": "build: make the remote build cache the cache of record on CI (#1147)",
-        "at": "2026-10-23T22:57:06+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "7529ad03c3bb7412e86f04c21d3ff4749ddd6ad4",
-        "subject": "feat: close the offline-first gaps, image refresh rules and live camera mode (#1145)",
-        "at": "2026-10-23T22:56:42+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "7b3504e4756de4243ee5f543c6967188a7af104a",
-        "subject": "feat(widget): open a widget's more-info and navigate taps on their target (#1148)",
-        "at": "2026-10-23T22:54:50+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "c271bd6736e9f420b8b410ceb9ade4bf2af3f19b",
-        "subject": "fix: stack the ARM buttons on a two-column alarm panel widget (#1141)",
-        "at": "2026-10-23T22:37:23+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "b221a6a1f25f08fe605dbdd00f2eb66c877a3b3d",
-        "subject": "fix(a11y): give the dial steppers 48 dp touch targets and labels (#1142)",
-        "at": "2026-10-23T22:35:02+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ca297a73859b28646b242530b3649c3d99e16878",
-        "subject": "feat(rc-converter): draw the sensor card from sensor.uid, and keep migrated cards migrated (#1144)",
-        "at": "2026-10-23T22:28:17+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
