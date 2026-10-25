@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-25T16:38:08.236Z",
+  "generatedAt": "2026-10-25T17:25:02.421Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "ae0b7789e84fe0665fba43904e2f5f4d453969cd",
+        "subject": "fix: show installed designs first and install in background (#1250)",
+        "at": "2026-10-25T16:10:35Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "81fe83d96cd3bacf60ba76ca754627faddaabfe8",
+        "subject": "fix(panel): render markdown links and images, and skip design lookups for missing entities (#1249)",
+        "at": "2026-10-25T16:07:52Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "e8f50ecac55f4aa49700409b10199ca2191e5f43",
+        "subject": "chore(deps): pin dependency node to 22.23.4 (#1243)",
+        "at": "2026-10-25T16:02:40Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "81346af0af116ecb6a5c7ea0e74f7b53408e7ddf",
         "subject": "feat: draw Remote Compose and custom designed cards from templates on every host (#1241)",
@@ -458,30 +482,6 @@
         "sha": "8cbdc75f44d6dcf5403cd8f11499d709b86a6f9e",
         "subject": "fix(deps): update rc-players to 2.18.0 (#1187)",
         "at": "2026-10-24T20:17:35+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "26ebc3c8800a01f07173c6ff1afedc6cdaf7a5e7",
-        "subject": "chore: remove unreferenced historical evidence bundles (#1053)",
-        "at": "2026-10-24T19:53:12+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ca33f570db36c3f7415292fc73c157bd8dca617a",
-        "subject": "ci: opt the design-artifacts catalog into the cmp-android parity lane (#1186)",
-        "at": "2026-10-24T18:36:05+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "6fd494fb29ae170f0158217f86fcbd087807df3b",
-        "subject": "fix(rc-components): draw the IKEA key chrome once on arc dial steppers (#1184)",
-        "at": "2026-10-24T17:42:41+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
