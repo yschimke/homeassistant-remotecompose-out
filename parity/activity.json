@@ -1,11 +1,43 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-25T15:06:54.617Z",
+  "generatedAt": "2026-10-25T15:49:35.862Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "c53e85575a614c9e4213d4df83366388b10a57a9",
+        "subject": "fix(deps): update dependency ch.qos.logback:logback-classic to v1.6.6 (#1238)",
+        "at": "2026-10-25T15:11:02Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "1199c23b289d91e951c684539b86800e3d7e9134",
+        "subject": "fix(home-assistant): give each release its own panel and renderer URLs (#1239)",
+        "at": "2026-10-25T15:10:59Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "8c2309684d4d3bbd97a7a1221d1cdcd9f72fe9f8",
+        "subject": "chore(deps): update dependency puppeteer-core to v25.16.0 (#1236)",
+        "at": "2026-10-25T14:45:16Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "26dcf7c8a751897465283a133b3f3a2b58c1d95c",
+        "subject": "fix: delay transient mobile connection errors (#1237)",
+        "at": "2026-10-25T14:44:17Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "a15347e0dedfc8e081d8e71f32973c9e5dcdcfef",
         "subject": "feat(notifications): post Home Assistant notifications natively on the watch (#1235)",
@@ -450,38 +482,6 @@
         "sha": "e8d6384f210b60523e3761acc2c53e1022af9f7c",
         "subject": "refactor(rc-components): build for JVM on the Compose Multiplatform creation fork (#1182)",
         "at": "2026-10-24T15:50:50+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "e2606e0ebd6c4fce004de16cdd4f4bc65687be96",
-        "subject": "refactor(rc-components): build paints with RemotePaint, not android.graphics.Paint (#1181)",
-        "at": "2026-10-24T15:29:16+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a6bb4c79a7b109379ce440f132bf95aae105d7b1",
-        "subject": "refactor(rc-components): draw without Wear remote-material3 (#1180)",
-        "at": "2026-10-24T14:48:43+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "7beae9b0a35c9a1ea685a06e3749cc2252b083fd",
-        "subject": "feat: card styles that theme the whole app; skinned card actions sheet (#1177)",
-        "at": "2026-10-24T14:36:29+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "0760739e456f71d72ac4beaa0f066aa6ce4a3365",
-        "subject": "feat(integration): dashboard edit sessions, where agents draft and people apply (#1178)",
-        "at": "2026-10-24T14:36:26+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
