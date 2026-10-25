@@ -1,11 +1,59 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-25T14:18:06.959Z",
+  "generatedAt": "2026-10-25T15:06:54.617Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "a15347e0dedfc8e081d8e71f32973c9e5dcdcfef",
+        "subject": "feat(notifications): post Home Assistant notifications natively on the watch (#1235)",
+        "at": "2026-10-25T14:22:52Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "03823b863862c2cf8d492b6d7f80ba669f1ee7ed",
+        "subject": "fix(wear): never scale a full-screen card below its layout (#1234)",
+        "at": "2026-10-25T14:03:42Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "d890786cecc3fd8950173504654dab338344b437",
+        "subject": "chore(deps): update dependency puppeteer-core to v25 (#1233)",
+        "at": "2026-10-25T13:57:28Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "d5095c8541bb1f0dea341ea39950e3ab6e7a97e3",
+        "subject": "feat: sync Terrazzo usage settings with Wasmo app services (#1228)",
+        "at": "2026-10-25T13:42:17Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "fe06e21c8c10b769c14f1934b94be08d64c7608d",
+        "subject": "feat(wear): full-size cards, every entity's chart and live attributes in details (#1231)",
+        "at": "2026-10-25T13:41:51Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "76da42fd35c350c146955e9535ff60576b10d8f5",
+        "subject": "fix(notifications): keep the watch's notification to standard fields (#1232)",
+        "at": "2026-10-25T13:41:46Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "7163cd43a7c56802356758620ed889ed994507f2",
         "subject": "fix(deps): update dependency androidx.wear:wear-remote-interactions to v1.2.0 (#1230)",
@@ -435,54 +483,6 @@
         "subject": "feat(integration): dashboard edit sessions, where agents draft and people apply (#1178)",
         "at": "2026-10-24T14:36:26+01:00",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ded11ba8d9be38d70736a92a15d000a1d34b0c6e",
-        "subject": "docs: plan for every card's template to come from the design server (#1179)",
-        "at": "2026-10-24T14:09:30+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "3ebbf39bdf823e41f0202a5082abab13ad7449c4",
-        "subject": "docs: describe the Wasmo Install App route for the Wasmo app (#1176)",
-        "at": "2026-10-24T13:41:29+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "9ce7dacd7f89f66121d4840d8a1cd192185f2bea",
-        "subject": "feat(app): keep phone dashboard editing light, and point further editing at the integration (#1175)",
-        "at": "2026-10-24T13:17:27+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "8cc213855e0895dbe83ffdd8b7c859c3e8fe8708",
-        "subject": "feat: skinned more-info sheet with history chart (#1172)",
-        "at": "2026-10-24T11:37:35+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "b6f81aa4cb1ae9f3cd723343b5c393192b3b3e74",
-        "subject": "feat(rc-converter): draw the Bambu Lab cards from their designs (#1171)",
-        "at": "2026-10-24T10:59:48+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a9d0411bf8f543e2443657235cf600f79a681074",
-        "subject": "chore(main): release 0.1.63 (#1149)",
-        "at": "2026-10-24T09:49:29+01:00",
-        "author": "github-actions[bot]",
         "previewIds": [],
         "components": []
       }
