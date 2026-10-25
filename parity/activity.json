@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-25T11:06:22.484Z",
+  "generatedAt": "2026-10-25T11:54:32.084Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "8979062364e94294d1aedf5d69c10022d6c33b5e",
+        "subject": "feat(app): launcher icon follows the card design; clear Play pre-launch warnings (#1216)",
+        "at": "2026-10-25T11:06:36Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "329ca4f9f6cf78dddef752b4caab0a5e3537b982",
+        "subject": "ci: run the keyboard-scrolling emulator matrix on PRs only for inset changes (#1217)",
+        "at": "2026-10-25T10:47:00Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "68994b0cfaab08253ab072d44bf432c8a6a2e712",
+        "subject": "feat(app-ui): resolve the exact tile design on the web with a shape hint (#1210)",
+        "at": "2026-10-25T10:46:44Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "263430f6ef255e539f9a712b5d5900afcdc170ae",
         "subject": "feat(app-ui): public Wasmo landing page and installable web app manifest (#1215)",
@@ -459,30 +483,6 @@
         "subject": "feat(rc-converter): draw the gauge and statistic cards from their designs (#1160)",
         "at": "2026-10-24T01:15:03+01:00",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "8e5f9770e31bf8266b0ab2b9f3a6bdcd7e491df8",
-        "subject": "fix(deps): update compose-ai-tools (#1159)",
-        "at": "2026-10-23T23:57:58Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a93d0060fc9ad9b02e73ae8077707051f59110c5",
-        "subject": "feat(rc-converter): draw the thermostat, humidifier and light cards from their designs (#1158)",
-        "at": "2026-10-24T00:39:48+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "89b923df6cfd1db5ae1c12e6d819a6eab91af5bc",
-        "subject": "fix(deps): update compose-ai-tools (#1143)",
-        "at": "2026-10-23T23:36:46Z",
-        "author": "renovate[bot]",
         "previewIds": [],
         "components": []
       }
