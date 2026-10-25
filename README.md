@@ -1,6 +1,6 @@
 # Accessibility Report
 
-_Auto-generated from `compose-preview/a11y/pr`. 3 preview(s) across 1 module(s) · 2 error(s) · 0 warning(s) · 1 info._
+_Auto-generated from `compose-preview/a11y/pr`. 3 preview(s) across 1 module(s) · 1 error(s) · 0 warning(s) · 1 info._
 
 Browse inline; image URLs are pinned to the commit SHA on the baseline branch so links keep resolving after merge.
 
@@ -18,9 +18,8 @@ _No findings._
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 31dp. Consider making the height of this touch target 48dp or larger. |
-| 2 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 40dp. Consider making the height of this touch target 48dp or larger. |
-| 3 | INFO | DuplicateSpeakableTextCheck | android.view.View | This non-clickable item's speakable text: "Downstairs" is identical to that of 1 other item(s). |
+| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
+| 2 | INFO | DuplicateSpeakableTextCheck | android.view.View | This non-clickable item's speakable text: "Downstairs" is identical to that of 1 other item(s). |
 
 ### `WearCardScreenPreview` · `wearos_small_round`
 
