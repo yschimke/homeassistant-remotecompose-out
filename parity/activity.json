@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-25T11:36:49.800Z",
+  "generatedAt": "2026-10-25T12:07:03.564Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "69c06ebda3e22bbabccb632af9bdda9552b4680a",
+        "subject": "feat: one-handed gestures and full-screen cards on Wear, lock-mode confirm for risky widgets (#1222)",
+        "at": "2026-10-25T12:00:12Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "e6f075be363cb2122e5e7f4da032a9dbca8881dd",
+        "subject": "docs: plan Terrazzo's Wasmo cloud backend (#1221)",
+        "at": "2026-10-25T11:48:12Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "0e0ee03a61ad7864eaddca859c20396defc4f028",
+        "subject": "perf(card-designs): draw the library's previews in one worker process per core (#1223)",
+        "at": "2026-10-25T11:47:31Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "6160c35f52ff5272a166c8a2614b3f5323fae7a2",
         "subject": "feat(wear): launcher icon follows the watch's card style (#1220)",
@@ -458,30 +482,6 @@
         "sha": "6c2c23d57c950f753f568a947992c1e38e8a80a2",
         "subject": "feat(rc-converter): draw the entities and weather-forecast cards from their designs (#1168)",
         "at": "2026-10-24T03:15:21+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "6a37c28be19f6e71600510b3db6d1d06ee5ceea9",
-        "subject": "feat(rc-converter): draw the alarm-panel, map and picture-elements cards from their designs (#1166)",
-        "at": "2026-10-24T02:37:39+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "3199dad57c3a4454b2da1d2b0885f752db161fe4",
-        "subject": "feat(app): edit dashboards on the phone, with a live grid editor and agent handoff (#1162)",
-        "at": "2026-10-24T02:23:31+01:00",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "99597312ef646d19e88cf39ea5d4921883448f14",
-        "subject": "fix: no flicker or main-thread capture when a card on screen rebuilds (#1157)",
-        "at": "2026-10-24T02:09:24+01:00",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
