@@ -2,6 +2,18 @@
 
 Auto-generated from `main`. Browse inline or compare against PR branches.
 
+> [!WARNING]
+> 2 preview(s) failed to render in the latest update (2 retained from the prior baseline). See **Render Failures** below.
+
+## Render Failures
+
+The render task completed but no PNG was produced for these previews. Entries with a prior baseline keep their previous image; the rest are absent from the gallery until a successful render lands.
+
+| Preview | Module | Function | Source | Baseline |
+|---------|--------|----------|--------|----------|
+| `app/ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_ThemeStyle_settings · theme` | app | `Screen_Settings_ThemeStyle` | `src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt` | retained |
+| `app/ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_settings` | app | `Screen_Settings` | `src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt` | retained |
+
 ## app
 
 | Preview | Image |
@@ -144,13 +156,7 @@ Auto-generated from `main`. Browse inline or compare against PR branches.
 | `Screen_Settings_CardStylesOnWatch` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Screen_Settings_CardStylesOnWatch_settings_card_styles_on_a_watch-d6c9a800.png" width="150" /> |
 | `Screen_Settings_CardStylesToInstall` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Screen_Settings_CardStylesToInstall_settings_card_styles_to_install-b29fff7f.png" width="150" /> |
 | `Screen_Settings_CardStyles` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Screen_Settings_CardStyles_settings_card_styles-f2e3d1b3.png" width="150" /> |
-| `Screen_Settings_ThemeStyle · Material3` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Screen_Settings_ThemeStyle_settings_theme-c88045d9_Material3.png" width="150" /> |
-| `Screen_Settings_ThemeStyle · TerrazzoHome` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Screen_Settings_ThemeStyle_settings_theme-c88045d9_TerrazzoHome.png" width="150" /> |
-| `Screen_Settings_ThemeStyle · TerrazzoKiosk` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Screen_Settings_ThemeStyle_settings_theme-c88045d9_TerrazzoKiosk.png" width="150" /> |
-| `Screen_Settings_ThemeStyle · TerrazzoMinimalist` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Screen_Settings_ThemeStyle_settings_theme-c88045d9_TerrazzoMinimalist.png" width="150" /> |
-| `Screen_Settings_ThemeStyle · TerrazzoMushroom` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Screen_Settings_ThemeStyle_settings_theme-c88045d9_TerrazzoMushroom.png" width="150" /> |
 | `Screen_Settings_UsageSharing` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Screen_Settings_UsageSharing_settings_usage_sharing-65948b88.png" width="150" /> |
-| `Screen_Settings` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Screen_Settings_settings-fc99b7e6.png" width="150" /> |
 | `Screen_SyncDiagnostics` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Screen_SyncDiagnostics_sync_diagnostics-a38e8a18.png" width="150" /> |
 | `Screen_Widgets_Installed` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Screen_Widgets_Installed_widgets_installed-ee3431e0.png" width="150" /> |
 | `Screen_Widgets_ThemeStyle · Material3` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Screen_Widgets_ThemeStyle_widgets_theme-c6d5903f_Material3.png" width="150" /> |
