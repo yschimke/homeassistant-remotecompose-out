@@ -1,409 +1,6 @@
 {
   "entries": [
     {
-      "annotatedBasename": "Play_Phone_01_HomeLight_play_phone_home_light-27629862.a11y.png",
-      "cleanBasename": "Play_Phone_01_HomeLight_play_phone_home_light-27629862.png",
-      "findings": [],
-      "functionName": "Play_Phone_01_HomeLight",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_01_HomeLight_play \u00b7 phone \u00b7 home (light)",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": "spec:width=411dp,height=731dp,dpi=320"
-    },
-    {
-      "annotatedBasename": "Play_Phone_02_HomeDark_play_phone_home_dark-87829c7b.a11y.png",
-      "cleanBasename": "Play_Phone_02_HomeDark_play_phone_home_dark-87829c7b.png",
-      "findings": [],
-      "functionName": "Play_Phone_02_HomeDark",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_02_HomeDark_play \u00b7 phone \u00b7 home (dark)",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": "spec:width=411dp,height=731dp,dpi=320"
-    },
-    {
-      "annotatedBasename": "",
-      "cleanBasename": "Play_Phone_03_Discovery_play_phone_discovery-8d992da7.png",
-      "findings": [],
-      "functionName": "Play_Phone_03_Discovery",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_03_Discovery_play \u00b7 phone \u00b7 discovery",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": "spec:width=411dp,height=731dp,dpi=320"
-    },
-    {
-      "annotatedBasename": "Play_Phone_04_Picker_play_phone_picker-f1c04503.a11y.png",
-      "cleanBasename": "Play_Phone_04_Picker_play_phone_picker-f1c04503.png",
-      "findings": [],
-      "functionName": "Play_Phone_04_Picker",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_04_Picker_play \u00b7 phone \u00b7 picker",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": "spec:width=411dp,height=731dp,dpi=320"
-    },
-    {
-      "annotatedBasename": "Play_Phone_05_WatchCards_play_phone_watch_cards-dc759884.a11y.png",
-      "cleanBasename": "Play_Phone_05_WatchCards_play_phone_watch_cards-dc759884.png",
-      "findings": [
-        {
-          "boundsInScreen": "590,168,686,264",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Move down\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "494,168,590,264",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Move up\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "686,168,782,264",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Unpin\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        }
-      ],
-      "functionName": "Play_Phone_05_WatchCards",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_05_WatchCards_play \u00b7 phone \u00b7 watch cards",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": "spec:width=411dp,height=731dp,dpi=320"
-    },
-    {
-      "annotatedBasename": "Play_Tablet10_01_Home_play_10_inch_home-7ca1827e.a11y.png",
-      "cleanBasename": "Play_Tablet10_01_Home_play_10_inch_home-7ca1827e.png",
-      "findings": [],
-      "functionName": "Play_Tablet10_01_Home",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Tablet10_01_Home_play \u00b7 10-inch \u00b7 home",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": "spec:width=800dp,height=1280dp,dpi=224"
-    },
-    {
-      "annotatedBasename": "Play_Tablet7_01_Home_play_7_inch_home-eb94cb4a.a11y.png",
-      "cleanBasename": "Play_Tablet7_01_Home_play_7_inch_home-eb94cb4a.png",
-      "findings": [],
-      "functionName": "Play_Tablet7_01_Home",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Tablet7_01_Home_play \u00b7 7-inch \u00b7 home",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": "spec:width=600dp,height=960dp,dpi=240"
-    },
-    {
-      "annotatedBasename": "Screen_CardActions_card_actions-fcba8e8e.a11y.png",
-      "cleanBasename": "Screen_CardActions_card_actions-fcba8e8e.png",
-      "findings": [],
-      "functionName": "Screen_CardActions",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardActions_card actions",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_CardActions_CardStyle_card_actions_card_style-98b4ebf2.a11y.png",
-      "cleanBasename": "Screen_CardActions_CardStyle_card_actions_card_style-98b4ebf2.png",
-      "findings": [],
-      "functionName": "Screen_CardActions_CardStyle",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardActions_CardStyle_card actions \u00b7 card style",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_CardActions_Placed_card_actions_placed-3ec2defc.a11y.png",
-      "cleanBasename": "Screen_CardActions_Placed_card_actions_placed-3ec2defc.png",
-      "findings": [],
-      "functionName": "Screen_CardActions_Placed",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardActions_Placed_card actions \u00b7 placed",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_CardDisabled_card_disabled-0e6ac4fe.a11y.png",
-      "cleanBasename": "Screen_CardDisabled_card_disabled-0e6ac4fe.png",
-      "findings": [],
-      "functionName": "Screen_CardDisabled",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardDisabled_card disabled",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_CardHistory_card_history-07f74f5f.a11y.png",
-      "cleanBasename": "Screen_CardHistory_card_history-07f74f5f.png",
-      "findings": [],
-      "functionName": "Screen_CardHistory",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardHistory_card history",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_CardHistory_ThemeStyle_card_history_theme-38cdf710.a11y.png",
-      "cleanBasename": "Screen_CardHistory_ThemeStyle_card_history_theme-38cdf710.png",
-      "findings": [],
-      "functionName": "Screen_CardHistory_ThemeStyle",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardHistory_ThemeStyle_card history \u00b7 theme",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_CardStyle_card_style-61803e88.a11y.png",
-      "cleanBasename": "Screen_CardStyle_card_style-61803e88.png",
-      "findings": [],
-      "functionName": "Screen_CardStyle",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardStyle_card style",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_CardStyle_Skins_card_style_skins-191d11ac.a11y.png",
-      "cleanBasename": "Screen_CardStyle_Skins_card_style_skins-191d11ac.png",
-      "findings": [],
-      "functionName": "Screen_CardStyle_Skins",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardStyle_Skins_card style \u00b7 skins",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_DashboardEditor_dashboard_editor-56a52e3c.a11y.png",
-      "cleanBasename": "Screen_DashboardEditor_dashboard_editor-56a52e3c.png",
-      "findings": [
-        {
-          "boundsInScreen": "42,349,1039,475",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Not selected, Card 1: heading\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View  desc=\"Card 1: heading\""
-        }
-      ],
-      "functionName": "Screen_DashboardEditor",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardEditor_dashboard editor",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_DashboardEditor_Selected_dashboard_editor_card_selected-35b035f2.a11y.png",
-      "cleanBasename": "Screen_DashboardEditor_Selected_dashboard_editor_card_selected-35b035f2.png",
-      "findings": [
-        {
-          "boundsInScreen": "42,349,1039,475",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Not selected, Card 1: heading\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View  desc=\"Card 1: heading\""
-        }
-      ],
-      "functionName": "Screen_DashboardEditor_Selected",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardEditor_Selected_dashboard editor \u00b7 card selected",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_DashboardPicker_dashboard_picker-2e66fb7f.a11y.png",
-      "cleanBasename": "Screen_DashboardPicker_dashboard_picker-2e66fb7f.png",
-      "findings": [],
-      "functionName": "Screen_DashboardPicker",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardPicker_dashboard picker",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_DashboardPicker_ThemeStyle_dashboard_picker_theme-b5b3f158.a11y.png",
-      "cleanBasename": "Screen_DashboardPicker_ThemeStyle_dashboard_picker_theme-b5b3f158.png",
-      "findings": [],
-      "functionName": "Screen_DashboardPicker_ThemeStyle",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardPicker_ThemeStyle_dashboard picker \u00b7 theme",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_DashboardSelection_Settings_dashboard_selection_settings-c3a82a12.a11y.png",
-      "cleanBasename": "Screen_DashboardSelection_Settings_dashboard_selection_settings-c3a82a12.png",
-      "findings": [
-        {
-          "boundsInScreen": "85,716,211,842",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"not checked\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.CheckBox"
-        }
-      ],
-      "functionName": "Screen_DashboardSelection_Settings",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardSelection_Settings_dashboard selection \u00b7 settings",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_DashboardSelection_Signin_dashboard_selection_signin-6c17e1a3.a11y.png",
-      "cleanBasename": "Screen_DashboardSelection_Signin_dashboard_selection_signin-6c17e1a3.png",
-      "findings": [
-        {
-          "boundsInScreen": "85,527,211,653",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"checked\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.CheckBox"
-        }
-      ],
-      "functionName": "Screen_DashboardSelection_Signin",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardSelection_Signin_dashboard selection \u00b7 signin",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_DashboardSelection_ThemeStyle_dashboard_selection_theme-f7657577.a11y.png",
-      "cleanBasename": "Screen_DashboardSelection_ThemeStyle_dashboard_selection_theme-f7657577.png",
-      "findings": [
-        {
-          "boundsInScreen": "85,527,211,653",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"checked\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.CheckBox"
-        }
-      ],
-      "functionName": "Screen_DashboardSelection_ThemeStyle",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardSelection_ThemeStyle_dashboard selection \u00b7 theme",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_DashboardTopBar_Connecting_top_bar_360dp_connecting-3d6030f9.a11y.png",
-      "cleanBasename": "Screen_DashboardTopBar_Connecting_top_bar_360dp_connecting-3d6030f9.png",
-      "findings": [],
-      "functionName": "Screen_DashboardTopBar_Connecting",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_Connecting_top bar \u00b7 360dp \u00b7 connecting",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_DashboardTopBar_Failed_top_bar_360dp_failed-8597e561.a11y.png",
-      "cleanBasename": "Screen_DashboardTopBar_Failed_top_bar_360dp_failed-8597e561.png",
-      "findings": [],
-      "functionName": "Screen_DashboardTopBar_Failed",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_Failed_top bar \u00b7 360dp \u00b7 failed",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_DashboardTopBar_LongTitle_top_bar_360dp_long_title-367dab62.a11y.png",
-      "cleanBasename": "Screen_DashboardTopBar_LongTitle_top_bar_360dp_long_title-367dab62.png",
-      "findings": [],
-      "functionName": "Screen_DashboardTopBar_LongTitle",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_LongTitle_top bar \u00b7 360dp \u00b7 long title",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_DashboardTopBar_Narrow_top_bar_360dp_switcher-c9001f3a.a11y.png",
-      "cleanBasename": "Screen_DashboardTopBar_Narrow_top_bar_360dp_switcher-c9001f3a.png",
-      "findings": [],
-      "functionName": "Screen_DashboardTopBar_Narrow",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_Narrow_top bar \u00b7 360dp \u00b7 switcher",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_DashboardTopBar_Paused_top_bar_360dp_paused-5e21611f.a11y.png",
-      "cleanBasename": "Screen_DashboardTopBar_Paused_top_bar_360dp_paused-5e21611f.png",
-      "findings": [],
-      "functionName": "Screen_DashboardTopBar_Paused",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_Paused_top bar \u00b7 360dp \u00b7 paused",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_DashboardTopBar_Phone_top_bar_412dp_switcher-b548b75d.a11y.png",
-      "cleanBasename": "Screen_DashboardTopBar_Phone_top_bar_412dp_switcher-b548b75d.png",
-      "findings": [],
-      "functionName": "Screen_DashboardTopBar_Phone",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_Phone_top bar \u00b7 412dp \u00b7 switcher",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_DashboardTopBar_SingleReadOnly_top_bar_360dp_single_dashboard_read_only-c7674660.a11y.png",
-      "cleanBasename": "Screen_DashboardTopBar_SingleReadOnly_top_bar_360dp_single_dashboard_read_only-c7674660.png",
-      "findings": [],
-      "functionName": "Screen_DashboardTopBar_SingleReadOnly",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_SingleReadOnly_top bar \u00b7 360dp \u00b7 single dashboard, read only",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_DashboardView_dashboard_view-c60327e8.a11y.png",
-      "cleanBasename": "Screen_DashboardView_dashboard_view-c60327e8.png",
-      "findings": [],
-      "functionName": "Screen_DashboardView",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardView_dashboard view",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_DashboardView_PhoneLandscapeMedium_dashboard_view_phone_landscape_medium-8837149f.a11y.png",
-      "cleanBasename": "Screen_DashboardView_PhoneLandscapeMedium_dashboard_view_phone_landscape_medium-8837149f.png",
-      "findings": [],
-      "functionName": "Screen_DashboardView_PhoneLandscapeMedium",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardView_PhoneLandscapeMedium_dashboard view \u00b7 phone landscape medium",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
       "annotatedBasename": "Screen_DashboardView_ThemeStyle_dashboard_theme-307a8ffb.a11y.png",
       "cleanBasename": "Screen_DashboardView_ThemeStyle_dashboard_theme-307a8ffb.png",
       "findings": [],
@@ -415,550 +12,14 @@
       "variant": ""
     },
     {
-      "annotatedBasename": "",
-      "cleanBasename": "Screen_Discovery_discovery-9ef45f57.png",
+      "annotatedBasename": "PictureEntity_CameraImage_Light_picture_entity_camera_image_light-41a7628d.a11y.png",
+      "cleanBasename": "PictureEntity_CameraImage_Light_picture_entity_camera_image_light-41a7628d.png",
       "findings": [],
-      "functionName": "Screen_Discovery",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Discovery_discovery",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_Discovery_LiveDemo_discovery_live_demo-2b1e4406.a11y.png",
-      "cleanBasename": "Screen_Discovery_LiveDemo_discovery_live_demo-2b1e4406.png",
-      "findings": [],
-      "functionName": "Screen_Discovery_LiveDemo",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Discovery_LiveDemo_discovery \u00b7 live demo",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "",
-      "cleanBasename": "",
-      "findings": [],
-      "functionName": "Screen_Discovery_ThemeStyle",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Discovery_ThemeStyle_discovery \u00b7 theme",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_Logs_logs-12f4828a.a11y.png",
-      "cleanBasename": "Screen_Logs_logs-12f4828a.png",
-      "findings": [
-        {
-          "boundsInScreen": "209,844,451,970",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Connected\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "209,992,461,1118",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Connecting\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "42,886,188,928",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"22:13:20\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "209,1140,366,1266",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Error\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        }
-      ],
-      "functionName": "Screen_Logs",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Logs_logs",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_Logs_Dark_logs_dark-d93c6e7e.a11y.png",
-      "cleanBasename": "Screen_Logs_Dark_logs_dark-d93c6e7e.png",
-      "findings": [
-        {
-          "boundsInScreen": "209,844,451,970",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Connected\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "209,992,461,1118",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Connecting\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "42,886,188,928",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"22:13:20\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "209,1140,366,1266",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Error\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        }
-      ],
-      "functionName": "Screen_Logs_Dark",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Logs_Dark_logs \u00b7 dark",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_Logs_Empty_logs_empty-8162fa26.a11y.png",
-      "cleanBasename": "Screen_Logs_Empty_logs_empty-8162fa26.png",
-      "findings": [],
-      "functionName": "Screen_Logs_Empty",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Logs_Empty_logs \u00b7 empty",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_ManagePinned_manage_pinned-2ca47dc3.a11y.png",
-      "cleanBasename": "Screen_ManagePinned_manage_pinned-2ca47dc3.png",
-      "findings": [
-        {
-          "boundsInScreen": "777,222,903,348",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Move down\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "651,222,777,348",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Move up\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "903,222,1029,348",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Unpin\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        }
-      ],
-      "functionName": "Screen_ManagePinned",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_ManagePinned_manage pinned",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_ManagePinned_Empty_manage_pinned_empty-a0076758.a11y.png",
-      "cleanBasename": "Screen_ManagePinned_Empty_manage_pinned_empty-a0076758.png",
-      "findings": [],
-      "functionName": "Screen_ManagePinned_Empty",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_ManagePinned_Empty_manage pinned \u00b7 empty",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_MoreInfo_LightControls_more_info_light_controls-1dfc8d0a.a11y.png",
-      "cleanBasename": "Screen_MoreInfo_LightControls_more_info_light_controls-1dfc8d0a.png",
-      "findings": [
-        {
-          "boundsInScreen": "84,2262,169,2304",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"09:25\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        }
-      ],
-      "functionName": "Screen_MoreInfo_LightControls",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_MoreInfo_LightControls_more info \u00b7 light controls",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_MoreInfo_Numeric_more_info_numeric-39ae8e62.a11y.png",
-      "cleanBasename": "Screen_MoreInfo_Numeric_more_info_numeric-39ae8e62.png",
-      "findings": [],
-      "functionName": "Screen_MoreInfo_Numeric",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_MoreInfo_Numeric_more info \u00b7 numeric",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_MoreInfo_Numeric_CardStyle_more_info_numeric_card_style-c36e21b7.a11y.png",
-      "cleanBasename": "Screen_MoreInfo_Numeric_CardStyle_more_info_numeric_card_style-c36e21b7.png",
-      "findings": [],
-      "functionName": "Screen_MoreInfo_Numeric_CardStyle",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_MoreInfo_Numeric_CardStyle_more info \u00b7 numeric \u00b7 card style",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_MoreInfo_Numeric_ThemeStyle_more_info_numeric_theme-2b5f27e9.a11y.png",
-      "cleanBasename": "Screen_MoreInfo_Numeric_ThemeStyle_more_info_numeric_theme-2b5f27e9.png",
-      "findings": [],
-      "functionName": "Screen_MoreInfo_Numeric_ThemeStyle",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_MoreInfo_Numeric_ThemeStyle_more info \u00b7 numeric \u00b7 theme",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_MoreInfo_OnOff_more_info_on_off-2bbf73ba.a11y.png",
-      "cleanBasename": "Screen_MoreInfo_OnOff_more_info_on_off-2bbf73ba.png",
-      "findings": [
-        {
-          "boundsInScreen": "84,1462,169,1504",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"09:25\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "63,924,182,1040",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"On\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        }
-      ],
-      "functionName": "Screen_MoreInfo_OnOff",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_MoreInfo_OnOff_more info \u00b7 on_off",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_MoreInfo_OnOff_CardStyle_more_info_on_off_card_style-154b8d7c.a11y.png",
-      "cleanBasename": "Screen_MoreInfo_OnOff_CardStyle_more_info_on_off_card_style-154b8d7c.png",
-      "findings": [
-        {
-          "boundsInScreen": "84,1462,169,1504",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"09:25\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "63,924,182,1040",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"On\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        }
-      ],
-      "functionName": "Screen_MoreInfo_OnOff_CardStyle",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_MoreInfo_OnOff_CardStyle_more info \u00b7 on_off \u00b7 card style",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_MoreInfo_OnOff_Dark_more_info_on_off_dark-9439fd7e.a11y.png",
-      "cleanBasename": "Screen_MoreInfo_OnOff_Dark_more_info_on_off_dark-9439fd7e.png",
-      "findings": [
-        {
-          "boundsInScreen": "84,1462,169,1504",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"09:25\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "63,924,182,1040",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"On\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        }
-      ],
-      "functionName": "Screen_MoreInfo_OnOff_Dark",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_MoreInfo_OnOff_Dark_more info \u00b7 on_off \u00b7 dark",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_MoreInfo_ThermostatControls_more_info_thermostat_controls-cf8853aa.a11y.png",
-      "cleanBasename": "Screen_MoreInfo_ThermostatControls_more_info_thermostat_controls-cf8853aa.png",
-      "findings": [],
-      "functionName": "Screen_MoreInfo_ThermostatControls",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_MoreInfo_ThermostatControls_more info \u00b7 thermostat controls",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "",
-      "cleanBasename": "Screen_Settings_settings-fc99b7e6.png",
-      "findings": [],
-      "functionName": "Screen_Settings",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_settings",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_Settings_AppTheme_settings_app_theme-a2996c6a.a11y.png",
-      "cleanBasename": "Screen_Settings_AppTheme_settings_app_theme-a2996c6a.png",
-      "findings": [],
-      "functionName": "Screen_Settings_AppTheme",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_AppTheme_settings \u00b7 app theme",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_Settings_Assistants_settings_assistants-315fe373.a11y.png",
-      "cleanBasename": "Screen_Settings_Assistants_settings_assistants-315fe373.png",
-      "findings": [],
-      "functionName": "Screen_Settings_Assistants",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_Assistants_settings \u00b7 assistants",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_Settings_CardStyles_settings_card_styles-f2e3d1b3.a11y.png",
-      "cleanBasename": "Screen_Settings_CardStyles_settings_card_styles-f2e3d1b3.png",
-      "findings": [],
-      "functionName": "Screen_Settings_CardStyles",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_CardStyles_settings \u00b7 card styles",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_Settings_CardStylesOnWatch_settings_card_styles_on_a_watch-d6c9a800.a11y.png",
-      "cleanBasename": "Screen_Settings_CardStylesOnWatch_settings_card_styles_on_a_watch-d6c9a800.png",
-      "findings": [],
-      "functionName": "Screen_Settings_CardStylesOnWatch",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_CardStylesOnWatch_settings \u00b7 card styles on a watch",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_Settings_CardStylesToInstall_settings_card_styles_to_install-b29fff7f.a11y.png",
-      "cleanBasename": "Screen_Settings_CardStylesToInstall_settings_card_styles_to_install-b29fff7f.png",
-      "findings": [],
-      "functionName": "Screen_Settings_CardStylesToInstall",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_CardStylesToInstall_settings \u00b7 card styles to install",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "",
-      "cleanBasename": "",
-      "findings": [],
-      "functionName": "Screen_Settings_ThemeStyle",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_ThemeStyle_settings \u00b7 theme",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_Settings_UsageSharing_settings_usage_sharing-65948b88.a11y.png",
-      "cleanBasename": "Screen_Settings_UsageSharing_settings_usage_sharing-65948b88.png",
-      "findings": [
-        {
-          "boundsInScreen": "63,311,374,437",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Privacy policy\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        }
-      ],
-      "functionName": "Screen_Settings_UsageSharing",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_UsageSharing_settings \u00b7 usage sharing",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_SyncDiagnostics_sync_diagnostics-a38e8a18.a11y.png",
-      "cleanBasename": "Screen_SyncDiagnostics_sync_diagnostics-a38e8a18.png",
-      "findings": [
-        {
-          "boundsInScreen": "919,929,1018,982",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"never\" is identical to that of 2 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        }
-      ],
-      "functionName": "Screen_SyncDiagnostics",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_SyncDiagnostics_sync diagnostics",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_Widgets_widgets-47dcfa25.a11y.png",
-      "cleanBasename": "Screen_Widgets_widgets-47dcfa25.png",
-      "findings": [],
-      "functionName": "Screen_Widgets",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Widgets_widgets",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_Widgets_Installed_widgets_installed-ee3431e0.a11y.png",
-      "cleanBasename": "Screen_Widgets_Installed_widgets_installed-ee3431e0.png",
-      "findings": [],
-      "functionName": "Screen_Widgets_Installed",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Widgets_Installed_widgets \u00b7 installed",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_Widgets_ThemeStyle_widgets_theme-c6d5903f.a11y.png",
-      "cleanBasename": "Screen_Widgets_ThemeStyle_widgets_theme-c6d5903f.png",
-      "findings": [],
-      "functionName": "Screen_Widgets_ThemeStyle",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Widgets_ThemeStyle_widgets \u00b7 theme",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Screen_Widgets_Watch_widgets_watch-5b58555f.a11y.png",
-      "cleanBasename": "Screen_Widgets_Watch_widgets_watch-5b58555f.png",
-      "findings": [],
-      "functionName": "Screen_Widgets_Watch",
-      "module": "app",
-      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Widgets_Watch_widgets \u00b7 watch",
-      "rendersDir": "app",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
-      "variant": ""
-    },
-    {
-      "annotatedBasename": "Play_Wear_01_Home_play_wear_home-4a47d00f.a11y.png",
-      "cleanBasename": "Play_Wear_01_Home_play_wear_home-4a47d00f.png",
-      "findings": [],
-      "functionName": "Play_Wear_01_Home",
-      "module": "wear",
-      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.Play_Wear_01_Home_play \u00b7 wear \u00b7 home",
-      "rendersDir": "wear",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/wear/ui/WearPreviews.kt",
-      "variant": "spec:width=227dp,height=227dp,dpi=320,isRound=true"
-    },
-    {
-      "annotatedBasename": "Play_Wear_02_WidgetLarge_play_wear_widget_large-585828ec.a11y.png",
-      "cleanBasename": "Play_Wear_02_WidgetLarge_play_wear_widget_large-585828ec.png",
-      "findings": [
-        {
-          "boundsInScreen": "56,153,398,240",
-          "level": "ERROR",
-          "message": "This item's height is 44dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View"
-        }
-      ],
-      "functionName": "Play_Wear_02_WidgetLarge",
-      "module": "wear",
-      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.Play_Wear_02_WidgetLarge_play \u00b7 wear \u00b7 widget (large)",
-      "rendersDir": "wear",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/wear/ui/WearPreviews.kt",
-      "variant": "spec:width=227dp,height=227dp,dpi=320,isRound=true"
-    },
-    {
-      "annotatedBasename": "Play_Wear_03_WidgetSmall_play_wear_widget_small-7e8331e8.a11y.png",
-      "cleanBasename": "Play_Wear_03_WidgetSmall_play_wear_widget_small-7e8331e8.png",
-      "findings": [
-        {
-          "boundsInScreen": "436,167,454,287",
-          "level": "ERROR",
-          "message": "This item's width is 9dp. Consider making the width of this touch target 32dp or larger.",
-          "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View"
-        }
-      ],
-      "functionName": "Play_Wear_03_WidgetSmall",
-      "module": "wear",
-      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.Play_Wear_03_WidgetSmall_play \u00b7 wear \u00b7 widget (small)",
-      "rendersDir": "wear",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/wear/ui/WearPreviews.kt",
-      "variant": "spec:width=227dp,height=227dp,dpi=320,isRound=true"
-    },
-    {
-      "annotatedBasename": "Play_Wear_04_Dashboard_play_wear_dashboard-7216484c.a11y.png",
-      "cleanBasename": "Play_Wear_04_Dashboard_play_wear_dashboard-7216484c.png",
-      "findings": [],
-      "functionName": "Play_Wear_04_Dashboard",
-      "module": "wear",
-      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.Play_Wear_04_Dashboard_play \u00b7 wear \u00b7 dashboard",
-      "rendersDir": "wear",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/wear/ui/WearPreviews.kt",
-      "variant": "spec:width=227dp,height=227dp,dpi=320,isRound=true"
-    },
-    {
-      "annotatedBasename": "SlotWidgetPreview_Empty_Card_widget_no_card_chosen-ad8170cb.a11y.png",
-      "cleanBasename": "SlotWidgetPreview_Empty_Card_widget_no_card_chosen-ad8170cb.png",
-      "findings": [
-        {
-          "boundsInScreen": "57,240,582,314",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Choose a card in Terrazzo on your phone\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        }
-      ],
-      "functionName": "SlotWidgetPreview_Empty",
-      "module": "wear",
-      "previewId": "ee.schimke.terrazzo.wear.widget.SlotWidgetPreviewsKt.SlotWidgetPreview_Empty_Card widget \u2014 no card chosen",
-      "rendersDir": "wear",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/wear/widget/SlotWidgetPreviews.kt",
+      "functionName": "PictureEntity_CameraImage_Light",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.PictureEntityStrategyPreviewsKt.PictureEntity_CameraImage_Light_picture-entity camera-image (light)",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/PictureEntityStrategyPreviews.kt",
       "variant": ""
     },
     {
@@ -968,81 +29,6 @@
       "functionName": "WearCardDetailsPreview",
       "module": "wear",
       "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearCardDetailsPreview_Wear_ card details",
-      "rendersDir": "wear",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/wear/ui/WearPreviews.kt",
-      "variant": "wearos_small_round"
-    },
-    {
-      "annotatedBasename": "WearCardDetailsPreview_Entities_Wear_card_details_entities-082c5891.a11y.png",
-      "cleanBasename": "WearCardDetailsPreview_Entities_Wear_card_details_entities-082c5891.png",
-      "findings": [
-        {
-          "boundsInScreen": "68,124,316,199",
-          "level": "ERROR",
-          "message": "This item's height is 38dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "121,18,263,50",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Downstairs\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        }
-      ],
-      "functionName": "WearCardDetailsPreview_Entities",
-      "module": "wear",
-      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearCardDetailsPreview_Entities_Wear_ card details (entities)",
-      "rendersDir": "wear",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/wear/ui/WearPreviews.kt",
-      "variant": "wearos_small_round"
-    },
-    {
-      "annotatedBasename": "WearCardScreenPreview_Wear_card_full_screen-3a3ad769.a11y.png",
-      "cleanBasename": "WearCardScreenPreview_Wear_card_full_screen-3a3ad769.png",
-      "findings": [],
-      "functionName": "WearCardScreenPreview",
-      "module": "wear",
-      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearCardScreenPreview_Wear_ card full screen",
-      "rendersDir": "wear",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/wear/ui/WearPreviews.kt",
-      "variant": "wearos_small_round"
-    },
-    {
-      "annotatedBasename": "WearDashboardPreview_Wear_dashboard-67ae6304.a11y.png",
-      "cleanBasename": "WearDashboardPreview_Wear_dashboard-67ae6304.png",
-      "findings": [
-        {
-          "boundsInScreen": "72,271,312,364",
-          "level": "ERROR",
-          "message": "This item's height is 47dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View"
-        }
-      ],
-      "functionName": "WearDashboardPreview",
-      "module": "wear",
-      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearDashboardPreview_Wear_ dashboard",
-      "rendersDir": "wear",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/wear/ui/WearPreviews.kt",
-      "variant": "wearos_small_round"
-    },
-    {
-      "annotatedBasename": "WearDashboardPreview_Braun_Wear_dashboard_Braun-76c3dc20.a11y.png",
-      "cleanBasename": "WearDashboardPreview_Braun_Wear_dashboard_Braun-76c3dc20.png",
-      "findings": [
-        {
-          "boundsInScreen": "72,271,312,364",
-          "level": "ERROR",
-          "message": "This item's height is 47dp. Consider making the height of this touch target 48dp or larger.",
-          "type": "TouchTargetSizeCheck",
-          "viewDescription": "android.view.View"
-        }
-      ],
-      "functionName": "WearDashboardPreview_Braun",
-      "module": "wear",
-      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearDashboardPreview_Braun_Wear_ dashboard Braun",
       "rendersDir": "wear",
       "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/wear/ui/WearPreviews.kt",
       "variant": "wearos_small_round"
@@ -1067,17 +53,6 @@
       "variant": "wearos_small_round"
     },
     {
-      "annotatedBasename": "WearDashboardsPreview_Wear_dashboards-7daf1ddb.a11y.png",
-      "cleanBasename": "WearDashboardsPreview_Wear_dashboards-7daf1ddb.png",
-      "findings": [],
-      "functionName": "WearDashboardsPreview",
-      "module": "wear",
-      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearDashboardsPreview_Wear_ dashboards",
-      "rendersDir": "wear",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/wear/ui/WearPreviews.kt",
-      "variant": "wearos_small_round"
-    },
-    {
       "annotatedBasename": "WearSectionPreview_Wear_section-712f72f1.a11y.png",
       "cleanBasename": "WearSectionPreview_Wear_section-712f72f1.png",
       "findings": [
@@ -1097,45 +72,12 @@
       "variant": "wearos_small_round"
     },
     {
-      "annotatedBasename": "WearSettingsPreview_Wear_settings-866444c2.a11y.png",
-      "cleanBasename": "WearSettingsPreview_Wear_settings-866444c2.png",
-      "findings": [],
-      "functionName": "WearSettingsPreview",
-      "module": "wear",
-      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearSettingsPreview_Wear_ settings",
-      "rendersDir": "wear",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/wear/ui/WearPreviews.kt",
-      "variant": "wearos_small_round"
-    },
-    {
-      "annotatedBasename": "WearTopLevelPreview_Demo_Wear_top_level_demo-7f799f8c.a11y.png",
-      "cleanBasename": "WearTopLevelPreview_Demo_Wear_top_level_demo-7f799f8c.png",
-      "findings": [],
-      "functionName": "WearTopLevelPreview_Demo",
-      "module": "wear",
-      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearTopLevelPreview_Demo_Wear_ top-level (demo)",
-      "rendersDir": "wear",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/wear/ui/WearPreviews.kt",
-      "variant": "wearos_small_round"
-    },
-    {
       "annotatedBasename": "WearTopLevelPreview_Empty_Wear_top_level_empty-fa5d471f.a11y.png",
       "cleanBasename": "WearTopLevelPreview_Empty_Wear_top_level_empty-fa5d471f.png",
       "findings": [],
       "functionName": "WearTopLevelPreview_Empty",
       "module": "wear",
       "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearTopLevelPreview_Empty_Wear_ top-level (empty)",
-      "rendersDir": "wear",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/wear/ui/WearPreviews.kt",
-      "variant": "wearos_small_round"
-    },
-    {
-      "annotatedBasename": "WearTopLevelPreview_Live_Wear_top_level_live-182b60ce.a11y.png",
-      "cleanBasename": "WearTopLevelPreview_Live_Wear_top_level_live-182b60ce.png",
-      "findings": [],
-      "functionName": "WearTopLevelPreview_Live",
-      "module": "wear",
-      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearTopLevelPreview_Live_Wear_ top-level (live)",
       "rendersDir": "wear",
       "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/wear/ui/WearPreviews.kt",
       "variant": "wearos_small_round"
@@ -1150,17 +92,6 @@
       "rendersDir": "wear",
       "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/wear/ui/WearPreviews.kt",
       "variant": "wearos_small_round"
-    },
-    {
-      "annotatedBasename": "WearWidgetsPreview_Empty_Wear_widgets_empty-811190d2.a11y.png",
-      "cleanBasename": "WearWidgetsPreview_Empty_Wear_widgets_empty-811190d2.png",
-      "findings": [],
-      "functionName": "WearWidgetsPreview_Empty",
-      "module": "wear",
-      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearWidgetsPreview_Empty_Wear_ widgets (empty)",
-      "rendersDir": "wear",
-      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/wear/ui/WearPreviews.kt",
-      "variant": "wearos_small_round"
     }
   ],
   "scope": "changed-previews",
@@ -1168,6 +99,1882 @@
     {
       "module": "app",
       "previewId": "ee.schimke.terrazzo.previews.CardDebugPreviewsKt.DataGridOverlayPreview_Data grid overlay"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_01_HomeLight_play \u00b7 phone \u00b7 home (light)"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_02_HomeDark_play \u00b7 phone \u00b7 home (dark)"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_03_Discovery_play \u00b7 phone \u00b7 discovery"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_04_Picker_play \u00b7 phone \u00b7 picker"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_05_WatchCards_play \u00b7 phone \u00b7 watch cards"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Tablet10_01_Home_play \u00b7 10-inch \u00b7 home"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Tablet7_01_Home_play \u00b7 7-inch \u00b7 home"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardActions_CardStyle_card actions \u00b7 card style"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardActions_Placed_card actions \u00b7 placed"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardActions_card actions"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardDisabled_card disabled"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardHistory_ThemeStyle_card history \u00b7 theme"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardHistory_card history"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardStyle_Skins_card style \u00b7 skins"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardStyle_card style"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardEditor_Selected_dashboard editor \u00b7 card selected"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardEditor_dashboard editor"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardPicker_ThemeStyle_dashboard picker \u00b7 theme"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardPicker_dashboard picker"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardSelection_Settings_dashboard selection \u00b7 settings"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardSelection_Signin_dashboard selection \u00b7 signin"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardSelection_ThemeStyle_dashboard selection \u00b7 theme"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_Connecting_top bar \u00b7 360dp \u00b7 connecting"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_Failed_top bar \u00b7 360dp \u00b7 failed"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_LongTitle_top bar \u00b7 360dp \u00b7 long title"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_Narrow_top bar \u00b7 360dp \u00b7 switcher"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_Paused_top bar \u00b7 360dp \u00b7 paused"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_Phone_top bar \u00b7 412dp \u00b7 switcher"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_SingleReadOnly_top bar \u00b7 360dp \u00b7 single dashboard, read only"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardView_PhoneLandscapeMedium_dashboard view \u00b7 phone landscape medium"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardView_dashboard view"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Discovery_LiveDemo_discovery \u00b7 live demo"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Discovery_ThemeStyle_discovery \u00b7 theme"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Discovery_discovery"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Logs_Dark_logs \u00b7 dark"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Logs_Empty_logs \u00b7 empty"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Logs_logs"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_ManagePinned_Empty_manage pinned \u00b7 empty"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_ManagePinned_manage pinned"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_MoreInfo_LightControls_more info \u00b7 light controls"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_MoreInfo_Numeric_CardStyle_more info \u00b7 numeric \u00b7 card style"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_MoreInfo_Numeric_ThemeStyle_more info \u00b7 numeric \u00b7 theme"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_MoreInfo_Numeric_more info \u00b7 numeric"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_MoreInfo_OnOff_CardStyle_more info \u00b7 on_off \u00b7 card style"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_MoreInfo_OnOff_Dark_more info \u00b7 on_off \u00b7 dark"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_MoreInfo_OnOff_more info \u00b7 on_off"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_MoreInfo_ThermostatControls_more info \u00b7 thermostat controls"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_AppTheme_settings \u00b7 app theme"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_Assistants_settings \u00b7 assistants"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_CardStylesOnWatch_settings \u00b7 card styles on a watch"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_CardStylesToInstall_settings \u00b7 card styles to install"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_CardStyles_settings \u00b7 card styles"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_ThemeStyle_settings \u00b7 theme"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_UsageSharing_settings \u00b7 usage sharing"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_settings"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_SyncDiagnostics_sync diagnostics"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Widgets_Installed_widgets \u00b7 installed"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Widgets_ThemeStyle_widgets \u00b7 theme"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Widgets_Watch_widgets \u00b7 watch"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Widgets_widgets"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.AnimationPreviewsKt.Gauge_Animation_Dark_gauge-anim (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.AnimationPreviewsKt.Gauge_Animation_Light_gauge-anim (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.AnimationPreviewsKt.Toggle_Animated_Dark_toggle-animated (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.AnimationPreviewsKt.Toggle_Animated_Light_toggle-animated (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.AnimationPreviewsKt.Toggle_Animation_Dark_toggle-anim (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.AnimationPreviewsKt.Toggle_Animation_Light_toggle-anim (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.AppIconPreviewsKt.AppIcon_Dark_app-icon (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.AppIconPreviewsKt.AppIcon_Light_app-icon (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_AlarmPanel_matrix \u2014 alarm-panel"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_BambuPrintStatus_matrix \u2014 bambu print-status"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_Button_matrix \u2014 button"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_Calendar_matrix \u2014 calendar"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_Entities_matrix \u2014 entities"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_Entity_matrix \u2014 entity"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_Gauge_matrix \u2014 gauge"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_HistoryGraph_matrix \u2014 history-graph"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_Humidifier_matrix \u2014 humidifier"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_Light_matrix \u2014 light"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_Logbook_matrix \u2014 logbook"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_Markdown_matrix \u2014 markdown"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_MediaControl_matrix \u2014 media-control"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_PictureEntity_matrix \u2014 picture-entity"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_Sensor_matrix \u2014 sensor"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_Statistic_matrix \u2014 statistic"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_Thermostat_matrix \u2014 thermostat"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_Tile_matrix \u2014 tile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_TodoList_matrix \u2014 todo-list"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewMatrixKt.CardPreviewMatrix_WeatherForecast_matrix \u2014 weather-forecast"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.AlarmPanel_Dark_alarm-panel (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.AlarmPanel_Light_alarm-panel (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Area_Dark_area (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Area_Light_area (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.BambuAms_Dark_bambu ams (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.BambuAms_Light_bambu ams (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.BambuPrintControlAmbiguous_Dark_bambu print-control ambiguous printer (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.BambuPrintControlAmbiguous_Light_bambu print-control ambiguous printer (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.BambuPrintControlIdle_Light_bambu print-control idle (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.BambuPrintControlPaused_Light_bambu print-control paused (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.BambuPrintControlUnavailable_Dark_bambu print-control unavailable (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.BambuPrintControlUnavailable_Light_bambu print-control unavailable (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.BambuPrintControl_Dark_bambu print-control (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.BambuPrintControl_Light_bambu print-control (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.BambuPrintStatusAmbiguous_Light_bambu print-status ambiguous printer (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.BambuPrintStatusFinished_Dark_bambu print-status finished (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.BambuPrintStatusFinished_Light_bambu print-status finished (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.BambuPrintStatusIdle_Dark_bambu print-status idle (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.BambuPrintStatusIdle_Light_bambu print-status idle (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.BambuPrintStatus_Dark_bambu print-status (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.BambuPrintStatus_Light_bambu print-status (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.BambuSpool_Dark_bambu spool (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.BambuSpool_Light_bambu spool (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Button_Dark_button (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Button_Light_button (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Button_On_Dark_button on (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Button_On_Light_button on (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Calendar_Dark_calendar (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Calendar_Light_calendar (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Clock_Dark_clock (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Clock_Light_clock (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Clock_Seconds_clock (seconds)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Clock_Zone_clock (zone)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Dashboard_Dark_dashboard (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Dashboard_Light_dashboard (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Entities_Availability_Dark_entities availability (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Entities_Availability_Light_entities availability (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Entities_Dark_entities (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Entities_Light_entities (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.EntityFilter_Dark_entity-filter (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.EntityFilter_Light_entity-filter (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Entity_Dark_entity (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Entity_Light_entity (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Gauge_Dark_gauge (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Gauge_Light_gauge (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Glance_Availability_Light_glance availability (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Glance_Dark_glance (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Glance_Light_glance (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.GridButtons4Columns_360_grid 4 buttons \u2014 360dp"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.GridSquarePictures_360_grid 2 square pictures \u2014 360dp"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.GridSquarePictures_700_grid 2 square pictures \u2014 700dp"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.GridTiles_360_grid tiles \u2014 360dp"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.GridTiles_700_grid tiles \u2014 700dp"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Grid_Dark_grid (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Grid_Light_grid (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Heading_Dark_heading (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Heading_Light_heading (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.HistoryGraphNamedPartlyEmpty_Dark_history-graph named, partly empty (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.HistoryGraphNamedPartlyEmpty_Light_history-graph named, partly empty (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.HistoryGraphNoData_Dark_history-graph no-data (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.HistoryGraphNoData_Light_history-graph no-data (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.HistoryGraph_Dark_history-graph (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.HistoryGraph_Light_history-graph (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.HorizontalStack_Dark_horizontal-stack (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.HorizontalStack_Light_horizontal-stack (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Humidifier_Dark_humidifier (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Humidifier_Light_humidifier (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.LightCard_Dark_light card (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.LightCard_Light_light card (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Logbook_Dark_logbook (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Logbook_Light_logbook (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Markdown_Dark_markdown (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Markdown_Emphasis_Dark_markdown emphasis (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Markdown_Emphasis_Light_markdown emphasis (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Markdown_Light_markdown (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.MediaControl_Dark_media-control (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.MediaControl_Light_media-control (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.PictureElements_Dark_picture-elements (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.PictureElements_Light_picture-elements (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.PictureEntity_Dark_picture-entity (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.PictureEntity_Light_picture-entity (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.PictureGlance_Dark_picture-glance (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.PictureGlance_Light_picture-glance (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Picture_Dark_picture (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Picture_Light_picture (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Sensor_Dark_sensor (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Sensor_Light_sensor (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Statistic_Dark_statistic (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Statistic_Light_statistic (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.StatisticsGraph_Dark_statistics-graph (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.StatisticsGraph_Light_statistics-graph (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Thermostat_Dark_thermostat (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Thermostat_Light_thermostat (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Tile_Cover_States_tile cover (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Tile_Light_States_tile light (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Tile_Lock_States_tile lock (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Tiles_Availability_Dark_tiles availability (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Tiles_Availability_Light_tiles availability (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.TodoList_Dark_todo-list (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.TodoList_Light_todo-list (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Unsupported_Dark_unsupported (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Unsupported_Light_unsupported (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.VerticalStack_Dark_vertical-stack (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.VerticalStack_Light_vertical-stack (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.WeatherForecast_Dark_weather-forecast (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CardPreviewsKt.WeatherForecast_Light_weather-forecast (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityCards_Aeon_community cards_ Aeon"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityCards_Arctic_community cards_ Arctic"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityCards_Bubble_community cards_ Bubble"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityCards_Catppuccin_community cards_ Catppuccin"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityCards_Cupertino_community cards_ Cupertino"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityCards_Lcars_community cards_ Lcars"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityCards_Minimalist_community cards_ Minimalist"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityCards_Mushroom_community cards_ Mushroom"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityCards_Noctis_community cards_ Noctis"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityCards_Obsidian_community cards_ Obsidian"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityCompact_Aeon_community compact_ Aeon"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityCompact_Arctic_community compact_ Arctic"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityCompact_Bubble_community compact_ Bubble"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityCompact_Catppuccin_community compact_ Catppuccin"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityCompact_Cupertino_community compact_ Cupertino"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityCompact_Lcars_community compact_ Lcars"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityCompact_Minimalist_community compact_ Minimalist"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityCompact_Mushroom_community compact_ Mushroom"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityCompact_Noctis_community compact_ Noctis"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityCompact_Obsidian_community compact_ Obsidian"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityDials_Aeon_community dials_ Aeon"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityDials_Arctic_community dials_ Arctic"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityDials_Bubble_community dials_ Bubble"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityDials_Catppuccin_community dials_ Catppuccin"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityDials_Cupertino_community dials_ Cupertino"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityDials_Lcars_community dials_ Lcars"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityDials_Minimalist_community dials_ Minimalist"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityDials_Mushroom_community dials_ Mushroom"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityDials_Noctis_community dials_ Noctis"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityDials_Obsidian_community dials_ Obsidian"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityLight_Aeon_community light_ Aeon"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityLight_Arctic_community light_ Arctic"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityLight_Bubble_community light_ Bubble"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityLight_Catppuccin_community light_ Catppuccin"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityLight_Cupertino_community light_ Cupertino"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityLight_Lcars_community light_ Lcars"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityLight_Minimalist_community light_ Minimalist"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityLight_Mushroom_community light_ Mushroom"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityLight_Noctis_community light_ Noctis"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityLight_Obsidian_community light_ Obsidian"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityMedia_Aeon_community media and alarm_ Aeon"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityMedia_Arctic_community media and alarm_ Arctic"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityMedia_Bubble_community media and alarm_ Bubble"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityMedia_Catppuccin_community media and alarm_ Catppuccin"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityMedia_Cupertino_community media and alarm_ Cupertino"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityMedia_Lcars_community media and alarm_ Lcars"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityMedia_Minimalist_community media and alarm_ Minimalist"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityMedia_Mushroom_community media and alarm_ Mushroom"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityMedia_Noctis_community media and alarm_ Noctis"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityMedia_Obsidian_community media and alarm_ Obsidian"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.Community_Aeon_Dark_community_ Aeon (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.Community_Aeon_Light_community_ Aeon (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.Community_Arctic_Dark_community_ Arctic (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.Community_Arctic_Light_community_ Arctic (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.Community_Bubble_Dark_community_ Bubble (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.Community_Bubble_Light_community_ Bubble (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.Community_Catppuccin_Dark_community_ Catppuccin (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.Community_Catppuccin_Light_community_ Catppuccin (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.Community_Cupertino_Dark_community_ Cupertino (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.Community_Cupertino_Light_community_ Cupertino (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.Community_Lcars_Dark_community_ Lcars (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.Community_Lcars_Light_community_ Lcars (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.Community_Minimalist_Dark_community_ Minimalist (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.Community_Minimalist_Light_community_ Minimalist (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.Community_Mushroom_Dark_community_ Mushroom (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.Community_Mushroom_Light_community_ Mushroom (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.Community_Noctis_Dark_community_ Noctis (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.Community_Noctis_Light_community_ Noctis (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.Community_Obsidian_Dark_community_ Obsidian (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.CommunityFamilyPreviewsKt.Community_Obsidian_Light_community_ Obsidian (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ComponentWidthRuntimeProbeKt.ComponentWidthRuntimeProbe_componentWidth runtime probe"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.Dashboard3dPrintingMobile_dashboard 3d-printing \u2014 mobile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.Dashboard3dPrintingTablet_dashboard 3d-printing \u2014 tablet"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardClimateMobile_dashboard climate \u2014 mobile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardClimateTablet_dashboard climate \u2014 tablet"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardEnergyMobile_dashboard energy \u2014 mobile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardEnergyTablet_dashboard energy \u2014 tablet"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardGithubMobile_dashboard github \u2014 mobile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardGithubTablet_dashboard github \u2014 tablet"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardMeshcoreMobile_dashboard meshcore \u2014 mobile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardMeshcoreTablet_dashboard meshcore \u2014 tablet"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardNetworksMobile_dashboard networks \u2014 mobile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardNetworksTablet_dashboard networks \u2014 tablet"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardSectionCardGridMobile_dashboard section card grid \u2014 mobile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardSectionCardGridTablet_dashboard section card grid \u2014 tablet"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardSectionsSpanOneTablet_dashboard sections span 1 \u2014 tablet"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardSecurityMobile_dashboard security \u2014 mobile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardSecurityTablet_dashboard security \u2014 tablet"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardView3dPrintingA1MiniMobile_dashboard 3d-printing view 3 A1 Mini \u2014 mobile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardView3dPrintingFilamentMobile_dashboard 3d-printing view 4 Filament \u2014 mobile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardView3dPrintingFilamentTablet_dashboard 3d-printing view 4 Filament \u2014 tablet"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardView3dPrintingP2sMobile_dashboard 3d-printing view 2 P2s \u2014 mobile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardView3dPrintingP2sTablet_dashboard 3d-printing view 2 P2s \u2014 tablet"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardView3dPrintingPrintersMobile_dashboard 3d-printing view 1 Printers \u2014 mobile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardViewClimateHomeMobile_dashboard climate view 1 Home \u2014 mobile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardViewEnergyOverviewMobile_dashboard energy view 1 Overview \u2014 mobile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardViewEnergySunMobile_dashboard energy view 2 Sun \u2014 mobile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardViewGithubProjectsMobile_dashboard github view 1 Projects \u2014 mobile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardViewMeshcoreControlsMobile_dashboard meshcore view 4 Controls \u2014 mobile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardViewMeshcoreOverviewMobile_dashboard meshcore view 1 Overview \u2014 mobile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardViewMeshcoreRoomServerMobile_dashboard meshcore view 3 Room Server \u2014 mobile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardViewMeshcoreSolarRepeaterMobile_dashboard meshcore view 2 Solar Repeater \u2014 mobile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.FlexBoxPreviewsKt.FlexBox_AlignItems_flexbox alignItems"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.FlexBoxPreviewsKt.FlexBox_GrowBasis_flexbox grow and basis"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.FlexBoxPreviewsKt.FlexBox_JustifyContent_flexbox justifyContent"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.FlexBoxPreviewsKt.FlexBox_WrapColumn_flexbox wrap and column"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.GarageShutterCardPreviewsKt.Garage_Animation_Dark_garage-anim (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.GarageShutterCardPreviewsKt.Garage_Animation_Light_garage-anim (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.GarageShutterCardPreviewsKt.Garage_Closing_Dark_garage closing (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.GarageShutterCardPreviewsKt.Garage_Closing_Light_garage closing (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.GarageShutterCardPreviewsKt.Garage_Opening_Dark_garage opening (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.GarageShutterCardPreviewsKt.Garage_Opening_Light_garage opening (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.GarageShutterCardPreviewsKt.Garage_State_Dark_garage-state (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.GarageShutterCardPreviewsKt.Garage_State_Light_garage-state (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.GarageShutterCardPreviewsKt.Garage_TwoEntities_Dark_garage two-entities (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.GarageShutterCardPreviewsKt.Garage_TwoEntities_Light_garage two-entities (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.GarageShutterCardPreviewsKt.Garage_Unavailable_Dark_garage unavailable (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.GarageShutterCardPreviewsKt.Garage_Unavailable_Light_garage unavailable (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ImagePreviewsKt.ImageInline_Dark_image-inline (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ImagePreviewsKt.ImageInline_Light_image-inline (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ImagePreviewsKt.ImageNamed_Dark_image-named (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ImagePreviewsKt.ImageNamed_Light_image-named (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ImagePreviewsKt.ImageUrl_FakeCoil_Dark_image-url fake-coil (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ImagePreviewsKt.ImageUrl_FakeCoil_Light_image-url fake-coil (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ImagePreviewsKt.ImageUrl_Probe_Frame0_image-url probe frame=0"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ImagePreviewsKt.ImageUrl_Probe_Frame1_image-url probe frame=1"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.LovelaceCardPreviewKt.LovelaceCardPreview"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.PictureEntityStrategyPreviewsKt.PictureEntity_AppMode_Dark_picture-entity app-mode (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.PictureEntityStrategyPreviewsKt.PictureEntity_AppMode_Light_picture-entity app-mode (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.PictureEntityStrategyPreviewsKt.PictureEntity_IconFallback_Light_picture-entity icon-fallback (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.PictureEntityStrategyPreviewsKt.PictureEntity_WidgetMode_Light_picture-entity widget-mode (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.PlayStoreGraphicsPreviewsKt.Play_Feature_1024x500_play \u00b7 feature \u00b7 1024x500"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.PlayStoreGraphicsPreviewsKt.Play_Icon_512_play \u00b7 icon \u00b7 512"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ResponsiveCardPreviewsKt.Entities_Responsive_Light_entities responsive narrow"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ResponsiveCardPreviewsKt.Entities_Responsive_Light_entities responsive standard"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ResponsiveCardPreviewsKt.Entities_Responsive_Light_entities responsive wide"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ResponsiveCardPreviewsKt.Glance_Responsive_Dark_glance responsive narrow"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ResponsiveCardPreviewsKt.Glance_Responsive_Dark_glance responsive standard"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ResponsiveCardPreviewsKt.Glance_Responsive_Dark_glance responsive wide"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ResponsiveCardPreviewsKt.Markdown_Responsive_Light_markdown responsive narrow"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ResponsiveCardPreviewsKt.Markdown_Responsive_Light_markdown responsive standard"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ResponsiveCardPreviewsKt.Tile_Responsive_Dark_tile responsive narrow"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ResponsiveCardPreviewsKt.Tile_Responsive_Dark_tile responsive standard"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ResponsiveCardPreviewsKt.Tile_Responsive_Dark_tile responsive wide"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.SectionFlexPreviewsKt.SectionFlowHostMobile_section flow host \u2014 mobile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.SectionFlexPreviewsKt.SectionFlowHostTablet_section flow host \u2014 tablet"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.SectionFlexPreviewsKt.SectionFlowRemoteMobile_section flow remote \u2014 mobile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.SectionFlexPreviewsKt.SectionFlowRemoteReflow_section flow remote \u2014 one capture, two widths"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.SectionFlexPreviewsKt.SectionFlowRemoteTablet_section flow remote \u2014 tablet"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ShutterCardPreviewsKt.Shutter_Dark_shutter (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ShutterCardPreviewsKt.Shutter_GarageControls_Dark_shutter garage controls (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ShutterCardPreviewsKt.Shutter_GarageControls_Light_shutter garage controls (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ShutterCardPreviewsKt.Shutter_GarageDemo_States_shutter garage demo config"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ShutterCardPreviewsKt.Shutter_Light_shutter (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.SizingExperimentPreviewsKt.Sizing_ConstraintMatrix_PaintMeasure_sizing \u2014 width \u00d7 height matrix \u00b7 paint-measure profile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.SizingExperimentPreviewsKt.Sizing_ConstraintMatrix_Wrap_sizing \u2014 width \u00d7 height matrix \u00b7 wrap profile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.SizingExperimentPreviewsKt.Sizing_FixedSlot_PaintMeasure_sizing \u2014 fixed slot, paint-measure profile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.SizingExperimentPreviewsKt.Sizing_FixedSlot_Wrap_sizing \u2014 fixed slot, wrap profile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.SizingExperimentPreviewsKt.Sizing_SlackSlot_PaintMeasure_sizing \u2014 slack slot, paint-measure profile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.SizingExperimentPreviewsKt.Sizing_SlackSlot_Wrap_sizing \u2014 slack slot, wrap profile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.SizingExperimentPreviewsKt.Sizing_TightSlot_PaintMeasure_sizing \u2014 tight slot, paint-measure profile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.SizingExperimentPreviewsKt.Sizing_TightSlot_Wrap_sizing \u2014 tight slot, wrap profile"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.SizingExperimentPreviewsKt.Sizing_WidthPinnedHeightAdaptive_sizing \u2014 width pinned, height adaptive"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ThemePreviewsKt.Theme_Home_Dark_theme_ Home (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ThemePreviewsKt.Theme_Home_Light_theme_ Home (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ThemePreviewsKt.Theme_Kiosk_Dark_theme_ Kiosk (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ThemePreviewsKt.Theme_Kiosk_Light_theme_ Kiosk (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ThemePreviewsKt.Theme_Material3_Dark_theme_ Material3 (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ThemePreviewsKt.Theme_Material3_Light_theme_ Material3 (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ThemePreviewsKt.Theme_Minimalist_Dark_theme_ Minimalist (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ThemePreviewsKt.Theme_Minimalist_Light_theme_ Minimalist (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ThemePreviewsKt.Theme_Mushroom_Dark_theme_ Mushroom (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ThemePreviewsKt.Theme_Mushroom_Light_theme_ Mushroom (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_AlarmPanelWide_tier2 alarm-panel wide"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_AlarmPanel_tier2 alarm-panel"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_Area_tier2 area"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_BambuAmsLongNames_tier2 bambu ams (long names)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_BambuAms_tier2 bambu ams"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_BambuPrintControl_tier2 bambu print-control"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_BambuPrintStatusIdle_tier2 bambu print-status idle"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_BambuPrintStatus_tier2 bambu print-status"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_BambuSpool_tier2 bambu spool"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_Calendar_tier2 calendar"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_Clock_tier2 clock"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_GaugeStacked_tier2 gauge stacked"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_GaugeWide_tier2 gauge wide"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_Gauge_tier2 gauge"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_HistoryGraph_tier2 history-graph"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_HumidifierWide_tier2 humidifier wide"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_Logbook_tier2 logbook"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_MediaControlWide_tier2 media-control wide"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_MediaControl_tier2 media-control"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_PictureElements_tier2 picture-elements"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_PictureEntity_tier2 picture-entity"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_PictureGlance_tier2 picture-glance"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_Picture_tier2 picture"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_Sensor_tier2 sensor"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_Statistic_tier2 statistic"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_StatisticsGraph_tier2 statistics-graph"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_Thermostat_tier2 thermostat"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_TodoList_tier2 todo-list"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_WeatherForecastWide_tier2 weather-forecast wide"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.Tier2CardPreviewsKt.Tier2_WeatherForecast_tier2 weather-forecast"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.TileCardPreviewsKt.Tile_Climate_Heating_Features_Dark_tile \u2014 climate heating, features (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.TileCardPreviewsKt.Tile_Climate_Heating_Features_tile \u2014 climate heating, features"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.TileCardPreviewsKt.Tile_Climate_Idle_Features_Dark_tile \u2014 climate idle, features (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.TileCardPreviewsKt.Tile_Climate_Idle_Features_tile \u2014 climate idle, features"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.TileCardPreviewsKt.Tile_Climate_Inline_Features_tile \u2014 climate, inline features"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.TileCardPreviewsKt.Tile_Color_Blue_Dark_tile \u2014 colour_ blue (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.TileCardPreviewsKt.Tile_Color_Blue_tile \u2014 colour_ blue"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.TileCardPreviewsKt.Tile_LightOn_Dark_tile \u2014 light on (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.TileCardPreviewsKt.Tile_LightOn_tile \u2014 light on"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.TileCardPreviewsKt.Tile_TemperatureSensor_Dark_tile \u2014 sensor temperature (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.TileCardPreviewsKt.Tile_TemperatureSensor_tile \u2014 sensor temperature"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ToggleSwitchPreviewsKt.ToggleByProgress_Mid_toggle progress=0.5"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ToggleSwitchPreviewsKt.ToggleByProgress_Off_toggle progress=0.0"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ToggleSwitchPreviewsKt.ToggleByProgress_On_toggle progress=1.0"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ToggleSwitchPreviewsKt.ToggleInitial_Off_toggle initial=off"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ToggleSwitchPreviewsKt.ToggleInitial_On_Dark_toggle initial=on (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ToggleSwitchPreviewsKt.ToggleInitial_On_toggle initial=on"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberCommonCardPreviewsKt.UberCommon_uber common cards"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberEverydayTextPreviewsKt.UberEverydayText_uber text cards"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Braun_Dark_uber_ Braun (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Braun_Light_uber_ Braun (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Classic_Light_uber_ Classic (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Console_Desk_uber_ Console (desk)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Console_uber_ Console"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Expressive_Dark_uber_ Material 3 Expressive (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Expressive_Light_uber_ Material 3 Expressive (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_HomeAssistant_Dark_uber_ Home Assistant (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_HomeAssistant_Light_uber_ Home Assistant (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Ikea_Dark_uber_ IKEA Showroom (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Ikea_Light_uber_ IKEA Showroom (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Lcd_Dark_uber_ LCD (Indiglo backlight)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Lcd_Light_uber_ LCD (reflective)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Nixie_uber_ Nixie"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemePreviewsKt.Uber_Trinitron_uber_ Trinitron"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberCards_Braun_uber cards_ Braun"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberCards_Classic_uber cards_ Classic"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberCards_Console_uber cards_ Console"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberCards_Expressive_uber cards_ Expressive"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberCards_HomeAssistant_Dark_uber cards_ Home Assistant (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberCards_HomeAssistant_Light_uber cards_ Home Assistant (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberCards_Ikea_Dark_uber cards_ IKEA Showroom (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberCards_Ikea_Light_uber cards_ IKEA Showroom (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberCards_Lcd_uber cards_ LCD"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberCards_Nixie_uber cards_ Nixie"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberCards_Trinitron_uber cards_ Trinitron"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Braun_uber dials_ Braun"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Classic_uber dials_ Classic"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Console_uber dials_ Console"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Expressive_uber dials_ Expressive"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_HomeAssistant_Dark_uber dials_ Home Assistant (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_HomeAssistant_Light_uber dials_ Home Assistant (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Ikea_Dark_uber dials_ IKEA Showroom (dark)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Ikea_Light_uber dials_ IKEA Showroom (light)"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Lcd_uber dials_ LCD"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Nixie_uber dials_ Nixie"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberThemeSheetsKt.UberDials_Trinitron_uber dials_ Trinitron"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.WrapContentHeightReproKt.WrapContentHeightCmp_wrap-content height \u00b7 CMP player"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.WrapContentHeightReproKt.WrapContentHeightFixAlpha010_wrap-content height fix \u00b7 WrapAdaptive player"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.WrapContentHeightReproKt.WrapContentHeightReproAlpha010_wrap-content height repro \u00b7 alpha010"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.Play_Wear_01_Home_play \u00b7 wear \u00b7 home"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.Play_Wear_02_WidgetLarge_play \u00b7 wear \u00b7 widget (large)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.Play_Wear_03_WidgetSmall_play \u00b7 wear \u00b7 widget (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.Play_Wear_04_Dashboard_play \u00b7 wear \u00b7 dashboard"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearCardDetailsPreview_Entities_Wear_ card details (entities)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearCardScreenPreview_Wear_ card full screen"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearDashboardPreview_Braun_Wear_ dashboard Braun"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearDashboardPreview_Wear_ dashboard"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearDashboardsPreview_Wear_ dashboards"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearSettingsPreview_Wear_ settings"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearTopLevelPreview_Demo_Wear_ top-level (demo)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearTopLevelPreview_Live_Wear_ top-level (live)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.ui.WearPreviewsKt.WearWidgetsPreview_Empty_Wear_ widgets (empty)"
     },
     {
       "module": "wear",
@@ -1420,6 +2227,10 @@
     {
       "module": "wear",
       "previewId": "ee.schimke.terrazzo.wear.widget.CardSlotWidgetPreviewsKt.WearWeatherForecastSmall_wear \u00b7 weather-forecast (small)"
+    },
+    {
+      "module": "wear",
+      "previewId": "ee.schimke.terrazzo.wear.widget.SlotWidgetPreviewsKt.SlotWidgetPreview_Empty_Card widget \u2014 no card chosen"
     },
     {
       "module": "wear",
