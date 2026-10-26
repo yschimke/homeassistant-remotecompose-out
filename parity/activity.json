@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-26T21:14:47.877Z",
+  "generatedAt": "2026-10-26T22:03:39.566Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "5a511518d8d657840444776d9ed36951ce980a13",
+        "subject": "chore(main): release 0.1.69 (#1270)",
+        "at": "2026-10-26T21:10:48Z",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "2b0d6e840574df867f8a10a55decd457f17bd473",
+        "subject": "fix(deps): update compose-ai-tools (#1279)",
+        "at": "2026-10-26T21:10:29Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "5d530bd2dc7c5351668705d1c7e4560bb70abb07",
         "subject": "feat(cards): draw a picture-glance card's picture (#1281)",
@@ -466,22 +482,6 @@
         "sha": "6160c35f52ff5272a166c8a2614b3f5323fae7a2",
         "subject": "feat(wear): launcher icon follows the watch's card style (#1220)",
         "at": "2026-10-25T11:29:16Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "c38ef31a5395c9a3dd6518c282fdd3c7335c314f",
-        "subject": "feat(app): demos on the connect screen, Designs before Theme, dashboards in the menu (#1219)",
-        "at": "2026-10-25T11:27:53Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "84b2cb43a63de1295085070bf871d1acc932d094",
-        "subject": "docs: plan one-handed gestures for the Wear app (#1218)",
-        "at": "2026-10-25T11:07:21Z",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
