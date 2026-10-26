@@ -1,11 +1,51 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-26T07:52:08.410Z",
+  "generatedAt": "2026-10-26T10:06:31.287Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "f6b95ed4a2818de1b35d5879ca004de21d00174c",
+        "subject": "chore(main): release 0.1.68 (#1259)",
+        "at": "2026-10-26T09:28:05Z",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "06ac97b5b0f2d81353fd94759800a52bfb41fe97",
+        "subject": "chore(play): refresh Play Store graphics (#1264)",
+        "at": "2026-10-26T09:27:45Z",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "e287cd7e68c20d14f4721bbdb338b61a8f161969",
+        "subject": "feat(cameras): refresh dashboard cameras every 5 s, live view in more-info (#1266)",
+        "at": "2026-10-26T09:22:55Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "6cb9d7721c25fc81ed50a152029868d683a8c066",
+        "subject": "feat(wear): give each card style its own Wear container background (#1267)",
+        "at": "2026-10-26T09:22:51Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "d201ef6b7b7e28fd39a8e4f28ee7549461685b49",
+        "subject": "fix: reconcile phone and Wear widgets with what the system has placed (#1265)",
+        "at": "2026-10-26T08:52:53Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "15c49a4b5a2396b97945556339615a88c8bbc5b3",
         "subject": "chore(deps): update dependency dev.zacsweers.metro to v1.5.0 (#1263)",
@@ -442,46 +482,6 @@
         "sha": "675cbe0fc16e8a63745a4b8e7b9d0cad81a663c1",
         "subject": "build(card-designs): generate the published library on the JVM (#1208)",
         "at": "2026-10-25T09:42:43Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "80c4c90979bc9e690f7218ec20eae93594e16d2b",
-        "subject": "feat(app): start with Classic and Home Assistant card styles, install the rest (#1209)",
-        "at": "2026-10-25T09:25:54Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "caaa4a3eab1170d96d517c2f29e3fd6ed4c52cb9",
-        "subject": "feat: card settings forms in the dashboard editor (#1206)",
-        "at": "2026-10-25T09:10:45Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "4f029f24d8fb57c9cc8a5d60ee714e917811f420",
-        "subject": "feat(app-ui): ask the design server for each card's design by its exact key (#1205)",
-        "at": "2026-10-25T08:38:43Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "8a30918bc73ca88e3ca8fbaeeb1f382bdaed9c78",
-        "subject": "chore(main): release 0.1.65 (#1200)",
-        "at": "2026-10-25T07:51:21Z",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "4076430deaf9c97e687ba749bbad638ab687ef71",
-        "subject": "fix(app-ui): package terrazzo.wasmo without directory entries (#1204)",
-        "at": "2026-10-25T07:49:38Z",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
