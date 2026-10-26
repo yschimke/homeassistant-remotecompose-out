@@ -1,11 +1,43 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-26T20:07:55.574Z",
+  "generatedAt": "2026-10-26T21:14:47.877Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "5d530bd2dc7c5351668705d1c7e4560bb70abb07",
+        "subject": "feat(cards): draw a picture-glance card's picture (#1281)",
+        "at": "2026-10-26T20:36:52Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "9445863d485ca00201e44246cf2fd162aee477b7",
+        "subject": "feat(cards): draw a picture-entity card's camera_image (#1276)",
+        "at": "2026-10-26T19:28:37Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "8777cffabcb2662e1169aa6a277fdc22c9706a8f",
+        "subject": "ci: run the Playwright jobs on ubuntu-24.04 (#1277)",
+        "at": "2026-10-26T19:28:19Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "a836a438653524b49e33a131501305ea3aff224f",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to f105783 (#1278)",
+        "at": "2026-10-26T19:26:58Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "ac1f369cf3b23c31355d894741481bc660cc0a5e",
         "subject": "feat(designs): publish a private card design from the app, end to end (#1274)",
@@ -450,38 +482,6 @@
         "sha": "84b2cb43a63de1295085070bf871d1acc932d094",
         "subject": "docs: plan one-handed gestures for the Wear app (#1218)",
         "at": "2026-10-25T11:07:21Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "cee57e286a9cf39856d18717b592b5abf0f93857",
-        "subject": "chore(deps): update github-actions (#1082)",
-        "at": "2026-10-25T11:07:04Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "8979062364e94294d1aedf5d69c10022d6c33b5e",
-        "subject": "feat(app): launcher icon follows the card design; clear Play pre-launch warnings (#1216)",
-        "at": "2026-10-25T11:06:36Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "329ca4f9f6cf78dddef752b4caab0a5e3537b982",
-        "subject": "ci: run the keyboard-scrolling emulator matrix on PRs only for inset changes (#1217)",
-        "at": "2026-10-25T10:47:00Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "68994b0cfaab08253ab072d44bf432c8a6a2e712",
-        "subject": "feat(app-ui): resolve the exact tile design on the web with a shape hint (#1210)",
-        "at": "2026-10-25T10:46:44Z",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
