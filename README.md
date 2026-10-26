@@ -160,6 +160,7 @@ Auto-generated from `main`. Browse inline or compare against PR branches.
 | `Screen_Widgets_ThemeStyle · TerrazzoKiosk` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Screen_Widgets_ThemeStyle_widgets_theme-c6d5903f_TerrazzoKiosk.png" width="150" /> |
 | `Screen_Widgets_ThemeStyle · TerrazzoMinimalist` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Screen_Widgets_ThemeStyle_widgets_theme-c6d5903f_TerrazzoMinimalist.png" width="150" /> |
 | `Screen_Widgets_ThemeStyle · TerrazzoMushroom` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Screen_Widgets_ThemeStyle_widgets_theme-c6d5903f_TerrazzoMushroom.png" width="150" /> |
+| `Screen_Widgets_Watch` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Screen_Widgets_Watch_widgets_watch-5b58555f.png" width="150" /> |
 | `Screen_Widgets` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Screen_Widgets_widgets-47dcfa25.png" width="150" /> |
 
 ## demo-app
@@ -728,7 +729,6 @@ Auto-generated from `main`. Browse inline or compare against PR branches.
 | Preview | Image |
 |---------|-------|
 | `WearMainActivity` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/activity__WearMainActivity.png" width="150" /> |
-| `WearWidgetConfigActivity` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/activity__WearWidgetConfigActivity.png" width="150" /> |
 | `Play_Wear_01_Home` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/Play_Wear_01_Home_play_wear_home-4a47d00f.png" width="150" /> |
 | `Play_Wear_02_WidgetLarge` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/Play_Wear_02_WidgetLarge_play_wear_widget_large-585828ec.png" width="150" /> |
 | `Play_Wear_03_WidgetSmall` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/Play_Wear_03_WidgetSmall_play_wear_widget_small-7e8331e8.png" width="150" /> |
@@ -745,8 +745,6 @@ Auto-generated from `main`. Browse inline or compare against PR branches.
 | `WearTopLevelPreview_Demo` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/WearTopLevelPreview_Demo_Wear_top_level_demo-7f799f8c.png" width="150" /> |
 | `WearTopLevelPreview_Empty` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/WearTopLevelPreview_Empty_Wear_top_level_empty-fa5d471f.png" width="150" /> |
 | `WearTopLevelPreview_Live` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/WearTopLevelPreview_Live_Wear_top_level_live-182b60ce.png" width="150" /> |
-| `WearWidgetCardPickerPreview_Empty` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/WearWidgetCardPickerPreview_Empty_Wear_widget_card_picker_empty-df46df07.png" width="150" /> |
-| `WearWidgetCardPickerPreview` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/WearWidgetCardPickerPreview_Wear_widget_card_picker-77ab7dae.png" width="150" /> |
 | `WearWidgetsPreview_Empty` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/WearWidgetsPreview_Empty_Wear_widgets_empty-811190d2.png" width="150" /> |
 | `WearWidgetsPreview` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/WearWidgetsPreview_Wear_widgets-136d5566.png" width="150" /> |
 | `WearAlarmPanelLarge` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/WearAlarmPanelLarge_wear_alarm_panel_large-c5003931.png" width="150" /> |
