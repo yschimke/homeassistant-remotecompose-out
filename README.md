@@ -1,6 +1,6 @@
 # Accessibility Report
 
-_Auto-generated from `compose-preview/a11y/pr`. 60 preview(s) across 1 module(s) · 6 error(s) · 18 warning(s) · 11 info._
+_Auto-generated from `compose-preview/a11y/pr`. 60 preview(s) across 1 module(s) · 0 error(s) · 18 warning(s) · 10 info._
 
 Browse inline; image URLs are pinned to the commit SHA on the baseline branch so links keep resolving after merge.
 
@@ -278,14 +278,7 @@ _No findings._
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | ERROR | TouchTargetSizeCheck | android.widget.RadioButton  desc="Colour red" | This item's width is 45dp. Consider making the width of this touch target 48dp or larger. |
-| 2 | ERROR | TouchTargetSizeCheck | android.widget.RadioButton  desc="Colour orange" | This item's width is 45dp. Consider making the width of this touch target 48dp or larger. |
-| 3 | ERROR | TouchTargetSizeCheck | android.widget.RadioButton  desc="Colour yellow" | This item's width is 45dp. Consider making the width of this touch target 48dp or larger. |
-| 4 | ERROR | TouchTargetSizeCheck | android.widget.RadioButton  desc="Colour green" | This item's width is 44dp. Consider making the width of this touch target 48dp or larger. |
-| 5 | ERROR | TouchTargetSizeCheck | android.widget.RadioButton  desc="Colour cyan" | This item's width is 45dp. Consider making the width of this touch target 48dp or larger. |
-| 6 | ERROR | TouchTargetSizeCheck | android.widget.RadioButton  desc="Colour purple" | This item's width is 45dp. Consider making the width of this touch target 48dp or larger. |
-| 7 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "09:25" is identical to that of 1 other item(s). |
-| 8 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "On" is identical to that of 1 other item(s). |
+| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "09:25" is identical to that of 1 other item(s). |
 
 ### `Screen_MoreInfo_Numeric`
 
