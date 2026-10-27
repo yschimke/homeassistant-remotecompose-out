@@ -1,11 +1,123 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-26T21:18:47.824Z",
+  "generatedAt": "2026-10-27T21:06:04.858Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "14a2fbbfda81dda08d32fe75450e64c6ab7c34e0",
+        "subject": "feat(design-server): list designs people made in UI Builder in /api/my/studio (#1294)",
+        "at": "2026-10-27T20:54:55Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "faf605decf6fbf691e81fc3ae9bce63beff49dda",
+        "subject": "feat(design-server): publish designs without a deployment, with a preview channel per PR (#1292)",
+        "at": "2026-10-27T19:08:50Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "14a1345a30f3b5714d4f7e092fc609852912f4d4",
+        "subject": "fix(deps): update dependency ee.schimke.composeai:rc-players-bom to v2.20.1 (#1293)",
+        "at": "2026-10-27T19:08:47Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "22a70036562fbb2272830ecb9741ec0e9d9e15c4",
+        "subject": "fix(widgets): fit every card to its launcher widget (#1291)",
+        "at": "2026-10-27T14:15:40Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "57bcdf6d310ac14c12bf7282185b0757dc57bb1b",
+        "subject": "fix(design-server): refuse cross-origin POSTs to /my and /api/my, and publish after scheduled merges (#1290)",
+        "at": "2026-10-27T13:05:59Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "07a17ba854b5e48be497c7d22b8646b12ddd607f",
+        "subject": "feat(design-server): reuse the preview server's sign-in on a shared host (#1288)",
+        "at": "2026-10-27T09:15:49Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "79c462ed9498dd489b67a1212a4b0d4d964813df",
+        "subject": "chore(main): release 0.1.70 (#1282)",
+        "at": "2026-10-27T08:10:34Z",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "85192474ebd151abe2bbe282926a356d5d338b29",
+        "subject": "fix(push-relay): report FCM's refusal code; say notifications arrive while closed (#1287)",
+        "at": "2026-10-27T08:10:02Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "7bde79bc9c866e80fbfb52be10a7a74f29242868",
+        "subject": "fix(design-server): sign in under /my/auth so ha.coo.ee can route it (#1286)",
+        "at": "2026-10-27T08:04:38Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "7ff4992d2bc6a15c38aa56a8b09dada201a7cedc",
+        "subject": "feat(widgets): per-widget live updates, with in-app and routine refresh for all (#1285)",
+        "at": "2026-10-27T07:46:31Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "37491246d02615095d5215e8400f2156ca0ca1af",
+        "subject": "chore(deps): update github-actions (#1275)",
+        "at": "2026-10-27T01:28:20Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "bfa4d488049bac01352a9b3edf9afc54a56d9965",
+        "subject": "chore(deps): update python docker tag to v3.15.2 (#1284)",
+        "at": "2026-10-27T01:28:16Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "c93634418dd56a01032f5e97f6c8ee9f996f79a3",
+        "subject": "feat(widgets): wake the app when a widget's entity visibly changes (#1283)",
+        "at": "2026-10-27T00:35:40Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "5a511518d8d657840444776d9ed36951ce980a13",
+        "subject": "chore(main): release 0.1.69 (#1270)",
+        "at": "2026-10-26T21:10:48Z",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "2b0d6e840574df867f8a10a55decd457f17bd473",
         "subject": "fix(deps): update compose-ai-tools (#1279)",
@@ -371,118 +483,6 @@
         "subject": "chore(deps): update dependency puppeteer-core to v25 (#1233)",
         "at": "2026-10-25T13:57:28Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "d5095c8541bb1f0dea341ea39950e3ab6e7a97e3",
-        "subject": "feat: sync Terrazzo usage settings with Wasmo app services (#1228)",
-        "at": "2026-10-25T13:42:17Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "fe06e21c8c10b769c14f1934b94be08d64c7608d",
-        "subject": "feat(wear): full-size cards, every entity's chart and live attributes in details (#1231)",
-        "at": "2026-10-25T13:41:51Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "76da42fd35c350c146955e9535ff60576b10d8f5",
-        "subject": "fix(notifications): keep the watch's notification to standard fields (#1232)",
-        "at": "2026-10-25T13:41:46Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "7163cd43a7c56802356758620ed889ed994507f2",
-        "subject": "fix(deps): update dependency androidx.wear:wear-remote-interactions to v1.2.0 (#1230)",
-        "at": "2026-10-25T13:37:50Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a4fd8a96afe09032cea3fec31cbbc775e280cbaf",
-        "subject": "feat: post Home Assistant notifications, bridged to the watch with a live card (#1224)",
-        "at": "2026-10-25T13:17:56Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "edeb7091f3550fce08ceaf0dd120b44aab67b343",
-        "subject": "test: prepare local Terrazzo AppFunctions agent testing (#1227)",
-        "at": "2026-10-25T13:10:48Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "f228a18075110f4f6cc56d673224fbb77e79e717",
-        "subject": "feat(wear): card details screen with a 24-hour history chart (#1226)",
-        "at": "2026-10-25T12:47:29Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "e08ae3c3a3116ae48dbacbb75c3a33220db84b40",
-        "subject": "chore(main): release 0.1.66 (#1207)",
-        "at": "2026-10-25T12:36:57Z",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "adb1fb578372a871f9b88b7f063c45775da69fb1",
-        "subject": "feat: add Wasmo capability detection and local storage seam (#1225)",
-        "at": "2026-10-25T12:36:43Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "69c06ebda3e22bbabccb632af9bdda9552b4680a",
-        "subject": "feat: one-handed gestures and full-screen cards on Wear, lock-mode confirm for risky widgets (#1222)",
-        "at": "2026-10-25T12:00:12Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "e6f075be363cb2122e5e7f4da032a9dbca8881dd",
-        "subject": "docs: plan Terrazzo's Wasmo cloud backend (#1221)",
-        "at": "2026-10-25T11:48:12Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "0e0ee03a61ad7864eaddca859c20396defc4f028",
-        "subject": "perf(card-designs): draw the library's previews in one worker process per core (#1223)",
-        "at": "2026-10-25T11:47:31Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "6160c35f52ff5272a166c8a2614b3f5323fae7a2",
-        "subject": "feat(wear): launcher icon follows the watch's card style (#1220)",
-        "at": "2026-10-25T11:29:16Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "c38ef31a5395c9a3dd6518c282fdd3c7335c314f",
-        "subject": "feat(app): demos on the connect screen, Designs before Theme, dashboards in the menu (#1219)",
-        "at": "2026-10-25T11:27:53Z",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
