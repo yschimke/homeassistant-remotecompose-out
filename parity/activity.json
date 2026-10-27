@@ -1,11 +1,43 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-27T02:01:46.064Z",
+  "generatedAt": "2026-10-27T08:41:01.019Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "79c462ed9498dd489b67a1212a4b0d4d964813df",
+        "subject": "chore(main): release 0.1.70 (#1282)",
+        "at": "2026-10-27T08:10:34Z",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "85192474ebd151abe2bbe282926a356d5d338b29",
+        "subject": "fix(push-relay): report FCM's refusal code; say notifications arrive while closed (#1287)",
+        "at": "2026-10-27T08:10:02Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "7bde79bc9c866e80fbfb52be10a7a74f29242868",
+        "subject": "fix(design-server): sign in under /my/auth so ha.coo.ee can route it (#1286)",
+        "at": "2026-10-27T08:04:38Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "7ff4992d2bc6a15c38aa56a8b09dada201a7cedc",
+        "subject": "feat(widgets): per-widget live updates, with in-app and routine refresh for all (#1285)",
+        "at": "2026-10-27T07:46:31Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "37491246d02615095d5215e8400f2156ca0ca1af",
         "subject": "chore(deps): update github-actions (#1275)",
@@ -450,38 +482,6 @@
         "sha": "edeb7091f3550fce08ceaf0dd120b44aab67b343",
         "subject": "test: prepare local Terrazzo AppFunctions agent testing (#1227)",
         "at": "2026-10-25T13:10:48Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "f228a18075110f4f6cc56d673224fbb77e79e717",
-        "subject": "feat(wear): card details screen with a 24-hour history chart (#1226)",
-        "at": "2026-10-25T12:47:29Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "e08ae3c3a3116ae48dbacbb75c3a33220db84b40",
-        "subject": "chore(main): release 0.1.66 (#1207)",
-        "at": "2026-10-25T12:36:57Z",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "adb1fb578372a871f9b88b7f063c45775da69fb1",
-        "subject": "feat: add Wasmo capability detection and local storage seam (#1225)",
-        "at": "2026-10-25T12:36:43Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "69c06ebda3e22bbabccb632af9bdda9552b4680a",
-        "subject": "feat: one-handed gestures and full-screen cards on Wear, lock-mode confirm for risky widgets (#1222)",
-        "at": "2026-10-25T12:00:12Z",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
