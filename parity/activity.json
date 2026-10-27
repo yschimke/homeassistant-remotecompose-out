@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-26T22:03:39.566Z",
+  "generatedAt": "2026-10-27T02:01:46.064Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "37491246d02615095d5215e8400f2156ca0ca1af",
+        "subject": "chore(deps): update github-actions (#1275)",
+        "at": "2026-10-27T01:28:20Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "bfa4d488049bac01352a9b3edf9afc54a56d9965",
+        "subject": "chore(deps): update python docker tag to v3.15.2 (#1284)",
+        "at": "2026-10-27T01:28:16Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "c93634418dd56a01032f5e97f6c8ee9f996f79a3",
+        "subject": "feat(widgets): wake the app when a widget's entity visibly changes (#1283)",
+        "at": "2026-10-27T00:35:40Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "5a511518d8d657840444776d9ed36951ce980a13",
         "subject": "chore(main): release 0.1.69 (#1270)",
@@ -458,30 +482,6 @@
         "sha": "69c06ebda3e22bbabccb632af9bdda9552b4680a",
         "subject": "feat: one-handed gestures and full-screen cards on Wear, lock-mode confirm for risky widgets (#1222)",
         "at": "2026-10-25T12:00:12Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "e6f075be363cb2122e5e7f4da032a9dbca8881dd",
-        "subject": "docs: plan Terrazzo's Wasmo cloud backend (#1221)",
-        "at": "2026-10-25T11:48:12Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "0e0ee03a61ad7864eaddca859c20396defc4f028",
-        "subject": "perf(card-designs): draw the library's previews in one worker process per core (#1223)",
-        "at": "2026-10-25T11:47:31Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "6160c35f52ff5272a166c8a2614b3f5323fae7a2",
-        "subject": "feat(wear): launcher icon follows the watch's card style (#1220)",
-        "at": "2026-10-25T11:29:16Z",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
