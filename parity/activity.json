@@ -1,11 +1,75 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-27T21:06:04.858Z",
+  "generatedAt": "2026-10-27T23:00:13.832Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "86b36f04c8d0ed93ed0ed9c41495895f6d68dd5b",
+        "subject": "fix(design-server): list only ha-cards designs from UI Builder in /api/my/studio (#1300)",
+        "at": "2026-10-27T22:52:38Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "6510396dfe47d4d59dd470b54e76e1248adf8c34",
+        "subject": "ci(design-server): keep main's image build out of the preview-channel group (#1301)",
+        "at": "2026-10-27T22:51:35Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "ce34694ddee3acb46886ce6073d61c5f5f8f233c",
+        "subject": "chore(deps): pin dependencies (#1299)",
+        "at": "2026-10-27T22:35:01Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "a359df3d1cdf4e72cd736a72dd9a22f1c59b2e96",
+        "subject": "chore(main): release 0.1.71 (#1289)",
+        "at": "2026-10-27T21:51:09Z",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "a5ae3f2d1166e6c6a76a577b3eba9e8f59c12515",
+        "subject": "feat(widget): open the app on the widget's card, scrolled into view (#1298)",
+        "at": "2026-10-27T21:39:06Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "9f175f3e03c3cbc6eb61309f872d95e7529f42cc",
+        "subject": "feat(app): sign in to the card design server with GitHub, not a pasted token (#1297)",
+        "at": "2026-10-27T21:38:00Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "25a3cf07151a673caa33ad0876d52b717d78f6f0",
+        "subject": "fix(play): replace preview screenshots with real app captures (#1295)",
+        "at": "2026-10-27T21:32:30Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "11d1b45fc676108c4af4e4c64475cf58d1d06129",
+        "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.264 (#1296)",
+        "at": "2026-10-27T21:27:32Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "14a2fbbfda81dda08d32fe75450e64c6ab7c34e0",
         "subject": "feat(design-server): list designs people made in UI Builder in /api/my/studio (#1294)",
@@ -419,70 +483,6 @@
         "subject": "feat(notifications): deliver Home Assistant notifications through an FCM push relay (#1242)",
         "at": "2026-10-25T15:33:18Z",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "cf361279c33afe6a84e7754a1b3da8826d9db4ad",
-        "subject": "feat: restore private Home Assistant sessions from Wasmo (#1240)",
-        "at": "2026-10-25T15:24:30Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "c53e85575a614c9e4213d4df83366388b10a57a9",
-        "subject": "fix(deps): update dependency ch.qos.logback:logback-classic to v1.6.6 (#1238)",
-        "at": "2026-10-25T15:11:02Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "1199c23b289d91e951c684539b86800e3d7e9134",
-        "subject": "fix(home-assistant): give each release its own panel and renderer URLs (#1239)",
-        "at": "2026-10-25T15:10:59Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "8c2309684d4d3bbd97a7a1221d1cdcd9f72fe9f8",
-        "subject": "chore(deps): update dependency puppeteer-core to v25.16.0 (#1236)",
-        "at": "2026-10-25T14:45:16Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "26dcf7c8a751897465283a133b3f3a2b58c1d95c",
-        "subject": "fix: delay transient mobile connection errors (#1237)",
-        "at": "2026-10-25T14:44:17Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a15347e0dedfc8e081d8e71f32973c9e5dcdcfef",
-        "subject": "feat(notifications): post Home Assistant notifications natively on the watch (#1235)",
-        "at": "2026-10-25T14:22:52Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "03823b863862c2cf8d492b6d7f80ba669f1ee7ed",
-        "subject": "fix(wear): never scale a full-screen card below its layout (#1234)",
-        "at": "2026-10-25T14:03:42Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "d890786cecc3fd8950173504654dab338344b437",
-        "subject": "chore(deps): update dependency puppeteer-core to v25 (#1233)",
-        "at": "2026-10-25T13:57:28Z",
-        "author": "renovate[bot]",
         "previewIds": [],
         "components": []
       }
