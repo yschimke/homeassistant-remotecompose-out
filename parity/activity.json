@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-27T22:53:18.085Z",
+  "generatedAt": "2026-10-27T23:40:39.133Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "ce34694ddee3acb46886ce6073d61c5f5f8f233c",
+        "subject": "chore(deps): pin dependencies (#1299)",
+        "at": "2026-10-27T22:35:01Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "a359df3d1cdf4e72cd736a72dd9a22f1c59b2e96",
         "subject": "chore(main): release 0.1.71 (#1289)",
@@ -475,14 +483,6 @@
         "subject": "fix(deps): update dependency ch.qos.logback:logback-classic to v1.6.6 (#1238)",
         "at": "2026-10-25T15:11:02Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "1199c23b289d91e951c684539b86800e3d7e9134",
-        "subject": "fix(home-assistant): give each release its own panel and renderer URLs (#1239)",
-        "at": "2026-10-25T15:10:59Z",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
