@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-27T22:06:35.200Z",
+  "generatedAt": "2026-10-27T22:53:18.085Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "a359df3d1cdf4e72cd736a72dd9a22f1c59b2e96",
+        "subject": "chore(main): release 0.1.71 (#1289)",
+        "at": "2026-10-27T21:51:09Z",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "a5ae3f2d1166e6c6a76a577b3eba9e8f59c12515",
+        "subject": "feat(widget): open the app on the widget's card, scrolled into view (#1298)",
+        "at": "2026-10-27T21:39:06Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "9f175f3e03c3cbc6eb61309f872d95e7529f42cc",
+        "subject": "feat(app): sign in to the card design server with GitHub, not a pasted token (#1297)",
+        "at": "2026-10-27T21:38:00Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "25a3cf07151a673caa33ad0876d52b717d78f6f0",
         "subject": "fix(play): replace preview screenshots with real app captures (#1295)",
@@ -458,30 +482,6 @@
         "sha": "1199c23b289d91e951c684539b86800e3d7e9134",
         "subject": "fix(home-assistant): give each release its own panel and renderer URLs (#1239)",
         "at": "2026-10-25T15:10:59Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "8c2309684d4d3bbd97a7a1221d1cdcd9f72fe9f8",
-        "subject": "chore(deps): update dependency puppeteer-core to v25.16.0 (#1236)",
-        "at": "2026-10-25T14:45:16Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "26dcf7c8a751897465283a133b3f3a2b58c1d95c",
-        "subject": "fix: delay transient mobile connection errors (#1237)",
-        "at": "2026-10-25T14:44:17Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a15347e0dedfc8e081d8e71f32973c9e5dcdcfef",
-        "subject": "feat(notifications): post Home Assistant notifications natively on the watch (#1235)",
-        "at": "2026-10-25T14:22:52Z",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
