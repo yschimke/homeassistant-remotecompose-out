@@ -1,11 +1,51 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-27T08:41:01.019Z",
+  "generatedAt": "2026-10-27T19:43:43.900Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "faf605decf6fbf691e81fc3ae9bce63beff49dda",
+        "subject": "feat(design-server): publish designs without a deployment, with a preview channel per PR (#1292)",
+        "at": "2026-10-27T19:08:50Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "14a1345a30f3b5714d4f7e092fc609852912f4d4",
+        "subject": "fix(deps): update dependency ee.schimke.composeai:rc-players-bom to v2.20.1 (#1293)",
+        "at": "2026-10-27T19:08:47Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "22a70036562fbb2272830ecb9741ec0e9d9e15c4",
+        "subject": "fix(widgets): fit every card to its launcher widget (#1291)",
+        "at": "2026-10-27T14:15:40Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "57bcdf6d310ac14c12bf7282185b0757dc57bb1b",
+        "subject": "fix(design-server): refuse cross-origin POSTs to /my and /api/my, and publish after scheduled merges (#1290)",
+        "at": "2026-10-27T13:05:59Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "07a17ba854b5e48be497c7d22b8646b12ddd607f",
+        "subject": "feat(design-server): reuse the preview server's sign-in on a shared host (#1288)",
+        "at": "2026-10-27T09:15:49Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "79c462ed9498dd489b67a1212a4b0d4d964813df",
         "subject": "chore(main): release 0.1.70 (#1282)",
@@ -442,46 +482,6 @@
         "sha": "d5095c8541bb1f0dea341ea39950e3ab6e7a97e3",
         "subject": "feat: sync Terrazzo usage settings with Wasmo app services (#1228)",
         "at": "2026-10-25T13:42:17Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "fe06e21c8c10b769c14f1934b94be08d64c7608d",
-        "subject": "feat(wear): full-size cards, every entity's chart and live attributes in details (#1231)",
-        "at": "2026-10-25T13:41:51Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "76da42fd35c350c146955e9535ff60576b10d8f5",
-        "subject": "fix(notifications): keep the watch's notification to standard fields (#1232)",
-        "at": "2026-10-25T13:41:46Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "7163cd43a7c56802356758620ed889ed994507f2",
-        "subject": "fix(deps): update dependency androidx.wear:wear-remote-interactions to v1.2.0 (#1230)",
-        "at": "2026-10-25T13:37:50Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a4fd8a96afe09032cea3fec31cbbc775e280cbaf",
-        "subject": "feat: post Home Assistant notifications, bridged to the watch with a live card (#1224)",
-        "at": "2026-10-25T13:17:56Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "edeb7091f3550fce08ceaf0dd120b44aab67b343",
-        "subject": "test: prepare local Terrazzo AppFunctions agent testing (#1227)",
-        "at": "2026-10-25T13:10:48Z",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
