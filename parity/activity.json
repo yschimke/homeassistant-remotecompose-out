@@ -1,11 +1,67 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-28T10:34:55.505Z",
+  "generatedAt": "2026-10-28T17:37:42.408Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "71f53e816dea28c3422048f745445b83f3bf100d",
+        "subject": "feat: motion layer with M3 Expressive and ambient schemes, M3 switch (#1317)",
+        "at": "2026-10-28T17:30:13Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "4ef598252aaeecc3b0e8ddcee0281c4439e1f494",
+        "subject": "perf(compose): node-based card modifiers, content types, draw-phase flash (#1318)",
+        "at": "2026-10-28T17:09:08Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "4ad45ab84696e8b74a8dee7e5ce726ca6b89763a",
+        "subject": "docs: propose animation-first design systems (#1315)",
+        "at": "2026-10-28T16:35:17Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "244d3c19191ad7bcf96e0950351d518b05c01d16",
+        "subject": "perf(wear): hold live values in a stable WearValues, one state per entity (#1313)",
+        "at": "2026-10-28T15:05:27Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "bc827e6c9af188b4557d1dc7021bae9e5e86708e",
+        "subject": "chore(main): release 0.1.72 (#1304)",
+        "at": "2026-10-28T14:48:09Z",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "413a0217b8515aa3bb4be3f7beb85ae65bd4ea34",
+        "subject": "perf(wear): recompose a card only when its own values change (#1311)",
+        "at": "2026-10-28T14:35:28Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "b2b8eaa5c07c3ecb02f9d0e58d825f5d3c454266",
+        "subject": "fix(wear): stop the scroll hint replaying on every live value (#1310)",
+        "at": "2026-10-28T11:09:10Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "0cc39d836fe76dfdbae3d61ab53470c0cae717f0",
         "subject": "build(deps): rc-players 2.21.0 so slider cards play in the Compose player (#1308)",
@@ -426,62 +482,6 @@
         "sha": "ebc6afb8b5cc60e473e03f5560222cc157c9e5a7",
         "subject": "fix: open dashboards directly and keep switching in the title (#1252)",
         "at": "2026-10-25T18:11:14Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "5efa4177e8519945fc3637c12114458138a41594",
-        "subject": "build(deps): keep the push relay's engines.node a bare runtime major (#1255)",
-        "at": "2026-10-25T18:10:46Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "50489f3683250d65c215f26e1b82a41996a9573c",
-        "subject": "feat(panel): draw history graphs, maps, weather and logbooks from card designs (#1254)",
-        "at": "2026-10-25T17:44:48Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "b85b99e112e728da5c52a33e544c434af8fa8a24",
-        "subject": "feat(designs): key tiles by colour and state glyph, and gauges with a needle (#1248)",
-        "at": "2026-10-25T17:38:15Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "e51743dcc8466c6376536387efe61e8bdb660505",
-        "subject": "feat(notifications): silent FCM wakes; notification content stays in Home Assistant (#1251)",
-        "at": "2026-10-25T17:17:11Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "c727a796bc54ab268efd49ffeb481699e0a6cede",
-        "subject": "chore(deps): update dependency node to v24 (#1245)",
-        "at": "2026-10-25T17:10:40Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "18a0ccc691e044d2a2048b72351aedd0a152f591",
-        "subject": "chore(deps): update node.js to v24 (#1246)",
-        "at": "2026-10-25T17:10:36Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ee49be261029cabb4aee7ea9f124f22472c42bb4",
-        "subject": "feat(app-ui): drop the footer; Settings in the header, card style kept as a setting (#1247)",
-        "at": "2026-10-25T16:30:04Z",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
