@@ -1,11 +1,43 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-28T15:24:53.486Z",
+  "generatedAt": "2026-10-28T18:07:02.836Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "71f53e816dea28c3422048f745445b83f3bf100d",
+        "subject": "feat: motion layer with M3 Expressive and ambient schemes, M3 switch (#1317)",
+        "at": "2026-10-28T17:30:13Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "4ef598252aaeecc3b0e8ddcee0281c4439e1f494",
+        "subject": "perf(compose): node-based card modifiers, content types, draw-phase flash (#1318)",
+        "at": "2026-10-28T17:09:08Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "4ad45ab84696e8b74a8dee7e5ce726ca6b89763a",
+        "subject": "docs: propose animation-first design systems (#1315)",
+        "at": "2026-10-28T16:35:17Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "244d3c19191ad7bcf96e0950351d518b05c01d16",
+        "subject": "perf(wear): hold live values in a stable WearValues, one state per entity (#1313)",
+        "at": "2026-10-28T15:05:27Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "bc827e6c9af188b4557d1dc7021bae9e5e86708e",
         "subject": "chore(main): release 0.1.72 (#1304)",
@@ -450,38 +482,6 @@
         "sha": "ebc6afb8b5cc60e473e03f5560222cc157c9e5a7",
         "subject": "fix: open dashboards directly and keep switching in the title (#1252)",
         "at": "2026-10-25T18:11:14Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "5efa4177e8519945fc3637c12114458138a41594",
-        "subject": "build(deps): keep the push relay's engines.node a bare runtime major (#1255)",
-        "at": "2026-10-25T18:10:46Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "50489f3683250d65c215f26e1b82a41996a9573c",
-        "subject": "feat(panel): draw history graphs, maps, weather and logbooks from card designs (#1254)",
-        "at": "2026-10-25T17:44:48Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "b85b99e112e728da5c52a33e544c434af8fa8a24",
-        "subject": "feat(designs): key tiles by colour and state glyph, and gauges with a needle (#1248)",
-        "at": "2026-10-25T17:38:15Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "e51743dcc8466c6376536387efe61e8bdb660505",
-        "subject": "feat(notifications): silent FCM wakes; notification content stays in Home Assistant (#1251)",
-        "at": "2026-10-25T17:17:11Z",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
