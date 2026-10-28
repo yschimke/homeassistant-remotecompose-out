@@ -6,6 +6,7 @@ Auto-generated from `main`. Browse inline or compare against PR branches.
 
 | Preview | Image |
 |---------|-------|
+| `InstallActivity` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/activity__InstallActivity.png" width="150" /> |
 | `MainActivity` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/activity__MainActivity.png" width="150" /> |
 | `CardFlashPreview` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/CardFlashPreview_Card_flash_on_data_change-44b71c2b.gif" width="150" /> |
 | `DataGridOverlayPreview` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/DataGridOverlayPreview_Data_grid_overlay-d5c0afe1.png" width="150" /> |
