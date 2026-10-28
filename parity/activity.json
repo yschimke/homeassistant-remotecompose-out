@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-28T21:50:27.222Z",
+  "generatedAt": "2026-10-28T22:40:07.865Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "1c302feac7f84fce2b73d7b737d8d2493ec54508",
+        "subject": "fix(deps): update dependency androidx.xr.arcore:arcore to v1.0.0 (#1320)",
+        "at": "2026-10-28T21:35:28Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "3762d2a377e9ab57a540c4b14b26556e61ab9366",
         "subject": "feat: room controls with an Android XR spatial layout (#1319)",
@@ -474,14 +482,6 @@
         "sha": "826e0f78ffb7793a26846847604a058650126fd5",
         "subject": "feat: load weather forecasts, and history on Android, for data cards (#1257)",
         "at": "2026-10-25T19:35:21Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "05d4496edfdff3c6e99c34cf28a6446fe4fd541b",
-        "subject": "build(push-relay): deploy on the nodejs24 runtime, matching engines.node (#1256)",
-        "at": "2026-10-25T18:41:15Z",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
