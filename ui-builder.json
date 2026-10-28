@@ -2351,6 +2351,16 @@
         },
         {
             "code": "component.policy.orphaned",
+            "subject": "ha-cards/tile-compact-slider",
+            "message": "ui-builder.policy.json states a policy for \"ha-cards/tile-compact-slider\", which joins no component in this record, so every field in it does nothing. Check its `record` canonicalId or its builder id against components.json."
+        },
+        {
+            "code": "component.policy.orphaned",
+            "subject": "ha-cards/tile-wear-cell",
+            "message": "ui-builder.policy.json states a policy for \"ha-cards/tile-wear-cell\", which joins no component in this record, so every field in it does nothing. Check its `record` canonicalId or its builder id against components.json."
+        },
+        {
+            "code": "component.policy.orphaned",
             "subject": "ha-cards/min-size-gate",
             "message": "ui-builder.policy.json states a policy for \"ha-cards/min-size-gate\", which joins no component in this record, so every field in it does nothing. Check its `record` canonicalId or its builder id against components.json."
         },
