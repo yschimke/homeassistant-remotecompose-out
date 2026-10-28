@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-28T18:07:02.836Z",
+  "generatedAt": "2026-10-28T21:50:27.222Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "3762d2a377e9ab57a540c4b14b26556e61ab9366",
+        "subject": "feat: room controls with an Android XR spatial layout (#1319)",
+        "at": "2026-10-28T21:10:18Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "a1f1a09b8759ed173cc0057b23871d7c5db899f5",
+        "subject": "feat(studio): card studio wizard, signed in by the app, with clear handoff errors (#1316)",
+        "at": "2026-10-28T17:39:53Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "71f53e816dea28c3422048f745445b83f3bf100d",
         "subject": "feat: motion layer with M3 Expressive and ambient schemes, M3 switch (#1317)",
@@ -466,22 +482,6 @@
         "sha": "05d4496edfdff3c6e99c34cf28a6446fe4fd541b",
         "subject": "build(push-relay): deploy on the nodejs24 runtime, matching engines.node (#1256)",
         "at": "2026-10-25T18:41:15Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "c1a0999405484603105e93e509ed1e75d7b17ecf",
-        "subject": "chore(main): release 0.1.67 (#1229)",
-        "at": "2026-10-25T18:11:24Z",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ebc6afb8b5cc60e473e03f5560222cc157c9e5a7",
-        "subject": "fix: open dashboards directly and keep switching in the title (#1252)",
-        "at": "2026-10-25T18:11:14Z",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
