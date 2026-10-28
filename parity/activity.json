@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-28T11:37:23.779Z",
+  "generatedAt": "2026-10-28T15:24:53.486Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "bc827e6c9af188b4557d1dc7021bae9e5e86708e",
+        "subject": "chore(main): release 0.1.72 (#1304)",
+        "at": "2026-10-28T14:48:09Z",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "413a0217b8515aa3bb4be3f7beb85ae65bd4ea34",
+        "subject": "perf(wear): recompose a card only when its own values change (#1311)",
+        "at": "2026-10-28T14:35:28Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "b2b8eaa5c07c3ecb02f9d0e58d825f5d3c454266",
+        "subject": "fix(wear): stop the scroll hint replaying on every live value (#1310)",
+        "at": "2026-10-28T11:09:10Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "0cc39d836fe76dfdbae3d61ab53470c0cae717f0",
         "subject": "build(deps): rc-players 2.21.0 so slider cards play in the Compose player (#1308)",
@@ -458,30 +482,6 @@
         "sha": "e51743dcc8466c6376536387efe61e8bdb660505",
         "subject": "feat(notifications): silent FCM wakes; notification content stays in Home Assistant (#1251)",
         "at": "2026-10-25T17:17:11Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "c727a796bc54ab268efd49ffeb481699e0a6cede",
-        "subject": "chore(deps): update dependency node to v24 (#1245)",
-        "at": "2026-10-25T17:10:40Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "18a0ccc691e044d2a2048b72351aedd0a152f591",
-        "subject": "chore(deps): update node.js to v24 (#1246)",
-        "at": "2026-10-25T17:10:36Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ee49be261029cabb4aee7ea9f124f22472c42bb4",
-        "subject": "feat(app-ui): drop the footer; Settings in the header, card style kept as a setting (#1247)",
-        "at": "2026-10-25T16:30:04Z",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
