@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-28T10:23:40.868Z",
+  "generatedAt": "2026-10-28T10:34:55.505Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "0cc39d836fe76dfdbae3d61ab53470c0cae717f0",
+        "subject": "build(deps): rc-players 2.21.0 so slider cards play in the Compose player (#1308)",
+        "at": "2026-10-28T10:26:37Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "803b06e1b83017e46c9b6e7a12d08a589eabd150",
         "subject": "feat(cards): shutter cards follow the cover through named slots (#1307)",
@@ -474,14 +482,6 @@
         "sha": "ee49be261029cabb4aee7ea9f124f22472c42bb4",
         "subject": "feat(app-ui): drop the footer; Settings in the header, card style kept as a setting (#1247)",
         "at": "2026-10-25T16:30:04Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ae0b7789e84fe0665fba43904e2f5f4d453969cd",
-        "subject": "fix: show installed designs first and install in background (#1250)",
-        "at": "2026-10-25T16:10:35Z",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
