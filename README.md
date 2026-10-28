@@ -1,10 +1,22 @@
 # Accessibility Report
 
-_Auto-generated from `compose-preview/a11y/pr`. 28 preview(s) across 3 module(s) · 2 error(s) · 4 warning(s) · 72 info._
+_Auto-generated from `compose-preview/a11y/pr`. 22 preview(s) across 2 module(s) · 42 error(s) · 8 warning(s) · 6 info._
 
 Browse inline; image URLs are pinned to the commit SHA on the baseline branch so links keep resolving after merge.
 
 ## app
+
+### `Screen_DashboardView`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_DashboardView_dashboard_view-c60327e8.a11y.png" width="400" />
+
+_No findings._
+
+### `Screen_DashboardView_PhoneLandscapeMedium`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_DashboardView_PhoneLandscapeMedium_dashboard_view_phone_landscape_medium-8837149f.a11y.png" width="400" />
+
+_No findings._
 
 ### `Screen_DashboardView_ThemeStyle`
 
@@ -14,271 +26,190 @@ _No findings._
 
 ## previews
 
-### `CardPreviewMatrix_Calendar`
+### `DashboardSecurityMobile`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/CardPreviewMatrix_Calendar_matrix_calendar-dc5ce4f9.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Terrazzo slot" is identical to that of 1 other item(s). |
-| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Dentist appointment" is identical to that of 1 other item(s). |
-| 3 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "2026-05-08 09:30" is identical to that of 1 other item(s). |
-| 4 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Next 7 days" is identical to that of 1 other item(s). |
-| 5 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Family calendar" is identical to that of 5 other item(s). |
-
-### `CardPreviewMatrix_Humidifier`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/CardPreviewMatrix_Humidifier_matrix_humidifier-96bee44d.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/DashboardSecurityMobile_dashboard_security_mobile-842e09ef.a11y.png" width="400" />
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "45%" is identical to that of 2 other item(s). |
-| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "↑ 55%" is identical to that of 1 other item(s). |
-| 3 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Terrazzo slot" is identical to that of 1 other item(s). |
-| 4 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Humidifying" is identical to that of 1 other item(s). |
-| 5 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Bedroom" is identical to that of 5 other item(s). |
+| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Unavailable" is identical to that of 4 other item(s). |
+| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "1036" is identical to that of 3 other item(s). |
 
-### `CardPreviewMatrix_Light`
+### `DashboardSecurityTablet`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/CardPreviewMatrix_Light_matrix_light-27b95ce0.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/DashboardSecurityTablet_dashboard_security_tablet-d081c9e6.a11y.png" width="400" />
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 42dp. Consider making the height of this touch target 48dp or larger. |
-| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Terrazzo slot" is identical to that of 1 other item(s). |
-| 3 | INFO | DuplicateSpeakableTextCheck | androidx.compose.remote.player.view.RemoteComposePlayer  desc="Kitchen" | This non-clickable item's speakable text: "Kitchen" is identical to that of 2 other item(s). |
-| 4 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Kitchen, 78%" is identical to that of 1 other item(s). |
+| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Unavailable" is identical to that of 4 other item(s). |
+| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "1575" is identical to that of 2 other item(s). |
 
-### `CardPreviewMatrix_MediaControl`
+### `Garage_Animation_Dark`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/CardPreviewMatrix_MediaControl_matrix_media_control-8fae1d59.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Garage_Animation_Dark_garage_anim_dark-419c85bc.a11y.png" width="400" />
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Terrazzo slot" is identical to that of 1 other item(s). |
-| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "The Anthem" is identical to that of 5 other item(s). |
-| 3 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="play/pause" | This non-clickable item's speakable text: "play/pause" is identical to that of 1 other item(s). |
-| 4 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Office speaker" is identical to that of 5 other item(s). |
+| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
+| 2 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
 
-### `CardPreviewMatrix_Thermostat`
+### `Garage_Animation_Light`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/CardPreviewMatrix_Thermostat_matrix_thermostat-6ce1b10d.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Garage_Animation_Light_garage_anim_light-c9c03ad9.a11y.png" width="400" />
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "21.4°C" is identical to that of 2 other item(s). |
-| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Terrazzo slot" is identical to that of 1 other item(s). |
-| 3 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Heating" is identical to that of 1 other item(s). |
-| 4 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Living Room" is identical to that of 5 other item(s). |
-| 5 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "↑ 22°C" is identical to that of 1 other item(s). |
+| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
+| 2 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
 
-### `CommunityCompact_Aeon` · `spec:width=304dp,height=200dp,dpi=160`
+### `Garage_Closing_Dark`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/CommunityCompact_Aeon_community_compact_Aeon-343010aa.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Garage_Closing_Dark_garage_closing_dark-84219363.a11y.png" width="400" />
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | androidx.compose.remote.player.view.RemoteComposePlayer  desc="Living Room" | This non-clickable item's speakable text: "Living Room" is identical to that of 1 other item(s). |
+| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
+| 2 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
+| 3 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="Closing" | This non-clickable item's speakable text: "Closing" is identical to that of 1 other item(s). |
 
-### `CommunityCompact_Arctic` · `spec:width=304dp,height=200dp,dpi=160`
+### `Garage_Closing_Light`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/CommunityCompact_Arctic_community_compact_Arctic-46a19d2b.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | androidx.compose.remote.player.view.RemoteComposePlayer  desc="Living Room" | This non-clickable item's speakable text: "Living Room" is identical to that of 1 other item(s). |
-
-### `CommunityCompact_Bubble` · `spec:width=304dp,height=200dp,dpi=160`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/CommunityCompact_Bubble_community_compact_Bubble-7d6dbf34.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Garage_Closing_Light_garage_closing_light-e993ac37.a11y.png" width="400" />
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | androidx.compose.remote.player.view.RemoteComposePlayer  desc="Living Room" | This non-clickable item's speakable text: "Living Room" is identical to that of 1 other item(s). |
+| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
+| 2 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
+| 3 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="Closing" | This non-clickable item's speakable text: "Closing" is identical to that of 1 other item(s). |
 
-### `CommunityCompact_Catppuccin` · `spec:width=304dp,height=200dp,dpi=160`
+### `Garage_Opening_Dark`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/CommunityCompact_Catppuccin_community_compact_Catppuccin-e7be3b8b.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | androidx.compose.remote.player.view.RemoteComposePlayer  desc="Living Room" | This non-clickable item's speakable text: "Living Room" is identical to that of 1 other item(s). |
-
-### `CommunityCompact_Cupertino` · `spec:width=304dp,height=200dp,dpi=160`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/CommunityCompact_Cupertino_community_compact_Cupertino-40759894.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Garage_Opening_Dark_garage_opening_dark-dec96d7c.a11y.png" width="400" />
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | androidx.compose.remote.player.view.RemoteComposePlayer  desc="Living Room" | This non-clickable item's speakable text: "Living Room" is identical to that of 1 other item(s). |
+| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
+| 2 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
 
-### `CommunityCompact_Lcars` · `spec:width=304dp,height=200dp,dpi=160`
+### `Garage_Opening_Light`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/CommunityCompact_Lcars_community_compact_Lcars-50f7e6d5.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | androidx.compose.remote.player.view.RemoteComposePlayer  desc="Living Room" | This non-clickable item's speakable text: "Living Room" is identical to that of 1 other item(s). |
-
-### `CommunityCompact_Minimalist` · `spec:width=304dp,height=200dp,dpi=160`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/CommunityCompact_Minimalist_community_compact_Minimalist-da82d22b.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Garage_Opening_Light_garage_opening_light-66b7a5dc.a11y.png" width="400" />
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | androidx.compose.remote.player.view.RemoteComposePlayer  desc="Living Room" | This non-clickable item's speakable text: "Living Room" is identical to that of 1 other item(s). |
+| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
+| 2 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
 
-### `CommunityCompact_Mushroom` · `spec:width=304dp,height=200dp,dpi=160`
+### `Garage_State_Dark`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/CommunityCompact_Mushroom_community_compact_Mushroom-d2fb26aa.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | androidx.compose.remote.player.view.RemoteComposePlayer  desc="Living Room" | This non-clickable item's speakable text: "Living Room" is identical to that of 1 other item(s). |
-
-### `CommunityCompact_Noctis` · `spec:width=304dp,height=200dp,dpi=160`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/CommunityCompact_Noctis_community_compact_Noctis-0cc7d544.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Garage_State_Dark_garage_state_dark-dfdc998e.a11y.png" width="400" />
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | androidx.compose.remote.player.view.RemoteComposePlayer  desc="Living Room" | This non-clickable item's speakable text: "Living Room" is identical to that of 1 other item(s). |
+| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
+| 2 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
 
-### `CommunityCompact_Obsidian` · `spec:width=304dp,height=200dp,dpi=160`
+### `Garage_State_Light`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/CommunityCompact_Obsidian_community_compact_Obsidian-279de414.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | androidx.compose.remote.player.view.RemoteComposePlayer  desc="Living Room" | This non-clickable item's speakable text: "Living Room" is identical to that of 1 other item(s). |
-
-### `DashboardSectionCardGridMobile`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/DashboardSectionCardGridMobile_dashboard_section_card_grid_mobile-a90a06a6.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Garage_State_Light_garage_state_light-5876f94e.a11y.png" width="400" />
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="Wind" | This non-clickable item's speakable text: "Wind" is identical to that of 1 other item(s). |
-| 2 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="UV" | This non-clickable item's speakable text: "UV" is identical to that of 1 other item(s). |
-| 3 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="Pressure" | This non-clickable item's speakable text: "Pressure" is identical to that of 1 other item(s). |
-| 4 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "No history in the last 2 days" is identical to that of 1 other item(s). |
-| 5 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Outside · Upstairs · Downstairs · Kitchen" is identical to that of 1 other item(s). |
-| 6 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="Humidity" | This non-clickable item's speakable text: "Humidity" is identical to that of 2 other item(s). |
-| 7 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="Rainy" | This non-clickable item's speakable text: "Rainy" is identical to that of 1 other item(s). |
+| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
+| 2 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
 
-### `PictureGlance_Dark`
+### `Garage_TwoEntities_Dark`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/PictureGlance_Dark_picture_glance_dark-26cfeaf0.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Garage_TwoEntities_Dark_garage_two_entities_dark-54df524c.a11y.png" width="400" />
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="Living room" | This non-clickable item's speakable text: "Living room" is identical to that of 1 other item(s). |
+| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
+| 2 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
+| 3 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
+| 4 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
+| 5 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Stop (unavailable)" is identical to that of 1 other item(s). |
+| 6 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Open" is identical to that of 1 other item(s). |
 
-### `PictureGlance_Light`
+### `Garage_TwoEntities_Light`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/PictureGlance_Light_picture_glance_light-de890a08.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="Living room" | This non-clickable item's speakable text: "Living room" is identical to that of 1 other item(s). |
-
-### `SectionFlowHostMobile`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/SectionFlowHostMobile_section_flow_host_mobile-ae0b788b.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Garage_TwoEntities_Light_garage_two_entities_light-91f56dfc.a11y.png" width="400" />
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="Wind" | This non-clickable item's speakable text: "Wind" is identical to that of 1 other item(s). |
-| 2 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="UV" | This non-clickable item's speakable text: "UV" is identical to that of 1 other item(s). |
-| 3 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="Pressure" | This non-clickable item's speakable text: "Pressure" is identical to that of 1 other item(s). |
-| 4 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "No history in the last 2 days" is identical to that of 1 other item(s). |
-| 5 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Outside · Upstairs · Downstairs · Kitchen" is identical to that of 1 other item(s). |
-| 6 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="Humidity" | This non-clickable item's speakable text: "Humidity" is identical to that of 2 other item(s). |
-| 7 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="Rainy" | This non-clickable item's speakable text: "Rainy" is identical to that of 1 other item(s). |
+| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
+| 2 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
+| 3 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
+| 4 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
+| 5 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Stop (unavailable)" is identical to that of 1 other item(s). |
+| 6 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Open" is identical to that of 1 other item(s). |
 
-### `SectionFlowRemoteMobile`
+### `Garage_Unavailable_Dark`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/SectionFlowRemoteMobile_section_flow_remote_mobile-ab059667.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="Wind" | This non-clickable item's speakable text: "Wind" is identical to that of 1 other item(s). |
-| 2 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="UV" | This non-clickable item's speakable text: "UV" is identical to that of 1 other item(s). |
-| 3 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="Pressure" | This non-clickable item's speakable text: "Pressure" is identical to that of 1 other item(s). |
-| 4 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "No history in the last 2 days" is identical to that of 1 other item(s). |
-| 5 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Outside · Upstairs · Downstairs · Kitchen" is identical to that of 1 other item(s). |
-| 6 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "1036" is identical to that of 1 other item(s). |
-| 7 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="Humidity" | This non-clickable item's speakable text: "Humidity" is identical to that of 2 other item(s). |
-| 8 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="Rainy" | This non-clickable item's speakable text: "Rainy" is identical to that of 1 other item(s). |
-
-### `Tier2_MediaControlWide`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Tier2_MediaControlWide_tier2_media_control_wide-c7b5a9ba.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Garage_Unavailable_Dark_garage_unavailable_dark-a59eba30.a11y.png" width="400" />
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="Clair de Lune" | This non-clickable item's speakable text: "Clair de Lune" is identical to that of 1 other item(s). |
+| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
+| 2 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
 
-### `Tier2_PictureGlance`
+### `Garage_Unavailable_Light`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Tier2_PictureGlance_tier2_picture_glance-98b40a4e.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="Living room" | This non-clickable item's speakable text: "Living room" is identical to that of 1 other item(s). |
-
-## wear
-
-### `WearHumidifierLarge`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/wear/WearHumidifierLarge_wear_humidifier_large-9bd7052b.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Garage_Unavailable_Light_garage_unavailable_light-cc3fae5e.a11y.png" width="400" />
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "38%" is identical to that of 1 other item(s). |
-| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Bedroom" is identical to that of 1 other item(s). |
-| 3 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "↑ 45%" is identical to that of 1 other item(s). |
-| 4 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "On" is identical to that of 1 other item(s). |
+| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
+| 2 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
 
-### `WearMediaControlLarge`
+### `Shutter_Dark`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/wear/WearMediaControlLarge_wear_media_control_large-d51f67be.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Shutter_Dark_shutter_dark-54f18b24.a11y.png" width="400" />
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Office speaker" is identical to that of 1 other item(s). |
-| 2 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="Idle" | This non-clickable item's speakable text: "Idle" is identical to that of 3 other item(s). |
-| 3 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="play/pause" | This non-clickable item's speakable text: "play/pause" is identical to that of 1 other item(s). |
+| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
+| 2 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
+| 3 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
+| 4 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 22dp. Consider making the height of this touch target 48dp or larger. |
+| 5 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 28dp. Consider making the height of this touch target 32dp or larger. |
+| 6 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Stop (unavailable)" is identical to that of 1 other item(s). |
+| 7 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Open" is identical to that of 1 other item(s). |
 
-### `WearMediaControlSmall`
+### `Shutter_GarageControls_Dark`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/wear/WearMediaControlSmall_wear_media_control_small-15c8ef22.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Office speaker" is identical to that of 1 other item(s). |
-| 2 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="Idle" | This non-clickable item's speakable text: "Idle" is identical to that of 3 other item(s). |
-| 3 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="play/pause" | This non-clickable item's speakable text: "play/pause" is identical to that of 1 other item(s). |
-
-### `WearPictureGlanceLarge`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/wear/WearPictureGlanceLarge_wear_picture_glance_large-0e9da99a.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Shutter_GarageControls_Dark_shutter_garage_controls_dark-70fadea2.a11y.png" width="400" />
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's width is 44dp. Consider making the width of this touch target 48dp or larger. |
-| 2 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Coffee maker" is identical to that of 1 other item(s). |
-| 3 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Kitchen" is identical to that of 1 other item(s). |
-| 4 | INFO | DuplicateSpeakableTextCheck | android.view.View  desc="Living room" | This non-clickable item's speakable text: "Living room" is identical to that of 2 other item(s). |
-| 5 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Front door" is identical to that of 1 other item(s). |
+| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
+| 2 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
 
-### `WearThermostatLarge`
+### `Shutter_GarageControls_Light`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/wear/WearThermostatLarge_wear_thermostat_large-e2221b97.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Shutter_GarageControls_Light_shutter_garage_controls_light-6ae1379e.a11y.png" width="400" />
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "20.5°C" is identical to that of 1 other item(s). |
-| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Heating" is identical to that of 1 other item(s). |
-| 3 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Living Room" is identical to that of 1 other item(s). |
-| 4 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "↑ 21.5°C" is identical to that of 1 other item(s). |
+| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
+| 2 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
+
+### `Shutter_GarageDemo_States`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Shutter_GarageDemo_States_shutter_garage_demo_config-62a1e576.a11y.png" width="400" />
+
+_No findings._
+
+### `Shutter_Light`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Shutter_Light_shutter_light-95f786e5.a11y.png" width="400" />
+
+| # | Level | Rule | Element | Message |
+|--:|---|---|---|---|
+| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
+| 2 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
+| 3 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 38dp. Consider making the height of this touch target 48dp or larger. |
+| 4 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 22dp. Consider making the height of this touch target 48dp or larger. |
+| 5 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 28dp. Consider making the height of this touch target 32dp or larger. |
+| 6 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Stop (unavailable)" is identical to that of 1 other item(s). |
+| 7 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Open" is identical to that of 1 other item(s). |
