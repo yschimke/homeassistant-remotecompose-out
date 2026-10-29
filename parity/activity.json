@@ -1,11 +1,59 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-28T21:17:54.155Z",
+  "generatedAt": "2026-10-29T08:04:36.039Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "7763a10b7bf2645115e8d19ccb36b1ae59be18d4",
+        "subject": "refactor: share the room controls in a room-ui module (#1328)",
+        "at": "2026-10-29T07:56:50Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "2728159e1924f4b36ddb9cc02ffcc03511995dae",
+        "subject": "feat: snap pinned room controls to walls on an XR headset (#1324)",
+        "at": "2026-10-29T07:17:45Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "2e8e57b3d0d177128de64c0e24c217393640e5a0",
+        "subject": "chore(main): release 0.1.73 (#1314)",
+        "at": "2026-10-29T06:35:45Z",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "e3fb5af7632a1b38adf968079b332292a24517ea",
+        "subject": "chore(deps): update dependency firebase-tools to v15.34.2 (#1322)",
+        "at": "2026-10-29T02:14:10Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "64632925c729e63842aa93f722cc797a0c2157c3",
+        "subject": "feat: motion archetypes for every card style, reduced motion (#1321)",
+        "at": "2026-10-28T23:08:54Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "1c302feac7f84fce2b73d7b737d8d2493ec54508",
+        "subject": "fix(deps): update dependency androidx.xr.arcore:arcore to v1.0.0 (#1320)",
+        "at": "2026-10-28T21:35:28Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "3762d2a377e9ab57a540c4b14b26556e61ab9366",
         "subject": "feat: room controls with an Android XR spatial layout (#1319)",
@@ -435,54 +483,6 @@
         "subject": "chore(deps): update yschimke/compose-ai-tools digest to 2bfa1d8 (#1198)",
         "at": "2026-10-25T22:36:08Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "7c394bd61010547122fb535dd43a8f06443e9b8a",
-        "subject": "fix: keep Wear dark and follow system dynamic colors (#1262)",
-        "at": "2026-10-25T21:40:23Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ee93eaab718e203232e14b0fc08ed763e6d29b47",
-        "subject": "fix: make Wear follow mobile theme and card designs (#1260)",
-        "at": "2026-10-25T20:38:15Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "8870c0a9d8c7633025be5fe710609b6cf5faa220",
-        "subject": "chore(deps): update dependency firebase-tools to v15.34.1 (#1261)",
-        "at": "2026-10-25T20:38:12Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "5c4c621c9c115bd9f99c17a2005b428a261b563f",
-        "subject": "ci(release): deploy the push relay with each release (#1258)",
-        "at": "2026-10-25T20:11:57Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "826e0f78ffb7793a26846847604a058650126fd5",
-        "subject": "feat: load weather forecasts, and history on Android, for data cards (#1257)",
-        "at": "2026-10-25T19:35:21Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "05d4496edfdff3c6e99c34cf28a6446fe4fd541b",
-        "subject": "build(push-relay): deploy on the nodejs24 runtime, matching engines.node (#1256)",
-        "at": "2026-10-25T18:41:15Z",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
