@@ -1,6 +1,50 @@
 {
   "entries": [
     {
+      "annotatedBasename": "GlassesKitchenPreview_Glasses_kitchen-c7c40b00.a11y.png",
+      "cleanBasename": "GlassesKitchenPreview_Glasses_kitchen-c7c40b00.png",
+      "findings": [],
+      "functionName": "GlassesKitchenPreview",
+      "module": "glasses",
+      "previewId": "ee.schimke.terrazzo.glasses.GlassesPreviewsKt.GlassesKitchenPreview_Glasses_ kitchen",
+      "rendersDir": "glasses",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/glasses/GlassesPreviews.kt",
+      "variant": "spec:width=480dp,height=480dp,dpi=160"
+    },
+    {
+      "annotatedBasename": "GlassesPhonePreview_Glasses_phone-808f1e3d.a11y.png",
+      "cleanBasename": "GlassesPhonePreview_Glasses_phone-808f1e3d.png",
+      "findings": [],
+      "functionName": "GlassesPhonePreview",
+      "module": "glasses",
+      "previewId": "ee.schimke.terrazzo.glasses.GlassesPreviewsKt.GlassesPhonePreview_Glasses_ phone",
+      "rendersDir": "glasses",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/glasses/GlassesPreviews.kt",
+      "variant": "spec:width=411dp,height=891dp,dpi=320"
+    },
+    {
+      "annotatedBasename": "GlassesRoomPreview_Glasses_living_room-f6cc8c7b.a11y.png",
+      "cleanBasename": "GlassesRoomPreview_Glasses_living_room-f6cc8c7b.png",
+      "findings": [],
+      "functionName": "GlassesRoomPreview",
+      "module": "glasses",
+      "previewId": "ee.schimke.terrazzo.glasses.GlassesPreviewsKt.GlassesRoomPreview_Glasses_ living room",
+      "rendersDir": "glasses",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/glasses/GlassesPreviews.kt",
+      "variant": "spec:width=480dp,height=480dp,dpi=160"
+    },
+    {
+      "annotatedBasename": "GlassesThroughTheLensPreview_Glasses_through_the_lens-f3c282de.a11y.png",
+      "cleanBasename": "GlassesThroughTheLensPreview_Glasses_through_the_lens-f3c282de.png",
+      "findings": [],
+      "functionName": "GlassesThroughTheLensPreview",
+      "module": "glasses",
+      "previewId": "ee.schimke.terrazzo.glasses.GlassesPreviewsKt.GlassesThroughTheLensPreview_Glasses_ through the lens",
+      "rendersDir": "glasses",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/glasses/GlassesPreviews.kt",
+      "variant": "spec:width=960dp,height=600dp,dpi=160"
+    },
+    {
       "annotatedBasename": "Ambient_Entities_ClassicLight_ambient_entities_classic_light-bcb9d214.a11y.png",
       "cleanBasename": "Ambient_Entities_ClassicLight_ambient_entities_classic_light-bcb9d214.png",
       "findings": [
@@ -849,6 +893,50 @@
       "rendersDir": "previews",
       "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/ExpressiveBlockPreviews.kt",
       "variant": ""
+    },
+    {
+      "annotatedBasename": "",
+      "cleanBasename": "ImageUrl_Probe_Frame0_image_url_probe_frame_0-1464413f.png",
+      "findings": [],
+      "functionName": "ImageUrl_Probe_Frame0",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ImagePreviewsKt.ImageUrl_Probe_Frame0_image-url probe frame=0",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/ImagePreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "QuestPinnedPanelPreview_Quest_pinned_heater-e4503905.a11y.png",
+      "cleanBasename": "QuestPinnedPanelPreview_Quest_pinned_heater-e4503905.png",
+      "findings": [],
+      "functionName": "QuestPinnedPanelPreview",
+      "module": "quest",
+      "previewId": "ee.schimke.terrazzo.quest.QuestPreviewsKt.QuestPinnedPanelPreview_Quest_ pinned heater",
+      "rendersDir": "quest",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/quest/QuestPreviews.kt",
+      "variant": "spec:width=360dp,height=200dp,dpi=160"
+    },
+    {
+      "annotatedBasename": "QuestRoomPanelPreview_Quest_room_panel-09d404b8.a11y.png",
+      "cleanBasename": "QuestRoomPanelPreview_Quest_room_panel-09d404b8.png",
+      "findings": [],
+      "functionName": "QuestRoomPanelPreview",
+      "module": "quest",
+      "previewId": "ee.schimke.terrazzo.quest.QuestPreviewsKt.QuestRoomPanelPreview_Quest_ room panel",
+      "rendersDir": "quest",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/quest/QuestPreviews.kt",
+      "variant": "spec:width=1000dp,height=700dp,dpi=160"
+    },
+    {
+      "annotatedBasename": "",
+      "cleanBasename": "QuestRoomScenePreview_Quest_room_scene-bf69eb27.png",
+      "findings": [],
+      "functionName": "QuestRoomScenePreview",
+      "module": "quest",
+      "previewId": "ee.schimke.terrazzo.quest.QuestPreviewsKt.QuestRoomScenePreview_Quest_ room scene",
+      "rendersDir": "quest",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/quest/QuestPreviews.kt",
+      "variant": "spec:width=1600dp,height=900dp,dpi=160"
     }
   ],
   "scope": "changed-previews",
@@ -1860,10 +1948,6 @@
     {
       "module": "previews",
       "previewId": "ee.schimke.ha.previews.ImagePreviewsKt.ImageUrl_FakeCoil_Light_image-url fake-coil (light)"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.ImagePreviewsKt.ImageUrl_Probe_Frame0_image-url probe frame=0"
     },
     {
       "module": "previews",

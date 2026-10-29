@@ -1,8 +1,34 @@
 # Accessibility Report
 
-_Auto-generated from `compose-preview/a11y/pr`. 18 preview(s) across 1 module(s) · 33 error(s) · 8 warning(s) · 50 info._
+_Auto-generated from `compose-preview/a11y/pr`. 26 preview(s) across 3 module(s) · 33 error(s) · 8 warning(s) · 50 info._
 
 Browse inline; image URLs are pinned to the commit SHA on the baseline branch so links keep resolving after merge.
+
+## glasses
+
+### `GlassesKitchenPreview` · `spec:width=480dp,height=480dp,dpi=160`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/glasses/GlassesKitchenPreview_Glasses_kitchen-c7c40b00.a11y.png" width="400" />
+
+_No findings._
+
+### `GlassesPhonePreview` · `spec:width=411dp,height=891dp,dpi=320`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/glasses/GlassesPhonePreview_Glasses_phone-808f1e3d.a11y.png" width="400" />
+
+_No findings._
+
+### `GlassesRoomPreview` · `spec:width=480dp,height=480dp,dpi=160`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/glasses/GlassesRoomPreview_Glasses_living_room-f6cc8c7b.a11y.png" width="400" />
+
+_No findings._
+
+### `GlassesThroughTheLensPreview` · `spec:width=960dp,height=600dp,dpi=160`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/glasses/GlassesThroughTheLensPreview_Glasses_through_the_lens-f3c282de.a11y.png" width="400" />
+
+_No findings._
 
 ## previews
 
@@ -217,5 +243,31 @@ _No findings._
 ### `ExpressiveAmbient`
 
 <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/ExpressiveAmbient_expressive_ambient-a53476cf.png" width="400" />
+
+_No findings._
+
+### `ImageUrl_Probe_Frame0`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/ImageUrl_Probe_Frame0_image_url_probe_frame_0-1464413f.png" width="400" />
+
+_No findings._
+
+## quest
+
+### `QuestPinnedPanelPreview` · `spec:width=360dp,height=200dp,dpi=160`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/quest/QuestPinnedPanelPreview_Quest_pinned_heater-e4503905.a11y.png" width="400" />
+
+_No findings._
+
+### `QuestRoomPanelPreview` · `spec:width=1000dp,height=700dp,dpi=160`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/quest/QuestRoomPanelPreview_Quest_room_panel-09d404b8.a11y.png" width="400" />
+
+_No findings._
+
+### `QuestRoomScenePreview` · `spec:width=1600dp,height=900dp,dpi=160`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/quest/QuestRoomScenePreview_Quest_room_scene-bf69eb27.png" width="400" />
 
 _No findings._
