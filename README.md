@@ -2,6 +2,17 @@
 
 Auto-generated from `main`. Browse inline or compare against PR branches.
 
+> [!WARNING]
+> 1 preview(s) failed to render in the latest update (1 with no prior baseline to retain). See **Render Failures** below.
+
+## Render Failures
+
+The render task completed but no PNG was produced for these previews. Entries with a prior baseline keep their previous image; the rest are absent from the gallery until a successful render lands.
+
+| Preview | Module | Function | Source | Baseline |
+|---------|--------|----------|--------|----------|
+| `quest/activity__QuestActivity` | quest | `QuestActivity` | `—` | none |
+
 ## app
 
 | Preview | Image |
@@ -727,6 +738,14 @@ Auto-generated from `main`. Browse inline or compare against PR branches.
 | `WrapContentHeightCmp` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/WrapContentHeightCmp_wrap_content_height_CMP_player-e74b165d.png" width="150" /> |
 | `WrapContentHeightFixAlpha010` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/WrapContentHeightFixAlpha010_wrap_content_height_fix_WrapAdaptive_player-21200e61.png" width="150" /> |
 | `WrapContentHeightReproAlpha010` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/WrapContentHeightReproAlpha010_wrap_content_height_repro_alpha010-adbd8ce7.png" width="150" /> |
+
+## quest
+
+| Preview | Image |
+|---------|-------|
+| `QuestPinnedPanelPreview` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/quest/QuestPinnedPanelPreview_Quest_pinned_heater-e4503905.png" width="150" /> |
+| `QuestRoomPanelPreview` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/quest/QuestRoomPanelPreview_Quest_room_panel-09d404b8.png" width="150" /> |
+| `QuestRoomScenePreview` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/quest/QuestRoomScenePreview_Quest_room_scene-bf69eb27.png" width="150" /> |
 
 ## tv
 
