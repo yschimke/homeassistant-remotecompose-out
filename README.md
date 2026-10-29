@@ -766,7 +766,6 @@ The render task completed but no PNG was produced for these previews. Entries wi
 
 | Preview | Image |
 |---------|-------|
-| `WearMainActivity` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/activity__WearMainActivity.png" width="150" /> |
 | `Play_Wear_01_Home` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/Play_Wear_01_Home_play_wear_home-4a47d00f.png" width="150" /> |
 | `Play_Wear_02_WidgetLarge` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/Play_Wear_02_WidgetLarge_play_wear_widget_large-585828ec.png" width="150" /> |
 | `Play_Wear_03_WidgetSmall` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/wear/Play_Wear_03_WidgetSmall_play_wear_widget_small-7e8331e8.png" width="150" /> |
