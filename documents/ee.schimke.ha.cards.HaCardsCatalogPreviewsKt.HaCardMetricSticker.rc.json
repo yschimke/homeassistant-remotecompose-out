@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 513,
         "densityAtGeneration": 2.625,
-        "byteLength": 551
+        "byteLength": 746
     },
     "operations": [
         {
@@ -35,6 +35,66 @@
                     "varId": 42,
                     "varName": "USER:WearM3.background",
                     "varType": "COLOR_TYPE"
+                },
+                {
+                    "type": "ColorConstant",
+                    "color": "0xff000000",
+                    "colorId": 43
+                },
+                {
+                    "type": "NamedVariable",
+                    "varId": 44,
+                    "varName": "USER:host.ambient",
+                    "varType": "FLOAT_TYPE"
+                },
+                {
+                    "type": "FloatConstant",
+                    "id": 44,
+                    "value": 0.0
+                },
+                {
+                    "$tags": [
+                        "EXPRESSION"
+                    ],
+                    "type": "FloatExpression",
+                    "id": 45,
+                    "srcValues": [
+                        "@44"
+                    ],
+                    "animation": null
+                },
+                {
+                    "$tags": [
+                        "EXPRESSION"
+                    ],
+                    "type": "FloatExpression",
+                    "id": 46,
+                    "srcValues": [
+                        0.0,
+                        1.0,
+                        "@44",
+                        "@45",
+                        "@3211271",
+                        "@3211291"
+                    ],
+                    "animation": null
+                },
+                {
+                    "type": "ColorExpression",
+                    "id": 47,
+                    "mode": "TWEEN",
+                    "startColor": [
+                        42.0,
+                        42.0
+                    ],
+                    "endColor": [
+                        43.0,
+                        43.0
+                    ],
+                    "tween": [
+                        "@46",
+                        "@46"
+                    ]
                 },
                 {
                     "$tags": [
@@ -85,7 +145,7 @@
                                     "y": 0.0,
                                     "width": 0.0,
                                     "height": 0.0,
-                                    "colorId": 42,
+                                    "colorId": 47,
                                     "shapeType": "RECTANGLE"
                                 },
                                 {
@@ -114,13 +174,35 @@
                             "list": [
                                 {
                                     "type": "TextData",
-                                    "textId": 43,
+                                    "textId": 48,
                                     "text": "Living room"
                                 },
                                 {
                                     "type": "ColorConstant",
                                     "color": "0xff8f8f8f",
-                                    "colorId": 44
+                                    "colorId": 49
+                                },
+                                {
+                                    "type": "ColorConstant",
+                                    "color": "0xffa0a0a0",
+                                    "colorId": 50
+                                },
+                                {
+                                    "type": "ColorExpression",
+                                    "id": 51,
+                                    "mode": "TWEEN",
+                                    "startColor": [
+                                        49.0,
+                                        49.0
+                                    ],
+                                    "endColor": [
+                                        50.0,
+                                        50.0
+                                    ],
+                                    "tween": [
+                                        "@46",
+                                        "@46"
+                                    ]
                                 },
                                 {
                                     "$tags": [
@@ -164,7 +246,7 @@
                                     "paddingRight": 0.0,
                                     "paddingTop": 0.0,
                                     "paddingBottom": 0.0,
-                                    "textId": 43,
+                                    "textId": 48,
                                     "flags": 0,
                                     "color": [
                                         -1.6777216E7,
@@ -193,13 +275,35 @@
                                     "list": [
                                         {
                                             "type": "TextData",
-                                            "textId": 45,
+                                            "textId": 52,
                                             "text": "21.5 °C"
                                         },
                                         {
                                             "type": "ColorConstant",
                                             "color": "0xff141414",
-                                            "colorId": 46
+                                            "colorId": 53
+                                        },
+                                        {
+                                            "type": "ColorConstant",
+                                            "color": "0xffe6e6e6",
+                                            "colorId": 54
+                                        },
+                                        {
+                                            "type": "ColorExpression",
+                                            "id": 55,
+                                            "mode": "TWEEN",
+                                            "startColor": [
+                                                53.0,
+                                                53.0
+                                            ],
+                                            "endColor": [
+                                                54.0,
+                                                54.0
+                                            ],
+                                            "tween": [
+                                                "@46",
+                                                "@46"
+                                            ]
                                         },
                                         {
                                             "$tags": [
@@ -232,7 +336,7 @@
                                             "paddingRight": 0.0,
                                             "paddingTop": 0.0,
                                             "paddingBottom": 0.0,
-                                            "textId": 45,
+                                            "textId": 52,
                                             "flags": 0,
                                             "color": [
                                                 -1.6777216E7,

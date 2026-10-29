@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 513,
         "densityAtGeneration": 2.625,
-        "byteLength": 678
+        "byteLength": 993
     },
     "operations": [
         {
@@ -37,6 +37,66 @@
                     "varType": "COLOR_TYPE"
                 },
                 {
+                    "type": "ColorConstant",
+                    "color": "0xff000000",
+                    "colorId": 43
+                },
+                {
+                    "type": "NamedVariable",
+                    "varId": 44,
+                    "varName": "USER:host.ambient",
+                    "varType": "FLOAT_TYPE"
+                },
+                {
+                    "type": "FloatConstant",
+                    "id": 44,
+                    "value": 0.0
+                },
+                {
+                    "$tags": [
+                        "EXPRESSION"
+                    ],
+                    "type": "FloatExpression",
+                    "id": 45,
+                    "srcValues": [
+                        "@44"
+                    ],
+                    "animation": null
+                },
+                {
+                    "$tags": [
+                        "EXPRESSION"
+                    ],
+                    "type": "FloatExpression",
+                    "id": 46,
+                    "srcValues": [
+                        0.0,
+                        1.0,
+                        "@44",
+                        "@45",
+                        "@3211271",
+                        "@3211291"
+                    ],
+                    "animation": null
+                },
+                {
+                    "type": "ColorExpression",
+                    "id": 47,
+                    "mode": "TWEEN",
+                    "startColor": [
+                        42.0,
+                        42.0
+                    ],
+                    "endColor": [
+                        43.0,
+                        43.0
+                    ],
+                    "tween": [
+                        "@46",
+                        "@46"
+                    ]
+                },
+                {
                     "$tags": [
                         "LAYOUT_COMPONENT"
                     ],
@@ -50,32 +110,32 @@
                     "list": [
                         {
                             "type": "ComponentValue",
-                            "valueId": 43,
+                            "valueId": 48,
                             "componentValueType": "WIDTH",
                             "componentId": -3
                         },
                         {
                             "type": "ComponentValue",
-                            "valueId": 44,
+                            "valueId": 49,
                             "componentValueType": "HEIGHT",
                             "componentId": -3
                         },
                         {
                             "type": "ColorConstant",
                             "color": "0xff8f8f8f",
-                            "colorId": 45
+                            "colorId": 50
                         },
                         {
                             "type": "ColorConstant",
                             "color": "0xffffc107",
-                            "colorId": 46
+                            "colorId": 51
                         },
                         {
                             "$tags": [
                                 "EXPRESSION"
                             ],
                             "type": "FloatExpression",
-                            "id": 47,
+                            "id": 52,
                             "srcValues": [
                                 1.0
                             ],
@@ -88,24 +148,19 @@
                             }
                         },
                         {
-                            "type": "FloatConstant",
-                            "id": 48,
-                            "value": 0.0
-                        },
-                        {
                             "$tags": [
                                 "EXPRESSION"
                             ],
                             "type": "FloatExpression",
-                            "id": 49,
+                            "id": 53,
                             "srcValues": [
-                                "@47",
-                                "@47",
+                                "@52",
+                                "@52",
                                 -1.0,
                                 "@3211267",
                                 1.0,
                                 "@3211265",
-                                "@48",
+                                "@44",
                                 "@3211267",
                                 "@3211265"
                             ],
@@ -113,19 +168,111 @@
                         },
                         {
                             "type": "ColorExpression",
-                            "id": 50,
+                            "id": 54,
                             "mode": "TWEEN",
                             "startColor": [
-                                45.0,
-                                45.0
+                                50.0,
+                                50.0
                             ],
                             "endColor": [
-                                46.0,
-                                46.0
+                                51.0,
+                                51.0
                             ],
                             "tween": [
-                                "@49",
-                                "@49"
+                                "@53",
+                                "@53"
+                            ]
+                        },
+                        {
+                            "type": "COLOR_ALPHA",
+                            "id": 55,
+                            "colorId": 54
+                        },
+                        {
+                            "$tags": [
+                                "EXPRESSION"
+                            ],
+                            "type": "FloatExpression",
+                            "id": 56,
+                            "srcValues": [
+                                "@55",
+                                "@46",
+                                -1.0,
+                                "@3211267",
+                                1.0,
+                                "@3211265",
+                                "@3211267"
+                            ],
+                            "animation": null
+                        },
+                        {
+                            "type": "COLOR_RED",
+                            "id": 57,
+                            "colorId": 54
+                        },
+                        {
+                            "type": "COLOR_GREEN",
+                            "id": 58,
+                            "colorId": 54
+                        },
+                        {
+                            "type": "COLOR_BLUE",
+                            "id": 59,
+                            "colorId": 54
+                        },
+                        {
+                            "type": "ColorExpression",
+                            "id": 60,
+                            "mode": "ARGB",
+                            "a": [
+                                "@56",
+                                "@56"
+                            ],
+                            "r": [
+                                "@57",
+                                "@57"
+                            ],
+                            "g": [
+                                "@58",
+                                "@58"
+                            ],
+                            "b": [
+                                "@59",
+                                "@59"
+                            ]
+                        },
+                        {
+                            "$tags": [
+                                "EXPRESSION"
+                            ],
+                            "type": "FloatExpression",
+                            "id": 61,
+                            "srcValues": [
+                                "@55",
+                                "@46",
+                                "@3211267"
+                            ],
+                            "animation": null
+                        },
+                        {
+                            "type": "ColorExpression",
+                            "id": 62,
+                            "mode": "ARGB",
+                            "a": [
+                                "@61",
+                                "@61"
+                            ],
+                            "r": [
+                                "@57",
+                                "@57"
+                            ],
+                            "g": [
+                                "@58",
+                                "@58"
+                            ],
+                            "b": [
+                                "@59",
+                                "@59"
                             ]
                         },
                         {
@@ -165,7 +312,7 @@
                                     "y": 0.0,
                                     "width": 0.0,
                                     "height": 0.0,
-                                    "colorId": 42,
+                                    "colorId": 47,
                                     "shapeType": "RECTANGLE"
                                 },
                                 {
@@ -197,9 +344,9 @@
                                         "EXPRESSION"
                                     ],
                                     "type": "FloatExpression",
-                                    "id": 51,
+                                    "id": 63,
                                     "srcValues": [
-                                        "@49",
+                                        "@53",
                                         14.0,
                                         "@3211267",
                                         3.0,
@@ -211,13 +358,13 @@
                                 },
                                 {
                                     "type": "ComponentValue",
-                                    "valueId": 52,
+                                    "valueId": 64,
                                     "componentValueType": "WIDTH",
                                     "componentId": -5
                                 },
                                 {
                                     "type": "ComponentValue",
-                                    "valueId": 53,
+                                    "valueId": 65,
                                     "componentValueType": "HEIGHT",
                                     "componentId": -5
                                 },
@@ -226,15 +373,37 @@
                                         "EXPRESSION"
                                     ],
                                     "type": "FloatExpression",
-                                    "id": 54,
+                                    "id": 66,
                                     "srcValues": [
-                                        "@52",
-                                        "@53",
+                                        "@64",
+                                        "@65",
                                         "@3211270",
                                         2.0,
                                         "@3211268"
                                     ],
                                     "animation": null
+                                },
+                                {
+                                    "type": "ColorConstant",
+                                    "color": "0xffffffff",
+                                    "colorId": 67
+                                },
+                                {
+                                    "type": "ColorExpression",
+                                    "id": 68,
+                                    "mode": "TWEEN",
+                                    "startColor": [
+                                        67.0,
+                                        67.0
+                                    ],
+                                    "endColor": [
+                                        54.0,
+                                        54.0
+                                    ],
+                                    "tween": [
+                                        "@46",
+                                        "@46"
+                                    ]
                                 },
                                 {
                                     "$tags": [
@@ -297,8 +466,23 @@
                                             "y": 0.0,
                                             "width": 0.0,
                                             "height": 0.0,
-                                            "colorId": 50,
+                                            "colorId": 60,
                                             "shapeType": "RECTANGLE"
+                                        },
+                                        {
+                                            "$tags": [
+                                                "MODIFIER"
+                                            ],
+                                            "type": "BorderModifierOperation",
+                                            "x": 0.0,
+                                            "y": 0.0,
+                                            "width": 0.0,
+                                            "height": 0.0,
+                                            "borderWidth": 5.25,
+                                            "roundedCornerRadius": 28.875,
+                                            "colorId": 62,
+                                            "shapeType": "ROUNDED_RECTANGLE",
+                                            "useLegacyDrawing": false
                                         }
                                     ]
                                 },
@@ -310,7 +494,7 @@
                                     "id": -7,
                                     "x": 0.0,
                                     "y": 0.0,
-                                    "width": "@51",
+                                    "width": "@63",
                                     "height": 23.875,
                                     "visibility": "VISIBLE",
                                     "list": [
@@ -325,7 +509,7 @@
                                                         "MODIFIER"
                                                     ],
                                                     "type": "PaddingModifierOperation",
-                                                    "left": "@51",
+                                                    "left": "@63",
                                                     "top": 7.875,
                                                     "right": 0.0,
                                                     "bottom": 0.0
@@ -354,20 +538,20 @@
                                                 },
                                                 {
                                                     "topStart": [
-                                                        "@54",
-                                                        "@54"
+                                                        "@66",
+                                                        "@66"
                                                     ],
                                                     "topEnd": [
-                                                        "@54",
-                                                        "@54"
+                                                        "@66",
+                                                        "@66"
                                                     ],
                                                     "bottomStart": [
-                                                        "@54",
-                                                        "@54"
+                                                        "@66",
+                                                        "@66"
                                                     ],
                                                     "bottomEnd": [
-                                                        "@54",
-                                                        "@54"
+                                                        "@66",
+                                                        "@66"
                                                     ],
                                                     "$tags": [
                                                         "MODIFIER"
@@ -385,18 +569,13 @@
                                                     "y": 0.0,
                                                     "width": 0.0,
                                                     "height": 0.0,
-                                                    "color": [
-                                                        1.0,
-                                                        1.0,
-                                                        1.0,
-                                                        1.0
-                                                    ],
+                                                    "colorId": 68,
                                                     "shapeType": "RECTANGLE"
                                                 }
                                             ]
                                         }
                                     ],
-                                    "paddingLeft": "@51",
+                                    "paddingLeft": "@63",
                                     "paddingRight": 0.0,
                                     "paddingTop": 7.875,
                                     "paddingBottom": 0.0,

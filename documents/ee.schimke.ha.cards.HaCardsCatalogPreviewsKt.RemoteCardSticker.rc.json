@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 513,
         "densityAtGeneration": 2.625,
-        "byteLength": 811
+        "byteLength": 946
     },
     "operations": [
         {
@@ -37,6 +37,66 @@
                     "varType": "COLOR_TYPE"
                 },
                 {
+                    "type": "ColorConstant",
+                    "color": "0xff000000",
+                    "colorId": 43
+                },
+                {
+                    "type": "NamedVariable",
+                    "varId": 44,
+                    "varName": "USER:host.ambient",
+                    "varType": "FLOAT_TYPE"
+                },
+                {
+                    "type": "FloatConstant",
+                    "id": 44,
+                    "value": 0.0
+                },
+                {
+                    "$tags": [
+                        "EXPRESSION"
+                    ],
+                    "type": "FloatExpression",
+                    "id": 45,
+                    "srcValues": [
+                        "@44"
+                    ],
+                    "animation": null
+                },
+                {
+                    "$tags": [
+                        "EXPRESSION"
+                    ],
+                    "type": "FloatExpression",
+                    "id": 46,
+                    "srcValues": [
+                        0.0,
+                        1.0,
+                        "@44",
+                        "@45",
+                        "@3211271",
+                        "@3211291"
+                    ],
+                    "animation": null
+                },
+                {
+                    "type": "ColorExpression",
+                    "id": 47,
+                    "mode": "TWEEN",
+                    "startColor": [
+                        42.0,
+                        42.0
+                    ],
+                    "endColor": [
+                        43.0,
+                        43.0
+                    ],
+                    "tween": [
+                        "@46",
+                        "@46"
+                    ]
+                },
+                {
                     "$tags": [
                         "LAYOUT_COMPONENT"
                     ],
@@ -50,13 +110,13 @@
                     "list": [
                         {
                             "type": "ComponentValue",
-                            "valueId": 43,
+                            "valueId": 48,
                             "componentValueType": "WIDTH",
                             "componentId": -3
                         },
                         {
                             "type": "ComponentValue",
-                            "valueId": 44,
+                            "valueId": 49,
                             "componentValueType": "HEIGHT",
                             "componentId": -3
                         },
@@ -97,7 +157,7 @@
                                     "y": 0.0,
                                     "width": 0.0,
                                     "height": 0.0,
-                                    "colorId": 42,
+                                    "colorId": 47,
                                     "shapeType": "RECTANGLE"
                                 },
                                 {
@@ -126,32 +186,32 @@
                             "list": [
                                 {
                                     "type": "TextData",
-                                    "textId": 50,
+                                    "textId": 55,
                                     "text": "Good evening"
                                 },
                                 {
                                     "type": "ColorConstant",
                                     "color": "0xff8f8f8f",
-                                    "colorId": 51
+                                    "colorId": 56
                                 },
                                 {
                                     "type": "TextData",
-                                    "textId": 52,
+                                    "textId": 57,
                                     "text": "default"
                                 },
                                 {
                                     "type": "TextData",
-                                    "textId": 53,
+                                    "textId": 58,
                                     "text": "wdth"
                                 },
                                 {
                                     "type": "TextData",
-                                    "textId": 54,
+                                    "textId": 59,
                                     "text": "wght"
                                 },
                                 {
                                     "type": "TextData",
-                                    "textId": 55,
+                                    "textId": 60,
                                     "text": "pnum"
                                 },
                                 {
@@ -282,7 +342,7 @@
                                     "paddingRight": 0.0,
                                     "paddingTop": 0.0,
                                     "paddingBottom": 0.0,
-                                    "textId": 50,
+                                    "textId": 55,
                                     "flags": 0,
                                     "color": [
                                         -1.6777216E7,
@@ -294,7 +354,7 @@
                                     ],
                                     "fontStyle": 0,
                                     "fontWeight": 450.0,
-                                    "fontFamilyId": 52,
+                                    "fontFamilyId": 57,
                                     "textAlign": 1
                                 }
                             ],

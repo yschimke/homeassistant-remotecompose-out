@@ -1,11 +1,59 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-29T11:32:27.147Z",
+  "generatedAt": "2026-10-29T15:33:10.444Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "101a5fd38c07c4ae9223ad22ee417933f1ff85a8",
+        "subject": "feat(cards): every card goes dark while ambient (#1339)",
+        "at": "2026-10-29T15:25:14Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "4f2bd4be1e768ff16bb1f505b3b025c31f784852",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to b62bc80 (#1338)",
+        "at": "2026-10-29T12:47:53Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "682a9acc122cbf734c48e5449f15bc36fbe685be",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 533b952 (#1336)",
+        "at": "2026-10-29T12:40:00Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "2f7a0b65ac747cd831cc4687fecea659f39c9cb6",
+        "subject": "chore(renovate): merge automerging PRs with GitHub native auto-merge (#1337)",
+        "at": "2026-10-29T12:39:56Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "eb7595c57446300bc8efb6e723b6d4ed58b0e5ee",
+        "subject": "fix(previews): load demo camera images synchronously in screen previews (#1335)",
+        "at": "2026-10-29T12:10:37Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "085bbfe587ea90eb799921bb69d56546da7ee97f",
+        "subject": "feat(design-server): play designs live with an ambient switch and changing values (#1334)",
+        "at": "2026-10-29T12:10:16Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "e27e49c565394cb9f85da3169925a643cd000740",
         "subject": "feat(motion): runtime ambient flag for low-power displays (#1333)",
@@ -434,54 +482,6 @@
         "sha": "8777cffabcb2662e1169aa6a277fdc22c9706a8f",
         "subject": "ci: run the Playwright jobs on ubuntu-24.04 (#1277)",
         "at": "2026-10-26T19:28:19Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a836a438653524b49e33a131501305ea3aff224f",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to f105783 (#1278)",
-        "at": "2026-10-26T19:26:58Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ac1f369cf3b23c31355d894741481bc660cc0a5e",
-        "subject": "feat(designs): publish a private card design from the app, end to end (#1274)",
-        "at": "2026-10-26T19:26:40Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "411a1a9550d4c74d4615576b57ed4e4f08571af3",
-        "subject": "feat: choose Wear widget cards on the phone (#1273)",
-        "at": "2026-10-26T13:42:53Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "e8e361ea6a009988b9fc3612da5eca68896ed484",
-        "subject": "feat(widget): edit a placed widget from its launcher long-press (#1272)",
-        "at": "2026-10-26T11:59:22Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "c60bbb2cc3fe95a6022a9ae23b0a3b59e4c25155",
-        "subject": "feat(more-info): colour swatches, unlock confirmation, paired cameras (#1271)",
-        "at": "2026-10-26T11:02:38Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "9d4afa5dc48e423513c85dcc29d332f41fb597ee",
-        "subject": "feat(wear): every card style designs its container, and readings fill it (#1269)",
-        "at": "2026-10-26T10:43:03Z",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
