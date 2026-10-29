@@ -235,6 +235,9 @@ The render task completed but no PNG was produced for these previews. Entries wi
 
 | Preview | Image |
 |---------|-------|
+| `Ambient_Entities_ClassicLight` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/Ambient_Entities_ClassicLight_ambient_entities_classic_light-bcb9d214.png" width="150" /> |
+| `Ambient_Tile_ClassicLight` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/Ambient_Tile_ClassicLight_ambient_tile_classic_light-f5b32bb3.png" width="150" /> |
+| `Ambient_Tile_Expressive` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/Ambient_Tile_Expressive_ambient_tile_brightness_expressive-057c7cf7.png" width="150" /> |
 | `Gauge_Animation_Dark · 0pct` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/Gauge_Animation_Dark_gauge_anim_dark-36500b92_0pct.png" width="150" /> |
 | `Gauge_Animation_Dark · 100pct` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/Gauge_Animation_Dark_gauge_anim_dark-36500b92_100pct.png" width="150" /> |
 | `Gauge_Animation_Dark · 25pct` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/previews/Gauge_Animation_Dark_gauge_anim_dark-36500b92_25pct.png" width="150" /> |
