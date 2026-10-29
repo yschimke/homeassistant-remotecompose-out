@@ -1,11 +1,43 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-29T08:04:36.039Z",
+  "generatedAt": "2026-10-29T09:37:53.084Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "83c69feb106682ee291eb641f97bdd103bc42444",
+        "subject": "feat: M3 Expressive slider, and a pull request's design changes in the design browser (#1330)",
+        "at": "2026-10-29T09:21:47Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "4dc196f825b2bd6a1c317f5ffbfff8080377686b",
+        "subject": "ci: report failed preview renders, add preview audit and on-request Claude review (#1329)",
+        "at": "2026-10-29T09:14:53Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "b8212d60a3de4855284579de27a8c76e3dece27c",
+        "subject": "feat(motion): M3 Expressive press, shape morph, wavy progress and loader (#1325)",
+        "at": "2026-10-29T08:14:08Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "698269d322ccfe4dcb3e7723088a82537bc1c779",
+        "subject": "feat(cards): logbook shows when from HA's last_changed, worked out in the document (#1326)",
+        "at": "2026-10-29T08:14:04Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "7763a10b7bf2645115e8d19ccb36b1ae59be18d4",
         "subject": "refactor: share the room controls in a room-ui module (#1328)",
@@ -451,38 +483,6 @@
         "subject": "feat(cameras): refresh dashboard cameras every 5 s, live view in more-info (#1266)",
         "at": "2026-10-26T09:22:55Z",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "6cb9d7721c25fc81ed50a152029868d683a8c066",
-        "subject": "feat(wear): give each card style its own Wear container background (#1267)",
-        "at": "2026-10-26T09:22:51Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "d201ef6b7b7e28fd39a8e4f28ee7549461685b49",
-        "subject": "fix: reconcile phone and Wear widgets with what the system has placed (#1265)",
-        "at": "2026-10-26T08:52:53Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "15c49a4b5a2396b97945556339615a88c8bbc5b3",
-        "subject": "chore(deps): update dependency dev.zacsweers.metro to v1.5.0 (#1263)",
-        "at": "2026-10-26T06:31:04Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "343de15ac085b69311937d799160cd861781062c",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 2bfa1d8 (#1198)",
-        "at": "2026-10-25T22:36:08Z",
-        "author": "renovate[bot]",
         "previewIds": [],
         "components": []
       }
