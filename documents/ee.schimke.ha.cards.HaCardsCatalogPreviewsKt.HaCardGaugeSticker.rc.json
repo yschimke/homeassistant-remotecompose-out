@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 513,
         "densityAtGeneration": 2.625,
-        "byteLength": 1201
+        "byteLength": 1272
     },
     "operations": [
         {
@@ -228,27 +228,27 @@
                                     "list": [
                                         {
                                             "type": "TextData",
-                                            "textId": 58,
+                                            "textId": 59,
                                             "text": "46"
                                         },
                                         {
                                             "type": "ColorConstant",
                                             "color": "0xff141414",
-                                            "colorId": 59
+                                            "colorId": 60
                                         },
                                         {
                                             "type": "TextData",
-                                            "textId": 60,
+                                            "textId": 61,
                                             "text": "Humidity"
                                         },
                                         {
                                             "type": "ColorConstant",
                                             "color": "0xff8f8f8f",
-                                            "colorId": 61
+                                            "colorId": 62
                                         },
                                         {
                                             "type": "TextData",
-                                            "textId": 62,
+                                            "textId": 63,
                                             "text": "0 – 100 %"
                                         },
                                         {
@@ -394,6 +394,23 @@
                                                     "animation": null
                                                 },
                                                 {
+                                                    "$tags": [
+                                                        "EXPRESSION"
+                                                    ],
+                                                    "type": "FloatExpression",
+                                                    "id": 56,
+                                                    "srcValues": [
+                                                        0.46
+                                                    ],
+                                                    "animation": {
+                                                        "type": "FloatAnimation",
+                                                        "initialValue": "NaN",
+                                                        "targetValue": "NaN",
+                                                        "duration": 0.45,
+                                                        "easing": "CUBIC_STANDARD"
+                                                    }
+                                                },
+                                                {
                                                     "type": "PaintData",
                                                     "paintBundle": {
                                                         "type": "PaintBundle",
@@ -451,30 +468,32 @@
                                                     }
                                                 },
                                                 {
-                                                    "$tags": [
-                                                        "EXPRESSION"
-                                                    ],
-                                                    "type": "FloatExpression",
-                                                    "id": 56,
-                                                    "srcValues": [
-                                                        0.46
-                                                    ],
-                                                    "animation": {
-                                                        "type": "FloatAnimation",
-                                                        "initialValue": "NaN",
-                                                        "targetValue": "NaN",
-                                                        "duration": 0.45,
-                                                        "easing": "CUBIC_STANDARD"
-                                                    }
+                                                    "type": "NamedVariable",
+                                                    "varId": 57,
+                                                    "varName": "USER:host.ambient",
+                                                    "varType": "FLOAT_TYPE"
+                                                },
+                                                {
+                                                    "type": "FloatConstant",
+                                                    "id": 57,
+                                                    "value": 0.0
                                                 },
                                                 {
                                                     "$tags": [
                                                         "EXPRESSION"
                                                     ],
                                                     "type": "FloatExpression",
-                                                    "id": 57,
+                                                    "id": 58,
                                                     "srcValues": [
                                                         "@56",
+                                                        "@56",
+                                                        -1.0,
+                                                        "@3211267",
+                                                        0.46,
+                                                        "@3211265",
+                                                        "@57",
+                                                        "@3211267",
+                                                        "@3211265",
                                                         180.0,
                                                         "@3211267"
                                                     ],
@@ -502,8 +521,8 @@
                                                         180.0
                                                     ],
                                                     "sweepAngle": [
-                                                        "@57",
-                                                        "@57"
+                                                        "@58",
+                                                        "@58"
                                                     ],
                                                     "type": "DrawArc"
                                                 },
@@ -569,7 +588,7 @@
                                             "paddingRight": 0.0,
                                             "paddingTop": 0.0,
                                             "paddingBottom": 0.0,
-                                            "textId": 58,
+                                            "textId": 59,
                                             "flags": 0,
                                             "color": [
                                                 -1.6777216E7,
@@ -608,7 +627,7 @@
                                             "paddingRight": 0.0,
                                             "paddingTop": 0.0,
                                             "paddingBottom": 0.0,
-                                            "textId": 60,
+                                            "textId": 61,
                                             "flags": 0,
                                             "color": [
                                                 -1.6777216E7,
@@ -647,7 +666,7 @@
                                             "paddingRight": 0.0,
                                             "paddingTop": 0.0,
                                             "paddingBottom": 0.0,
-                                            "textId": 62,
+                                            "textId": 63,
                                             "flags": 0,
                                             "color": [
                                                 -1.6777216E7,

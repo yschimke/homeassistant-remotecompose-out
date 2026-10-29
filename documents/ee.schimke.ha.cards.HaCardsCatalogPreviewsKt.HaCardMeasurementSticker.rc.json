@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 513,
         "densityAtGeneration": 2.625,
-        "byteLength": 1008
+        "byteLength": 1079
     },
     "operations": [
         {
@@ -274,13 +274,30 @@
                                                     "animation": null
                                                 },
                                                 {
+                                                    "$tags": [
+                                                        "EXPRESSION"
+                                                    ],
+                                                    "type": "FloatExpression",
+                                                    "id": 52,
+                                                    "srcValues": [
+                                                        0.64
+                                                    ],
+                                                    "animation": {
+                                                        "type": "FloatAnimation",
+                                                        "initialValue": "NaN",
+                                                        "targetValue": "NaN",
+                                                        "duration": 0.45,
+                                                        "easing": "CUBIC_STANDARD"
+                                                    }
+                                                },
+                                                {
                                                     "type": "ColorConstant",
                                                     "color": "0xffe0e0e0",
-                                                    "colorId": 52
+                                                    "colorId": 53
                                                 },
                                                 {
                                                     "type": "NamedVariable",
-                                                    "varId": 52,
+                                                    "varId": 53,
                                                     "varName": "USER:WearM3.outlineVariant",
                                                     "varType": "COLOR_TYPE"
                                                 },
@@ -289,7 +306,7 @@
                                                     "paintBundle": {
                                                         "type": "PaintBundle",
                                                         "operations": [
-                                                            "{type=ColorId, id=52}",
+                                                            "{type=ColorId, id=53}",
                                                             "{type=StrokeWidth, width={type=Value, value=8.0}}",
                                                             "{type=StrokeCap, cap=1}",
                                                             "{type=StrokeJoin, strokeJoin=0}",
@@ -342,30 +359,32 @@
                                                     }
                                                 },
                                                 {
-                                                    "$tags": [
-                                                        "EXPRESSION"
-                                                    ],
-                                                    "type": "FloatExpression",
-                                                    "id": 53,
-                                                    "srcValues": [
-                                                        0.64
-                                                    ],
-                                                    "animation": {
-                                                        "type": "FloatAnimation",
-                                                        "initialValue": "NaN",
-                                                        "targetValue": "NaN",
-                                                        "duration": 0.45,
-                                                        "easing": "CUBIC_STANDARD"
-                                                    }
+                                                    "type": "NamedVariable",
+                                                    "varId": 54,
+                                                    "varName": "USER:host.ambient",
+                                                    "varType": "FLOAT_TYPE"
+                                                },
+                                                {
+                                                    "type": "FloatConstant",
+                                                    "id": 54,
+                                                    "value": 0.0
                                                 },
                                                 {
                                                     "$tags": [
                                                         "EXPRESSION"
                                                     ],
                                                     "type": "FloatExpression",
-                                                    "id": 54,
+                                                    "id": 55,
                                                     "srcValues": [
-                                                        "@53",
+                                                        "@52",
+                                                        "@52",
+                                                        -1.0,
+                                                        "@3211267",
+                                                        0.64,
+                                                        "@3211265",
+                                                        "@54",
+                                                        "@3211267",
+                                                        "@3211265",
                                                         180.0,
                                                         "@3211267"
                                                     ],
@@ -393,8 +412,8 @@
                                                         180.0
                                                     ],
                                                     "sweepAngle": [
-                                                        "@54",
-                                                        "@54"
+                                                        "@55",
+                                                        "@55"
                                                     ],
                                                     "type": "DrawArc"
                                                 },
@@ -450,13 +469,13 @@
                                             "list": [
                                                 {
                                                     "type": "TextData",
-                                                    "textId": 55,
+                                                    "textId": 56,
                                                     "text": "64 %"
                                                 },
                                                 {
                                                     "type": "ColorConstant",
                                                     "color": "0xff141414",
-                                                    "colorId": 56
+                                                    "colorId": 57
                                                 },
                                                 {
                                                     "$tags": [
@@ -501,7 +520,7 @@
                                                     "paddingRight": 0.0,
                                                     "paddingTop": 0.0,
                                                     "paddingBottom": 0.0,
-                                                    "textId": 55,
+                                                    "textId": 56,
                                                     "flags": 0,
                                                     "color": [
                                                         -1.6777216E7,
@@ -530,13 +549,13 @@
                                                     "list": [
                                                         {
                                                             "type": "TextData",
-                                                            "textId": 57,
+                                                            "textId": 58,
                                                             "text": "Bathroom"
                                                         },
                                                         {
                                                             "type": "ColorConstant",
                                                             "color": "0xff8f8f8f",
-                                                            "colorId": 58
+                                                            "colorId": 59
                                                         },
                                                         {
                                                             "$tags": [
@@ -569,7 +588,7 @@
                                                             "paddingRight": 0.0,
                                                             "paddingTop": 0.0,
                                                             "paddingBottom": 0.0,
-                                                            "textId": 57,
+                                                            "textId": 58,
                                                             "flags": 0,
                                                             "color": [
                                                                 -1.6777216E7,
