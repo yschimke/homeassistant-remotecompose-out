@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 513,
         "densityAtGeneration": 2.625,
-        "byteLength": 495
+        "byteLength": 429
     },
     "operations": [
         {
@@ -53,35 +53,8 @@
                     "value": 0.0
                 },
                 {
-                    "$tags": [
-                        "EXPRESSION"
-                    ],
-                    "type": "FloatExpression",
-                    "id": 45,
-                    "srcValues": [
-                        "@44"
-                    ],
-                    "animation": null
-                },
-                {
-                    "$tags": [
-                        "EXPRESSION"
-                    ],
-                    "type": "FloatExpression",
-                    "id": 46,
-                    "srcValues": [
-                        0.0,
-                        1.0,
-                        "@44",
-                        "@45",
-                        "@3211271",
-                        "@3211291"
-                    ],
-                    "animation": null
-                },
-                {
                     "type": "ColorExpression",
-                    "id": 47,
+                    "id": 45,
                     "mode": "TWEEN",
                     "startColor": [
                         42.0,
@@ -92,8 +65,8 @@
                         43.0
                     ],
                     "tween": [
-                        "@46",
-                        "@46"
+                        "@44",
+                        "@44"
                     ]
                 },
                 {
@@ -110,27 +83,27 @@
                     "list": [
                         {
                             "type": "TextData",
-                            "textId": 48,
+                            "textId": 46,
                             "text": "Living room"
                         },
                         {
                             "type": "TextData",
-                            "textId": 49,
+                            "textId": 47,
                             "text": "default"
                         },
                         {
                             "type": "TextData",
-                            "textId": 50,
+                            "textId": 48,
                             "text": "wdth"
                         },
                         {
                             "type": "TextData",
-                            "textId": 51,
+                            "textId": 49,
                             "text": "wght"
                         },
                         {
                             "type": "TextData",
-                            "textId": 52,
+                            "textId": 50,
                             "text": "pnum"
                         },
                         {
@@ -170,7 +143,7 @@
                                     "y": 0.0,
                                     "width": 0.0,
                                     "height": 0.0,
-                                    "colorId": 47,
+                                    "colorId": 45,
                                     "shapeType": "RECTANGLE"
                                 },
                                 {
@@ -209,7 +182,7 @@
                             "paddingRight": 0.0,
                             "paddingTop": 0.0,
                             "paddingBottom": 0.0,
-                            "textId": 48,
+                            "textId": 46,
                             "flags": 0,
                             "color": "0xff141414",
                             "fontSize": [
@@ -218,7 +191,7 @@
                             ],
                             "fontStyle": 0,
                             "fontWeight": 450.0,
-                            "fontFamilyId": 49,
+                            "fontFamilyId": 47,
                             "textAlign": 1
                         }
                     ],

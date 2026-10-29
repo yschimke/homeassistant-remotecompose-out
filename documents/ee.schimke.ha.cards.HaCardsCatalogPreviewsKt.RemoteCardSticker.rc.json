@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 513,
         "densityAtGeneration": 2.625,
-        "byteLength": 946
+        "byteLength": 880
     },
     "operations": [
         {
@@ -53,35 +53,8 @@
                     "value": 0.0
                 },
                 {
-                    "$tags": [
-                        "EXPRESSION"
-                    ],
-                    "type": "FloatExpression",
-                    "id": 45,
-                    "srcValues": [
-                        "@44"
-                    ],
-                    "animation": null
-                },
-                {
-                    "$tags": [
-                        "EXPRESSION"
-                    ],
-                    "type": "FloatExpression",
-                    "id": 46,
-                    "srcValues": [
-                        0.0,
-                        1.0,
-                        "@44",
-                        "@45",
-                        "@3211271",
-                        "@3211291"
-                    ],
-                    "animation": null
-                },
-                {
                     "type": "ColorExpression",
-                    "id": 47,
+                    "id": 45,
                     "mode": "TWEEN",
                     "startColor": [
                         42.0,
@@ -92,8 +65,8 @@
                         43.0
                     ],
                     "tween": [
-                        "@46",
-                        "@46"
+                        "@44",
+                        "@44"
                     ]
                 },
                 {
@@ -110,13 +83,13 @@
                     "list": [
                         {
                             "type": "ComponentValue",
-                            "valueId": 48,
+                            "valueId": 46,
                             "componentValueType": "WIDTH",
                             "componentId": -3
                         },
                         {
                             "type": "ComponentValue",
-                            "valueId": 49,
+                            "valueId": 47,
                             "componentValueType": "HEIGHT",
                             "componentId": -3
                         },
@@ -157,7 +130,7 @@
                                     "y": 0.0,
                                     "width": 0.0,
                                     "height": 0.0,
-                                    "colorId": 47,
+                                    "colorId": 45,
                                     "shapeType": "RECTANGLE"
                                 },
                                 {
@@ -186,32 +159,32 @@
                             "list": [
                                 {
                                     "type": "TextData",
-                                    "textId": 55,
+                                    "textId": 53,
                                     "text": "Good evening"
                                 },
                                 {
                                     "type": "ColorConstant",
                                     "color": "0xff8f8f8f",
-                                    "colorId": 56
+                                    "colorId": 54
                                 },
                                 {
                                     "type": "TextData",
-                                    "textId": 57,
+                                    "textId": 55,
                                     "text": "default"
                                 },
                                 {
                                     "type": "TextData",
-                                    "textId": 58,
+                                    "textId": 56,
                                     "text": "wdth"
                                 },
                                 {
                                     "type": "TextData",
-                                    "textId": 59,
+                                    "textId": 57,
                                     "text": "wght"
                                 },
                                 {
                                     "type": "TextData",
-                                    "textId": 60,
+                                    "textId": 58,
                                     "text": "pnum"
                                 },
                                 {
@@ -342,7 +315,7 @@
                                     "paddingRight": 0.0,
                                     "paddingTop": 0.0,
                                     "paddingBottom": 0.0,
-                                    "textId": 55,
+                                    "textId": 53,
                                     "flags": 0,
                                     "color": [
                                         -1.6777216E7,
@@ -354,7 +327,7 @@
                                     ],
                                     "fontStyle": 0,
                                     "fontWeight": 450.0,
-                                    "fontFamilyId": 57,
+                                    "fontFamilyId": 55,
                                     "textAlign": 1
                                 }
                             ],

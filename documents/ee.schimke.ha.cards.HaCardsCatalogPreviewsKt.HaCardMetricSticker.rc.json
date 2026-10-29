@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 513,
         "densityAtGeneration": 2.625,
-        "byteLength": 746
+        "byteLength": 680
     },
     "operations": [
         {
@@ -53,35 +53,8 @@
                     "value": 0.0
                 },
                 {
-                    "$tags": [
-                        "EXPRESSION"
-                    ],
-                    "type": "FloatExpression",
-                    "id": 45,
-                    "srcValues": [
-                        "@44"
-                    ],
-                    "animation": null
-                },
-                {
-                    "$tags": [
-                        "EXPRESSION"
-                    ],
-                    "type": "FloatExpression",
-                    "id": 46,
-                    "srcValues": [
-                        0.0,
-                        1.0,
-                        "@44",
-                        "@45",
-                        "@3211271",
-                        "@3211291"
-                    ],
-                    "animation": null
-                },
-                {
                     "type": "ColorExpression",
-                    "id": 47,
+                    "id": 45,
                     "mode": "TWEEN",
                     "startColor": [
                         42.0,
@@ -92,8 +65,8 @@
                         43.0
                     ],
                     "tween": [
-                        "@46",
-                        "@46"
+                        "@44",
+                        "@44"
                     ]
                 },
                 {
@@ -145,7 +118,7 @@
                                     "y": 0.0,
                                     "width": 0.0,
                                     "height": 0.0,
-                                    "colorId": 47,
+                                    "colorId": 45,
                                     "shapeType": "RECTANGLE"
                                 },
                                 {
@@ -174,34 +147,34 @@
                             "list": [
                                 {
                                     "type": "TextData",
-                                    "textId": 48,
+                                    "textId": 46,
                                     "text": "Living room"
                                 },
                                 {
                                     "type": "ColorConstant",
                                     "color": "0xff8f8f8f",
-                                    "colorId": 49
+                                    "colorId": 47
                                 },
                                 {
                                     "type": "ColorConstant",
                                     "color": "0xffa0a0a0",
-                                    "colorId": 50
+                                    "colorId": 48
                                 },
                                 {
                                     "type": "ColorExpression",
-                                    "id": 51,
+                                    "id": 49,
                                     "mode": "TWEEN",
                                     "startColor": [
-                                        49.0,
-                                        49.0
+                                        47.0,
+                                        47.0
                                     ],
                                     "endColor": [
-                                        50.0,
-                                        50.0
+                                        48.0,
+                                        48.0
                                     ],
                                     "tween": [
-                                        "@46",
-                                        "@46"
+                                        "@44",
+                                        "@44"
                                     ]
                                 },
                                 {
@@ -246,7 +219,7 @@
                                     "paddingRight": 0.0,
                                     "paddingTop": 0.0,
                                     "paddingBottom": 0.0,
-                                    "textId": 48,
+                                    "textId": 46,
                                     "flags": 0,
                                     "color": [
                                         -1.6777216E7,
@@ -275,34 +248,34 @@
                                     "list": [
                                         {
                                             "type": "TextData",
-                                            "textId": 52,
+                                            "textId": 50,
                                             "text": "21.5 °C"
                                         },
                                         {
                                             "type": "ColorConstant",
                                             "color": "0xff141414",
-                                            "colorId": 53
+                                            "colorId": 51
                                         },
                                         {
                                             "type": "ColorConstant",
                                             "color": "0xffe6e6e6",
-                                            "colorId": 54
+                                            "colorId": 52
                                         },
                                         {
                                             "type": "ColorExpression",
-                                            "id": 55,
+                                            "id": 53,
                                             "mode": "TWEEN",
                                             "startColor": [
-                                                53.0,
-                                                53.0
+                                                51.0,
+                                                51.0
                                             ],
                                             "endColor": [
-                                                54.0,
-                                                54.0
+                                                52.0,
+                                                52.0
                                             ],
                                             "tween": [
-                                                "@46",
-                                                "@46"
+                                                "@44",
+                                                "@44"
                                             ]
                                         },
                                         {
@@ -336,7 +309,7 @@
                                             "paddingRight": 0.0,
                                             "paddingTop": 0.0,
                                             "paddingBottom": 0.0,
-                                            "textId": 52,
+                                            "textId": 50,
                                             "flags": 0,
                                             "color": [
                                                 -1.6777216E7,

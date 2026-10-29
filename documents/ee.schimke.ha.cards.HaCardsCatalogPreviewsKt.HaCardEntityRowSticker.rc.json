@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 513,
         "densityAtGeneration": 2.625,
-        "byteLength": 1605
+        "byteLength": 1539
     },
     "operations": [
         {
@@ -53,35 +53,8 @@
                     "value": 0.0
                 },
                 {
-                    "$tags": [
-                        "EXPRESSION"
-                    ],
-                    "type": "FloatExpression",
-                    "id": 45,
-                    "srcValues": [
-                        "@44"
-                    ],
-                    "animation": null
-                },
-                {
-                    "$tags": [
-                        "EXPRESSION"
-                    ],
-                    "type": "FloatExpression",
-                    "id": 46,
-                    "srcValues": [
-                        0.0,
-                        1.0,
-                        "@44",
-                        "@45",
-                        "@3211271",
-                        "@3211291"
-                    ],
-                    "animation": null
-                },
-                {
                     "type": "ColorExpression",
-                    "id": 47,
+                    "id": 45,
                     "mode": "TWEEN",
                     "startColor": [
                         42.0,
@@ -92,8 +65,8 @@
                         43.0
                     ],
                     "tween": [
-                        "@46",
-                        "@46"
+                        "@44",
+                        "@44"
                     ]
                 },
                 {
@@ -145,7 +118,7 @@
                                     "y": 0.0,
                                     "width": 0.0,
                                     "height": 0.0,
-                                    "colorId": 47,
+                                    "colorId": 45,
                                     "shapeType": "RECTANGLE"
                                 },
                                 {
@@ -174,7 +147,7 @@
                             "list": [
                                 {
                                     "type": "TextData",
-                                    "textId": 57,
+                                    "textId": 55,
                                     "text": "21.5 °C"
                                 },
                                 {
@@ -367,13 +340,13 @@
                                                     "list": [
                                                         {
                                                             "type": "ComponentValue",
-                                                            "valueId": 48,
+                                                            "valueId": 46,
                                                             "componentValueType": "WIDTH",
                                                             "componentId": -13
                                                         },
                                                         {
                                                             "type": "ComponentValue",
-                                                            "valueId": 49,
+                                                            "valueId": 47,
                                                             "componentValueType": "HEIGHT",
                                                             "componentId": -13
                                                         },
@@ -385,9 +358,9 @@
                                                                 "EXPRESSION"
                                                             ],
                                                             "type": "FloatExpression",
-                                                            "id": 50,
+                                                            "id": 48,
                                                             "srcValues": [
-                                                                "@48",
+                                                                "@46",
                                                                 24.0,
                                                                 "@3211268"
                                                             ],
@@ -398,9 +371,9 @@
                                                                 "EXPRESSION"
                                                             ],
                                                             "type": "FloatExpression",
-                                                            "id": 51,
+                                                            "id": 49,
                                                             "srcValues": [
-                                                                "@49",
+                                                                "@47",
                                                                 24.0,
                                                                 "@3211268"
                                                             ],
@@ -408,12 +381,12 @@
                                                         },
                                                         {
                                                             "scaleX": [
-                                                                "@50",
-                                                                "@50"
+                                                                "@48",
+                                                                "@48"
                                                             ],
                                                             "scaleY": [
-                                                                "@51",
-                                                                "@51"
+                                                                "@49",
+                                                                "@49"
                                                             ],
                                                             "pivotX": [
                                                                 "NaN",
@@ -448,7 +421,7 @@
                                                         },
                                                         {
                                                             "type": "PathData",
-                                                            "id": 52,
+                                                            "id": 50,
                                                             "path": [
                                                                 "@10",
                                                                 15.0,
@@ -604,7 +577,7 @@
                                                         },
                                                         {
                                                             "type": "DrawPath",
-                                                            "id": 52,
+                                                            "id": 50,
                                                             "start": 0.0,
                                                             "end": 1.0
                                                         },
@@ -680,34 +653,34 @@
                                             "list": [
                                                 {
                                                     "type": "TextData",
-                                                    "textId": 53,
+                                                    "textId": 51,
                                                     "text": "Living room"
                                                 },
                                                 {
                                                     "type": "ColorConstant",
                                                     "color": "0xff141414",
-                                                    "colorId": 54
+                                                    "colorId": 52
                                                 },
                                                 {
                                                     "type": "ColorConstant",
                                                     "color": "0xffe6e6e6",
-                                                    "colorId": 55
+                                                    "colorId": 53
                                                 },
                                                 {
                                                     "type": "ColorExpression",
-                                                    "id": 56,
+                                                    "id": 54,
                                                     "mode": "TWEEN",
                                                     "startColor": [
-                                                        54.0,
-                                                        54.0
+                                                        52.0,
+                                                        52.0
                                                     ],
                                                     "endColor": [
-                                                        55.0,
-                                                        55.0
+                                                        53.0,
+                                                        53.0
                                                     ],
                                                     "tween": [
-                                                        "@46",
-                                                        "@46"
+                                                        "@44",
+                                                        "@44"
                                                     ]
                                                 },
                                                 {
@@ -752,7 +725,7 @@
                                                     "paddingRight": 0.0,
                                                     "paddingTop": 0.0,
                                                     "paddingBottom": 0.0,
-                                                    "textId": 53,
+                                                    "textId": 51,
                                                     "flags": 0,
                                                     "color": [
                                                         -1.6777216E7,
@@ -808,7 +781,7 @@
                                     "paddingRight": 0.0,
                                     "paddingTop": 0.0,
                                     "paddingBottom": 0.0,
-                                    "textId": 57,
+                                    "textId": 55,
                                     "flags": 0,
                                     "color": [
                                         -1.6777216E7,
