@@ -1,11 +1,83 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-30T00:31:33.418Z",
+  "generatedAt": "2026-10-30T14:40:14.508Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "4661f04e989e6c8612aab71a89ea9c2cb1ea3dfd",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 8859d17 (#1357)",
+        "at": "2026-10-30T14:31:34Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "5af7562f032033b2317edb79e3cae6cec1a00992",
+        "subject": "chore(main): release 0.1.75 (#1347)",
+        "at": "2026-10-30T09:20:48Z",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "aabf8602c625a4554cd60c099b3e3d5c3da4646c",
+        "subject": "feat: a private design server as a Home Assistant add-on (#1356)",
+        "at": "2026-10-30T09:19:46Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "5ee9ba0d7c152629f796eb8f2875a1f136f715fb",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to dceb10c (#1354)",
+        "at": "2026-10-30T07:58:45Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "f353ac68d1f2ff47e113a9ce16135e504c0d9589",
+        "subject": "fix(cards): date a week-old logbook change with the offset in force then (#1353)",
+        "at": "2026-10-30T07:34:59Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "a5c993d11a994d93eebd2a92f3d15cb60d04c7e6",
+        "subject": "chore(deps): update github-actions (#1302)",
+        "at": "2026-10-30T06:17:17Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "fb00031882e3903c7360fa890fefe47770abc241",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 6151335 (#1352)",
+        "at": "2026-10-30T06:16:46Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "85d4098c5a3809fe47260c8c407dcdd62d4e631a",
+        "subject": "fix(deps): update mockserver to v9 (#1351)",
+        "at": "2026-10-30T00:55:17Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "90a46b8429e0ef8837bf03e222ef8de5e24598ec",
+        "subject": "feat(design-server): record whether a Wear widget design reads host.ambient (#1349)",
+        "at": "2026-10-30T00:11:32Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "1f38e9667f137854a6e3f8544ced491b5b4f8c17",
         "subject": "fix(deps): update compose-ai-tools (#1350)",
@@ -411,78 +483,6 @@
         "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.264 (#1296)",
         "at": "2026-10-27T21:27:32Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "14a2fbbfda81dda08d32fe75450e64c6ab7c34e0",
-        "subject": "feat(design-server): list designs people made in UI Builder in /api/my/studio (#1294)",
-        "at": "2026-10-27T20:54:55Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "faf605decf6fbf691e81fc3ae9bce63beff49dda",
-        "subject": "feat(design-server): publish designs without a deployment, with a preview channel per PR (#1292)",
-        "at": "2026-10-27T19:08:50Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "14a1345a30f3b5714d4f7e092fc609852912f4d4",
-        "subject": "fix(deps): update dependency ee.schimke.composeai:rc-players-bom to v2.20.1 (#1293)",
-        "at": "2026-10-27T19:08:47Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "22a70036562fbb2272830ecb9741ec0e9d9e15c4",
-        "subject": "fix(widgets): fit every card to its launcher widget (#1291)",
-        "at": "2026-10-27T14:15:40Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "57bcdf6d310ac14c12bf7282185b0757dc57bb1b",
-        "subject": "fix(design-server): refuse cross-origin POSTs to /my and /api/my, and publish after scheduled merges (#1290)",
-        "at": "2026-10-27T13:05:59Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "07a17ba854b5e48be497c7d22b8646b12ddd607f",
-        "subject": "feat(design-server): reuse the preview server's sign-in on a shared host (#1288)",
-        "at": "2026-10-27T09:15:49Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "79c462ed9498dd489b67a1212a4b0d4d964813df",
-        "subject": "chore(main): release 0.1.70 (#1282)",
-        "at": "2026-10-27T08:10:34Z",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "85192474ebd151abe2bbe282926a356d5d338b29",
-        "subject": "fix(push-relay): report FCM's refusal code; say notifications arrive while closed (#1287)",
-        "at": "2026-10-27T08:10:02Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "7bde79bc9c866e80fbfb52be10a7a74f29242868",
-        "subject": "fix(design-server): sign in under /my/auth so ha.coo.ee can route it (#1286)",
-        "at": "2026-10-27T08:04:38Z",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
