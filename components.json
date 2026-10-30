@@ -1264,6 +1264,109 @@
             ]
         },
         {
+            "canonicalId": "previews/ee.schimke.ha.previews.AmbientCardPreviewsKt.Ambient",
+            "componentIds": [],
+            "symbol": {
+                "jvmOwner": "ee.schimke.ha.previews.AmbientCardPreviewsKt",
+                "callable": "ee.schimke.ha.previews.Ambient",
+                "name": "Ambient",
+                "origin": "PROJECT",
+                "jvmName": "Ambient",
+                "descriptor": "(Lee/schimke/ha/rc/components/HaUberTheme;ZLjava/lang/String;Lee/schimke/ha/model/HaSnapshot;Landroidx/compose/runtime/Composer;I)V",
+                "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/AmbientCardPreviews.kt",
+                "docs": "unavailable",
+                "receiver": null
+            },
+            "parameters": [
+                {
+                    "name": "theme",
+                    "type": "HaUberTheme",
+                    "typeFqn": "ee.schimke.ha.rc.components.HaUberTheme",
+                    "hasDefault": false,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "darkTheme",
+                    "type": "Boolean",
+                    "typeFqn": "kotlin.Boolean",
+                    "hasDefault": false,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "card",
+                    "type": "String",
+                    "typeFqn": "kotlin.String",
+                    "hasDefault": false,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "snapshot",
+                    "type": "HaSnapshot",
+                    "typeFqn": "ee.schimke.ha.model.HaSnapshot",
+                    "hasDefault": false,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                }
+            ],
+            "slots": [],
+            "bindings": [
+                {
+                    "previewId": "ee.schimke.ha.previews.AmbientCardPreviewsKt.Ambient_Entities_ClassicLight_ambient___entities__classic_light",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.AmbientCardPreviewsKt.Ambient_Tile_ClassicLight_ambient___tile__classic_light",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.AmbientCardPreviewsKt.Ambient_Tile_Expressive_ambient___tile_brightness__expressive",
+                    "componentId": null,
+                    "group": null
+                }
+            ],
+            "code": {
+                "call": null,
+                "imports": [],
+                "refusedReason": "not public or internal, so a generated file cannot call it",
+                "requiredOptIns": [],
+                "androidxOptIns": []
+            },
+            "signatureKnown": true,
+            "callableFromAnotherFile": false,
+            "hasTypeParameters": false,
+            "hasContextReceivers": false,
+            "overloadsCollided": false,
+            "builder": null,
+            "requiredOptIns": [],
+            "androidxOptIns": [],
+            "overloads": []
+        },
+        {
             "canonicalId": "previews/ee.schimke.ha.previews.AnimationPreviewsKt.GaugeFrameHost",
             "componentIds": [],
             "symbol": {
@@ -2324,6 +2427,76 @@
             "overloads": []
         },
         {
+            "canonicalId": "previews/ee.schimke.ha.previews.CardPreviewsKt.ExpressiveCardHost",
+            "componentIds": [],
+            "symbol": {
+                "jvmOwner": "ee.schimke.ha.previews.CardPreviewsKt",
+                "callable": "ee.schimke.ha.previews.ExpressiveCardHost",
+                "name": "ExpressiveCardHost",
+                "origin": "PROJECT",
+                "jvmName": "ExpressiveCardHost",
+                "descriptor": "(Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;I)V",
+                "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/CardPreviews.kt",
+                "docs": "unavailable",
+                "receiver": null
+            },
+            "parameters": [
+                {
+                    "name": "content",
+                    "type": "() -> Unit",
+                    "typeFqn": "kotlin.Function0",
+                    "hasDefault": false,
+                    "composableSlot": true,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": "kotlin.Unit"
+                }
+            ],
+            "slots": [
+                {
+                    "name": "content",
+                    "required": true,
+                    "receiverScope": null
+                }
+            ],
+            "bindings": [
+                {
+                    "previewId": "ee.schimke.ha.previews.CardPreviewsKt.BambuPrintStatus_Expressive_bambu_print-status__expressive_",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Button_Expressive_Off_button_off__expressive_",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.CardPreviewsKt.Button_Expressive_On_button_on__expressive_",
+                    "componentId": null,
+                    "group": null
+                }
+            ],
+            "code": {
+                "call": null,
+                "imports": [],
+                "refusedReason": "not public or internal, so a generated file cannot call it",
+                "requiredOptIns": [],
+                "androidxOptIns": []
+            },
+            "signatureKnown": true,
+            "callableFromAnotherFile": false,
+            "hasTypeParameters": false,
+            "hasContextReceivers": false,
+            "overloadsCollided": false,
+            "builder": null,
+            "requiredOptIns": [],
+            "androidxOptIns": [],
+            "overloads": []
+        },
+        {
             "canonicalId": "previews/ee.schimke.ha.previews.CommunityFamilyPreviewsKt.CommunityCompact",
             "componentIds": [],
             "symbol": {
@@ -2680,6 +2853,86 @@
                 },
                 {
                     "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardViewMeshcoreSolarRepeaterMobile_dashboard_meshcore_view_2_Solar_Repeater___mobile",
+                    "componentId": null,
+                    "group": null
+                }
+            ],
+            "code": {
+                "call": null,
+                "imports": [],
+                "refusedReason": "not public or internal, so a generated file cannot call it",
+                "requiredOptIns": [],
+                "androidxOptIns": []
+            },
+            "signatureKnown": true,
+            "callableFromAnotherFile": false,
+            "hasTypeParameters": false,
+            "hasContextReceivers": false,
+            "overloadsCollided": false,
+            "builder": null,
+            "requiredOptIns": [],
+            "androidxOptIns": [],
+            "overloads": []
+        },
+        {
+            "canonicalId": "previews/ee.schimke.ha.previews.ExpressiveBlockPreviewsKt.Expressive",
+            "componentIds": [],
+            "symbol": {
+                "jvmOwner": "ee.schimke.ha.previews.ExpressiveBlockPreviewsKt",
+                "callable": "ee.schimke.ha.previews.Expressive",
+                "name": "Expressive",
+                "origin": "PROJECT",
+                "jvmName": "Expressive",
+                "descriptor": "(Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;I)V",
+                "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/ExpressiveBlockPreviews.kt",
+                "docs": "unavailable",
+                "receiver": null
+            },
+            "parameters": [
+                {
+                    "name": "content",
+                    "type": "() -> Unit",
+                    "typeFqn": "kotlin.Function0",
+                    "hasDefault": false,
+                    "composableSlot": true,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": "kotlin.Unit"
+                }
+            ],
+            "slots": [
+                {
+                    "name": "content",
+                    "required": true,
+                    "receiverScope": null
+                }
+            ],
+            "bindings": [
+                {
+                    "previewId": "ee.schimke.ha.previews.ExpressiveBlockPreviewsKt.ExpressiveLoadingIndicator_expressive_loading_indicator",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.ExpressiveBlockPreviewsKt.ExpressiveShapeMorph_expressive_shape_morph",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.ExpressiveBlockPreviewsKt.ExpressiveSlider_expressive_slider",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.ExpressiveBlockPreviewsKt.ExpressiveWavyProgress_expressive_wavy_progress",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.ExpressiveBlockPreviewsKt.ExpressiveWavyRing_expressive_wavy_ring",
                     "componentId": null,
                     "group": null
                 }
@@ -3256,6 +3509,16 @@
                 },
                 {
                     "previewId": "ee.schimke.ha.previews.AnimationPreviewsKt.Toggle_Animation_Light_toggle-anim__light_",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.ExpressiveBlockPreviewsKt.ExpressiveAmbient_expressive_ambient",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.TileCardPreviewsKt.Tile_LightBrightness_Expressive_tile___light_brightness__expressive_",
                     "componentId": null,
                     "group": null
                 },

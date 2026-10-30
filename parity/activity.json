@@ -1,11 +1,267 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-29T08:26:53.597Z",
+  "generatedAt": "2026-10-30T15:09:01.588Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "4661f04e989e6c8612aab71a89ea9c2cb1ea3dfd",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 8859d17 (#1357)",
+        "at": "2026-10-30T14:31:34Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "5af7562f032033b2317edb79e3cae6cec1a00992",
+        "subject": "chore(main): release 0.1.75 (#1347)",
+        "at": "2026-10-30T09:20:48Z",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "aabf8602c625a4554cd60c099b3e3d5c3da4646c",
+        "subject": "feat: a private design server as a Home Assistant add-on (#1356)",
+        "at": "2026-10-30T09:19:46Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "5ee9ba0d7c152629f796eb8f2875a1f136f715fb",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to dceb10c (#1354)",
+        "at": "2026-10-30T07:58:45Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "f353ac68d1f2ff47e113a9ce16135e504c0d9589",
+        "subject": "fix(cards): date a week-old logbook change with the offset in force then (#1353)",
+        "at": "2026-10-30T07:34:59Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "a5c993d11a994d93eebd2a92f3d15cb60d04c7e6",
+        "subject": "chore(deps): update github-actions (#1302)",
+        "at": "2026-10-30T06:17:17Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "fb00031882e3903c7360fa890fefe47770abc241",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 6151335 (#1352)",
+        "at": "2026-10-30T06:16:46Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "85d4098c5a3809fe47260c8c407dcdd62d4e631a",
+        "subject": "fix(deps): update mockserver to v9 (#1351)",
+        "at": "2026-10-30T00:55:17Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "90a46b8429e0ef8837bf03e222ef8de5e24598ec",
+        "subject": "feat(design-server): record whether a Wear widget design reads host.ambient (#1349)",
+        "at": "2026-10-30T00:11:32Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "1f38e9667f137854a6e3f8544ced491b5b4f8c17",
+        "subject": "fix(deps): update compose-ai-tools (#1350)",
+        "at": "2026-10-30T00:06:00Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "c1f1803281a94f3fc35a616afa6d343e76dd5fdc",
+        "subject": "chore(deps): update dependency dev.zacsweers.metro to v1.5.1 (#1348)",
+        "at": "2026-10-29T23:18:32Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "91742124de48776e6f6fc46eecac0e5bc841661f",
+        "subject": "feat(home-assistant): let an admin allow a Terrazzo web install's origin from a repair (#1345)",
+        "at": "2026-10-29T22:59:34Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "c2b99509d6b7779d389c9eb2fb18e7296bd13bfb",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to bab02ed (#1346)",
+        "at": "2026-10-29T22:28:14Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "cb0bfa3404c83689635c90728ce617d0cf6ad078",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 5213275 (#1344)",
+        "at": "2026-10-29T20:38:59Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "0d15b6d83bc7d7e81d940b4390d60574f78ad59e",
+        "subject": "chore(main): release 0.1.74 (#1327)",
+        "at": "2026-10-29T20:16:30Z",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "44e1fe677b873165afb4d93fc324f83325a03e06",
+        "subject": "feat: room controls on Android XR glasses with Glimmer, on Compose 1.13 (#1340)",
+        "at": "2026-10-29T17:09:11Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "d43efa3b54d44e8083586706b6e37aaf4f1c954c",
+        "subject": "feat(wear): ambient mode for the app's cards (#1343)",
+        "at": "2026-10-29T16:35:44Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "d326912639e5f7edf4a7ef0edd694c6e0fd7334d",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 1e08fe4 (#1341)",
+        "at": "2026-10-29T15:49:14Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "101a5fd38c07c4ae9223ad22ee417933f1ff85a8",
+        "subject": "feat(cards): every card goes dark while ambient (#1339)",
+        "at": "2026-10-29T15:25:14Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "4f2bd4be1e768ff16bb1f505b3b025c31f784852",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to b62bc80 (#1338)",
+        "at": "2026-10-29T12:47:53Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "682a9acc122cbf734c48e5449f15bc36fbe685be",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 533b952 (#1336)",
+        "at": "2026-10-29T12:40:00Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "2f7a0b65ac747cd831cc4687fecea659f39c9cb6",
+        "subject": "chore(renovate): merge automerging PRs with GitHub native auto-merge (#1337)",
+        "at": "2026-10-29T12:39:56Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "eb7595c57446300bc8efb6e723b6d4ed58b0e5ee",
+        "subject": "fix(previews): load demo camera images synchronously in screen previews (#1335)",
+        "at": "2026-10-29T12:10:37Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "085bbfe587ea90eb799921bb69d56546da7ee97f",
+        "subject": "feat(design-server): play designs live with an ambient switch and changing values (#1334)",
+        "at": "2026-10-29T12:10:16Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "e27e49c565394cb9f85da3169925a643cd000740",
+        "subject": "feat(motion): runtime ambient flag for low-power displays (#1333)",
+        "at": "2026-10-29T11:24:16Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "87c444a3ef257a331d729410f40a5f8b1312024b",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 03a3394 (#1332)",
+        "at": "2026-10-29T10:40:17Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "39bb475dda394b15cd3e2af842649bb08219405f",
+        "subject": "feat: room controls on Meta Quest with scene previews (#1331)",
+        "at": "2026-10-29T10:14:40Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "8e33a24d4cd9aa1072219e8243d6fade35c755d8",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 80e5d37 (#1309)",
+        "at": "2026-10-29T10:10:12Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "83c69feb106682ee291eb641f97bdd103bc42444",
+        "subject": "feat: M3 Expressive slider, and a pull request's design changes in the design browser (#1330)",
+        "at": "2026-10-29T09:21:47Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "4dc196f825b2bd6a1c317f5ffbfff8080377686b",
+        "subject": "ci: report failed preview renders, add preview audit and on-request Claude review (#1329)",
+        "at": "2026-10-29T09:14:53Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "b8212d60a3de4855284579de27a8c76e3dece27c",
+        "subject": "feat(motion): M3 Expressive press, shape morph, wavy progress and loader (#1325)",
+        "at": "2026-10-29T08:14:08Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "698269d322ccfe4dcb3e7723088a82537bc1c779",
+        "subject": "feat(cards): logbook shows when from HA's last_changed, worked out in the document (#1326)",
+        "at": "2026-10-29T08:14:04Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "7763a10b7bf2645115e8d19ccb36b1ae59be18d4",
         "subject": "refactor: share the room controls in a room-ui module (#1328)",
@@ -226,262 +482,6 @@
         "sha": "11d1b45fc676108c4af4e4c64475cf58d1d06129",
         "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.264 (#1296)",
         "at": "2026-10-27T21:27:32Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "14a2fbbfda81dda08d32fe75450e64c6ab7c34e0",
-        "subject": "feat(design-server): list designs people made in UI Builder in /api/my/studio (#1294)",
-        "at": "2026-10-27T20:54:55Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "faf605decf6fbf691e81fc3ae9bce63beff49dda",
-        "subject": "feat(design-server): publish designs without a deployment, with a preview channel per PR (#1292)",
-        "at": "2026-10-27T19:08:50Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "14a1345a30f3b5714d4f7e092fc609852912f4d4",
-        "subject": "fix(deps): update dependency ee.schimke.composeai:rc-players-bom to v2.20.1 (#1293)",
-        "at": "2026-10-27T19:08:47Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "22a70036562fbb2272830ecb9741ec0e9d9e15c4",
-        "subject": "fix(widgets): fit every card to its launcher widget (#1291)",
-        "at": "2026-10-27T14:15:40Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "57bcdf6d310ac14c12bf7282185b0757dc57bb1b",
-        "subject": "fix(design-server): refuse cross-origin POSTs to /my and /api/my, and publish after scheduled merges (#1290)",
-        "at": "2026-10-27T13:05:59Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "07a17ba854b5e48be497c7d22b8646b12ddd607f",
-        "subject": "feat(design-server): reuse the preview server's sign-in on a shared host (#1288)",
-        "at": "2026-10-27T09:15:49Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "79c462ed9498dd489b67a1212a4b0d4d964813df",
-        "subject": "chore(main): release 0.1.70 (#1282)",
-        "at": "2026-10-27T08:10:34Z",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "85192474ebd151abe2bbe282926a356d5d338b29",
-        "subject": "fix(push-relay): report FCM's refusal code; say notifications arrive while closed (#1287)",
-        "at": "2026-10-27T08:10:02Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "7bde79bc9c866e80fbfb52be10a7a74f29242868",
-        "subject": "fix(design-server): sign in under /my/auth so ha.coo.ee can route it (#1286)",
-        "at": "2026-10-27T08:04:38Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "7ff4992d2bc6a15c38aa56a8b09dada201a7cedc",
-        "subject": "feat(widgets): per-widget live updates, with in-app and routine refresh for all (#1285)",
-        "at": "2026-10-27T07:46:31Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "37491246d02615095d5215e8400f2156ca0ca1af",
-        "subject": "chore(deps): update github-actions (#1275)",
-        "at": "2026-10-27T01:28:20Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "bfa4d488049bac01352a9b3edf9afc54a56d9965",
-        "subject": "chore(deps): update python docker tag to v3.15.2 (#1284)",
-        "at": "2026-10-27T01:28:16Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "c93634418dd56a01032f5e97f6c8ee9f996f79a3",
-        "subject": "feat(widgets): wake the app when a widget's entity visibly changes (#1283)",
-        "at": "2026-10-27T00:35:40Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "5a511518d8d657840444776d9ed36951ce980a13",
-        "subject": "chore(main): release 0.1.69 (#1270)",
-        "at": "2026-10-26T21:10:48Z",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "2b0d6e840574df867f8a10a55decd457f17bd473",
-        "subject": "fix(deps): update compose-ai-tools (#1279)",
-        "at": "2026-10-26T21:10:29Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "5d530bd2dc7c5351668705d1c7e4560bb70abb07",
-        "subject": "feat(cards): draw a picture-glance card's picture (#1281)",
-        "at": "2026-10-26T20:36:52Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "9445863d485ca00201e44246cf2fd162aee477b7",
-        "subject": "feat(cards): draw a picture-entity card's camera_image (#1276)",
-        "at": "2026-10-26T19:28:37Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "8777cffabcb2662e1169aa6a277fdc22c9706a8f",
-        "subject": "ci: run the Playwright jobs on ubuntu-24.04 (#1277)",
-        "at": "2026-10-26T19:28:19Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a836a438653524b49e33a131501305ea3aff224f",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to f105783 (#1278)",
-        "at": "2026-10-26T19:26:58Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ac1f369cf3b23c31355d894741481bc660cc0a5e",
-        "subject": "feat(designs): publish a private card design from the app, end to end (#1274)",
-        "at": "2026-10-26T19:26:40Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "411a1a9550d4c74d4615576b57ed4e4f08571af3",
-        "subject": "feat: choose Wear widget cards on the phone (#1273)",
-        "at": "2026-10-26T13:42:53Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "e8e361ea6a009988b9fc3612da5eca68896ed484",
-        "subject": "feat(widget): edit a placed widget from its launcher long-press (#1272)",
-        "at": "2026-10-26T11:59:22Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "c60bbb2cc3fe95a6022a9ae23b0a3b59e4c25155",
-        "subject": "feat(more-info): colour swatches, unlock confirmation, paired cameras (#1271)",
-        "at": "2026-10-26T11:02:38Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "9d4afa5dc48e423513c85dcc29d332f41fb597ee",
-        "subject": "feat(wear): every card style designs its container, and readings fill it (#1269)",
-        "at": "2026-10-26T10:43:03Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "1932c54f1e2677ce8d2a1c13d446410933431e9e",
-        "subject": "feat(more-info): control devices from the more-info sheet (#1268)",
-        "at": "2026-10-26T10:06:54Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "f6b95ed4a2818de1b35d5879ca004de21d00174c",
-        "subject": "chore(main): release 0.1.68 (#1259)",
-        "at": "2026-10-26T09:28:05Z",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "06ac97b5b0f2d81353fd94759800a52bfb41fe97",
-        "subject": "chore(play): refresh Play Store graphics (#1264)",
-        "at": "2026-10-26T09:27:45Z",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "e287cd7e68c20d14f4721bbdb338b61a8f161969",
-        "subject": "feat(cameras): refresh dashboard cameras every 5 s, live view in more-info (#1266)",
-        "at": "2026-10-26T09:22:55Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "6cb9d7721c25fc81ed50a152029868d683a8c066",
-        "subject": "feat(wear): give each card style its own Wear container background (#1267)",
-        "at": "2026-10-26T09:22:51Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "d201ef6b7b7e28fd39a8e4f28ee7549461685b49",
-        "subject": "fix: reconcile phone and Wear widgets with what the system has placed (#1265)",
-        "at": "2026-10-26T08:52:53Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "15c49a4b5a2396b97945556339615a88c8bbc5b3",
-        "subject": "chore(deps): update dependency dev.zacsweers.metro to v1.5.0 (#1263)",
-        "at": "2026-10-26T06:31:04Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "343de15ac085b69311937d799160cd861781062c",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 2bfa1d8 (#1198)",
-        "at": "2026-10-25T22:36:08Z",
         "author": "renovate[bot]",
         "previewIds": [],
         "components": []
