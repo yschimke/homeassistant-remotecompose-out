@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-29T23:26:28.419Z",
+  "generatedAt": "2026-10-30T00:31:33.418Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "1f38e9667f137854a6e3f8544ced491b5b4f8c17",
+        "subject": "fix(deps): update compose-ai-tools (#1350)",
+        "at": "2026-10-30T00:06:00Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "c1f1803281a94f3fc35a616afa6d343e76dd5fdc",
         "subject": "chore(deps): update dependency dev.zacsweers.metro to v1.5.1 (#1348)",
@@ -474,14 +482,6 @@
         "sha": "7bde79bc9c866e80fbfb52be10a7a74f29242868",
         "subject": "fix(design-server): sign in under /my/auth so ha.coo.ee can route it (#1286)",
         "at": "2026-10-27T08:04:38Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "7ff4992d2bc6a15c38aa56a8b09dada201a7cedc",
-        "subject": "feat(widgets): per-widget live updates, with in-app and routine refresh for all (#1285)",
-        "at": "2026-10-27T07:46:31Z",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
