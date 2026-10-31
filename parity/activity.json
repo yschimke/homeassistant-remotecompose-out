@@ -1,11 +1,107 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-30T22:56:42.858Z",
+  "generatedAt": "2026-10-31T08:38:40.975Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "8e54a74fe95e634081f41b5e820804c9a98a7d52",
+        "subject": "fix(widgets): keep the 1.1 header on API 37 launcher documents (#1372)",
+        "at": "2026-10-31T08:31:46Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "bbecfbb7a83ce761f4ccc69b7178ec5c86dc1aab",
+        "subject": "fix(app): declare ARCore optional so Play accepts the release bundle (#1371)",
+        "at": "2026-10-31T08:25:39Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "eff8351a9f4b818394d1172471477dcd530130d5",
+        "subject": "chore(deps): update compose-ai-tools (#1370)",
+        "at": "2026-10-31T08:18:53Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "409d28e58ba3a6d7421f08095bf40af1d4f75139",
+        "subject": "feat(wear): list the watch widgets as Terrazzo (#1368)",
+        "at": "2026-10-31T08:02:57Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "a45f15f58e8069a7d0beb65db3a97482dca9b5fb",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to ebc67c5 (#1369)",
+        "at": "2026-10-31T07:49:58Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "ac4972de033c52ad6816e7620427545512eca7a2",
+        "subject": "feat(wear): a simpler watch that only views, and findable watch widgets (#1367)",
+        "at": "2026-10-31T03:09:38Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "5b7c6abf244b36fec2e4a96a49fabf8e47e61f5b",
+        "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.266 (#1366)",
+        "at": "2026-10-31T02:28:53Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "f3c1aa0a80a2bdc13a4876254c8b9ab4bf34592f",
+        "subject": "fix(wear): stop dropping every live stream frame on the watch (#1365)",
+        "at": "2026-10-31T02:11:51Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "9552cfacb4c89d71bafb95de7fd0e21545d7c426",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 743b8c6 (#1364)",
+        "at": "2026-10-31T01:37:38Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "e51588a4637f297532d67b2a07b7ecd38d5fc3ed",
+        "subject": "fix(deps): update compose-ai-tools (#1362)",
+        "at": "2026-10-31T00:56:44Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "60399cf8b2709423cbb6748fef12fcf12d005677",
+        "subject": "chore(main): release 0.1.76 (#1361)",
+        "at": "2026-10-31T00:48:53Z",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "cc1e5e9efa4a42388c4aa26778cc7be0ccde3938",
+        "subject": "fix(app): let R8 build the release with the Android XR libraries (#1360)",
+        "at": "2026-10-31T00:44:10Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "09735076f8b09108ee82b66418b64b65045ade99",
         "subject": "chore(deps): update dependency com.google.devtools.ksp to v2.3.13 (#1359)",
@@ -386,102 +482,6 @@
         "sha": "413a0217b8515aa3bb4be3f7beb85ae65bd4ea34",
         "subject": "perf(wear): recompose a card only when its own values change (#1311)",
         "at": "2026-10-28T14:35:28Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "b2b8eaa5c07c3ecb02f9d0e58d825f5d3c454266",
-        "subject": "fix(wear): stop the scroll hint replaying on every live value (#1310)",
-        "at": "2026-10-28T11:09:10Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "0cc39d836fe76dfdbae3d61ab53470c0cae717f0",
-        "subject": "build(deps): rc-players 2.21.0 so slider cards play in the Compose player (#1308)",
-        "at": "2026-10-28T10:26:37Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "803b06e1b83017e46c9b6e7a12d08a589eabd150",
-        "subject": "feat(cards): shutter cards follow the cover through named slots (#1307)",
-        "at": "2026-10-28T10:16:35Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "0830d37ed35ef446e986f278db2cee6926a5e8b1",
-        "subject": "fix(wasmo): say when settings fall back to the browser and let sign-out forget (#1306)",
-        "at": "2026-10-28T06:52:04Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "3fc9f92e6b0d584581b4493ee625465b6bc92d15",
-        "subject": "feat(cards): slider controls with an in-document slide-to-unlock lock (#1305)",
-        "at": "2026-10-28T01:37:59Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a59045c9c2afd8278c6ba3bcdb46306178860e43",
-        "subject": "fix(notify): drop BigTextStyle when a live card is attached (#1303)",
-        "at": "2026-10-27T23:08:16Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "86b36f04c8d0ed93ed0ed9c41495895f6d68dd5b",
-        "subject": "fix(design-server): list only ha-cards designs from UI Builder in /api/my/studio (#1300)",
-        "at": "2026-10-27T22:52:38Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "6510396dfe47d4d59dd470b54e76e1248adf8c34",
-        "subject": "ci(design-server): keep main's image build out of the preview-channel group (#1301)",
-        "at": "2026-10-27T22:51:35Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ce34694ddee3acb46886ce6073d61c5f5f8f233c",
-        "subject": "chore(deps): pin dependencies (#1299)",
-        "at": "2026-10-27T22:35:01Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a359df3d1cdf4e72cd736a72dd9a22f1c59b2e96",
-        "subject": "chore(main): release 0.1.71 (#1289)",
-        "at": "2026-10-27T21:51:09Z",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a5ae3f2d1166e6c6a76a577b3eba9e8f59c12515",
-        "subject": "feat(widget): open the app on the widget's card, scrolled into view (#1298)",
-        "at": "2026-10-27T21:39:06Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "9f175f3e03c3cbc6eb61309f872d95e7529f42cc",
-        "subject": "feat(app): sign in to the card design server with GitHub, not a pasted token (#1297)",
-        "at": "2026-10-27T21:38:00Z",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
