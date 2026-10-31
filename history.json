@@ -1,6 +1,6 @@
 {
     "formatVersion": "compose-preview-history/v1",
-    "generatedFrom": "6d46bc686c2848d816aaa66e4129077894704b48",
+    "generatedFrom": "56579c4763497e66bf6c395d77d8b1f0f11faab1",
     "previews": {
         "app/activity__InstallActivity": {
             "path": "renders/app/activity__InstallActivity.png",
@@ -17638,6 +17638,15 @@
             "path": "renders/previews/ImageUrl_Probe_Frame1_image_url_probe_frame_1-97608c2e.png",
             "versions": [
                 {
+                    "blob": "1213b875b15516a04b357abaef934f0cb682cb86",
+                    "commit": "56579c4763497e66bf6c395d77d8b1f0f11faab1",
+                    "date": "2026-10-31T13:01:15Z",
+                    "sourceSha": "7d35520a",
+                    "sinceCommit": "665b78324cb259a9083b84ba5a870c6b815df89d",
+                    "commits": 18,
+                    "occurrences": 18
+                },
+                {
                     "blob": "e58c093a96e43a49a81c8ba2c88f3f57c68859e9",
                     "commit": "7849fbe87183da3502421ef3be4a612f695c4d7c",
                     "date": "2026-10-30T01:02:48Z",
@@ -17645,20 +17654,11 @@
                     "sinceCommit": "7260ad419c6bc592075bda4dc9a2dc3f84dc646d",
                     "commits": 18,
                     "occurrences": 18
-                },
-                {
-                    "blob": "1213b875b15516a04b357abaef934f0cb682cb86",
-                    "commit": "8013cc243e9e344021ab22cc2b894e7f639e8cfb",
-                    "date": "2026-10-30T00:34:00Z",
-                    "sourceSha": "90a46b84",
-                    "sinceCommit": "665b78324cb259a9083b84ba5a870c6b815df89d",
-                    "commits": 17,
-                    "occurrences": 17
                 }
             ],
-            "observations": 35,
+            "observations": 36,
             "unstable": true,
-            "flapCount": 33
+            "flapCount": 34
         },
         "previews/ee.schimke.ha.previews.LovelaceCardPreviewKt.LovelaceCardPreview": {
             "path": "renders/previews/LovelaceCardPreview-252cb49c.png",
@@ -23463,6 +23463,13 @@
             "path": "renders/quest/QuestPinnedPanelPreview_Quest_pinned_heater-e4503905.png",
             "versions": [
                 {
+                    "blob": "7ecb2615a82d02c8c47a94a1de099bd0ec1dc9b7",
+                    "commit": "56579c4763497e66bf6c395d77d8b1f0f11faab1",
+                    "date": "2026-10-31T13:01:15Z",
+                    "sourceSha": "7d35520a",
+                    "commits": 1
+                },
+                {
                     "blob": "41d994baa9ffd4bb1904440531c042882b7be007",
                     "commit": "d678bd0fbfe6b426ae1a8fb814da6b3cf52977a8",
                     "date": "2026-10-29T10:29:14Z",
@@ -23470,13 +23477,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 1,
+            "observations": 2,
             "unstable": false,
             "flapCount": 0
         },
         "quest/ee.schimke.terrazzo.quest.QuestPreviewsKt.QuestRoomPanelPreview_Quest_ room panel": {
             "path": "renders/quest/QuestRoomPanelPreview_Quest_room_panel-09d404b8.png",
             "versions": [
+                {
+                    "blob": "c19aa581df1cdbda25d153d11b317353f25add2b",
+                    "commit": "56579c4763497e66bf6c395d77d8b1f0f11faab1",
+                    "date": "2026-10-31T13:01:15Z",
+                    "sourceSha": "7d35520a",
+                    "commits": 1
+                },
                 {
                     "blob": "60e00a20ad97718ad7442a320d7b2139a21ce5f1",
                     "commit": "e475dcc55e34beb893c4fa50cce7e03c50f607d9",
@@ -23499,13 +23513,20 @@
                     "commits": 1
                 }
             ],
-            "observations": 3,
+            "observations": 4,
             "unstable": false,
             "flapCount": 0
         },
         "quest/ee.schimke.terrazzo.quest.QuestPreviewsKt.QuestRoomScenePreview_Quest_ room scene": {
             "path": "renders/quest/QuestRoomScenePreview_Quest_room_scene-bf69eb27.png",
             "versions": [
+                {
+                    "blob": "425ce87095747814b2fe2a0dea7f1102e9a846c3",
+                    "commit": "56579c4763497e66bf6c395d77d8b1f0f11faab1",
+                    "date": "2026-10-31T13:01:15Z",
+                    "sourceSha": "7d35520a",
+                    "commits": 1
+                },
                 {
                     "blob": "e36968862d7b9f4f29bbab35468014540c235448",
                     "commit": "e475dcc55e34beb893c4fa50cce7e03c50f607d9",
@@ -23528,7 +23549,7 @@
                     "commits": 1
                 }
             ],
-            "observations": 3,
+            "observations": 4,
             "unstable": false,
             "flapCount": 0
         },
