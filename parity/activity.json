@@ -1,11 +1,51 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-31T08:29:46.072Z",
+  "generatedAt": "2026-10-31T09:20:29.188Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "ace4a38ecee73b1b42f4e49da486bacd9b5bd5f2",
+        "subject": "chore(main): release 0.1.77 (#1363)",
+        "at": "2026-10-31T08:41:52Z",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "8e54a74fe95e634081f41b5e820804c9a98a7d52",
+        "subject": "fix(widgets): keep the 1.1 header on API 37 launcher documents (#1372)",
+        "at": "2026-10-31T08:31:46Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "bbecfbb7a83ce761f4ccc69b7178ec5c86dc1aab",
+        "subject": "fix(app): declare ARCore optional so Play accepts the release bundle (#1371)",
+        "at": "2026-10-31T08:25:39Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "eff8351a9f4b818394d1172471477dcd530130d5",
+        "subject": "chore(deps): update compose-ai-tools (#1370)",
+        "at": "2026-10-31T08:18:53Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "409d28e58ba3a6d7421f08095bf40af1d4f75139",
+        "subject": "feat(wear): list the watch widgets as Terrazzo (#1368)",
+        "at": "2026-10-31T08:02:57Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "a45f15f58e8069a7d0beb65db3a97482dca9b5fb",
         "subject": "chore(deps): update yschimke/compose-ai-tools digest to ebc67c5 (#1369)",
@@ -443,46 +483,6 @@
         "subject": "chore(main): release 0.1.72 (#1304)",
         "at": "2026-10-28T14:48:09Z",
         "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "413a0217b8515aa3bb4be3f7beb85ae65bd4ea34",
-        "subject": "perf(wear): recompose a card only when its own values change (#1311)",
-        "at": "2026-10-28T14:35:28Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "b2b8eaa5c07c3ecb02f9d0e58d825f5d3c454266",
-        "subject": "fix(wear): stop the scroll hint replaying on every live value (#1310)",
-        "at": "2026-10-28T11:09:10Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "0cc39d836fe76dfdbae3d61ab53470c0cae717f0",
-        "subject": "build(deps): rc-players 2.21.0 so slider cards play in the Compose player (#1308)",
-        "at": "2026-10-28T10:26:37Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "803b06e1b83017e46c9b6e7a12d08a589eabd150",
-        "subject": "feat(cards): shutter cards follow the cover through named slots (#1307)",
-        "at": "2026-10-28T10:16:35Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "0830d37ed35ef446e986f278db2cee6926a5e8b1",
-        "subject": "fix(wasmo): say when settings fall back to the browser and let sign-out forget (#1306)",
-        "at": "2026-10-28T06:52:04Z",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
