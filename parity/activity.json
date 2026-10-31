@@ -1,11 +1,43 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-30T23:27:26.432Z",
+  "generatedAt": "2026-10-31T03:42:46.545Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "9552cfacb4c89d71bafb95de7fd0e21545d7c426",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 743b8c6 (#1364)",
+        "at": "2026-10-31T01:37:38Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "e51588a4637f297532d67b2a07b7ecd38d5fc3ed",
+        "subject": "fix(deps): update compose-ai-tools (#1362)",
+        "at": "2026-10-31T00:56:44Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "60399cf8b2709423cbb6748fef12fcf12d005677",
+        "subject": "chore(main): release 0.1.76 (#1361)",
+        "at": "2026-10-31T00:48:53Z",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "cc1e5e9efa4a42388c4aa26778cc7be0ccde3938",
+        "subject": "fix(app): let R8 build the release with the Android XR libraries (#1360)",
+        "at": "2026-10-31T00:44:10Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "09735076f8b09108ee82b66418b64b65045ade99",
         "subject": "chore(deps): update dependency com.google.devtools.ksp to v2.3.13 (#1359)",
@@ -450,38 +482,6 @@
         "sha": "6510396dfe47d4d59dd470b54e76e1248adf8c34",
         "subject": "ci(design-server): keep main's image build out of the preview-channel group (#1301)",
         "at": "2026-10-27T22:51:35Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ce34694ddee3acb46886ce6073d61c5f5f8f233c",
-        "subject": "chore(deps): pin dependencies (#1299)",
-        "at": "2026-10-27T22:35:01Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a359df3d1cdf4e72cd736a72dd9a22f1c59b2e96",
-        "subject": "chore(main): release 0.1.71 (#1289)",
-        "at": "2026-10-27T21:51:09Z",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a5ae3f2d1166e6c6a76a577b3eba9e8f59c12515",
-        "subject": "feat(widget): open the app on the widget's card, scrolled into view (#1298)",
-        "at": "2026-10-27T21:39:06Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "9f175f3e03c3cbc6eb61309f872d95e7529f42cc",
-        "subject": "feat(app): sign in to the card design server with GitHub, not a pasted token (#1297)",
-        "at": "2026-10-27T21:38:00Z",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
