@@ -1,11 +1,43 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-31T08:38:40.975Z",
+  "generatedAt": "2026-10-31T09:13:02.217Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "d299411bad1079ac20b51989cec261deed8263bd",
+        "subject": "fix(deps): update mockserver to v9.2.0 (#1355)",
+        "at": "2026-10-31T09:05:43Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "c3a0b593c3b3951b63b19d89e8015c3ebc349110",
+        "subject": "chore(deps): update github-actions (major) (#1280)",
+        "at": "2026-10-31T09:05:26Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "8c2290d5b5ffbc5f5aff84d3610ab272b82a965a",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 6bdf11c (#1373)",
+        "at": "2026-10-31T09:02:23Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "ace4a38ecee73b1b42f4e49da486bacd9b5bd5f2",
+        "subject": "chore(main): release 0.1.77 (#1363)",
+        "at": "2026-10-31T08:41:52Z",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "8e54a74fe95e634081f41b5e820804c9a98a7d52",
         "subject": "fix(widgets): keep the 1.1 header on API 37 launcher documents (#1372)",
@@ -450,38 +482,6 @@
         "sha": "4ef598252aaeecc3b0e8ddcee0281c4439e1f494",
         "subject": "perf(compose): node-based card modifiers, content types, draw-phase flash (#1318)",
         "at": "2026-10-28T17:09:08Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "4ad45ab84696e8b74a8dee7e5ce726ca6b89763a",
-        "subject": "docs: propose animation-first design systems (#1315)",
-        "at": "2026-10-28T16:35:17Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "244d3c19191ad7bcf96e0950351d518b05c01d16",
-        "subject": "perf(wear): hold live values in a stable WearValues, one state per entity (#1313)",
-        "at": "2026-10-28T15:05:27Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "bc827e6c9af188b4557d1dc7021bae9e5e86708e",
-        "subject": "chore(main): release 0.1.72 (#1304)",
-        "at": "2026-10-28T14:48:09Z",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "413a0217b8515aa3bb4be3f7beb85ae65bd4ea34",
-        "subject": "perf(wear): recompose a card only when its own values change (#1311)",
-        "at": "2026-10-28T14:35:28Z",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
