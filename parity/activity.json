@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-31T16:04:53.169Z",
+  "generatedAt": "2026-10-31T17:01:59.235Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "ab2be6e46c1687bbaf9fafc6d5053343dc466748",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 1a449c0 (#1383)",
+        "at": "2026-10-31T15:47:32Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "be2864d39c83d8af12d2586579f8238008c28ffd",
         "subject": "chore(main): release 0.1.78 (#1376)",
@@ -474,14 +482,6 @@
         "sha": "698269d322ccfe4dcb3e7723088a82537bc1c779",
         "subject": "feat(cards): logbook shows when from HA's last_changed, worked out in the document (#1326)",
         "at": "2026-10-29T08:14:04Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "7763a10b7bf2645115e8d19ccb36b1ae59be18d4",
-        "subject": "refactor: share the room controls in a room-ui module (#1328)",
-        "at": "2026-10-29T07:56:50Z",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
