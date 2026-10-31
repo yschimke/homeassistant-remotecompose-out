@@ -1,11 +1,43 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-31T03:42:46.545Z",
+  "generatedAt": "2026-10-31T08:29:46.072Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "a45f15f58e8069a7d0beb65db3a97482dca9b5fb",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to ebc67c5 (#1369)",
+        "at": "2026-10-31T07:49:58Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "ac4972de033c52ad6816e7620427545512eca7a2",
+        "subject": "feat(wear): a simpler watch that only views, and findable watch widgets (#1367)",
+        "at": "2026-10-31T03:09:38Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "5b7c6abf244b36fec2e4a96a49fabf8e47e61f5b",
+        "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.266 (#1366)",
+        "at": "2026-10-31T02:28:53Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "f3c1aa0a80a2bdc13a4876254c8b9ab4bf34592f",
+        "subject": "fix(wear): stop dropping every live stream frame on the watch (#1365)",
+        "at": "2026-10-31T02:11:51Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "9552cfacb4c89d71bafb95de7fd0e21545d7c426",
         "subject": "chore(deps): update yschimke/compose-ai-tools digest to 743b8c6 (#1364)",
@@ -450,38 +482,6 @@
         "sha": "0830d37ed35ef446e986f278db2cee6926a5e8b1",
         "subject": "fix(wasmo): say when settings fall back to the browser and let sign-out forget (#1306)",
         "at": "2026-10-28T06:52:04Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "3fc9f92e6b0d584581b4493ee625465b6bc92d15",
-        "subject": "feat(cards): slider controls with an in-document slide-to-unlock lock (#1305)",
-        "at": "2026-10-28T01:37:59Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a59045c9c2afd8278c6ba3bcdb46306178860e43",
-        "subject": "fix(notify): drop BigTextStyle when a live card is attached (#1303)",
-        "at": "2026-10-27T23:08:16Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "86b36f04c8d0ed93ed0ed9c41495895f6d68dd5b",
-        "subject": "fix(design-server): list only ha-cards designs from UI Builder in /api/my/studio (#1300)",
-        "at": "2026-10-27T22:52:38Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "6510396dfe47d4d59dd470b54e76e1248adf8c34",
-        "subject": "ci(design-server): keep main's image build out of the preview-channel group (#1301)",
-        "at": "2026-10-27T22:51:35Z",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
