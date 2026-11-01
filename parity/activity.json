@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-01T19:15:58.578Z",
+  "generatedAt": "2026-11-01T20:16:01.495Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "ab61ff513b54472ef4e5ec4abc9ae4d98313900c",
+        "subject": "chore(deps): update yschimke/compose-ai-tools action to v2.83.0 (#1415)",
+        "at": "2026-11-01T18:56:20Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "99076c6e3f376d8f2ac7c1d6d19eafe4863ea42a",
+        "subject": "fix(deps): update compose-ai-tools (#1413)",
+        "at": "2026-11-01T18:38:45Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "74d0da4d3984e9a61d15ed6cbba9a7ef11a2cc9d",
         "subject": "ci(preview-audit): use compose-ai-tools' preview-audit-jev action (#1414)",
@@ -467,22 +483,6 @@
         "subject": "feat(home-assistant): let an admin allow a Terrazzo web install's origin from a repair (#1345)",
         "at": "2026-10-29T22:59:34Z",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "c2b99509d6b7779d389c9eb2fb18e7296bd13bfb",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to bab02ed (#1346)",
-        "at": "2026-10-29T22:28:14Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "cb0bfa3404c83689635c90728ce617d0cf6ad078",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 5213275 (#1344)",
-        "at": "2026-10-29T20:38:59Z",
-        "author": "renovate[bot]",
         "previewIds": [],
         "components": []
       }
