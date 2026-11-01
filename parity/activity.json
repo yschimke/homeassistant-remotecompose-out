@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-01T17:21:19.412Z",
+  "generatedAt": "2026-11-01T19:15:58.578Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "74d0da4d3984e9a61d15ed6cbba9a7ef11a2cc9d",
+        "subject": "ci(preview-audit): use compose-ai-tools' preview-audit-jev action (#1414)",
+        "at": "2026-11-01T18:34:23Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "e6c812a30c50dbf2c28c88c8ba957e8c7bbb533c",
+        "subject": "ci(preview-audit): add a Jev agent with a vision recheck (#1412)",
+        "at": "2026-11-01T17:32:36Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "05b05b071d55e6f0f30208b4138d211c1ecd7b8b",
         "subject": "chore(deps): update yschimke/compose-ai-tools digest to 6e0d530 (#1411)",
@@ -467,22 +483,6 @@
         "subject": "chore(deps): update yschimke/compose-ai-tools digest to 5213275 (#1344)",
         "at": "2026-10-29T20:38:59Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "0d15b6d83bc7d7e81d940b4390d60574f78ad59e",
-        "subject": "chore(main): release 0.1.74 (#1327)",
-        "at": "2026-10-29T20:16:30Z",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "44e1fe677b873165afb4d93fc324f83325a03e06",
-        "subject": "feat: room controls on Android XR glasses with Glimmer, on Compose 1.13 (#1340)",
-        "at": "2026-10-29T17:09:11Z",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
