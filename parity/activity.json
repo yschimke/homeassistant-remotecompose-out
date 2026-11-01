@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-01T10:05:17.590Z",
+  "generatedAt": "2026-11-01T11:05:55.415Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "5de3dcbfb085d1baf5f4c56048d021870823be17",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to b00bb0a (#1387)",
+        "at": "2026-11-01T10:07:03Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "3c86c87908dcfb373b854257c8ededa0a2ec79e1",
+        "subject": "chore(deps): update openai/codex-action action to v1.13 (#1388)",
+        "at": "2026-11-01T10:05:57Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "e17fd896d1803657518513a8682f1ba171e2b4ff",
+        "subject": "ci(preview-audit): finish audits reliably and add API-billed agents (#1384)",
+        "at": "2026-11-01T09:53:36Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "52b3fb61e79bb9edc1289e5595ce774aeea7bd78",
         "subject": "fix(deps): update compose-ai-tools (#1385)",
@@ -459,30 +483,6 @@
         "subject": "chore(deps): update yschimke/compose-ai-tools digest to 80e5d37 (#1309)",
         "at": "2026-10-29T10:10:12Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "83c69feb106682ee291eb641f97bdd103bc42444",
-        "subject": "feat: M3 Expressive slider, and a pull request's design changes in the design browser (#1330)",
-        "at": "2026-10-29T09:21:47Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "4dc196f825b2bd6a1c317f5ffbfff8080377686b",
-        "subject": "ci: report failed preview renders, add preview audit and on-request Claude review (#1329)",
-        "at": "2026-10-29T09:14:53Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "b8212d60a3de4855284579de27a8c76e3dece27c",
-        "subject": "feat(motion): M3 Expressive press, shape morph, wavy progress and loader (#1325)",
-        "at": "2026-10-29T08:14:08Z",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
