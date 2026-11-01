@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-10-31T17:01:59.235Z",
+  "generatedAt": "2026-11-01T10:05:17.590Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "52b3fb61e79bb9edc1289e5595ce774aeea7bd78",
+        "subject": "fix(deps): update compose-ai-tools (#1385)",
+        "at": "2026-11-01T09:30:13Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "ab2be6e46c1687bbaf9fafc6d5053343dc466748",
         "subject": "chore(deps): update yschimke/compose-ai-tools digest to 1a449c0 (#1383)",
@@ -474,14 +482,6 @@
         "sha": "b8212d60a3de4855284579de27a8c76e3dece27c",
         "subject": "feat(motion): M3 Expressive press, shape morph, wavy progress and loader (#1325)",
         "at": "2026-10-29T08:14:08Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "698269d322ccfe4dcb3e7723088a82537bc1c779",
-        "subject": "feat(cards): logbook shows when from HA's last_changed, worked out in the document (#1326)",
-        "at": "2026-10-29T08:14:04Z",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
