@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-01T12:42:31.103Z",
+  "generatedAt": "2026-11-01T13:12:14.369Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "7eab07af4be88ec3dbcdd71fe92339bee0c014d0",
+        "subject": "ci(previews): render the debug variant everywhere (#1394)",
+        "at": "2026-11-01T12:58:38Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "d14d318978ec69bd34861cc134a5d423a81baeb3",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 5f659be (#1398)",
+        "at": "2026-11-01T12:56:21Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "f85d8e382ac16596934c69f6cf275911f1b456f6",
+        "subject": "feat: let agents discover dashboard edit requests (#1397)",
+        "at": "2026-11-01T12:43:33Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "c9f0f8b4b2b76270a839fe0c6928352528a07e92",
         "subject": "fix(deps): update compose-ai-tools (#1396)",
@@ -458,30 +482,6 @@
         "sha": "101a5fd38c07c4ae9223ad22ee417933f1ff85a8",
         "subject": "feat(cards): every card goes dark while ambient (#1339)",
         "at": "2026-10-29T15:25:14Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "4f2bd4be1e768ff16bb1f505b3b025c31f784852",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to b62bc80 (#1338)",
-        "at": "2026-10-29T12:47:53Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "682a9acc122cbf734c48e5449f15bc36fbe685be",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 533b952 (#1336)",
-        "at": "2026-10-29T12:40:00Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "2f7a0b65ac747cd831cc4687fecea659f39c9cb6",
-        "subject": "chore(renovate): merge automerging PRs with GitHub native auto-merge (#1337)",
-        "at": "2026-10-29T12:39:56Z",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
