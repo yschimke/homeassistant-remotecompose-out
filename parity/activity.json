@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-01T12:01:46.683Z",
+  "generatedAt": "2026-11-01T12:53:11.729Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "2490fdc9f114c3e02ac3d65108b3b442bf6afc07",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to c5bcf77 (#1395)",
+        "at": "2026-11-01T12:09:08Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "09b68f4973372f4604f26070334387cdfc28cfdd",
+        "subject": "chore(deps): update compose-ai-tools (#1393)",
+        "at": "2026-11-01T11:24:04Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "0db321c6b23a162d18214d0bd8042b0ecc5674a6",
+        "subject": "ci(previews): /audit on request, plus a release-to-release preview diff and audit (#1389)",
+        "at": "2026-11-01T11:07:28Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "0c2308772e398f4ae3b4510ddfecaad179b54d6f",
         "subject": "fix(deps): update compose-ai-tools (#1391)",
@@ -459,30 +483,6 @@
         "subject": "fix(previews): load demo camera images synchronously in screen previews (#1335)",
         "at": "2026-10-29T12:10:37Z",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "085bbfe587ea90eb799921bb69d56546da7ee97f",
-        "subject": "feat(design-server): play designs live with an ambient switch and changing values (#1334)",
-        "at": "2026-10-29T12:10:16Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "e27e49c565394cb9f85da3169925a643cd000740",
-        "subject": "feat(motion): runtime ambient flag for low-power displays (#1333)",
-        "at": "2026-10-29T11:24:16Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "87c444a3ef257a331d729410f40a5f8b1312024b",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 03a3394 (#1332)",
-        "at": "2026-10-29T10:40:17Z",
-        "author": "renovate[bot]",
         "previewIds": [],
         "components": []
       }
