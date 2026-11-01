@@ -1,11 +1,43 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-01T15:37:51.441Z",
+  "generatedAt": "2026-11-01T18:45:36.114Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "99076c6e3f376d8f2ac7c1d6d19eafe4863ea42a",
+        "subject": "fix(deps): update compose-ai-tools (#1413)",
+        "at": "2026-11-01T18:38:45Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "74d0da4d3984e9a61d15ed6cbba9a7ef11a2cc9d",
+        "subject": "ci(preview-audit): use compose-ai-tools' preview-audit-jev action (#1414)",
+        "at": "2026-11-01T18:34:23Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "e6c812a30c50dbf2c28c88c8ba957e8c7bbb533c",
+        "subject": "ci(preview-audit): add a Jev agent with a vision recheck (#1412)",
+        "at": "2026-11-01T17:32:36Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "05b05b071d55e6f0f30208b4138d211c1ecd7b8b",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 6e0d530 (#1411)",
+        "at": "2026-11-01T16:40:50Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "aa85434687ae2e0cfe95a52e520c32d208b94394",
         "subject": "chore(deps): update agp to v9.5.0 (#1312)",
@@ -451,38 +483,6 @@
         "subject": "chore(deps): update yschimke/compose-ai-tools digest to bab02ed (#1346)",
         "at": "2026-10-29T22:28:14Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "cb0bfa3404c83689635c90728ce617d0cf6ad078",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 5213275 (#1344)",
-        "at": "2026-10-29T20:38:59Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "0d15b6d83bc7d7e81d940b4390d60574f78ad59e",
-        "subject": "chore(main): release 0.1.74 (#1327)",
-        "at": "2026-10-29T20:16:30Z",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "44e1fe677b873165afb4d93fc324f83325a03e06",
-        "subject": "feat: room controls on Android XR glasses with Glimmer, on Compose 1.13 (#1340)",
-        "at": "2026-10-29T17:09:11Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "d43efa3b54d44e8083586706b6e37aaf4f1c954c",
-        "subject": "feat(wear): ambient mode for the app's cards (#1343)",
-        "at": "2026-10-29T16:35:44Z",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
