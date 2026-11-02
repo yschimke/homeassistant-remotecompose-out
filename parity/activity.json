@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-02T06:58:04.615Z",
+  "generatedAt": "2026-11-02T07:56:27.442Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "4144a427c942620a20582d63c69231529200d424",
+        "subject": "feat: integrate garage card editing and Wear rendering (#1410)",
+        "at": "2026-11-02T06:46:45Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "228c2f55ac03287c4687ca29013455215f2413fc",
         "subject": "chore(deps): update yschimke/compose-ai-tools digest to 7803514 (#1418)",
@@ -475,14 +483,6 @@
         "subject": "fix(deps): update mockserver to v9 (#1351)",
         "at": "2026-10-30T00:55:17Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "90a46b8429e0ef8837bf03e222ef8de5e24598ec",
-        "subject": "feat(design-server): record whether a Wear widget design reads host.ambient (#1349)",
-        "at": "2026-10-30T00:11:32Z",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
