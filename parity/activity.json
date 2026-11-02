@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-02T09:34:15.904Z",
+  "generatedAt": "2026-11-02T21:32:02.694Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "5decbb381b038848e198303f4a9b7a3fd302bea9",
+        "subject": "chore(main): release 0.1.80 (#1420)",
+        "at": "2026-11-02T20:55:41Z",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "3a19deed6f1c03d943f138df98e6bb30ef4746ed",
+        "subject": "fix: preserve card edits and share private selections (#1419)",
+        "at": "2026-11-02T20:53:49Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "10d0b57432ae05e48c9e23bc21b55a61fbdd24be",
         "subject": "chore(main): release 0.1.79 (#1386)",
@@ -467,22 +483,6 @@
         "subject": "fix(cards): date a week-old logbook change with the offset in force then (#1353)",
         "at": "2026-10-30T07:34:59Z",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a5c993d11a994d93eebd2a92f3d15cb60d04c7e6",
-        "subject": "chore(deps): update github-actions (#1302)",
-        "at": "2026-10-30T06:17:17Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "fb00031882e3903c7360fa890fefe47770abc241",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 6151335 (#1352)",
-        "at": "2026-10-30T06:16:46Z",
-        "author": "renovate[bot]",
         "previewIds": [],
         "components": []
       }
