@@ -1,11 +1,123 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-02T07:03:59.532Z",
+  "generatedAt": "2026-11-03T23:24:10.892Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "a45a56bd949369d0928cff31765a8a7d7eef4151",
+        "subject": "fix(deps): update meta.spatial to v0.15.0 (#1433)",
+        "at": "2026-11-03T23:14:02Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "c97f13c37f41b4c75376c5e5ac2eebf93506a5cc",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 29d191b (#1431)",
+        "at": "2026-11-03T23:08:17Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "485650c07345569bba4c846cbdb2a07b9409e0da",
+        "subject": "chore(main): release 0.1.82 (#1427)",
+        "at": "2026-11-03T22:54:59Z",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "ae4f3846d2a8b12d1faa815235e09f0a58cc54d2",
+        "subject": "feat: one flow for everyone: Ask your agent (#1429)",
+        "at": "2026-11-03T22:41:23Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "3ee144a62a1e81bebe6e0388204a06d6e9221331",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to b3d9611 (#1428)",
+        "at": "2026-11-03T16:28:07Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "9bdd307d6c1b3d2711a8f42a8055b13c8f416b5c",
+        "subject": "feat: connect an agent once, then edit cards and dashboards with it live (#1425)",
+        "at": "2026-11-03T11:34:29Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "fdab39e55a955fb6305f326036efb4bbb6ccef3f",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 0c549fb (#1426)",
+        "at": "2026-11-03T11:02:51Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "fa13cf0890389c44ce9356bb9279d39f4b8537fa",
+        "subject": "chore(main): release 0.1.81 (#1423)",
+        "at": "2026-11-03T06:53:59Z",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "3f6bd1a561106292ae682c1e4a22ebea94f730ea",
+        "subject": "fix: include EGL for card design image publishing (#1421)",
+        "at": "2026-11-03T06:53:19Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "c0421ee0c4f05c29fc28cd5ac4ecd006fe9944d5",
+        "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.267 (#1424)",
+        "at": "2026-11-03T05:32:59Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "a1df41024da448d587218bef3858eee03ab3c2d1",
+        "subject": "feat: live agent sessions with join codes, presence and conversation (#1422)",
+        "at": "2026-11-03T01:08:49Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "5decbb381b038848e198303f4a9b7a3fd302bea9",
+        "subject": "chore(main): release 0.1.80 (#1420)",
+        "at": "2026-11-02T20:55:41Z",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "3a19deed6f1c03d943f138df98e6bb30ef4746ed",
+        "subject": "fix: preserve card edits and share private selections (#1419)",
+        "at": "2026-11-02T20:53:49Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "10d0b57432ae05e48c9e23bc21b55a61fbdd24be",
+        "subject": "chore(main): release 0.1.79 (#1386)",
+        "at": "2026-11-02T08:55:51Z",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "4144a427c942620a20582d63c69231529200d424",
         "subject": "feat: integrate garage card editing and Wear rendering (#1410)",
@@ -371,118 +483,6 @@
         "subject": "fix(wear): stop dropping every live stream frame on the watch (#1365)",
         "at": "2026-10-31T02:11:51Z",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "9552cfacb4c89d71bafb95de7fd0e21545d7c426",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 743b8c6 (#1364)",
-        "at": "2026-10-31T01:37:38Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "e51588a4637f297532d67b2a07b7ecd38d5fc3ed",
-        "subject": "fix(deps): update compose-ai-tools (#1362)",
-        "at": "2026-10-31T00:56:44Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "60399cf8b2709423cbb6748fef12fcf12d005677",
-        "subject": "chore(main): release 0.1.76 (#1361)",
-        "at": "2026-10-31T00:48:53Z",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "cc1e5e9efa4a42388c4aa26778cc7be0ccde3938",
-        "subject": "fix(app): let R8 build the release with the Android XR libraries (#1360)",
-        "at": "2026-10-31T00:44:10Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "09735076f8b09108ee82b66418b64b65045ade99",
-        "subject": "chore(deps): update dependency com.google.devtools.ksp to v2.3.13 (#1359)",
-        "at": "2026-10-30T22:49:12Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "12c16f4cbf82bbe4182747eb79d23c2e3c5b4171",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 2b014e7 (#1358)",
-        "at": "2026-10-30T16:45:06Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "4661f04e989e6c8612aab71a89ea9c2cb1ea3dfd",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 8859d17 (#1357)",
-        "at": "2026-10-30T14:31:34Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "5af7562f032033b2317edb79e3cae6cec1a00992",
-        "subject": "chore(main): release 0.1.75 (#1347)",
-        "at": "2026-10-30T09:20:48Z",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "aabf8602c625a4554cd60c099b3e3d5c3da4646c",
-        "subject": "feat: a private design server as a Home Assistant add-on (#1356)",
-        "at": "2026-10-30T09:19:46Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "5ee9ba0d7c152629f796eb8f2875a1f136f715fb",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to dceb10c (#1354)",
-        "at": "2026-10-30T07:58:45Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "f353ac68d1f2ff47e113a9ce16135e504c0d9589",
-        "subject": "fix(cards): date a week-old logbook change with the offset in force then (#1353)",
-        "at": "2026-10-30T07:34:59Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a5c993d11a994d93eebd2a92f3d15cb60d04c7e6",
-        "subject": "chore(deps): update github-actions (#1302)",
-        "at": "2026-10-30T06:17:17Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "fb00031882e3903c7360fa890fefe47770abc241",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 6151335 (#1352)",
-        "at": "2026-10-30T06:16:46Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "85d4098c5a3809fe47260c8c407dcdd62d4e631a",
-        "subject": "fix(deps): update mockserver to v9 (#1351)",
-        "at": "2026-10-30T00:55:17Z",
-        "author": "renovate[bot]",
         "previewIds": [],
         "components": []
       }
