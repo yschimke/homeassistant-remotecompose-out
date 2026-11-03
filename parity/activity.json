@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-03T17:04:23.543Z",
+  "generatedAt": "2026-11-03T23:30:38.372Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "485650c07345569bba4c846cbdb2a07b9409e0da",
+        "subject": "chore(main): release 0.1.82 (#1427)",
+        "at": "2026-11-03T22:54:59Z",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "ae4f3846d2a8b12d1faa815235e09f0a58cc54d2",
+        "subject": "feat: one flow for everyone: Ask your agent (#1429)",
+        "at": "2026-11-03T22:41:23Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "3ee144a62a1e81bebe6e0388204a06d6e9221331",
         "subject": "chore(deps): update yschimke/compose-ai-tools digest to b3d9611 (#1428)",
@@ -467,22 +483,6 @@
         "subject": "fix(deps): update compose-ai-tools (#1362)",
         "at": "2026-10-31T00:56:44Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "60399cf8b2709423cbb6748fef12fcf12d005677",
-        "subject": "chore(main): release 0.1.76 (#1361)",
-        "at": "2026-10-31T00:48:53Z",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "cc1e5e9efa4a42388c4aa26778cc7be0ccde3938",
-        "subject": "fix(app): let R8 build the release with the Android XR libraries (#1360)",
-        "at": "2026-10-31T00:44:10Z",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
