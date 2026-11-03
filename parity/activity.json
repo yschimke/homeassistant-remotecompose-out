@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-03T11:38:17.257Z",
+  "generatedAt": "2026-11-03T17:04:23.543Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "3ee144a62a1e81bebe6e0388204a06d6e9221331",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to b3d9611 (#1428)",
+        "at": "2026-11-03T16:28:07Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "9bdd307d6c1b3d2711a8f42a8055b13c8f416b5c",
+        "subject": "feat: connect an agent once, then edit cards and dashboards with it live (#1425)",
+        "at": "2026-11-03T11:34:29Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "fdab39e55a955fb6305f326036efb4bbb6ccef3f",
         "subject": "chore(deps): update yschimke/compose-ai-tools digest to 0c549fb (#1426)",
@@ -467,22 +483,6 @@
         "subject": "fix(app): let R8 build the release with the Android XR libraries (#1360)",
         "at": "2026-10-31T00:44:10Z",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "09735076f8b09108ee82b66418b64b65045ade99",
-        "subject": "chore(deps): update dependency com.google.devtools.ksp to v2.3.13 (#1359)",
-        "at": "2026-10-30T22:49:12Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "12c16f4cbf82bbe4182747eb79d23c2e3c5b4171",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 2b014e7 (#1358)",
-        "at": "2026-10-30T16:45:06Z",
-        "author": "renovate[bot]",
         "previewIds": [],
         "components": []
       }
