@@ -6,6 +6,9 @@ dashboard can start a session on it, read it and leave notes; only an administra
 undo a draft, which is Home Assistant's own rule for saving a dashboard. The MCP server reaches
 the same sessions as its pinned user (`mcp_view.py`).
 """
+import asyncio
+import base64
+import binascii
 import copy
 import time
 
@@ -16,6 +19,7 @@ from homeassistant.core import callback
 from homeassistant.exceptions import HomeAssistantError
 from homeassistant.helpers.dispatcher import async_dispatcher_connect, async_dispatcher_send
 from homeassistant.helpers.storage import Store
+from homeassistant.util import slugify
 
 from . import edit_sessions
 from .const import DOMAIN, MCP_URL
@@ -33,6 +37,14 @@ class Edits:
         self.hass = hass
         self._store = store
         self.sessions = sessions
+        # When an agent signed in to this Home Assistant last listened for requests
+        # (await_request): while recent, a new session needs no prompt handed over.
+        self.listening_at = 0.0
+        # Open subscriptions per session: a draft nobody is watching is announced on the phone.
+        self.watchers = {}
+        # The newest draft as the person's app drew it, per session: (draft id, PNG bytes). In
+        # memory only: the app shares it again whenever it draws the draft.
+        self.renders = {}
 
     @classmethod
     async def async_load(cls, hass):
@@ -156,6 +168,154 @@ def submit(hass, user, session_id, config, summary, relay_id=None):
     return draft
 
 
+# The longest await_feedback holds an agent's request: under common reverse-proxy idle timeouts.
+FEEDBACK_WAIT_SECONDS = 25
+# An agent counts as listening this long after its last await_request.
+LISTENING_SECONDS = 90
+
+
+def agent_listening(hass):
+    """Whether an agent signed in to this Home Assistant is listening for requests now."""
+    edits = hass.data.get(DOMAIN, {}).get("edits")
+    return edits is not None and _now() - edits.listening_at < LISTENING_SECONDS
+
+
+async def async_await_request(hass, user, since, timeout=FEEDBACK_WAIT_SECONDS):
+    """Open sessions on dashboards [user] can see started after [since] (a cursor from an earlier
+    call), waiting up to [timeout] seconds for one. Listening this way is what lets a person start
+    a session in the app with nothing to hand over."""
+    edits = edits_of(hass)
+    woke = asyncio.Event()
+
+    @callback
+    def changed(_session_id):
+        woke.set()
+
+    unsubscribe = async_dispatcher_connect(hass, SIGNAL_SESSION, changed)
+    try:
+        deadline = time.monotonic() + max(0, min(timeout, FEEDBACK_WAIT_SECONDS))
+        while True:
+            edits.listening_at = _now()
+            visible = visible_dashboards(hass, user)
+            fresh = [s for s in edits.sessions.for_dashboards(visible, _now()) if s["created_at"] > since]
+            left = deadline - time.monotonic()
+            if fresh or left <= 0:
+                break
+            woke.clear()
+            try:
+                await asyncio.wait_for(woke.wait(), left)
+            except asyncio.TimeoutError:
+                pass
+    finally:
+        unsubscribe()
+        edits.listening_at = _now()
+    fresh.sort(key=lambda s: s["created_at"])
+    cursor = max([since] + [s["created_at"] for s in fresh])
+    return {"cursor": cursor, "requests": [edit_sessions.summary(s) for s in fresh]}
+
+
+def agent_message(hass, user, session_id, text):
+    edits, _ = _visible_session(hass, user, session_id)
+    message = edits.sessions.agent_message(session_id, text, user.id, _now())
+    edits.changed(edits.sessions.get(session_id, _now()))
+    return message
+
+
+def agent_seen(hass, user, session_id, status=None):
+    edits, _ = _visible_session(hass, user, session_id)
+    session = edits.sessions.agent_seen(session_id, status, user.id, _now())
+    edits.changed(session)
+    return session
+
+
+async def async_await_feedback(hass, user, session_id, since, timeout=FEEDBACK_WAIT_SECONDS):
+    """The person's notes after [since], waiting up to [timeout] seconds for one, and whether the
+    session is still open. The agent's own activity wakes nothing: only a note or a decision does."""
+    agent_seen(hass, user, session_id, "Waiting for feedback")
+    woke = asyncio.Event()
+
+    @callback
+    def changed(changed_id):
+        if changed_id == session_id:
+            woke.set()
+
+    unsubscribe = async_dispatcher_connect(hass, SIGNAL_SESSION, changed)
+    try:
+        deadline = time.monotonic() + max(0, min(timeout, FEEDBACK_WAIT_SECONDS))
+        while True:
+            _, session = _visible_session(hass, user, session_id)
+            notes, cursor = edit_sessions.EditSessions.feedback(session, since)
+            left = deadline - time.monotonic()
+            if notes or session["status"] != edit_sessions.OPEN or left <= 0:
+                break
+            woke.clear()
+            try:
+                await asyncio.wait_for(woke.wait(), left)
+            except asyncio.TimeoutError:
+                pass
+    finally:
+        unsubscribe()
+    return {
+        "cursor": cursor,
+        "feedback": notes,
+        "status": session["status"],
+        "applied": session["applied"],
+    }
+
+
+MAX_RENDER_BYTES = 1_500_000
+
+
+def draft_render(hass, user, session_id):
+    """The newest render the person's app shared for [session_id]: (draft id, PNG) or None."""
+    edits, _ = _visible_session(hass, user, session_id)
+    return edits.renders.get(session_id)
+
+
+@websocket_api.websocket_command(
+    {
+        vol.Required("type"): "terrazzo/edit/render",
+        vol.Required("session_id"): str,
+        vol.Required("draft_id"): str,
+        vol.Required("png"): str,
+    }
+)
+@callback
+def ws_render(hass, connection, msg):
+    """The person's app shares a draft as it drew it, so the agent sees exactly that."""
+    try:
+        edits, session = _visible_session(hass, connection.user, msg["session_id"])
+        edits.sessions.draft(session, msg["draft_id"])
+        png = base64.b64decode(msg["png"], validate=True)
+        if not (0 < len(png) <= MAX_RENDER_BYTES and png.startswith(b"\x89PNG\r\n\x1a\n")):
+            raise SessionError(f"A render is a PNG of at most {MAX_RENDER_BYTES // 1000} KB")
+    except (SessionError, binascii.Error, ValueError) as failure:
+        _send_failure(connection, msg, failure if isinstance(failure, SessionError) else SessionError("Invalid PNG"))
+        return
+    # One render per session, and none for a session that is gone: the sessions' own bound
+    # (expiry, MAX_SESSIONS) bounds what renders hold.
+    live = {s["id"] for s in edits.sessions.to_data()}
+    for gone in [key for key in edits.renders if key not in live]:
+        del edits.renders[gone]
+    edits.renders[msg["session_id"]] = (msg["draft_id"], png)
+    connection.send_result(msg["id"], {"shared": True})
+
+
+async def async_notice_draft(hass, session_id, draft):
+    """Tell the person who started [session_id] that their agent's draft is ready, on their
+    Terrazzo phones, unless they are watching the session now. Delivered by mobile_app's own
+    notify (held by the integration and woken through the push relay when the app is closed)."""
+    edits = edits_of(hass)
+    if edits.watchers.get(session_id):
+        return
+    session = edits.sessions.get(session_id, _now())
+    registrations = [entry.data for entry in hass.config_entries.async_entries("mobile_app")]
+    notice = edit_sessions.draft_notice(session, draft)
+    for service in edit_sessions.notice_services(registrations, session["created_by"], slugify):
+        if hass.services.has_service("notify", service):
+            await hass.services.async_call("notify", service, notice, blocking=False)
+
+
 async def async_apply(hass, user, session_id, draft_id):
     """Save [draft_id] as the dashboard, only if it still holds the session's starting config.
 
@@ -197,10 +357,17 @@ def _send_failure(connection, msg, failure):
     connection.send_error(msg["id"], code, str(failure))
 
 
-def _session_reply(session, hass=None):
-    """The session with its configs; with [hass], also the prompt to hand an agent again."""
-    reply = {"session": edit_sessions.summary(session, with_configs=True)}
-    if hass is not None:
+def _session_reply(hass, session, with_prompt=False):
+    """The session with its configs; [with_prompt], also the prompt to hand an agent again."""
+    reply = {
+        "session": edit_sessions.summary(session, with_configs=True),
+        # The agent's seen_at is in this clock: the app ages presence against it.
+        "server_time": _now(),
+        # An agent already listening picks a new session up by itself: no prompt to hand over.
+        # In every reply, so a subscription's updates don't hide it again.
+        "agent_listening": agent_listening(hass),
+    }
+    if with_prompt:
         reply["prompt"] = edit_sessions.agent_prompt(
             session, mcp_url(hass), hass.config.location_name
         )
@@ -221,7 +388,7 @@ async def ws_start(hass, connection, msg):
     except SessionError as failure:
         _send_failure(connection, msg, failure)
         return
-    connection.send_result(msg["id"], _session_reply(session, hass))
+    connection.send_result(msg["id"], _session_reply(hass, session, with_prompt=True))
 
 
 @websocket_api.websocket_command(
@@ -249,7 +416,7 @@ def ws_get(hass, connection, msg):
     except SessionError as failure:
         _send_failure(connection, msg, failure)
         return
-    connection.send_result(msg["id"], _session_reply(session, hass))
+    connection.send_result(msg["id"], _session_reply(hass, session, with_prompt=True))
 
 
 @websocket_api.websocket_command(
@@ -273,11 +440,24 @@ def ws_subscribe(hass, connection, msg):
             _, current = _visible_session(hass, connection.user, session_id)
         except SessionError:
             return
-        connection.send_message(websocket_api.event_message(msg["id"], _session_reply(current)))
+        connection.send_message(websocket_api.event_message(msg["id"], _session_reply(hass, current)))
 
-    connection.subscriptions[msg["id"]] = async_dispatcher_connect(hass, SIGNAL_SESSION, forward)
+    edits = edits_of(hass)
+    edits.watchers[session_id] = edits.watchers.get(session_id, 0) + 1
+    unsubscribe = async_dispatcher_connect(hass, SIGNAL_SESSION, forward)
+
+    @callback
+    def stop():
+        unsubscribe()
+        left = edits.watchers.get(session_id, 1) - 1
+        if left > 0:
+            edits.watchers[session_id] = left
+        else:
+            edits.watchers.pop(session_id, None)
+
+    connection.subscriptions[msg["id"]] = stop
     connection.send_result(msg["id"])
-    connection.send_message(websocket_api.event_message(msg["id"], _session_reply(session)))
+    connection.send_message(websocket_api.event_message(msg["id"], _session_reply(hass, session)))
 
 
 @websocket_api.websocket_command(
@@ -285,19 +465,22 @@ def ws_subscribe(hass, connection, msg):
         vol.Required("type"): "terrazzo/edit/note",
         vol.Required("session_id"): str,
         vol.Required("text"): str,
+        vol.Optional("target"): vol.Any(None, str),
     }
 )
 @callback
 def ws_note(hass, connection, msg):
     try:
         edits, _ = _visible_session(hass, connection.user, msg["session_id"])
-        edits.sessions.note(msg["session_id"], msg["text"], connection.user.id, _now())
+        edits.sessions.note(
+            msg["session_id"], msg["text"], connection.user.id, _now(), msg.get("target")
+        )
         session = edits.sessions.get(msg["session_id"], _now())
     except SessionError as failure:
         _send_failure(connection, msg, failure)
         return
     edits.changed(session)
-    connection.send_result(msg["id"], _session_reply(session))
+    connection.send_result(msg["id"], _session_reply(hass, session))
 
 
 @websocket_api.websocket_command(
@@ -318,7 +501,7 @@ def ws_submit(hass, connection, msg):
     except SessionError as failure:
         _send_failure(connection, msg, failure)
         return
-    connection.send_result(msg["id"], _session_reply(session))
+    connection.send_result(msg["id"], _session_reply(hass, session))
 
 
 @websocket_api.websocket_command(
@@ -333,7 +516,7 @@ def ws_discard(hass, connection, msg):
         _send_failure(connection, msg, failure)
         return
     edits.changed(session)
-    connection.send_result(msg["id"], _session_reply(session))
+    connection.send_result(msg["id"], _session_reply(hass, session))
 
 
 @websocket_api.require_admin
@@ -351,7 +534,7 @@ async def ws_apply(hass, connection, msg):
     except SessionError as failure:
         _send_failure(connection, msg, failure)
         return
-    connection.send_result(msg["id"], _session_reply(session))
+    connection.send_result(msg["id"], _session_reply(hass, session))
 
 
 @websocket_api.require_admin
@@ -365,10 +548,13 @@ async def ws_undo(hass, connection, msg):
     except SessionError as failure:
         _send_failure(connection, msg, failure)
         return
-    connection.send_result(msg["id"], _session_reply(session))
+    connection.send_result(msg["id"], _session_reply(hass, session))
 
 
-COMMANDS = (ws_start, ws_list, ws_get, ws_subscribe, ws_note, ws_submit, ws_discard, ws_apply, ws_undo)
+COMMANDS = (
+    ws_start, ws_list, ws_get, ws_subscribe, ws_note, ws_submit, ws_discard, ws_apply, ws_undo,
+    ws_render,
+)
 
 
 def async_register(hass):
