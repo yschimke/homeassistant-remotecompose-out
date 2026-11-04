@@ -3518,6 +3518,16 @@
                     "group": null
                 },
                 {
+                    "previewId": "ee.schimke.ha.previews.ThemeKitPreviewsKt.Kit_Keys_kit__keys_across_themes",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.ThemeKitPreviewsKt.Kit_LockEveryTheme_kit__lock_under_every_theme",
+                    "componentId": null,
+                    "group": null
+                },
+                {
                     "previewId": "ee.schimke.ha.previews.TileCardPreviewsKt.Tile_LightBrightness_Expressive_tile___light_brightness__expressive_",
                     "componentId": null,
                     "group": null
@@ -3955,6 +3965,103 @@
             "bindings": [
                 {
                     "previewId": "ee.schimke.ha.previews.SizingExperimentPreviewsKt.Sizing_WidthPinnedHeightAdaptive_sizing___width_pinned__height_adaptive",
+                    "componentId": null,
+                    "group": null
+                }
+            ],
+            "code": {
+                "call": null,
+                "imports": [],
+                "refusedReason": "not public or internal, so a generated file cannot call it",
+                "requiredOptIns": [],
+                "androidxOptIns": []
+            },
+            "signatureKnown": true,
+            "callableFromAnotherFile": false,
+            "hasTypeParameters": false,
+            "hasContextReceivers": false,
+            "overloadsCollided": false,
+            "builder": null,
+            "requiredOptIns": [],
+            "androidxOptIns": [],
+            "overloads": []
+        },
+        {
+            "canonicalId": "previews/ee.schimke.ha.previews.ThemeKitPreviewsKt.KitShowcase",
+            "componentIds": [],
+            "symbol": {
+                "jvmOwner": "ee.schimke.ha.previews.ThemeKitPreviewsKt",
+                "callable": "ee.schimke.ha.previews.KitShowcase",
+                "name": "KitShowcase",
+                "origin": "PROJECT",
+                "jvmName": "KitShowcase",
+                "descriptor": "(Lee/schimke/ha/rc/components/HaUberTheme;ZLandroidx/compose/runtime/Composer;I)V",
+                "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/ThemeKitPreviews.kt",
+                "docs": "unavailable",
+                "receiver": null
+            },
+            "parameters": [
+                {
+                    "name": "theme",
+                    "type": "HaUberTheme",
+                    "typeFqn": "ee.schimke.ha.rc.components.HaUberTheme",
+                    "hasDefault": false,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "darkTheme",
+                    "type": "Boolean",
+                    "typeFqn": "kotlin.Boolean",
+                    "hasDefault": false,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                }
+            ],
+            "slots": [],
+            "bindings": [
+                {
+                    "previewId": "ee.schimke.ha.previews.ThemeKitPreviewsKt.Kit_Aurora_Dark_kit__Aurora__dark_",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.ThemeKitPreviewsKt.Kit_Aurora_Light_kit__Aurora__light_",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.ThemeKitPreviewsKt.Kit_Cockpit_kit__Cockpit",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.ThemeKitPreviewsKt.Kit_Engineered_Dark_kit__Engineered__dark_",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.ThemeKitPreviewsKt.Kit_Engineered_Light_kit__Engineered__light_",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.ThemeKitPreviewsKt.Kit_EvDash_Dark_kit__EV_Dash__dark_",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.ThemeKitPreviewsKt.Kit_EvDash_Light_kit__EV_Dash__light_",
                     "componentId": null,
                     "group": null
                 }

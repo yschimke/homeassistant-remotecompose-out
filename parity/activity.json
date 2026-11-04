@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-04T01:12:30.604Z",
+  "generatedAt": "2026-11-04T08:32:26.605Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "afb9dd33fc9b4135b1be6f489315fddb96b846b9",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to da53825 (#1441)",
+        "at": "2026-11-04T07:51:17Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "6e65d8dfa6914ac786e4a03693f26670ec9a7242",
+        "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.268 (#1439)",
+        "at": "2026-11-04T01:26:58Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "e9d00bb5ab0d71bee8fefae7224bcc0e9f26f9e8",
+        "subject": "feat: theme kits — component grammar and slots so cards and themes stop multiplying (#1430)",
+        "at": "2026-11-04T00:44:45Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "898384e5fc8678c20d9e1fe4c3aff83a1b8d11ae",
         "subject": "chore(deps): update yschimke/compose-ai-tools digest to f428d5a (#1438)",
@@ -459,30 +483,6 @@
         "subject": "fix(app): declare ARCore optional so Play accepts the release bundle (#1371)",
         "at": "2026-10-31T08:25:39Z",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "eff8351a9f4b818394d1172471477dcd530130d5",
-        "subject": "chore(deps): update compose-ai-tools (#1370)",
-        "at": "2026-10-31T08:18:53Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "409d28e58ba3a6d7421f08095bf40af1d4f75139",
-        "subject": "feat(wear): list the watch widgets as Terrazzo (#1368)",
-        "at": "2026-10-31T08:02:57Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a45f15f58e8069a7d0beb65db3a97482dca9b5fb",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to ebc67c5 (#1369)",
-        "at": "2026-10-31T07:49:58Z",
-        "author": "renovate[bot]",
         "previewIds": [],
         "components": []
       }
