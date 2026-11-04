@@ -1,230 +1,506 @@
 {
   "entries": [
     {
-      "annotatedBasename": "SectionFlowRemoteReflow_section_flow_remote_one_capture_two_widths-2f2b8d2c.a11y.png",
-      "cleanBasename": "SectionFlowRemoteReflow_section_flow_remote_one_capture_two_widths-2f2b8d2c.png",
+      "annotatedBasename": "Screen_CardActions_CardStyle_card_actions_card_style-98b4ebf2.a11y.png",
+      "cleanBasename": "Screen_CardActions_CardStyle_card_actions_card_style-98b4ebf2.png",
+      "findings": [],
+      "functionName": "Screen_CardActions_CardStyle",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardActions_CardStyle_card actions \u00b7 card style",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Screen_DashboardView_ThemeStyle_dashboard_theme-307a8ffb.a11y.png",
+      "cleanBasename": "Screen_DashboardView_ThemeStyle_dashboard_theme-307a8ffb.png",
+      "findings": [],
+      "functionName": "Screen_DashboardView_ThemeStyle",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardView_ThemeStyle_dashboard \u00b7 theme",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Screen_MoreInfo_Numeric_CardStyle_more_info_numeric_card_style-c36e21b7.a11y.png",
+      "cleanBasename": "Screen_MoreInfo_Numeric_CardStyle_more_info_numeric_card_style-c36e21b7.png",
+      "findings": [],
+      "functionName": "Screen_MoreInfo_Numeric_CardStyle",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_MoreInfo_Numeric_CardStyle_more info \u00b7 numeric \u00b7 card style",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Screen_MoreInfo_OnOff_CardStyle_more_info_on_off_card_style-154b8d7c.a11y.png",
+      "cleanBasename": "Screen_MoreInfo_OnOff_CardStyle_more_info_on_off_card_style-154b8d7c.png",
       "findings": [
         {
-          "boundsInScreen": "53,1373,286,1499",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Kitchen, Off\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "21,90,1100,158",
+          "boundsInScreen": "84,1462,169,1504",
           "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"\ud83d\udcf7 Live view\" is identical to that of 1 other item(s).",
+          "message": "This non-clickable item's speakable text: \"09:25\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
         },
         {
-          "boundsInScreen": "58,2161,311,2213",
+          "boundsInScreen": "63,924,182,1040",
           "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Temperature\" is identical to that of 1 other item(s).",
+          "message": "This non-clickable item's speakable text: \"On\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
-        },
+        }
+      ],
+      "functionName": "Screen_MoreInfo_OnOff_CardStyle",
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_MoreInfo_OnOff_CardStyle_more info \u00b7 on_off \u00b7 card style",
+      "rendersDir": "app",
+      "sourceFile": "src/main/kotlin/ee/schimke/terrazzo/previews/ScreenPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Kit_Aurora_Dark_kit_Aurora_dark-5d68506a.a11y.png",
+      "cleanBasename": "Kit_Aurora_Dark_kit_Aurora_dark-5d68506a.png",
+      "findings": [
         {
-          "boundsInScreen": "21,200,550,497",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Front (driveway)\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "401,1231,527,1357",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Kitchen, Target temperature +\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "595,789,721,915",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Downstairs, Target temperature \u2212\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "53,1112,519,1491",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Heating, Kitchen, Heat \u00b7 21.8 \u00b0C, 22.0 \u00b0C\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "603,670,1069,1049",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Idle, Downstairs, Heat \u00b7 22.8 \u00b0C, 21.8 \u00b0C\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "53,1695,519,1821",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Downstairs humidity, 45 %\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "58,2292,657,2329",
+          "boundsInScreen": "137,161,246,201",
           "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Outside \u00b7 Upstairs \u00b7 Downstairs \u00b7 Kitchen\" is identical to that of 3 other item(s).",
+          "message": "This non-clickable item's speakable text: \"Locked\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
-        },
+        }
+      ],
+      "functionName": "Kit_Aurora_Dark",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ThemeKitPreviewsKt.Kit_Aurora_Dark_kit_ Aurora (dark)",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/ThemeKitPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Kit_Aurora_Light_kit_Aurora_light-8ce398be.a11y.png",
+      "cleanBasename": "Kit_Aurora_Light_kit_Aurora_light-8ce398be.png",
+      "findings": [
         {
-          "boundsInScreen": "45,789,171,915",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Upstairs, Target temperature \u2212\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "603,1695,1069,1821",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Kitchen temp, 21.8 \u00b0C\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "21,539,1100,607",
+          "boundsInScreen": "137,161,246,201",
           "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"\ud83c\udfe0 Indoor climate\" is identical to that of 1 other item(s).",
+          "message": "This non-clickable item's speakable text: \"Locked\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
-        },
+        }
+      ],
+      "functionName": "Kit_Aurora_Light",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ThemeKitPreviewsKt.Kit_Aurora_Light_kit_ Aurora (light)",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/ThemeKitPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Kit_Cockpit_kit_Cockpit-af28b668.a11y.png",
+      "cleanBasename": "Kit_Cockpit_kit_Cockpit-af28b668.png",
+      "findings": [
         {
-          "boundsInScreen": "53,670,519,1049",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Idle, Upstairs, Heat \u00b7 22.8 \u00b0C, 22.7 \u00b0C\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "58,2403,234,2455",
+          "boundsInScreen": "137,161,252,201",
           "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Humidity\" is identical to that of 1 other item(s).",
+          "message": "This non-clickable item's speakable text: \"Locked\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
-        },
+        }
+      ],
+      "functionName": "Kit_Cockpit",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ThemeKitPreviewsKt.Kit_Cockpit_kit_ Cockpit",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/ThemeKitPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Kit_Engineered_Dark_kit_Engineered_dark-4ea374d0.a11y.png",
+      "cleanBasename": "Kit_Engineered_Dark_kit_Engineered_dark-4ea374d0.png",
+      "findings": [
         {
-          "boundsInScreen": "571,200,1100,497",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Back\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "836,931,1069,1057",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Downstairs, Heat\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "286,1373,519,1499",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Kitchen, Heat\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "53,1538,519,1664",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Upstairs humidity, 41 %\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "951,789,1077,915",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Downstairs, Target temperature +\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "21,2025,1100,2093",
+          "boundsInScreen": "137,161,251,201",
           "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"\ud83d\udcca Indoor vs outdoor (48h)\" is identical to that of 1 other item(s).",
+          "message": "This non-clickable item's speakable text: \"Locked\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
-        },
+        }
+      ],
+      "functionName": "Kit_Engineered_Dark",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ThemeKitPreviewsKt.Kit_Engineered_Dark_kit_ Engineered (dark)",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/ThemeKitPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Kit_Engineered_Light_kit_Engineered_light-c3f4f079.a11y.png",
+      "cleanBasename": "Kit_Engineered_Light_kit_Engineered_light-c3f4f079.png",
+      "findings": [
         {
-          "boundsInScreen": "45,1231,171,1357",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Kitchen, Target temperature \u2212\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "401,789,527,915",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Upstairs, Target temperature +\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "53,1852,1069,1978",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Kitchen humidity, 58 %\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "53,931,286,1057",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Upstairs, Off\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "603,1096,1069,1222",
-          "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Upstairs temp, 22.8 \u00b0C\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.view.View"
-        },
-        {
-          "boundsInScreen": "58,2229,536,2276",
+          "boundsInScreen": "137,161,251,201",
           "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"No history in the last 2 days\" is identical to that of 3 other item(s).",
+          "message": "This non-clickable item's speakable text: \"Locked\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
-        },
+        }
+      ],
+      "functionName": "Kit_Engineered_Light",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ThemeKitPreviewsKt.Kit_Engineered_Light_kit_ Engineered (light)",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/ThemeKitPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Kit_EvDash_Dark_kit_EV_Dash_dark-6ccd7c2a.a11y.png",
+      "cleanBasename": "Kit_EvDash_Dark_kit_EV_Dash_dark-6ccd7c2a.png",
+      "findings": [
         {
-          "boundsInScreen": "603,931,836,1057",
+          "boundsInScreen": "137,161,246,201",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"Locked\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        }
+      ],
+      "functionName": "Kit_EvDash_Dark",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ThemeKitPreviewsKt.Kit_EvDash_Dark_kit_ EV Dash (dark)",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/ThemeKitPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Kit_EvDash_Light_kit_EV_Dash_light-6a3f93a1.a11y.png",
+      "cleanBasename": "Kit_EvDash_Light_kit_EV_Dash_light-6a3f93a1.png",
+      "findings": [
+        {
+          "boundsInScreen": "137,161,246,201",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"Locked\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        }
+      ],
+      "functionName": "Kit_EvDash_Light",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ThemeKitPreviewsKt.Kit_EvDash_Light_kit_ EV Dash (light)",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/ThemeKitPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Kit_Keys_kit_keys_across_themes-5af19492.a11y.png",
+      "cleanBasename": "Kit_Keys_kit_keys_across_themes-5af19492.png",
+      "findings": [
+        {
+          "boundsInScreen": "349,53,554,225",
           "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Downstairs, Off\" is identical to that of 1 other item(s).",
+          "message": "This clickable item's speakable text: \"Coffee maker, On\" is identical to that of 5 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "286,931,519,1057",
+          "boundsInScreen": "650,53,807,225",
           "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Upstairs, Heat\" is identical to that of 1 other item(s).",
+          "message": "This clickable item's speakable text: \"Front door, Locked\" is identical to that of 5 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         },
         {
-          "boundsInScreen": "603,1538,1069,1664",
+          "boundsInScreen": "132,53,258,225",
           "level": "WARNING",
-          "message": "This clickable item's speakable text: \"Downstairs temp, 22.8 \u00b0C\" is identical to that of 1 other item(s).",
+          "message": "This clickable item's speakable text: \"Kitchen, On\" is identical to that of 5 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.view.View"
         }
       ],
-      "functionName": "SectionFlowRemoteReflow",
+      "functionName": "Kit_Keys",
       "module": "previews",
-      "previewId": "ee.schimke.ha.previews.SectionFlexPreviewsKt.SectionFlowRemoteReflow_section flow remote \u2014 one capture, two widths",
+      "previewId": "ee.schimke.ha.previews.ThemeKitPreviewsKt.Kit_Keys_kit_ keys across themes",
       "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/SectionFlexPreviews.kt",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/ThemeKitPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Kit_LockEveryTheme_kit_lock_under_every_theme-f97affef.a11y.png",
+      "cleanBasename": "Kit_LockEveryTheme_kit_lock_under_every_theme-f97affef.png",
+      "findings": [],
+      "functionName": "Kit_LockEveryTheme",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ThemeKitPreviewsKt.Kit_LockEveryTheme_kit_ lock under every theme",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/ThemeKitPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "UberCommon_uber_common_cards-69d5ccb6.a11y.png",
+      "cleanBasename": "UberCommon_uber_common_cards-69d5ccb6.png",
+      "findings": [
+        {
+          "boundsInScreen": "347,335,568,382",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"Temperature\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        }
+      ],
+      "functionName": "UberCommon",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberCommonCardPreviewsKt.UberCommon_uber common cards",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberCommonCardPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "UberEverydayText_uber_text_cards-1a7faf6d.a11y.png",
+      "cleanBasename": "UberEverydayText_uber_text_cards-1a7faf6d.png",
+      "findings": [],
+      "functionName": "UberEverydayText",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberEverydayTextPreviewsKt.UberEverydayText_uber text cards",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberEverydayTextPreviews.kt",
       "variant": ""
     }
   ],
   "scope": "changed-previews",
   "uncheckedPreviews": [
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.CardDebugPreviewsKt.DataGridOverlayPreview_Data grid overlay"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_01_HomeLight_play \u00b7 phone \u00b7 home (light)"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_02_HomeDark_play \u00b7 phone \u00b7 home (dark)"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_03_Discovery_play \u00b7 phone \u00b7 discovery"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_04_Picker_play \u00b7 phone \u00b7 picker"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Phone_05_WatchCards_play \u00b7 phone \u00b7 watch cards"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Tablet10_01_Home_play \u00b7 10-inch \u00b7 home"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Play_Tablet7_01_Home_play \u00b7 7-inch \u00b7 home"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardActions_Placed_card actions \u00b7 placed"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardActions_card actions"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardDisabled_card disabled"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardHistory_ThemeStyle_card history \u00b7 theme"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardHistory_card history"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardStyle_Skins_card style \u00b7 skins"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_CardStyle_card style"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardEditor_Selected_dashboard editor \u00b7 card selected"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardEditor_dashboard editor"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardPicker_ThemeStyle_dashboard picker \u00b7 theme"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardPicker_dashboard picker"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardSelection_Settings_dashboard selection \u00b7 settings"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardSelection_Signin_dashboard selection \u00b7 signin"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardSelection_ThemeStyle_dashboard selection \u00b7 theme"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_Connecting_top bar \u00b7 360dp \u00b7 connecting"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_Failed_top bar \u00b7 360dp \u00b7 failed"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_LongTitle_top bar \u00b7 360dp \u00b7 long title"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_Narrow_top bar \u00b7 360dp \u00b7 switcher"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_Paused_top bar \u00b7 360dp \u00b7 paused"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_Phone_top bar \u00b7 412dp \u00b7 switcher"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardTopBar_SingleReadOnly_top bar \u00b7 360dp \u00b7 single dashboard, read only"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardView_PhoneLandscapeMedium_dashboard view \u00b7 phone landscape medium"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_DashboardView_dashboard view"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Discovery_LiveDemo_discovery \u00b7 live demo"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Discovery_ThemeStyle_discovery \u00b7 theme"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Discovery_discovery"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Logs_Dark_logs \u00b7 dark"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Logs_Empty_logs \u00b7 empty"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Logs_logs"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_ManagePinned_Empty_manage pinned \u00b7 empty"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_ManagePinned_manage pinned"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_MoreInfo_LightControls_more info \u00b7 light controls"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_MoreInfo_Numeric_ThemeStyle_more info \u00b7 numeric \u00b7 theme"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_MoreInfo_Numeric_more info \u00b7 numeric"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_MoreInfo_OnOff_Dark_more info \u00b7 on_off \u00b7 dark"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_MoreInfo_OnOff_more info \u00b7 on_off"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_MoreInfo_ThermostatControls_more info \u00b7 thermostat controls"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_AppTheme_settings \u00b7 app theme"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_Assistants_settings \u00b7 assistants"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_CardStylesOnWatch_settings \u00b7 card styles on a watch"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_CardStylesToInstall_settings \u00b7 card styles to install"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_CardStyles_settings \u00b7 card styles"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_ThemeStyle_settings \u00b7 theme"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_UsageSharing_settings \u00b7 usage sharing"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Settings_settings"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_SyncDiagnostics_sync diagnostics"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Widgets_Installed_widgets \u00b7 installed"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Widgets_ThemeStyle_widgets \u00b7 theme"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Widgets_Watch_widgets \u00b7 watch"
+    },
+    {
+      "module": "app",
+      "previewId": "ee.schimke.terrazzo.previews.ScreenPreviewsKt.Screen_Widgets_widgets"
+    },
     {
       "module": "previews",
       "previewId": "ee.schimke.ha.previews.AmbientCardPreviewsKt.Ambient_Entities_ClassicLight_ambient \u2014 entities, classic light"
@@ -1403,6 +1679,10 @@
     },
     {
       "module": "previews",
+      "previewId": "ee.schimke.ha.previews.SectionFlexPreviewsKt.SectionFlowRemoteReflow_section flow remote \u2014 one capture, two widths"
+    },
+    {
+      "module": "previews",
       "previewId": "ee.schimke.ha.previews.SectionFlexPreviewsKt.SectionFlowRemoteTablet_section flow remote \u2014 tablet"
     },
     {
@@ -1708,14 +1988,6 @@
     {
       "module": "previews",
       "previewId": "ee.schimke.ha.previews.ToggleSwitchPreviewsKt.ToggleInitial_On_toggle initial=on"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.UberCommonCardPreviewsKt.UberCommon_uber common cards"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.UberEverydayTextPreviewsKt.UberEverydayText_uber text cards"
     },
     {
       "module": "previews",
