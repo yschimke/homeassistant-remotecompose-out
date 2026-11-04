@@ -1,45 +1,10 @@
 # Accessibility Report
 
-_Auto-generated from `compose-preview/a11y/pr`. 16 preview(s) across 2 module(s) · 0 error(s) · 3 warning(s) · 10 info._
+_Auto-generated from `compose-preview/a11y/pr`. 13 preview(s) across 1 module(s) · 0 error(s) · 12 warning(s) · 20 info._
 
 Browse inline; image URLs are pinned to the commit SHA on the baseline branch so links keep resolving after merge.
 
-## app
-
-### `Screen_CardActions_CardStyle`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_CardActions_CardStyle_card_actions_card_style-98b4ebf2.a11y.png" width="400" />
-
-_No findings._
-
-### `Screen_DashboardView_ThemeStyle`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_DashboardView_ThemeStyle_dashboard_theme-307a8ffb.a11y.png" width="400" />
-
-_No findings._
-
-### `Screen_MoreInfo_Numeric_CardStyle`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_MoreInfo_Numeric_CardStyle_more_info_numeric_card_style-c36e21b7.a11y.png" width="400" />
-
-_No findings._
-
-### `Screen_MoreInfo_OnOff_CardStyle`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_MoreInfo_OnOff_CardStyle_more_info_on_off_card_style-154b8d7c.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "09:25" is identical to that of 1 other item(s). |
-| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "On" is identical to that of 1 other item(s). |
-
 ## previews
-
-### `ImageUrl_Probe_Frame0`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/ImageUrl_Probe_Frame0_image_url_probe_frame_0-1464413f.png" width="400" />
-
-_No findings._
 
 ### `Kit_Aurora_Dark`
 
@@ -57,6 +22,15 @@ _No findings._
 |--:|---|---|---|---|
 | 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Locked" is identical to that of 1 other item(s). |
 
+### `Kit_ButtonChips`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Kit_ButtonChips_kit_button_chips_across_themes-ada8306d.a11y.png" width="400" />
+
+| # | Level | Rule | Element | Message |
+|--:|---|---|---|---|
+| 1 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Coffee, On" is identical to that of 5 other item(s). |
+| 2 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Kitchen, On" is identical to that of 5 other item(s). |
+
 ### `Kit_Cockpit`
 
 <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Kit_Cockpit_kit_Cockpit-af28b668.a11y.png" width="400" />
@@ -64,6 +38,32 @@ _No findings._
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
 | 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Locked" is identical to that of 1 other item(s). |
+
+### `Kit_Dials`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Kit_Dials_kit_dials_across_themes-d1d76dcd.a11y.png" width="400" />
+
+| # | Level | Rule | Element | Message |
+|--:|---|---|---|---|
+| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "21.4°C" is identical to that of 3 other item(s). |
+| 2 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Decrease" is identical to that of 3 other item(s). |
+| 3 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Heating" is identical to that of 3 other item(s). |
+| 4 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Living Room" is identical to that of 3 other item(s). |
+| 5 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "↑ 22°C" is identical to that of 3 other item(s). |
+| 6 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Increase" is identical to that of 3 other item(s). |
+
+### `Kit_DialsSoft`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Kit_DialsSoft_kit_dials_across_themes_soft-57083dfd.a11y.png" width="400" />
+
+| # | Level | Rule | Element | Message |
+|--:|---|---|---|---|
+| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "21.4°C" is identical to that of 3 other item(s). |
+| 2 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Decrease" is identical to that of 3 other item(s). |
+| 3 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Heating" is identical to that of 3 other item(s). |
+| 4 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Living Room" is identical to that of 3 other item(s). |
+| 5 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "↑ 22°C" is identical to that of 3 other item(s). |
+| 6 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Increase" is identical to that of 3 other item(s). |
 
 ### `Kit_Engineered_Dark`
 
@@ -113,16 +113,17 @@ _No findings._
 
 _No findings._
 
-### `UberCommon`
+### `Kit_MediaKeys`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/UberCommon_uber_common_cards-69d5ccb6.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Kit_MediaKeys_kit_media_keys_across_themes-b2bf9f77.a11y.png" width="400" />
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Temperature" is identical to that of 1 other item(s). |
-
-### `UberEverydayText`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/UberEverydayText_uber_text_cards-1a7faf6d.a11y.png" width="400" />
-
-_No findings._
+| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Good Charlotte" is identical to that of 3 other item(s). |
+| 2 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Pause" is identical to that of 3 other item(s). |
+| 3 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Office speaker" is identical to that of 3 other item(s). |
+| 4 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Next" is identical to that of 3 other item(s). |
+| 5 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Previous" is identical to that of 3 other item(s). |
+| 6 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "1:15" is identical to that of 3 other item(s). |
+| 7 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "The Anthem" is identical to that of 6 other item(s). |
+| 8 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "2:56" is identical to that of 3 other item(s). |
