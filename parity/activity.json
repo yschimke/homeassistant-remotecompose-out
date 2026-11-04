@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-04T17:41:26.686Z",
+  "generatedAt": "2026-11-04T21:19:45.998Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "a3e1e1d0c132f4e89433aa23a2d2c2e056359f85",
+        "subject": "fix(deps): update androidx (#1456)",
+        "at": "2026-11-04T20:37:17Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "4dfb053f82d618a16b2feeeb828f29fede21ebba",
+        "subject": "feat: scoped agent sessions for a dashboard, a section or a card, with no request box (#1450)",
+        "at": "2026-11-04T20:34:00Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "4bfd6450d90692456da632a1e01dc239e03c072b",
+        "subject": "fix: capture matrix launcher cells at their size, so they don't show the error triangle (#1454)",
+        "at": "2026-11-04T18:34:29Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "2669b8faf6f1d9bc27b62f6d103d9dba70f7af60",
         "subject": "chore(deps): update yschimke/compose-ai-tools digest to 6cc5a2d (#1453)",
@@ -459,30 +483,6 @@
         "subject": "chore(deps): update yschimke/compose-ai-tools digest to 1a449c0 (#1383)",
         "at": "2026-10-31T15:47:32Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "be2864d39c83d8af12d2586579f8238008c28ffd",
-        "subject": "chore(main): release 0.1.78 (#1376)",
-        "at": "2026-10-31T15:32:11Z",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "86702b85ad29ec3d4b9ff95a37773c2b30fe9309",
-        "subject": "feat: release the card design add-on with each Terrazzo release (#1382)",
-        "at": "2026-10-31T13:06:56Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "7d35520adf67c4d1ecec80430e41a2bbe31d9cce",
-        "subject": "feat(quest): improve spatial room controls (#1381)",
-        "at": "2026-10-31T12:51:53Z",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
