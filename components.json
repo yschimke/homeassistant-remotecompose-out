@@ -3987,6 +3987,114 @@
             "overloads": []
         },
         {
+            "canonicalId": "previews/ee.schimke.ha.previews.ThemeKitPreviewsKt.KitCardSheet",
+            "componentIds": [],
+            "symbol": {
+                "jvmOwner": "ee.schimke.ha.previews.ThemeKitPreviewsKt",
+                "callable": "ee.schimke.ha.previews.KitCardSheet",
+                "name": "KitCardSheet",
+                "origin": "PROJECT",
+                "jvmName": "KitCardSheet",
+                "descriptor": "(Ljava/util/List;ILjava/util/List;Lee/schimke/ha/model/HaSnapshot;Landroidx/compose/runtime/Composer;I)V",
+                "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/ThemeKitPreviews.kt",
+                "docs": "unavailable",
+                "receiver": null
+            },
+            "parameters": [
+                {
+                    "name": "themes",
+                    "type": "List<Pair<HaUberTheme, Boolean>>",
+                    "typeFqn": "kotlin.collections.List",
+                    "hasDefault": false,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "columns",
+                    "type": "Int",
+                    "typeFqn": "kotlin.Int",
+                    "hasDefault": false,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "cards",
+                    "type": "List<String>",
+                    "typeFqn": "kotlin.collections.List",
+                    "hasDefault": false,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "snapshot",
+                    "type": "HaSnapshot",
+                    "typeFqn": "ee.schimke.ha.model.HaSnapshot",
+                    "hasDefault": false,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                }
+            ],
+            "slots": [],
+            "bindings": [
+                {
+                    "previewId": "ee.schimke.ha.previews.ThemeKitPreviewsKt.Kit_ButtonChips_kit__button_chips_across_themes",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.ThemeKitPreviewsKt.Kit_DialsSoft_kit__dials_across_themes__soft_",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.ThemeKitPreviewsKt.Kit_Dials_kit__dials_across_themes",
+                    "componentId": null,
+                    "group": null
+                },
+                {
+                    "previewId": "ee.schimke.ha.previews.ThemeKitPreviewsKt.Kit_MediaKeys_kit__media_keys_across_themes",
+                    "componentId": null,
+                    "group": null
+                }
+            ],
+            "code": {
+                "call": null,
+                "imports": [],
+                "refusedReason": "not public or internal, so a generated file cannot call it",
+                "requiredOptIns": [],
+                "androidxOptIns": []
+            },
+            "signatureKnown": true,
+            "callableFromAnotherFile": false,
+            "hasTypeParameters": false,
+            "hasContextReceivers": false,
+            "overloadsCollided": false,
+            "builder": null,
+            "requiredOptIns": [],
+            "androidxOptIns": [],
+            "overloads": []
+        },
+        {
             "canonicalId": "previews/ee.schimke.ha.previews.ThemeKitPreviewsKt.KitShowcase",
             "componentIds": [],
             "symbol": {
