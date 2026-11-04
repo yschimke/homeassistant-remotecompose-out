@@ -1,11 +1,91 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-03T23:24:10.892Z",
+  "generatedAt": "2026-11-04T11:18:45.197Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "fd3721de49985d345486d34899705ea05ed02451",
+        "subject": "feat: complete theme kits — Wear container, charts, text surfaces and layouts as slots (#1442)",
+        "at": "2026-11-04T11:10:26Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "c20d8c0073a9e4f1a152ea1f131e6fc2dc583124",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 532127f (#1444)",
+        "at": "2026-11-04T11:03:41Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "b20d4284528fd2ce57b47f0f118cdbea23a192d5",
+        "subject": "feat: resume cloud agent requests from any client and review drafts on the dashboard (#1443)",
+        "at": "2026-11-04T10:35:06Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "3d21c2a492cebf15fedce943db9bbd7838dd5e48",
+        "subject": "feat: move the control dial, media transport keys and button icon chip into slots (#1440)",
+        "at": "2026-11-04T08:12:15Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "afb9dd33fc9b4135b1be6f489315fddb96b846b9",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to da53825 (#1441)",
+        "at": "2026-11-04T07:51:17Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "6e65d8dfa6914ac786e4a03693f26670ec9a7242",
+        "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.268 (#1439)",
+        "at": "2026-11-04T01:26:58Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "e9d00bb5ab0d71bee8fefae7224bcc0e9f26f9e8",
+        "subject": "feat: theme kits — component grammar and slots so cards and themes stop multiplying (#1430)",
+        "at": "2026-11-04T00:44:45Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "898384e5fc8678c20d9e1fe4c3aff83a1b8d11ae",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to f428d5a (#1438)",
+        "at": "2026-11-04T00:34:56Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "8b109b61ceeab788e18339dfd95b560eb57fef5c",
+        "subject": "docs: route /api/agent/* to the design server on ha.coo.ee (#1437)",
+        "at": "2026-11-04T00:23:12Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "11c2ebd1cf1999d1cdf35be40e716c65536cbff5",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 70221c6 (#1436)",
+        "at": "2026-11-03T23:38:52Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "a45a56bd949369d0928cff31765a8a7d7eef4151",
         "subject": "fix(deps): update meta.spatial to v0.15.0 (#1433)",
@@ -403,86 +483,6 @@
         "subject": "chore(deps): update github-actions (major) (#1280)",
         "at": "2026-10-31T09:05:26Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "8c2290d5b5ffbc5f5aff84d3610ab272b82a965a",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 6bdf11c (#1373)",
-        "at": "2026-10-31T09:02:23Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ace4a38ecee73b1b42f4e49da486bacd9b5bd5f2",
-        "subject": "chore(main): release 0.1.77 (#1363)",
-        "at": "2026-10-31T08:41:52Z",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "8e54a74fe95e634081f41b5e820804c9a98a7d52",
-        "subject": "fix(widgets): keep the 1.1 header on API 37 launcher documents (#1372)",
-        "at": "2026-10-31T08:31:46Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "bbecfbb7a83ce761f4ccc69b7178ec5c86dc1aab",
-        "subject": "fix(app): declare ARCore optional so Play accepts the release bundle (#1371)",
-        "at": "2026-10-31T08:25:39Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "eff8351a9f4b818394d1172471477dcd530130d5",
-        "subject": "chore(deps): update compose-ai-tools (#1370)",
-        "at": "2026-10-31T08:18:53Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "409d28e58ba3a6d7421f08095bf40af1d4f75139",
-        "subject": "feat(wear): list the watch widgets as Terrazzo (#1368)",
-        "at": "2026-10-31T08:02:57Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a45f15f58e8069a7d0beb65db3a97482dca9b5fb",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to ebc67c5 (#1369)",
-        "at": "2026-10-31T07:49:58Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ac4972de033c52ad6816e7620427545512eca7a2",
-        "subject": "feat(wear): a simpler watch that only views, and findable watch widgets (#1367)",
-        "at": "2026-10-31T03:09:38Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "5b7c6abf244b36fec2e4a96a49fabf8e47e61f5b",
-        "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.266 (#1366)",
-        "at": "2026-10-31T02:28:53Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "f3c1aa0a80a2bdc13a4876254c8b9ab4bf34592f",
-        "subject": "fix(wear): stop dropping every live stream frame on the watch (#1365)",
-        "at": "2026-10-31T02:11:51Z",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
