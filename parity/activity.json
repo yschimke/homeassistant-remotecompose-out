@@ -1,11 +1,59 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-04T21:19:45.998Z",
+  "generatedAt": "2026-11-04T22:22:05.532Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "7d23874edc6ff85286a4b1028159a5140b604c1d",
+        "subject": "chore(main): release 0.1.83 (#1435)",
+        "at": "2026-11-04T21:25:19Z",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "71ddf2812aba140973a92abc959df9f0352aec20",
+        "subject": "fix: keep the agent session's field two lines tall in a short window (#1462)",
+        "at": "2026-11-04T21:24:58Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "68972bfd1c00f3eb4c3bdaea21e0cd921c99d78d",
+        "subject": "fix: check the agent session's keyboard test against the settled keyboard (#1461)",
+        "at": "2026-11-04T21:04:33Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "90ba93f950983f642025f97ce9494a8317c05843",
+        "subject": "docs: add Meta Quest headset acceptance checklist (#1434)",
+        "at": "2026-11-04T20:42:00Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "5361e6210cb4cbc6251f7004736afd7e264895ba",
+        "subject": "ci: print why a keyboard regression test failed in the job log (#1458)",
+        "at": "2026-11-04T20:40:21Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "5c1563d9715cce19f9ec3c6cafdc20540242a107",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 9ad62e9 (#1455)",
+        "at": "2026-11-04T20:37:21Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "a3e1e1d0c132f4e89433aa23a2d2c2e056359f85",
         "subject": "fix(deps): update androidx (#1456)",
@@ -434,54 +482,6 @@
         "sha": "0c2308772e398f4ae3b4510ddfecaad179b54d6f",
         "subject": "fix(deps): update compose-ai-tools (#1391)",
         "at": "2026-11-01T10:59:43Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "8abcd4202158a477fd57af6fb8952ce958e2030f",
-        "subject": "fix(deps): update dependency ee.schimke.composeai:data-render-core to v3.39.1 (#1390)",
-        "at": "2026-11-01T10:42:30Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "5de3dcbfb085d1baf5f4c56048d021870823be17",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to b00bb0a (#1387)",
-        "at": "2026-11-01T10:07:03Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "3c86c87908dcfb373b854257c8ededa0a2ec79e1",
-        "subject": "chore(deps): update openai/codex-action action to v1.13 (#1388)",
-        "at": "2026-11-01T10:05:57Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "e17fd896d1803657518513a8682f1ba171e2b4ff",
-        "subject": "ci(preview-audit): finish audits reliably and add API-billed agents (#1384)",
-        "at": "2026-11-01T09:53:36Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "52b3fb61e79bb9edc1289e5595ce774aeea7bd78",
-        "subject": "fix(deps): update compose-ai-tools (#1385)",
-        "at": "2026-11-01T09:30:13Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ab2be6e46c1687bbaf9fafc6d5053343dc466748",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 1a449c0 (#1383)",
-        "at": "2026-10-31T15:47:32Z",
         "author": "renovate[bot]",
         "previewIds": [],
         "components": []
