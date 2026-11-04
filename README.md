@@ -1,6 +1,6 @@
 # Accessibility Report
 
-_Auto-generated from `compose-preview/a11y/pr`. 15 preview(s) across 2 module(s) · 0 error(s) · 3 warning(s) · 10 info._
+_Auto-generated from `compose-preview/a11y/pr`. 16 preview(s) across 2 module(s) · 0 error(s) · 3 warning(s) · 10 info._
 
 Browse inline; image URLs are pinned to the commit SHA on the baseline branch so links keep resolving after merge.
 
@@ -34,6 +34,12 @@ _No findings._
 | 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "On" is identical to that of 1 other item(s). |
 
 ## previews
+
+### `ImageUrl_Probe_Frame0`
+
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/ImageUrl_Probe_Frame0_image_url_probe_frame_0-1464413f.png" width="400" />
+
+_No findings._
 
 ### `Kit_Aurora_Dark`
 
