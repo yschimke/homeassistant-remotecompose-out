@@ -1,94 +1,44 @@
 # Accessibility Report
 
-_Auto-generated from `compose-preview/a11y/pr`. 11 preview(s) across 3 module(s) · 5 error(s) · 0 warning(s) · 5 info._
+_Auto-generated from `compose-preview/a11y/pr`. 1 preview(s) across 1 module(s) · 0 error(s) · 23 warning(s) · 7 info._
 
 Browse inline; image URLs are pinned to the commit SHA on the baseline branch so links keep resolving after merge.
 
-## app
-
-### `Screen_CardActions_CardStyle`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_CardActions_CardStyle_card_actions_card_style-98b4ebf2.a11y.png" width="400" />
-
-_No findings._
-
-### `Screen_MoreInfo_Numeric_CardStyle`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_MoreInfo_Numeric_CardStyle_more_info_numeric_card_style-c36e21b7.a11y.png" width="400" />
-
-_No findings._
-
-### `Screen_MoreInfo_OnOff_CardStyle`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/app/Screen_MoreInfo_OnOff_CardStyle_more_info_on_off_card_style-154b8d7c.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "09:25" is identical to that of 1 other item(s). |
-| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "On" is identical to that of 1 other item(s). |
-
 ## previews
 
-### `Kit_LockEveryTheme`
+### `SectionFlowRemoteReflow`
 
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Kit_LockEveryTheme_kit_lock_under_every_theme-f97affef.a11y.png" width="400" />
-
-_No findings._
-
-### `Kit_RuggedDigital_Dark`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Kit_RuggedDigital_Dark_kit_Rugged_Digital_dark-475e61b1.a11y.png" width="400" />
+<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/SectionFlowRemoteReflow_section_flow_remote_one_capture_two_widths-2f2b8d2c.a11y.png" width="400" />
 
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Locked" is identical to that of 1 other item(s). |
-
-### `Kit_RuggedDigital_Light`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Kit_RuggedDigital_Light_kit_Rugged_Digital_light-96c04b1e.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Locked" is identical to that of 1 other item(s). |
-
-### `Kit_RuggedDigital_Watch_Dark`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Kit_RuggedDigital_Watch_Dark_kit_Rugged_Digital_watch_dark-ade14a60.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | ERROR | SpeakableTextPresentCheck | androidx.compose.remote.player.view.RemoteComposePlayer | This item may not have a label readable by screen readers. |
-| 2 | ERROR | TouchTargetSizeCheck | android.view.View | This item's width is 44dp. Consider making the width of this touch target 48dp or larger. |
-
-### `Kit_RuggedDigital_Watch_Light`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/Kit_RuggedDigital_Watch_Light_kit_Rugged_Digital_watch_light-23b21c87.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | ERROR | SpeakableTextPresentCheck | androidx.compose.remote.player.view.RemoteComposePlayer | This item may not have a label readable by screen readers. |
-| 2 | ERROR | TouchTargetSizeCheck | android.view.View | This item's width is 44dp. Consider making the width of this touch target 48dp or larger. |
-
-### `UberCommon`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/UberCommon_uber_common_cards-69d5ccb6.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Temperature" is identical to that of 1 other item(s). |
-
-### `UberEverydayText`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/UberEverydayText_uber_text_cards-1a7faf6d.a11y.png" width="400" />
-
-_No findings._
-
-## wear
-
-### `WearDashboardPreview_RuggedDigital` · `wearos_small_round`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/wear/WearDashboardPreview_RuggedDigital_Wear_dashboard_Rugged_Digital-592bd306.a11y.png" width="400" />
-
-| # | Level | Rule | Element | Message |
-|--:|---|---|---|---|
-| 1 | ERROR | TouchTargetSizeCheck | android.view.View | This item's height is 47dp. Consider making the height of this touch target 48dp or larger. |
+| 1 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Kitchen, Off" is identical to that of 1 other item(s). |
+| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "📷 Live view" is identical to that of 1 other item(s). |
+| 3 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Temperature" is identical to that of 1 other item(s). |
+| 4 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Front (driveway)" is identical to that of 1 other item(s). |
+| 5 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Kitchen, Target temperature +" is identical to that of 1 other item(s). |
+| 6 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Downstairs, Target temperature −" is identical to that of 1 other item(s). |
+| 7 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Heating, Kitchen, Heat · 21.8 °C, 22.0 °C" is identical to that of 1 other item(s). |
+| 8 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Idle, Downstairs, Heat · 22.8 °C, 21.8 °C" is identical to that of 1 other item(s). |
+| 9 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Downstairs humidity, 45 %" is identical to that of 1 other item(s). |
+| 10 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Outside · Upstairs · Downstairs · Kitchen" is identical to that of 3 other item(s). |
+| 11 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Upstairs, Target temperature −" is identical to that of 1 other item(s). |
+| 12 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Kitchen temp, 21.8 °C" is identical to that of 1 other item(s). |
+| 13 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "🏠 Indoor climate" is identical to that of 1 other item(s). |
+| 14 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Idle, Upstairs, Heat · 22.8 °C, 22.7 °C" is identical to that of 1 other item(s). |
+| 15 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "Humidity" is identical to that of 1 other item(s). |
+| 16 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Back" is identical to that of 1 other item(s). |
+| 17 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Downstairs, Heat" is identical to that of 1 other item(s). |
+| 18 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Kitchen, Heat" is identical to that of 1 other item(s). |
+| 19 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Upstairs humidity, 41 %" is identical to that of 1 other item(s). |
+| 20 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Downstairs, Target temperature +" is identical to that of 1 other item(s). |
+| 21 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "📊 Indoor vs outdoor (48h)" is identical to that of 1 other item(s). |
+| 22 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Kitchen, Target temperature −" is identical to that of 1 other item(s). |
+| 23 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Upstairs, Target temperature +" is identical to that of 1 other item(s). |
+| 24 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Kitchen humidity, 58 %" is identical to that of 1 other item(s). |
+| 25 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Upstairs, Off" is identical to that of 1 other item(s). |
+| 26 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Upstairs temp, 22.8 °C" is identical to that of 1 other item(s). |
+| 27 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "No history in the last 2 days" is identical to that of 3 other item(s). |
+| 28 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Downstairs, Off" is identical to that of 1 other item(s). |
+| 29 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Upstairs, Heat" is identical to that of 1 other item(s). |
+| 30 | WARNING | DuplicateSpeakableTextCheck | android.view.View | This clickable item's speakable text: "Downstairs temp, 22.8 °C" is identical to that of 1 other item(s). |
