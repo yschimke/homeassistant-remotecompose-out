@@ -2,13 +2,51 @@
   "entries": [
     {
       "annotatedBasename": "",
-      "cleanBasename": "ImageUrl_Probe_Frame0_image_url_probe_frame_0-1464413f.png",
+      "cleanBasename": "ImageUrl_Probe_Frame1_image_url_probe_frame_1-97608c2e.png",
       "findings": [],
-      "functionName": "ImageUrl_Probe_Frame0",
+      "functionName": "ImageUrl_Probe_Frame1",
       "module": "previews",
-      "previewId": "ee.schimke.ha.previews.ImagePreviewsKt.ImageUrl_Probe_Frame0_image-url probe frame=0",
+      "previewId": "ee.schimke.ha.previews.ImagePreviewsKt.ImageUrl_Probe_Frame1_image-url probe frame=1",
       "rendersDir": "previews",
       "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/ImagePreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Kit_RuggedDigital_Dark_kit_Rugged_Digital_dark-475e61b1.a11y.png",
+      "cleanBasename": "Kit_RuggedDigital_Dark_kit_Rugged_Digital_dark-475e61b1.png",
+      "findings": [
+        {
+          "boundsInScreen": "137,161,246,201",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"Locked\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        }
+      ],
+      "functionName": "Kit_RuggedDigital_Dark",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ThemeKitPreviewsKt.Kit_RuggedDigital_Dark_kit_ Rugged Digital (dark)",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/ThemeKitPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Kit_RuggedDigital_Light_kit_Rugged_Digital_light-96c04b1e.a11y.png",
+      "cleanBasename": "Kit_RuggedDigital_Light_kit_Rugged_Digital_light-96c04b1e.png",
+      "findings": [
+        {
+          "boundsInScreen": "137,161,246,201",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"Locked\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        }
+      ],
+      "functionName": "Kit_RuggedDigital_Light",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ThemeKitPreviewsKt.Kit_RuggedDigital_Light_kit_ Rugged Digital (light)",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/ThemeKitPreviews.kt",
       "variant": ""
     },
     {
@@ -47,6 +85,25 @@
       "previewId": "ee.schimke.ha.previews.ThemeKitPreviewsKt.Kit_RuggedDigital_Watch_Light_kit_ Rugged Digital watch (light)",
       "rendersDir": "previews",
       "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/ThemeKitPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "UberCommon_uber_common_cards-69d5ccb6.a11y.png",
+      "cleanBasename": "UberCommon_uber_common_cards-69d5ccb6.png",
+      "findings": [
+        {
+          "boundsInScreen": "347,335,568,382",
+          "level": "INFO",
+          "message": "This non-clickable item's speakable text: \"Temperature\" is identical to that of 1 other item(s).",
+          "type": "DuplicateSpeakableTextCheck",
+          "viewDescription": "android.widget.TextView"
+        }
+      ],
+      "functionName": "UberCommon",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.UberCommonCardPreviewsKt.UberCommon_uber common cards",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberCommonCardPreviews.kt",
       "variant": ""
     }
   ],
@@ -1134,7 +1191,7 @@
     },
     {
       "module": "previews",
-      "previewId": "ee.schimke.ha.previews.ImagePreviewsKt.ImageUrl_Probe_Frame1_image-url probe frame=1"
+      "previewId": "ee.schimke.ha.previews.ImagePreviewsKt.ImageUrl_Probe_Frame0_image-url probe frame=0"
     },
     {
       "module": "previews",
@@ -1343,14 +1400,6 @@
     {
       "module": "previews",
       "previewId": "ee.schimke.ha.previews.ThemeKitPreviewsKt.Kit_MediaKeys_kit_ media keys across themes"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.ThemeKitPreviewsKt.Kit_RuggedDigital_Dark_kit_ Rugged Digital (dark)"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.ThemeKitPreviewsKt.Kit_RuggedDigital_Light_kit_ Rugged Digital (light)"
     },
     {
       "module": "previews",
@@ -1607,10 +1656,6 @@
     {
       "module": "previews",
       "previewId": "ee.schimke.ha.previews.ToggleSwitchPreviewsKt.ToggleInitial_On_toggle initial=on"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.UberCommonCardPreviewsKt.UberCommon_uber common cards"
     },
     {
       "module": "previews",
