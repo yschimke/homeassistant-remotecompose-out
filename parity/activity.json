@@ -1,11 +1,51 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-05T09:28:03.850Z",
+  "generatedAt": "2026-11-05T14:12:28.344Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "f2b56989b4233f70e45ea4218e5d05e0f0a8bcc2",
+        "subject": "fix(rugged): bound the display window's scale by its box's width (#1481)",
+        "at": "2026-11-05T14:03:02Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "f7f4f4279690f9f57d162e46e13f328948e271ed",
+        "subject": "feat(rugged): LCD screens are the watch's display windows (#1478)",
+        "at": "2026-11-05T13:34:43Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "54502d5f5102ce2b6d81ea55556195bbc3953394",
+        "subject": "chore(deps): update amannn/action-semantic-pull-request action to v6.1.2 (#1479)",
+        "at": "2026-11-05T13:12:12Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "5d661457ab3cf729b57a419794bed2038a5f71a2",
+        "subject": "chore(main): release 0.1.85 (#1473)",
+        "at": "2026-11-05T12:51:34Z",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "7c9bcc47016d07a905c1c6af075bf0dc956963a1",
+        "subject": "feat: offer Play updates to testers at once, everyone else after a week (#1477)",
+        "at": "2026-11-05T10:59:07Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "c20fafe90ce773bbd0de6f274c4b3d5cd0de0c92",
         "subject": "fix(rugged): complication window chrome follows host theme roles (#1476)",
@@ -443,46 +483,6 @@
         "subject": "chore(deps): update compose-ai-tools (#1417)",
         "at": "2026-11-01T20:12:41Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "89a671d32dc9570d4dafc64fa4c651f19eb4cabd",
-        "subject": "ci(previews): use compose-ai-tools' reusable audit and release-diff workflows (#1416)",
-        "at": "2026-11-01T19:58:20Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ab61ff513b54472ef4e5ec4abc9ae4d98313900c",
-        "subject": "chore(deps): update yschimke/compose-ai-tools action to v2.83.0 (#1415)",
-        "at": "2026-11-01T18:56:20Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "99076c6e3f376d8f2ac7c1d6d19eafe4863ea42a",
-        "subject": "fix(deps): update compose-ai-tools (#1413)",
-        "at": "2026-11-01T18:38:45Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "74d0da4d3984e9a61d15ed6cbba9a7ef11a2cc9d",
-        "subject": "ci(preview-audit): use compose-ai-tools' preview-audit-jev action (#1414)",
-        "at": "2026-11-01T18:34:23Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "e6c812a30c50dbf2c28c88c8ba957e8c7bbb533c",
-        "subject": "ci(preview-audit): add a Jev agent with a vision recheck (#1412)",
-        "at": "2026-11-01T17:32:36Z",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
