@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-06T03:28:27.587Z",
+  "generatedAt": "2026-11-06T09:53:39.950Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "fdbff7e6b6f742fa3fae2651b4ef4482e2cf518d",
+        "subject": "fix(deps): rc-players 2.24.0 and Remote Compose 1.0.0-alpha23 (#1487)",
+        "at": "2026-11-06T09:36:08Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "fbfea4ce65b627ce651eae2c7e94eb4959f83e42",
         "subject": "fix(deps): update ktfmt.gradle to v0.28.0 (#1486)",
@@ -475,14 +483,6 @@
         "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.267 (#1424)",
         "at": "2026-11-03T05:32:59Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a1df41024da448d587218bef3858eee03ab3c2d1",
-        "subject": "feat: live agent sessions with join codes, presence and conversation (#1422)",
-        "at": "2026-11-03T01:08:49Z",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
