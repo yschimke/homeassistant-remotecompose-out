@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-06T17:37:54.944Z",
+  "generatedAt": "2026-11-06T20:05:22.026Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "118194d4a34a4ef0570b0a71f3157710cd8e8ac0",
+        "subject": "fix(deps): update dependency ee.schimke.composeai:rc-players-bom to v2.25.0 (#1495)",
+        "at": "2026-11-06T19:58:39Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "de47b4602a0f110dedb42a66d53bca8feb72bf70",
+        "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.269 (#1494)",
+        "at": "2026-11-06T19:52:09Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "ecbfcb5f61a13a7489c90e939cebb24fb4fa3487",
         "subject": "chore(deps): update gradle to v9.9.0 (#1492)",
@@ -467,22 +483,6 @@
         "subject": "chore(deps): update yschimke/compose-ai-tools digest to 29d191b (#1431)",
         "at": "2026-11-03T23:08:17Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "485650c07345569bba4c846cbdb2a07b9409e0da",
-        "subject": "chore(main): release 0.1.82 (#1427)",
-        "at": "2026-11-03T22:54:59Z",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ae4f3846d2a8b12d1faa815235e09f0a58cc54d2",
-        "subject": "feat: one flow for everyone: Ask your agent (#1429)",
-        "at": "2026-11-03T22:41:23Z",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
