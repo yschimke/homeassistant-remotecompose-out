@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-06T09:53:39.950Z",
+  "generatedAt": "2026-11-06T11:59:30.588Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "ac7e61b34faa11c59b4fdf4c63882b2a1899c7bf",
+        "subject": "feat: serve card fonts by URL from the design server (#1489)",
+        "at": "2026-11-06T11:52:16Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "a28ee400ac8f8810a751e5d294e4d564398f845d",
+        "subject": "fix(deps): update compose-ai-tools (#1488)",
+        "at": "2026-11-06T10:07:36Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "fdbff7e6b6f742fa3fae2651b4ef4482e2cf518d",
         "subject": "fix(deps): rc-players 2.24.0 and Remote Compose 1.0.0-alpha23 (#1487)",
@@ -467,22 +483,6 @@
         "subject": "chore(main): release 0.1.81 (#1423)",
         "at": "2026-11-03T06:53:59Z",
         "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "3f6bd1a561106292ae682c1e4a22ebea94f730ea",
-        "subject": "fix: include EGL for card design image publishing (#1421)",
-        "at": "2026-11-03T06:53:19Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "c0421ee0c4f05c29fc28cd5ac4ecd006fe9944d5",
-        "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.267 (#1424)",
-        "at": "2026-11-03T05:32:59Z",
-        "author": "renovate[bot]",
         "previewIds": [],
         "components": []
       }
