@@ -1,6 +1,6 @@
 {
     "formatVersion": "compose-preview-history/v1",
-    "generatedFrom": "dd9e91dd03553f97a3bf4cadc28d1cb59d70d6c5",
+    "generatedFrom": "ee29cb157af0160d18de0b18a1b6831de68b40e9",
     "previews": {
         "app/activity__InstallActivity": {
             "path": "renders/app/activity__InstallActivity.png",
@@ -6342,6 +6342,13 @@
             "path": "renders/ha-cards-catalog/RemoteButtonSticker-4371877d.png",
             "versions": [
                 {
+                    "blob": "775a6b7b13c149755478b5e57aee454d1c16f35f",
+                    "commit": "ee29cb157af0160d18de0b18a1b6831de68b40e9",
+                    "date": "2026-11-06T09:56:28Z",
+                    "sourceSha": "fdbff7e6",
+                    "commits": 1
+                },
+                {
                     "blob": "dde2df1257697e6329f2d6480709df695f90684f",
                     "commit": "7260ad419c6bc592075bda4dc9a2dc3f84dc646d",
                     "date": "2026-10-13T06:15:44Z",
@@ -6349,7 +6356,7 @@
                     "commits": 1
                 }
             ],
-            "observations": 1,
+            "observations": 2,
             "unstable": false,
             "flapCount": 0
         },
@@ -18885,6 +18892,15 @@
             "path": "renders/previews/ImageUrl_Probe_Frame1_image_url_probe_frame_1-97608c2e.png",
             "versions": [
                 {
+                    "blob": "e58c093a96e43a49a81c8ba2c88f3f57c68859e9",
+                    "commit": "ee29cb157af0160d18de0b18a1b6831de68b40e9",
+                    "date": "2026-11-06T09:56:28Z",
+                    "sourceSha": "fdbff7e6",
+                    "sinceCommit": "7260ad419c6bc592075bda4dc9a2dc3f84dc646d",
+                    "commits": 23,
+                    "occurrences": 23
+                },
+                {
                     "blob": "1213b875b15516a04b357abaef934f0cb682cb86",
                     "commit": "dd9e91dd03553f97a3bf4cadc28d1cb59d70d6c5",
                     "date": "2026-11-06T03:37:30Z",
@@ -18892,20 +18908,11 @@
                     "sinceCommit": "665b78324cb259a9083b84ba5a870c6b815df89d",
                     "commits": 22,
                     "occurrences": 22
-                },
-                {
-                    "blob": "e58c093a96e43a49a81c8ba2c88f3f57c68859e9",
-                    "commit": "df4ed988a26690c346b68d4a5858b49d3f39f54a",
-                    "date": "2026-11-04T18:41:58Z",
-                    "sourceSha": "4bfd6450",
-                    "sinceCommit": "7260ad419c6bc592075bda4dc9a2dc3f84dc646d",
-                    "commits": 22,
-                    "occurrences": 22
                 }
             ],
-            "observations": 44,
+            "observations": 45,
             "unstable": true,
-            "flapCount": 42
+            "flapCount": 43
         },
         "previews/ee.schimke.ha.previews.LovelaceCardPreviewKt.LovelaceCardPreview": {
             "path": "renders/previews/LovelaceCardPreview-252cb49c.png",
