@@ -170,9 +170,9 @@ The render task completed but no PNG was produced for these previews. Entries wi
 | `Screen_Settings_AppTheme · nixie` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Screen_Settings_AppTheme_settings_app_theme-a2996c6a_nixie.png" width="150" /> |
 | `Screen_Settings_AppTheme · trinitron` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Screen_Settings_AppTheme_settings_app_theme-a2996c6a_trinitron.png" width="150" /> |
 | `Screen_Settings_Assistants` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Screen_Settings_Assistants_settings_assistants-315fe373.png" width="150" /> |
-| `Screen_Settings_CardStylesOnWatch` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Screen_Settings_CardStylesOnWatch_settings_card_styles_on_a_watch-d6c9a800.png" width="150" /> |
 | `Screen_Settings_CardStylesToInstall` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Screen_Settings_CardStylesToInstall_settings_card_styles_to_install-b29fff7f.png" width="150" /> |
 | `Screen_Settings_CardStyles` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Screen_Settings_CardStyles_settings_card_styles-f2e3d1b3.png" width="150" /> |
+| `Screen_Settings_ClassicPalettes` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Screen_Settings_ClassicPalettes_settings_classic_palettes-cc3e36d0.png" width="150" /> |
 | `Screen_Settings_ThemeStyle · Material3` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Screen_Settings_ThemeStyle_settings_theme-c88045d9_Material3.png" width="150" /> |
 | `Screen_Settings_ThemeStyle · TerrazzoHome` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Screen_Settings_ThemeStyle_settings_theme-c88045d9_TerrazzoHome.png" width="150" /> |
 | `Screen_Settings_ThemeStyle · TerrazzoKiosk` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/app/Screen_Settings_ThemeStyle_settings_theme-c88045d9_TerrazzoKiosk.png" width="150" /> |
@@ -816,9 +816,9 @@ The render task completed but no PNG was produced for these previews. Entries wi
 | `TvMainActivity` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/tv/activity__TvMainActivity.png" width="150" /> |
 | `TvKioskPreview_Console` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/tv/TvKioskPreview_Console_TV_kiosk_Console_card_style-a5516ae5.png" width="150" /> |
 | `TvKioskPreview_Demo` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/tv/TvKioskPreview_Demo_TV_kiosk_demo-711d5c5d.png" width="150" /> |
-| `TvKioskPreview_HomePalette` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/tv/TvKioskPreview_HomePalette_TV_kiosk_Home_palette-b1e45ad5.png" width="150" /> |
 | `TvKioskPreview_Lcd` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/tv/TvKioskPreview_Lcd_TV_kiosk_LCD_card_style-71d5ac09.png" width="150" /> |
 | `TvKioskPreview_Live` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/tv/TvKioskPreview_Live_TV_kiosk_live-7c5c8e30.png" width="150" /> |
+| `TvKioskPreview_Material3` | <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/main/renders/tv/TvKioskPreview_Material3_TV_kiosk_Material_3_design-ec30660a.png" width="150" /> |
 
 ## wear
 
