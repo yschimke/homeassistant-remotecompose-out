@@ -1,11 +1,51 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-08T08:28:04.495Z",
+  "generatedAt": "2026-11-08T21:14:11.638Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "45c9ef66624cb87c7725e2fab33590b2399907ef",
+        "subject": "feat: add a desktop dashboard workspace and native commands (#1533)",
+        "at": "2026-11-08T21:06:45Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "a3bbc6dabb938e8831280cd5618340dc8545df65",
+        "subject": "fix(deps): update dependency ee.schimke.composeai:data-render-core to v3.40.0 (#1513)",
+        "at": "2026-11-08T11:11:12Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "e474cfa3ba1f3ddc0b5c27d7e33e35b625c617b0",
+        "subject": "ci(arch): fetch the release .deb with backoff before makepkg (#1531)",
+        "at": "2026-11-08T10:06:09Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "09fcec2a3c42aed0be5ae8e8e220ca2714ce9f1b",
+        "subject": "docs(web): link the Arch Linux install page from the home page (#1530)",
+        "at": "2026-11-08T09:08:23Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "7f6927b9ce78810684c7ea8de7114f0a17b50c61",
+        "subject": "chore(main): release 0.1.90 (#1525)",
+        "at": "2026-11-08T08:21:56Z",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "cddc439b85a18f72e975e057b57dbf7da5d5f3d7",
         "subject": "feat(desktop): add Home Assistant OAuth sign-in (#1528)",
@@ -443,46 +483,6 @@
         "subject": "fix(rugged): complication window chrome follows host theme roles (#1476)",
         "at": "2026-11-05T09:21:57Z",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "9cb1208ddc44c717da41189094dbc0012df48165",
-        "subject": "feat: trim the dashboard overflow menu (#1474)",
-        "at": "2026-11-05T08:58:40Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "c7d502e112cc90b9d7d4d392c22a3d239dad01b7",
-        "subject": "feat(rugged): draw complication windows after the GShark face's chamber recipe (#1475)",
-        "at": "2026-11-05T08:55:21Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "1693e97b3a7116f8c69f73f58ec84737c8b33322",
-        "subject": "feat: rugged complication cells are the watch's display windows, backlit when on (#1472)",
-        "at": "2026-11-05T08:13:24Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "8c20e711e8681d9d839944eb9e0eb187cb356eda",
-        "subject": "fix(deps): update compose-ai-tools (#1471)",
-        "at": "2026-11-05T07:34:57Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "482d82241a7a4648ea728b4890cd117030a51d7b",
-        "subject": "chore(main): release 0.1.84 (#1467)",
-        "at": "2026-11-05T07:00:11Z",
-        "author": "github-actions[bot]",
         "previewIds": [],
         "components": []
       }
