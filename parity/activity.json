@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-08T00:59:52.029Z",
+  "generatedAt": "2026-11-08T08:28:04.495Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "cddc439b85a18f72e975e057b57dbf7da5d5f3d7",
+        "subject": "feat(desktop): add Home Assistant OAuth sign-in (#1528)",
+        "at": "2026-11-08T08:21:42Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "c6b5541ca08c98e76d9f7c2ae611261458a04b25",
+        "subject": "fix: open card designs library from Home Assistant sidebar (#1529)",
+        "at": "2026-11-08T08:21:25Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "b71ee36cfb36be1ac8f5fc25a84c76188c9682e1",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 85b7707 (#1527)",
+        "at": "2026-11-08T04:49:47Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "ea39de6de888ea8bb618efe0fa076d7b511da4b0",
         "subject": "fix(deps): update compose-ai-tools (#1526)",
@@ -459,30 +483,6 @@
         "subject": "chore(main): release 0.1.84 (#1467)",
         "at": "2026-11-05T07:00:11Z",
         "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "da161de1169fdb41c7072af737c6992d2789d362",
-        "subject": "chore(deps): update ghcr.io/home-assistant/home-assistant docker tag to v2026.11.0 (#1470)",
-        "at": "2026-11-05T02:33:15Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "f765161782174dcf2150862a44dc6e568c408dce",
-        "subject": "fix: rugged clock reads as one time label; complication tiles are 48dp targets (#1469)",
-        "at": "2026-11-05T02:12:34Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "772749fcd9623cf004b39d4082dec562d1b22cae",
-        "subject": "chore(deps): update actions/setup-java action to v6.2.0 (#1468)",
-        "at": "2026-11-05T01:14:11Z",
-        "author": "renovate[bot]",
         "previewIds": [],
         "components": []
       }
