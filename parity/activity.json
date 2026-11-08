@@ -1,11 +1,75 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-07T21:51:38.962Z",
+  "generatedAt": "2026-11-08T00:59:52.029Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "ea39de6de888ea8bb618efe0fa076d7b511da4b0",
+        "subject": "fix(deps): update compose-ai-tools (#1526)",
+        "at": "2026-11-08T00:52:23Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "06b4fe800b2d8af0d503dfa2963ff2dca2422454",
+        "subject": "fix: wall polls on one card all get its change (#1524)",
+        "at": "2026-11-07T23:00:42Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "5983c899f32316ef9f008cc78f1106de26f90bc3",
+        "subject": "chore(main): release 0.1.89 (#1511)",
+        "at": "2026-11-07T22:33:57Z",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "afe22203c4e08afa34b0227d67ccab684e6acc27",
+        "subject": "feat(desktop): publish terrazzo-bin to a pacman repository on GitHub Releases (#1522)",
+        "at": "2026-11-07T22:33:32Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "ca4c1c2191bfee08ff5e4dea5a71c09d8cd9c0a9",
+        "subject": "feat: wall display fonts and scaled slot pictures (#1523)",
+        "at": "2026-11-07T22:33:19Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "6fd89b94cc999fd465895d0bb2ac2cb3dbdd7a57",
+        "subject": "feat: wall display API for non-browser displays (#1520)",
+        "at": "2026-11-07T22:18:22Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "03a052d2160e39a4025ce7ce77f7ad519baa8db3",
+        "subject": "fix: don't crash when the socket drops during the design-server check (#1519)",
+        "at": "2026-11-07T22:17:45Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "469e8322c13f0ca9ccb49a6156adec065a8b959f",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 227285a (#1521)",
+        "at": "2026-11-07T22:17:16Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "c2b32df5eb79f80a86fe333627fe9d50f0f10908",
         "subject": "fix(deps): update compose-ai-tools (#1512)",
@@ -418,70 +482,6 @@
         "sha": "772749fcd9623cf004b39d4082dec562d1b22cae",
         "subject": "chore(deps): update actions/setup-java action to v6.2.0 (#1468)",
         "at": "2026-11-05T01:14:11Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "339e0609a3646c4a38b671251843746131e5fc06",
-        "subject": "feat: rugged digital theme kit — a sports-watch display with ghosted segments (#1463)",
-        "at": "2026-11-05T00:52:42Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "eb34f511cce45dcde767488be0c09849daf82446",
-        "subject": "chore(deps): update dependency dev.zacsweers.metro to v1.5.2 (#1432)",
-        "at": "2026-11-04T22:34:21Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "7d23874edc6ff85286a4b1028159a5140b604c1d",
-        "subject": "chore(main): release 0.1.83 (#1435)",
-        "at": "2026-11-04T21:25:19Z",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "71ddf2812aba140973a92abc959df9f0352aec20",
-        "subject": "fix: keep the agent session's field two lines tall in a short window (#1462)",
-        "at": "2026-11-04T21:24:58Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "68972bfd1c00f3eb4c3bdaea21e0cd921c99d78d",
-        "subject": "fix: check the agent session's keyboard test against the settled keyboard (#1461)",
-        "at": "2026-11-04T21:04:33Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "90ba93f950983f642025f97ce9494a8317c05843",
-        "subject": "docs: add Meta Quest headset acceptance checklist (#1434)",
-        "at": "2026-11-04T20:42:00Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "5361e6210cb4cbc6251f7004736afd7e264895ba",
-        "subject": "ci: print why a keyboard regression test failed in the job log (#1458)",
-        "at": "2026-11-04T20:40:21Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "5c1563d9715cce19f9ec3c6cafdc20540242a107",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 9ad62e9 (#1455)",
-        "at": "2026-11-04T20:37:21Z",
         "author": "renovate[bot]",
         "previewIds": [],
         "components": []
