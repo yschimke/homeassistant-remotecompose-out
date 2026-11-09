@@ -36,10 +36,3 @@ Rendered from `:<module>:composePreviewRenderAndroidResources`. One row per (res
 | `mipmap/ic_launcher_round` | ADAPTIVE_ICON | `xhdpi` | SQUIRCLE | <img src="renders/demo-app/resources/mipmap/ic_launcher_round_xhdpi_SHAPE_squircle_themed-dark.png" height="96" /> |
 | `mipmap/ic_launcher_round` | ADAPTIVE_ICON | `xhdpi` | SQUIRCLE | <img src="renders/demo-app/resources/mipmap/ic_launcher_round_xhdpi_SHAPE_squircle_themed-light.png" height="96" /> |
 
-### wear
-
-| Resource | Type | Qualifiers | Shape | Image |
-|---|---|---|---|---|
-| `drawable/wear_slot_preview_large` | VECTOR | `xhdpi` | — | <img src="renders/wear/resources/drawable/wear_slot_preview_large_xhdpi.png" height="96" /> |
-| `drawable/wear_slot_preview_small` | VECTOR | `xhdpi` | — | <img src="renders/wear/resources/drawable/wear_slot_preview_small_xhdpi.png" height="96" /> |
-
