@@ -1,11 +1,91 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-09T06:53:50.630Z",
+  "generatedAt": "2026-11-10T21:21:24.069Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "1c2d03bf6a140da635ec57c1fbf30243aa1b0f07",
+        "subject": "chore(deps): update gradle to v9.9.1 (#1548)",
+        "at": "2026-11-10T21:13:17Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "4832a3f6df188d55b9dede930618995f82e4bcbf",
+        "subject": "chore(deps): update dependency puppeteer-core to v25.17.0 (#1549)",
+        "at": "2026-11-10T21:00:55Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "1550b0718cae4c6941ec26dd09ced43c5cc62ebb",
+        "subject": "feat: design server makes wall designs for small players (#1545)",
+        "at": "2026-11-10T09:04:20Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "dedcbc0d9f703740d59e11cabd633976bc04d0e6",
+        "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.271 (#1544)",
+        "at": "2026-11-10T05:22:29Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "a8e9d686b436d90a145da4c40d8cb6ce6ab72026",
+        "subject": "chore(deps): update ghcr.io/home-assistant/home-assistant docker tag to v2026.11.1 (#1542)",
+        "at": "2026-11-09T20:25:59Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "3df29241568fa4d325f1d5d247dc119e39f05d39",
+        "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.270 (#1541)",
+        "at": "2026-11-09T20:23:17Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "da39dc09d65bf3e32157b2b623f0a4c470380a41",
+        "subject": "chore(main): release 0.1.92 (#1536)",
+        "at": "2026-11-09T20:21:20Z",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "fe5e479835b43f9dd808cf39134721c22edec0c3",
+        "subject": "fix(wear): enable widget providers below API 37 (#1540)",
+        "at": "2026-11-09T20:04:05Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "b46bcfeb54a96d45fd6efdb7c456ae448fd22282",
+        "subject": "fix: register Compose graphics on the JVM before cards are captured (#1538)",
+        "at": "2026-11-09T15:08:55Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "9aa2fd7cf074caadd00bbc9d02f79bb7d1aa49b7",
+        "subject": "fix: push the home's sun to wall display cards, not daytime stubs (#1535)",
+        "at": "2026-11-09T10:09:18Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "3ddde5adb3e42db1250805f35c5b1f1a9aa26586",
         "subject": "chore(deps): pin dependency java-jdk to 21.0.13+9.0.lts (#1534)",
@@ -403,86 +483,6 @@
         "subject": "fix(deps): rc-players 2.24.0 and Remote Compose 1.0.0-alpha23 (#1487)",
         "at": "2026-11-06T09:36:08Z",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "fbfea4ce65b627ce651eae2c7e94eb4959f83e42",
-        "subject": "fix(deps): update ktfmt.gradle to v0.28.0 (#1486)",
-        "at": "2026-11-06T03:20:42Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a6ad187772bfa4c7fc4a4cb186a97e6965ea06b7",
-        "subject": "chore(deps): update softprops/action-gh-release action to v3.0.4 (#1484)",
-        "at": "2026-11-06T03:07:50Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "e651cb3b0639ac189dd4b2ea1b583a750940c655",
-        "subject": "chore(deps): update compose-ai-tools (#1485)",
-        "at": "2026-11-06T02:49:46Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "6d90d34da7e08a55babaf329d2bdb983533a19ec",
-        "subject": "chore(deps): update agp to v9.5.1 (#1483)",
-        "at": "2026-11-05T18:39:32Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "705f47f31fa94e2ba278c5b9c46f75a2fc9422b2",
-        "subject": "chore(deps): update dependency firebase-tools to v15.35.0 (#1460)",
-        "at": "2026-11-05T18:29:00Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "4d56e16f78fdb91f8f0f3b73dc8f652a648b3ab2",
-        "subject": "feat(rugged): section headings in the G-SPOT lettering's face (#1482)",
-        "at": "2026-11-05T18:08:37Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "f2b56989b4233f70e45ea4218e5d05e0f0a8bcc2",
-        "subject": "fix(rugged): bound the display window's scale by its box's width (#1481)",
-        "at": "2026-11-05T14:03:02Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "f7f4f4279690f9f57d162e46e13f328948e271ed",
-        "subject": "feat(rugged): LCD screens are the watch's display windows (#1478)",
-        "at": "2026-11-05T13:34:43Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "54502d5f5102ce2b6d81ea55556195bbc3953394",
-        "subject": "chore(deps): update amannn/action-semantic-pull-request action to v6.1.2 (#1479)",
-        "at": "2026-11-05T13:12:12Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "5d661457ab3cf729b57a419794bed2038a5f71a2",
-        "subject": "chore(main): release 0.1.85 (#1473)",
-        "at": "2026-11-05T12:51:34Z",
-        "author": "github-actions[bot]",
         "previewIds": [],
         "components": []
       }
