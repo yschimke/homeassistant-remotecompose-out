@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-10T21:21:24.069Z",
+  "generatedAt": "2026-11-11T23:34:33.213Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "d910b719c041e20ea8c9839b46caec3a68c98a12",
+        "subject": "fix(deps): update rc-players to 3.0.0, with the creation fork held at 2.29.0 (#1555)",
+        "at": "2026-11-11T23:25:20Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "1f1f6f4384bc356786af2a69f967180f5798bd46",
+        "subject": "feat: a small player's design is made for its profile, not level 6 (#1547)",
+        "at": "2026-11-11T20:32:38Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "95a8fef101f64b9f274427ddc073e88d3c0b7469",
+        "subject": "chore(deps): update node.js to v26 (#1550)",
+        "at": "2026-11-11T03:01:14Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "1c2d03bf6a140da635ec57c1fbf30243aa1b0f07",
         "subject": "chore(deps): update gradle to v9.9.1 (#1548)",
@@ -458,30 +482,6 @@
         "sha": "d3ad113b3939a2ed7e96b0287ba0dbeee13d962c",
         "subject": "feat(ha)!: publish the integration for the Home Assistant Marketplace (#1490)",
         "at": "2026-11-06T12:02:19Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ac7e61b34faa11c59b4fdf4c63882b2a1899c7bf",
-        "subject": "feat: serve card fonts by URL from the design server (#1489)",
-        "at": "2026-11-06T11:52:16Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a28ee400ac8f8810a751e5d294e4d564398f845d",
-        "subject": "fix(deps): update compose-ai-tools (#1488)",
-        "at": "2026-11-06T10:07:36Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "fdbff7e6b6f742fa3fae2651b4ef4482e2cf518d",
-        "subject": "fix(deps): rc-players 2.24.0 and Remote Compose 1.0.0-alpha23 (#1487)",
-        "at": "2026-11-06T09:36:08Z",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
