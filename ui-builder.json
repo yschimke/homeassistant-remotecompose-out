@@ -11,7 +11,7 @@
     "record": {
         "file": "components.json",
         "schemaVersion": 2,
-        "components": 23
+        "components": 24
     },
     "statusSemantics": {
         "platform": "remote-compose",
@@ -106,6 +106,9 @@
                 },
                 "ha-cards/entity-tile": {
                     "group": "Home Assistant"
+                },
+                "ha-cards/remote-material3-sticker": {
+                    "group": "Buttons"
                 }
             }
         },
@@ -2185,6 +2188,28 @@
                 "insertContent": null,
                 "shelfRole": null,
                 "exportProjection": null
+            },
+            "ha-cards/remote-material3-sticker": {
+                "record": "ha-cards-catalog/ee.schimke.ha.cards.RemoteMaterial3StickersKt.RemoteMaterial3Sticker",
+                "catalogId": null,
+                "displayName": null,
+                "canvas": null,
+                "canvasMapping": null,
+                "unrolled": null,
+                "nativeOnly": false,
+                "traits": [],
+                "slots": {},
+                "stateCallbacks": {},
+                "starter": {},
+                "variantProperty": null,
+                "variants": {},
+                "excluded": null,
+                "propertyCapabilities": null,
+                "slotCapabilities": null,
+                "modifierCapabilities": null,
+                "insertContent": null,
+                "shelfRole": null,
+                "exportProjection": null
             }
         },
         "designTokens": null
@@ -2279,6 +2304,11 @@
             "code": "component.excluded",
             "subject": "ha-cards/ha-card-sticker",
             "message": "kept off the builder's shelf: The sticker frame every preview in this module renders through, not a component."
+        },
+        {
+            "code": "component.canvas.unclaimed",
+            "subject": "ha-cards/remote-material3-sticker",
+            "message": "no canvas adapter claimed, so it draws as a placeholder. That is the honest default and needs no fixing; it is reported so a shelf drawn entirely in placeholders is visible rather than mysterious."
         },
         {
             "code": "component.policy.orphaned",

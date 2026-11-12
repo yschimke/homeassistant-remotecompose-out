@@ -6,12 +6,67 @@
         "contentDescription": "",
         "profiles": 513,
         "densityAtGeneration": 2.625,
-        "byteLength": 680
+        "byteLength": 690
     },
     "operations": [
         {
             "$unserialized": "Header",
             "text": "HEADER v1.1.0\n  DOC_WIDTH 441\n  DOC_HEIGHT 231\n  DOC_DENSITY_AT_GENERATION 2.625\n  DOC_CONTENT_DESCRIPTION \n  DOC_PROFILES 513\n  DENSITY_BEHAVIOR 0"
+        },
+        {
+            "type": "NamedVariable",
+            "varId": 42,
+            "varName": "USER:WearM3.background",
+            "varType": "COLOR_TYPE"
+        },
+        {
+            "type": "ColorConstant",
+            "color": "0xfffafafa",
+            "colorId": 42
+        },
+        {
+            "type": "NamedVariable",
+            "varId": 44,
+            "varName": "USER:host.ambient",
+            "varType": "FLOAT_TYPE"
+        },
+        {
+            "type": "FloatConstant",
+            "id": 44,
+            "value": 0.0
+        },
+        {
+            "type": "NamedVariable",
+            "varId": 47,
+            "varName": "USER:WearM3.onSurfaceVariant",
+            "varType": "COLOR_TYPE"
+        },
+        {
+            "type": "ColorConstant",
+            "color": "0xff8f8f8f",
+            "colorId": 47
+        },
+        {
+            "type": "NamedVariable",
+            "varId": 50,
+            "varName": "USER:sensor.living_room_temperature.state",
+            "varType": "STRING_TYPE"
+        },
+        {
+            "type": "TextData",
+            "textId": 50,
+            "text": "21.5 °C"
+        },
+        {
+            "type": "NamedVariable",
+            "varId": 51,
+            "varName": "USER:WearM3.onSurface",
+            "varType": "COLOR_TYPE"
+        },
+        {
+            "type": "ColorConstant",
+            "color": "0xff141414",
+            "colorId": 51
         },
         {
             "$tags": [
@@ -27,30 +82,8 @@
             "list": [
                 {
                     "type": "ColorConstant",
-                    "color": "0xfffafafa",
-                    "colorId": 42
-                },
-                {
-                    "type": "NamedVariable",
-                    "varId": 42,
-                    "varName": "USER:WearM3.background",
-                    "varType": "COLOR_TYPE"
-                },
-                {
-                    "type": "ColorConstant",
                     "color": "0xff000000",
                     "colorId": 43
-                },
-                {
-                    "type": "NamedVariable",
-                    "varId": 44,
-                    "varName": "USER:host.ambient",
-                    "varType": "FLOAT_TYPE"
-                },
-                {
-                    "type": "FloatConstant",
-                    "id": 44,
-                    "value": 0.0
                 },
                 {
                     "type": "ColorExpression",
@@ -74,7 +107,7 @@
                         "LAYOUT_COMPONENT"
                     ],
                     "type": "BOX",
-                    "id": -3,
+                    "id": -1000000,
                     "x": 0.0,
                     "y": 0.0,
                     "width": 0.0,
@@ -138,7 +171,7 @@
                                 "LAYOUT_COMPONENT"
                             ],
                             "type": "COLUMN",
-                            "id": -5,
+                            "id": -1000002,
                             "x": 0.0,
                             "y": 0.0,
                             "width": 42.0,
@@ -149,11 +182,6 @@
                                     "type": "TextData",
                                     "textId": 46,
                                     "text": "Living room"
-                                },
-                                {
-                                    "type": "ColorConstant",
-                                    "color": "0xff8f8f8f",
-                                    "colorId": 47
                                 },
                                 {
                                     "type": "ColorConstant",
@@ -200,7 +228,7 @@
                                         "LAYOUT_COMPONENT"
                                     ],
                                     "type": "CORE_TEXT",
-                                    "id": -7,
+                                    "id": -1000004,
                                     "x": 0.0,
                                     "y": 0.0,
                                     "width": 0.0,
@@ -232,30 +260,20 @@
                                     "fontStyle": 0,
                                     "fontWeight": 400.0,
                                     "fontFamilyId": -1,
-                                    "textAlign": 1
+                                    "textAlign": 5
                                 },
                                 {
                                     "$tags": [
                                         "LAYOUT_COMPONENT"
                                     ],
                                     "type": "ROW",
-                                    "id": -9,
+                                    "id": -1000006,
                                     "x": 0.0,
                                     "y": 0.0,
                                     "width": 0.0,
                                     "height": 0.0,
                                     "visibility": "VISIBLE",
                                     "list": [
-                                        {
-                                            "type": "TextData",
-                                            "textId": 50,
-                                            "text": "21.5 °C"
-                                        },
-                                        {
-                                            "type": "ColorConstant",
-                                            "color": "0xff141414",
-                                            "colorId": 51
-                                        },
                                         {
                                             "type": "ColorConstant",
                                             "color": "0xffe6e6e6",
@@ -290,7 +308,7 @@
                                                 "LAYOUT_COMPONENT"
                                             ],
                                             "type": "CORE_TEXT",
-                                            "id": -11,
+                                            "id": -1000008,
                                             "x": 0.0,
                                             "y": 0.0,
                                             "width": 0.0,
@@ -322,7 +340,7 @@
                                             "fontStyle": 0,
                                             "fontWeight": 600.0,
                                             "fontFamilyId": -1,
-                                            "textAlign": 1
+                                            "textAlign": 5
                                         }
                                     ],
                                     "paddingLeft": 0.0,

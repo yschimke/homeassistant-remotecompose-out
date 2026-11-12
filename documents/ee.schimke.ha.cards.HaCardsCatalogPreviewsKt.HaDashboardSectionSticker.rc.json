@@ -6,12 +6,78 @@
         "contentDescription": "",
         "profiles": 513,
         "densityAtGeneration": 2.625,
-        "byteLength": 3161
+        "byteLength": 3186
     },
     "operations": [
         {
             "$unserialized": "Header",
             "text": "HEADER v1.1.0\n  DOC_WIDTH 945\n  DOC_HEIGHT 525\n  DOC_DENSITY_AT_GENERATION 2.625\n  DOC_CONTENT_DESCRIPTION \n  DOC_PROFILES 513\n  DENSITY_BEHAVIOR 0"
+        },
+        {
+            "type": "NamedVariable",
+            "varId": 42,
+            "varName": "USER:WearM3.background",
+            "varType": "COLOR_TYPE"
+        },
+        {
+            "type": "ColorConstant",
+            "color": "0xfffafafa",
+            "colorId": 42
+        },
+        {
+            "type": "NamedVariable",
+            "varId": 44,
+            "varName": "USER:host.ambient",
+            "varType": "FLOAT_TYPE"
+        },
+        {
+            "type": "FloatConstant",
+            "id": 44,
+            "value": 0.0
+        },
+        {
+            "type": "NamedVariable",
+            "varId": 47,
+            "varName": "USER:WearM3.onSurface",
+            "varType": "COLOR_TYPE"
+        },
+        {
+            "type": "ColorConstant",
+            "color": "0xff141414",
+            "colorId": 47
+        },
+        {
+            "type": "NamedVariable",
+            "varId": 50,
+            "varName": "USER:WearM3.surfaceContainerHigh",
+            "varType": "COLOR_TYPE"
+        },
+        {
+            "type": "ColorConstant",
+            "color": "0xffffffff",
+            "colorId": 50
+        },
+        {
+            "type": "NamedVariable",
+            "varId": 52,
+            "varName": "USER:WearM3.outlineVariant",
+            "varType": "COLOR_TYPE"
+        },
+        {
+            "type": "ColorConstant",
+            "color": "0xffe0e0e0",
+            "colorId": 52
+        },
+        {
+            "type": "NamedVariable",
+            "varId": 93,
+            "varName": "USER:WearM3.onSurfaceVariant",
+            "varType": "COLOR_TYPE"
+        },
+        {
+            "type": "ColorConstant",
+            "color": "0xff8f8f8f",
+            "colorId": 93
         },
         {
             "$tags": [
@@ -27,30 +93,8 @@
             "list": [
                 {
                     "type": "ColorConstant",
-                    "color": "0xfffafafa",
-                    "colorId": 42
-                },
-                {
-                    "type": "NamedVariable",
-                    "varId": 42,
-                    "varName": "USER:WearM3.background",
-                    "varType": "COLOR_TYPE"
-                },
-                {
-                    "type": "ColorConstant",
                     "color": "0xff000000",
                     "colorId": 43
-                },
-                {
-                    "type": "NamedVariable",
-                    "varId": 44,
-                    "varName": "USER:host.ambient",
-                    "varType": "FLOAT_TYPE"
-                },
-                {
-                    "type": "FloatConstant",
-                    "id": 44,
-                    "value": 0.0
                 },
                 {
                     "type": "ColorExpression",
@@ -74,7 +118,7 @@
                         "LAYOUT_COMPONENT"
                     ],
                     "type": "BOX",
-                    "id": -3,
+                    "id": -1000000,
                     "x": 0.0,
                     "y": 0.0,
                     "width": 0.0,
@@ -138,7 +182,7 @@
                                 "LAYOUT_COMPONENT"
                             ],
                             "type": "BOX",
-                            "id": -5,
+                            "id": -1000002,
                             "x": 0.0,
                             "y": 0.0,
                             "width": 0.0,
@@ -169,7 +213,7 @@
                                         "LAYOUT_COMPONENT"
                                     ],
                                     "type": "COLUMN",
-                                    "id": -7,
+                                    "id": -1000004,
                                     "x": 0.0,
                                     "y": 0.0,
                                     "width": 0.0,
@@ -180,11 +224,6 @@
                                             "type": "TextData",
                                             "textId": 46,
                                             "text": "Kitchen"
-                                        },
-                                        {
-                                            "type": "ColorConstant",
-                                            "color": "0xff141414",
-                                            "colorId": 47
                                         },
                                         {
                                             "type": "ColorConstant",
@@ -209,29 +248,12 @@
                                             ]
                                         },
                                         {
-                                            "type": "ComponentValue",
-                                            "valueId": 50,
-                                            "componentValueType": "WIDTH",
-                                            "componentId": -7
-                                        },
-                                        {
-                                            "type": "ComponentValue",
-                                            "valueId": 51,
-                                            "componentValueType": "HEIGHT",
-                                            "componentId": -7
-                                        },
-                                        {
-                                            "type": "ColorConstant",
-                                            "color": "0xffffffff",
-                                            "colorId": 52
-                                        },
-                                        {
                                             "type": "ColorExpression",
-                                            "id": 53,
+                                            "id": 51,
                                             "mode": "TWEEN",
                                             "startColor": [
-                                                52.0,
-                                                52.0
+                                                50.0,
+                                                50.0
                                             ],
                                             "endColor": [
                                                 43.0,
@@ -244,42 +266,25 @@
                                         },
                                         {
                                             "type": "ColorConstant",
-                                            "color": "0xffe0e0e0",
-                                            "colorId": 54
-                                        },
-                                        {
-                                            "type": "ColorConstant",
                                             "color": "0xff3a3a3a",
-                                            "colorId": 55
+                                            "colorId": 53
                                         },
                                         {
                                             "type": "ColorExpression",
-                                            "id": 56,
+                                            "id": 54,
                                             "mode": "TWEEN",
                                             "startColor": [
-                                                54.0,
-                                                54.0
+                                                52.0,
+                                                52.0
                                             ],
                                             "endColor": [
-                                                55.0,
-                                                55.0
+                                                53.0,
+                                                53.0
                                             ],
                                             "tween": [
                                                 "@44",
                                                 "@44"
                                             ]
-                                        },
-                                        {
-                                            "type": "ComponentValue",
-                                            "valueId": 64,
-                                            "componentValueType": "WIDTH",
-                                            "componentId": -7
-                                        },
-                                        {
-                                            "type": "ComponentValue",
-                                            "valueId": 65,
-                                            "componentValueType": "HEIGHT",
-                                            "componentId": -7
                                         },
                                         {
                                             "$tags": [
@@ -305,7 +310,7 @@
                                                 "LAYOUT_COMPONENT"
                                             ],
                                             "type": "CORE_TEXT",
-                                            "id": -9,
+                                            "id": -1000006,
                                             "x": 0.0,
                                             "y": 0.0,
                                             "width": 0.0,
@@ -348,20 +353,32 @@
                                             "fontStyle": 0,
                                             "fontWeight": 500.0,
                                             "fontFamilyId": -1,
-                                            "textAlign": 1
+                                            "textAlign": 5
                                         },
                                         {
                                             "$tags": [
                                                 "LAYOUT_COMPONENT"
                                             ],
                                             "type": "BOX",
-                                            "id": -11,
+                                            "id": -1000008,
                                             "x": 0.0,
                                             "y": 0.0,
                                             "width": 0.0,
                                             "height": 63.0,
                                             "visibility": "VISIBLE",
                                             "list": [
+                                                {
+                                                    "type": "ComponentValue",
+                                                    "valueId": 55,
+                                                    "componentValueType": "WIDTH",
+                                                    "componentId": -1000008
+                                                },
+                                                {
+                                                    "type": "ComponentValue",
+                                                    "valueId": 56,
+                                                    "componentValueType": "HEIGHT",
+                                                    "componentId": -1000008
+                                                },
                                                 {
                                                     "$tags": [
                                                         "MODIFIER"
@@ -412,7 +429,7 @@
                                                             "y": 0.0,
                                                             "width": 0.0,
                                                             "height": 0.0,
-                                                            "colorId": 53,
+                                                            "colorId": 51,
                                                             "shapeType": "RECTANGLE"
                                                         },
                                                         {
@@ -426,7 +443,7 @@
                                                             "height": 0.0,
                                                             "borderWidth": 2.625,
                                                             "roundedCornerRadius": 31.5,
-                                                            "colorId": 56,
+                                                            "colorId": 54,
                                                             "shapeType": "ROUNDED_RECTANGLE",
                                                             "useLegacyDrawing": false
                                                         },
@@ -447,7 +464,7 @@
                                                         "LAYOUT_COMPONENT"
                                                     ],
                                                     "type": "BOX",
-                                                    "id": -13,
+                                                    "id": -1000010,
                                                     "x": 0.0,
                                                     "y": 0.0,
                                                     "width": 0.0,
@@ -488,7 +505,7 @@
                                                                 "LAYOUT_COMPONENT"
                                                             ],
                                                             "type": "ROW",
-                                                            "id": -15,
+                                                            "id": -1000012,
                                                             "x": 0.0,
                                                             "y": 0.0,
                                                             "width": 0.0,
@@ -507,7 +524,7 @@
                                                                         "LAYOUT_COMPONENT"
                                                                     ],
                                                                     "type": "BOX",
-                                                                    "id": -17,
+                                                                    "id": -1000014,
                                                                     "x": 0.0,
                                                                     "y": 0.0,
                                                                     "width": 24.0,
@@ -563,7 +580,7 @@
                                                                                 "LAYOUT_COMPONENT"
                                                                             ],
                                                                             "type": "CANVAS",
-                                                                            "id": -19,
+                                                                            "id": -1000016,
                                                                             "x": 0.0,
                                                                             "y": 0.0,
                                                                             "width": 0.0,
@@ -574,13 +591,13 @@
                                                                                     "type": "ComponentValue",
                                                                                     "valueId": 57,
                                                                                     "componentValueType": "WIDTH",
-                                                                                    "componentId": -19
+                                                                                    "componentId": -1000016
                                                                                 },
                                                                                 {
                                                                                     "type": "ComponentValue",
                                                                                     "valueId": 58,
                                                                                     "componentValueType": "HEIGHT",
-                                                                                    "componentId": -19
+                                                                                    "componentId": -1000016
                                                                                 },
                                                                                 {
                                                                                     "type": "MatrixSave"
@@ -841,7 +858,7 @@
                                                                         "LAYOUT_COMPONENT"
                                                                     ],
                                                                     "type": "COLUMN",
-                                                                    "id": -21,
+                                                                    "id": -1000018,
                                                                     "x": 0.0,
                                                                     "y": 0.0,
                                                                     "width": 26.25,
@@ -881,7 +898,7 @@
                                                                                 "LAYOUT_COMPONENT"
                                                                             ],
                                                                             "type": "CORE_TEXT",
-                                                                            "id": -23,
+                                                                            "id": -1000020,
                                                                             "x": 0.0,
                                                                             "y": 0.0,
                                                                             "width": 0.0,
@@ -913,14 +930,14 @@
                                                                             "fontStyle": 0,
                                                                             "fontWeight": 500.0,
                                                                             "fontFamilyId": -1,
-                                                                            "textAlign": 1
+                                                                            "textAlign": 5
                                                                         },
                                                                         {
                                                                             "$tags": [
                                                                                 "LAYOUT_COMPONENT"
                                                                             ],
                                                                             "type": "CORE_TEXT",
-                                                                            "id": -25,
+                                                                            "id": -1000022,
                                                                             "x": 0.0,
                                                                             "y": 0.0,
                                                                             "width": 0.0,
@@ -952,7 +969,7 @@
                                                                             "fontStyle": 0,
                                                                             "fontWeight": 400.0,
                                                                             "fontFamilyId": -1,
-                                                                            "textAlign": 1
+                                                                            "textAlign": 5
                                                                         }
                                                                     ],
                                                                     "paddingLeft": 26.25,
@@ -993,13 +1010,25 @@
                                                 "LAYOUT_COMPONENT"
                                             ],
                                             "type": "BOX",
-                                            "id": -27,
+                                            "id": -1000024,
                                             "x": 0.0,
                                             "y": 0.0,
                                             "width": 0.0,
                                             "height": 63.0,
                                             "visibility": "VISIBLE",
                                             "list": [
+                                                {
+                                                    "type": "ComponentValue",
+                                                    "valueId": 64,
+                                                    "componentValueType": "WIDTH",
+                                                    "componentId": -1000024
+                                                },
+                                                {
+                                                    "type": "ComponentValue",
+                                                    "valueId": 65,
+                                                    "componentValueType": "HEIGHT",
+                                                    "componentId": -1000024
+                                                },
                                                 {
                                                     "$tags": [
                                                         "MODIFIER"
@@ -1050,7 +1079,7 @@
                                                             "y": 0.0,
                                                             "width": 0.0,
                                                             "height": 0.0,
-                                                            "colorId": 53,
+                                                            "colorId": 51,
                                                             "shapeType": "RECTANGLE"
                                                         },
                                                         {
@@ -1064,7 +1093,7 @@
                                                             "height": 0.0,
                                                             "borderWidth": 2.625,
                                                             "roundedCornerRadius": 31.5,
-                                                            "colorId": 56,
+                                                            "colorId": 54,
                                                             "shapeType": "ROUNDED_RECTANGLE",
                                                             "useLegacyDrawing": false
                                                         },
@@ -1085,7 +1114,7 @@
                                                         "LAYOUT_COMPONENT"
                                                     ],
                                                     "type": "COLUMN",
-                                                    "id": -29,
+                                                    "id": -1000026,
                                                     "x": 0.0,
                                                     "y": 0.0,
                                                     "width": 0.0,
@@ -1104,7 +1133,7 @@
                                                                 "LAYOUT_COMPONENT"
                                                             ],
                                                             "type": "ROW",
-                                                            "id": -31,
+                                                            "id": -1000028,
                                                             "x": 0.0,
                                                             "y": 0.0,
                                                             "width": 0.0,
@@ -1135,7 +1164,7 @@
                                                                         "LAYOUT_COMPONENT"
                                                                     ],
                                                                     "type": "CANVAS",
-                                                                    "id": -33,
+                                                                    "id": -1000030,
                                                                     "x": 0.0,
                                                                     "y": 0.0,
                                                                     "width": 16.0,
@@ -1146,13 +1175,13 @@
                                                                             "type": "ComponentValue",
                                                                             "valueId": 66,
                                                                             "componentValueType": "WIDTH",
-                                                                            "componentId": -33
+                                                                            "componentId": -1000030
                                                                         },
                                                                         {
                                                                             "type": "ComponentValue",
                                                                             "valueId": 67,
                                                                             "componentValueType": "HEIGHT",
-                                                                            "componentId": -33
+                                                                            "componentId": -1000030
                                                                         },
                                                                         {
                                                                             "$tags": [
@@ -1440,7 +1469,7 @@
                                                                             "paintBundle": {
                                                                                 "type": "PaintBundle",
                                                                                 "operations": [
-                                                                                    "{type=ColorId, id=56}",
+                                                                                    "{type=ColorId, id=54}",
                                                                                     "{type=StrokeWidth, width={type=Value, value=0.0}}",
                                                                                     "{type=StrokeCap, cap=0}",
                                                                                     "{type=StrokeJoin, strokeJoin=0}",
@@ -1686,7 +1715,7 @@
                                                                         "LAYOUT_COMPONENT"
                                                                     ],
                                                                     "type": "COLUMN",
-                                                                    "id": -35,
+                                                                    "id": -1000032,
                                                                     "x": 0.0,
                                                                     "y": 0.0,
                                                                     "width": 0.0,
@@ -1722,7 +1751,7 @@
                                                                                 "LAYOUT_COMPONENT"
                                                                             ],
                                                                             "type": "CORE_TEXT",
-                                                                            "id": -37,
+                                                                            "id": -1000034,
                                                                             "x": 0.0,
                                                                             "y": 0.0,
                                                                             "width": 0.0,
@@ -1754,25 +1783,20 @@
                                                                             "fontStyle": 0,
                                                                             "fontWeight": 600.0,
                                                                             "fontFamilyId": -1,
-                                                                            "textAlign": 1
+                                                                            "textAlign": 5
                                                                         },
                                                                         {
                                                                             "$tags": [
                                                                                 "LAYOUT_COMPONENT"
                                                                             ],
                                                                             "type": "COLUMN",
-                                                                            "id": -39,
+                                                                            "id": -1000036,
                                                                             "x": 0.0,
                                                                             "y": 0.0,
                                                                             "width": 0.0,
                                                                             "height": 0.0,
                                                                             "visibility": "VISIBLE",
                                                                             "list": [
-                                                                                {
-                                                                                    "type": "ColorConstant",
-                                                                                    "color": "0xff8f8f8f",
-                                                                                    "colorId": 93
-                                                                                },
                                                                                 {
                                                                                     "type": "ColorConstant",
                                                                                     "color": "0xffa0a0a0",
@@ -1807,7 +1831,7 @@
                                                                                         "LAYOUT_COMPONENT"
                                                                                     ],
                                                                                     "type": "CORE_TEXT",
-                                                                                    "id": -41,
+                                                                                    "id": -1000038,
                                                                                     "x": 0.0,
                                                                                     "y": 0.0,
                                                                                     "width": 0.0,
@@ -1839,7 +1863,7 @@
                                                                                     "fontStyle": 0,
                                                                                     "fontWeight": 400.0,
                                                                                     "fontFamilyId": -1,
-                                                                                    "textAlign": 1
+                                                                                    "textAlign": 5
                                                                                 }
                                                                             ],
                                                                             "paddingLeft": 0.0,

@@ -6,12 +6,67 @@
         "contentDescription": "",
         "profiles": 513,
         "densityAtGeneration": 2.625,
-        "byteLength": 1199
+        "byteLength": 1209
     },
     "operations": [
         {
             "$unserialized": "Header",
             "text": "HEADER v1.1.0\n  DOC_WIDTH 567\n  DOC_HEIGHT 199\n  DOC_DENSITY_AT_GENERATION 2.625\n  DOC_CONTENT_DESCRIPTION \n  DOC_PROFILES 513\n  DENSITY_BEHAVIOR 0"
+        },
+        {
+            "type": "NamedVariable",
+            "varId": 42,
+            "varName": "USER:WearM3.background",
+            "varType": "COLOR_TYPE"
+        },
+        {
+            "type": "ColorConstant",
+            "color": "0xfffafafa",
+            "colorId": 42
+        },
+        {
+            "type": "NamedVariable",
+            "varId": 44,
+            "varName": "USER:host.ambient",
+            "varType": "FLOAT_TYPE"
+        },
+        {
+            "type": "FloatConstant",
+            "id": 44,
+            "value": 0.0
+        },
+        {
+            "type": "NamedVariable",
+            "varId": 56,
+            "varName": "USER:WearM3.outlineVariant",
+            "varType": "COLOR_TYPE"
+        },
+        {
+            "type": "ColorConstant",
+            "color": "0xffe0e0e0",
+            "colorId": 56
+        },
+        {
+            "type": "NamedVariable",
+            "varId": 61,
+            "varName": "USER:WearM3.onSurface",
+            "varType": "COLOR_TYPE"
+        },
+        {
+            "type": "ColorConstant",
+            "color": "0xff141414",
+            "colorId": 61
+        },
+        {
+            "type": "NamedVariable",
+            "varId": 65,
+            "varName": "USER:WearM3.onSurfaceVariant",
+            "varType": "COLOR_TYPE"
+        },
+        {
+            "type": "ColorConstant",
+            "color": "0xff8f8f8f",
+            "colorId": 65
         },
         {
             "$tags": [
@@ -27,30 +82,8 @@
             "list": [
                 {
                     "type": "ColorConstant",
-                    "color": "0xfffafafa",
-                    "colorId": 42
-                },
-                {
-                    "type": "NamedVariable",
-                    "varId": 42,
-                    "varName": "USER:WearM3.background",
-                    "varType": "COLOR_TYPE"
-                },
-                {
-                    "type": "ColorConstant",
                     "color": "0xff000000",
                     "colorId": 43
-                },
-                {
-                    "type": "NamedVariable",
-                    "varId": 44,
-                    "varName": "USER:host.ambient",
-                    "varType": "FLOAT_TYPE"
-                },
-                {
-                    "type": "FloatConstant",
-                    "id": 44,
-                    "value": 0.0
                 },
                 {
                     "type": "ColorExpression",
@@ -74,7 +107,7 @@
                         "LAYOUT_COMPONENT"
                     ],
                     "type": "BOX",
-                    "id": -3,
+                    "id": -1000000,
                     "x": 0.0,
                     "y": 0.0,
                     "width": 0.0,
@@ -138,7 +171,7 @@
                                 "LAYOUT_COMPONENT"
                             ],
                             "type": "COLUMN",
-                            "id": -5,
+                            "id": -1000002,
                             "x": 0.0,
                             "y": 0.0,
                             "width": 0.0,
@@ -157,7 +190,7 @@
                                         "LAYOUT_COMPONENT"
                                     ],
                                     "type": "ROW",
-                                    "id": -7,
+                                    "id": -1000004,
                                     "x": 0.0,
                                     "y": 0.0,
                                     "width": 0.0,
@@ -188,7 +221,7 @@
                                                 "LAYOUT_COMPONENT"
                                             ],
                                             "type": "CANVAS",
-                                            "id": -9,
+                                            "id": -1000006,
                                             "x": 0.0,
                                             "y": 0.0,
                                             "width": 48.0,
@@ -199,13 +232,13 @@
                                                     "type": "ComponentValue",
                                                     "valueId": 46,
                                                     "componentValueType": "WIDTH",
-                                                    "componentId": -9
+                                                    "componentId": -1000006
                                                 },
                                                 {
                                                     "type": "ComponentValue",
                                                     "valueId": 47,
                                                     "componentValueType": "HEIGHT",
-                                                    "componentId": -9
+                                                    "componentId": -1000006
                                                 },
                                                 {
                                                     "$tags": [
@@ -322,17 +355,6 @@
                                                         "duration": 0.45,
                                                         "easing": "CUBIC_STANDARD"
                                                     }
-                                                },
-                                                {
-                                                    "type": "ColorConstant",
-                                                    "color": "0xffe0e0e0",
-                                                    "colorId": 56
-                                                },
-                                                {
-                                                    "type": "NamedVariable",
-                                                    "varId": 56,
-                                                    "varName": "USER:WearM3.outlineVariant",
-                                                    "varType": "COLOR_TYPE"
                                                 },
                                                 {
                                                     "type": "ColorConstant",
@@ -504,7 +526,7 @@
                                                 "LAYOUT_COMPONENT"
                                             ],
                                             "type": "COLUMN",
-                                            "id": -11,
+                                            "id": -1000008,
                                             "x": 0.0,
                                             "y": 0.0,
                                             "width": 0.0,
@@ -515,11 +537,6 @@
                                                     "type": "TextData",
                                                     "textId": 60,
                                                     "text": "64 %"
-                                                },
-                                                {
-                                                    "type": "ColorConstant",
-                                                    "color": "0xff141414",
-                                                    "colorId": 61
                                                 },
                                                 {
                                                     "type": "ColorConstant",
@@ -567,7 +584,7 @@
                                                         "LAYOUT_COMPONENT"
                                                     ],
                                                     "type": "CORE_TEXT",
-                                                    "id": -13,
+                                                    "id": -1000010,
                                                     "x": 0.0,
                                                     "y": 0.0,
                                                     "width": 0.0,
@@ -599,14 +616,14 @@
                                                     "fontStyle": 0,
                                                     "fontWeight": 600.0,
                                                     "fontFamilyId": -1,
-                                                    "textAlign": 1
+                                                    "textAlign": 5
                                                 },
                                                 {
                                                     "$tags": [
                                                         "LAYOUT_COMPONENT"
                                                     ],
                                                     "type": "COLUMN",
-                                                    "id": -15,
+                                                    "id": -1000012,
                                                     "x": 0.0,
                                                     "y": 0.0,
                                                     "width": 0.0,
@@ -617,11 +634,6 @@
                                                             "type": "TextData",
                                                             "textId": 64,
                                                             "text": "Bathroom"
-                                                        },
-                                                        {
-                                                            "type": "ColorConstant",
-                                                            "color": "0xff8f8f8f",
-                                                            "colorId": 65
                                                         },
                                                         {
                                                             "type": "ColorConstant",
@@ -657,7 +669,7 @@
                                                                 "LAYOUT_COMPONENT"
                                                             ],
                                                             "type": "CORE_TEXT",
-                                                            "id": -17,
+                                                            "id": -1000014,
                                                             "x": 0.0,
                                                             "y": 0.0,
                                                             "width": 0.0,
@@ -689,7 +701,7 @@
                                                             "fontStyle": 0,
                                                             "fontWeight": 400.0,
                                                             "fontFamilyId": -1,
-                                                            "textAlign": 1
+                                                            "textAlign": 5
                                                         }
                                                     ],
                                                     "paddingLeft": 0.0,

@@ -14,6 +14,28 @@
             "text": "HEADER v1.1.0\n  DOC_WIDTH 189\n  DOC_HEIGHT 189\n  DOC_DENSITY_AT_GENERATION 2.625\n  DOC_CONTENT_DESCRIPTION \n  DOC_PROFILES 513\n  DENSITY_BEHAVIOR 0"
         },
         {
+            "type": "NamedVariable",
+            "varId": 42,
+            "varName": "USER:WearM3.background",
+            "varType": "COLOR_TYPE"
+        },
+        {
+            "type": "ColorConstant",
+            "color": "0xfffafafa",
+            "colorId": 42
+        },
+        {
+            "type": "NamedVariable",
+            "varId": 44,
+            "varName": "USER:host.ambient",
+            "varType": "FLOAT_TYPE"
+        },
+        {
+            "type": "FloatConstant",
+            "id": 44,
+            "value": 0.0
+        },
+        {
             "$tags": [
                 "COMPONENT"
             ],
@@ -27,30 +49,8 @@
             "list": [
                 {
                     "type": "ColorConstant",
-                    "color": "0xfffafafa",
-                    "colorId": 42
-                },
-                {
-                    "type": "NamedVariable",
-                    "varId": 42,
-                    "varName": "USER:WearM3.background",
-                    "varType": "COLOR_TYPE"
-                },
-                {
-                    "type": "ColorConstant",
                     "color": "0xff000000",
                     "colorId": 43
-                },
-                {
-                    "type": "NamedVariable",
-                    "varId": 44,
-                    "varName": "USER:host.ambient",
-                    "varType": "FLOAT_TYPE"
-                },
-                {
-                    "type": "FloatConstant",
-                    "id": 44,
-                    "value": 0.0
                 },
                 {
                     "type": "ColorExpression",
@@ -74,7 +74,7 @@
                         "LAYOUT_COMPONENT"
                     ],
                     "type": "BOX",
-                    "id": -3,
+                    "id": -1000000,
                     "x": 0.0,
                     "y": 0.0,
                     "width": 0.0,
@@ -143,7 +143,7 @@
                                 "LAYOUT_COMPONENT"
                             ],
                             "type": "BOX",
-                            "id": -5,
+                            "id": -1000002,
                             "x": 0.0,
                             "y": 0.0,
                             "width": 32.0,
@@ -199,7 +199,7 @@
                                         "LAYOUT_COMPONENT"
                                     ],
                                     "type": "CANVAS",
-                                    "id": -7,
+                                    "id": -1000004,
                                     "x": 0.0,
                                     "y": 0.0,
                                     "width": 0.0,
@@ -210,13 +210,13 @@
                                             "type": "ComponentValue",
                                             "valueId": 47,
                                             "componentValueType": "WIDTH",
-                                            "componentId": -7
+                                            "componentId": -1000004
                                         },
                                         {
                                             "type": "ComponentValue",
                                             "valueId": 48,
                                             "componentValueType": "HEIGHT",
-                                            "componentId": -7
+                                            "componentId": -1000004
                                         },
                                         {
                                             "type": "MatrixSave"

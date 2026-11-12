@@ -4,16 +4,16 @@
   "label": "Compose",
   "source": {
     "repo": "yschimke/homeassistant-remotecompose",
-    "ref": "ea199749babcbe5a93f1df3bee5da0d1555ad63a",
+    "ref": "a7769b30059af29aaf9fc98354f1ddd51064f48c",
     "module": ":ha-cards-catalog"
   },
-  "generatedAt": "2026-11-12T09:36:42.136Z",
+  "generatedAt": "2026-11-12T09:48:16.864Z",
   "mappings": [
     {
       "componentId": "HaCard/Tile",
       "figmaLayerName": "HaCard/Tile",
       "componentName": "HaCardTile",
-      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/ea199749babcbe5a93f1df3bee5da0d1555ad63a/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/a7769b30059af29aaf9fc98354f1ddd51064f48c/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
       "label": "Compose",
       "confidence": "MEDIUM",
       "previewName": "HaCardTileSticker",
@@ -51,7 +51,7 @@
         {
           "name": "modifier",
           "type": "RemoteModifier",
-          "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+          "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
           "hasDefault": true,
           "composableSlot": false,
           "composableSlotReceiver": null,
@@ -116,7 +116,7 @@
         {
           "name": "activeColor",
           "type": "RemoteColor",
-          "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+          "typeFqn": "ee.schimke.composeai.rccreation.compose.state.RemoteColor",
           "hasDefault": true,
           "composableSlot": false,
           "composableSlotReceiver": null,
@@ -129,7 +129,7 @@
         {
           "name": "inactiveColor",
           "type": "RemoteColor",
-          "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+          "typeFqn": "ee.schimke.composeai.rccreation.compose.state.RemoteColor",
           "hasDefault": true,
           "composableSlot": false,
           "composableSlotReceiver": null,
@@ -146,7 +146,7 @@
       "componentId": "HaCard/EntityTile",
       "figmaLayerName": "HaCard/EntityTile",
       "componentName": "HaCardEntityTile",
-      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/ea199749babcbe5a93f1df3bee5da0d1555ad63a/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardEntityTile.kt",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/a7769b30059af29aaf9fc98354f1ddd51064f48c/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardEntityTile.kt",
       "label": "Compose",
       "confidence": "MEDIUM",
       "previewName": "HaCardEntityTileSticker",
@@ -158,7 +158,7 @@
         {
           "name": "modifier",
           "type": "RemoteModifier",
-          "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+          "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
           "hasDefault": true,
           "composableSlot": false,
           "composableSlotReceiver": null,
@@ -240,7 +240,7 @@
       "componentId": "HaCard/EntityRow",
       "figmaLayerName": "HaCard/EntityRow",
       "componentName": "HaCardEntityRow",
-      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/ea199749babcbe5a93f1df3bee5da0d1555ad63a/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/a7769b30059af29aaf9fc98354f1ddd51064f48c/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
       "label": "Compose",
       "confidence": "MEDIUM",
       "previewName": "HaCardEntityRowSticker",
@@ -278,7 +278,7 @@
         {
           "name": "modifier",
           "type": "RemoteModifier",
-          "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+          "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
           "hasDefault": true,
           "composableSlot": false,
           "composableSlotReceiver": null,
@@ -343,7 +343,7 @@
         {
           "name": "activeColor",
           "type": "RemoteColor",
-          "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+          "typeFqn": "ee.schimke.composeai.rccreation.compose.state.RemoteColor",
           "hasDefault": true,
           "composableSlot": false,
           "composableSlotReceiver": null,
@@ -356,7 +356,7 @@
         {
           "name": "inactiveColor",
           "type": "RemoteColor",
-          "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+          "typeFqn": "ee.schimke.composeai.rccreation.compose.state.RemoteColor",
           "hasDefault": true,
           "composableSlot": false,
           "composableSlotReceiver": null,
@@ -373,7 +373,7 @@
       "componentId": "HaCard/Metric",
       "figmaLayerName": "HaCard/Metric",
       "componentName": "HaCardMetric",
-      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/ea199749babcbe5a93f1df3bee5da0d1555ad63a/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/a7769b30059af29aaf9fc98354f1ddd51064f48c/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
       "label": "Compose",
       "confidence": "MEDIUM",
       "previewName": "HaCardMetricSticker",
@@ -411,7 +411,7 @@
         {
           "name": "modifier",
           "type": "RemoteModifier",
-          "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+          "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
           "hasDefault": true,
           "composableSlot": false,
           "composableSlotReceiver": null,
@@ -450,7 +450,7 @@
         {
           "name": "valueColor",
           "type": "RemoteColor?",
-          "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+          "typeFqn": "ee.schimke.composeai.rccreation.compose.state.RemoteColor",
           "hasDefault": true,
           "composableSlot": false,
           "composableSlotReceiver": null,
@@ -467,7 +467,7 @@
       "componentId": "HaCard/StatusChip",
       "figmaLayerName": "HaCard/StatusChip",
       "componentName": "HaCardStatusChip",
-      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/ea199749babcbe5a93f1df3bee5da0d1555ad63a/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/a7769b30059af29aaf9fc98354f1ddd51064f48c/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
       "label": "Compose",
       "confidence": "MEDIUM",
       "previewName": "HaCardStatusChipSticker",
@@ -492,7 +492,7 @@
         {
           "name": "modifier",
           "type": "RemoteModifier",
-          "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+          "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
           "hasDefault": true,
           "composableSlot": false,
           "composableSlotReceiver": null,
@@ -531,7 +531,7 @@
         {
           "name": "activeColor",
           "type": "RemoteColor",
-          "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+          "typeFqn": "ee.schimke.composeai.rccreation.compose.state.RemoteColor",
           "hasDefault": true,
           "composableSlot": false,
           "composableSlotReceiver": null,
@@ -544,7 +544,7 @@
         {
           "name": "inactiveColor",
           "type": "RemoteColor",
-          "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+          "typeFqn": "ee.schimke.composeai.rccreation.compose.state.RemoteColor",
           "hasDefault": true,
           "composableSlot": false,
           "composableSlotReceiver": null,
@@ -561,7 +561,7 @@
       "componentId": "HaCard/Entities",
       "figmaLayerName": "HaCard/Entities",
       "componentName": "HaCardEntities",
-      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/ea199749babcbe5a93f1df3bee5da0d1555ad63a/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/a7769b30059af29aaf9fc98354f1ddd51064f48c/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
       "label": "Compose",
       "confidence": "MEDIUM",
       "previewName": "HaCardEntitiesSticker",
@@ -586,7 +586,7 @@
         {
           "name": "modifier",
           "type": "RemoteModifier",
-          "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+          "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
           "hasDefault": true,
           "composableSlot": false,
           "composableSlotReceiver": null,
@@ -720,7 +720,7 @@
       "componentId": "HaCard/Gauge",
       "figmaLayerName": "HaCard/Gauge",
       "componentName": "HaCardGauge",
-      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/ea199749babcbe5a93f1df3bee5da0d1555ad63a/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/a7769b30059af29aaf9fc98354f1ddd51064f48c/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
       "label": "Compose",
       "confidence": "MEDIUM",
       "previewName": "HaCardGaugeSticker",
@@ -758,7 +758,7 @@
         {
           "name": "modifier",
           "type": "RemoteModifier",
-          "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+          "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
           "hasDefault": true,
           "composableSlot": false,
           "composableSlotReceiver": null,
@@ -827,7 +827,7 @@
       "componentId": "HaCard/Thermostat",
       "figmaLayerName": "HaCard/Thermostat",
       "componentName": "HaCardThermostat",
-      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/ea199749babcbe5a93f1df3bee5da0d1555ad63a/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/a7769b30059af29aaf9fc98354f1ddd51064f48c/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
       "label": "Compose",
       "confidence": "MEDIUM",
       "previewName": "HaCardThermostatSticker",
@@ -865,7 +865,7 @@
         {
           "name": "modifier",
           "type": "RemoteModifier",
-          "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+          "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
           "hasDefault": true,
           "composableSlot": false,
           "composableSlotReceiver": null,
@@ -960,7 +960,7 @@
       "componentId": "HaCard/Glance",
       "figmaLayerName": "HaCard/Glance",
       "componentName": "HaCardGlance",
-      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/ea199749babcbe5a93f1df3bee5da0d1555ad63a/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/a7769b30059af29aaf9fc98354f1ddd51064f48c/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
       "label": "Compose",
       "confidence": "MEDIUM",
       "previewName": "HaCardGlanceSticker",
@@ -985,7 +985,7 @@
         {
           "name": "modifier",
           "type": "RemoteModifier",
-          "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+          "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
           "hasDefault": true,
           "composableSlot": false,
           "composableSlotReceiver": null,
@@ -1119,7 +1119,7 @@
       "componentId": "HaCard/Heading",
       "figmaLayerName": "HaCard/Heading",
       "componentName": "HaCardHeading",
-      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/ea199749babcbe5a93f1df3bee5da0d1555ad63a/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/a7769b30059af29aaf9fc98354f1ddd51064f48c/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
       "label": "Compose",
       "confidence": "MEDIUM",
       "previewName": "HaCardHeadingSticker",
@@ -1144,7 +1144,7 @@
         {
           "name": "modifier",
           "type": "RemoteModifier",
-          "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+          "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
           "hasDefault": true,
           "composableSlot": false,
           "composableSlotReceiver": null,
@@ -1174,7 +1174,7 @@
       "componentId": "HaCard/Button",
       "figmaLayerName": "HaCard/Button",
       "componentName": "HaCardButton",
-      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/ea199749babcbe5a93f1df3bee5da0d1555ad63a/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/a7769b30059af29aaf9fc98354f1ddd51064f48c/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
       "label": "Compose",
       "confidence": "MEDIUM",
       "previewName": "HaCardButtonSticker",
@@ -1199,7 +1199,7 @@
         {
           "name": "modifier",
           "type": "RemoteModifier",
-          "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+          "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
           "hasDefault": true,
           "composableSlot": false,
           "composableSlotReceiver": null,
@@ -1277,7 +1277,7 @@
         {
           "name": "activeColor",
           "type": "RemoteColor",
-          "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+          "typeFqn": "ee.schimke.composeai.rccreation.compose.state.RemoteColor",
           "hasDefault": true,
           "composableSlot": false,
           "composableSlotReceiver": null,
@@ -1290,7 +1290,7 @@
         {
           "name": "inactiveColor",
           "type": "RemoteColor",
-          "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+          "typeFqn": "ee.schimke.composeai.rccreation.compose.state.RemoteColor",
           "hasDefault": true,
           "composableSlot": false,
           "composableSlotReceiver": null,
@@ -1307,7 +1307,7 @@
       "componentId": "HaCard/Toggle",
       "figmaLayerName": "HaCard/Toggle",
       "componentName": "HaCardToggle",
-      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/ea199749babcbe5a93f1df3bee5da0d1555ad63a/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/a7769b30059af29aaf9fc98354f1ddd51064f48c/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
       "label": "Compose",
       "confidence": "MEDIUM",
       "previewName": "HaCardToggleSticker",
@@ -1332,7 +1332,7 @@
         {
           "name": "modifier",
           "type": "RemoteModifier",
-          "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+          "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
           "hasDefault": true,
           "composableSlot": false,
           "composableSlotReceiver": null,
@@ -1358,7 +1358,7 @@
         {
           "name": "activeColor",
           "type": "RemoteColor",
-          "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+          "typeFqn": "ee.schimke.composeai.rccreation.compose.state.RemoteColor",
           "hasDefault": true,
           "composableSlot": false,
           "composableSlotReceiver": null,
@@ -1371,7 +1371,7 @@
         {
           "name": "inactiveColor",
           "type": "RemoteColor",
-          "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+          "typeFqn": "ee.schimke.composeai.rccreation.compose.state.RemoteColor",
           "hasDefault": true,
           "composableSlot": false,
           "composableSlotReceiver": null,
@@ -1388,7 +1388,7 @@
       "componentId": "HaCard/Icon",
       "figmaLayerName": "HaCard/Icon",
       "componentName": "HaCardIcon",
-      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/ea199749babcbe5a93f1df3bee5da0d1555ad63a/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/a7769b30059af29aaf9fc98354f1ddd51064f48c/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
       "label": "Compose",
       "confidence": "MEDIUM",
       "previewName": "HaCardIconSticker",
@@ -1413,7 +1413,7 @@
         {
           "name": "modifier",
           "type": "RemoteModifier",
-          "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+          "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
           "hasDefault": true,
           "composableSlot": false,
           "composableSlotReceiver": null,
@@ -1426,7 +1426,7 @@
         {
           "name": "color",
           "type": "RemoteColor",
-          "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+          "typeFqn": "ee.schimke.composeai.rccreation.compose.state.RemoteColor",
           "hasDefault": true,
           "composableSlot": false,
           "composableSlotReceiver": null,
@@ -1456,7 +1456,7 @@
       "componentId": "HaCard/Surface",
       "figmaLayerName": "HaCard/Surface",
       "componentName": "HaCardSurfaceSticker",
-      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/ea199749babcbe5a93f1df3bee5da0d1555ad63a/ha-cards-catalog/src/androidMain/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/a7769b30059af29aaf9fc98354f1ddd51064f48c/ha-cards-catalog/src/androidMain/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
       "label": "Compose",
       "confidence": "preview-fallback",
       "previewName": "HaCardSurfaceSticker",
@@ -1466,46 +1466,17 @@
       "componentId": "HaCard/DashboardSection",
       "figmaLayerName": "HaCard/DashboardSection",
       "componentName": "HaDashboardSectionSticker",
-      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/ea199749babcbe5a93f1df3bee5da0d1555ad63a/ha-cards-catalog/src/androidMain/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/a7769b30059af29aaf9fc98354f1ddd51064f48c/ha-cards-catalog/src/androidMain/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
       "label": "Compose",
       "confidence": "preview-fallback",
       "previewName": "HaDashboardSectionSticker",
       "figmaSvg": "figma/hacard-dashboardsection.svg"
     },
     {
-      "componentId": "Remote/Card",
-      "figmaLayerName": "Remote/Card",
-      "componentName": "HaCardSticker",
-      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/ea199749babcbe5a93f1df3bee5da0d1555ad63a/ha-cards-catalog/src/androidMain/kotlin/ee/schimke/ha/cards/HaCardSticker.kt",
-      "label": "Compose",
-      "confidence": "HIGH",
-      "previewName": "RemoteCardSticker",
-      "codeSnippet": "HaCardSticker(\n    content = { },\n)",
-      "imports": [
-        "import ee.schimke.ha.cards.HaCardSticker"
-      ],
-      "parameters": [
-        {
-          "name": "content",
-          "type": "() -> Unit",
-          "typeFqn": "kotlin.Function0",
-          "hasDefault": false,
-          "composableSlot": true,
-          "composableSlotReceiver": null,
-          "nullable": false,
-          "noArgConstructible": false,
-          "noArgFactory": null,
-          "scopeDslReceiver": null,
-          "lambdaReturnTypeFqn": "kotlin.Unit"
-        }
-      ],
-      "figmaSvg": "figma/remote-card.svg"
-    },
-    {
       "componentId": "HaCard/Template",
       "figmaLayerName": "HaCard/Template",
       "componentName": "HaCardTemplateSticker",
-      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/ea199749babcbe5a93f1df3bee5da0d1555ad63a/ha-cards-catalog/src/androidMain/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/a7769b30059af29aaf9fc98354f1ddd51064f48c/ha-cards-catalog/src/androidMain/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
       "label": "Compose",
       "confidence": "preview-fallback",
       "previewName": "HaCardTemplateSticker",
@@ -1515,7 +1486,7 @@
       "componentId": "HaCard/UberTheme",
       "figmaLayerName": "HaCard/UberTheme",
       "componentName": "HaCardUberThemeSticker",
-      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/ea199749babcbe5a93f1df3bee5da0d1555ad63a/ha-cards-catalog/src/androidMain/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/a7769b30059af29aaf9fc98354f1ddd51064f48c/ha-cards-catalog/src/androidMain/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
       "label": "Compose",
       "confidence": "preview-fallback",
       "previewName": "HaCardUberThemeSticker",
@@ -1525,7 +1496,7 @@
       "componentId": "HaCard/UberThemeConsole",
       "figmaLayerName": "HaCard/UberThemeConsole",
       "componentName": "HaCardUberThemeConsoleSticker",
-      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/ea199749babcbe5a93f1df3bee5da0d1555ad63a/ha-cards-catalog/src/androidMain/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/a7769b30059af29aaf9fc98354f1ddd51064f48c/ha-cards-catalog/src/androidMain/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
       "label": "Compose",
       "confidence": "preview-fallback",
       "previewName": "HaCardUberThemeConsoleSticker",
@@ -1535,7 +1506,7 @@
       "componentId": "HaCard/ConsoleControls",
       "figmaLayerName": "HaCard/ConsoleControls",
       "componentName": "HaCardConsoleControlsSticker",
-      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/ea199749babcbe5a93f1df3bee5da0d1555ad63a/ha-cards-catalog/src/androidMain/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/a7769b30059af29aaf9fc98354f1ddd51064f48c/ha-cards-catalog/src/androidMain/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
       "label": "Compose",
       "confidence": "preview-fallback",
       "previewName": "HaCardConsoleControlsSticker",
@@ -1545,7 +1516,7 @@
       "componentId": "HaCard/ConsoleServiceLabels",
       "figmaLayerName": "HaCard/ConsoleServiceLabels",
       "componentName": "HaCardSticker",
-      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/ea199749babcbe5a93f1df3bee5da0d1555ad63a/ha-cards-catalog/src/androidMain/kotlin/ee/schimke/ha/cards/HaCardSticker.kt",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/a7769b30059af29aaf9fc98354f1ddd51064f48c/ha-cards-catalog/src/androidMain/kotlin/ee/schimke/ha/cards/HaCardSticker.kt",
       "label": "Compose",
       "confidence": "LOW",
       "previewName": "HaCardConsoleServiceLabelsSticker",
@@ -1574,23 +1545,23 @@
       "componentId": "HaCard/UberThemeIkea",
       "figmaLayerName": "HaCard/UberThemeIkea",
       "componentName": "HaCardUberThemeIkeaSticker",
-      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/ea199749babcbe5a93f1df3bee5da0d1555ad63a/ha-cards-catalog/src/androidMain/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/a7769b30059af29aaf9fc98354f1ddd51064f48c/ha-cards-catalog/src/androidMain/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
       "label": "Compose",
       "confidence": "preview-fallback",
       "previewName": "HaCardUberThemeIkeaSticker",
       "figmaSvg": "figma/hacard-uberthemeikea.svg"
     },
     {
-      "componentId": "Remote/Button",
-      "figmaLayerName": "Remote/Button",
-      "componentName": "HaCardSticker",
-      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/ea199749babcbe5a93f1df3bee5da0d1555ad63a/ha-cards-catalog/src/androidMain/kotlin/ee/schimke/ha/cards/HaCardSticker.kt",
+      "componentId": "Remote/Card",
+      "figmaLayerName": "Remote/Card",
+      "componentName": "RemoteMaterial3Sticker",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/a7769b30059af29aaf9fc98354f1ddd51064f48c/ha-cards-catalog/src/androidMain/kotlin/ee/schimke/ha/cards/RemoteMaterial3Stickers.kt",
       "label": "Compose",
-      "confidence": "HIGH",
-      "previewName": "RemoteButtonSticker",
-      "codeSnippet": "HaCardSticker(\n    content = { },\n)",
+      "confidence": "MEDIUM",
+      "previewName": "RemoteCardSticker",
+      "codeSnippet": "RemoteMaterial3Sticker(\n    content = { },\n)",
       "imports": [
-        "import ee.schimke.ha.cards.HaCardSticker"
+        "import ee.schimke.ha.cards.RemoteMaterial3Sticker"
       ],
       "parameters": [
         {
@@ -1607,71 +1578,13 @@
           "lambdaReturnTypeFqn": "kotlin.Unit"
         }
       ],
-      "figmaSvg": "figma/remote-button.svg"
-    },
-    {
-      "componentId": "Remote/SwitchButton",
-      "figmaLayerName": "Remote/SwitchButton",
-      "componentName": "HaCardSticker",
-      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/ea199749babcbe5a93f1df3bee5da0d1555ad63a/ha-cards-catalog/src/androidMain/kotlin/ee/schimke/ha/cards/HaCardSticker.kt",
-      "label": "Compose",
-      "confidence": "HIGH",
-      "previewName": "RemoteSwitchButtonSticker",
-      "codeSnippet": "HaCardSticker(\n    content = { },\n)",
-      "imports": [
-        "import ee.schimke.ha.cards.HaCardSticker"
-      ],
-      "parameters": [
-        {
-          "name": "content",
-          "type": "() -> Unit",
-          "typeFqn": "kotlin.Function0",
-          "hasDefault": false,
-          "composableSlot": true,
-          "composableSlotReceiver": null,
-          "nullable": false,
-          "noArgConstructible": false,
-          "noArgFactory": null,
-          "scopeDslReceiver": null,
-          "lambdaReturnTypeFqn": "kotlin.Unit"
-        }
-      ],
-      "figmaSvg": "figma/remote-switchbutton.svg"
-    },
-    {
-      "componentId": "Remote/Text",
-      "figmaLayerName": "Remote/Text",
-      "componentName": "HaCardSticker",
-      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/ea199749babcbe5a93f1df3bee5da0d1555ad63a/ha-cards-catalog/src/androidMain/kotlin/ee/schimke/ha/cards/HaCardSticker.kt",
-      "label": "Compose",
-      "confidence": "HIGH",
-      "previewName": "RemoteTextSticker",
-      "codeSnippet": "HaCardSticker(\n    content = { },\n)",
-      "imports": [
-        "import ee.schimke.ha.cards.HaCardSticker"
-      ],
-      "parameters": [
-        {
-          "name": "content",
-          "type": "() -> Unit",
-          "typeFqn": "kotlin.Function0",
-          "hasDefault": false,
-          "composableSlot": true,
-          "composableSlotReceiver": null,
-          "nullable": false,
-          "noArgConstructible": false,
-          "noArgFactory": null,
-          "scopeDslReceiver": null,
-          "lambdaReturnTypeFqn": "kotlin.Unit"
-        }
-      ],
-      "figmaSvg": "figma/remote-text.svg"
+      "figmaSvg": "figma/remote-card.svg"
     },
     {
       "componentId": "HaCard/Thermometer",
       "figmaLayerName": "HaCard/Thermometer",
       "componentName": "HaCardThermometer",
-      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/ea199749babcbe5a93f1df3bee5da0d1555ad63a/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/a7769b30059af29aaf9fc98354f1ddd51064f48c/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
       "label": "Compose",
       "confidence": "MEDIUM",
       "previewName": "HaCardThermometerSticker",
@@ -1709,7 +1622,7 @@
         {
           "name": "modifier",
           "type": "RemoteModifier",
-          "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+          "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
           "hasDefault": true,
           "composableSlot": false,
           "composableSlotReceiver": null,
@@ -1791,7 +1704,7 @@
       "componentId": "HaCard/Thermometer-Adaptive-Tall",
       "figmaLayerName": "HaCard/Thermometer-Adaptive-Tall",
       "componentName": "HaCardThermometer",
-      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/ea199749babcbe5a93f1df3bee5da0d1555ad63a/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/a7769b30059af29aaf9fc98354f1ddd51064f48c/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
       "label": "Compose",
       "confidence": "MEDIUM",
       "previewName": "HaCardThermometerTallSticker",
@@ -1829,7 +1742,7 @@
         {
           "name": "modifier",
           "type": "RemoteModifier",
-          "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+          "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
           "hasDefault": true,
           "composableSlot": false,
           "composableSlotReceiver": null,
@@ -1911,7 +1824,7 @@
       "componentId": "HaCard/Thermometer-Adaptive-Short",
       "figmaLayerName": "HaCard/Thermometer-Adaptive-Short",
       "componentName": "HaCardThermometer",
-      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/ea199749babcbe5a93f1df3bee5da0d1555ad63a/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/a7769b30059af29aaf9fc98354f1ddd51064f48c/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
       "label": "Compose",
       "confidence": "MEDIUM",
       "previewName": "HaCardThermometerShortSticker",
@@ -1949,7 +1862,7 @@
         {
           "name": "modifier",
           "type": "RemoteModifier",
-          "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+          "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
           "hasDefault": true,
           "composableSlot": false,
           "composableSlotReceiver": null,
@@ -2031,7 +1944,7 @@
       "componentId": "HaCard/Thermometer-Chip",
       "figmaLayerName": "HaCard/Thermometer-Chip",
       "componentName": "HaCardThermometer",
-      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/ea199749babcbe5a93f1df3bee5da0d1555ad63a/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/a7769b30059af29aaf9fc98354f1ddd51064f48c/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
       "label": "Compose",
       "confidence": "MEDIUM",
       "previewName": "HaCardThermometerChipSticker",
@@ -2069,7 +1982,7 @@
         {
           "name": "modifier",
           "type": "RemoteModifier",
-          "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+          "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
           "hasDefault": true,
           "composableSlot": false,
           "composableSlotReceiver": null,
@@ -2151,7 +2064,7 @@
       "componentId": "HaCard/Battery",
       "figmaLayerName": "HaCard/Battery",
       "componentName": "HaCardBattery",
-      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/ea199749babcbe5a93f1df3bee5da0d1555ad63a/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/a7769b30059af29aaf9fc98354f1ddd51064f48c/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
       "label": "Compose",
       "confidence": "MEDIUM",
       "previewName": "HaCardBatterySticker",
@@ -2189,7 +2102,7 @@
         {
           "name": "modifier",
           "type": "RemoteModifier",
-          "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+          "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
           "hasDefault": true,
           "composableSlot": false,
           "composableSlotReceiver": null,
@@ -2232,7 +2145,7 @@
       "componentId": "HaCard/Measurement",
       "figmaLayerName": "HaCard/Measurement",
       "componentName": "HaCardMeasurement",
-      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/ea199749babcbe5a93f1df3bee5da0d1555ad63a/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/a7769b30059af29aaf9fc98354f1ddd51064f48c/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
       "label": "Compose",
       "confidence": "MEDIUM",
       "previewName": "HaCardMeasurementSticker",
@@ -2270,7 +2183,7 @@
         {
           "name": "modifier",
           "type": "RemoteModifier",
-          "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+          "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
           "hasDefault": true,
           "composableSlot": false,
           "composableSlotReceiver": null,
@@ -2365,7 +2278,7 @@
       "componentId": "HaCard/ArcMeter",
       "figmaLayerName": "HaCard/ArcMeter",
       "componentName": "HaCardArcMeter",
-      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/ea199749babcbe5a93f1df3bee5da0d1555ad63a/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/a7769b30059af29aaf9fc98354f1ddd51064f48c/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
       "label": "Compose",
       "confidence": "MEDIUM",
       "previewName": "HaCardArcMeterSticker",
@@ -2390,7 +2303,7 @@
         {
           "name": "modifier",
           "type": "RemoteModifier",
-          "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+          "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
           "hasDefault": true,
           "composableSlot": false,
           "composableSlotReceiver": null,
@@ -2442,7 +2355,7 @@
         {
           "name": "color",
           "type": "RemoteColor",
-          "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+          "typeFqn": "ee.schimke.composeai.rccreation.compose.state.RemoteColor",
           "hasDefault": true,
           "composableSlot": false,
           "composableSlotReceiver": null,
@@ -2459,7 +2372,7 @@
       "componentId": "HaCard/BarMeter",
       "figmaLayerName": "HaCard/BarMeter",
       "componentName": "HaCardBarMeter",
-      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/ea199749babcbe5a93f1df3bee5da0d1555ad63a/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/a7769b30059af29aaf9fc98354f1ddd51064f48c/ha-cards-catalog/src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
       "label": "Compose",
       "confidence": "MEDIUM",
       "previewName": "HaCardBarMeterSticker",
@@ -2484,7 +2397,7 @@
         {
           "name": "modifier",
           "type": "RemoteModifier",
-          "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+          "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
           "hasDefault": true,
           "composableSlot": false,
           "composableSlotReceiver": null,
@@ -2549,7 +2462,7 @@
         {
           "name": "color",
           "type": "RemoteColor",
-          "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+          "typeFqn": "ee.schimke.composeai.rccreation.compose.state.RemoteColor",
           "hasDefault": true,
           "composableSlot": false,
           "composableSlotReceiver": null,
@@ -2561,6 +2474,93 @@
         }
       ],
       "figmaSvg": "figma/hacard-barmeter.svg"
+    },
+    {
+      "componentId": "Remote/Button",
+      "figmaLayerName": "Remote/Button",
+      "componentName": "RemoteMaterial3Sticker",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/a7769b30059af29aaf9fc98354f1ddd51064f48c/ha-cards-catalog/src/androidMain/kotlin/ee/schimke/ha/cards/RemoteMaterial3Stickers.kt",
+      "label": "Compose",
+      "confidence": "MEDIUM",
+      "previewName": "RemoteButtonSticker",
+      "codeSnippet": "RemoteMaterial3Sticker(\n    content = { },\n)",
+      "imports": [
+        "import ee.schimke.ha.cards.RemoteMaterial3Sticker"
+      ],
+      "parameters": [
+        {
+          "name": "content",
+          "type": "() -> Unit",
+          "typeFqn": "kotlin.Function0",
+          "hasDefault": false,
+          "composableSlot": true,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": "kotlin.Unit"
+        }
+      ],
+      "figmaSvg": "figma/remote-button.svg"
+    },
+    {
+      "componentId": "Remote/SwitchButton",
+      "figmaLayerName": "Remote/SwitchButton",
+      "componentName": "RemoteMaterial3Sticker",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/a7769b30059af29aaf9fc98354f1ddd51064f48c/ha-cards-catalog/src/androidMain/kotlin/ee/schimke/ha/cards/RemoteMaterial3Stickers.kt",
+      "label": "Compose",
+      "confidence": "MEDIUM",
+      "previewName": "RemoteSwitchButtonSticker",
+      "codeSnippet": "RemoteMaterial3Sticker(\n    content = { },\n)",
+      "imports": [
+        "import ee.schimke.ha.cards.RemoteMaterial3Sticker"
+      ],
+      "parameters": [
+        {
+          "name": "content",
+          "type": "() -> Unit",
+          "typeFqn": "kotlin.Function0",
+          "hasDefault": false,
+          "composableSlot": true,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": "kotlin.Unit"
+        }
+      ],
+      "figmaSvg": "figma/remote-switchbutton.svg"
+    },
+    {
+      "componentId": "Remote/Text",
+      "figmaLayerName": "Remote/Text",
+      "componentName": "RemoteMaterial3Sticker",
+      "source": "https://github.com/yschimke/homeassistant-remotecompose/blob/a7769b30059af29aaf9fc98354f1ddd51064f48c/ha-cards-catalog/src/androidMain/kotlin/ee/schimke/ha/cards/RemoteMaterial3Stickers.kt",
+      "label": "Compose",
+      "confidence": "MEDIUM",
+      "previewName": "RemoteTextSticker",
+      "codeSnippet": "RemoteMaterial3Sticker(\n    content = { },\n)",
+      "imports": [
+        "import ee.schimke.ha.cards.RemoteMaterial3Sticker"
+      ],
+      "parameters": [
+        {
+          "name": "content",
+          "type": "() -> Unit",
+          "typeFqn": "kotlin.Function0",
+          "hasDefault": false,
+          "composableSlot": true,
+          "composableSlotReceiver": null,
+          "nullable": false,
+          "noArgConstructible": false,
+          "noArgFactory": null,
+          "scopeDslReceiver": null,
+          "lambdaReturnTypeFqn": "kotlin.Unit"
+        }
+      ],
+      "figmaSvg": "figma/remote-text.svg"
     }
   ]
 }

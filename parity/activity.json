@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-12T09:36:44.677Z",
+  "generatedAt": "2026-11-12T09:48:20.230Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "a7769b30059af29aaf9fc98354f1ddd51064f48c",
+        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-contracts-bom to v3.43.0 (#1570)",
+        "at": "2026-11-12T09:39:51Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "17e4f418ff2ef29ed97d45e5c0a3cbc6a3820043",
+        "subject": "feat: author cards with rc-players' Compose Multiplatform creation API (#1568)",
+        "at": "2026-11-12T09:32:23Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "ea199749babcbe5a93f1df3bee5da0d1555ad63a",
         "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-daemon-bom to v3.27.6 (#1564)",
@@ -467,22 +483,6 @@
         "subject": "chore(main): release 0.1.87 (#1496)",
         "at": "2026-11-07T10:10:50Z",
         "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "5051e5c7c1bd3fea7fc306d6f5fb8be1bfec165b",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to a688f48 (#1505)",
-        "at": "2026-11-07T04:36:14Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "77f6095b2935d052403325ae04c63d35882cb47f",
-        "subject": "feat: draw Rugged Digital's heading font on launcher widgets (#1503)",
-        "at": "2026-11-07T01:03:39Z",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }

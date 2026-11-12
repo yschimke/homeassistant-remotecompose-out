@@ -6,12 +6,73 @@
         "contentDescription": "",
         "profiles": 513,
         "densityAtGeneration": 2.625,
-        "byteLength": 3147
+        "byteLength": 3215
     },
     "operations": [
         {
             "$unserialized": "Header",
             "text": "HEADER v1.1.0\n  DOC_WIDTH 567\n  DOC_HEIGHT 199\n  DOC_DENSITY_AT_GENERATION 2.625\n  DOC_CONTENT_DESCRIPTION \n  DOC_PROFILES 513\n  DENSITY_BEHAVIOR 0"
+        },
+        {
+            "type": "NamedVariable",
+            "varId": 42,
+            "varName": "USER:WearM3.background",
+            "varType": "COLOR_TYPE"
+        },
+        {
+            "type": "ColorConstant",
+            "color": "0xfffafafa",
+            "colorId": 42
+        },
+        {
+            "type": "NamedVariable",
+            "varId": 44,
+            "varName": "USER:host.ambient",
+            "varType": "FLOAT_TYPE"
+        },
+        {
+            "type": "FloatConstant",
+            "id": 44,
+            "value": 0.0
+        },
+        {
+            "type": "NamedVariable",
+            "varId": 49,
+            "varName": "USER:__min_size_gate_a92232e158c2bab4",
+            "varType": "FLOAT_TYPE"
+        },
+        {
+            "type": "NamedVariable",
+            "varId": 73,
+            "varName": "USER:WearM3.outlineVariant",
+            "varType": "COLOR_TYPE"
+        },
+        {
+            "type": "ColorConstant",
+            "color": "0xffe0e0e0",
+            "colorId": 73
+        },
+        {
+            "type": "NamedVariable",
+            "varId": 82,
+            "varName": "USER:WearM3.onSurface",
+            "varType": "COLOR_TYPE"
+        },
+        {
+            "type": "ColorConstant",
+            "color": "0xff141414",
+            "colorId": 82
+        },
+        {
+            "type": "NamedVariable",
+            "varId": 86,
+            "varName": "USER:WearM3.onSurfaceVariant",
+            "varType": "COLOR_TYPE"
+        },
+        {
+            "type": "ColorConstant",
+            "color": "0xff8f8f8f",
+            "colorId": 86
         },
         {
             "$tags": [
@@ -27,30 +88,8 @@
             "list": [
                 {
                     "type": "ColorConstant",
-                    "color": "0xfffafafa",
-                    "colorId": 42
-                },
-                {
-                    "type": "NamedVariable",
-                    "varId": 42,
-                    "varName": "USER:WearM3.background",
-                    "varType": "COLOR_TYPE"
-                },
-                {
-                    "type": "ColorConstant",
                     "color": "0xff000000",
                     "colorId": 43
-                },
-                {
-                    "type": "NamedVariable",
-                    "varId": 44,
-                    "varName": "USER:host.ambient",
-                    "varType": "FLOAT_TYPE"
-                },
-                {
-                    "type": "FloatConstant",
-                    "id": 44,
-                    "value": 0.0
                 },
                 {
                     "type": "ColorExpression",
@@ -74,7 +113,7 @@
                         "LAYOUT_COMPONENT"
                     ],
                     "type": "BOX",
-                    "id": -3,
+                    "id": -1000000,
                     "x": 0.0,
                     "y": 0.0,
                     "width": 0.0,
@@ -138,25 +177,13 @@
                                 "LAYOUT_COMPONENT"
                             ],
                             "type": "BOX",
-                            "id": -5,
+                            "id": -1000002,
                             "x": 0.0,
                             "y": 0.0,
                             "width": 0.0,
                             "height": 0.0,
                             "visibility": "VISIBLE",
                             "list": [
-                                {
-                                    "type": "ComponentValue",
-                                    "valueId": 46,
-                                    "componentValueType": "WIDTH",
-                                    "componentId": -5
-                                },
-                                {
-                                    "type": "ComponentValue",
-                                    "valueId": 47,
-                                    "componentValueType": "HEIGHT",
-                                    "componentId": -5
-                                },
                                 {
                                     "$tags": [
                                         "EXPRESSION"
@@ -211,6 +238,18 @@
                                     "animation": null
                                 },
                                 {
+                                    "type": "ComponentValue",
+                                    "valueId": 46,
+                                    "componentValueType": "WIDTH",
+                                    "componentId": -1000002
+                                },
+                                {
+                                    "type": "ComponentValue",
+                                    "valueId": 47,
+                                    "componentValueType": "HEIGHT",
+                                    "componentId": -1000002
+                                },
+                                {
                                     "$tags": [
                                         "MODIFIER"
                                     ],
@@ -245,7 +284,7 @@
                                         "LAYOUT_COMPONENT"
                                     ],
                                     "type": "CORE_TEXT",
-                                    "id": -7,
+                                    "id": -1000004,
                                     "x": 0.0,
                                     "y": 0.0,
                                     "width": 0.0,
@@ -274,14 +313,14 @@
                                     "fontStyle": 0,
                                     "fontWeight": 400.0,
                                     "fontFamilyId": -1,
-                                    "textAlign": 1
+                                    "textAlign": 5
                                 },
                                 {
                                     "$tags": [
                                         "LAYOUT_COMPONENT"
                                     ],
                                     "type": "STATE_LAYOUT",
-                                    "id": -9,
+                                    "id": -1000006,
                                     "x": 0.0,
                                     "y": 0.0,
                                     "width": 0.0,
@@ -300,7 +339,7 @@
                                                 "LAYOUT_COMPONENT"
                                             ],
                                             "type": "COLUMN",
-                                            "id": -11,
+                                            "id": -1000008,
                                             "x": 0.0,
                                             "y": 0.0,
                                             "width": 0.0,
@@ -352,7 +391,7 @@
                                                         "LAYOUT_COMPONENT"
                                                     ],
                                                     "type": "BOX",
-                                                    "id": -13,
+                                                    "id": -1000010,
                                                     "x": 0.0,
                                                     "y": 0.0,
                                                     "width": 0.0,
@@ -402,7 +441,7 @@
                                                         "LAYOUT_COMPONENT"
                                                     ],
                                                     "type": "COLUMN",
-                                                    "id": -15,
+                                                    "id": -1000012,
                                                     "x": 0.0,
                                                     "y": 0.0,
                                                     "width": 0.0,
@@ -433,7 +472,7 @@
                                                                 "LAYOUT_COMPONENT"
                                                             ],
                                                             "type": "ROW",
-                                                            "id": -17,
+                                                            "id": -1000014,
                                                             "x": 0.0,
                                                             "y": 0.0,
                                                             "width": 0.0,
@@ -464,7 +503,7 @@
                                                                         "LAYOUT_COMPONENT"
                                                                     ],
                                                                     "type": "CANVAS",
-                                                                    "id": -19,
+                                                                    "id": -1000016,
                                                                     "x": 0.0,
                                                                     "y": 0.0,
                                                                     "width": 16.0,
@@ -475,13 +514,13 @@
                                                                             "type": "ComponentValue",
                                                                             "valueId": 52,
                                                                             "componentValueType": "WIDTH",
-                                                                            "componentId": -19
+                                                                            "componentId": -1000016
                                                                         },
                                                                         {
                                                                             "type": "ComponentValue",
                                                                             "valueId": 53,
                                                                             "componentValueType": "HEIGHT",
-                                                                            "componentId": -19
+                                                                            "componentId": -1000016
                                                                         },
                                                                         {
                                                                             "$tags": [
@@ -766,17 +805,6 @@
                                                                         },
                                                                         {
                                                                             "type": "ColorConstant",
-                                                                            "color": "0xffe0e0e0",
-                                                                            "colorId": 73
-                                                                        },
-                                                                        {
-                                                                            "type": "NamedVariable",
-                                                                            "varId": 73,
-                                                                            "varName": "USER:WearM3.outlineVariant",
-                                                                            "varType": "COLOR_TYPE"
-                                                                        },
-                                                                        {
-                                                                            "type": "ColorConstant",
                                                                             "color": "0xff3a3a3a",
                                                                             "colorId": 74
                                                                         },
@@ -1048,7 +1076,7 @@
                                                                         "LAYOUT_COMPONENT"
                                                                     ],
                                                                     "type": "COLUMN",
-                                                                    "id": -21,
+                                                                    "id": -1000018,
                                                                     "x": 0.0,
                                                                     "y": 0.0,
                                                                     "width": 0.0,
@@ -1059,11 +1087,6 @@
                                                                             "type": "TextData",
                                                                             "textId": 81,
                                                                             "text": "27 °C"
-                                                                        },
-                                                                        {
-                                                                            "type": "ColorConstant",
-                                                                            "color": "0xff141414",
-                                                                            "colorId": 82
                                                                         },
                                                                         {
                                                                             "type": "ColorConstant",
@@ -1111,7 +1134,7 @@
                                                                                 "LAYOUT_COMPONENT"
                                                                             ],
                                                                             "type": "CORE_TEXT",
-                                                                            "id": -23,
+                                                                            "id": -1000020,
                                                                             "x": 0.0,
                                                                             "y": 0.0,
                                                                             "width": 0.0,
@@ -1143,14 +1166,14 @@
                                                                             "fontStyle": 0,
                                                                             "fontWeight": 600.0,
                                                                             "fontFamilyId": -1,
-                                                                            "textAlign": 1
+                                                                            "textAlign": 5
                                                                         },
                                                                         {
                                                                             "$tags": [
                                                                                 "LAYOUT_COMPONENT"
                                                                             ],
                                                                             "type": "COLUMN",
-                                                                            "id": -25,
+                                                                            "id": -1000022,
                                                                             "x": 0.0,
                                                                             "y": 0.0,
                                                                             "width": 0.0,
@@ -1161,11 +1184,6 @@
                                                                                     "type": "TextData",
                                                                                     "textId": 85,
                                                                                     "text": "Bedroom"
-                                                                                },
-                                                                                {
-                                                                                    "type": "ColorConstant",
-                                                                                    "color": "0xff8f8f8f",
-                                                                                    "colorId": 86
                                                                                 },
                                                                                 {
                                                                                     "type": "ColorConstant",
@@ -1201,7 +1219,7 @@
                                                                                         "LAYOUT_COMPONENT"
                                                                                     ],
                                                                                     "type": "CORE_TEXT",
-                                                                                    "id": -27,
+                                                                                    "id": -1000024,
                                                                                     "x": 0.0,
                                                                                     "y": 0.0,
                                                                                     "width": 0.0,
@@ -1233,7 +1251,7 @@
                                                                                     "fontStyle": 0,
                                                                                     "fontWeight": 400.0,
                                                                                     "fontFamilyId": -1,
-                                                                                    "textAlign": 1
+                                                                                    "textAlign": 5
                                                                                 }
                                                                             ],
                                                                             "paddingLeft": 0.0,
@@ -1276,7 +1294,7 @@
                                                         "LAYOUT_COMPONENT"
                                                     ],
                                                     "type": "BOX",
-                                                    "id": -29,
+                                                    "id": -1000026,
                                                     "x": 0.0,
                                                     "y": 0.0,
                                                     "width": 0.0,
@@ -1335,7 +1353,7 @@
                                                 "LAYOUT_COMPONENT"
                                             ],
                                             "type": "COLUMN",
-                                            "id": -31,
+                                            "id": -1000028,
                                             "x": 0.0,
                                             "y": 0.0,
                                             "width": 0.0,
@@ -1344,7 +1362,7 @@
                                             "list": [
                                                 {
                                                     "type": "TextData",
-                                                    "textId": 114,
+                                                    "textId": 116,
                                                     "text": "-10 – 40 °C"
                                                 },
                                                 {
@@ -1392,7 +1410,7 @@
                                                         "LAYOUT_COMPONENT"
                                                     ],
                                                     "type": "COLUMN",
-                                                    "id": -33,
+                                                    "id": -1000030,
                                                     "x": 0.0,
                                                     "y": 0.0,
                                                     "width": 0.0,
@@ -1411,7 +1429,7 @@
                                                                 "LAYOUT_COMPONENT"
                                                             ],
                                                             "type": "CORE_TEXT",
-                                                            "id": -35,
+                                                            "id": -1000032,
                                                             "x": 0.0,
                                                             "y": 0.0,
                                                             "width": 0.0,
@@ -1443,7 +1461,7 @@
                                                             "fontStyle": 0,
                                                             "fontWeight": 400.0,
                                                             "fontFamilyId": -1,
-                                                            "textAlign": 1
+                                                            "textAlign": 5
                                                         }
                                                     ],
                                                     "paddingLeft": 0.0,
@@ -1459,7 +1477,7 @@
                                                         "LAYOUT_COMPONENT"
                                                     ],
                                                     "type": "CANVAS",
-                                                    "id": -37,
+                                                    "id": -1000034,
                                                     "x": 0.0,
                                                     "y": 0.0,
                                                     "width": 0.0,
@@ -1470,13 +1488,13 @@
                                                             "type": "ComponentValue",
                                                             "valueId": 89,
                                                             "componentValueType": "WIDTH",
-                                                            "componentId": -37
+                                                            "componentId": -1000034
                                                         },
                                                         {
                                                             "type": "ComponentValue",
                                                             "valueId": 90,
                                                             "componentValueType": "HEIGHT",
-                                                            "componentId": -37
+                                                            "componentId": -1000034
                                                         },
                                                         {
                                                             "$tags": [
@@ -1715,9 +1733,26 @@
                                                             "type": "FloatExpression",
                                                             "id": 107,
                                                             "srcValues": [
+                                                                0.74
+                                                            ],
+                                                            "animation": {
+                                                                "type": "FloatAnimation",
+                                                                "initialValue": "NaN",
+                                                                "targetValue": "NaN",
+                                                                "duration": 0.45,
+                                                                "easing": "CUBIC_STANDARD"
+                                                            }
+                                                        },
+                                                        {
+                                                            "$tags": [
+                                                                "EXPRESSION"
+                                                            ],
+                                                            "type": "FloatExpression",
+                                                            "id": 108,
+                                                            "srcValues": [
                                                                 "@104",
-                                                                "@70",
-                                                                "@70",
+                                                                "@107",
+                                                                "@107",
                                                                 -1.0,
                                                                 "@3211267",
                                                                 0.74,
@@ -1734,20 +1769,37 @@
                                                                 "EXPRESSION"
                                                             ],
                                                             "type": "FloatExpression",
-                                                            "id": 108,
+                                                            "id": 109,
                                                             "srcValues": [
                                                                 "@105",
-                                                                "@107",
+                                                                "@108",
                                                                 "@3211266"
                                                             ],
                                                             "animation": null
+                                                        },
+                                                        {
+                                                            "type": "ColorExpression",
+                                                            "id": 110,
+                                                            "mode": "TWEEN",
+                                                            "startColor": [
+                                                                73.0,
+                                                                73.0
+                                                            ],
+                                                            "endColor": [
+                                                                74.0,
+                                                                74.0
+                                                            ],
+                                                            "tween": [
+                                                                "@44",
+                                                                "@44"
+                                                            ]
                                                         },
                                                         {
                                                             "type": "PaintData",
                                                             "paintBundle": {
                                                                 "type": "PaintBundle",
                                                                 "operations": [
-                                                                    "{type=ColorId, id=75}",
+                                                                    "{type=ColorId, id=110}",
                                                                     "{type=StrokeWidth, width={type=Value, value=0.0}}",
                                                                     "{type=StrokeCap, cap=0}",
                                                                     "{type=StrokeJoin, strokeJoin=0}",
@@ -1768,7 +1820,7 @@
                                                                 "EXPRESSION"
                                                             ],
                                                             "type": "FloatExpression",
-                                                            "id": 109,
+                                                            "id": 111,
                                                             "srcValues": [
                                                                 "@102",
                                                                 "@92",
@@ -1781,7 +1833,7 @@
                                                                 "EXPRESSION"
                                                             ],
                                                             "type": "FloatExpression",
-                                                            "id": 110,
+                                                            "id": 112,
                                                             "srcValues": [
                                                                 "@97",
                                                                 "@98",
@@ -1801,12 +1853,12 @@
                                                                 "@97"
                                                             ],
                                                             "right": [
-                                                                "@109",
-                                                                "@109"
+                                                                "@111",
+                                                                "@111"
                                                             ],
                                                             "bottom": [
-                                                                "@110",
-                                                                "@110"
+                                                                "@112",
+                                                                "@112"
                                                             ],
                                                             "rx": [
                                                                 "@93",
@@ -1838,7 +1890,7 @@
                                                                 "EXPRESSION"
                                                             ],
                                                             "type": "FloatExpression",
-                                                            "id": 111,
+                                                            "id": 113,
                                                             "srcValues": [
                                                                 "@106",
                                                                 "@104",
@@ -1860,8 +1912,8 @@
                                                                 "@100"
                                                             ],
                                                             "bottom": [
-                                                                "@111",
-                                                                "@111"
+                                                                "@113",
+                                                                "@113"
                                                             ],
                                                             "rx": [
                                                                 "@101",
@@ -1887,10 +1939,10 @@
                                                                 "EXPRESSION"
                                                             ],
                                                             "type": "FloatExpression",
-                                                            "id": 112,
+                                                            "id": 114,
                                                             "srcValues": [
+                                                                "@109",
                                                                 "@108",
-                                                                "@107",
                                                                 "@3211265"
                                                             ],
                                                             "animation": null
@@ -1901,16 +1953,16 @@
                                                                 "@99"
                                                             ],
                                                             "top": [
-                                                                "@108",
-                                                                "@108"
+                                                                "@109",
+                                                                "@109"
                                                             ],
                                                             "right": [
                                                                 "@100",
                                                                 "@100"
                                                             ],
                                                             "bottom": [
-                                                                "@112",
-                                                                "@112"
+                                                                "@114",
+                                                                "@114"
                                                             ],
                                                             "rx": [
                                                                 "@101",
@@ -1927,7 +1979,7 @@
                                                                 "EXPRESSION"
                                                             ],
                                                             "type": "FloatExpression",
-                                                            "id": 113,
+                                                            "id": 115,
                                                             "srcValues": [
                                                                 "@91",
                                                                 2.857143,
@@ -1945,8 +1997,8 @@
                                                                 "@98"
                                                             ],
                                                             "radius": [
-                                                                "@113",
-                                                                "@113"
+                                                                "@115",
+                                                                "@115"
                                                             ],
                                                             "type": "DrawCircle"
                                                         },
@@ -1993,7 +2045,7 @@
                                                         "LAYOUT_COMPONENT"
                                                     ],
                                                     "type": "CORE_TEXT",
-                                                    "id": -39,
+                                                    "id": -1000036,
                                                     "x": 0.0,
                                                     "y": 0.0,
                                                     "width": 0.0,
@@ -2025,14 +2077,14 @@
                                                     "fontStyle": 0,
                                                     "fontWeight": 600.0,
                                                     "fontFamilyId": -1,
-                                                    "textAlign": 1
+                                                    "textAlign": 5
                                                 },
                                                 {
                                                     "$tags": [
                                                         "LAYOUT_COMPONENT"
                                                     ],
                                                     "type": "CORE_TEXT",
-                                                    "id": -41,
+                                                    "id": -1000038,
                                                     "x": 0.0,
                                                     "y": 0.0,
                                                     "width": 0.0,
@@ -2051,7 +2103,7 @@
                                                     "paddingRight": 0.0,
                                                     "paddingTop": 0.0,
                                                     "paddingBottom": 0.0,
-                                                    "textId": 114,
+                                                    "textId": 116,
                                                     "flags": 0,
                                                     "color": [
                                                         -1.6777216E7,
@@ -2064,7 +2116,7 @@
                                                     "fontStyle": 0,
                                                     "fontWeight": 400.0,
                                                     "fontFamilyId": -1,
-                                                    "textAlign": 1
+                                                    "textAlign": 5
                                                 }
                                             ],
                                             "paddingLeft": 21.0,

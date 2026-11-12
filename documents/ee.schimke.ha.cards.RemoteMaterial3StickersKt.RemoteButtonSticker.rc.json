@@ -1,17 +1,17 @@
 {
     "header": {
         "version": "1.1.0",
-        "width": 945,
-        "height": 252,
+        "width": 567,
+        "height": 199,
         "contentDescription": "",
-        "profiles": 513,
+        "profiles": 512,
         "densityAtGeneration": 2.625,
-        "byteLength": 880
+        "byteLength": 1143
     },
     "operations": [
         {
             "$unserialized": "Header",
-            "text": "HEADER v1.1.0\n  DOC_WIDTH 945\n  DOC_HEIGHT 252\n  DOC_DENSITY_AT_GENERATION 2.625\n  DOC_CONTENT_DESCRIPTION \n  DOC_PROFILES 513\n  DENSITY_BEHAVIOR 0"
+            "text": "HEADER v1.1.0\n  DOC_WIDTH 567\n  DOC_HEIGHT 199\n  DOC_DENSITY_AT_GENERATION 2.625\n  DOC_CONTENT_DESCRIPTION \n  DOC_PROFILES 512\n  DENSITY_BEHAVIOR 0"
         },
         {
             "$tags": [
@@ -26,50 +26,6 @@
             "visibility": "VISIBLE",
             "list": [
                 {
-                    "type": "ColorConstant",
-                    "color": "0xfffafafa",
-                    "colorId": 42
-                },
-                {
-                    "type": "NamedVariable",
-                    "varId": 42,
-                    "varName": "USER:WearM3.background",
-                    "varType": "COLOR_TYPE"
-                },
-                {
-                    "type": "ColorConstant",
-                    "color": "0xff000000",
-                    "colorId": 43
-                },
-                {
-                    "type": "NamedVariable",
-                    "varId": 44,
-                    "varName": "USER:host.ambient",
-                    "varType": "FLOAT_TYPE"
-                },
-                {
-                    "type": "FloatConstant",
-                    "id": 44,
-                    "value": 0.0
-                },
-                {
-                    "type": "ColorExpression",
-                    "id": 45,
-                    "mode": "TWEEN",
-                    "startColor": [
-                        42.0,
-                        42.0
-                    ],
-                    "endColor": [
-                        43.0,
-                        43.0
-                    ],
-                    "tween": [
-                        "@44",
-                        "@44"
-                    ]
-                },
-                {
                     "$tags": [
                         "LAYOUT_COMPONENT"
                     ],
@@ -83,13 +39,13 @@
                     "list": [
                         {
                             "type": "ComponentValue",
-                            "valueId": 46,
+                            "valueId": 42,
                             "componentValueType": "WIDTH",
                             "componentId": -3
                         },
                         {
                             "type": "ComponentValue",
-                            "valueId": 47,
+                            "valueId": 43,
                             "componentValueType": "HEIGHT",
                             "componentId": -3
                         },
@@ -130,7 +86,12 @@
                                     "y": 0.0,
                                     "width": 0.0,
                                     "height": 0.0,
-                                    "colorId": 45,
+                                    "color": [
+                                        1.0,
+                                        0.98039216,
+                                        0.98039216,
+                                        0.98039216
+                                    ],
                                     "shapeType": "RECTANGLE"
                                 },
                                 {
@@ -149,42 +110,42 @@
                             "$tags": [
                                 "LAYOUT_COMPONENT"
                             ],
-                            "type": "COLUMN",
+                            "type": "ROW",
                             "id": -5,
                             "x": 0.0,
                             "y": 0.0,
-                            "width": 0.0,
-                            "height": 64.0,
+                            "width": 73.5,
+                            "height": 31.5,
                             "visibility": "VISIBLE",
                             "list": [
                                 {
                                     "type": "TextData",
-                                    "textId": 53,
-                                    "text": "Good evening"
+                                    "textId": 55,
+                                    "text": "Movie night"
                                 },
                                 {
                                     "type": "ColorConstant",
-                                    "color": "0xff8f8f8f",
-                                    "colorId": 54
-                                },
-                                {
-                                    "type": "TextData",
-                                    "textId": 55,
-                                    "text": "default"
-                                },
-                                {
-                                    "type": "TextData",
-                                    "textId": 56,
-                                    "text": "wdth"
+                                    "color": "0xff210f48",
+                                    "colorId": 56
                                 },
                                 {
                                     "type": "TextData",
                                     "textId": 57,
-                                    "text": "wght"
+                                    "text": "default"
                                 },
                                 {
                                     "type": "TextData",
                                     "textId": 58,
+                                    "text": "wdth"
+                                },
+                                {
+                                    "type": "TextData",
+                                    "textId": 59,
+                                    "text": "wght"
+                                },
+                                {
+                                    "type": "TextData",
+                                    "textId": 60,
                                     "text": "pnum"
                                 },
                                 {
@@ -197,21 +158,10 @@
                                             "$tags": [
                                                 "MODIFIER"
                                             ],
-                                            "type": "WidthModifierOperation",
-                                            "width": [
-                                                1.0,
-                                                1.0
-                                            ],
-                                            "dimensionModifierType": "FILL"
-                                        },
-                                        {
-                                            "$tags": [
-                                                "MODIFIER"
-                                            ],
-                                            "type": "HeightInModifierOperation",
+                                            "type": "WidthInModifierOperation",
                                             "min": [
-                                                64.0,
-                                                64.0
+                                                12.0,
+                                                12.0
                                             ],
                                             "max": [
                                                 3.4028235E38,
@@ -222,12 +172,15 @@
                                             "$tags": [
                                                 "MODIFIER"
                                             ],
-                                            "type": "HeightModifierOperation",
-                                            "height": [
-                                                1.0,
-                                                1.0
+                                            "type": "HeightInModifierOperation",
+                                            "min": [
+                                                52.0,
+                                                52.0
                                             ],
-                                            "dimensionModifierType": "WRAP"
+                                            "max": [
+                                                3.4028235E38,
+                                                3.4028235E38
+                                            ]
                                         },
                                         {
                                             "$tags": [
@@ -284,10 +237,24 @@
                                                 "MODIFIER"
                                             ],
                                             "type": "PaddingModifierOperation",
-                                            "left": 31.5,
-                                            "top": 31.5,
-                                            "right": 31.5,
-                                            "bottom": 31.5
+                                            "left": 36.75,
+                                            "top": 15.75,
+                                            "right": 36.75,
+                                            "bottom": 15.75
+                                        },
+                                        {
+                                            "$tags": [
+                                                "MODIFIER",
+                                                "A11Y"
+                                            ],
+                                            "type": "CoreSemantics",
+                                            "contentDescriptionId": 0,
+                                            "role": "BUTTON",
+                                            "textId": 0,
+                                            "stateDescriptionId": 0,
+                                            "enabled": true,
+                                            "mode": "MERGE",
+                                            "clickable": false
                                         }
                                     ]
                                 },
@@ -315,28 +282,28 @@
                                     "paddingRight": 0.0,
                                     "paddingTop": 0.0,
                                     "paddingBottom": 0.0,
-                                    "textId": 53,
+                                    "textId": 55,
                                     "flags": 0,
                                     "color": [
                                         -1.6777216E7,
                                         -1.0
                                     ],
                                     "fontSize": [
-                                        42.0,
-                                        42.0
+                                        39.375,
+                                        39.375
                                     ],
                                     "fontStyle": 0,
-                                    "fontWeight": 450.0,
-                                    "fontFamilyId": 55,
+                                    "fontWeight": 500.0,
+                                    "fontFamilyId": 57,
                                     "textAlign": 1
                                 }
                             ],
-                            "paddingLeft": 31.5,
-                            "paddingRight": 31.5,
-                            "paddingTop": 31.5,
-                            "paddingBottom": 31.5,
-                            "verticalPositioning": "TOP",
-                            "horizontalPositioning": "START",
+                            "paddingLeft": 36.75,
+                            "paddingRight": 36.75,
+                            "paddingTop": 15.75,
+                            "paddingBottom": 15.75,
+                            "verticalPositioning": "CENTER",
+                            "horizontalPositioning": "CENTER",
                             "spacedBy": 0.0
                         }
                     ],

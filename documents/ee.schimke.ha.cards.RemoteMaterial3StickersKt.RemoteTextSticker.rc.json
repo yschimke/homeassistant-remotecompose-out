@@ -4,14 +4,14 @@
         "width": 567,
         "height": 147,
         "contentDescription": "",
-        "profiles": 513,
+        "profiles": 512,
         "densityAtGeneration": 2.625,
-        "byteLength": 429
+        "byteLength": 316
     },
     "operations": [
         {
             "$unserialized": "Header",
-            "text": "HEADER v1.1.0\n  DOC_WIDTH 567\n  DOC_HEIGHT 147\n  DOC_DENSITY_AT_GENERATION 2.625\n  DOC_CONTENT_DESCRIPTION \n  DOC_PROFILES 513\n  DENSITY_BEHAVIOR 0"
+            "text": "HEADER v1.1.0\n  DOC_WIDTH 567\n  DOC_HEIGHT 147\n  DOC_DENSITY_AT_GENERATION 2.625\n  DOC_CONTENT_DESCRIPTION \n  DOC_PROFILES 512\n  DENSITY_BEHAVIOR 0"
         },
         {
             "$tags": [
@@ -26,50 +26,6 @@
             "visibility": "VISIBLE",
             "list": [
                 {
-                    "type": "ColorConstant",
-                    "color": "0xfffafafa",
-                    "colorId": 42
-                },
-                {
-                    "type": "NamedVariable",
-                    "varId": 42,
-                    "varName": "USER:WearM3.background",
-                    "varType": "COLOR_TYPE"
-                },
-                {
-                    "type": "ColorConstant",
-                    "color": "0xff000000",
-                    "colorId": 43
-                },
-                {
-                    "type": "NamedVariable",
-                    "varId": 44,
-                    "varName": "USER:host.ambient",
-                    "varType": "FLOAT_TYPE"
-                },
-                {
-                    "type": "FloatConstant",
-                    "id": 44,
-                    "value": 0.0
-                },
-                {
-                    "type": "ColorExpression",
-                    "id": 45,
-                    "mode": "TWEEN",
-                    "startColor": [
-                        42.0,
-                        42.0
-                    ],
-                    "endColor": [
-                        43.0,
-                        43.0
-                    ],
-                    "tween": [
-                        "@44",
-                        "@44"
-                    ]
-                },
-                {
                     "$tags": [
                         "LAYOUT_COMPONENT"
                     ],
@@ -83,27 +39,27 @@
                     "list": [
                         {
                             "type": "TextData",
-                            "textId": 46,
+                            "textId": 42,
                             "text": "Living room"
                         },
                         {
                             "type": "TextData",
-                            "textId": 47,
+                            "textId": 43,
                             "text": "default"
                         },
                         {
                             "type": "TextData",
-                            "textId": 48,
+                            "textId": 44,
                             "text": "wdth"
                         },
                         {
                             "type": "TextData",
-                            "textId": 49,
+                            "textId": 45,
                             "text": "wght"
                         },
                         {
                             "type": "TextData",
-                            "textId": 50,
+                            "textId": 46,
                             "text": "pnum"
                         },
                         {
@@ -143,7 +99,12 @@
                                     "y": 0.0,
                                     "width": 0.0,
                                     "height": 0.0,
-                                    "colorId": 45,
+                                    "color": [
+                                        1.0,
+                                        0.98039216,
+                                        0.98039216,
+                                        0.98039216
+                                    ],
                                     "shapeType": "RECTANGLE"
                                 },
                                 {
@@ -182,7 +143,7 @@
                             "paddingRight": 0.0,
                             "paddingTop": 0.0,
                             "paddingBottom": 0.0,
-                            "textId": 46,
+                            "textId": 42,
                             "flags": 0,
                             "color": "0xff141414",
                             "fontSize": [
@@ -191,7 +152,7 @@
                             ],
                             "fontStyle": 0,
                             "fontWeight": 450.0,
-                            "fontFamilyId": 47,
+                            "fontFamilyId": 43,
                             "textAlign": 1
                         }
                     ],

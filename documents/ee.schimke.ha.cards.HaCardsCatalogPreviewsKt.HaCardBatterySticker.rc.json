@@ -6,12 +6,100 @@
         "contentDescription": "",
         "profiles": 513,
         "densityAtGeneration": 2.625,
-        "byteLength": 2623
+        "byteLength": 2616
     },
     "operations": [
         {
             "$unserialized": "Header",
             "text": "HEADER v1.1.0\n  DOC_WIDTH 945\n  DOC_HEIGHT 210\n  DOC_DENSITY_AT_GENERATION 2.625\n  DOC_CONTENT_DESCRIPTION \n  DOC_PROFILES 513\n  DENSITY_BEHAVIOR 0"
+        },
+        {
+            "type": "NamedVariable",
+            "varId": 42,
+            "varName": "USER:WearM3.background",
+            "varType": "COLOR_TYPE"
+        },
+        {
+            "type": "ColorConstant",
+            "color": "0xfffafafa",
+            "colorId": 42
+        },
+        {
+            "type": "NamedVariable",
+            "varId": 44,
+            "varName": "USER:host.ambient",
+            "varType": "FLOAT_TYPE"
+        },
+        {
+            "type": "FloatConstant",
+            "id": 44,
+            "value": 0.0
+        },
+        {
+            "type": "NamedVariable",
+            "varId": 71,
+            "varName": "USER:sensor.front_door_battery.numeric_state",
+            "varType": "FLOAT_TYPE"
+        },
+        {
+            "type": "FloatConstant",
+            "id": 71,
+            "value": 22.0
+        },
+        {
+            "type": "NamedVariable",
+            "varId": 83,
+            "varName": "USER:WearM3.outlineVariant",
+            "varType": "COLOR_TYPE"
+        },
+        {
+            "type": "ColorConstant",
+            "color": "0xffe0e0e0",
+            "colorId": 83
+        },
+        {
+            "type": "NamedVariable",
+            "varId": 87,
+            "varName": "USER:WearM3.surfaceContainerHigh",
+            "varType": "COLOR_TYPE"
+        },
+        {
+            "type": "ColorConstant",
+            "color": "0xffffffff",
+            "colorId": 87
+        },
+        {
+            "type": "NamedVariable",
+            "varId": 102,
+            "varName": "USER:sensor.front_door_battery.state",
+            "varType": "STRING_TYPE"
+        },
+        {
+            "type": "TextData",
+            "textId": 102,
+            "text": "22 %"
+        },
+        {
+            "type": "NamedVariable",
+            "varId": 103,
+            "varName": "USER:WearM3.onSurface",
+            "varType": "COLOR_TYPE"
+        },
+        {
+            "type": "ColorConstant",
+            "color": "0xff141414",
+            "colorId": 103
+        },
+        {
+            "type": "NamedVariable",
+            "varId": 107,
+            "varName": "USER:WearM3.onSurfaceVariant",
+            "varType": "COLOR_TYPE"
+        },
+        {
+            "type": "ColorConstant",
+            "color": "0xff8f8f8f",
+            "colorId": 107
         },
         {
             "$tags": [
@@ -27,30 +115,8 @@
             "list": [
                 {
                     "type": "ColorConstant",
-                    "color": "0xfffafafa",
-                    "colorId": 42
-                },
-                {
-                    "type": "NamedVariable",
-                    "varId": 42,
-                    "varName": "USER:WearM3.background",
-                    "varType": "COLOR_TYPE"
-                },
-                {
-                    "type": "ColorConstant",
                     "color": "0xff000000",
                     "colorId": 43
-                },
-                {
-                    "type": "NamedVariable",
-                    "varId": 44,
-                    "varName": "USER:host.ambient",
-                    "varType": "FLOAT_TYPE"
-                },
-                {
-                    "type": "FloatConstant",
-                    "id": 44,
-                    "value": 0.0
                 },
                 {
                     "type": "ColorExpression",
@@ -74,7 +140,7 @@
                         "LAYOUT_COMPONENT"
                     ],
                     "type": "BOX",
-                    "id": -3,
+                    "id": -1000000,
                     "x": 0.0,
                     "y": 0.0,
                     "width": 0.0,
@@ -143,7 +209,7 @@
                                 "LAYOUT_COMPONENT"
                             ],
                             "type": "COLUMN",
-                            "id": -5,
+                            "id": -1000002,
                             "x": 0.0,
                             "y": 0.0,
                             "width": 0.0,
@@ -161,20 +227,6 @@
                                                 "MODIFIER"
                                             ],
                                             "type": "ClickModifierOperation"
-                                        },
-                                        {
-                                            "$tags": [
-                                                "MODIFIER",
-                                                "A11Y"
-                                            ],
-                                            "type": "CoreSemantics",
-                                            "contentDescriptionId": 0,
-                                            "role": "BUTTON",
-                                            "textId": 0,
-                                            "stateDescriptionId": 0,
-                                            "enabled": true,
-                                            "mode": "SET",
-                                            "clickable": false
                                         }
                                     ]
                                 },
@@ -183,7 +235,7 @@
                                         "LAYOUT_COMPONENT"
                                     ],
                                     "type": "ROW",
-                                    "id": -7,
+                                    "id": -1000004,
                                     "x": 0.0,
                                     "y": 0.0,
                                     "width": 0.0,
@@ -214,7 +266,7 @@
                                                 "LAYOUT_COMPONENT"
                                             ],
                                             "type": "CANVAS",
-                                            "id": -9,
+                                            "id": -1000006,
                                             "x": 0.0,
                                             "y": 0.0,
                                             "width": 60.0,
@@ -225,13 +277,13 @@
                                                     "type": "ComponentValue",
                                                     "valueId": 48,
                                                     "componentValueType": "WIDTH",
-                                                    "componentId": -9
+                                                    "componentId": -1000006
                                                 },
                                                 {
                                                     "type": "ComponentValue",
                                                     "valueId": 49,
                                                     "componentValueType": "HEIGHT",
-                                                    "componentId": -9
+                                                    "componentId": -1000006
                                                 },
                                                 {
                                                     "$tags": [
@@ -521,17 +573,6 @@
                                                     "animation": null
                                                 },
                                                 {
-                                                    "type": "NamedVariable",
-                                                    "varId": 71,
-                                                    "varName": "USER:sensor.front_door_battery.numeric_state",
-                                                    "varType": "FLOAT_TYPE"
-                                                },
-                                                {
-                                                    "type": "FloatConstant",
-                                                    "id": 71,
-                                                    "value": 22.0
-                                                },
-                                                {
                                                     "$tags": [
                                                         "EXPRESSION"
                                                     ],
@@ -720,17 +761,6 @@
                                                 },
                                                 {
                                                     "type": "ColorConstant",
-                                                    "color": "0xffe0e0e0",
-                                                    "colorId": 83
-                                                },
-                                                {
-                                                    "type": "NamedVariable",
-                                                    "varId": 83,
-                                                    "varName": "USER:WearM3.outlineVariant",
-                                                    "varType": "COLOR_TYPE"
-                                                },
-                                                {
-                                                    "type": "ColorConstant",
                                                     "color": "0xff3a3a3a",
                                                     "colorId": 84
                                                 },
@@ -811,17 +841,6 @@
                                                         "@56"
                                                     ],
                                                     "type": "DrawRoundRect"
-                                                },
-                                                {
-                                                    "type": "ColorConstant",
-                                                    "color": "0xffffffff",
-                                                    "colorId": 87
-                                                },
-                                                {
-                                                    "type": "NamedVariable",
-                                                    "varId": 87,
-                                                    "varName": "USER:WearM3.surfaceContainerHigh",
-                                                    "varType": "COLOR_TYPE"
                                                 },
                                                 {
                                                     "type": "ColorExpression",
@@ -1219,23 +1238,13 @@
                                                 "LAYOUT_COMPONENT"
                                             ],
                                             "type": "COLUMN",
-                                            "id": -11,
+                                            "id": -1000008,
                                             "x": 0.0,
                                             "y": 0.0,
                                             "width": 0.0,
                                             "height": 0.0,
                                             "visibility": "VISIBLE",
                                             "list": [
-                                                {
-                                                    "type": "TextData",
-                                                    "textId": 102,
-                                                    "text": "22 %"
-                                                },
-                                                {
-                                                    "type": "ColorConstant",
-                                                    "color": "0xff141414",
-                                                    "colorId": 103
-                                                },
                                                 {
                                                     "type": "ColorConstant",
                                                     "color": "0xffe6e6e6",
@@ -1282,7 +1291,7 @@
                                                         "LAYOUT_COMPONENT"
                                                     ],
                                                     "type": "CORE_TEXT",
-                                                    "id": -13,
+                                                    "id": -1000010,
                                                     "x": 0.0,
                                                     "y": 0.0,
                                                     "width": 0.0,
@@ -1314,14 +1323,14 @@
                                                     "fontStyle": 0,
                                                     "fontWeight": 600.0,
                                                     "fontFamilyId": -1,
-                                                    "textAlign": 1
+                                                    "textAlign": 5
                                                 },
                                                 {
                                                     "$tags": [
                                                         "LAYOUT_COMPONENT"
                                                     ],
                                                     "type": "COLUMN",
-                                                    "id": -15,
+                                                    "id": -1000012,
                                                     "x": 0.0,
                                                     "y": 0.0,
                                                     "width": 0.0,
@@ -1332,11 +1341,6 @@
                                                             "type": "TextData",
                                                             "textId": 106,
                                                             "text": "Front door lock"
-                                                        },
-                                                        {
-                                                            "type": "ColorConstant",
-                                                            "color": "0xff8f8f8f",
-                                                            "colorId": 107
                                                         },
                                                         {
                                                             "type": "ColorConstant",
@@ -1372,7 +1376,7 @@
                                                                 "LAYOUT_COMPONENT"
                                                             ],
                                                             "type": "CORE_TEXT",
-                                                            "id": -17,
+                                                            "id": -1000014,
                                                             "x": 0.0,
                                                             "y": 0.0,
                                                             "width": 0.0,
@@ -1404,7 +1408,7 @@
                                                             "fontStyle": 0,
                                                             "fontWeight": 400.0,
                                                             "fontFamilyId": -1,
-                                                            "textAlign": 1
+                                                            "textAlign": 5
                                                         }
                                                     ],
                                                     "paddingLeft": 0.0,

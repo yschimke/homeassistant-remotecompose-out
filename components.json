@@ -134,7 +134,7 @@
             ],
             "bindings": [
                 {
-                    "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteButtonSticker",
+                    "previewId": "ee.schimke.ha.cards.RemoteMaterial3StickersKt.RemoteButtonSticker",
                     "componentId": "Remote/Button",
                     "group": "Buttons"
                 }
@@ -693,7 +693,7 @@
             ],
             "bindings": [
                 {
-                    "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteCardSticker",
+                    "previewId": "ee.schimke.ha.cards.RemoteMaterial3StickersKt.RemoteCardSticker",
                     "componentId": "Remote/Card",
                     "group": "Containment"
                 }
@@ -1127,7 +1127,7 @@
             ],
             "bindings": [
                 {
-                    "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteSwitchButtonSticker",
+                    "previewId": "ee.schimke.ha.cards.RemoteMaterial3StickersKt.RemoteSwitchButtonSticker",
                     "componentId": "Remote/SwitchButton",
                     "group": "Selection buttons"
                 }
@@ -1478,22 +1478,22 @@
             "slots": [],
             "bindings": [
                 {
-                    "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteButtonSticker",
+                    "previewId": "ee.schimke.ha.cards.RemoteMaterial3StickersKt.RemoteButtonSticker",
                     "componentId": "Remote/Button",
                     "group": "Buttons"
                 },
                 {
-                    "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteCardSticker",
+                    "previewId": "ee.schimke.ha.cards.RemoteMaterial3StickersKt.RemoteCardSticker",
                     "componentId": "Remote/Card",
                     "group": "Containment"
                 },
                 {
-                    "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteSwitchButtonSticker",
+                    "previewId": "ee.schimke.ha.cards.RemoteMaterial3StickersKt.RemoteSwitchButtonSticker",
                     "componentId": "Remote/SwitchButton",
                     "group": "Selection buttons"
                 },
                 {
-                    "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteTextSticker",
+                    "previewId": "ee.schimke.ha.cards.RemoteMaterial3StickersKt.RemoteTextSticker",
                     "componentId": "Remote/Text",
                     "group": "Text"
                 }
@@ -1688,7 +1688,7 @@
                 "name": "HaCardArcMeter",
                 "origin": "PROJECT",
                 "jvmName": "HaCardArcMeter",
-                "descriptor": "(FLandroidx/compose/remote/creation/compose/modifier/RemoteModifier;FFLjava/lang/String;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/runtime/Composer;II)V",
+                "descriptor": "(FLee/schimke/composeai/rccreation/compose/modifier/RemoteModifier;FFLjava/lang/String;Lee/schimke/composeai/rccreation/compose/state/RemoteColor;Landroidx/compose/runtime/Composer;II)V",
                 "sourceFile": "src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
                 "docs": "unavailable",
                 "receiver": null
@@ -1710,7 +1710,7 @@
                 {
                     "name": "modifier",
                     "type": "RemoteModifier",
-                    "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+                    "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -1762,7 +1762,7 @@
                 {
                     "name": "color",
                     "type": "RemoteColor",
-                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+                    "typeFqn": "ee.schimke.composeai.rccreation.compose.state.RemoteColor",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -1811,7 +1811,7 @@
                 "name": "HaCardBarMeter",
                 "origin": "PROJECT",
                 "jvmName": "HaCardBarMeter",
-                "descriptor": "(FLandroidx/compose/remote/creation/compose/modifier/RemoteModifier;FFLjava/lang/String;ZLandroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/runtime/Composer;II)V",
+                "descriptor": "(FLee/schimke/composeai/rccreation/compose/modifier/RemoteModifier;FFLjava/lang/String;ZLee/schimke/composeai/rccreation/compose/state/RemoteColor;Landroidx/compose/runtime/Composer;II)V",
                 "sourceFile": "src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
                 "docs": "unavailable",
                 "receiver": null
@@ -1833,7 +1833,7 @@
                 {
                     "name": "modifier",
                     "type": "RemoteModifier",
-                    "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+                    "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -1898,7 +1898,7 @@
                 {
                     "name": "color",
                     "type": "RemoteColor",
-                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+                    "typeFqn": "ee.schimke.composeai.rccreation.compose.state.RemoteColor",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -1947,7 +1947,7 @@
                 "name": "HaCardBattery",
                 "origin": "PROJECT",
                 "jvmName": "HaCardBattery",
-                "descriptor": "(Ljava/lang/String;FLandroidx/compose/remote/creation/compose/modifier/RemoteModifier;Ljava/lang/String;Ljava/lang/String;Landroidx/compose/runtime/Composer;II)V",
+                "descriptor": "(Ljava/lang/String;FLee/schimke/composeai/rccreation/compose/modifier/RemoteModifier;Ljava/lang/String;Ljava/lang/String;Landroidx/compose/runtime/Composer;II)V",
                 "sourceFile": "src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
                 "docs": "unavailable",
                 "receiver": null
@@ -1982,7 +1982,7 @@
                 {
                     "name": "modifier",
                     "type": "RemoteModifier",
-                    "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+                    "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -2057,7 +2057,7 @@
                 "name": "HaCardButton",
                 "origin": "PROJECT",
                 "jvmName": "HaCardButton",
-                "descriptor": "(Ljava/lang/String;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Ljava/lang/String;Ljava/lang/String;ZZZLandroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/runtime/Composer;II)V",
+                "descriptor": "(Ljava/lang/String;Lee/schimke/composeai/rccreation/compose/modifier/RemoteModifier;Ljava/lang/String;Ljava/lang/String;ZZZLee/schimke/composeai/rccreation/compose/state/RemoteColor;Lee/schimke/composeai/rccreation/compose/state/RemoteColor;Landroidx/compose/runtime/Composer;II)V",
                 "sourceFile": "src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
                 "docs": "unavailable",
                 "receiver": null
@@ -2079,7 +2079,7 @@
                 {
                     "name": "modifier",
                     "type": "RemoteModifier",
-                    "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+                    "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -2157,7 +2157,7 @@
                 {
                     "name": "activeColor",
                     "type": "RemoteColor",
-                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+                    "typeFqn": "ee.schimke.composeai.rccreation.compose.state.RemoteColor",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -2170,7 +2170,7 @@
                 {
                     "name": "inactiveColor",
                     "type": "RemoteColor",
-                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+                    "typeFqn": "ee.schimke.composeai.rccreation.compose.state.RemoteColor",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -2219,7 +2219,7 @@
                 "name": "HaCardEntities",
                 "origin": "PROJECT",
                 "jvmName": "HaCardEntities",
-                "descriptor": "(Ljava/lang/String;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroidx/compose/runtime/Composer;III)V",
+                "descriptor": "(Ljava/lang/String;Lee/schimke/composeai/rccreation/compose/modifier/RemoteModifier;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroidx/compose/runtime/Composer;III)V",
                 "sourceFile": "src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
                 "docs": "unavailable",
                 "receiver": null
@@ -2241,7 +2241,7 @@
                 {
                     "name": "modifier",
                     "type": "RemoteModifier",
-                    "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+                    "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -2407,7 +2407,7 @@
                 "name": "HaCardEntityRow",
                 "origin": "PROJECT",
                 "jvmName": "HaCardEntityRow",
-                "descriptor": "(Ljava/lang/String;Ljava/lang/String;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Ljava/lang/String;Ljava/lang/String;ZZLandroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/runtime/Composer;II)V",
+                "descriptor": "(Ljava/lang/String;Ljava/lang/String;Lee/schimke/composeai/rccreation/compose/modifier/RemoteModifier;Ljava/lang/String;Ljava/lang/String;ZZLee/schimke/composeai/rccreation/compose/state/RemoteColor;Lee/schimke/composeai/rccreation/compose/state/RemoteColor;Landroidx/compose/runtime/Composer;II)V",
                 "sourceFile": "src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
                 "docs": "unavailable",
                 "receiver": null
@@ -2442,7 +2442,7 @@
                 {
                     "name": "modifier",
                     "type": "RemoteModifier",
-                    "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+                    "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -2507,7 +2507,7 @@
                 {
                     "name": "activeColor",
                     "type": "RemoteColor",
-                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+                    "typeFqn": "ee.schimke.composeai.rccreation.compose.state.RemoteColor",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -2520,7 +2520,7 @@
                 {
                     "name": "inactiveColor",
                     "type": "RemoteColor",
-                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+                    "typeFqn": "ee.schimke.composeai.rccreation.compose.state.RemoteColor",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -2569,7 +2569,7 @@
                 "name": "HaCardGauge",
                 "origin": "PROJECT",
                 "jvmName": "HaCardGauge",
-                "descriptor": "(Ljava/lang/String;FLandroidx/compose/remote/creation/compose/modifier/RemoteModifier;FFLjava/lang/String;Ljava/lang/String;Landroidx/compose/runtime/Composer;II)V",
+                "descriptor": "(Ljava/lang/String;FLee/schimke/composeai/rccreation/compose/modifier/RemoteModifier;FFLjava/lang/String;Ljava/lang/String;Landroidx/compose/runtime/Composer;II)V",
                 "sourceFile": "src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
                 "docs": "unavailable",
                 "receiver": null
@@ -2604,7 +2604,7 @@
                 {
                     "name": "modifier",
                     "type": "RemoteModifier",
-                    "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+                    "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -2705,7 +2705,7 @@
                 "name": "HaCardGlance",
                 "origin": "PROJECT",
                 "jvmName": "HaCardGlance",
-                "descriptor": "(Ljava/lang/String;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroidx/compose/runtime/Composer;III)V",
+                "descriptor": "(Ljava/lang/String;Lee/schimke/composeai/rccreation/compose/modifier/RemoteModifier;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroidx/compose/runtime/Composer;III)V",
                 "sourceFile": "src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
                 "docs": "unavailable",
                 "receiver": null
@@ -2727,7 +2727,7 @@
                 {
                     "name": "modifier",
                     "type": "RemoteModifier",
-                    "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+                    "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -2893,7 +2893,7 @@
                 "name": "HaCardHeading",
                 "origin": "PROJECT",
                 "jvmName": "HaCardHeading",
-                "descriptor": "(Ljava/lang/String;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;ZLandroidx/compose/runtime/Composer;II)V",
+                "descriptor": "(Ljava/lang/String;Lee/schimke/composeai/rccreation/compose/modifier/RemoteModifier;ZLandroidx/compose/runtime/Composer;II)V",
                 "sourceFile": "src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
                 "docs": "unavailable",
                 "receiver": null
@@ -2915,7 +2915,7 @@
                 {
                     "name": "modifier",
                     "type": "RemoteModifier",
-                    "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+                    "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -2977,7 +2977,7 @@
                 "name": "HaCardIcon",
                 "origin": "PROJECT",
                 "jvmName": "HaCardIcon",
-                "descriptor": "(Ljava/lang/String;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteColor;ILandroidx/compose/runtime/Composer;II)V",
+                "descriptor": "(Ljava/lang/String;Lee/schimke/composeai/rccreation/compose/modifier/RemoteModifier;Lee/schimke/composeai/rccreation/compose/state/RemoteColor;ILandroidx/compose/runtime/Composer;II)V",
                 "sourceFile": "src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
                 "docs": "unavailable",
                 "receiver": null
@@ -2999,7 +2999,7 @@
                 {
                     "name": "modifier",
                     "type": "RemoteModifier",
-                    "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+                    "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -3012,7 +3012,7 @@
                 {
                     "name": "color",
                     "type": "RemoteColor",
-                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+                    "typeFqn": "ee.schimke.composeai.rccreation.compose.state.RemoteColor",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -3074,7 +3074,7 @@
                 "name": "HaCardMeasurement",
                 "origin": "PROJECT",
                 "jvmName": "HaCardMeasurement",
-                "descriptor": "(Ljava/lang/String;FLandroidx/compose/remote/creation/compose/modifier/RemoteModifier;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;FFLandroidx/compose/runtime/Composer;II)V",
+                "descriptor": "(Ljava/lang/String;FLee/schimke/composeai/rccreation/compose/modifier/RemoteModifier;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;FFLandroidx/compose/runtime/Composer;II)V",
                 "sourceFile": "src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
                 "docs": "unavailable",
                 "receiver": null
@@ -3109,7 +3109,7 @@
                 {
                     "name": "modifier",
                     "type": "RemoteModifier",
-                    "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+                    "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -3236,7 +3236,7 @@
                 "name": "HaCardMetric",
                 "origin": "PROJECT",
                 "jvmName": "HaCardMetric",
-                "descriptor": "(Ljava/lang/String;Ljava/lang/String;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Ljava/lang/String;Ljava/lang/String;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/runtime/Composer;II)V",
+                "descriptor": "(Ljava/lang/String;Ljava/lang/String;Lee/schimke/composeai/rccreation/compose/modifier/RemoteModifier;Ljava/lang/String;Ljava/lang/String;Lee/schimke/composeai/rccreation/compose/state/RemoteColor;Landroidx/compose/runtime/Composer;II)V",
                 "sourceFile": "src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
                 "docs": "unavailable",
                 "receiver": null
@@ -3271,7 +3271,7 @@
                 {
                     "name": "modifier",
                     "type": "RemoteModifier",
-                    "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+                    "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -3310,7 +3310,7 @@
                 {
                     "name": "valueColor",
                     "type": "RemoteColor?",
-                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+                    "typeFqn": "ee.schimke.composeai.rccreation.compose.state.RemoteColor",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -3359,7 +3359,7 @@
                 "name": "HaCardStatusChip",
                 "origin": "PROJECT",
                 "jvmName": "HaCardStatusChip",
-                "descriptor": "(Ljava/lang/String;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Ljava/lang/String;ZLandroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/runtime/Composer;II)V",
+                "descriptor": "(Ljava/lang/String;Lee/schimke/composeai/rccreation/compose/modifier/RemoteModifier;Ljava/lang/String;ZLee/schimke/composeai/rccreation/compose/state/RemoteColor;Lee/schimke/composeai/rccreation/compose/state/RemoteColor;Landroidx/compose/runtime/Composer;II)V",
                 "sourceFile": "src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
                 "docs": "unavailable",
                 "receiver": null
@@ -3381,7 +3381,7 @@
                 {
                     "name": "modifier",
                     "type": "RemoteModifier",
-                    "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+                    "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -3420,7 +3420,7 @@
                 {
                     "name": "activeColor",
                     "type": "RemoteColor",
-                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+                    "typeFqn": "ee.schimke.composeai.rccreation.compose.state.RemoteColor",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -3433,7 +3433,7 @@
                 {
                     "name": "inactiveColor",
                     "type": "RemoteColor",
-                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+                    "typeFqn": "ee.schimke.composeai.rccreation.compose.state.RemoteColor",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -3485,7 +3485,7 @@
                 "name": "HaCardThermometer",
                 "origin": "PROJECT",
                 "jvmName": "HaCardThermometer",
-                "descriptor": "(Ljava/lang/String;FLandroidx/compose/remote/creation/compose/modifier/RemoteModifier;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;FFLandroidx/compose/runtime/Composer;II)V",
+                "descriptor": "(Ljava/lang/String;FLee/schimke/composeai/rccreation/compose/modifier/RemoteModifier;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;FFLandroidx/compose/runtime/Composer;II)V",
                 "sourceFile": "src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
                 "docs": "unavailable",
                 "receiver": null
@@ -3520,7 +3520,7 @@
                 {
                     "name": "modifier",
                     "type": "RemoteModifier",
-                    "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+                    "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -3649,7 +3649,7 @@
                 "name": "HaCardThermostat",
                 "origin": "PROJECT",
                 "jvmName": "HaCardThermostat",
-                "descriptor": "(Ljava/lang/String;FLandroidx/compose/remote/creation/compose/modifier/RemoteModifier;FFFLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroidx/compose/runtime/Composer;II)V",
+                "descriptor": "(Ljava/lang/String;FLee/schimke/composeai/rccreation/compose/modifier/RemoteModifier;FFFLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroidx/compose/runtime/Composer;II)V",
                 "sourceFile": "src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
                 "docs": "unavailable",
                 "receiver": null
@@ -3684,7 +3684,7 @@
                 {
                     "name": "modifier",
                     "type": "RemoteModifier",
-                    "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+                    "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -3811,7 +3811,7 @@
                 "name": "HaCardTile",
                 "origin": "PROJECT",
                 "jvmName": "HaCardTile",
-                "descriptor": "(Ljava/lang/String;Ljava/lang/String;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Ljava/lang/String;Ljava/lang/String;ZZLandroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/runtime/Composer;II)V",
+                "descriptor": "(Ljava/lang/String;Ljava/lang/String;Lee/schimke/composeai/rccreation/compose/modifier/RemoteModifier;Ljava/lang/String;Ljava/lang/String;ZZLee/schimke/composeai/rccreation/compose/state/RemoteColor;Lee/schimke/composeai/rccreation/compose/state/RemoteColor;Landroidx/compose/runtime/Composer;II)V",
                 "sourceFile": "src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
                 "docs": "unavailable",
                 "receiver": null
@@ -3846,7 +3846,7 @@
                 {
                     "name": "modifier",
                     "type": "RemoteModifier",
-                    "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+                    "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -3911,7 +3911,7 @@
                 {
                     "name": "activeColor",
                     "type": "RemoteColor",
-                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+                    "typeFqn": "ee.schimke.composeai.rccreation.compose.state.RemoteColor",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -3924,7 +3924,7 @@
                 {
                     "name": "inactiveColor",
                     "type": "RemoteColor",
-                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+                    "typeFqn": "ee.schimke.composeai.rccreation.compose.state.RemoteColor",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -3973,7 +3973,7 @@
                 "name": "HaCardToggle",
                 "origin": "PROJECT",
                 "jvmName": "HaCardToggle",
-                "descriptor": "(ZLandroidx/compose/remote/creation/compose/modifier/RemoteModifier;Ljava/lang/String;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/runtime/Composer;II)V",
+                "descriptor": "(ZLee/schimke/composeai/rccreation/compose/modifier/RemoteModifier;Ljava/lang/String;Lee/schimke/composeai/rccreation/compose/state/RemoteColor;Lee/schimke/composeai/rccreation/compose/state/RemoteColor;Landroidx/compose/runtime/Composer;II)V",
                 "sourceFile": "src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
                 "docs": "unavailable",
                 "receiver": null
@@ -3995,7 +3995,7 @@
                 {
                     "name": "modifier",
                     "type": "RemoteModifier",
-                    "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+                    "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -4021,7 +4021,7 @@
                 {
                     "name": "activeColor",
                     "type": "RemoteColor",
-                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+                    "typeFqn": "ee.schimke.composeai.rccreation.compose.state.RemoteColor",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -4034,7 +4034,7 @@
                 {
                     "name": "inactiveColor",
                     "type": "RemoteColor",
-                    "typeFqn": "androidx.compose.remote.creation.compose.state.RemoteColor",
+                    "typeFqn": "ee.schimke.composeai.rccreation.compose.state.RemoteColor",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -4083,7 +4083,7 @@
                 "name": "HaCardEntityTile",
                 "origin": "PROJECT",
                 "jvmName": "HaCardEntityTile",
-                "descriptor": "(Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroidx/compose/runtime/Composer;II)V",
+                "descriptor": "(Lee/schimke/composeai/rccreation/compose/modifier/RemoteModifier;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroidx/compose/runtime/Composer;II)V",
                 "sourceFile": "src/commonMain/kotlin/ee/schimke/ha/cards/HaCardEntityTile.kt",
                 "docs": "unavailable",
                 "receiver": null
@@ -4092,7 +4092,7 @@
                 {
                     "name": "modifier",
                     "type": "RemoteModifier",
-                    "typeFqn": "androidx.compose.remote.creation.compose.modifier.RemoteModifier",
+                    "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -4198,11 +4198,7 @@
         {
             "canonicalId": "ha-cards-catalog/ee.schimke.ha.cards.HaCardStickerKt.HaCardSticker",
             "componentIds": [
-                "HaCard/ConsoleServiceLabels",
-                "Remote/Button",
-                "Remote/Card",
-                "Remote/SwitchButton",
-                "Remote/Text"
+                "HaCard/ConsoleServiceLabels"
             ],
             "symbol": {
                 "jvmOwner": "ee.schimke.ha.cards.HaCardStickerKt",
@@ -4242,32 +4238,94 @@
                     "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardConsoleServiceLabelsSticker",
                     "componentId": "HaCard/ConsoleServiceLabels",
                     "group": "Containment"
-                },
-                {
-                    "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteButtonSticker",
-                    "componentId": "Remote/Button",
-                    "group": "Buttons"
-                },
-                {
-                    "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteCardSticker",
-                    "componentId": "Remote/Card",
-                    "group": "Containment"
-                },
-                {
-                    "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteSwitchButtonSticker",
-                    "componentId": "Remote/SwitchButton",
-                    "group": "Selection buttons"
-                },
-                {
-                    "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.RemoteTextSticker",
-                    "componentId": "Remote/Text",
-                    "group": "Text"
                 }
             ],
             "code": {
                 "call": "HaCardSticker(content = {})",
                 "imports": [
                     "ee.schimke.ha.cards.HaCardSticker"
+                ],
+                "refusedReason": null,
+                "requiredOptIns": [],
+                "androidxOptIns": []
+            },
+            "signatureKnown": true,
+            "callableFromAnotherFile": true,
+            "hasTypeParameters": false,
+            "hasContextReceivers": false,
+            "overloadsCollided": false,
+            "builder": null,
+            "requiredOptIns": [],
+            "androidxOptIns": [],
+            "overloads": []
+        },
+        {
+            "canonicalId": "ha-cards-catalog/ee.schimke.ha.cards.RemoteMaterial3StickersKt.RemoteMaterial3Sticker",
+            "componentIds": [
+                "Remote/Button",
+                "Remote/Card",
+                "Remote/SwitchButton",
+                "Remote/Text"
+            ],
+            "symbol": {
+                "jvmOwner": "ee.schimke.ha.cards.RemoteMaterial3StickersKt",
+                "callable": "ee.schimke.ha.cards.RemoteMaterial3Sticker",
+                "name": "RemoteMaterial3Sticker",
+                "origin": "PROJECT",
+                "jvmName": "RemoteMaterial3Sticker",
+                "descriptor": "(Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;I)V",
+                "sourceFile": "src/androidMain/kotlin/ee/schimke/ha/cards/RemoteMaterial3Stickers.kt",
+                "docs": "unavailable",
+                "receiver": null
+            },
+            "parameters": [
+                {
+                    "name": "content",
+                    "type": "() -> Unit",
+                    "typeFqn": "kotlin.Function0",
+                    "hasDefault": false,
+                    "composableSlot": true,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": "kotlin.Unit"
+                }
+            ],
+            "slots": [
+                {
+                    "name": "content",
+                    "required": true,
+                    "receiverScope": null
+                }
+            ],
+            "bindings": [
+                {
+                    "previewId": "ee.schimke.ha.cards.RemoteMaterial3StickersKt.RemoteButtonSticker",
+                    "componentId": "Remote/Button",
+                    "group": "Buttons"
+                },
+                {
+                    "previewId": "ee.schimke.ha.cards.RemoteMaterial3StickersKt.RemoteCardSticker",
+                    "componentId": "Remote/Card",
+                    "group": "Containment"
+                },
+                {
+                    "previewId": "ee.schimke.ha.cards.RemoteMaterial3StickersKt.RemoteSwitchButtonSticker",
+                    "componentId": "Remote/SwitchButton",
+                    "group": "Selection buttons"
+                },
+                {
+                    "previewId": "ee.schimke.ha.cards.RemoteMaterial3StickersKt.RemoteTextSticker",
+                    "componentId": "Remote/Text",
+                    "group": "Text"
+                }
+            ],
+            "code": {
+                "call": "RemoteMaterial3Sticker(content = {})",
+                "imports": [
+                    "ee.schimke.ha.cards.RemoteMaterial3Sticker"
                 ],
                 "refusedReason": null,
                 "requiredOptIns": [],
