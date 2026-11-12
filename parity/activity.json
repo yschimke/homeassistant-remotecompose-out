@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-12T06:55:59.932Z",
+  "generatedAt": "2026-11-12T07:49:56.985Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "159028c0812be369a72926d21a69f294b3690f67",
+        "subject": "build(deps): enforce BOMs for all ee.schimke.composeai dependencies (#1551)",
+        "at": "2026-11-12T07:35:52Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "7eb26a62ed51bf94608a0989422e6753d7376aaf",
         "subject": "fix(deps): update compose-ai-tools (#1562)",
@@ -475,14 +483,6 @@
         "subject": "chore(deps): update dependency ubuntu to v26 (#1375)",
         "at": "2026-11-06T22:43:10Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "b850cd35cdfa287d97c9697ba9f918b77f4ca80d",
-        "subject": "ci: run every HACS action check (#1498)",
-        "at": "2026-11-06T22:19:27Z",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
