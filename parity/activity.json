@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-12T07:49:56.985Z",
+  "generatedAt": "2026-11-12T08:16:22.474Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "c83a7f9fceeac4d0f1f9eb581aa3be4496f3c680",
+        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-contracts-bom to v3.42.0 (#1565)",
+        "at": "2026-11-12T08:08:18Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "3eaa82e879ac4d2a405ba783982d3b11cbf18042",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to ae50e01 (#1563)",
+        "at": "2026-11-12T08:00:46Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "159028c0812be369a72926d21a69f294b3690f67",
         "subject": "build(deps): enforce BOMs for all ee.schimke.composeai dependencies (#1551)",
@@ -466,22 +482,6 @@
         "sha": "db1618b15172c8fb9b115188cca20b8e4e3513ed",
         "subject": "chore(deps): update yschimke/compose-ai-tools digest to 2be8af2 (#1500)",
         "at": "2026-11-06T22:52:19Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "3bf71f6eddabbfc58d7898b2e5202713cd13ea80",
-        "subject": "fix(deps): update androidx-compose (#1457)",
-        "at": "2026-11-06T22:49:36Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "3ba7c8aa07adab1b2fb50b55f18354c2d6f04aa8",
-        "subject": "chore(deps): update dependency ubuntu to v26 (#1375)",
-        "at": "2026-11-06T22:43:10Z",
         "author": "renovate[bot]",
         "previewIds": [],
         "components": []
