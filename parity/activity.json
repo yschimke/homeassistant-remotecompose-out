@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-12T16:09:03.167Z",
+  "generatedAt": "2026-11-12T21:25:54.865Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "46c35837dd199158afd0ca8e236f0673eb0869b0",
+        "subject": "fix(deps): update compose-ai-tools (#1574)",
+        "at": "2026-11-12T21:06:23Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "980e412b51fd9baa43ead16e71ce8994b8fe32e9",
         "subject": "fix(a11y): write card tap targets as named buttons (#1573)",
@@ -475,14 +483,6 @@
         "subject": "chore(main): release 0.1.88 (#1507)",
         "at": "2026-11-07T12:07:46Z",
         "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "fba8d856f3643e7546ba6082aab47a04609e49cd",
-        "subject": "feat: draw widgets' card fonts on the phone or by the design server (#1508)",
-        "at": "2026-11-07T12:03:37Z",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
