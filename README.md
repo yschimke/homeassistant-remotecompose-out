@@ -1,6 +1,6 @@
 # Accessibility Report
 
-_Auto-generated from `compose-preview/a11y/pr`. 404 preview(s) across 3 module(s) · 45 error(s) · 174 warning(s) · 442 info._
+_Auto-generated from `compose-preview/a11y/pr`. 404 preview(s) across 3 module(s) · 45 error(s) · 174 warning(s) · 443 info._
 
 Browse inline; image URLs are pinned to the commit SHA on the baseline branch so links keep resolving after merge.
 
@@ -1193,6 +1193,7 @@ _No findings._
 | # | Level | Rule | Element | Message |
 |--:|---|---|---|---|
 | 1 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "HELPER-T1" is identical to that of 3 other item(s). |
+| 2 | INFO | DuplicateSpeakableTextCheck | android.widget.TextView | This non-clickable item's speakable text: "INLINE-ON" is identical to that of 3 other item(s). |
 
 ### `Dashboard3dPrintingMobile`
 
