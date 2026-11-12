@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-12T04:03:18.734Z",
+  "generatedAt": "2026-11-12T06:55:59.932Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "7eb26a62ed51bf94608a0989422e6753d7376aaf",
+        "subject": "fix(deps): update compose-ai-tools (#1562)",
+        "at": "2026-11-12T06:48:02Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "8b9f42c625f76ff294c14357044c657092bf3f97",
+        "subject": "fix: keep widgets following temporary moving states until settled (#1552)",
+        "at": "2026-11-12T06:46:03Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "6c2b3f6bfb6846e294dce098859acef5e32fe42b",
+        "subject": "fix(deps): update dependency firebase-admin to v14.5.1 (#1561)",
+        "at": "2026-11-12T04:22:16Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "70dad27c4f1dfdcb7109fd12c34297e2d189a8c0",
         "subject": "fix(deps): update dependency com.google.firebase:firebase-bom to v35.2.0 (#1559)",
@@ -458,30 +482,6 @@
         "sha": "b850cd35cdfa287d97c9697ba9f918b77f4ca80d",
         "subject": "ci: run every HACS action check (#1498)",
         "at": "2026-11-06T22:19:27Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "56fb8547d9b39d17b31ac99e326611bb58f84be0",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 39e3069 (#1499)",
-        "at": "2026-11-06T22:14:11Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "464b7a7f08f22eeeeddb9e8c64fbdd0ce7ccd064",
-        "subject": "chore(deps): update compose-ai-tools (#1497)",
-        "at": "2026-11-06T21:39:21Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "29f0fb7e982447798d80a2361392b4e0d3323d57",
-        "subject": "feat: bitmap-font filter for widget hosts, applied by the design server for Wear designs (#1493)",
-        "at": "2026-11-06T21:17:11Z",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
