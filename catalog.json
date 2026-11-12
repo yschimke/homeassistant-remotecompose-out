@@ -18,7 +18,28 @@
           "density": 2.625
         }
       ],
-      "greenlines": [],
+      "greenlines": [
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button",
+          "detail": {
+            "role": "button",
+            "bounds": {
+              "x": 21,
+              "y": 27,
+              "width": 903,
+              "height": 136
+            }
+          },
+          "bounds": {
+            "x": 21,
+            "y": 27,
+            "width": 903,
+            "height": 136
+          }
+        }
+      ],
       "redlines": [
         {
           "bounds": {
@@ -27,6 +48,7 @@
             "width": 903,
             "height": 136
           },
+          "role": "Button",
           "padding": {
             "start": 12.190476,
             "top": 8,
@@ -105,7 +127,28 @@
           "density": 2.625
         }
       ],
-      "greenlines": [],
+      "greenlines": [
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button",
+          "detail": {
+            "role": "button",
+            "bounds": {
+              "x": 21,
+              "y": 27,
+              "width": 903,
+              "height": 136
+            }
+          },
+          "bounds": {
+            "x": 21,
+            "y": 27,
+            "width": 903,
+            "height": 136
+          }
+        }
+      ],
       "redlines": [
         {
           "bounds": {
@@ -114,6 +157,7 @@
             "width": 903,
             "height": 136
           },
+          "role": "Button",
           "padding": {
             "start": 12.190476,
             "top": 8,
@@ -801,7 +845,28 @@
           "density": 2.625
         }
       ],
-      "greenlines": [],
+      "greenlines": [
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button",
+          "detail": {
+            "role": "button",
+            "bounds": {
+              "x": 116,
+              "y": 95,
+              "width": 189,
+              "height": 231
+            }
+          },
+          "bounds": {
+            "x": 116,
+            "y": 95,
+            "width": 189,
+            "height": 231
+          }
+        }
+      ],
       "redlines": [
         {
           "bounds": {
@@ -810,6 +875,7 @@
             "width": 189,
             "height": 231
           },
+          "role": "Button",
           "padding": {
             "start": 12.190476,
             "top": 8,
@@ -1133,7 +1199,28 @@
           "density": 2.625
         }
       ],
-      "greenlines": [],
+      "greenlines": [
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button",
+          "detail": {
+            "role": "button",
+            "bounds": {
+              "x": 53,
+              "y": 147,
+              "width": 840,
+              "height": 116
+            }
+          },
+          "bounds": {
+            "x": 53,
+            "y": 147,
+            "width": 840,
+            "height": 116
+          }
+        }
+      ],
       "redlines": [
         {
           "bounds": {
@@ -1171,6 +1258,7 @@
             "width": 840,
             "height": 116
           },
+          "role": "Button",
           "padding": {
             "start": 0,
             "top": 0,
@@ -1358,7 +1446,28 @@
           "density": 2.625
         }
       ],
-      "greenlines": [],
+      "greenlines": [
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button",
+          "detail": {
+            "role": "button",
+            "bounds": {
+              "x": 21,
+              "y": 621,
+              "width": 903,
+              "height": 231
+            }
+          },
+          "bounds": {
+            "x": 21,
+            "y": 621,
+            "width": 903,
+            "height": 231
+          }
+        }
+      ],
       "redlines": [
         {
           "bounds": {
@@ -1425,6 +1534,7 @@
             "width": 903,
             "height": 231
           },
+          "role": "Button",
           "padding": {
             "start": 12.190476,
             "top": 8,
@@ -1718,7 +1828,28 @@
           "density": 2.625
         }
       ],
-      "greenlines": [],
+      "greenlines": [
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button",
+          "detail": {
+            "role": "button",
+            "bounds": {
+              "x": 21,
+              "y": 37,
+              "width": 903,
+              "height": 179
+            }
+          },
+          "bounds": {
+            "x": 21,
+            "y": 37,
+            "width": 903,
+            "height": 179
+          }
+        }
+      ],
       "redlines": [],
       "group": "Measurements",
       "caption": "A temperature as a thermometer, standard presentation: the glyph fills along HA's comfort ramp and follows `<entityId>.numeric_state` live.",
@@ -1986,7 +2117,28 @@
           "density": 2.625
         }
       ],
-      "greenlines": [],
+      "greenlines": [
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button",
+          "detail": {
+            "role": "button",
+            "bounds": {
+              "x": 21,
+              "y": 46,
+              "width": 903,
+              "height": 118
+            }
+          },
+          "bounds": {
+            "x": 21,
+            "y": 46,
+            "width": 903,
+            "height": 118
+          }
+        }
+      ],
       "redlines": [],
       "group": "Measurements",
       "caption": "A battery level as a battery; below 30 % it turns amber, below 15 % red.",
@@ -2399,7 +2551,7 @@
     "ee.schimke.ha:rc-components (RemoteHa* cards)"
   ],
   "renderer": "compose-preview 2.90.0",
-  "generatedAt": "2026-11-12T09:48:15.518Z",
+  "generatedAt": "2026-11-12T16:08:55.469Z",
   "display": {
     "surface": "light",
     "hero": "HaCard/Tile"
@@ -2506,7 +2658,7 @@
   "uiBuilderFile": "ui-builder.json",
   "source": {
     "repo": "yschimke/homeassistant-remotecompose",
-    "ref": "a7769b30059af29aaf9fc98354f1ddd51064f48c",
+    "ref": "980e412b51fd9baa43ead16e71ce8994b8fe32e9",
     "module": ":ha-cards-catalog"
   }
 }

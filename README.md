@@ -42,7 +42,7 @@ customising the live render are two ends of one workflow.
 | Rendered images (PNG) | **33** |
 | Editable wireframes (SVG) | **33** |
 | Editable design vectors (figma-svg) | **33** |
-| Components with a11y greenlines | **3** |
+| Components with a11y greenlines | **10** |
 | Library | `androidx.compose.remote:remote-creation-compose`<br>`androidx.wear.compose.remote:remote-material3`<br>`ee.schimke.ha:rc-components (RemoteHa* cards)` |
 | Renderer | compose-preview 2.90.0 |
 | Schema | `design-parity-catalog/v1` |

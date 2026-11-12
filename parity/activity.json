@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-12T09:48:20.230Z",
+  "generatedAt": "2026-11-12T16:09:03.167Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "980e412b51fd9baa43ead16e71ce8994b8fe32e9",
+        "subject": "fix(a11y): write card tap targets as named buttons (#1573)",
+        "at": "2026-11-12T15:59:57Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "d59d390cb7acf1e170d1c61d2c8072dec5e6d1c3",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 2b29812 (#1572)",
+        "at": "2026-11-12T09:47:50Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "a7769b30059af29aaf9fc98354f1ddd51064f48c",
         "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-contracts-bom to v3.43.0 (#1570)",
@@ -467,22 +483,6 @@
         "subject": "feat: draw widgets' card fonts on the phone or by the design server (#1508)",
         "at": "2026-11-07T12:03:37Z",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "77b2392a92bb33a417afe3bb840a8c6934dd4715",
-        "subject": "feat: show camera feeds in Rugged Digital's LCD window (#1506)",
-        "at": "2026-11-07T10:40:09Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "7202e12189457ee2a5a799d3460a28f60dd010bf",
-        "subject": "chore(main): release 0.1.87 (#1496)",
-        "at": "2026-11-07T10:10:50Z",
-        "author": "github-actions[bot]",
         "previewIds": [],
         "components": []
       }

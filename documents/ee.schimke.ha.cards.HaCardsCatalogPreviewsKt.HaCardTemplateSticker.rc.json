@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 513,
         "densityAtGeneration": 2.625,
-        "byteLength": 3267
+        "byteLength": 3284
     },
     "operations": [
         {
@@ -748,6 +748,20 @@
                                                                         "MODIFIER"
                                                                     ],
                                                                     "type": "ClickModifierOperation"
+                                                                },
+                                                                {
+                                                                    "$tags": [
+                                                                        "MODIFIER",
+                                                                        "A11Y"
+                                                                    ],
+                                                                    "type": "CoreSemantics",
+                                                                    "contentDescriptionId": 0,
+                                                                    "role": "BUTTON",
+                                                                    "textId": 0,
+                                                                    "stateDescriptionId": 0,
+                                                                    "enabled": true,
+                                                                    "mode": "SET",
+                                                                    "clickable": false
                                                                 },
                                                                 {
                                                                     "$tags": [
