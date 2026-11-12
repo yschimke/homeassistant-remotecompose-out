@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-12T21:25:54.865Z",
+  "generatedAt": "2026-11-12T21:45:52.567Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "2c28b04f999e3f251f74c96e3b0866807ef565f0",
+        "subject": "fix(deps): update dependency ee.schimke.composeai:rc-players-bom to v3.1.2 (#1566)",
+        "at": "2026-11-12T21:37:52Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "a997caa0978e042d9e3008914fa0ec4045e6cf12",
+        "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.273 (#1575)",
+        "at": "2026-11-12T21:11:35Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "46c35837dd199158afd0ca8e236f0673eb0869b0",
         "subject": "fix(deps): update compose-ai-tools (#1574)",
@@ -467,22 +483,6 @@
         "subject": "feat: one design list for the theme, and Developer and Designers settings sections (#1509)",
         "at": "2026-11-07T14:51:39Z",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "8e8fe0db9a7362a3dcbd2d6c1b62f29d6cdd5afe",
-        "subject": "chore(deps): update compose-ai-tools (#1510)",
-        "at": "2026-11-07T14:42:35Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "0fded90ebfbc936b5388b0caeb12ff8b8804fff0",
-        "subject": "chore(main): release 0.1.88 (#1507)",
-        "at": "2026-11-07T12:07:46Z",
-        "author": "github-actions[bot]",
         "previewIds": [],
         "components": []
       }
