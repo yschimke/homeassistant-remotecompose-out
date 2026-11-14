@@ -1,11 +1,51 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-14T03:20:55.712Z",
+  "generatedAt": "2026-11-14T11:54:33.038Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "d4b0a4055f5051e4b1eb99a300e3ab477b614b13",
+        "subject": "fix(rc-converter): use TRIM_MEMORY_UI_HIDDEN instead of deprecated TRIM_MEMORY_RUNNING_LOW (#1596)",
+        "at": "2026-11-14T11:23:52Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "b4260a7d7c2bc90bb16bed0660b6b652dafd99e5",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 7c31556 (#1594)",
+        "at": "2026-11-14T10:47:29Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "bd597a4a8f9b530c35d8405328e123d13a365cf0",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 487ddd1 (#1591)",
+        "at": "2026-11-14T08:37:45Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "c267c138a26582d8c06714273b650c8e94119b65",
+        "subject": "chore(deps): update actions/setup-java action to v6.3.0 (#1592)",
+        "at": "2026-11-14T08:37:11Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "8383c79b29084ac650ee1b8573ed85bff6f9686e",
+        "subject": "chore(renovate): skip rc-players-bom 3.2.0 (#1590)",
+        "at": "2026-11-14T03:34:38Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "f283b9f2f892adb330b9ec28a87e1064cea4702d",
         "subject": "chore(deps): update dependency com.google.devtools.ksp to v2.3.14 (#1587)",
@@ -443,46 +483,6 @@
         "subject": "feat(desktop): add Home Assistant OAuth sign-in (#1528)",
         "at": "2026-11-08T08:21:42Z",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "c6b5541ca08c98e76d9f7c2ae611261458a04b25",
-        "subject": "fix: open card designs library from Home Assistant sidebar (#1529)",
-        "at": "2026-11-08T08:21:25Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "b71ee36cfb36be1ac8f5fc25a84c76188c9682e1",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 85b7707 (#1527)",
-        "at": "2026-11-08T04:49:47Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ea39de6de888ea8bb618efe0fa076d7b511da4b0",
-        "subject": "fix(deps): update compose-ai-tools (#1526)",
-        "at": "2026-11-08T00:52:23Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "06b4fe800b2d8af0d503dfa2963ff2dca2422454",
-        "subject": "fix: wall polls on one card all get its change (#1524)",
-        "at": "2026-11-07T23:00:42Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "5983c899f32316ef9f008cc78f1106de26f90bc3",
-        "subject": "chore(main): release 0.1.89 (#1511)",
-        "at": "2026-11-07T22:33:57Z",
-        "author": "github-actions[bot]",
         "previewIds": [],
         "components": []
       }
