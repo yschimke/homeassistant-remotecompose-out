@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-14T12:35:19.506Z",
+  "generatedAt": "2026-11-14T13:01:12.082Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "69b4f02b470781a98b77a4745fc9a0a3cb6bdcc6",
+        "subject": "perf: a design made for a known screen width lays its grids out for it (#1601)",
+        "at": "2026-11-14T12:36:02Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "0620c47afecf826191fe1ada7e2240dafe6c389f",
+        "subject": "perf(terrazzo-core): move TokenVault from preferencesDataStore to AtomicFile in noBackupFilesDir (#1599)",
+        "at": "2026-11-14T12:28:51Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "8cc22cbef67db803a064f9d9dbcb3c48d8c88f94",
         "subject": "feat: adopt mdi-icons for MDI glyphs, headings, and markdown (#1593)",
@@ -467,22 +483,6 @@
         "subject": "fix(deps): update dependency ee.schimke.composeai:data-render-core to v3.40.0 (#1513)",
         "at": "2026-11-08T11:11:12Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "e474cfa3ba1f3ddc0b5c27d7e33e35b625c617b0",
-        "subject": "ci(arch): fetch the release .deb with backoff before makepkg (#1531)",
-        "at": "2026-11-08T10:06:09Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "09fcec2a3c42aed0be5ae8e8e220ca2714ce9f1b",
-        "subject": "docs(web): link the Arch Linux install page from the home page (#1530)",
-        "at": "2026-11-08T09:08:23Z",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
