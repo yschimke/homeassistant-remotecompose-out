@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-14T13:01:12.082Z",
+  "generatedAt": "2026-11-14T13:27:57.491Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "a1b83ed6587f739966e13c77a9dfa0286fb3fab8",
+        "subject": "fix: sign out cleanly when a restore brings back undecryptable tokens (#1597)",
+        "at": "2026-11-14T13:16:09Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "abfe11bea0e612e6053124ec82ec75ae371ea4d8",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 7427827 (#1602)",
+        "at": "2026-11-14T12:57:26Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "69b4f02b470781a98b77a4745fc9a0a3cb6bdcc6",
         "subject": "perf: a design made for a known screen width lays its grids out for it (#1601)",
@@ -467,22 +483,6 @@
         "subject": "chore(main): release 0.1.91 (#1532)",
         "at": "2026-11-08T21:30:31Z",
         "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "45c9ef66624cb87c7725e2fab33590b2399907ef",
-        "subject": "feat: add a desktop dashboard workspace and native commands (#1533)",
-        "at": "2026-11-08T21:06:45Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a3bbc6dabb938e8831280cd5618340dc8545df65",
-        "subject": "fix(deps): update dependency ee.schimke.composeai:data-render-core to v3.40.0 (#1513)",
-        "at": "2026-11-08T11:11:12Z",
-        "author": "renovate[bot]",
         "previewIds": [],
         "components": []
       }
