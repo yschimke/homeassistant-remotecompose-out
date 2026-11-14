@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-14T13:27:57.491Z",
+  "generatedAt": "2026-11-14T18:38:59.577Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "3c52a132cdb1f91896fc972195d2f4eab08c9394",
+        "subject": "fix(deps): update dependency ch.qos.logback:logback-classic to v1.6.7 (#1610)",
+        "at": "2026-11-14T18:30:16Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "26aa5e195199be5e01589314fe2a5417f1fc287b",
+        "subject": "feat: offer sign-in again to the restored instance, keeping its dashboards (#1604)",
+        "at": "2026-11-14T14:05:03Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "4a67d46893b0285b89874bf3cce21aacb646e47d",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 89265db (#1603)",
+        "at": "2026-11-14T13:38:45Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "a1b83ed6587f739966e13c77a9dfa0286fb3fab8",
         "subject": "fix: sign out cleanly when a restore brings back undecryptable tokens (#1597)",
@@ -459,30 +483,6 @@
         "subject": "fix: register Compose graphics on the JVM before cards are captured (#1538)",
         "at": "2026-11-09T15:08:55Z",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "9aa2fd7cf074caadd00bbc9d02f79bb7d1aa49b7",
-        "subject": "fix: push the home's sun to wall display cards, not daytime stubs (#1535)",
-        "at": "2026-11-09T10:09:18Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "3ddde5adb3e42db1250805f35c5b1f1a9aa26586",
-        "subject": "chore(deps): pin dependency java-jdk to 21.0.13+9.0.lts (#1534)",
-        "at": "2026-11-08T21:49:36Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "dd711146026653ebf36948fa80d926d0e39a5e87",
-        "subject": "chore(main): release 0.1.91 (#1532)",
-        "at": "2026-11-08T21:30:31Z",
-        "author": "github-actions[bot]",
         "previewIds": [],
         "components": []
       }
