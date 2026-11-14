@@ -1,40 +1,55 @@
 {
   "entries": [
     {
-      "annotatedBasename": "DashboardViewMeshcoreRoomServerMobile_dashboard_meshcore_view_3_Room_Server_mobi-76b5c26e.a11y.png",
-      "cleanBasename": "DashboardViewMeshcoreRoomServerMobile_dashboard_meshcore_view_3_Room_Server_mobi-76b5c26e.png",
+      "annotatedBasename": "Kit_RuggedDigital_Watch_Dark_kit_Rugged_Digital_watch_dark-ade14a60.a11y.png",
+      "cleanBasename": "Kit_RuggedDigital_Watch_Dark_kit_Rugged_Digital_watch_dark-ade14a60.png",
+      "findings": [],
+      "functionName": "Kit_RuggedDigital_Watch_Dark",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ThemeKitPreviewsKt.Kit_RuggedDigital_Watch_Dark_kit_ Rugged Digital watch (dark)",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/ThemeKitPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "Kit_RuggedDigital_Watch_Light_kit_Rugged_Digital_watch_light-23b21c87.a11y.png",
+      "cleanBasename": "Kit_RuggedDigital_Watch_Light_kit_Rugged_Digital_watch_light-23b21c87.png",
+      "findings": [],
+      "functionName": "Kit_RuggedDigital_Watch_Light",
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ThemeKitPreviewsKt.Kit_RuggedDigital_Watch_Light_kit_ Rugged Digital watch (light)",
+      "rendersDir": "previews",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/ThemeKitPreviews.kt",
+      "variant": ""
+    },
+    {
+      "annotatedBasename": "UberCommon_uber_common_cards-69d5ccb6.a11y.png",
+      "cleanBasename": "UberCommon_uber_common_cards-69d5ccb6.png",
       "findings": [
         {
-          "boundsInScreen": "74,979,376,1022",
+          "boundsInScreen": "347,335,568,382",
           "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Open in app to edit\" is identical to that of 1 other item(s).",
-          "type": "DuplicateSpeakableTextCheck",
-          "viewDescription": "android.widget.TextView"
-        },
-        {
-          "boundsInScreen": "74,1230,263,1273",
-          "level": "INFO",
-          "message": "This non-clickable item's speakable text: \"Kodu Room\" is identical to that of 1 other item(s).",
+          "message": "This non-clickable item's speakable text: \"Temperature\" is identical to that of 1 other item(s).",
           "type": "DuplicateSpeakableTextCheck",
           "viewDescription": "android.widget.TextView"
         }
       ],
-      "functionName": "DashboardViewMeshcoreRoomServerMobile",
+      "functionName": "UberCommon",
       "module": "previews",
-      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardViewMeshcoreRoomServerMobile_dashboard meshcore view 3 Room Server \u2014 mobile",
+      "previewId": "ee.schimke.ha.previews.UberCommonCardPreviewsKt.UberCommon_uber common cards",
       "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/DashboardPreviews.kt",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberCommonCardPreviews.kt",
       "variant": ""
     },
     {
-      "annotatedBasename": "",
-      "cleanBasename": "ImageUrl_Probe_Frame1_image_url_probe_frame_1-97608c2e.png",
+      "annotatedBasename": "UberEverydayText_uber_text_cards-1a7faf6d.a11y.png",
+      "cleanBasename": "UberEverydayText_uber_text_cards-1a7faf6d.png",
       "findings": [],
-      "functionName": "ImageUrl_Probe_Frame1",
+      "functionName": "UberEverydayText",
       "module": "previews",
-      "previewId": "ee.schimke.ha.previews.ImagePreviewsKt.ImageUrl_Probe_Frame1_image-url probe frame=1",
+      "previewId": "ee.schimke.ha.previews.UberEverydayTextPreviewsKt.UberEverydayText_uber text cards",
       "rendersDir": "previews",
-      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/ImagePreviews.kt",
+      "sourceFile": "src/main/kotlin/ee/schimke/ha/previews/UberEverydayTextPreviews.kt",
       "variant": ""
     }
   ],
@@ -1010,6 +1025,10 @@
     },
     {
       "module": "previews",
+      "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardViewMeshcoreRoomServerMobile_dashboard meshcore view 3 Room Server \u2014 mobile"
+    },
+    {
+      "module": "previews",
       "previewId": "ee.schimke.ha.previews.DashboardPreviewsKt.DashboardViewMeshcoreSolarRepeaterMobile_dashboard meshcore view 2 Solar Repeater \u2014 mobile"
     },
     {
@@ -1127,6 +1146,10 @@
     {
       "module": "previews",
       "previewId": "ee.schimke.ha.previews.ImagePreviewsKt.ImageUrl_Probe_Frame0_image-url probe frame=0"
+    },
+    {
+      "module": "previews",
+      "previewId": "ee.schimke.ha.previews.ImagePreviewsKt.ImageUrl_Probe_Frame1_image-url probe frame=1"
     },
     {
       "module": "previews",
@@ -1343,14 +1366,6 @@
     {
       "module": "previews",
       "previewId": "ee.schimke.ha.previews.ThemeKitPreviewsKt.Kit_RuggedDigital_Light_kit_ Rugged Digital (light)"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.ThemeKitPreviewsKt.Kit_RuggedDigital_Watch_Dark_kit_ Rugged Digital watch (dark)"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.ThemeKitPreviewsKt.Kit_RuggedDigital_Watch_Light_kit_ Rugged Digital watch (light)"
     },
     {
       "module": "previews",
@@ -1607,14 +1622,6 @@
     {
       "module": "previews",
       "previewId": "ee.schimke.ha.previews.ToggleSwitchPreviewsKt.ToggleInitial_On_toggle initial=on"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.UberCommonCardPreviewsKt.UberCommon_uber common cards"
-    },
-    {
-      "module": "previews",
-      "previewId": "ee.schimke.ha.previews.UberEverydayTextPreviewsKt.UberEverydayText_uber text cards"
     },
     {
       "module": "previews",
