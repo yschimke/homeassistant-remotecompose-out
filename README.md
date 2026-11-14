@@ -1,6 +1,6 @@
 # Accessibility Report
 
-_Auto-generated from `compose-preview/a11y/pr`. 44 preview(s) across 2 module(s) · 0 error(s) · 76 warning(s) · 190 info._
+_Auto-generated from `compose-preview/a11y/pr`. 43 preview(s) across 2 module(s) · 0 error(s) · 76 warning(s) · 190 info._
 
 Browse inline; image URLs are pinned to the commit SHA on the baseline branch so links keep resolving after merge.
 
@@ -468,12 +468,6 @@ _No findings._
 ### `DashboardViewMeshcoreSolarRepeaterMobile`
 
 <img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/DashboardViewMeshcoreSolarRepeaterMobile_dashboard_meshcore_view_2_Solar_Repeate-27a5d9ad.a11y.png" width="400" />
-
-_No findings._
-
-### `ImageUrl_Probe_Frame0`
-
-<img src="https://raw.githubusercontent.com/yschimke/homeassistant-remotecompose-out/compose-preview/a11y/pr/renders/previews/ImageUrl_Probe_Frame0_image_url_probe_frame_0-1464413f.png" width="400" />
 
 _No findings._
 
