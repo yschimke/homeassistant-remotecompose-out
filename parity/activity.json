@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-14T18:38:59.577Z",
+  "generatedAt": "2026-11-14T19:00:31.410Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "d586dc30e8cbd6fb12eefd2144fc1c0601dd837d",
+        "subject": "feat: the design server serves a face's glyphs as packs a small player caches (#1606)",
+        "at": "2026-11-14T18:52:31Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "0f7df1689d0ac602a7a9326405dcff8990306e1c",
+        "subject": "feat: the wall API packs a view into screens for a small panel (#1605)",
+        "at": "2026-11-14T18:34:47Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "ea0d4194a886a6285f9f3eaa103eb36e033e53c8",
+        "subject": "docs: a roadmap for building a Home Assistant wall panel (#1609)",
+        "at": "2026-11-14T18:34:41Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "3c52a132cdb1f91896fc972195d2f4eab08c9394",
         "subject": "fix(deps): update dependency ch.qos.logback:logback-classic to v1.6.7 (#1610)",
@@ -459,30 +483,6 @@
         "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.270 (#1541)",
         "at": "2026-11-09T20:23:17Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "da39dc09d65bf3e32157b2b623f0a4c470380a41",
-        "subject": "chore(main): release 0.1.92 (#1536)",
-        "at": "2026-11-09T20:21:20Z",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "fe5e479835b43f9dd808cf39134721c22edec0c3",
-        "subject": "fix(wear): enable widget providers below API 37 (#1540)",
-        "at": "2026-11-09T20:04:05Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "b46bcfeb54a96d45fd6efdb7c456ae448fd22282",
-        "subject": "fix: register Compose graphics on the JVM before cards are captured (#1538)",
-        "at": "2026-11-09T15:08:55Z",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
