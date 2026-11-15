@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-14T23:54:17.827Z",
+  "generatedAt": "2026-11-15T03:56:02.855Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "a9d55c569674ca6c0d21fd5ce5a97edac0174729",
+        "subject": "build: follow rc-players releases again, from 3.5.2 (#1621)",
+        "at": "2026-11-15T03:50:03Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "c685ce54a21c9fca62086f72973d7feb47685ba2",
         "subject": "fix: every card plays in the Compose player, with no AndroidX fallback (#1620)",
@@ -474,14 +482,6 @@
         "sha": "6d745999e0f16abace5247cf5a3976becc810349",
         "subject": "fix(deps): update dependency com.google.gms:google-services to v4.6.0 (#1553)",
         "at": "2026-11-12T03:31:49Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a87dad0b1313f8979328ad5ac6ca2179fa3d39b1",
-        "subject": "chore(deps): update dependency com.github.triplet.play to v4.1.2 (#1556)",
-        "at": "2026-11-12T03:15:56Z",
         "author": "renovate[bot]",
         "previewIds": [],
         "components": []
