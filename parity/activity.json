@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-15T13:19:23.327Z",
+  "generatedAt": "2026-11-15T13:33:47.660Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "b686c423962a77d395e4d1a264e34bd44ef29806",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 5b0b789 (#1623)",
+        "at": "2026-11-15T13:20:14Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "d720c5708004b58bf9e877a36bdbd6baa859a716",
         "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-daemon-bom to v3.28.0 (#1625)",
@@ -475,14 +483,6 @@
         "subject": "fix: keep widgets following temporary moving states until settled (#1552)",
         "at": "2026-11-12T06:46:03Z",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "6c2b3f6bfb6846e294dce098859acef5e32fe42b",
-        "subject": "fix(deps): update dependency firebase-admin to v14.5.1 (#1561)",
-        "at": "2026-11-12T04:22:16Z",
-        "author": "renovate[bot]",
         "previewIds": [],
         "components": []
       }
