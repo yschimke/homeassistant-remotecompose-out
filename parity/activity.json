@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-15T18:19:15.847Z",
+  "generatedAt": "2026-11-15T18:34:36.700Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "c5f62ff4e56a8ce95326a318d81b1bbc31ec657f",
+        "subject": "fix(deps): update dependency ee.schimke.composeai:rc-players-bom to v3.5.3 (#1628)",
+        "at": "2026-11-15T18:24:25Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "3f2a149040f2a1baa3c9c4fac43225d275e2838a",
         "subject": "fix(deps): update compose-ai-tools (#1627)",
@@ -475,14 +483,6 @@
         "subject": "build(deps): enforce BOMs for all ee.schimke.composeai dependencies (#1551)",
         "at": "2026-11-12T07:35:52Z",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "7eb26a62ed51bf94608a0989422e6753d7376aaf",
-        "subject": "fix(deps): update compose-ai-tools (#1562)",
-        "at": "2026-11-12T06:48:02Z",
-        "author": "renovate[bot]",
         "previewIds": [],
         "components": []
       }
