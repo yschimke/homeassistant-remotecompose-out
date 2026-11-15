@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-15T13:05:17.937Z",
+  "generatedAt": "2026-11-15T13:19:23.327Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "d720c5708004b58bf9e877a36bdbd6baa859a716",
+        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-daemon-bom to v3.28.0 (#1625)",
+        "at": "2026-11-15T12:59:28Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "33bb649d902a9386995728bb28c64b0f22908fee",
         "subject": "ci: fix Design Artifacts, preview-release-diff, font cache, and WidgetMovingStateTest race (#1624)",
@@ -474,14 +482,6 @@
         "sha": "6c2b3f6bfb6846e294dce098859acef5e32fe42b",
         "subject": "fix(deps): update dependency firebase-admin to v14.5.1 (#1561)",
         "at": "2026-11-12T04:22:16Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "70dad27c4f1dfdcb7109fd12c34297e2d189a8c0",
-        "subject": "fix(deps): update dependency com.google.firebase:firebase-bom to v35.2.0 (#1559)",
-        "at": "2026-11-12T03:45:40Z",
         "author": "renovate[bot]",
         "previewIds": [],
         "components": []
