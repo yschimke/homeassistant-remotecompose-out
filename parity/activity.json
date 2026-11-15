@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-15T03:56:02.855Z",
+  "generatedAt": "2026-11-15T13:05:17.937Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "33bb649d902a9386995728bb28c64b0f22908fee",
+        "subject": "ci: fix Design Artifacts, preview-release-diff, font cache, and WidgetMovingStateTest race (#1624)",
+        "at": "2026-11-15T12:54:45Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "6f2f89190ee51ea57dc51aca527efb1e1499a265",
+        "subject": "chore(main): release 0.1.97 (#1622)",
+        "at": "2026-11-15T07:46:33Z",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "a9d55c569674ca6c0d21fd5ce5a97edac0174729",
         "subject": "build: follow rc-players releases again, from 3.5.2 (#1621)",
@@ -466,22 +482,6 @@
         "sha": "70dad27c4f1dfdcb7109fd12c34297e2d189a8c0",
         "subject": "fix(deps): update dependency com.google.firebase:firebase-bom to v35.2.0 (#1559)",
         "at": "2026-11-12T03:45:40Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "1085b613ba56c67a5a1019630542535d40e15612",
-        "subject": "fix(deps): update kotlinx to v1.13.0 (#1560)",
-        "at": "2026-11-12T03:42:33Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "6d745999e0f16abace5247cf5a3976becc810349",
-        "subject": "fix(deps): update dependency com.google.gms:google-services to v4.6.0 (#1553)",
-        "at": "2026-11-12T03:31:49Z",
         "author": "renovate[bot]",
         "previewIds": [],
         "components": []
