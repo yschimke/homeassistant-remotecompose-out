@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-15T13:33:47.660Z",
+  "generatedAt": "2026-11-15T18:19:15.847Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "3f2a149040f2a1baa3c9c4fac43225d275e2838a",
+        "subject": "fix(deps): update compose-ai-tools (#1627)",
+        "at": "2026-11-15T18:10:10Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "b686c423962a77d395e4d1a264e34bd44ef29806",
         "subject": "chore(deps): update yschimke/compose-ai-tools digest to 5b0b789 (#1623)",
@@ -475,14 +483,6 @@
         "subject": "fix(deps): update compose-ai-tools (#1562)",
         "at": "2026-11-12T06:48:02Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "8b9f42c625f76ff294c14357044c657092bf3f97",
-        "subject": "fix: keep widgets following temporary moving states until settled (#1552)",
-        "at": "2026-11-12T06:46:03Z",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
