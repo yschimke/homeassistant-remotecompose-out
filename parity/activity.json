@@ -1,11 +1,51 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-15T18:34:36.700Z",
+  "generatedAt": "2026-11-16T07:04:47.531Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "c0bd3fa7f27354360521d9dbc3120f8137a82e27",
+        "subject": "chore(main): release 0.1.98 (#1626)",
+        "at": "2026-11-16T06:40:27Z",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "ab30b8149e3d287abb961bd5d5fb02074a0bab51",
+        "subject": "fix(deps): update mockserver to v9.3.0 (#1633)",
+        "at": "2026-11-16T03:40:44Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "0bda8f8ffd5512a495909517f1ea77653993dfa6",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 0c1e017 (#1632)",
+        "at": "2026-11-16T03:26:07Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "fa8ddedcf7fc58d2e563a809c63bfee9f3739ffc",
+        "subject": "style: format WidgetMovingStateTest with ktfmt (#1630)",
+        "at": "2026-11-16T03:24:42Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "fc697d0b48e839c5ad79da541e3f8030a89f94d0",
+        "subject": "chore(renovate): skip rc-players-bom 3.6.0 (#1631)",
+        "at": "2026-11-16T03:22:30Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "c5f62ff4e56a8ce95326a318d81b1bbc31ec657f",
         "subject": "fix(deps): update dependency ee.schimke.composeai:rc-players-bom to v3.5.3 (#1628)",
@@ -443,46 +483,6 @@
         "subject": "chore(deps): update compose-ai-tools (#1569)",
         "at": "2026-11-12T09:26:36Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "d2a4f40397901730869e9a662ab5972332cc8502",
-        "subject": "chore(main): release 0.1.93 (#1546)",
-        "at": "2026-11-12T08:31:57Z",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "bec6025922e7c2043aad97d1bd3486577c106d12",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 96ff32a (#1567)",
-        "at": "2026-11-12T08:28:12Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "c83a7f9fceeac4d0f1f9eb581aa3be4496f3c680",
-        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-contracts-bom to v3.42.0 (#1565)",
-        "at": "2026-11-12T08:08:18Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "3eaa82e879ac4d2a405ba783982d3b11cbf18042",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to ae50e01 (#1563)",
-        "at": "2026-11-12T08:00:46Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "159028c0812be369a72926d21a69f294b3690f67",
-        "subject": "build(deps): enforce BOMs for all ee.schimke.composeai dependencies (#1551)",
-        "at": "2026-11-12T07:35:52Z",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
