@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-16T12:27:32.445Z",
+  "generatedAt": "2026-11-16T14:27:58.805Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "0c742aed7d1b080b2bb364c6a509105ac576e9f2",
+        "subject": "feat: restore sign-in on a new phone via Restore Credentials (#1636)",
+        "at": "2026-11-16T14:20:16Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "44ddd91ae5c876cb56e6080e6215b9e8a43a5d07",
         "subject": "fix(deps): update compose-ai-tools (#1634)",
@@ -475,14 +483,6 @@
         "subject": "feat: author cards with rc-players' Compose Multiplatform creation API (#1568)",
         "at": "2026-11-12T09:32:23Z",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ea199749babcbe5a93f1df3bee5da0d1555ad63a",
-        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-daemon-bom to v3.27.6 (#1564)",
-        "at": "2026-11-12T09:29:48Z",
-        "author": "renovate[bot]",
         "previewIds": [],
         "components": []
       }
