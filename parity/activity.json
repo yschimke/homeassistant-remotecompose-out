@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-16T14:27:58.805Z",
+  "generatedAt": "2026-11-17T02:38:10.498Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "5658f3db6f450cf9224e9309e823fd35dd23351c",
+        "subject": "fix(deps): update compose-ai-tools (#1640)",
+        "at": "2026-11-17T02:31:28Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "1768ad2a9e014415504a63bc237306a3820a28af",
+        "subject": "chore(deps): update ghcr.io/home-assistant/home-assistant docker tag to v2026.11.2 (#1639)",
+        "at": "2026-11-17T02:25:49Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "0bf65190847ef038489eb6646a7f2d017ea3cd41",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 44fd360 (#1637)",
+        "at": "2026-11-16T14:43:52Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "0c742aed7d1b080b2bb364c6a509105ac576e9f2",
         "subject": "feat: restore sign-in on a new phone via Restore Credentials (#1636)",
@@ -458,30 +482,6 @@
         "sha": "980e412b51fd9baa43ead16e71ce8994b8fe32e9",
         "subject": "fix(a11y): write card tap targets as named buttons (#1573)",
         "at": "2026-11-12T15:59:57Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "d59d390cb7acf1e170d1c61d2c8072dec5e6d1c3",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 2b29812 (#1572)",
-        "at": "2026-11-12T09:47:50Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a7769b30059af29aaf9fc98354f1ddd51064f48c",
-        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-contracts-bom to v3.43.0 (#1570)",
-        "at": "2026-11-12T09:39:51Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "17e4f418ff2ef29ed97d45e5c0a3cbc6a3820043",
-        "subject": "feat: author cards with rc-players' Compose Multiplatform creation API (#1568)",
-        "at": "2026-11-12T09:32:23Z",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
