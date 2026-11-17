@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-17T21:25:25.060Z",
+  "generatedAt": "2026-11-17T21:37:23.439Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "91b3bf9caf8b640fb05ad84a0d8c4d929b800030",
+        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-ui-builder-bom to v3.131.0 (#1645)",
+        "at": "2026-11-17T21:14:58Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "1ebf6cdd5f0f1fe2af18a212e0c20f10b3fd28a0",
         "subject": "fix(deps): update compose-ai-tools (#1644)",
@@ -474,14 +482,6 @@
         "sha": "855e31648f4105d18a871a9828380a6b143d13be",
         "subject": "chore(deps): update yschimke/compose-ai-tools digest to af5442f (#1579)",
         "at": "2026-11-13T10:06:23Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "2bcb5186cb38bc8db68948f9a6d7d9fb0e512ecd",
-        "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.275 (#1577)",
-        "at": "2026-11-13T05:02:34Z",
         "author": "renovate[bot]",
         "previewIds": [],
         "components": []
