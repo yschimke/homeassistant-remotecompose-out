@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-17T02:38:10.498Z",
+  "generatedAt": "2026-11-17T02:49:22.811Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "61b0428d8ef293f6a9814a274babf4c75513a211",
+        "subject": "chore(deps): update dependency dev.zacsweers.metro to v1.6.0 (#1641)",
+        "at": "2026-11-17T02:33:34Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "5658f3db6f450cf9224e9309e823fd35dd23351c",
         "subject": "fix(deps): update compose-ai-tools (#1640)",
@@ -475,14 +483,6 @@
         "subject": "fix(deps): update compose-ai-tools (#1574)",
         "at": "2026-11-12T21:06:23Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "980e412b51fd9baa43ead16e71ce8994b8fe32e9",
-        "subject": "fix(a11y): write card tap targets as named buttons (#1573)",
-        "at": "2026-11-12T15:59:57Z",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
