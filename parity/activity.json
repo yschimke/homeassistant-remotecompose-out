@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-18T12:33:06.667Z",
+  "generatedAt": "2026-11-18T20:49:03.992Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "0bbecd68f1410c3afe0fa4f9f6e1364f28a84931",
+        "subject": "fix(deps): update compose-ai-tools (#1655)",
+        "at": "2026-11-18T20:40:57Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "9e1ca961281c490228e7593f6f878cc531a09eea",
+        "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.282 (#1653)",
+        "at": "2026-11-18T20:33:41Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "ebc666e2f2edbe98067b20e27e509fa4d7d72997",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 6c87a5a (#1652)",
+        "at": "2026-11-18T12:27:34Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "0d40b69dfb2892f7c6a0535538f150b0edf06332",
         "subject": "fix(deps): update compose-multiplatform to v1.13.0-rc01 (#1651)",
@@ -459,30 +483,6 @@
         "subject": "chore(renovate): skip rc-players-bom 3.2.0 (#1590)",
         "at": "2026-11-14T03:34:38Z",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "f283b9f2f892adb330b9ec28a87e1064cea4702d",
-        "subject": "chore(deps): update dependency com.google.devtools.ksp to v2.3.14 (#1587)",
-        "at": "2026-11-14T03:14:38Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "132ff7bbe9de9188bf25b85305f38810816cf5c8",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 710fe9f (#1589)",
-        "at": "2026-11-14T02:11:51Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "25175042a4c614a6dad76191a0e27f510e7a5e1a",
-        "subject": "chore(deps): update github-actions (#1588)",
-        "at": "2026-11-13T23:13:53Z",
-        "author": "renovate[bot]",
         "previewIds": [],
         "components": []
       }
