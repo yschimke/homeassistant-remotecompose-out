@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-18T20:49:03.992Z",
+  "generatedAt": "2026-11-18T21:00:55.099Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "933f70222925079a69ba86bdac6838580969f3fe",
+        "subject": "fix(deps): update androidx (#1654)",
+        "at": "2026-11-18T20:42:26Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "0bbecd68f1410c3afe0fa4f9f6e1364f28a84931",
         "subject": "fix(deps): update compose-ai-tools (#1655)",
@@ -475,14 +483,6 @@
         "subject": "chore(deps): update actions/setup-java action to v6.3.0 (#1592)",
         "at": "2026-11-14T08:37:11Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "8383c79b29084ac650ee1b8573ed85bff6f9686e",
-        "subject": "chore(renovate): skip rc-players-bom 3.2.0 (#1590)",
-        "at": "2026-11-14T03:34:38Z",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
