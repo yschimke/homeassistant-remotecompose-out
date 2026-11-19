@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-19T05:13:02.903Z",
+  "generatedAt": "2026-11-19T05:22:32.603Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "6c993b7147ab5baa0232a2d726654fdcb24a4395",
+        "subject": "fix(deps): update compose-ai-tools (#1660)",
+        "at": "2026-11-19T05:11:37Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "2511c3a2111b4ff77ada0ca050626dd283a45556",
+        "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.283 (#1658)",
+        "at": "2026-11-19T05:07:54Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "a455555d740d3884fe06386619627e41157c6165",
         "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-ui-builder-bom to v3.134.0 (#1656)",
@@ -466,22 +482,6 @@
         "sha": "8cc22cbef67db803a064f9d9dbcb3c48d8c88f94",
         "subject": "feat: adopt mdi-icons for MDI glyphs, headings, and markdown (#1593)",
         "at": "2026-11-14T12:05:44Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "dcd83b4eb1445bbbdeb1e86182738af66a1822b4",
-        "subject": "fix(deps): update compose-ai-tools to v2.92.0 (#1598)",
-        "at": "2026-11-14T11:53:22Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "d4b0a4055f5051e4b1eb99a300e3ab477b614b13",
-        "subject": "fix(rc-converter): use TRIM_MEMORY_UI_HIDDEN instead of deprecated TRIM_MEMORY_RUNNING_LOW (#1596)",
-        "at": "2026-11-14T11:23:52Z",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
