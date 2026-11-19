@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-18T21:00:55.099Z",
+  "generatedAt": "2026-11-19T05:13:02.903Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "a455555d740d3884fe06386619627e41157c6165",
+        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-ui-builder-bom to v3.134.0 (#1656)",
+        "at": "2026-11-19T05:06:36Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "114c05b40040e5ac6827ccbb364439f7fcdd8f90",
+        "subject": "chore(deps): update dependency firebase-tools to v15.37.0 (#1659)",
+        "at": "2026-11-19T05:05:24Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "3e2dc129923ca7883c9bd6c48a76500e16669b04",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to aec3ae0 (#1657)",
+        "at": "2026-11-18T20:57:44Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "933f70222925079a69ba86bdac6838580969f3fe",
         "subject": "fix(deps): update androidx (#1654)",
@@ -459,30 +483,6 @@
         "subject": "fix(rc-converter): use TRIM_MEMORY_UI_HIDDEN instead of deprecated TRIM_MEMORY_RUNNING_LOW (#1596)",
         "at": "2026-11-14T11:23:52Z",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "b4260a7d7c2bc90bb16bed0660b6b652dafd99e5",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 7c31556 (#1594)",
-        "at": "2026-11-14T10:47:29Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "bd597a4a8f9b530c35d8405328e123d13a365cf0",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 487ddd1 (#1591)",
-        "at": "2026-11-14T08:37:45Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "c267c138a26582d8c06714273b650c8e94119b65",
-        "subject": "chore(deps): update actions/setup-java action to v6.3.0 (#1592)",
-        "at": "2026-11-14T08:37:11Z",
-        "author": "renovate[bot]",
         "previewIds": [],
         "components": []
       }
