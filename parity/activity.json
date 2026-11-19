@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-19T20:27:41.881Z",
+  "generatedAt": "2026-11-19T20:45:19.445Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "c2804219672c28f96dd1a5458c969045e1c1108a",
+        "subject": "fix(deps): update dependency ch.qos.logback:logback-classic to v1.6.8 (#1665)",
+        "at": "2026-11-19T20:20:16Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "35a900cd7c8a4bd2c143d6e099d6c65b4dd333f1",
+        "subject": "fix(deps): update androidx-wear to v1.7.2 (#1664)",
+        "at": "2026-11-19T20:18:34Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "08e760f0c750d6cf2274149775e703f71d84a7b9",
         "subject": "fix(deps): update androidx (#1663)",
@@ -466,22 +482,6 @@
         "sha": "4a67d46893b0285b89874bf3cce21aacb646e47d",
         "subject": "chore(deps): update yschimke/compose-ai-tools digest to 89265db (#1603)",
         "at": "2026-11-14T13:38:45Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a1b83ed6587f739966e13c77a9dfa0286fb3fab8",
-        "subject": "fix: sign out cleanly when a restore brings back undecryptable tokens (#1597)",
-        "at": "2026-11-14T13:16:09Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "abfe11bea0e612e6053124ec82ec75ae371ea4d8",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 7427827 (#1602)",
-        "at": "2026-11-14T12:57:26Z",
         "author": "renovate[bot]",
         "previewIds": [],
         "components": []
