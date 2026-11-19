@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-19T20:45:19.445Z",
+  "generatedAt": "2026-11-19T20:54:56.859Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "d3ff1a5df38bf730940de6f30291c1bf8555604b",
+        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-ui-builder-bom to v3.139.0 (#1669)",
+        "at": "2026-11-19T20:46:40Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "5fb227f32ef2c50e83f4bc015a9223ea49097fc4",
+        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-contracts-bom to v3.44.0 (#1668)",
+        "at": "2026-11-19T20:44:34Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "c2804219672c28f96dd1a5458c969045e1c1108a",
         "subject": "fix(deps): update dependency ch.qos.logback:logback-classic to v1.6.8 (#1665)",
@@ -466,22 +482,6 @@
         "sha": "3c52a132cdb1f91896fc972195d2f4eab08c9394",
         "subject": "fix(deps): update dependency ch.qos.logback:logback-classic to v1.6.7 (#1610)",
         "at": "2026-11-14T18:30:16Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "26aa5e195199be5e01589314fe2a5417f1fc287b",
-        "subject": "feat: offer sign-in again to the restored instance, keeping its dashboards (#1604)",
-        "at": "2026-11-14T14:05:03Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "4a67d46893b0285b89874bf3cce21aacb646e47d",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 89265db (#1603)",
-        "at": "2026-11-14T13:38:45Z",
         "author": "renovate[bot]",
         "previewIds": [],
         "components": []
