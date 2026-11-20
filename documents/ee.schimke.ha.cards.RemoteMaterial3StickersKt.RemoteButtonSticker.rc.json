@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 512,
         "densityAtGeneration": 2.625,
-        "byteLength": 1143
+        "byteLength": 1105
     },
     "operations": [
         {
@@ -37,18 +37,6 @@
                     "height": 0.0,
                     "visibility": "VISIBLE",
                     "list": [
-                        {
-                            "type": "ComponentValue",
-                            "valueId": 42,
-                            "componentValueType": "WIDTH",
-                            "componentId": -3
-                        },
-                        {
-                            "type": "ComponentValue",
-                            "valueId": 43,
-                            "componentValueType": "HEIGHT",
-                            "componentId": -3
-                        },
                         {
                             "$tags": [
                                 "MODIFIER"
@@ -120,33 +108,45 @@
                             "list": [
                                 {
                                     "type": "TextData",
-                                    "textId": 55,
+                                    "textId": 53,
                                     "text": "Movie night"
                                 },
                                 {
                                     "type": "ColorConstant",
                                     "color": "0xff210f48",
-                                    "colorId": 56
+                                    "colorId": 54
                                 },
                                 {
                                     "type": "TextData",
-                                    "textId": 57,
+                                    "textId": 55,
                                     "text": "default"
                                 },
                                 {
                                     "type": "TextData",
-                                    "textId": 58,
+                                    "textId": 56,
                                     "text": "wdth"
                                 },
                                 {
                                     "type": "TextData",
-                                    "textId": 59,
+                                    "textId": 57,
                                     "text": "wght"
                                 },
                                 {
                                     "type": "TextData",
-                                    "textId": 60,
+                                    "textId": 58,
                                     "text": "pnum"
+                                },
+                                {
+                                    "type": "ComponentValue",
+                                    "valueId": 43,
+                                    "componentValueType": "WIDTH",
+                                    "componentId": -5
+                                },
+                                {
+                                    "type": "ComponentValue",
+                                    "valueId": 44,
+                                    "componentValueType": "HEIGHT",
+                                    "componentId": -5
                                 },
                                 {
                                     "$tags": [
@@ -220,20 +220,6 @@
                                         },
                                         {
                                             "$tags": [
-                                                "MODIFIER",
-                                                "A11Y"
-                                            ],
-                                            "type": "CoreSemantics",
-                                            "contentDescriptionId": 0,
-                                            "role": "BUTTON",
-                                            "textId": 0,
-                                            "stateDescriptionId": 0,
-                                            "enabled": true,
-                                            "mode": "SET",
-                                            "clickable": false
-                                        },
-                                        {
-                                            "$tags": [
                                                 "MODIFIER"
                                             ],
                                             "type": "PaddingModifierOperation",
@@ -282,7 +268,7 @@
                                     "paddingRight": 0.0,
                                     "paddingTop": 0.0,
                                     "paddingBottom": 0.0,
-                                    "textId": 55,
+                                    "textId": 53,
                                     "flags": 0,
                                     "color": [
                                         -1.6777216E7,
@@ -294,8 +280,8 @@
                                     ],
                                     "fontStyle": 0,
                                     "fontWeight": 500.0,
-                                    "fontFamilyId": 57,
-                                    "textAlign": 1
+                                    "fontFamilyId": 55,
+                                    "textAlign": 5
                                 }
                             ],
                             "paddingLeft": 36.75,

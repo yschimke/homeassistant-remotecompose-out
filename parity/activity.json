@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-20T04:54:57.510Z",
+  "generatedAt": "2026-11-20T07:51:16.715Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "1c26885774c6865a92750450eef9489d165d87b7",
+        "subject": "chore(build): raise Android compileSdk to 37.2 (#1676)",
+        "at": "2026-11-20T07:30:47Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "052972d27de021222cce41a086a25453ded66abb",
+        "subject": "fix(deps): update remote-compose (#1666)",
+        "at": "2026-11-20T06:59:31Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "f6a6430d62915549bb41bdf24056731479e55d37",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 2f76f51 (#1675)",
+        "at": "2026-11-20T04:53:08Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "e9357e1b3e212c95113fb8013fa699065276d135",
         "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-ui-builder-bom to v3.141.0 (#1674)",
@@ -459,30 +483,6 @@
         "subject": "chore(deps): update yschimke/compose-ai-tools digest to 16f4ee7 (#1614)",
         "at": "2026-11-14T21:17:21Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "c976571a93c4e67b210deed4f36bd1bb07eb93e9",
-        "subject": "fix: library designs play as the app's own captures, rugged headings included (#1612)",
-        "at": "2026-11-14T21:00:58Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "4914eb42bf78ac90fd3db47b5b45617255d1c20b",
-        "subject": "chore(main): release 0.1.95 (#1580)",
-        "at": "2026-11-14T19:01:33Z",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "dc64ec535eaef76f7135e6f524bccdfc10b77e83",
-        "subject": "feat: a heading with an icon renders from its own card design (#1608)",
-        "at": "2026-11-14T18:54:12Z",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }

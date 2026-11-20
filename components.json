@@ -1311,8 +1311,8 @@
                 "callable": "androidx.wear.compose.remote.material3.RemoteText",
                 "name": "RemoteText",
                 "origin": "LIBRARY",
-                "jvmName": "RemoteText-yT6CtNU",
-                "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteString;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/state/RemoteTextUnit;Landroidx/compose/ui/text/font/FontStyle;Landroidx/compose/ui/text/font/FontWeight;Landroidx/compose/remote/creation/compose/text/RemoteFontFamily;Landroidx/compose/ui/text/style/TextAlign;IILandroidx/compose/ui/text/font/FontVariation$Settings;Landroidx/compose/remote/creation/compose/text/RemoteTextStyle;Landroidx/compose/runtime/Composer;III)V",
+                "jvmName": "RemoteText-9WxCQ6Y",
+                "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteString;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/state/RemoteTextUnit;Landroidx/compose/remote/creation/compose/text/RemoteFontStyle;Landroidx/compose/remote/creation/compose/text/RemoteFontWeight;Landroidx/compose/remote/creation/compose/text/RemoteFontFamily;Landroidx/compose/remote/creation/compose/text/RemoteTextAlign;IILandroidx/compose/remote/creation/compose/text/RemoteFontVariation$Settings;Landroidx/compose/remote/creation/compose/text/RemoteTextStyle;Landroidx/compose/runtime/Composer;III)V",
                 "sourceFile": null,
                 "docs": "unavailable",
                 "receiver": null
@@ -1372,8 +1372,8 @@
                 },
                 {
                     "name": "fontStyle",
-                    "type": "FontStyle?",
-                    "typeFqn": "androidx.compose.ui.text.font.FontStyle",
+                    "type": "RemoteFontStyle?",
+                    "typeFqn": "androidx.compose.remote.creation.compose.text.RemoteFontStyle",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -1385,8 +1385,8 @@
                 },
                 {
                     "name": "fontWeight",
-                    "type": "FontWeight?",
-                    "typeFqn": "androidx.compose.ui.text.font.FontWeight",
+                    "type": "RemoteFontWeight?",
+                    "typeFqn": "androidx.compose.remote.creation.compose.text.RemoteFontWeight",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -1411,8 +1411,8 @@
                 },
                 {
                     "name": "textAlign",
-                    "type": "TextAlign?",
-                    "typeFqn": "androidx.compose.ui.text.style.TextAlign",
+                    "type": "RemoteTextAlign?",
+                    "typeFqn": "androidx.compose.remote.creation.compose.text.RemoteTextAlign",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -1424,8 +1424,8 @@
                 },
                 {
                     "name": "overflow",
-                    "type": "TextOverflow",
-                    "typeFqn": "androidx.compose.ui.text.style.TextOverflow",
+                    "type": "RemoteTextOverflow",
+                    "typeFqn": "androidx.compose.remote.creation.compose.text.RemoteTextOverflow",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -1451,7 +1451,7 @@
                 {
                     "name": "fontVariationSettings",
                     "type": "Settings?",
-                    "typeFqn": "androidx.compose.ui.text.font.FontVariation.Settings",
+                    "typeFqn": "androidx.compose.remote.creation.compose.text.RemoteFontVariation.Settings",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,
@@ -1515,7 +1515,7 @@
             "androidxOptIns": [],
             "overloads": [
                 {
-                    "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteString;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/state/RemoteTextUnit;Landroidx/compose/ui/text/font/FontStyle;Landroidx/compose/ui/text/font/FontWeight;Landroidx/compose/remote/creation/compose/text/RemoteFontFamily;Landroidx/compose/ui/text/style/TextAlign;IILandroidx/compose/ui/text/font/FontVariation$Settings;Landroidx/compose/remote/creation/compose/text/RemoteTextStyle;Landroidx/compose/runtime/Composer;III)V",
+                    "descriptor": "(Landroidx/compose/remote/creation/compose/state/RemoteString;Landroidx/compose/remote/creation/compose/modifier/RemoteModifier;Landroidx/compose/remote/creation/compose/state/RemoteColor;Landroidx/compose/remote/creation/compose/state/RemoteTextUnit;Landroidx/compose/remote/creation/compose/text/RemoteFontStyle;Landroidx/compose/remote/creation/compose/text/RemoteFontWeight;Landroidx/compose/remote/creation/compose/text/RemoteFontFamily;Landroidx/compose/remote/creation/compose/text/RemoteTextAlign;IILandroidx/compose/remote/creation/compose/text/RemoteFontVariation$Settings;Landroidx/compose/remote/creation/compose/text/RemoteTextStyle;Landroidx/compose/runtime/Composer;III)V",
                     "parameters": [
                         {
                             "name": "text",
@@ -1571,8 +1571,8 @@
                         },
                         {
                             "name": "fontStyle",
-                            "type": "FontStyle?",
-                            "typeFqn": "androidx.compose.ui.text.font.FontStyle",
+                            "type": "RemoteFontStyle?",
+                            "typeFqn": "androidx.compose.remote.creation.compose.text.RemoteFontStyle",
                             "hasDefault": true,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -1584,8 +1584,8 @@
                         },
                         {
                             "name": "fontWeight",
-                            "type": "FontWeight?",
-                            "typeFqn": "androidx.compose.ui.text.font.FontWeight",
+                            "type": "RemoteFontWeight?",
+                            "typeFqn": "androidx.compose.remote.creation.compose.text.RemoteFontWeight",
                             "hasDefault": true,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -1610,8 +1610,8 @@
                         },
                         {
                             "name": "textAlign",
-                            "type": "TextAlign?",
-                            "typeFqn": "androidx.compose.ui.text.style.TextAlign",
+                            "type": "RemoteTextAlign?",
+                            "typeFqn": "androidx.compose.remote.creation.compose.text.RemoteTextAlign",
                             "hasDefault": true,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -1623,8 +1623,8 @@
                         },
                         {
                             "name": "overflow",
-                            "type": "TextOverflow",
-                            "typeFqn": "androidx.compose.ui.text.style.TextOverflow",
+                            "type": "RemoteTextOverflow",
+                            "typeFqn": "androidx.compose.remote.creation.compose.text.RemoteTextOverflow",
                             "hasDefault": true,
                             "composableSlot": false,
                             "composableSlotReceiver": null,
@@ -1650,7 +1650,7 @@
                         {
                             "name": "fontVariationSettings",
                             "type": "Settings?",
-                            "typeFqn": "androidx.compose.ui.text.font.FontVariation.Settings",
+                            "typeFqn": "androidx.compose.remote.creation.compose.text.RemoteFontVariation.Settings",
                             "hasDefault": true,
                             "composableSlot": false,
                             "composableSlotReceiver": null,

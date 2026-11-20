@@ -1757,28 +1757,7 @@
           "density": 2.625
         }
       ],
-      "greenlines": [
-        {
-          "kind": "a11y",
-          "severity": "info",
-          "message": "button",
-          "detail": {
-            "role": "button",
-            "bounds": {
-              "x": 21,
-              "y": 42,
-              "width": 903,
-              "height": 168
-            }
-          },
-          "bounds": {
-            "x": 21,
-            "y": 42,
-            "width": 903,
-            "height": 168
-          }
-        }
-      ],
+      "greenlines": [],
       "redlines": [
         {
           "bounds": {
@@ -1787,7 +1766,6 @@
             "width": 903,
             "height": 168
           },
-          "role": "Button",
           "padding": {
             "start": 12.190476,
             "top": 12.190476,
@@ -2458,9 +2436,9 @@
         {
           "kind": "a11y",
           "severity": "info",
-          "message": "button",
+          "message": "switch",
           "detail": {
-            "role": "button",
+            "role": "switch",
             "bounds": {
               "x": 21,
               "y": 31,
@@ -2484,7 +2462,7 @@
             "width": 525,
             "height": 137
           },
-          "role": "Button",
+          "role": "Switch",
           "padding": {
             "start": 14.095238,
             "top": 8,
@@ -2551,7 +2529,7 @@
     "ee.schimke.ha:rc-components (RemoteHa* cards)"
   ],
   "renderer": "compose-preview 2.101.0",
-  "generatedAt": "2026-11-20T04:54:54.381Z",
+  "generatedAt": "2026-11-20T07:51:13.310Z",
   "display": {
     "surface": "light",
     "hero": "HaCard/Tile"
@@ -2658,7 +2636,7 @@
   "uiBuilderFile": "ui-builder.json",
   "source": {
     "repo": "yschimke/homeassistant-remotecompose",
-    "ref": "e9357e1b3e212c95113fb8013fa699065276d135",
+    "ref": "1c26885774c6865a92750450eef9489d165d87b7",
     "module": ":ha-cards-catalog"
   }
 }
