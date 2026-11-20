@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-20T04:39:05.608Z",
+  "generatedAt": "2026-11-20T04:54:57.510Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "e9357e1b3e212c95113fb8013fa699065276d135",
+        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-ui-builder-bom to v3.141.0 (#1674)",
+        "at": "2026-11-20T04:46:58Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "86a0ab6ee181401a23a2ea39154b01c4631c9614",
         "subject": "fix(deps): update compose-ai-tools (#1672)",
@@ -474,14 +482,6 @@
         "sha": "dc64ec535eaef76f7135e6f524bccdfc10b77e83",
         "subject": "feat: a heading with an icon renders from its own card design (#1608)",
         "at": "2026-11-14T18:54:12Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "7603f11675c9d18bdcc9ff908fce4e8a11306041",
-        "subject": "feat: a wall panel client toolkit for ESP32 RemoteCompose players (#1607)",
-        "at": "2026-11-14T18:53:24Z",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
