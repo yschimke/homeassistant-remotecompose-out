@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-20T04:23:42.171Z",
+  "generatedAt": "2026-11-20T04:39:05.608Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "86a0ab6ee181401a23a2ea39154b01c4631c9614",
+        "subject": "fix(deps): update compose-ai-tools (#1672)",
+        "at": "2026-11-20T04:31:00Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "8facee5f969c6b70520658f8095e37df64bf38ad",
         "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-daemon-bom to v3.28.1 (#1673)",
@@ -474,14 +482,6 @@
         "sha": "7603f11675c9d18bdcc9ff908fce4e8a11306041",
         "subject": "feat: a wall panel client toolkit for ESP32 RemoteCompose players (#1607)",
         "at": "2026-11-14T18:53:24Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "d586dc30e8cbd6fb12eefd2144fc1c0601dd837d",
-        "subject": "feat: the design server serves a face's glyphs as packs a small player caches (#1606)",
-        "at": "2026-11-14T18:52:31Z",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
