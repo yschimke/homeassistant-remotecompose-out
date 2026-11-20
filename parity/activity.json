@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-20T07:51:16.715Z",
+  "generatedAt": "2026-11-20T08:51:49.137Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "19ad3d962a2c9cd48e93cbe8256eedc919027e38",
+        "subject": "fix(deps): update androidx-compose (#1667)",
+        "at": "2026-11-20T08:39:09Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "dc9e71db577efe7305b7b0adc9e3254081b33f3d",
+        "subject": "chore(deps): update compose-ai-tools (#1677)",
+        "at": "2026-11-20T08:04:52Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "1c26885774c6865a92750450eef9489d165d87b7",
         "subject": "chore(build): raise Android compileSdk to 37.2 (#1676)",
@@ -467,22 +483,6 @@
         "subject": "chore(renovate): skip rc-players-bom >= 3.2.0 (#1616)",
         "at": "2026-11-14T21:46:50Z",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "f979aceec0a277593fc5a7382aadc1404c164bfa",
-        "subject": "fix: the design library keeps under the server's file limit (#1615)",
-        "at": "2026-11-14T21:25:45Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "356f178f7d49fc0db47ea1dd6a12507a2b0fd2ea",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 16f4ee7 (#1614)",
-        "at": "2026-11-14T21:17:21Z",
-        "author": "renovate[bot]",
         "previewIds": [],
         "components": []
       }
