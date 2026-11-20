@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-19T21:17:24.538Z",
+  "generatedAt": "2026-11-20T04:23:42.171Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "8facee5f969c6b70520658f8095e37df64bf38ad",
+        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-daemon-bom to v3.28.1 (#1673)",
+        "at": "2026-11-20T04:02:41Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "aeded07d74250a815efe72a12c84804c94eb40f9",
+        "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.284 (#1671)",
+        "at": "2026-11-20T03:59:05Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "2e7eebb7723387cc35b8663a7ebddbc5ce5b333e",
         "subject": "chore(deps): update gradle to v9.9.2 (#1670)",
@@ -466,22 +482,6 @@
         "sha": "d586dc30e8cbd6fb12eefd2144fc1c0601dd837d",
         "subject": "feat: the design server serves a face's glyphs as packs a small player caches (#1606)",
         "at": "2026-11-14T18:52:31Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "0f7df1689d0ac602a7a9326405dcff8990306e1c",
-        "subject": "feat: the wall API packs a view into screens for a small panel (#1605)",
-        "at": "2026-11-14T18:34:47Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ea0d4194a886a6285f9f3eaa103eb36e033e53c8",
-        "subject": "docs: a roadmap for building a Home Assistant wall panel (#1609)",
-        "at": "2026-11-14T18:34:41Z",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
