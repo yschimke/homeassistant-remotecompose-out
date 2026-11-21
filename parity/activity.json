@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-21T12:12:58.914Z",
+  "generatedAt": "2026-11-21T12:25:23.364Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "2bd755703023b72782899f5d4a89d13676d9a386",
+        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-daemon-bom to v3.28.2 (#1698)",
+        "at": "2026-11-21T12:18:12Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "8527a9358ca6fde0df796a240e7f0d9f03046875",
         "subject": "refactor: move network-free design types from ha-client to ha-model (#1697)",
@@ -475,14 +483,6 @@
         "subject": "chore(deps): update yschimke/compose-ai-tools digest to 44fd360 (#1637)",
         "at": "2026-11-16T14:43:52Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "0c742aed7d1b080b2bb364c6a509105ac576e9f2",
-        "subject": "feat: restore sign-in on a new phone via Restore Credentials (#1636)",
-        "at": "2026-11-16T14:20:16Z",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
