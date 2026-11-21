@@ -1,11 +1,43 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-21T12:25:23.364Z",
+  "generatedAt": "2026-11-21T13:59:00.209Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "27a545fecaa5896b6252cabb3ee55953e3a27875",
+        "subject": "feat: show the agent's steps in the chat and @-mention cards and entities (#1700)",
+        "at": "2026-11-21T13:41:06Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "9ca57be2aa74a20538bb4b29e626b21ac951fe41",
+        "subject": "docs: agent and UI Builder flows as optional Livery modules (#1702)",
+        "at": "2026-11-21T13:23:33Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "330145b2227b1383967e192a942cb6d3e2888f6d",
+        "subject": "refactor: share wear sync schema, open terrazzo-core to minSdk 29, guard library metadata (#1699)",
+        "at": "2026-11-21T13:12:21Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "6d6d318980cfafab8c672938799c36f0a7aebe20",
+        "subject": "ci: speed up compose-preview with BuildFetch, scoping, and PR gate (#1701)",
+        "at": "2026-11-21T12:51:16Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "2bd755703023b72782899f5d4a89d13676d9a386",
         "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-daemon-bom to v3.28.2 (#1698)",
@@ -450,38 +482,6 @@
         "sha": "0496249ea49f5382c35527a23c0ad86499fbdea4",
         "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.278 (#1638)",
         "at": "2026-11-17T03:09:27Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "61b0428d8ef293f6a9814a274babf4c75513a211",
-        "subject": "chore(deps): update dependency dev.zacsweers.metro to v1.6.0 (#1641)",
-        "at": "2026-11-17T02:33:34Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "5658f3db6f450cf9224e9309e823fd35dd23351c",
-        "subject": "fix(deps): update compose-ai-tools (#1640)",
-        "at": "2026-11-17T02:31:28Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "1768ad2a9e014415504a63bc237306a3820a28af",
-        "subject": "chore(deps): update ghcr.io/home-assistant/home-assistant docker tag to v2026.11.2 (#1639)",
-        "at": "2026-11-17T02:25:49Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "0bf65190847ef038489eb6646a7f2d017ea3cd41",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 44fd360 (#1637)",
-        "at": "2026-11-16T14:43:52Z",
         "author": "renovate[bot]",
         "previewIds": [],
         "components": []
