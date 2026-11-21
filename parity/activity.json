@@ -1,11 +1,75 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-21T13:59:00.209Z",
+  "generatedAt": "2026-11-21T22:13:06.304Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "70383f72e92ccc04ea20b457c1a105c161339177",
+        "subject": "feat(design-server): run agent sessions on Livery's session relay (#1707)",
+        "at": "2026-11-21T22:01:08Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "e5cfd4c310e46376921300439bb8d9cac4fabb49",
+        "subject": "feat: info endpoints, integration status in Settings, TerrazzoSession (#1709)",
+        "at": "2026-11-21T18:13:37Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "cb4e8ce751ac443909f6bd942230c285b4aa2c78",
+        "subject": "feat(lovelace): suggest Remote Compose cards in Home Assistant's card picker (#1710)",
+        "at": "2026-11-21T17:22:59Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "e3967f9702fa89e32e1ed55a83e2b27db01ef4d6",
+        "subject": "feat: LiveHaSession gates Terrazzo calls on the terrazzo/info handshake (#1708)",
+        "at": "2026-11-21T15:58:25Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "1d7a4c35d18238d1d0099a92cbf075946ded4413",
+        "subject": "docs: fold agent steps and mentions into the Livery plan (#1706)",
+        "at": "2026-11-21T14:46:07Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "5991e89ef15a286b86a0c886d7169e8e511e5382",
+        "subject": "feat: terrazzo/info handshake, desktop offline cache, common demo house, Quest on terrazzo-core (#1705)",
+        "at": "2026-11-21T14:40:11Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "a9f0d2af4b668d44016ba697e51d205bfd13a99a",
+        "subject": "ci: switch compose-preview workflows to reusable workflows (#1704)",
+        "at": "2026-11-21T14:30:29Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "a98ee9ad66db6c81543ad6fec1ce510836644b0c",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 2f91b8e (#1703)",
+        "at": "2026-11-21T13:51:34Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "27a545fecaa5896b6252cabb3ee55953e3a27875",
         "subject": "feat: show the agent's steps in the chat and @-mention cards and entities (#1700)",
@@ -418,70 +482,6 @@
         "sha": "2071b0a2016b962fd703f640323bf12ca8fd2231",
         "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.281 (#1649)",
         "at": "2026-11-18T12:12:03Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "98bfb318ec7a41928c0bfa12de987b8fbad94dac",
-        "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.280 (#1647)",
-        "at": "2026-11-18T05:24:24Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "4e238f38fc13e0a0a876ea39f173c1ff4ff60eb0",
-        "subject": "fix(deps): update compose-ai-tools (#1648)",
-        "at": "2026-11-18T05:23:04Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "1dcccdb3514b52a2427d0bcc7c5c2a4659699edb",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 7758d2e (#1646)",
-        "at": "2026-11-17T21:28:33Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "91b3bf9caf8b640fb05ad84a0d8c4d929b800030",
-        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-ui-builder-bom to v3.131.0 (#1645)",
-        "at": "2026-11-17T21:14:58Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "1ebf6cdd5f0f1fe2af18a212e0c20f10b3fd28a0",
-        "subject": "fix(deps): update compose-ai-tools (#1644)",
-        "at": "2026-11-17T21:13:45Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "505bdedfb9784e4165a5feddf8bc07071e46a56b",
-        "subject": "chore(deps): update dependency puppeteer-core to v25.18.1 (#1643)",
-        "at": "2026-11-17T21:10:13Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "1a1897a0a3d9a7e9ea34544f74675a0cbee5a455",
-        "subject": "chore(renovate): skip rc-players-bom >= 3.6.0 (#1642)",
-        "at": "2026-11-17T03:15:12Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "0496249ea49f5382c35527a23c0ad86499fbdea4",
-        "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.278 (#1638)",
-        "at": "2026-11-17T03:09:27Z",
         "author": "renovate[bot]",
         "previewIds": [],
         "components": []
