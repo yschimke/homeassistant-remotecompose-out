@@ -1,11 +1,43 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-21T03:57:33.804Z",
+  "generatedAt": "2026-11-21T10:15:20.401Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "3f7304d1ed1d9504a3cadc3e62e3859b52098601",
+        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-ui-builder-bom to v3.144.0 (#1690)",
+        "at": "2026-11-21T10:05:05Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "1cec407324d831c52ecc3aa77e5ab73825958a73",
+        "subject": "feat: built-in dashboard agent in the Terrazzo integration (#1689)",
+        "at": "2026-11-21T09:45:48Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "f6a119e7584a0862e3fb56c1a73ca84a377d4a35",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 92d830c (#1688)",
+        "at": "2026-11-21T04:10:15Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "58376012c5a9cc77c0606701fe8916fe546f09f5",
+        "subject": "chore(deps): update github-actions (#1687)",
+        "at": "2026-11-21T03:51:56Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "1740edd440968535f3414f464c139b74d45047ec",
         "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-contracts-bom to v3.45.0 (#1686)",
@@ -451,38 +483,6 @@
         "subject": "fix(deps): update dependency ee.schimke.composeai:rc-players-bom to v3.5.3 (#1628)",
         "at": "2026-11-15T18:24:25Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "3f2a149040f2a1baa3c9c4fac43225d275e2838a",
-        "subject": "fix(deps): update compose-ai-tools (#1627)",
-        "at": "2026-11-15T18:10:10Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "b686c423962a77d395e4d1a264e34bd44ef29806",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 5b0b789 (#1623)",
-        "at": "2026-11-15T13:20:14Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "d720c5708004b58bf9e877a36bdbd6baa859a716",
-        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-daemon-bom to v3.28.0 (#1625)",
-        "at": "2026-11-15T12:59:28Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "33bb649d902a9386995728bb28c64b0f22908fee",
-        "subject": "ci: fix Design Artifacts, preview-release-diff, font cache, and WidgetMovingStateTest race (#1624)",
-        "at": "2026-11-15T12:54:45Z",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
