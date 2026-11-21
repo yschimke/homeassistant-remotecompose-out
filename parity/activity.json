@@ -1,11 +1,67 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-21T10:15:20.401Z",
+  "generatedAt": "2026-11-21T12:12:58.914Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "8527a9358ca6fde0df796a240e7f0d9f03046875",
+        "subject": "refactor: move network-free design types from ha-client to ha-model (#1697)",
+        "at": "2026-11-21T12:04:15Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "d65e5ca08ce06b0625ef61248a2a0be7a96ee493",
+        "subject": "docs: slots as references to entities in the Livery plan (#1696)",
+        "at": "2026-11-21T12:03:58Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "845ae078eccf8b6c55bbca88e5ae3fee08e3d6f2",
+        "subject": "fix: agent chat keeps Use it in reach and names the agent and cards plainly (#1694)",
+        "at": "2026-11-21T12:01:16Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "596bc7f27e56bc0d5be71a78b00727dfe26721db",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 3278efa (#1695)",
+        "at": "2026-11-21T11:30:30Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "1596d18249535ee146fc32131aed69507df1183f",
+        "subject": "build: publish reusable library modules to Maven Central (#1692)",
+        "at": "2026-11-21T11:06:58Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "7c323ea94fca748fbead0f7f22a9a48293e65a3f",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 545af1b (#1693)",
+        "at": "2026-11-21T10:54:25Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "120e9d0751dcb26d698eb6edca36b2eab960f39c",
+        "subject": "docs: plan moving card selection, serving and rendering onto Livery (#1691)",
+        "at": "2026-11-21T10:35:02Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "3f7304d1ed1d9504a3cadc3e62e3859b52098601",
         "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-ui-builder-bom to v3.144.0 (#1690)",
@@ -427,62 +483,6 @@
         "subject": "feat: restore sign-in on a new phone via Restore Credentials (#1636)",
         "at": "2026-11-16T14:20:16Z",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "44ddd91ae5c876cb56e6080e6215b9e8a43a5d07",
-        "subject": "fix(deps): update compose-ai-tools (#1634)",
-        "at": "2026-11-16T12:20:54Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "c0bd3fa7f27354360521d9dbc3120f8137a82e27",
-        "subject": "chore(main): release 0.1.98 (#1626)",
-        "at": "2026-11-16T06:40:27Z",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ab30b8149e3d287abb961bd5d5fb02074a0bab51",
-        "subject": "fix(deps): update mockserver to v9.3.0 (#1633)",
-        "at": "2026-11-16T03:40:44Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "0bda8f8ffd5512a495909517f1ea77653993dfa6",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 0c1e017 (#1632)",
-        "at": "2026-11-16T03:26:07Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "fa8ddedcf7fc58d2e563a809c63bfee9f3739ffc",
-        "subject": "style: format WidgetMovingStateTest with ktfmt (#1630)",
-        "at": "2026-11-16T03:24:42Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "fc697d0b48e839c5ad79da541e3f8030a89f94d0",
-        "subject": "chore(renovate): skip rc-players-bom 3.6.0 (#1631)",
-        "at": "2026-11-16T03:22:30Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "c5f62ff4e56a8ce95326a318d81b1bbc31ec657f",
-        "subject": "fix(deps): update dependency ee.schimke.composeai:rc-players-bom to v3.5.3 (#1628)",
-        "at": "2026-11-15T18:24:25Z",
-        "author": "renovate[bot]",
         "previewIds": [],
         "components": []
       }
