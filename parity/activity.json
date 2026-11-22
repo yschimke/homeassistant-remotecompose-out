@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-22T10:08:53.351Z",
+  "generatedAt": "2026-11-22T10:27:20.476Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "44948edd7e8af62660faf9aff2769e82de0a2335",
+        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-ui-builder-bom to v3.146.0 (#1714)",
+        "at": "2026-11-22T09:56:33Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "0fa4e7d79eddd16c56daa91b9085db67ef6a4c5a",
         "subject": "fix(deps): rc-players 3.12.0, compose-ai-tools 2.103.0 and Robolectric 4.18.1 (#1717)",
@@ -474,14 +482,6 @@
         "sha": "0bbecd68f1410c3afe0fa4f9f6e1364f28a84931",
         "subject": "fix(deps): update compose-ai-tools (#1655)",
         "at": "2026-11-18T20:40:57Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "9e1ca961281c490228e7593f6f878cc531a09eea",
-        "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.282 (#1653)",
-        "at": "2026-11-18T20:33:41Z",
         "author": "renovate[bot]",
         "previewIds": [],
         "components": []
