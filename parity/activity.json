@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-22T13:17:51.767Z",
+  "generatedAt": "2026-11-22T13:48:20.536Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "e554bad3779c1ef6a394a1e849f46c7db6aad304",
+        "subject": "feat(design): render the device packs, with a real garage door and wall thermostat (#1724)",
+        "at": "2026-11-22T13:30:19Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "9d14333beee783e299384b6b1c632cf6b2b40fb3",
+        "subject": "build(addon): pull the Card Designs add-on image instead of building it on the box (#1725)",
+        "at": "2026-11-22T13:17:38Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "66caa9dd0fa57f2fd51b7f972479e1142b46470e",
         "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-ui-builder-bom to v3.148.0 (#1723)",
@@ -466,22 +482,6 @@
         "sha": "09fed28c19995d064e919fd07a4293992e2715cb",
         "subject": "chore(deps): update yschimke/compose-ai-tools digest to dccd003 (#1662)",
         "at": "2026-11-19T10:29:30Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "40278ca3b959b78057a972f75dd62e07508f046e",
-        "subject": "feat: play published Wear OS watch faces as cards (#1661)",
-        "at": "2026-11-19T10:09:17Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "6c993b7147ab5baa0232a2d726654fdcb24a4395",
-        "subject": "fix(deps): update compose-ai-tools (#1660)",
-        "at": "2026-11-19T05:11:37Z",
         "author": "renovate[bot]",
         "previewIds": [],
         "components": []

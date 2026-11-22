@@ -2382,6 +2382,153 @@
       ]
     },
     {
+      "componentId": "HaCard/GarageDoor",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/hacard-garagedoor/ideal__default__compact.png",
+          "state": "default",
+          "width": 630,
+          "height": 525,
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/ha-cards/p/hacard-garagedoor__ideal__default__compact",
+          "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardGarageDoorSticker",
+          "density": 2.625
+        }
+      ],
+      "greenlines": [],
+      "redlines": [],
+      "group": "Devices",
+      "caption": "A sectional garage door in a brick wall, part-way open: it follows the cover's `current_position` live and slides there, the porch light on while it moves.",
+      "noReference": "No published design kit covers Home Assistant cards in Remote Compose.",
+      "wireframe": "wireframes/hacard-garagedoor.svg",
+      "sourceFile": "src/androidMain/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
+      "sourceModule": ":ha-cards-catalog",
+      "bodyLine": 584,
+      "sourceDirectory": "ha-cards-catalog",
+      "sourceFunction": "HaCardGarageDoorSticker",
+      "parameters": [
+        {
+          "name": "modifier",
+          "type": "RemoteModifier",
+          "hasDefault": true
+        },
+        {
+          "name": "entityId",
+          "type": "String",
+          "hasDefault": true
+        },
+        {
+          "name": "position",
+          "type": "Float",
+          "hasDefault": true
+        },
+        {
+          "name": "stateInt",
+          "type": "Int",
+          "hasDefault": true
+        },
+        {
+          "name": "widthDp",
+          "type": "Int",
+          "hasDefault": true
+        },
+        {
+          "name": "heightDp",
+          "type": "Int",
+          "hasDefault": true
+        }
+      ]
+    },
+    {
+      "componentId": "HaCard/WallThermostat",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/hacard-wallthermostat/ideal__default__compact.png",
+          "state": "default",
+          "width": 525,
+          "height": 525,
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/ha-cards/p/hacard-wallthermostat__ideal__default__compact",
+          "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardWallThermostatSticker",
+          "density": 2.625
+        }
+      ],
+      "greenlines": [],
+      "redlines": [
+        {
+          "bounds": {
+            "x": 69,
+            "y": 69,
+            "width": 388,
+            "height": 388
+          },
+          "padding": {
+            "start": 14.095238,
+            "top": 14.095238,
+            "end": 14.095238,
+            "bottom": 14.095238
+          }
+        },
+        {
+          "bounds": {
+            "x": 105,
+            "y": 137,
+            "width": 315,
+            "height": 142
+          },
+          "padding": {
+            "start": 9.904762,
+            "top": 8,
+            "end": 10.285714,
+            "bottom": 8
+          }
+        }
+      ],
+      "group": "Devices",
+      "caption": "A plain wall thermostat: the room temperature large on its display, the set point and mode beside it, and ▲ ▼ under it, all following the climate entity live.",
+      "noReference": "No published design kit covers Home Assistant cards in Remote Compose.",
+      "wireframe": "wireframes/hacard-wallthermostat.svg",
+      "sourceFile": "src/androidMain/kotlin/ee/schimke/ha/cards/HaCardsCatalogPreviews.kt",
+      "sourceModule": ":ha-cards-catalog",
+      "bodyLine": 598,
+      "sourceDirectory": "ha-cards-catalog",
+      "sourceFunction": "HaCardWallThermostatSticker",
+      "parameters": [
+        {
+          "name": "modifier",
+          "type": "RemoteModifier",
+          "hasDefault": true
+        },
+        {
+          "name": "entityId",
+          "type": "String",
+          "hasDefault": true
+        },
+        {
+          "name": "current",
+          "type": "Float",
+          "hasDefault": true
+        },
+        {
+          "name": "target",
+          "type": "Float",
+          "hasDefault": true
+        },
+        {
+          "name": "mode",
+          "type": "String",
+          "hasDefault": true
+        },
+        {
+          "name": "unit",
+          "type": "String",
+          "hasDefault": true
+        }
+      ]
+    },
+    {
       "componentId": "Remote/Button",
       "images": [
         {
@@ -2564,7 +2711,7 @@
     "ee.schimke.ha:rc-components (RemoteHa* cards)"
   ],
   "renderer": "compose-preview 2.103.0",
-  "generatedAt": "2026-11-22T13:17:48.377Z",
+  "generatedAt": "2026-11-22T13:48:17.165Z",
   "display": {
     "surface": "light",
     "hero": "HaCard/Tile"
@@ -2671,7 +2818,7 @@
   "uiBuilderFile": "ui-builder.json",
   "source": {
     "repo": "yschimke/homeassistant-remotecompose",
-    "ref": "66caa9dd0fa57f2fd51b7f972479e1142b46470e",
+    "ref": "e554bad3779c1ef6a394a1e849f46c7db6aad304",
     "module": ":ha-cards-catalog"
   }
 }

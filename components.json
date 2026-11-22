@@ -4125,6 +4125,252 @@
             "overloads": []
         },
         {
+            "canonicalId": "ha-cards-catalog/ee.schimke.ha.cards.HaCardDevicesKt.HaCardGarageDoor",
+            "componentIds": [
+                "HaCard/GarageDoor"
+            ],
+            "symbol": {
+                "jvmOwner": "ee.schimke.ha.cards.HaCardDevicesKt",
+                "callable": "ee.schimke.ha.cards.HaCardGarageDoor",
+                "name": "HaCardGarageDoor",
+                "origin": "PROJECT",
+                "jvmName": "HaCardGarageDoor",
+                "descriptor": "(Lee/schimke/composeai/rccreation/compose/modifier/RemoteModifier;Ljava/lang/String;FIIILandroidx/compose/runtime/Composer;II)V",
+                "sourceFile": "src/commonMain/kotlin/ee/schimke/ha/cards/HaCardDevices.kt",
+                "docs": "unavailable",
+                "receiver": null
+            },
+            "parameters": [
+                {
+                    "name": "modifier",
+                    "type": "RemoteModifier",
+                    "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "entityId",
+                    "type": "String",
+                    "typeFqn": "kotlin.String",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "position",
+                    "type": "Float",
+                    "typeFqn": "kotlin.Float",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "stateInt",
+                    "type": "Int",
+                    "typeFqn": "kotlin.Int",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "widthDp",
+                    "type": "Int",
+                    "typeFqn": "kotlin.Int",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "heightDp",
+                    "type": "Int",
+                    "typeFqn": "kotlin.Int",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                }
+            ],
+            "slots": [],
+            "bindings": [
+                {
+                    "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardGarageDoorSticker",
+                    "componentId": "HaCard/GarageDoor",
+                    "group": "Devices"
+                }
+            ],
+            "code": {
+                "call": "HaCardGarageDoor()",
+                "imports": [
+                    "ee.schimke.ha.cards.HaCardGarageDoor"
+                ],
+                "refusedReason": null,
+                "requiredOptIns": [],
+                "androidxOptIns": []
+            },
+            "signatureKnown": true,
+            "callableFromAnotherFile": true,
+            "hasTypeParameters": false,
+            "hasContextReceivers": false,
+            "overloadsCollided": false,
+            "builder": null,
+            "requiredOptIns": [],
+            "androidxOptIns": [],
+            "overloads": []
+        },
+        {
+            "canonicalId": "ha-cards-catalog/ee.schimke.ha.cards.HaCardDevicesKt.HaCardWallThermostat",
+            "componentIds": [
+                "HaCard/WallThermostat"
+            ],
+            "symbol": {
+                "jvmOwner": "ee.schimke.ha.cards.HaCardDevicesKt",
+                "callable": "ee.schimke.ha.cards.HaCardWallThermostat",
+                "name": "HaCardWallThermostat",
+                "origin": "PROJECT",
+                "jvmName": "HaCardWallThermostat",
+                "descriptor": "(Lee/schimke/composeai/rccreation/compose/modifier/RemoteModifier;Ljava/lang/String;FFLjava/lang/String;Ljava/lang/String;Landroidx/compose/runtime/Composer;II)V",
+                "sourceFile": "src/commonMain/kotlin/ee/schimke/ha/cards/HaCardDevices.kt",
+                "docs": "unavailable",
+                "receiver": null
+            },
+            "parameters": [
+                {
+                    "name": "modifier",
+                    "type": "RemoteModifier",
+                    "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "entityId",
+                    "type": "String",
+                    "typeFqn": "kotlin.String",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "current",
+                    "type": "Float",
+                    "typeFqn": "kotlin.Float",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "target",
+                    "type": "Float",
+                    "typeFqn": "kotlin.Float",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "mode",
+                    "type": "String",
+                    "typeFqn": "kotlin.String",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "unit",
+                    "type": "String",
+                    "typeFqn": "kotlin.String",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                }
+            ],
+            "slots": [],
+            "bindings": [
+                {
+                    "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardWallThermostatSticker",
+                    "componentId": "HaCard/WallThermostat",
+                    "group": "Devices"
+                }
+            ],
+            "code": {
+                "call": "HaCardWallThermostat()",
+                "imports": [
+                    "ee.schimke.ha.cards.HaCardWallThermostat"
+                ],
+                "refusedReason": null,
+                "requiredOptIns": [],
+                "androidxOptIns": []
+            },
+            "signatureKnown": true,
+            "callableFromAnotherFile": true,
+            "hasTypeParameters": false,
+            "hasContextReceivers": false,
+            "overloadsCollided": false,
+            "builder": null,
+            "requiredOptIns": [],
+            "androidxOptIns": [],
+            "overloads": []
+        },
+        {
             "canonicalId": "ha-cards-catalog/ee.schimke.ha.cards.HaCardEntityTileKt.HaCardEntityTile",
             "componentIds": [
                 "HaCard/EntityTile"
