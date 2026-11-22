@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-22T12:47:19.514Z",
+  "generatedAt": "2026-11-22T13:17:51.767Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "66caa9dd0fa57f2fd51b7f972479e1142b46470e",
+        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-ui-builder-bom to v3.148.0 (#1723)",
+        "at": "2026-11-22T13:00:20Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "5edc572ded5b02e4b3cc54471e4617e0aed2d920",
         "subject": "feat(design): Livery contracts for the cover and climate device packs (#1721)",
@@ -474,14 +482,6 @@
         "sha": "6c993b7147ab5baa0232a2d726654fdcb24a4395",
         "subject": "fix(deps): update compose-ai-tools (#1660)",
         "at": "2026-11-19T05:11:37Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "2511c3a2111b4ff77ada0ca050626dd283a45556",
-        "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.283 (#1658)",
-        "at": "2026-11-19T05:07:54Z",
         "author": "renovate[bot]",
         "previewIds": [],
         "components": []
