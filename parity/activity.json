@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-22T16:35:48.451Z",
+  "generatedAt": "2026-11-22T23:43:35.335Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "bdcc11195b70d4a0325e13371460059f8340789b",
+        "subject": "feat(design-server): agent session tools to learn what to build and see a draft (#1734)",
+        "at": "2026-11-22T23:37:49Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "003872277d15f8dd7be977bff603f4b01bc07a05",
+        "subject": "feat(agent): Home Assistant's own conversation agents answer edit sessions (#1733)",
+        "at": "2026-11-22T18:09:44Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "617ee570af052698dae41cddd18d69b9f04d468f",
+        "subject": "feat(agent): the dashboard tools as a Home Assistant LLM API (#1729)",
+        "at": "2026-11-22T16:34:17Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "bdfeebb688e7847cec1c8b02a1c9afd89bafb8d3",
         "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-ui-builder-bom to v3.149.0 (#1731)",
@@ -458,30 +482,6 @@
         "sha": "86a0ab6ee181401a23a2ea39154b01c4631c9614",
         "subject": "fix(deps): update compose-ai-tools (#1672)",
         "at": "2026-11-20T04:31:00Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "8facee5f969c6b70520658f8095e37df64bf38ad",
-        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-daemon-bom to v3.28.1 (#1673)",
-        "at": "2026-11-20T04:02:41Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "aeded07d74250a815efe72a12c84804c94eb40f9",
-        "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.284 (#1671)",
-        "at": "2026-11-20T03:59:05Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "2e7eebb7723387cc35b8663a7ebddbc5ce5b333e",
-        "subject": "chore(deps): update gradle to v9.9.2 (#1670)",
-        "at": "2026-11-19T21:09:49Z",
         "author": "renovate[bot]",
         "previewIds": [],
         "components": []
