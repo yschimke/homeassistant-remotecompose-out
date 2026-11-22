@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-22T13:48:20.536Z",
+  "generatedAt": "2026-11-22T14:01:45.627Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "4b54116ddae70238825e1880cd121d1bed8f36ff",
+        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-daemon-bom to v3.29.0 (#1726)",
+        "at": "2026-11-22T13:38:27Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "e554bad3779c1ef6a394a1e849f46c7db6aad304",
         "subject": "feat(design): render the device packs, with a real garage door and wall thermostat (#1724)",
@@ -474,14 +482,6 @@
         "sha": "08e760f0c750d6cf2274149775e703f71d84a7b9",
         "subject": "fix(deps): update androidx (#1663)",
         "at": "2026-11-19T20:17:06Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "09fed28c19995d064e919fd07a4293992e2715cb",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to dccd003 (#1662)",
-        "at": "2026-11-19T10:29:30Z",
         "author": "renovate[bot]",
         "previewIds": [],
         "components": []
