@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 513,
         "densityAtGeneration": 2.625,
-        "byteLength": 2633
+        "byteLength": 2615
     },
     "operations": [
         {
@@ -70,36 +70,36 @@
         },
         {
             "type": "NamedVariable",
-            "varId": 102,
+            "varId": 100,
             "varName": "USER:sensor.front_door_battery.state",
             "varType": "STRING_TYPE"
         },
         {
             "type": "TextData",
-            "textId": 102,
+            "textId": 100,
             "text": "22 %"
         },
         {
             "type": "NamedVariable",
-            "varId": 103,
+            "varId": 101,
             "varName": "USER:WearM3.onSurface",
             "varType": "COLOR_TYPE"
         },
         {
             "type": "ColorConstant",
             "color": "0xff141414",
-            "colorId": 103
+            "colorId": 101
         },
         {
             "type": "NamedVariable",
-            "varId": 107,
+            "varId": 105,
             "varName": "USER:WearM3.onSurfaceVariant",
             "varType": "COLOR_TYPE"
         },
         {
             "type": "ColorConstant",
             "color": "0xff8f8f8f",
-            "colorId": 107
+            "colorId": 105
         },
         {
             "$tags": [
@@ -1044,21 +1044,11 @@
                                                     "type": "DrawRoundRect"
                                                 },
                                                 {
-                                                    "type": "ColorConstant",
-                                                    "color": "0xffe53935",
-                                                    "colorId": 94
-                                                },
-                                                {
-                                                    "type": "ColorConstant",
-                                                    "color": "0xffffa000",
-                                                    "colorId": 95
-                                                },
-                                                {
                                                     "$tags": [
                                                         "EXPRESSION"
                                                     ],
                                                     "type": "FloatExpression",
-                                                    "id": 96,
+                                                    "id": 94,
                                                     "srcValues": [
                                                         1.0,
                                                         0.0,
@@ -1071,32 +1061,32 @@
                                                 },
                                                 {
                                                     "type": "ColorExpression",
-                                                    "id": 97,
+                                                    "id": 95,
                                                     "mode": "TWEEN",
                                                     "startColor": [
-                                                        94.0,
-                                                        94.0
+                                                        -1754827.0,
+                                                        -1754827.0
                                                     ],
                                                     "endColor": [
-                                                        95.0,
-                                                        95.0
+                                                        -24576.0,
+                                                        -24576.0
                                                     ],
                                                     "tween": [
-                                                        "@96",
-                                                        "@96"
+                                                        "@94",
+                                                        "@94"
                                                     ]
                                                 },
                                                 {
                                                     "type": "ColorConstant",
                                                     "color": "0xff43a047",
-                                                    "colorId": 98
+                                                    "colorId": 96
                                                 },
                                                 {
                                                     "$tags": [
                                                         "EXPRESSION"
                                                     ],
                                                     "type": "FloatExpression",
-                                                    "id": 99,
+                                                    "id": 97,
                                                     "srcValues": [
                                                         1.0,
                                                         0.0,
@@ -1109,19 +1099,19 @@
                                                 },
                                                 {
                                                     "type": "ColorExpression",
-                                                    "id": 100,
+                                                    "id": 98,
                                                     "mode": "TWEEN",
                                                     "startColor": [
-                                                        97.0,
-                                                        97.0
+                                                        95.0,
+                                                        95.0
                                                     ],
                                                     "endColor": [
-                                                        98.0,
-                                                        98.0
+                                                        96.0,
+                                                        96.0
                                                     ],
                                                     "tween": [
-                                                        "@99",
-                                                        "@99"
+                                                        "@97",
+                                                        "@97"
                                                     ]
                                                 },
                                                 {
@@ -1129,7 +1119,7 @@
                                                     "paintBundle": {
                                                         "type": "PaintBundle",
                                                         "operations": [
-                                                            "{type=ColorId, id=100}"
+                                                            "{type=ColorId, id=98}"
                                                         ]
                                                     }
                                                 },
@@ -1174,7 +1164,7 @@
                                                         "EXPRESSION"
                                                     ],
                                                     "type": "FloatExpression",
-                                                    "id": 101,
+                                                    "id": 99,
                                                     "srcValues": [
                                                         "@82",
                                                         "@77",
@@ -1196,8 +1186,8 @@
                                                         "@75"
                                                     ],
                                                     "bottom": [
-                                                        "@101",
-                                                        "@101"
+                                                        "@99",
+                                                        "@99"
                                                     ],
                                                     "rx": [
                                                         "@78",
@@ -1262,19 +1252,19 @@
                                                 {
                                                     "type": "ColorConstant",
                                                     "color": "0xffe6e6e6",
-                                                    "colorId": 104
+                                                    "colorId": 102
                                                 },
                                                 {
                                                     "type": "ColorExpression",
-                                                    "id": 105,
+                                                    "id": 103,
                                                     "mode": "TWEEN",
                                                     "startColor": [
-                                                        103.0,
-                                                        103.0
+                                                        101.0,
+                                                        101.0
                                                     ],
                                                     "endColor": [
-                                                        104.0,
-                                                        104.0
+                                                        102.0,
+                                                        102.0
                                                     ],
                                                     "tween": [
                                                         "@44",
@@ -1324,7 +1314,7 @@
                                                     "paddingRight": 0.0,
                                                     "paddingTop": 0.0,
                                                     "paddingBottom": 0.0,
-                                                    "textId": 102,
+                                                    "textId": 100,
                                                     "flags": 0,
                                                     "color": [
                                                         -1.6777216E7,
@@ -1353,25 +1343,25 @@
                                                     "list": [
                                                         {
                                                             "type": "TextData",
-                                                            "textId": 106,
+                                                            "textId": 104,
                                                             "text": "Front door lock"
                                                         },
                                                         {
                                                             "type": "ColorConstant",
                                                             "color": "0xffa0a0a0",
-                                                            "colorId": 108
+                                                            "colorId": 106
                                                         },
                                                         {
                                                             "type": "ColorExpression",
-                                                            "id": 109,
+                                                            "id": 107,
                                                             "mode": "TWEEN",
                                                             "startColor": [
-                                                                107.0,
-                                                                107.0
+                                                                105.0,
+                                                                105.0
                                                             ],
                                                             "endColor": [
-                                                                108.0,
-                                                                108.0
+                                                                106.0,
+                                                                106.0
                                                             ],
                                                             "tween": [
                                                                 "@44",
@@ -1409,7 +1399,7 @@
                                                             "paddingRight": 0.0,
                                                             "paddingTop": 0.0,
                                                             "paddingBottom": 0.0,
-                                                            "textId": 106,
+                                                            "textId": 104,
                                                             "flags": 0,
                                                             "color": [
                                                                 -1.6777216E7,

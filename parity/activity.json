@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-22T08:25:41.007Z",
+  "generatedAt": "2026-11-22T10:08:53.351Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "0fa4e7d79eddd16c56daa91b9085db67ef6a4c5a",
+        "subject": "fix(deps): rc-players 3.12.0, compose-ai-tools 2.103.0 and Robolectric 4.18.1 (#1717)",
+        "at": "2026-11-22T09:54:23Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "26e8e8663a0d28ceb52c24b6cbe4bd55ad12259a",
+        "subject": "fix(design): rank device designs by scope, not by field count (#1716)",
+        "at": "2026-11-22T09:53:22Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "0e2b2807b44773adcc11f0befa8190a3e2e86c23",
         "subject": "refactor(design-server): run agent sessions on Livery's session server (#1712)",
@@ -466,22 +482,6 @@
         "sha": "9e1ca961281c490228e7593f6f878cc531a09eea",
         "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.282 (#1653)",
         "at": "2026-11-18T20:33:41Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "ebc666e2f2edbe98067b20e27e509fa4d7d72997",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 6c87a5a (#1652)",
-        "at": "2026-11-18T12:27:34Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "0d40b69dfb2892f7c6a0535538f150b0edf06332",
-        "subject": "fix(deps): update compose-multiplatform to v1.13.0-rc01 (#1651)",
-        "at": "2026-11-18T12:23:57Z",
         "author": "renovate[bot]",
         "previewIds": [],
         "components": []

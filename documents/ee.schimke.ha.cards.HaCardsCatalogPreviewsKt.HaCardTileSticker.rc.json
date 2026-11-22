@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 513,
         "densityAtGeneration": 2.625,
-        "byteLength": 2453
+        "byteLength": 2435
     },
     "operations": [
         {
@@ -70,8 +70,19 @@
         },
         {
             "type": "NamedVariable",
-            "varId": 69,
+            "varId": 67,
             "varName": "USER:light.kitchen.is_on",
+            "varType": "INT_TYPE"
+        },
+        {
+            "type": "IntegerConstant",
+            "id": 67,
+            "value": 1
+        },
+        {
+            "type": "NamedVariable",
+            "varId": 69,
+            "varName": "USER:light.kitchen.is_available",
             "varType": "INT_TYPE"
         },
         {
@@ -81,35 +92,24 @@
         },
         {
             "type": "NamedVariable",
-            "varId": 71,
-            "varName": "USER:light.kitchen.is_available",
-            "varType": "INT_TYPE"
-        },
-        {
-            "type": "IntegerConstant",
-            "id": 71,
-            "value": 1
-        },
-        {
-            "type": "NamedVariable",
-            "varId": 85,
+            "varId": 83,
             "varName": "USER:WearM3.onSurface",
             "varType": "COLOR_TYPE"
         },
         {
             "type": "ColorConstant",
             "color": "0xff141414",
-            "colorId": 85
+            "colorId": 83
         },
         {
             "type": "NamedVariable",
-            "varId": 95,
+            "varId": 93,
             "varName": "USER:light.kitchen.state",
             "varType": "STRING_TYPE"
         },
         {
             "type": "TextData",
-            "textId": 95,
+            "textId": 93,
             "text": "On"
         },
         {
@@ -482,22 +482,29 @@
                                             ]
                                         },
                                         {
-                                            "type": "ColorConstant",
-                                            "color": "0xff8f8f8f",
-                                            "colorId": 67
-                                        },
-                                        {
-                                            "type": "ColorConstant",
-                                            "color": "0xffffc107",
-                                            "colorId": 68
+                                            "type": "ColorExpression",
+                                            "id": 68,
+                                            "mode": "TWEEN",
+                                            "startColor": [
+                                                -7368817.0,
+                                                -7368817.0
+                                            ],
+                                            "endColor": [
+                                                -16121.0,
+                                                -16121.0
+                                            ],
+                                            "tween": [
+                                                "@67",
+                                                "@67"
+                                            ]
                                         },
                                         {
                                             "type": "ColorExpression",
                                             "id": 70,
                                             "mode": "TWEEN",
                                             "startColor": [
-                                                67.0,
-                                                67.0
+                                                66.0,
+                                                66.0
                                             ],
                                             "endColor": [
                                                 68.0,
@@ -509,35 +516,18 @@
                                             ]
                                         },
                                         {
-                                            "type": "ColorExpression",
-                                            "id": 72,
-                                            "mode": "TWEEN",
-                                            "startColor": [
-                                                66.0,
-                                                66.0
-                                            ],
-                                            "endColor": [
-                                                70.0,
-                                                70.0
-                                            ],
-                                            "tween": [
-                                                "@71",
-                                                "@71"
-                                            ]
-                                        },
-                                        {
                                             "type": "COLOR_ALPHA",
-                                            "id": 73,
-                                            "colorId": 72
+                                            "id": 71,
+                                            "colorId": 70
                                         },
                                         {
                                             "$tags": [
                                                 "EXPRESSION"
                                             ],
                                             "type": "FloatExpression",
-                                            "id": 74,
+                                            "id": 72,
                                             "srcValues": [
-                                                "@73",
+                                                "@71",
                                                 0.2,
                                                 "@3211267"
                                             ],
@@ -545,38 +535,38 @@
                                         },
                                         {
                                             "type": "COLOR_RED",
-                                            "id": 75,
-                                            "colorId": 72
+                                            "id": 73,
+                                            "colorId": 70
                                         },
                                         {
                                             "type": "COLOR_GREEN",
-                                            "id": 76,
-                                            "colorId": 72
+                                            "id": 74,
+                                            "colorId": 70
                                         },
                                         {
                                             "type": "COLOR_BLUE",
-                                            "id": 77,
-                                            "colorId": 72
+                                            "id": 75,
+                                            "colorId": 70
                                         },
                                         {
                                             "type": "ColorExpression",
-                                            "id": 78,
+                                            "id": 76,
                                             "mode": "ARGB",
                                             "a": [
+                                                "@72",
+                                                "@72"
+                                            ],
+                                            "r": [
+                                                "@73",
+                                                "@73"
+                                            ],
+                                            "g": [
                                                 "@74",
                                                 "@74"
                                             ],
-                                            "r": [
+                                            "b": [
                                                 "@75",
                                                 "@75"
-                                            ],
-                                            "g": [
-                                                "@76",
-                                                "@76"
-                                            ],
-                                            "b": [
-                                                "@77",
-                                                "@77"
                                             ]
                                         },
                                         {
@@ -671,7 +661,7 @@
                                                             "y": 0.0,
                                                             "width": 0.0,
                                                             "height": 0.0,
-                                                            "colorId": 78,
+                                                            "colorId": 76,
                                                             "shapeType": "RECTANGLE"
                                                         }
                                                     ]
@@ -746,13 +736,13 @@
                                                             "list": [
                                                                 {
                                                                     "type": "ComponentValue",
-                                                                    "valueId": 79,
+                                                                    "valueId": 77,
                                                                     "componentValueType": "WIDTH",
                                                                     "componentId": -1000010
                                                                 },
                                                                 {
                                                                     "type": "ComponentValue",
-                                                                    "valueId": 80,
+                                                                    "valueId": 78,
                                                                     "componentValueType": "HEIGHT",
                                                                     "componentId": -1000010
                                                                 },
@@ -764,9 +754,9 @@
                                                                         "EXPRESSION"
                                                                     ],
                                                                     "type": "FloatExpression",
-                                                                    "id": 81,
+                                                                    "id": 79,
                                                                     "srcValues": [
-                                                                        "@79",
+                                                                        "@77",
                                                                         24.0,
                                                                         "@3211268"
                                                                     ],
@@ -777,9 +767,9 @@
                                                                         "EXPRESSION"
                                                                     ],
                                                                     "type": "FloatExpression",
-                                                                    "id": 82,
+                                                                    "id": 80,
                                                                     "srcValues": [
-                                                                        "@80",
+                                                                        "@78",
                                                                         24.0,
                                                                         "@3211268"
                                                                     ],
@@ -787,12 +777,12 @@
                                                                 },
                                                                 {
                                                                     "scaleX": [
-                                                                        "@81",
-                                                                        "@81"
+                                                                        "@79",
+                                                                        "@79"
                                                                     ],
                                                                     "scaleY": [
-                                                                        "@82",
-                                                                        "@82"
+                                                                        "@80",
+                                                                        "@80"
                                                                     ],
                                                                     "pivotX": [
                                                                         "NaN",
@@ -818,7 +808,7 @@
                                                                             "{type=FontFamily, fontFamily=0}",
                                                                             "{type=FontWeight, weight=400.0}",
                                                                             "{type=TypeFace, italic=false}",
-                                                                            "{type=ColorFilterID, id=72, mode=SRC_IN}",
+                                                                            "{type=ColorFilterID, id=70, mode=SRC_IN}",
                                                                             "{type=BlendMode, mode=SRC_OVER}",
                                                                             "{type=FilterBitmap, enabled=true}",
                                                                             "{type=Shader, id=0}"
@@ -827,7 +817,7 @@
                                                                 },
                                                                 {
                                                                     "type": "PathData",
-                                                                    "id": 83,
+                                                                    "id": 81,
                                                                     "path": [
                                                                         "@10",
                                                                         9.0,
@@ -948,7 +938,7 @@
                                                                 },
                                                                 {
                                                                     "type": "DrawPath",
-                                                                    "id": 83,
+                                                                    "id": 81,
                                                                     "start": 0.0,
                                                                     "end": 1.0
                                                                 },
@@ -1032,25 +1022,25 @@
                                             "list": [
                                                 {
                                                     "type": "TextData",
-                                                    "textId": 84,
+                                                    "textId": 82,
                                                     "text": "Kitchen"
                                                 },
                                                 {
                                                     "type": "ColorConstant",
                                                     "color": "0xffe6e6e6",
-                                                    "colorId": 86
+                                                    "colorId": 84
                                                 },
                                                 {
                                                     "type": "ColorExpression",
-                                                    "id": 87,
+                                                    "id": 85,
                                                     "mode": "TWEEN",
                                                     "startColor": [
-                                                        85.0,
-                                                        85.0
+                                                        83.0,
+                                                        83.0
                                                     ],
                                                     "endColor": [
-                                                        86.0,
-                                                        86.0
+                                                        84.0,
+                                                        84.0
                                                     ],
                                                     "tween": [
                                                         "@44",
@@ -1059,17 +1049,17 @@
                                                 },
                                                 {
                                                     "type": "COLOR_ALPHA",
-                                                    "id": 88,
-                                                    "colorId": 87
+                                                    "id": 86,
+                                                    "colorId": 85
                                                 },
                                                 {
                                                     "$tags": [
                                                         "EXPRESSION"
                                                     ],
                                                     "type": "FloatExpression",
-                                                    "id": 89,
+                                                    "id": 87,
                                                     "srcValues": [
-                                                        "@88",
+                                                        "@86",
                                                         0.5,
                                                         "@3211267"
                                                     ],
@@ -1077,55 +1067,55 @@
                                                 },
                                                 {
                                                     "type": "COLOR_RED",
-                                                    "id": 90,
-                                                    "colorId": 87
+                                                    "id": 88,
+                                                    "colorId": 85
                                                 },
                                                 {
                                                     "type": "COLOR_GREEN",
-                                                    "id": 91,
-                                                    "colorId": 87
+                                                    "id": 89,
+                                                    "colorId": 85
                                                 },
                                                 {
                                                     "type": "COLOR_BLUE",
-                                                    "id": 92,
-                                                    "colorId": 87
+                                                    "id": 90,
+                                                    "colorId": 85
                                                 },
                                                 {
                                                     "type": "ColorExpression",
-                                                    "id": 93,
+                                                    "id": 91,
                                                     "mode": "ARGB",
                                                     "a": [
+                                                        "@87",
+                                                        "@87"
+                                                    ],
+                                                    "r": [
+                                                        "@88",
+                                                        "@88"
+                                                    ],
+                                                    "g": [
                                                         "@89",
                                                         "@89"
                                                     ],
-                                                    "r": [
+                                                    "b": [
                                                         "@90",
                                                         "@90"
-                                                    ],
-                                                    "g": [
-                                                        "@91",
-                                                        "@91"
-                                                    ],
-                                                    "b": [
-                                                        "@92",
-                                                        "@92"
                                                     ]
                                                 },
                                                 {
                                                     "type": "ColorExpression",
-                                                    "id": 94,
+                                                    "id": 92,
                                                     "mode": "TWEEN",
                                                     "startColor": [
-                                                        93.0,
-                                                        93.0
+                                                        91.0,
+                                                        91.0
                                                     ],
                                                     "endColor": [
-                                                        87.0,
-                                                        87.0
+                                                        85.0,
+                                                        85.0
                                                     ],
                                                     "tween": [
-                                                        "@71",
-                                                        "@71"
+                                                        "@69",
+                                                        "@69"
                                                     ]
                                                 },
                                                 {
@@ -1170,7 +1160,7 @@
                                                     "paddingRight": 0.0,
                                                     "paddingTop": 0.0,
                                                     "paddingBottom": 0.0,
-                                                    "textId": 84,
+                                                    "textId": 82,
                                                     "flags": 0,
                                                     "color": [
                                                         -1.6777216E7,
@@ -1209,7 +1199,7 @@
                                                     "paddingRight": 0.0,
                                                     "paddingTop": 0.0,
                                                     "paddingBottom": 0.0,
-                                                    "textId": 95,
+                                                    "textId": 93,
                                                     "flags": 0,
                                                     "color": [
                                                         -1.6777216E7,

@@ -6,7 +6,7 @@
         "contentDescription": "",
         "profiles": 513,
         "densityAtGeneration": 2.625,
-        "byteLength": 660
+        "byteLength": 642
     },
     "operations": [
         {
@@ -37,24 +37,24 @@
         },
         {
             "type": "NamedVariable",
-            "varId": 51,
+            "varId": 49,
             "varName": "USER:light.kitchen.is_on",
             "varType": "INT_TYPE"
         },
         {
             "type": "IntegerConstant",
-            "id": 51,
+            "id": 49,
             "value": 1
         },
         {
             "type": "NamedVariable",
-            "varId": 53,
+            "varId": 51,
             "varName": "USER:light.kitchen.state",
             "varType": "STRING_TYPE"
         },
         {
             "type": "TextData",
-            "textId": 53,
+            "textId": 51,
             "text": "On"
         },
         {
@@ -183,30 +183,20 @@
                                     "animation": null
                                 },
                                 {
-                                    "type": "ColorConstant",
-                                    "color": "0xff8f8f8f",
-                                    "colorId": 49
-                                },
-                                {
-                                    "type": "ColorConstant",
-                                    "color": "0xffffc107",
-                                    "colorId": 50
-                                },
-                                {
                                     "type": "ColorExpression",
-                                    "id": 52,
+                                    "id": 50,
                                     "mode": "TWEEN",
                                     "startColor": [
-                                        49.0,
-                                        49.0
+                                        -7368817.0,
+                                        -7368817.0
                                     ],
                                     "endColor": [
-                                        50.0,
-                                        50.0
+                                        -16121.0,
+                                        -16121.0
                                     ],
                                     "tween": [
-                                        "@51",
-                                        "@51"
+                                        "@49",
+                                        "@49"
                                     ]
                                 },
                                 {
@@ -312,7 +302,7 @@
                                                     "y": 0.0,
                                                     "width": 0.0,
                                                     "height": 0.0,
-                                                    "colorId": 52,
+                                                    "colorId": 50,
                                                     "shapeType": "RECTANGLE"
                                                 }
                                             ]
@@ -360,7 +350,7 @@
                                     "paddingRight": 0.0,
                                     "paddingTop": 0.0,
                                     "paddingBottom": 0.0,
-                                    "textId": 53,
+                                    "textId": 51,
                                     "flags": 0,
                                     "color": [
                                         -1.6777216E7,
