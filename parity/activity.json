@@ -1,11 +1,43 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-22T14:01:45.627Z",
+  "generatedAt": "2026-11-22T16:23:58.820Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "1d3df2dd2a59a0eafc79e633e6aa9dabe8bcd52d",
+        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-contracts-bom to v3.46.0 (#1730)",
+        "at": "2026-11-22T16:14:51Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "5536df3e2861589b45cb203ed9d7aafd891bae40",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 62e9554 (#1728)",
+        "at": "2026-11-22T16:11:25Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "c39dda2736614cfdb0f70b2f7a7c7cd50d6461e8",
+        "subject": "feat(design): publish the device packs and let the dashboard agent use them (#1727)",
+        "at": "2026-11-22T15:45:07Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "b7c66d08e9b999031cafe83741b6030878e24b0d",
+        "subject": "chore(main): release 0.1.100 (#1722)",
+        "at": "2026-11-22T14:20:34Z",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "4b54116ddae70238825e1880cd121d1bed8f36ff",
         "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-daemon-bom to v3.29.0 (#1726)",
@@ -450,38 +482,6 @@
         "sha": "d3ff1a5df38bf730940de6f30291c1bf8555604b",
         "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-ui-builder-bom to v3.139.0 (#1669)",
         "at": "2026-11-19T20:46:40Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "5fb227f32ef2c50e83f4bc015a9223ea49097fc4",
-        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-contracts-bom to v3.44.0 (#1668)",
-        "at": "2026-11-19T20:44:34Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "c2804219672c28f96dd1a5458c969045e1c1108a",
-        "subject": "fix(deps): update dependency ch.qos.logback:logback-classic to v1.6.8 (#1665)",
-        "at": "2026-11-19T20:20:16Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "35a900cd7c8a4bd2c143d6e099d6c65b4dd333f1",
-        "subject": "fix(deps): update androidx-wear to v1.7.2 (#1664)",
-        "at": "2026-11-19T20:18:34Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "08e760f0c750d6cf2274149775e703f71d84a7b9",
-        "subject": "fix(deps): update androidx (#1663)",
-        "at": "2026-11-19T20:17:06Z",
         "author": "renovate[bot]",
         "previewIds": [],
         "components": []
