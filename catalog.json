@@ -1876,6 +1876,11 @@
           "name": "max",
           "type": "Float",
           "hasDefault": true
+        },
+        {
+          "name": "attribute",
+          "type": "String",
+          "hasDefault": true
         }
       ]
     },
@@ -1942,6 +1947,11 @@
         {
           "name": "max",
           "type": "Float",
+          "hasDefault": true
+        },
+        {
+          "name": "attribute",
+          "type": "String",
           "hasDefault": true
         }
       ]
@@ -2010,6 +2020,11 @@
           "name": "max",
           "type": "Float",
           "hasDefault": true
+        },
+        {
+          "name": "attribute",
+          "type": "String",
+          "hasDefault": true
         }
       ]
     },
@@ -2076,6 +2091,11 @@
         {
           "name": "max",
           "type": "Float",
+          "hasDefault": true
+        },
+        {
+          "name": "attribute",
+          "type": "String",
           "hasDefault": true
         }
       ]
@@ -2222,6 +2242,11 @@
           "name": "max",
           "type": "Float",
           "hasDefault": true
+        },
+        {
+          "name": "attribute",
+          "type": "String",
+          "hasDefault": true
         }
       ]
     },
@@ -2279,6 +2304,11 @@
         {
           "name": "color",
           "type": "RemoteColor",
+          "hasDefault": true
+        },
+        {
+          "name": "attribute",
+          "type": "String",
           "hasDefault": true
         }
       ]
@@ -2342,6 +2372,11 @@
         {
           "name": "color",
           "type": "RemoteColor",
+          "hasDefault": true
+        },
+        {
+          "name": "attribute",
+          "type": "String",
           "hasDefault": true
         }
       ]
@@ -2529,7 +2564,7 @@
     "ee.schimke.ha:rc-components (RemoteHa* cards)"
   ],
   "renderer": "compose-preview 2.103.0",
-  "generatedAt": "2026-11-22T11:26:01.067Z",
+  "generatedAt": "2026-11-22T12:15:01.240Z",
   "display": {
     "surface": "light",
     "hero": "HaCard/Tile"
@@ -2636,7 +2671,7 @@
   "uiBuilderFile": "ui-builder.json",
   "source": {
     "repo": "yschimke/homeassistant-remotecompose",
-    "ref": "7c3f9ac61bd6ed7866554ad0843be604760b49f9",
+    "ref": "61bea782053253231c947d0fe7d6969979c47103",
     "module": ":ha-cards-catalog"
   }
 }
