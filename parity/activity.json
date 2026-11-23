@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-23T01:11:22.428Z",
+  "generatedAt": "2026-11-23T01:42:35.598Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "bca066e8787b20c841e4957a76da2bf30ebfd507",
+        "subject": "fix(app-ui): run device-pack entity actions and binding recipes on desktop and Wasm (#1742)",
+        "at": "2026-11-23T01:35:52Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "150f4c3d2dbcefb5150fe317de7e2fdbb00aa443",
         "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-ui-builder-bom to v3.150.0 (#1741)",
@@ -474,14 +482,6 @@
         "sha": "a032d235adbf33c2587a1d500db3776063a3c820",
         "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-ui-builder-bom to v3.143.0 (#1681)",
         "at": "2026-11-20T17:21:54Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "4c13c3a7d5506bd4b8fedcfb481752e201c3ca2d",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 2b86dcb (#1678)",
-        "at": "2026-11-20T17:12:19Z",
         "author": "renovate[bot]",
         "previewIds": [],
         "components": []
