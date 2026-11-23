@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-22T23:43:35.335Z",
+  "generatedAt": "2026-11-23T00:47:28.916Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "edb34fa424e25ba2573f3bc99ab790dc040ba382",
+        "subject": "feat(device-packs): build the device packs as a Livery catalog (#1735)",
+        "at": "2026-11-23T00:31:46Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "e4ac1fab8961e8702338428c93b7914a43663277",
+        "subject": "test(app): measure the keyboard bottom gap once the keyboard has settled (#1737)",
+        "at": "2026-11-23T00:04:14Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "1fa68a5b56a409d5a837474fc090ee37c146d2c6",
+        "subject": "fix(design-server): render_dashboard draws a remote-compose card in its card_style (#1736)",
+        "at": "2026-11-22T23:59:10Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "bdcc11195b70d4a0325e13371460059f8340789b",
         "subject": "feat(design-server): agent session tools to learn what to build and see a draft (#1734)",
@@ -458,30 +482,6 @@
         "sha": "052972d27de021222cce41a086a25453ded66abb",
         "subject": "fix(deps): update remote-compose (#1666)",
         "at": "2026-11-20T06:59:31Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "f6a6430d62915549bb41bdf24056731479e55d37",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 2f76f51 (#1675)",
-        "at": "2026-11-20T04:53:08Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "e9357e1b3e212c95113fb8013fa699065276d135",
-        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-ui-builder-bom to v3.141.0 (#1674)",
-        "at": "2026-11-20T04:46:58Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "86a0ab6ee181401a23a2ea39154b01c4631c9614",
-        "subject": "fix(deps): update compose-ai-tools (#1672)",
-        "at": "2026-11-20T04:31:00Z",
         "author": "renovate[bot]",
         "previewIds": [],
         "components": []
