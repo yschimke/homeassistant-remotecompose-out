@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-23T01:42:35.598Z",
+  "generatedAt": "2026-11-23T04:47:43.393Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "b9f3faf9c6b504bbb078702ffcbf3475c96e2716",
+        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-ui-builder-bom to v3.151.0 (#1744)",
+        "at": "2026-11-23T04:40:19Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "b8ff741ffe4d4ed6d6d865ac791cb3a3e6dab6c1",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 26a4f97 (#1743)",
+        "at": "2026-11-23T04:34:44Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "bca066e8787b20c841e4957a76da2bf30ebfd507",
         "subject": "fix(app-ui): run device-pack entity actions and binding recipes on desktop and Wasm (#1742)",
@@ -466,22 +482,6 @@
         "sha": "2b7199ead61d245376a39c2db2c1f7812daa1f27",
         "subject": "chore(deps): update dependency java-jdk to v21.0.13+100000002.0.lts (#1680)",
         "at": "2026-11-21T03:21:41Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "5b10b2a197a0970716196c51d65b69ac6faa15fd",
-        "subject": "chore(deps): update agp to v9.5.2 (#1679)",
-        "at": "2026-11-20T17:22:58Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a032d235adbf33c2587a1d500db3776063a3c820",
-        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-ui-builder-bom to v3.143.0 (#1681)",
-        "at": "2026-11-20T17:21:54Z",
         "author": "renovate[bot]",
         "previewIds": [],
         "components": []
