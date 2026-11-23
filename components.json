@@ -2083,7 +2083,7 @@
                 "name": "HaCardButton",
                 "origin": "PROJECT",
                 "jvmName": "HaCardButton",
-                "descriptor": "(Ljava/lang/String;Lee/schimke/composeai/rccreation/compose/modifier/RemoteModifier;Ljava/lang/String;Ljava/lang/String;ZZZLee/schimke/composeai/rccreation/compose/state/RemoteColor;Lee/schimke/composeai/rccreation/compose/state/RemoteColor;Landroidx/compose/runtime/Composer;II)V",
+                "descriptor": "(Ljava/lang/String;Lee/schimke/composeai/rccreation/compose/modifier/RemoteModifier;Ljava/lang/String;Ljava/lang/String;ZZZLee/schimke/composeai/rccreation/compose/state/RemoteColor;Lee/schimke/composeai/rccreation/compose/state/RemoteColor;Ljava/lang/String;Landroidx/compose/runtime/Composer;II)V",
                 "sourceFile": "src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
                 "docs": "unavailable",
                 "receiver": null
@@ -2197,6 +2197,19 @@
                     "name": "inactiveColor",
                     "type": "RemoteColor",
                     "typeFqn": "ee.schimke.composeai.rccreation.compose.state.RemoteColor",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "action",
+                    "type": "String",
+                    "typeFqn": "kotlin.String",
                     "hasDefault": true,
                     "composableSlot": false,
                     "composableSlotReceiver": null,

@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-23T00:59:27.103Z",
+  "generatedAt": "2026-11-23T01:11:22.428Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "150f4c3d2dbcefb5150fe317de7e2fdbb00aa443",
+        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-ui-builder-bom to v3.150.0 (#1741)",
+        "at": "2026-11-23T01:00:31Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "81e930116748f019dfec09dffccbed876d3c2942",
+        "subject": "feat(designs): publish the garage door's Material 3 and the thermostat pack designs (#1740)",
+        "at": "2026-11-23T00:56:05Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "807b451d0985eaf622a17e68569b4ac8e5b7af9e",
         "subject": "build(deps): resolve RemoteCompose and Material 3 through the Compose BOM (#1739)",
@@ -466,22 +482,6 @@
         "sha": "4c13c3a7d5506bd4b8fedcfb481752e201c3ca2d",
         "subject": "chore(deps): update yschimke/compose-ai-tools digest to 2b86dcb (#1678)",
         "at": "2026-11-20T17:12:19Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "19ad3d962a2c9cd48e93cbe8256eedc919027e38",
-        "subject": "fix(deps): update androidx-compose (#1667)",
-        "at": "2026-11-20T08:39:09Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "dc9e71db577efe7305b7b0adc9e3254081b33f3d",
-        "subject": "chore(deps): update compose-ai-tools (#1677)",
-        "at": "2026-11-20T08:04:52Z",
         "author": "renovate[bot]",
         "previewIds": [],
         "components": []

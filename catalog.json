@@ -937,6 +937,11 @@
           "name": "inactiveColor",
           "type": "RemoteColor",
           "hasDefault": true
+        },
+        {
+          "name": "action",
+          "type": "String",
+          "hasDefault": true
         }
       ]
     },
@@ -2455,7 +2460,50 @@
           "density": 2.625
         }
       ],
-      "greenlines": [],
+      "greenlines": [
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button \"▼\"",
+          "detail": {
+            "role": "button",
+            "label": "▼",
+            "bounds": {
+              "x": 132,
+              "y": 326,
+              "width": 84,
+              "height": 84
+            }
+          },
+          "bounds": {
+            "x": 132,
+            "y": 326,
+            "width": 84,
+            "height": 84
+          }
+        },
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button \"▲\"",
+          "detail": {
+            "role": "button",
+            "label": "▲",
+            "bounds": {
+              "x": 311,
+              "y": 326,
+              "width": 84,
+              "height": 84
+            }
+          },
+          "bounds": {
+            "x": 311,
+            "y": 326,
+            "width": 84,
+            "height": 84
+          }
+        }
+      ],
       "redlines": [
         {
           "bounds": {
@@ -2711,7 +2759,7 @@
     "ee.schimke.ha:rc-components (RemoteHa* cards)"
   ],
   "renderer": "compose-preview 2.103.0",
-  "generatedAt": "2026-11-23T00:59:23.453Z",
+  "generatedAt": "2026-11-23T01:11:18.602Z",
   "display": {
     "surface": "light",
     "hero": "HaCard/Tile"
@@ -2818,7 +2866,7 @@
   "uiBuilderFile": "ui-builder.json",
   "source": {
     "repo": "yschimke/homeassistant-remotecompose",
-    "ref": "807b451d0985eaf622a17e68569b4ac8e5b7af9e",
+    "ref": "150f4c3d2dbcefb5150fe317de7e2fdbb00aa443",
     "module": ":ha-cards-catalog"
   }
 }
