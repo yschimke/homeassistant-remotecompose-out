@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-23T00:47:28.916Z",
+  "generatedAt": "2026-11-23T00:59:27.103Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "807b451d0985eaf622a17e68569b4ac8e5b7af9e",
+        "subject": "build(deps): resolve RemoteCompose and Material 3 through the Compose BOM (#1739)",
+        "at": "2026-11-23T00:38:55Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "c084e6397c8c967bbc79957ef9b464c76233dd58",
+        "subject": "fix(tile): bind a cover tile's state line so its design shows \"Open\" (#1738)",
+        "at": "2026-11-23T00:38:26Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "edb34fa424e25ba2573f3bc99ab790dc040ba382",
         "subject": "feat(device-packs): build the device packs as a Livery catalog (#1735)",
@@ -466,22 +482,6 @@
         "sha": "dc9e71db577efe7305b7b0adc9e3254081b33f3d",
         "subject": "chore(deps): update compose-ai-tools (#1677)",
         "at": "2026-11-20T08:04:52Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "1c26885774c6865a92750450eef9489d165d87b7",
-        "subject": "chore(build): raise Android compileSdk to 37.2 (#1676)",
-        "at": "2026-11-20T07:30:47Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "052972d27de021222cce41a086a25453ded66abb",
-        "subject": "fix(deps): update remote-compose (#1666)",
-        "at": "2026-11-20T06:59:31Z",
         "author": "renovate[bot]",
         "previewIds": [],
         "components": []
