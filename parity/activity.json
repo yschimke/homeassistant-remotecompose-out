@@ -1,11 +1,67 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-23T20:17:03.233Z",
+  "generatedAt": "2026-11-23T23:10:35.893Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "7ecb8f51b1fca8727c7e9dab03dfaac462ecbd4a",
+        "subject": "feat: hide unmapped semantic action buttons via Remote Compose visibility (#1759)",
+        "at": "2026-11-23T23:04:03Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "4a49747f08dc08bf8315907358dfec9eaa3df461",
+        "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.287 (#1760)",
+        "at": "2026-11-23T22:53:50Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "da4d17e7c9fdb471eb0859c4b474cfffa5d120f9",
+        "subject": "feat(ha): promote hidden or selected dashboards to top-level Terrazzo sidebar panels (#1756)",
+        "at": "2026-11-23T22:34:46Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "bc27650930ce01a1e448b7e27d8f3580bccb5511",
+        "subject": "chore(deps): update ghcr.io/home-assistant/home-assistant docker tag to v2026.11.3 (#1757)",
+        "at": "2026-11-23T21:30:04Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "bccac62730e9279aff4410546438c26c29c9e303",
+        "subject": "fix(app-ui): apply recipes to direct templates and preserve semantic action targets (#1752)",
+        "at": "2026-11-23T21:07:33Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "be45cc9c437dc245481656235b3a71a1d8391cbe",
+        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-ui-builder-bom to v3.155.0 (#1755)",
+        "at": "2026-11-23T20:31:10Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "10b115971ba52f892cf4e67a7b4a4b08649173c5",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to f58533a (#1754)",
+        "at": "2026-11-23T20:24:51Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "82403da6ab0a20552407168454fef2014b3882ea",
         "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-ui-builder-bom to v3.154.0 (#1751)",
@@ -427,62 +483,6 @@
         "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-daemon-bom to v3.28.2 (#1698)",
         "at": "2026-11-21T12:18:12Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "8527a9358ca6fde0df796a240e7f0d9f03046875",
-        "subject": "refactor: move network-free design types from ha-client to ha-model (#1697)",
-        "at": "2026-11-21T12:04:15Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "d65e5ca08ce06b0625ef61248a2a0be7a96ee493",
-        "subject": "docs: slots as references to entities in the Livery plan (#1696)",
-        "at": "2026-11-21T12:03:58Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "845ae078eccf8b6c55bbca88e5ae3fee08e3d6f2",
-        "subject": "fix: agent chat keeps Use it in reach and names the agent and cards plainly (#1694)",
-        "at": "2026-11-21T12:01:16Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "596bc7f27e56bc0d5be71a78b00727dfe26721db",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 3278efa (#1695)",
-        "at": "2026-11-21T11:30:30Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "1596d18249535ee146fc32131aed69507df1183f",
-        "subject": "build: publish reusable library modules to Maven Central (#1692)",
-        "at": "2026-11-21T11:06:58Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "7c323ea94fca748fbead0f7f22a9a48293e65a3f",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 545af1b (#1693)",
-        "at": "2026-11-21T10:54:25Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "120e9d0751dcb26d698eb6edca36b2eab960f39c",
-        "subject": "docs: plan moving card selection, serving and rendering onto Livery (#1691)",
-        "at": "2026-11-21T10:35:02Z",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
