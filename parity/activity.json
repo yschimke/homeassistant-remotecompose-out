@@ -1,11 +1,35 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-24T14:49:28.703Z",
+  "generatedAt": "2026-11-24T15:05:37.754Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "d1e2f675ecbd42a12d308e4f567481ca2152ff1d",
+        "subject": "refactor: adopt metrox-android, metrox-viewmodel, and MetroWorkerFactory (#1783)",
+        "at": "2026-11-24T14:53:45Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "6324f412964fedc87796e53fd1ae88f34053e3a2",
+        "subject": "chore(deps): update amannn/action-semantic-pull-request action to v6.1.4 (#1784)",
+        "at": "2026-11-24T14:47:16Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "ce35d4f0b9d12882633dba5367e702e9844eded0",
+        "subject": "fix(deps): update compose-ai-tools (#1782)",
+        "at": "2026-11-24T14:46:46Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "9d57b5a342325f53a1e36d28c67277e3711e5b65",
         "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-contracts-bom to v3.47.0 (#1780)",
@@ -459,30 +483,6 @@
         "subject": "chore(main): release 0.1.99 (#1635)",
         "at": "2026-11-22T11:22:09Z",
         "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a70d71be21c096f766a2b0b00f3871a6955bec42",
-        "subject": "feat(design): one public cardDevice for every client and library app (#1719)",
-        "at": "2026-11-22T11:21:29Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "7c3f9ac61bd6ed7866554ad0843be604760b49f9",
-        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-ui-builder-bom to v3.147.0 (#1718)",
-        "at": "2026-11-22T11:19:27Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "44948edd7e8af62660faf9aff2769e82de0a2335",
-        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-ui-builder-bom to v3.146.0 (#1714)",
-        "at": "2026-11-22T09:56:33Z",
-        "author": "renovate[bot]",
         "previewIds": [],
         "components": []
       }
