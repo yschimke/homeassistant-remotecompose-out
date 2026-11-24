@@ -378,6 +378,35 @@
                 "code": null,
                 "svg": null
             },
+            "ha-cards/card-surface": {
+                "role": "container",
+                "displayName": "Card surface",
+                "group": "Containment",
+                "canvas": "layout/scaffold",
+                "unrolled": null,
+                "traits": [
+                    "RemoteAuthorable"
+                ],
+                "slots": {
+                    "content": {
+                        "acceptedRoles": [
+                            "Container",
+                            "Leaf"
+                        ],
+                        "acceptedTraits": [
+                            "RemoteAuthorable"
+                        ]
+                    }
+                },
+                "properties": [],
+                "modifierCapabilities": [],
+                "insertContent": null,
+                "implementation": "ha-cards-catalog/ee.schimke.ha.cards.HaCardComponentsKt.HaCardSurface",
+                "shelfRole": "Container",
+                "wasm": null,
+                "code": null,
+                "svg": null
+            },
             "remote-m3/widget-container-small": {
                 "role": "screen-root",
                 "displayName": "Wear widget · Small (216×76dp)",
@@ -2516,11 +2545,6 @@
             "code": "component.canvas.unclaimed",
             "subject": "ha-cards/remote-material3-sticker",
             "message": "no canvas adapter claimed, so it draws as a placeholder. That is the honest default and needs no fixing; it is reported so a shelf drawn entirely in placeholders is visible rather than mysterious."
-        },
-        {
-            "code": "component.policy.orphaned",
-            "subject": "ha-cards/card-surface",
-            "message": "ui-builder.policy.json states a policy for \"ha-cards/card-surface\", which joins no component in this record, so every field in it does nothing. Check its `record` canonicalId or its builder id against components.json."
         },
         {
             "code": "component.policy.orphaned",
