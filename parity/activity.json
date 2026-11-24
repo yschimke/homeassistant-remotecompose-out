@@ -1,11 +1,51 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-24T11:07:34.789Z",
+  "generatedAt": "2026-11-24T14:15:57.865Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "453e1e0eac345b34f954058c1c866ddfa251377e",
+        "subject": "refactor: modernize AppGraph with Metro 1.6 bindings and preview graph (#1774)",
+        "at": "2026-11-24T14:04:43Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "df8b5a54e14bfc73869fb84203131bf3c44c2c03",
+        "subject": "chore(deps): update compose-ai-tools (#1777)",
+        "at": "2026-11-24T13:41:23Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "a0caaf556e2150cd92f8ac7f7445064b7c66a41f",
+        "subject": "fix: dashboard agent finds designs by word, drafts in fewer calls, retries busy providers (#1775)",
+        "at": "2026-11-24T13:35:04Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "7b596ba302696b21685b457c60000d11404ea787",
+        "subject": "feat: modernize Navigation 3 back stack, Material 3 Expressive host theme, and lifecycle collection (#1767)",
+        "at": "2026-11-24T11:54:25Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "2fbe6e637cdf3b0aea542316590d78e6f8aff41d",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to a58a334 (#1771)",
+        "at": "2026-11-24T11:09:36Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "180fe6f989592de7651c6255e795ab6b626d9300",
         "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-ui-builder-bom to v3.157.0 (#1768)",
@@ -442,46 +482,6 @@
         "sha": "1e1a8705e8f0c8d3e05f683873e7ac1e7151d9e3",
         "subject": "fix(lovelace): suggest only designs for the entity's domain, and preload the index (#1713)",
         "at": "2026-11-21T22:02:40Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "70383f72e92ccc04ea20b457c1a105c161339177",
-        "subject": "feat(design-server): run agent sessions on Livery's session relay (#1707)",
-        "at": "2026-11-21T22:01:08Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "e5cfd4c310e46376921300439bb8d9cac4fabb49",
-        "subject": "feat: info endpoints, integration status in Settings, TerrazzoSession (#1709)",
-        "at": "2026-11-21T18:13:37Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "cb4e8ce751ac443909f6bd942230c285b4aa2c78",
-        "subject": "feat(lovelace): suggest Remote Compose cards in Home Assistant's card picker (#1710)",
-        "at": "2026-11-21T17:22:59Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "e3967f9702fa89e32e1ed55a83e2b27db01ef4d6",
-        "subject": "feat: LiveHaSession gates Terrazzo calls on the terrazzo/info handshake (#1708)",
-        "at": "2026-11-21T15:58:25Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "1d7a4c35d18238d1d0099a92cbf075946ded4413",
-        "subject": "docs: fold agent steps and mentions into the Livery plan (#1706)",
-        "at": "2026-11-21T14:46:07Z",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
