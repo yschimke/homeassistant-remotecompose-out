@@ -1,11 +1,43 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-24T14:15:57.865Z",
+  "generatedAt": "2026-11-24T14:49:28.703Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "9d57b5a342325f53a1e36d28c67277e3711e5b65",
+        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-contracts-bom to v3.47.0 (#1780)",
+        "at": "2026-11-24T14:10:42Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "c59fb7eb959f5c7d53497f6f742befcd339bfb57",
+        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-daemon-bom to v3.29.1 (#1779)",
+        "at": "2026-11-24T14:05:39Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "f4d83fa6b3b64d99019040bf12210cb0d0ebdd3a",
+        "subject": "feat: adopt Wear Expressive motion and migrate sign-in and widget inputs to TextFieldState (#1778)",
+        "at": "2026-11-24T14:05:08Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "345796cd28d9b62a252af66037cd80747c6a92eb",
+        "subject": "fix: refuse a one-call draft built from a stale dashboard read (#1781)",
+        "at": "2026-11-24T14:04:58Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "453e1e0eac345b34f954058c1c866ddfa251377e",
         "subject": "refactor: modernize AppGraph with Metro 1.6 bindings and preview graph (#1774)",
@@ -451,38 +483,6 @@
         "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-ui-builder-bom to v3.146.0 (#1714)",
         "at": "2026-11-22T09:56:33Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "0fa4e7d79eddd16c56daa91b9085db67ef6a4c5a",
-        "subject": "fix(deps): rc-players 3.12.0, compose-ai-tools 2.103.0 and Robolectric 4.18.1 (#1717)",
-        "at": "2026-11-22T09:54:23Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "26e8e8663a0d28ceb52c24b6cbe4bd55ad12259a",
-        "subject": "fix(design): rank device designs by scope, not by field count (#1716)",
-        "at": "2026-11-22T09:53:22Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "0e2b2807b44773adcc11f0befa8190a3e2e86c23",
-        "subject": "refactor(design-server): run agent sessions on Livery's session server (#1712)",
-        "at": "2026-11-22T08:18:20Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "1e1a8705e8f0c8d3e05f683873e7ac1e7151d9e3",
-        "subject": "fix(lovelace): suggest only designs for the entity's domain, and preload the index (#1713)",
-        "at": "2026-11-21T22:02:40Z",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
