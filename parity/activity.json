@@ -1,11 +1,75 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-23T23:10:35.893Z",
+  "generatedAt": "2026-11-24T11:07:34.789Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "180fe6f989592de7651c6255e795ab6b626d9300",
+        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-ui-builder-bom to v3.157.0 (#1768)",
+        "at": "2026-11-24T10:55:41Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "6b96302ec4c549fa118a39c2a230aacb6a467f47",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 072d0a7 (#1766)",
+        "at": "2026-11-24T07:57:10Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "2e3fde5db02af1511a05f5c7144f147b37317fad",
+        "subject": "chore(main): release 0.1.104 (#1765)",
+        "at": "2026-11-24T07:42:27Z",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "8059c7bf167b18daa88024b23303088138aab51a",
+        "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.288 (#1763)",
+        "at": "2026-11-24T00:42:45Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "e785746f8c528f470d25e7487f2449f375d69e74",
+        "subject": "fix: re-render actions attribute changes and sync panel view route (#1761)",
+        "at": "2026-11-24T00:21:51Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "fd1746ff2d43d9f181a618eb0d0ddeb64c14370c",
+        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-ui-builder-bom to v3.156.0 (#1764)",
+        "at": "2026-11-23T23:46:16Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "35909b20ee97a2f431dec9e7e90efb0b13877319",
+        "subject": "docs: specify PR monitoring for CI failures, merge conflicts, and comments (#1762)",
+        "at": "2026-11-23T23:34:26Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "1948856563bff469f7de478eb29e2a677932125a",
+        "subject": "chore(main): release 0.1.103 (#1753)",
+        "at": "2026-11-23T23:04:40Z",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "7ecb8f51b1fca8727c7e9dab03dfaac462ecbd4a",
         "subject": "feat: hide unmapped semantic action buttons via Remote Compose visibility (#1759)",
@@ -419,70 +483,6 @@
         "subject": "docs: fold agent steps and mentions into the Livery plan (#1706)",
         "at": "2026-11-21T14:46:07Z",
         "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "5991e89ef15a286b86a0c886d7169e8e511e5382",
-        "subject": "feat: terrazzo/info handshake, desktop offline cache, common demo house, Quest on terrazzo-core (#1705)",
-        "at": "2026-11-21T14:40:11Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a9f0d2af4b668d44016ba697e51d205bfd13a99a",
-        "subject": "ci: switch compose-preview workflows to reusable workflows (#1704)",
-        "at": "2026-11-21T14:30:29Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "a98ee9ad66db6c81543ad6fec1ce510836644b0c",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 2f91b8e (#1703)",
-        "at": "2026-11-21T13:51:34Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "27a545fecaa5896b6252cabb3ee55953e3a27875",
-        "subject": "feat: show the agent's steps in the chat and @-mention cards and entities (#1700)",
-        "at": "2026-11-21T13:41:06Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "9ca57be2aa74a20538bb4b29e626b21ac951fe41",
-        "subject": "docs: agent and UI Builder flows as optional Livery modules (#1702)",
-        "at": "2026-11-21T13:23:33Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "330145b2227b1383967e192a942cb6d3e2888f6d",
-        "subject": "refactor: share wear sync schema, open terrazzo-core to minSdk 29, guard library metadata (#1699)",
-        "at": "2026-11-21T13:12:21Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "6d6d318980cfafab8c672938799c36f0a7aebe20",
-        "subject": "ci: speed up compose-preview with BuildFetch, scoping, and PR gate (#1701)",
-        "at": "2026-11-21T12:51:16Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "2bd755703023b72782899f5d4a89d13676d9a386",
-        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-daemon-bom to v3.28.2 (#1698)",
-        "at": "2026-11-21T12:18:12Z",
-        "author": "renovate[bot]",
         "previewIds": [],
         "components": []
       }
