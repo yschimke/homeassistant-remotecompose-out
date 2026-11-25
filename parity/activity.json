@@ -1,11 +1,75 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-25T06:36:19.167Z",
+  "generatedAt": "2026-11-25T15:00:47.925Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "7cc72b8cc0067feda6e7cbce4fcf855c67bd406c",
+        "subject": "fix(deps): update ktor to v3.6.2 (#1812)",
+        "at": "2026-11-25T14:52:43Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "e505d7151f2e27f3f652cdf7c09352a8f9b9296c",
+        "subject": "chore(main): release 0.1.107 (#1805)",
+        "at": "2026-11-25T14:29:32Z",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "2929fa16889b8a636f6fca4d990b6cdb63e62ae2",
+        "subject": "ci: publish only the changed libraries to Maven Central, with a BOM of last versions (#1810)",
+        "at": "2026-11-25T10:35:05Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "0bf1eb7c69e4bec5ffc6923744e4a49b1866ebe5",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to c6ab7a0 (#1811)",
+        "at": "2026-11-25T10:02:17Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "35992fc4450e7e0a317ac02a033b27b50582e5b2",
+        "subject": "feat: dashboard chat with Home Assistant's own agent; drop other model paths (#1809)",
+        "at": "2026-11-25T09:49:21Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "515e069e187ff597c4c3800146721ed132f26a29",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 197831f (#1808)",
+        "at": "2026-11-25T08:46:15Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "e60ed6b4c39b3edd22c814c834da8c7b6bff4df0",
+        "subject": "fix(design-server): keep only recently used PR channels in memory (#1806)",
+        "at": "2026-11-25T08:36:01Z",
+        "author": "Yuri Schimke",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "c2c8b2516ac3a0525dd5d98a4f54619496f7f7c5",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to b5637cc (#1807)",
+        "at": "2026-11-25T07:55:19Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "c42888e3a3b0e35e3e76143d72c731b0328c22b6",
         "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-ui-builder-bom to v3.160.0 (#1804)",
@@ -418,70 +482,6 @@
         "sha": "6fa72ec5f7ab59351ad2232eca79ac82e18d81cb",
         "subject": "feat(agent): guide administrators to set up the dashboard agent (#1745)",
         "at": "2026-11-23T09:02:00Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "85ad0a5ed612350b941dbcfe25be84c6a412daca",
-        "subject": "chore(main): release 0.1.101 (#1732)",
-        "at": "2026-11-23T07:54:04Z",
-        "author": "github-actions[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "b9f3faf9c6b504bbb078702ffcbf3475c96e2716",
-        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-ui-builder-bom to v3.151.0 (#1744)",
-        "at": "2026-11-23T04:40:19Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "b8ff741ffe4d4ed6d6d865ac791cb3a3e6dab6c1",
-        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 26a4f97 (#1743)",
-        "at": "2026-11-23T04:34:44Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "bca066e8787b20c841e4957a76da2bf30ebfd507",
-        "subject": "fix(app-ui): run device-pack entity actions and binding recipes on desktop and Wasm (#1742)",
-        "at": "2026-11-23T01:35:52Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "150f4c3d2dbcefb5150fe317de7e2fdbb00aa443",
-        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-ui-builder-bom to v3.150.0 (#1741)",
-        "at": "2026-11-23T01:00:31Z",
-        "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "81e930116748f019dfec09dffccbed876d3c2942",
-        "subject": "feat(designs): publish the garage door's Material 3 and the thermostat pack designs (#1740)",
-        "at": "2026-11-23T00:56:05Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "807b451d0985eaf622a17e68569b4ac8e5b7af9e",
-        "subject": "build(deps): resolve RemoteCompose and Material 3 through the Compose BOM (#1739)",
-        "at": "2026-11-23T00:38:55Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "c084e6397c8c967bbc79957ef9b464c76233dd58",
-        "subject": "fix(tile): bind a cover tile's state line so its design shows \"Open\" (#1738)",
-        "at": "2026-11-23T00:38:26Z",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
