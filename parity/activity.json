@@ -1,11 +1,43 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-25T00:01:22.031Z",
+  "generatedAt": "2026-11-25T06:36:19.167Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "c42888e3a3b0e35e3e76143d72c731b0328c22b6",
+        "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-ui-builder-bom to v3.160.0 (#1804)",
+        "at": "2026-11-25T06:29:43Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "ee195a9d55edc5675b5147dc5080a8236787225a",
+        "subject": "chore(main): release 0.1.106 (#1801)",
+        "at": "2026-11-25T06:07:54Z",
+        "author": "github-actions[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "309386776964bd3f2576a108d90c898b919a0a98",
+        "subject": "chore(deps): update yschimke/compose-ai-tools digest to 6e258d4 (#1803)",
+        "at": "2026-11-25T05:49:15Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "deb9f34609023347d5e96ff0ffa8aa5f4c4de9c8",
+        "subject": "chore(deps): update anthropics/claude-code-action action to v1.0.290 (#1802)",
+        "at": "2026-11-25T03:25:50Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "7071d50c5b9a7a67cf4823870b18912026fde2df",
         "subject": "fix(deps): update compose-ai-tools (#1800)",
@@ -450,38 +482,6 @@
         "sha": "c084e6397c8c967bbc79957ef9b464c76233dd58",
         "subject": "fix(tile): bind a cover tile's state line so its design shows \"Open\" (#1738)",
         "at": "2026-11-23T00:38:26Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "edb34fa424e25ba2573f3bc99ab790dc040ba382",
-        "subject": "feat(device-packs): build the device packs as a Livery catalog (#1735)",
-        "at": "2026-11-23T00:31:46Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "e4ac1fab8961e8702338428c93b7914a43663277",
-        "subject": "test(app): measure the keyboard bottom gap once the keyboard has settled (#1737)",
-        "at": "2026-11-23T00:04:14Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "1fa68a5b56a409d5a837474fc090ee37c146d2c6",
-        "subject": "fix(design-server): render_dashboard draws a remote-compose card in its card_style (#1736)",
-        "at": "2026-11-22T23:59:10Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "bdcc11195b70d4a0325e13371460059f8340789b",
-        "subject": "feat(design-server): agent session tools to learn what to build and see a draft (#1734)",
-        "at": "2026-11-22T23:37:49Z",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
