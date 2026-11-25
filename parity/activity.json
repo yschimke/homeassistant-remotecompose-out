@@ -1,11 +1,19 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-24T23:50:03.172Z",
+  "generatedAt": "2026-11-25T00:01:22.031Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "7071d50c5b9a7a67cf4823870b18912026fde2df",
+        "subject": "fix(deps): update compose-ai-tools (#1800)",
+        "at": "2026-11-24T23:46:06Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "47dc1a832799095223823e156d8ef2b8b5ef6925",
         "subject": "fix(deps): update dependency ee.schimke.composeai:compose-preview-ui-builder-bom to v3.158.0 (#1772)",
@@ -474,14 +482,6 @@
         "sha": "bdcc11195b70d4a0325e13371460059f8340789b",
         "subject": "feat(design-server): agent session tools to learn what to build and see a draft (#1734)",
         "at": "2026-11-22T23:37:49Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "003872277d15f8dd7be977bff603f4b01bc07a05",
-        "subject": "feat(agent): Home Assistant's own conversation agents answer edit sessions (#1733)",
-        "at": "2026-11-22T18:09:44Z",
         "author": "Yuri Schimke",
         "previewIds": [],
         "components": []

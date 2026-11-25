@@ -11,7 +11,7 @@
     "record": {
         "file": "components.json",
         "schemaVersion": 2,
-        "components": 26
+        "components": 29
     },
     "statusSemantics": {
         "platform": "remote-compose",
@@ -92,6 +92,12 @@
                 "ha-cards/status-chip": {
                     "group": "Home Assistant"
                 },
+                "ha-cards/ha-card-surface": {
+                    "group": "Containment"
+                },
+                "ha-cards/card-template": {
+                    "group": "Containment"
+                },
                 "ha-cards/thermometer": {
                     "group": "Measurements"
                 },
@@ -103,6 +109,9 @@
                 },
                 "ha-cards/toggle": {
                     "group": "Home Assistant"
+                },
+                "ha-cards/ha-dashboard-section": {
+                    "group": "Containment"
                 },
                 "ha-cards/garage-door": {
                     "group": "Devices"
@@ -1881,6 +1890,54 @@
                 "shelfRole": null,
                 "exportProjection": null
             },
+            "ha-cards/ha-card-surface": {
+                "record": "ha-cards-catalog/ee.schimke.ha.cards.HaCardComponentsKt.HaCardSurface",
+                "catalogId": null,
+                "displayName": null,
+                "canvas": null,
+                "canvasMapping": null,
+                "unrolled": null,
+                "nativeOnly": false,
+                "traits": [],
+                "slots": {},
+                "stateCallbacks": {},
+                "starter": {},
+                "variantProperty": null,
+                "variants": {},
+                "excluded": null,
+                "propertyCapabilities": null,
+                "slotCapabilities": null,
+                "modifierCapabilities": null,
+                "insertContent": null,
+                "shelfRole": null,
+                "exportProjection": null
+            },
+            "ha-cards/card-template": {
+                "record": "ha-cards-catalog/ee.schimke.ha.cards.HaCardComponentsKt.HaCardTemplate",
+                "catalogId": null,
+                "displayName": "Card template",
+                "canvas": "layout/box",
+                "canvasMapping": {
+                    "slots": {
+                        "children": "content"
+                    }
+                },
+                "unrolled": null,
+                "nativeOnly": false,
+                "traits": [],
+                "slots": {},
+                "stateCallbacks": {},
+                "starter": {},
+                "variantProperty": null,
+                "variants": {},
+                "excluded": null,
+                "propertyCapabilities": null,
+                "slotCapabilities": null,
+                "modifierCapabilities": null,
+                "insertContent": null,
+                "shelfRole": null,
+                "exportProjection": null
+            },
             "ha-cards/thermometer": {
                 "record": "ha-cards-catalog/ee.schimke.ha.cards.HaCardComponentsKt.HaCardThermometer",
                 "catalogId": null,
@@ -2218,6 +2275,28 @@
                 "shelfRole": null,
                 "exportProjection": null
             },
+            "ha-cards/ha-dashboard-section": {
+                "record": "ha-cards-catalog/ee.schimke.ha.cards.HaCardComponentsKt.HaDashboardSection",
+                "catalogId": null,
+                "displayName": null,
+                "canvas": null,
+                "canvasMapping": null,
+                "unrolled": null,
+                "nativeOnly": false,
+                "traits": [],
+                "slots": {},
+                "stateCallbacks": {},
+                "starter": {},
+                "variantProperty": null,
+                "variants": {},
+                "excluded": null,
+                "propertyCapabilities": null,
+                "slotCapabilities": null,
+                "modifierCapabilities": null,
+                "insertContent": null,
+                "shelfRole": null,
+                "exportProjection": null
+            },
             "ha-cards/garage-door": {
                 "record": "ha-cards-catalog/ee.schimke.ha.cards.HaCardDevicesKt.HaCardGarageDoor",
                 "catalogId": null,
@@ -2503,6 +2582,11 @@
         },
         {
             "code": "component.canvas.unclaimed",
+            "subject": "ha-cards/ha-card-surface",
+            "message": "no canvas adapter claimed, so it draws as a placeholder. That is the honest default and needs no fixing; it is reported so a shelf drawn entirely in placeholders is visible rather than mysterious."
+        },
+        {
+            "code": "component.canvas.unclaimed",
             "subject": "ha-cards/thermometer",
             "message": "no canvas adapter claimed, so it draws as a placeholder. That is the honest default and needs no fixing; it is reported so a shelf drawn entirely in placeholders is visible rather than mysterious."
         },
@@ -2519,6 +2603,11 @@
         {
             "code": "component.canvas.unclaimed",
             "subject": "ha-cards/toggle",
+            "message": "no canvas adapter claimed, so it draws as a placeholder. That is the honest default and needs no fixing; it is reported so a shelf drawn entirely in placeholders is visible rather than mysterious."
+        },
+        {
+            "code": "component.canvas.unclaimed",
+            "subject": "ha-cards/ha-dashboard-section",
             "message": "no canvas adapter claimed, so it draws as a placeholder. That is the honest default and needs no fixing; it is reported so a shelf drawn entirely in placeholders is visible rather than mysterious."
         },
         {
@@ -2550,11 +2639,6 @@
             "code": "component.policy.orphaned",
             "subject": "ha-cards/remote-icon",
             "message": "ui-builder.policy.json states a policy for \"ha-cards/remote-icon\", which joins no component in this record, so every field in it does nothing. Check its `record` canonicalId or its builder id against components.json."
-        },
-        {
-            "code": "component.policy.orphaned",
-            "subject": "ha-cards/card-template",
-            "message": "ui-builder.policy.json states a policy for \"ha-cards/card-template\", which joins no component in this record, so every field in it does nothing. Check its `record` canonicalId or its builder id against components.json."
         },
         {
             "code": "component.policy.orphaned",

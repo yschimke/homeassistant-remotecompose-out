@@ -1116,7 +1116,19 @@
       "sourceModule": ":ha-cards-catalog",
       "bodyLine": 248,
       "sourceDirectory": "ha-cards-catalog",
-      "sourceFunction": "HaCardSurfaceSticker"
+      "sourceFunction": "HaCardSurfaceSticker",
+      "parameters": [
+        {
+          "name": "modifier",
+          "type": "RemoteModifier",
+          "hasDefault": true
+        },
+        {
+          "name": "content",
+          "type": "() -> Unit",
+          "composableSlot": true
+        }
+      ]
     },
     {
       "componentId": "HaCard/DashboardSection",
@@ -1187,7 +1199,19 @@
       "sourceModule": ":ha-cards-catalog",
       "bodyLine": 267,
       "sourceDirectory": "ha-cards-catalog",
-      "sourceFunction": "HaDashboardSectionSticker"
+      "sourceFunction": "HaDashboardSectionSticker",
+      "parameters": [
+        {
+          "name": "modifier",
+          "type": "RemoteModifier",
+          "hasDefault": true
+        },
+        {
+          "name": "content",
+          "type": "() -> Unit",
+          "composableSlot": true
+        }
+      ]
     },
     {
       "componentId": "HaCard/Template",
@@ -1294,7 +1318,19 @@
       "sourceModule": ":ha-cards-catalog",
       "bodyLine": 402,
       "sourceDirectory": "ha-cards-catalog",
-      "sourceFunction": "HaCardTemplateSticker"
+      "sourceFunction": "HaCardTemplateSticker",
+      "parameters": [
+        {
+          "name": "modifier",
+          "type": "RemoteModifier",
+          "hasDefault": true
+        },
+        {
+          "name": "content",
+          "type": "() -> Unit",
+          "composableSlot": true
+        }
+      ]
     },
     {
       "componentId": "HaCard/UberTheme",
@@ -2758,8 +2794,8 @@
     "androidx.wear.compose.remote:remote-material3",
     "ee.schimke.ha:rc-components (RemoteHa* cards)"
   ],
-  "renderer": "compose-preview 2.103.1",
-  "generatedAt": "2026-11-24T23:49:58.884Z",
+  "renderer": "compose-preview 2.104.0",
+  "generatedAt": "2026-11-25T00:01:18.047Z",
   "display": {
     "surface": "light",
     "hero": "HaCard/Tile"
@@ -2866,7 +2902,7 @@
   "uiBuilderFile": "ui-builder.json",
   "source": {
     "repo": "yschimke/homeassistant-remotecompose",
-    "ref": "47dc1a832799095223823e156d8ef2b8b5ef6925",
+    "ref": "7071d50c5b9a7a67cf4823870b18912026fde2df",
     "module": ":ha-cards-catalog"
   }
 }

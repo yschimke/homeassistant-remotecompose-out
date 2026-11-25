@@ -3524,6 +3524,160 @@
             "overloads": []
         },
         {
+            "canonicalId": "ha-cards-catalog/ee.schimke.ha.cards.HaCardComponentsKt.HaCardSurface",
+            "componentIds": [
+                "HaCard/Surface"
+            ],
+            "symbol": {
+                "jvmOwner": "ee.schimke.ha.cards.HaCardComponentsKt",
+                "callable": "ee.schimke.ha.cards.HaCardSurface",
+                "name": "HaCardSurface",
+                "origin": "PROJECT",
+                "jvmName": "HaCardSurface",
+                "descriptor": "(Lee/schimke/composeai/rccreation/compose/modifier/RemoteModifier;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V",
+                "sourceFile": "src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
+                "docs": "unavailable",
+                "receiver": null
+            },
+            "parameters": [
+                {
+                    "name": "modifier",
+                    "type": "RemoteModifier",
+                    "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "content",
+                    "type": "() -> Unit",
+                    "typeFqn": "kotlin.Function0",
+                    "hasDefault": false,
+                    "composableSlot": true,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": "kotlin.Unit"
+                }
+            ],
+            "slots": [
+                {
+                    "name": "content",
+                    "required": true,
+                    "receiverScope": null
+                }
+            ],
+            "bindings": [
+                {
+                    "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardSurfaceSticker",
+                    "componentId": "HaCard/Surface",
+                    "group": "Containment"
+                }
+            ],
+            "code": {
+                "call": "HaCardSurface(content = {})",
+                "imports": [
+                    "ee.schimke.ha.cards.HaCardSurface"
+                ],
+                "refusedReason": null,
+                "requiredOptIns": [],
+                "androidxOptIns": []
+            },
+            "signatureKnown": true,
+            "callableFromAnotherFile": true,
+            "hasTypeParameters": false,
+            "hasContextReceivers": false,
+            "overloadsCollided": false,
+            "builder": null,
+            "requiredOptIns": [],
+            "androidxOptIns": [],
+            "overloads": []
+        },
+        {
+            "canonicalId": "ha-cards-catalog/ee.schimke.ha.cards.HaCardComponentsKt.HaCardTemplate",
+            "componentIds": [
+                "HaCard/Template"
+            ],
+            "symbol": {
+                "jvmOwner": "ee.schimke.ha.cards.HaCardComponentsKt",
+                "callable": "ee.schimke.ha.cards.HaCardTemplate",
+                "name": "HaCardTemplate",
+                "origin": "PROJECT",
+                "jvmName": "HaCardTemplate",
+                "descriptor": "(Lee/schimke/composeai/rccreation/compose/modifier/RemoteModifier;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V",
+                "sourceFile": "src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
+                "docs": "unavailable",
+                "receiver": null
+            },
+            "parameters": [
+                {
+                    "name": "modifier",
+                    "type": "RemoteModifier",
+                    "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "content",
+                    "type": "() -> Unit",
+                    "typeFqn": "kotlin.Function0",
+                    "hasDefault": false,
+                    "composableSlot": true,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": "kotlin.Unit"
+                }
+            ],
+            "slots": [
+                {
+                    "name": "content",
+                    "required": true,
+                    "receiverScope": null
+                }
+            ],
+            "bindings": [
+                {
+                    "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaCardTemplateSticker",
+                    "componentId": "HaCard/Template",
+                    "group": "Containment"
+                }
+            ],
+            "code": {
+                "call": "HaCardTemplate(content = {})",
+                "imports": [
+                    "ee.schimke.ha.cards.HaCardTemplate"
+                ],
+                "refusedReason": null,
+                "requiredOptIns": [],
+                "androidxOptIns": []
+            },
+            "signatureKnown": true,
+            "callableFromAnotherFile": true,
+            "hasTypeParameters": false,
+            "hasContextReceivers": false,
+            "overloadsCollided": false,
+            "builder": null,
+            "requiredOptIns": [],
+            "androidxOptIns": [],
+            "overloads": []
+        },
+        {
             "canonicalId": "ha-cards-catalog/ee.schimke.ha.cards.HaCardComponentsKt.HaCardThermometer",
             "componentIds": [
                 "HaCard/Thermometer",
@@ -4122,6 +4276,83 @@
                 "call": "HaCardToggle(isOn = false)",
                 "imports": [
                     "ee.schimke.ha.cards.HaCardToggle"
+                ],
+                "refusedReason": null,
+                "requiredOptIns": [],
+                "androidxOptIns": []
+            },
+            "signatureKnown": true,
+            "callableFromAnotherFile": true,
+            "hasTypeParameters": false,
+            "hasContextReceivers": false,
+            "overloadsCollided": false,
+            "builder": null,
+            "requiredOptIns": [],
+            "androidxOptIns": [],
+            "overloads": []
+        },
+        {
+            "canonicalId": "ha-cards-catalog/ee.schimke.ha.cards.HaCardComponentsKt.HaDashboardSection",
+            "componentIds": [
+                "HaCard/DashboardSection"
+            ],
+            "symbol": {
+                "jvmOwner": "ee.schimke.ha.cards.HaCardComponentsKt",
+                "callable": "ee.schimke.ha.cards.HaDashboardSection",
+                "name": "HaDashboardSection",
+                "origin": "PROJECT",
+                "jvmName": "HaDashboardSection",
+                "descriptor": "(Lee/schimke/composeai/rccreation/compose/modifier/RemoteModifier;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;II)V",
+                "sourceFile": "src/commonMain/kotlin/ee/schimke/ha/cards/HaCardComponents.kt",
+                "docs": "unavailable",
+                "receiver": null
+            },
+            "parameters": [
+                {
+                    "name": "modifier",
+                    "type": "RemoteModifier",
+                    "typeFqn": "ee.schimke.composeai.rccreation.compose.modifier.RemoteModifier",
+                    "hasDefault": true,
+                    "composableSlot": false,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": null
+                },
+                {
+                    "name": "content",
+                    "type": "() -> Unit",
+                    "typeFqn": "kotlin.Function0",
+                    "hasDefault": false,
+                    "composableSlot": true,
+                    "composableSlotReceiver": null,
+                    "nullable": false,
+                    "noArgConstructible": false,
+                    "noArgFactory": null,
+                    "scopeDslReceiver": null,
+                    "lambdaReturnTypeFqn": "kotlin.Unit"
+                }
+            ],
+            "slots": [
+                {
+                    "name": "content",
+                    "required": true,
+                    "receiverScope": null
+                }
+            ],
+            "bindings": [
+                {
+                    "previewId": "ee.schimke.ha.cards.HaCardsCatalogPreviewsKt.HaDashboardSectionSticker",
+                    "componentId": "HaCard/DashboardSection",
+                    "group": "Containment"
+                }
+            ],
+            "code": {
+                "call": "HaDashboardSection(content = {})",
+                "imports": [
+                    "ee.schimke.ha.cards.HaDashboardSection"
                 ],
                 "refusedReason": null,
                 "requiredOptIns": [],
