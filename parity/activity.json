@@ -1,11 +1,27 @@
 {
   "schema": "compose-preview-activity/v1",
-  "generatedAt": "2026-11-25T15:00:47.925Z",
+  "generatedAt": "2026-11-26T00:23:45.524Z",
   "windowDays": 30,
   "code": {
     "repo": "yschimke/homeassistant-remotecompose",
     "ref": "main",
     "events": [
+      {
+        "sha": "9dd78dd36aa77b508af64fd8f8a26ea79a8079b5",
+        "subject": "chore(deps): update agp to v9.5.3 (#1815)",
+        "at": "2026-11-26T00:17:17Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
+      {
+        "sha": "97f29de2d5ce1cfb9e81a24b950218c56ba491d3",
+        "subject": "chore(deps): update dependency puppeteer-core to v25.19.0 (#1816)",
+        "at": "2026-11-25T23:53:22Z",
+        "author": "renovate[bot]",
+        "previewIds": [],
+        "components": []
+      },
       {
         "sha": "7cc72b8cc0067feda6e7cbce4fcf855c67bd406c",
         "subject": "fix(deps): update ktor to v3.6.2 (#1812)",
@@ -467,22 +483,6 @@
         "subject": "chore(deps): update yschimke/compose-ai-tools digest to aa0be89 (#1749)",
         "at": "2026-11-23T14:53:52Z",
         "author": "renovate[bot]",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "c97059e640ba6fac0ced527601e86bf66c6f64c4",
-        "subject": "feat: support multi-entity semantic device bindings, actions, and same-origin templates (#1748)",
-        "at": "2026-11-23T14:34:30Z",
-        "author": "Yuri Schimke",
-        "previewIds": [],
-        "components": []
-      },
-      {
-        "sha": "6fa72ec5f7ab59351ad2232eca79ac82e18d81cb",
-        "subject": "feat(agent): guide administrators to set up the dashboard agent (#1745)",
-        "at": "2026-11-23T09:02:00Z",
-        "author": "Yuri Schimke",
         "previewIds": [],
         "components": []
       }
